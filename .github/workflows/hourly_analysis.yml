@@ -1,0 +1,98 @@
+name: Hourly Stock Analysis
+
+on:
+  # Run every hour during Indian market hours (9:15 AM - 3:30 PM IST)
+  # IST = UTC + 5:30, so 9:15 AM IST = 3:45 AM UTC, 3:30 PM IST = 10:00 AM UTC
+  # Running at :45 past each hour from 3:45 to 10:45 UTC (covers 9:15 AM - 4:15 PM IST)
+  schedule:
+    - cron: '45 3 * * 1-5'   # 9:15 AM IST
+    - cron: '45 4 * * 1-5'   # 10:15 AM IST
+    - cron: '45 5 * * 1-5'   # 11:15 AM IST
+    - cron: '45 6 * * 1-5'   # 12:15 PM IST
+    - cron: '45 7 * * 1-5'   # 1:15 PM IST
+    - cron: '45 8 * * 1-5'   # 2:15 PM IST
+    - cron: '45 9 * * 1-5'   # 3:15 PM IST
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      budget:
+        description: 'Investment budget (INR)'
+        required: false
+        default: '50000'
+      max_stocks:
+        description: 'Max stocks to analyze'
+        required: false
+        default: '100'
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # For pushing reports to repo
+      pages: write
+      id-token: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run Stock Analysis
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+          INVESTMENT_BUDGET_MAX: ${{ github.event.inputs.budget || '50000' }}
+        run: |
+          cd src
+          python main.py \
+            --budget ${{ github.event.inputs.budget || '50000' }} \
+            --max-stocks ${{ github.event.inputs.max_stocks || '100' }} \
+            --no-email
+      
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stock-report-${{ github.run_id }}
+          path: reports/
+          retention-days: 30
+      
+      - name: Copy data files for web
+        if: success()
+        run: |
+          mkdir -p reports/data
+          cp data/*.json reports/data/ 2>/dev/null || true
+      
+      - name: Commit and push reports
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add reports and data
+          git add reports/ data/ || true
+          
+          # Commit if there are changes
+          git diff --staged --quiet || git commit -m "📊 Hourly report $(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M IST')"
+          
+          # Push changes
+          git push || echo "No changes to push"
+      
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: success()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./reports
+          destination_dir: .
