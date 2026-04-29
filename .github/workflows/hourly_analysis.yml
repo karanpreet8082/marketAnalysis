@@ -54,8 +54,7 @@ jobs:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
           INVESTMENT_BUDGET_MAX: ${{ github.event.inputs.budget || '50000' }}
         run: |
-          cd src
-          python main.py \
+          python src/main.py \
             --budget ${{ github.event.inputs.budget || '50000' }} \
             --max-stocks ${{ github.event.inputs.max_stocks || '100' }} \
             --no-email
