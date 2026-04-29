@@ -34,8 +34,7 @@ jobs:
         env:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
         run: |
-          cd src
-          python agent_portfolio.py
+          python src/agent_portfolio.py
       
       - name: Copy data files for web
         run: |
