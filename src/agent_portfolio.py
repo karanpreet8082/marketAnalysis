@@ -14,6 +14,11 @@ import logging
 from datetime import datetime
 from pathlib import Path
 
+# Setup path BEFORE any local imports
+PROJECT_ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(PROJECT_ROOT / "src"))
+
 import pytz
 
 # Setup logging
@@ -26,11 +31,11 @@ logger = logging.getLogger(__name__)
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from config import BUDGET_MAX, DATA_DIR, REPORTS_DIR
-from data_fetcher import YFinanceFetcher, get_stock_universe
-from analysis import TechnicalAnalyzer, FundamentalAnalyzer, SignalGenerator
-from analysis.signals import Signal
-from portfolio import PortfolioAllocator
+from src.config import BUDGET_MAX, DATA_DIR, REPORTS_DIR
+from src.data_fetcher import YFinanceFetcher, get_stock_universe
+from src.analysis import TechnicalAnalyzer, FundamentalAnalyzer, SignalGenerator
+from src.analysis.signals import Signal
+from src.portfolio import PortfolioAllocator
 
 # Agent portfolio settings
 AGENT_BUDGET = 100000  # ₹1 Lakh virtual portfolio
