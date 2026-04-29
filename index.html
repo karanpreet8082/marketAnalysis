@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis Dashboard</title>
+    <style>
+        :root {
+            --primary: #1a1a2e;
+            --secondary: #16213e;
+            --accent: #0f3460;
+            --success: #28a745;
+            --warning: #ffc107;
+            --danger: #dc3545;
+            --info: #17a2b8;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --conservative: #28a745;
+            --moderate: #ffc107;
+            --aggressive: #dc3545;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .header {
+            background: var(--primary);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        
+        .header .timestamp {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            background: var(--secondary);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .nav-tab {
+            padding: 15px 30px;
+            color: rgba(255,255,255,0.7);
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .nav-tab:hover {
+            color: white;
+            background: rgba(255,255,255,0.1);
+        }
+        
+        .nav-tab.active {
+            color: white;
+            border-bottom-color: var(--info);
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .tab-content {
+            display: none;
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-top: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .summary-card {
+            background: var(--light);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .summary-card .value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .summary-card .label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+        
+        .risk-section {
+            margin-bottom: 25px;
+        }
+        
+        .risk-header {
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            color: white;
+        }
+        
+        .risk-header.conservative { background: var(--conservative); }
+        .risk-header.moderate { background: var(--moderate); color: #333; }
+        .risk-header.aggressive { background: var(--aggressive); }
+        
+        .stock-card {
+            background: var(--light);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--success);
+        }
+        
+        .stock-card .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            background: none;
+            padding: 0;
+            text-align: left;
+            box-shadow: none;
+        }
+        
+        .stock-card .symbol {
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--primary);
+        }
+        
+        .stock-card .name {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .badge {
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        
+        .badge.strong-buy { background: var(--success); color: white; }
+        .badge.buy { background: var(--info); color: white; }
+        .badge.hold { background: var(--warning); color: #333; }
+        .badge.sell { background: var(--danger); color: white; }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            gap: 10px;
+        }
+        
+        .metric {
+            text-align: center;
+        }
+        
+        .metric .value {
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        .metric .label {
+            font-size: 10px;
+            color: #888;
+            text-transform: uppercase;
+        }
+        
+        /* Portfolio Tab Styles */
+        .portfolio-controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .search-container {
+            position: relative;
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--info);
+        }
+        
+        .search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 100;
+            display: none;
+        }
+        
+        .search-results.show {
+            display: block;
+        }
+        
+        .search-result-item {
+            padding: 10px 15px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .search-result-item:hover {
+            background: var(--light);
+        }
+        
+        .add-form {
+            display: none;
+            background: var(--light);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .add-form.show {
+            display: block;
+        }
+        
+        .form-row {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .form-group {
+            flex: 1;
+            min-width: 120px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background: var(--info);
+            color: white;
+        }
+        
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+        
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+        
+        .portfolio-table, .sells-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .portfolio-table th, .portfolio-table td,
+        .sells-table th, .sells-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .portfolio-table th, .sells-table th {
+            background: var(--light);
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #666;
+        }
+        
+        .profit { color: var(--success); font-weight: 600; }
+        .loss { color: var(--danger); font-weight: 600; }
+        
+        .portfolio-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 12px;
+            color: white;
+        }
+        
+        .portfolio-stat {
+            text-align: center;
+        }
+        
+        .portfolio-stat .value {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        
+        .portfolio-stat .label {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+        
+        .empty-state .icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        
+        /* Responsive table */
+        @media (max-width: 768px) {
+            .portfolio-table, .sells-table {
+                font-size: 12px;
+            }
+            
+            .portfolio-table th, .portfolio-table td,
+            .sells-table th, .sells-table td {
+                padding: 8px 5px;
+            }
+            
+            .nav-tab {
+                padding: 12px 15px;
+                font-size: 14px;
+            }
+        }
+        
+        .signals-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .signals-table th, .signals-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+        }
+        
+        .signals-table th {
+            background: var(--light);
+            font-weight: 600;
+            font-size: 11px;
+            text-transform: uppercase;
+        }
+        
+        .signals-table tr:hover {
+            background: #f5f5f5;
+        }
+        
+        .disclaimer {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #856404;
+        }
+        
+        .action-btn {
+            padding: 5px 10px;
+            font-size: 11px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Stock Market Analysis Dashboard</h1>
+        <div class="timestamp">Last updated: <span id="lastUpdate">2026-04-29 15:26 IST</span></div>
+    </div>
+    
+    <div class="nav-tabs">
+        <div class="nav-tab active" data-tab="recommendations">📈 Recommendations</div>
+        <div class="nav-tab" data-tab="signals">📋 All Signals</div>
+        <div class="nav-tab" data-tab="portfolio">💼 My Portfolio</div>
+        <div class="nav-tab" data-tab="sells">💰 Sell History</div>
+        <div class="nav-tab" data-tab="agent">🤖 Agent Portfolio</div>
+    </div>
+    
+    <div class="container">
+        <!-- Recommendations Tab -->
+        <div class="tab-content active" id="recommendations">
+            <div class="summary-cards" id="summaryCards"></div>
+            
+            <div id="recommendationsContent"></div>
+            
+            <div class="disclaimer">
+                ⚠️ <strong>DISCLAIMER:</strong> This is algorithmic analysis, NOT financial advice. 
+                Past performance does not guarantee future results. Always do your own research.
+            </div>
+        </div>
+        
+        <!-- All Signals Tab -->
+        <div class="tab-content" id="signals">
+            <h3 style="margin-bottom: 15px;">All Analyzed Stocks (Top 50)</h3>
+            <div style="overflow-x: auto;">
+                <table class="signals-table" id="signalsTable">
+                    <thead>
+                        <tr>
+                            <th>Symbol</th>
+                            <th>Signal</th>
+                            <th>Confidence</th>
+                            <th>Price</th>
+                            <th>Target</th>
+                            <th>Stop Loss</th>
+                            <th>Tech Score</th>
+                            <th>Fund Score</th>
+                            <th>Risk</th>
+                        </tr>
+                    </thead>
+                    <tbody id="signalsBody"></tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Portfolio Tab -->
+        <div class="tab-content" id="portfolio">
+            <div class="portfolio-summary" id="portfolioSummary">
+                <div class="portfolio-stat">
+                    <div class="value" id="totalInvested">₹0</div>
+                    <div class="label">Total Invested</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="currentValue">₹0</div>
+                    <div class="label">Current Value</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="totalPnL">₹0</div>
+                    <div class="label">Total P&L</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="pnlPercent">0%</div>
+                    <div class="label">Return %</div>
+                </div>
+            </div>
+            
+            <div class="portfolio-controls">
+                <div class="search-container">
+                    <input type="text" class="search-input" id="stockSearch" 
+                           placeholder="Search stock to add (e.g., RELIANCE, TCS)...">
+                    <div class="search-results" id="searchResults"></div>
+                </div>
+                <button class="btn btn-secondary" onclick="refreshPrices()">🔄 Refresh Prices</button>
+            </div>
+            
+            <div class="add-form" id="addForm">
+                <h4 style="margin-bottom: 15px;">Add to Portfolio: <span id="selectedStock"></span></h4>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Buy Price (₹)</label>
+                        <input type="number" id="buyPrice" step="0.01" placeholder="e.g., 2450.50">
+                    </div>
+                    <div class="form-group">
+                        <label>Quantity</label>
+                        <input type="number" id="buyQty" placeholder="e.g., 10">
+                    </div>
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="date" id="buyDate">
+                    </div>
+                </div>
+                <button class="btn btn-success" onclick="addToPortfolio()">✓ Add to Portfolio</button>
+                <button class="btn btn-secondary" onclick="cancelAdd()">Cancel</button>
+            </div>
+            
+            <div id="portfolioContent">
+                <table class="portfolio-table" id="portfolioTable">
+                    <thead>
+                        <tr>
+                            <th>Stock</th>
+                            <th>Qty</th>
+                            <th>Avg Buy</th>
+                            <th>Current</th>
+                            <th>Invested</th>
+                            <th>Current Val</th>
+                            <th>P&L</th>
+                            <th>Return %</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="portfolioBody"></tbody>
+                </table>
+                <div class="empty-state" id="emptyPortfolio">
+                    <div class="icon">💼</div>
+                    <h3>Your portfolio is empty</h3>
+                    <p>Search for a stock above to add your first holding</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sell History Tab -->
+        <div class="tab-content" id="sells">
+            <h3 style="margin-bottom: 20px;">Sell Transaction History</h3>
+            
+            <div id="sellsSummary" class="portfolio-summary" style="margin-bottom: 20px;">
+                <div class="portfolio-stat">
+                    <div class="value" id="totalSells">0</div>
+                    <div class="label">Total Sells</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="profitableSells">0</div>
+                    <div class="label">Profitable</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="lossSells">0</div>
+                    <div class="label">Loss Making</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="netRealized">₹0</div>
+                    <div class="label">Net Realized P&L</div>
+                </div>
+            </div>
+            
+            <table class="sells-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Stock</th>
+                        <th>Qty Sold</th>
+                        <th>Avg Buy Price</th>
+                        <th>Sell Price</th>
+                        <th>P&L</th>
+                        <th>Return %</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="sellsBody"></tbody>
+            </table>
+            <div class="empty-state" id="emptySells">
+                <div class="icon">💰</div>
+                <h3>No sell transactions yet</h3>
+                <p>When you sell stocks from your portfolio, they will appear here</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Agent Portfolio Tab -->
+    <div class="tab-content" id="agent">
+        <h3 style="margin-bottom: 20px;">🤖 Agent's Automated Portfolio</h3>
+        <p style="margin-bottom: 20px; color: #666;">
+            The agent automatically picks top 2 stocks daily at market close and tracks performance.
+            This shows how well the agent's recommendations perform over time.
+        </p>
+        
+        <div id="agentSummary" class="portfolio-summary" style="margin-bottom: 20px;">
+            <div class="portfolio-stat">
+                <div class="value" id="agentTotalValue">₹1,00,000</div>
+                <div class="label">Total Value</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="agentTotalReturn">0%</div>
+                <div class="label">Total Return</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="agentWinRate">-</div>
+                <div class="label">Win Rate</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="agentTotalTrades">0</div>
+                <div class="label">Total Trades</div>
+            </div>
+        </div>
+        
+        <h4 style="margin: 20px 0 10px;">Active Holdings</h4>
+        <div style="overflow-x: auto;">
+            <table class="portfolio-table">
+                <thead>
+                    <tr>
+                        <th>Stock</th>
+                        <th>Buy Date</th>
+                        <th>Qty</th>
+                        <th>Buy Price</th>
+                        <th>Current</th>
+                        <th>Target</th>
+                        <th>Stop Loss</th>
+                        <th>P&L</th>
+                        <th>Return %</th>
+                    </tr>
+                </thead>
+                <tbody id="agentHoldingsBody"></tbody>
+            </table>
+        </div>
+        <div class="empty-state" id="emptyAgentHoldings" style="display:none;">
+            <div class="icon">🤖</div>
+            <h3>No active holdings</h3>
+            <p>The agent will pick stocks at 5:30 PM IST daily</p>
+        </div>
+        
+        <h4 style="margin: 30px 0 10px;">Closed Trades</h4>
+        <div style="overflow-x: auto;">
+            <table class="sells-table">
+                <thead>
+                    <tr>
+                        <th>Stock</th>
+                        <th>Buy Date</th>
+                        <th>Sell Date</th>
+                        <th>Buy Price</th>
+                        <th>Sell Price</th>
+                        <th>P&L</th>
+                        <th>Return %</th>
+                        <th>Exit Reason</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="agentTradesBody"></tbody>
+            </table>
+        </div>
+        <div class="empty-state" id="emptyAgentTrades" style="display:none;">
+            <div class="icon">📊</div>
+            <h3>No closed trades yet</h3>
+            <p>Trades are closed when target/stop-loss hit or after 30 days</p>
+        </div>
+        
+        <div class="disclaimer" style="margin-top: 20px;">
+            ℹ️ <strong>How it works:</strong> At 5:30 PM IST daily, the agent picks top 2 high-confidence stocks.
+            Positions are auto-closed when: Target hit ✓ | Stop-loss hit ✗ | 30 days elapsed ⏱️
+        </div>
+    </div>
+    
+    <!-- Sell Modal -->
+    <div id="sellModal" style="display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.5); z-index:1000; align-items:center; justify-content:center;">
+        <div style="background:white; padding:25px; border-radius:12px; max-width:400px; width:90%;">
+            <h3 style="margin-bottom:20px;">Sell <span id="sellStockName"></span></h3>
+            <div class="form-group" style="margin-bottom:15px;">
+                <label>Quantity to Sell (Max: <span id="maxQty"></span>)</label>
+                <input type="number" id="sellQty" class="form-group input" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
+            </div>
+            <div class="form-group" style="margin-bottom:20px;">
+                <label>Sell Price (₹)</label>
+                <input type="number" id="sellPrice" step="0.01" class="form-group input" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
+            </div>
+            <button class="btn btn-danger" onclick="confirmSell()">Confirm Sell</button>
+            <button class="btn btn-secondary" onclick="closeSellModal()">Cancel</button>
+        </div>
+    </div>
+
+    <script>
+        // Data from Python
+        const recommendedPositions = [];
+        const allSignals = [{"symbol": "JINDALSAW", "name": "Jindal Saw Limited", "signal": "HOLD", "confidence": 61, "price": 229.59, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 17, "fundamentalScore": 43, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (13.015306)"]}, {"symbol": "NTPC", "name": "NTPC Limited", "signal": "HOLD", "confidence": 61, "price": 399.9, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 16, "fundamentalScore": 40, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"]}, {"symbol": "TNPETRO", "name": "Tamilnadu Petroproducts Limite", "signal": "HOLD", "confidence": 62, "price": 87.89, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 8, "fundamentalScore": 45, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (6.8026314)", "Trading near 52-week low - potential value"]}, {"symbol": "RAJESHEXPO", "name": "Rajesh Exports Limited", "signal": "HOLD", "confidence": 62, "price": 125.0, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 11, "fundamentalScore": 40, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"]}, {"symbol": "ABFRL", "name": "Aditya Birla Fashion and Retai", "signal": "HOLD", "confidence": 63, "price": 65.07, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 10, "fundamentalScore": 40, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (10.495162)", "Trading near 52-week low - potential value"]}, {"symbol": "PFC", "name": "Power Finance Corporation Limi", "signal": "HOLD", "confidence": 63, "price": 463.8, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 16, "fundamentalScore": 34, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (6.07068)"]}, {"symbol": "CANBK", "name": "Canara Bank", "signal": "HOLD", "confidence": 63, "price": 136.8, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 9, "fundamentalScore": 38, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (6.142793)", "High liquidity ensures easy entry/exit"]}, {"symbol": "POWERGRID", "name": "Power Grid Corporation of Indi", "signal": "HOLD", "confidence": 63, "price": 319.75, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 31, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Trading near 52-week high - momentum play"]}, {"symbol": "ROUTE", "name": "Route Mobile Limited", "signal": "HOLD", "confidence": 63, "price": 530.15, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 5, "fundamentalScore": 41, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"]}, {"symbol": "BANKBARODA", "name": "Bank of Baroda Limited", "signal": "HOLD", "confidence": 63, "price": 267.64, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 4, "fundamentalScore": 42, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (7.1124105)"]}, {"symbol": "ORIENTCEM", "name": "Orient Cement Limited", "signal": "HOLD", "confidence": 63, "price": 148.0, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 10, "fundamentalScore": 34, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (9.373021)", "Trading near 52-week low - potential value"]}, {"symbol": "RBLBANK", "name": "RBL Bank Limited", "signal": "HOLD", "confidence": 63, "price": 340.7, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 14, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Trading near 52-week high - momentum play"]}, {"symbol": "YESBANK", "name": "Yes Bank Limited", "signal": "HOLD", "confidence": 63, "price": 20.2, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 10, "fundamentalScore": 34, "reasons": ["MACD shows bullish momentum", "High liquidity ensures easy entry/exit", "Sector: Financial Services"]}, {"symbol": "HCLTECH", "name": "HCL Technologies Limited", "signal": "HOLD", "confidence": 51, "price": 1198.0, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -2, "fundamentalScore": 45, "reasons": ["RSI (29.7) indicates oversold condition", "MACD shows bearish momentum", "Price trading below key moving averages"]}, {"symbol": "SYNGENE", "name": "Syngene International Limited", "signal": "HOLD", "confidence": 64, "price": 431.45, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 11, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"]}, {"symbol": "WIPRO", "name": "Wipro Limited", "signal": "HOLD", "confidence": 64, "price": 200.57, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 38, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"]}, {"symbol": "HDFCAMC", "name": "HDFC Asset Management Company ", "signal": "HOLD", "confidence": 64, "price": 2783.0, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 23, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"]}, {"symbol": "MOTHERSON", "name": "Samvardhana Motherson Internat", "signal": "HOLD", "confidence": 64, "price": 123.14, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 18, "fundamentalScore": 20, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"]}, {"symbol": "IREDA", "name": "Indian Renewable Energy Develo", "signal": "HOLD", "confidence": 64, "price": 137.13, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 11, "fundamentalScore": 28, "reasons": ["MACD shows bullish momentum", "High liquidity ensures easy entry/exit", "Sector: Financial Services"]}, {"symbol": "TATAPOWER", "name": "Tata Power Company Limited", "signal": "HOLD", "confidence": 64, "price": 449.9, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 12, "fundamentalScore": 26, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"]}, {"symbol": "MAHLIFE", "name": "Mahindra Lifespace Developers ", "signal": "HOLD", "confidence": 64, "price": 344.85, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 14, "fundamentalScore": 24, "reasons": ["MACD shows bullish momentum", "Sector: Real Estate"]}, {"symbol": "ANANTRAJ", "name": "Anant Raj Limited", "signal": "HOLD", "confidence": 65, "price": 491.65, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 6, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"]}, {"symbol": "YATRA", "name": "Yatra Online Limited", "signal": "HOLD", "confidence": 65, "price": 109.72, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 7, "fundamentalScore": 29, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"]}, {"symbol": "INDUSINDBK", "name": "IndusInd Bank Limited", "signal": "HOLD", "confidence": 65, "price": 911.7, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 23, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High P/E ratio (79.833626) suggests overvaluation"]}, {"symbol": "TRIDENT", "name": "Trident Limited", "signal": "HOLD", "confidence": 65, "price": 25.91, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 11, "fundamentalScore": 24, "reasons": ["MACD shows bullish momentum", "High liquidity ensures easy entry/exit", "Sector: Consumer Cyclical"]}, {"symbol": "BAJAJFINSV", "name": "Bajaj Finserv Ltd.", "signal": "HOLD", "confidence": 65, "price": 1762.3, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"]}, {"symbol": "TRIVENI", "name": "Triveni Engineering & Industri", "signal": "HOLD", "confidence": 65, "price": 411.25, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 13, "fundamentalScore": 20, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Sector: Consumer Defensive"]}, {"symbol": "AMBUJACEM", "name": "Ambuja Cements Limited", "signal": "HOLD", "confidence": 65, "price": 453.8, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 6, "fundamentalScore": 27, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "High liquidity ensures easy entry/exit"]}, {"symbol": "CAMS", "name": "Computer Age Management Servic", "signal": "HOLD", "confidence": 65, "price": 761.4, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 16, "fundamentalScore": 16, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"]}, {"symbol": "MARICO", "name": "Marico Limited", "signal": "HOLD", "confidence": 65, "price": 776.85, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 16, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High P/E ratio (58.852272) suggests overvaluation"]}, {"symbol": "RITES", "name": "RITES Limited", "signal": "HOLD", "confidence": 65, "price": 219.05, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 11, "fundamentalScore": 21, "reasons": ["MACD shows bullish momentum", "Significant correction from highs - potential recovery", "Sector: Industrials"]}, {"symbol": "ICICIPRULI", "name": "ICICI Prudential Life Insuranc", "signal": "HOLD", "confidence": 65, "price": 523.6, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 5, "fundamentalScore": 27, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"]}, {"symbol": "BAJFINANCE", "name": "Bajaj Finance Limited", "signal": "HOLD", "confidence": 65, "price": 928.95, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 21, "reasons": ["MACD shows bullish momentum", "High liquidity ensures easy entry/exit", "Sector: Financial Services"]}, {"symbol": "FEDERALBNK", "name": "The Federal Bank Limited", "signal": "HOLD", "confidence": 52, "price": 283.9, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -9, "fundamentalScore": 40, "reasons": ["MACD shows bearish momentum", "High liquidity ensures easy entry/exit", "Sector: Financial Services"]}, {"symbol": "IPCALAB", "name": "Ipca Laboratories Limited", "signal": "HOLD", "confidence": 65, "price": 1546.0, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 12, "fundamentalScore": 19, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Sector: Healthcare"]}, {"symbol": "CONCOR", "name": "Container Corporation of India", "signal": "HOLD", "confidence": 65, "price": 513.6, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 11, "fundamentalScore": 20, "reasons": ["MACD shows bullish momentum", "High liquidity ensures easy entry/exit", "Sector: Industrials"]}, {"symbol": "HAVELLS", "name": "Havells India Limited", "signal": "HOLD", "confidence": 65, "price": 1250.9, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 27, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"]}, {"symbol": "SIEMENS", "name": "Siemens Limited", "signal": "HOLD", "confidence": 66, "price": 3781.1, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 16, "fundamentalScore": 13, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High P/E ratio (79.6692) suggests overvaluation"]}, {"symbol": "VOLTAS", "name": "Voltas Limited", "signal": "HOLD", "confidence": 66, "price": 1469.5, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 18, "fundamentalScore": 12, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High P/E ratio (97.25348) suggests overvaluation"]}, {"symbol": "TATASTEEL", "name": "Tata Steel Limited", "signal": "HOLD", "confidence": 66, "price": 215.6, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 18, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Trading near 52-week high - momentum play"]}, {"symbol": "ALKYLAMINE", "name": "Alkyl Amines Chemicals Limited", "signal": "HOLD", "confidence": 66, "price": 1533.1, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 5, "fundamentalScore": 24, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"]}, {"symbol": "RAYMOND", "name": "Raymond Limited", "signal": "HOLD", "confidence": 66, "price": 463.8, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 6, "fundamentalScore": 23, "reasons": ["MACD shows bullish momentum", "High P/E ratio (58.857864) suggests overvaluation", "Trading near 52-week low - potential value"]}, {"symbol": "BDL", "name": "Bharat Dynamics Limited", "signal": "HOLD", "confidence": 66, "price": 1397.8, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 10, "fundamentalScore": 18, "reasons": ["MACD shows bullish momentum", "High P/E ratio (88.58048) suggests overvaluation", "Significant correction from highs - potential recovery"]}, {"symbol": "NYKAA", "name": "FSN E-Commerce Ventures Limite", "signal": "HOLD", "confidence": 66, "price": 268.02, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 16, "fundamentalScore": 12, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High P/E ratio (546.97955) suggests overvaluation"]}, {"symbol": "JBCHEPHARM", "name": "J. B. Chemicals & Pharmaceutic", "signal": "HOLD", "confidence": 66, "price": 2063.7, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 12, "fundamentalScore": 16, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Sector: Healthcare"]}, {"symbol": "TATACONSUM", "name": "Tata Consumer Products Limited", "signal": "HOLD", "confidence": 66, "price": 1168.0, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 16, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High P/E ratio (78.86563) suggests overvaluation"]}, {"symbol": "CHOLAFIN", "name": "Cholamandalam Investment and F", "signal": "HOLD", "confidence": 66, "price": 1550.4, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 6, "fundamentalScore": 21, "reasons": ["MACD shows bullish momentum", "High liquidity ensures easy entry/exit", "Sector: Financial Services"]}, {"symbol": "AJANTPHARM", "name": "Ajanta Pharma Limited", "signal": "HOLD", "confidence": 66, "price": 2796.1, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 13, "fundamentalScore": 14, "reasons": ["MACD shows bullish momentum", "Sector: Healthcare"]}, {"symbol": "NATCOPHARM", "name": "NATCO Pharma Limited", "signal": "HOLD", "confidence": 53, "price": 1094.95, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": -3, "fundamentalScore": 29, "reasons": ["MACD shows bearish momentum", "Price trading above key moving averages", "Attractive P/E ratio (12.588525)"]}, {"symbol": "BHARATFORG", "name": "Bharat Forge Limited", "signal": "HOLD", "confidence": 66, "price": 1905.5, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 16, "fundamentalScore": 10, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High P/E ratio (80.434784) suggests overvaluation"]}];
+        const summary = {"timestamp": "2026-04-29 15:26 IST", "budget": 50000.0, "allocated": 0, "cashReserve": 50000.0, "totalPositions": 0, "bucketCounts": {"conservative": 0, "moderate": 0, "aggressive": 0}};
+        
+        // Stock universe for search
+        let stockUniverse = [];
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            initTabs();
+            renderRecommendations();
+            renderSignals();
+            loadPortfolio();
+            loadSells();
+            loadAgentPortfolio();
+            loadStockUniverse();
+            initSearch();
+            document.getElementById('buyDate').valueAsDate = new Date();
+        });
+        
+        // Tab Navigation
+        function initTabs() {
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+                    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                    tab.classList.add('active');
+                    document.getElementById(tab.dataset.tab).classList.add('active');
+                });
+            });
+        }
+        
+        // Render Recommendations
+        function renderRecommendations() {
+            // Summary cards
+            document.getElementById('summaryCards').innerHTML = `
+                <div class="summary-card">
+                    <div class="value">₹${summary.budget.toLocaleString()}</div>
+                    <div class="label">Budget</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">₹${summary.allocated.toLocaleString()}</div>
+                    <div class="label">Allocated</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">₹${summary.cashReserve.toLocaleString()}</div>
+                    <div class="label">Cash Reserve</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">${summary.totalPositions}</div>
+                    <div class="label">Positions</div>
+                </div>
+            `;
+            
+            // Group by risk bucket
+            const buckets = {conservative: [], moderate: [], aggressive: []};
+            recommendedPositions.forEach(pos => {
+                buckets[pos.riskBucket].push(pos);
+            });
+            
+            let html = '';
+            
+            ['conservative', 'moderate', 'aggressive'].forEach(bucket => {
+                const emoji = bucket === 'conservative' ? '🟢' : bucket === 'moderate' ? '🟡' : '🔴';
+                const positions = buckets[bucket];
+                
+                html += `
+                    <div class="risk-section">
+                        <div class="risk-header ${bucket}">
+                            ${emoji} ${bucket.toUpperCase()} (${positions.length} picks)
+                        </div>
+                `;
+                
+                if (positions.length === 0) {
+                    html += `<div class="empty-state" style="padding:20px">No ${bucket} picks for this hour</div>`;
+                } else {
+                    positions.forEach(pos => {
+                        html += `
+                            <div class="stock-card">
+                                <div class="header">
+                                    <div>
+                                        <div class="symbol">${pos.symbol}</div>
+                                        <div class="name">${pos.name}</div>
+                                    </div>
+                                    <span class="badge ${pos.signal.toLowerCase().replace('_', '-')}">${pos.signal}</span>
+                                </div>
+                                <div class="metrics">
+                                    <div class="metric">
+                                        <div class="value">₹${pos.price}</div>
+                                        <div class="label">Price</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="value">${pos.quantity}</div>
+                                        <div class="label">Qty</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="value">₹${pos.investment.toLocaleString()}</div>
+                                        <div class="label">Invest</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="value">₹${pos.target}</div>
+                                        <div class="label">Target</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="value">₹${pos.stopLoss}</div>
+                                        <div class="label">Stop Loss</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="value" style="color:var(--success)">+${pos.potentialGain}%</div>
+                                        <div class="label">Potential</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="value">${pos.confidence}%</div>
+                                        <div class="label">Confidence</div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    });
+                }
+                
+                html += `</div>`;
+            });
+            
+            document.getElementById('recommendationsContent').innerHTML = html;
+        }
+        
+        // Render All Signals
+        function renderSignals() {
+            const tbody = document.getElementById('signalsBody');
+            
+            if (allSignals.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:20px">No signals data available</td></tr>';
+                return;
+            }
+            
+            tbody.innerHTML = allSignals.map(sig => `
+                <tr>
+                    <td><strong>${sig.symbol}</strong><br><small style="color:#888">${sig.name}</small></td>
+                    <td><span class="badge ${sig.signal.toLowerCase().replace('_', '-')}">${sig.signal}</span></td>
+                    <td>${sig.confidence}%</td>
+                    <td>₹${sig.price}</td>
+                    <td>₹${sig.target}</td>
+                    <td>₹${sig.stopLoss}</td>
+                    <td>${sig.technicalScore}%</td>
+                    <td>${sig.fundamentalScore}%</td>
+                    <td><span style="color:var(--${sig.riskBucket})">${sig.riskBucket}</span></td>
+                </tr>
+            `).join('');
+        }
+        
+        // Load stock universe for search
+        async function loadStockUniverse() {
+            try {
+                const response = await fetch('data/stocks.json');
+                stockUniverse = await response.json();
+            } catch(e) {
+                // Fallback to basic list from recommendations
+                stockUniverse = allSignals.map(s => ({symbol: s.symbol, category: 'unknown', risk_bucket: s.riskBucket}));
+            }
+        }
+        
+        // Search functionality
+        function initSearch() {
+            const input = document.getElementById('stockSearch');
+            const results = document.getElementById('searchResults');
+            
+            input.addEventListener('input', (e) => {
+                const query = e.target.value.toUpperCase();
+                if (query.length < 1) {
+                    results.classList.remove('show');
+                    return;
+                }
+                
+                const matches = stockUniverse.filter(s => 
+                    s.symbol.toUpperCase().includes(query)
+                ).slice(0, 10);
+                
+                if (matches.length === 0) {
+                    results.innerHTML = '<div class="search-result-item">No stocks found</div>';
+                } else {
+                    results.innerHTML = matches.map(s => `
+                        <div class="search-result-item" onclick="selectStock('${s.symbol}')">
+                            <strong>${s.symbol}</strong> 
+                            <span style="color:#888;font-size:12px">${s.category}</span>
+                        </div>
+                    `).join('');
+                }
+                results.classList.add('show');
+            });
+            
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.search-container')) {
+                    results.classList.remove('show');
+                }
+            });
+        }
+        
+        let selectedSymbol = '';
+        
+        function selectStock(symbol) {
+            selectedSymbol = symbol;
+            document.getElementById('selectedStock').textContent = symbol;
+            document.getElementById('addForm').classList.add('show');
+            document.getElementById('searchResults').classList.remove('show');
+            document.getElementById('stockSearch').value = '';
+            
+            // Try to get current price from signals
+            const sig = allSignals.find(s => s.symbol === symbol);
+            if (sig) {
+                document.getElementById('buyPrice').value = sig.price;
+            }
+        }
+        
+        function cancelAdd() {
+            document.getElementById('addForm').classList.remove('show');
+            selectedSymbol = '';
+        }
+        
+        // Portfolio Storage
+        function getPortfolio() {
+            return JSON.parse(localStorage.getItem('stockPortfolio') || '[]');
+        }
+        
+        function savePortfolio(portfolio) {
+            localStorage.setItem('stockPortfolio', JSON.stringify(portfolio));
+        }
+        
+        function addToPortfolio() {
+            const price = parseFloat(document.getElementById('buyPrice').value);
+            const qty = parseInt(document.getElementById('buyQty').value);
+            const date = document.getElementById('buyDate').value;
+            
+            if (!selectedSymbol || !price || !qty || price <= 0 || qty <= 0) {
+                alert('Please fill all fields with valid values');
+                return;
+            }
+            
+            const portfolio = getPortfolio();
+            
+            // Find if stock already exists
+            const existing = portfolio.find(p => p.symbol === selectedSymbol);
+            
+            if (existing) {
+                // Calculate new average price
+                const totalQty = existing.quantity + qty;
+                const totalCost = (existing.avgPrice * existing.quantity) + (price * qty);
+                existing.avgPrice = totalCost / totalQty;
+                existing.quantity = totalQty;
+                existing.invested = totalCost;
+                existing.transactions.push({ date, price, qty, type: 'BUY' });
+            } else {
+                portfolio.push({
+                    symbol: selectedSymbol,
+                    quantity: qty,
+                    avgPrice: price,
+                    invested: price * qty,
+                    currentPrice: price,
+                    transactions: [{ date, price, qty, type: 'BUY' }]
+                });
+            }
+            
+            savePortfolio(portfolio);
+            cancelAdd();
+            loadPortfolio();
+        }
+        
+        function loadPortfolio() {
+            const portfolio = getPortfolio();
+            const tbody = document.getElementById('portfolioBody');
+            const empty = document.getElementById('emptyPortfolio');
+            const table = document.getElementById('portfolioTable');
+            
+            if (portfolio.length === 0) {
+                table.style.display = 'none';
+                empty.style.display = 'block';
+                updatePortfolioSummary(0, 0, 0);
+                return;
+            }
+            
+            table.style.display = 'table';
+            empty.style.display = 'none';
+            
+            // Update current prices from signals if available
+            portfolio.forEach(p => {
+                const sig = allSignals.find(s => s.symbol === p.symbol);
+                if (sig) p.currentPrice = sig.price;
+            });
+            
+            savePortfolio(portfolio);
+            
+            let totalInvested = 0;
+            let currentValue = 0;
+            
+            tbody.innerHTML = portfolio.map(p => {
+                const currVal = p.currentPrice * p.quantity;
+                const pnl = currVal - p.invested;
+                const pnlPct = ((currVal / p.invested) - 1) * 100;
+                
+                totalInvested += p.invested;
+                currentValue += currVal;
+                
+                return `
+                    <tr>
+                        <td><strong>${p.symbol}</strong></td>
+                        <td>${p.quantity}</td>
+                        <td>₹${p.avgPrice.toFixed(2)}</td>
+                        <td>₹${p.currentPrice.toFixed(2)}</td>
+                        <td>₹${p.invested.toLocaleString()}</td>
+                        <td>₹${currVal.toLocaleString()}</td>
+                        <td class="${pnl >= 0 ? 'profit' : 'loss'}">
+                            ${pnl >= 0 ? '+' : ''}₹${pnl.toFixed(0)}
+                        </td>
+                        <td class="${pnlPct >= 0 ? 'profit' : 'loss'}">
+                            ${pnlPct >= 0 ? '+' : ''}${pnlPct.toFixed(1)}%
+                        </td>
+                        <td>
+                            <button class="btn btn-danger action-btn" onclick="openSellModal('${p.symbol}')">Sell</button>
+                            <button class="btn btn-secondary action-btn" onclick="removeStock('${p.symbol}')">✕</button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+            
+            const totalPnl = currentValue - totalInvested;
+            updatePortfolioSummary(totalInvested, currentValue, totalPnl);
+        }
+        
+        function updatePortfolioSummary(invested, current, pnl) {
+            document.getElementById('totalInvested').textContent = `₹${invested.toLocaleString()}`;
+            document.getElementById('currentValue').textContent = `₹${current.toLocaleString()}`;
+            document.getElementById('totalPnL').textContent = `${pnl >= 0 ? '+' : ''}₹${pnl.toFixed(0)}`;
+            document.getElementById('totalPnL').style.color = pnl >= 0 ? 'var(--success)' : 'var(--danger)';
+            
+            const pct = invested > 0 ? ((current / invested) - 1) * 100 : 0;
+            document.getElementById('pnlPercent').textContent = `${pct >= 0 ? '+' : ''}${pct.toFixed(1)}%`;
+            document.getElementById('pnlPercent').style.color = pct >= 0 ? 'var(--success)' : 'var(--danger)';
+        }
+        
+        function removeStock(symbol) {
+            if (!confirm(`Remove ${symbol} from portfolio? This will delete all transaction history.`)) return;
+            
+            let portfolio = getPortfolio();
+            portfolio = portfolio.filter(p => p.symbol !== symbol);
+            savePortfolio(portfolio);
+            loadPortfolio();
+        }
+        
+        function refreshPrices() {
+            alert('Prices are updated from the latest analysis run. Manually refresh the page to get new data from the hourly update.');
+            loadPortfolio();
+        }
+        
+        // Sell functionality
+        let sellSymbol = '';
+        
+        function openSellModal(symbol) {
+            const portfolio = getPortfolio();
+            const stock = portfolio.find(p => p.symbol === symbol);
+            if (!stock) return;
+            
+            sellSymbol = symbol;
+            document.getElementById('sellStockName').textContent = symbol;
+            document.getElementById('maxQty').textContent = stock.quantity;
+            document.getElementById('sellQty').value = stock.quantity;
+            document.getElementById('sellQty').max = stock.quantity;
+            document.getElementById('sellPrice').value = stock.currentPrice;
+            document.getElementById('sellModal').style.display = 'flex';
+        }
+        
+        function closeSellModal() {
+            document.getElementById('sellModal').style.display = 'none';
+            sellSymbol = '';
+        }
+        
+        function confirmSell() {
+            const qty = parseInt(document.getElementById('sellQty').value);
+            const price = parseFloat(document.getElementById('sellPrice').value);
+            
+            if (!qty || !price || qty <= 0 || price <= 0) {
+                alert('Please enter valid quantity and price');
+                return;
+            }
+            
+            const portfolio = getPortfolio();
+            const stock = portfolio.find(p => p.symbol === sellSymbol);
+            
+            if (!stock || qty > stock.quantity) {
+                alert('Invalid quantity');
+                return;
+            }
+            
+            // Calculate profit/loss based on average buy price
+            const avgBuyPrice = stock.avgPrice;
+            const sellValue = price * qty;
+            const costBasis = avgBuyPrice * qty;
+            const pnl = sellValue - costBasis;
+            const pnlPct = ((price / avgBuyPrice) - 1) * 100;
+            
+            // Record sell transaction
+            const sells = JSON.parse(localStorage.getItem('sellTransactions') || '[]');
+            sells.push({
+                date: new Date().toISOString().split('T')[0],
+                symbol: sellSymbol,
+                quantity: qty,
+                avgBuyPrice: avgBuyPrice,
+                sellPrice: price,
+                pnl: pnl,
+                pnlPercent: pnlPct,
+                profitable: pnl >= 0
+            });
+            localStorage.setItem('sellTransactions', JSON.stringify(sells));
+            
+            // Update portfolio
+            if (qty === stock.quantity) {
+                // Sold all shares
+                const idx = portfolio.findIndex(p => p.symbol === sellSymbol);
+                portfolio.splice(idx, 1);
+            } else {
+                // Partial sell - reduce quantity, keep avg price same
+                stock.quantity -= qty;
+                stock.invested = stock.avgPrice * stock.quantity;
+            }
+            
+            savePortfolio(portfolio);
+            closeSellModal();
+            loadPortfolio();
+            loadSells();
+        }
+        
+        function loadSells() {
+            const sells = JSON.parse(localStorage.getItem('sellTransactions') || '[]');
+            const tbody = document.getElementById('sellsBody');
+            const empty = document.getElementById('emptySells');
+            
+            if (sells.length === 0) {
+                tbody.innerHTML = '';
+                empty.style.display = 'block';
+                updateSellsSummary([], 0, 0, 0);
+                return;
+            }
+            
+            empty.style.display = 'none';
+            
+            const profitable = sells.filter(s => s.profitable).length;
+            const losses = sells.length - profitable;
+            const netPnl = sells.reduce((sum, s) => sum + s.pnl, 0);
+            
+            updateSellsSummary(sells, profitable, losses, netPnl);
+            
+            tbody.innerHTML = sells.reverse().map(s => `
+                <tr>
+                    <td>${s.date}</td>
+                    <td><strong>${s.symbol}</strong></td>
+                    <td>${s.quantity}</td>
+                    <td>₹${s.avgBuyPrice.toFixed(2)}</td>
+                    <td>₹${s.sellPrice.toFixed(2)}</td>
+                    <td class="${s.pnl >= 0 ? 'profit' : 'loss'}">
+                        ${s.pnl >= 0 ? '+' : ''}₹${s.pnl.toFixed(0)}
+                    </td>
+                    <td class="${s.pnlPercent >= 0 ? 'profit' : 'loss'}">
+                        ${s.pnlPercent >= 0 ? '+' : ''}${s.pnlPercent.toFixed(1)}%
+                    </td>
+                    <td>
+                        <span class="badge ${s.profitable ? 'strong-buy' : 'sell'}">
+                            ${s.profitable ? 'PROFIT' : 'LOSS'}
+                        </span>
+                    </td>
+                </tr>
+            `).join('');
+        }
+        
+        function updateSellsSummary(sells, profitable, losses, netPnl) {
+            document.getElementById('totalSells').textContent = sells.length;
+            document.getElementById('profitableSells').textContent = profitable;
+            document.getElementById('profitableSells').style.color = 'var(--success)';
+            document.getElementById('lossSells').textContent = losses;
+            document.getElementById('lossSells').style.color = losses > 0 ? 'var(--danger)' : 'inherit';
+            document.getElementById('netRealized').textContent = `${netPnl >= 0 ? '+' : ''}₹${netPnl.toFixed(0)}`;
+            document.getElementById('netRealized').style.color = netPnl >= 0 ? 'var(--success)' : 'var(--danger)';
+        }
+        
+        // Agent Portfolio Functions
+        async function loadAgentPortfolio() {
+            try {
+                const response = await fetch('data/agent_portfolio.json');
+                if (!response.ok) {
+                    showEmptyAgentState();
+                    return;
+                }
+                const data = await response.json();
+                renderAgentPortfolio(data);
+            } catch(e) {
+                console.log('Agent portfolio not available yet');
+                showEmptyAgentState();
+            }
+        }
+        
+        function showEmptyAgentState() {
+            document.getElementById('emptyAgentHoldings').style.display = 'block';
+            document.getElementById('emptyAgentTrades').style.display = 'block';
+        }
+        
+        function renderAgentPortfolio(data) {
+            // Update summary stats
+            if (data.metrics) {
+                document.getElementById('agentTotalValue').textContent = `₹${data.metrics.total_value?.toLocaleString() || '1,00,000'}`;
+                const returnPct = data.metrics.total_return_pct || 0;
+                document.getElementById('agentTotalReturn').textContent = `${returnPct >= 0 ? '+' : ''}${returnPct}%`;
+                document.getElementById('agentTotalReturn').style.color = returnPct >= 0 ? 'var(--success)' : 'var(--danger)';
+            }
+            
+            if (data.stats) {
+                const winRate = data.stats.win_rate;
+                document.getElementById('agentWinRate').textContent = winRate ? `${winRate}%` : '-';
+                document.getElementById('agentWinRate').style.color = winRate >= 50 ? 'var(--success)' : winRate ? 'var(--danger)' : 'inherit';
+                document.getElementById('agentTotalTrades').textContent = data.stats.total_trades || 0;
+            }
+            
+            // Render active holdings
+            const holdingsBody = document.getElementById('agentHoldingsBody');
+            const emptyHoldings = document.getElementById('emptyAgentHoldings');
+            
+            if (!data.holdings || data.holdings.length === 0) {
+                holdingsBody.innerHTML = '';
+                emptyHoldings.style.display = 'block';
+            } else {
+                emptyHoldings.style.display = 'none';
+                holdingsBody.innerHTML = data.holdings.map(h => `
+                    <tr>
+                        <td><strong>${h.symbol}</strong><br><small style="color:#888">${h.name || ''}</small></td>
+                        <td>${h.buy_date}</td>
+                        <td>${h.quantity}</td>
+                        <td>₹${h.buy_price?.toFixed(2)}</td>
+                        <td>₹${h.current_price?.toFixed(2)}</td>
+                        <td>₹${h.target_price?.toFixed(2)}</td>
+                        <td>₹${h.stop_loss?.toFixed(2)}</td>
+                        <td class="${h.unrealized_pnl >= 0 ? 'profit' : 'loss'}">
+                            ${h.unrealized_pnl >= 0 ? '+' : ''}₹${h.unrealized_pnl?.toFixed(0) || 0}
+                        </td>
+                        <td class="${h.unrealized_pnl_pct >= 0 ? 'profit' : 'loss'}">
+                            ${h.unrealized_pnl_pct >= 0 ? '+' : ''}${h.unrealized_pnl_pct?.toFixed(1) || 0}%
+                        </td>
+                    </tr>
+                `).join('');
+            }
+            
+            // Render closed trades
+            const tradesBody = document.getElementById('agentTradesBody');
+            const emptyTrades = document.getElementById('emptyAgentTrades');
+            
+            if (!data.closed_trades || data.closed_trades.length === 0) {
+                tradesBody.innerHTML = '';
+                emptyTrades.style.display = 'block';
+            } else {
+                emptyTrades.style.display = 'none';
+                tradesBody.innerHTML = data.closed_trades.slice().reverse().map(t => {
+                    const exitEmoji = t.exit_reason === 'TARGET_HIT' ? '🎯' : 
+                                      t.exit_reason === 'STOP_LOSS_HIT' ? '🛑' : '⏱️';
+                    return `
+                        <tr>
+                            <td><strong>${t.symbol}</strong></td>
+                            <td>${t.buy_date}</td>
+                            <td>${t.sell_date}</td>
+                            <td>₹${t.buy_price?.toFixed(2)}</td>
+                            <td>₹${t.sell_price?.toFixed(2)}</td>
+                            <td class="${t.pnl >= 0 ? 'profit' : 'loss'}">
+                                ${t.pnl >= 0 ? '+' : ''}₹${t.pnl?.toFixed(0)}
+                            </td>
+                            <td class="${t.pnl_pct >= 0 ? 'profit' : 'loss'}">
+                                ${t.pnl_pct >= 0 ? '+' : ''}${t.pnl_pct?.toFixed(1)}%
+                            </td>
+                            <td>${exitEmoji} ${t.exit_reason?.replace('_', ' ')}</td>
+                            <td>
+                                <span class="badge ${t.profitable ? 'strong-buy' : 'sell'}">
+                                    ${t.profitable ? 'PROFIT' : 'LOSS'}
+                                </span>
+                            </td>
+                        </tr>
+                    `;
+                }).join('');
+            }
+        }
+    </script>
+</body>
+</html>
