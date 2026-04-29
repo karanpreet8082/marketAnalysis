@@ -12,6 +12,11 @@ from pathlib import Path
 from typing import Dict, Tuple
 import json
 
+# Setup path BEFORE any local imports
+PROJECT_ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(PROJECT_ROOT / "src"))
+
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
@@ -22,11 +27,11 @@ logger = logging.getLogger(__name__)
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from config import BUDGET_MAX, REPORTS_DIR, DATA_DIR
-from data_fetcher import YFinanceFetcher, get_stock_universe, NIFTY_500_SYMBOLS
-from analysis import TechnicalAnalyzer, FundamentalAnalyzer, SignalGenerator
-from portfolio import PortfolioAllocator, RiskManager
-from reporting import HTMLReportGenerator
+from src.config import BUDGET_MAX, REPORTS_DIR, DATA_DIR
+from src.data_fetcher import YFinanceFetcher, get_stock_universe, NIFTY_500_SYMBOLS
+from src.analysis import TechnicalAnalyzer, FundamentalAnalyzer, SignalGenerator
+from src.portfolio import PortfolioAllocator, RiskManager
+from src.reporting import HTMLReportGenerator
 
 
 def run_analysis(
@@ -227,7 +232,7 @@ def save_hourly_data(filepath, recommendation, timestamp):
 
 def save_stock_universe_json(filepath):
     """Save stock universe to JSON for portfolio search."""
-    from data_fetcher.stock_list import get_stock_info
+    from src.data_fetcher.stock_list import get_stock_info
     
     stock_info = get_stock_info()
     stocks = []
