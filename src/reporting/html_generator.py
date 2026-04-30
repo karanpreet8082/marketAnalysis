@@ -47,10 +47,14 @@ class HTMLReportGenerator:
         all_signals_data = []
         if all_signals:
             for sig in all_signals[:50]:  # Limit to top 50
+                # Generate human-readable comment
+                comment = self._generate_comment(sig)
+                
                 all_signals_data.append({
                     'symbol': sig.symbol,
                     'name': sig.name[:30] if sig.name else sig.symbol,
                     'signal': sig.signal.value,
+                    'signalStrength': round(sig.combined_score * 100),  # Combined score as percentage
                     'confidence': round(sig.confidence * 100),
                     'price': round(sig.current_price, 2) if sig.current_price else 0,
                     'target': round(sig.target_price, 2) if sig.target_price else 0,
@@ -58,7 +62,8 @@ class HTMLReportGenerator:
                     'riskBucket': sig.risk_bucket.value,
                     'technicalScore': round(sig.technical_score * 100),
                     'fundamentalScore': round(sig.fundamental_score * 100),
-                    'reasons': sig.reasons[:3] if sig.reasons else []
+                    'reasons': sig.reasons[:3] if sig.reasons else [],
+                    'comment': comment
                 })
         
         signals_json = json.dumps(all_signals_data)
@@ -100,6 +105,49 @@ class HTMLReportGenerator:
                 'reasons': pos.reasons[:3] if pos.reasons else []
             })
         return formatted
+    
+    def _generate_comment(self, sig) -> str:
+        """Generate a human-readable comment/recommendation for a stock."""
+        signal_type = sig.signal.value
+        strength = round(sig.combined_score * 100)
+        confidence = round(sig.confidence * 100)
+        tech_score = round(sig.technical_score * 100)
+        fund_score = round(sig.fundamental_score * 100)
+        
+        # Build comment based on signal and scores
+        if signal_type == "STRONG_BUY":
+            if confidence >= 75:
+                comment = f"🔥 Strong buy opportunity! Both technicals ({tech_score}%) and fundamentals ({fund_score}%) align strongly."
+            else:
+                comment = f"📈 Good buying opportunity with solid technicals. Consider entry at current levels."
+        elif signal_type == "BUY":
+            if tech_score > fund_score:
+                comment = f"📊 Technical momentum favorable ({tech_score}%). Can be bought for short-term gains."
+            elif fund_score > tech_score:
+                comment = f"💎 Fundamentally sound ({fund_score}%). Good for medium-term holding."
+            else:
+                comment = f"✅ Balanced buy signal. Entry possible with target ₹{sig.target_price:.0f}." if sig.target_price else "✅ Balanced buy signal at current levels."
+        elif signal_type == "HOLD":
+            if strength > 20:
+                comment = "⏸️ Hold position. Slight bullish bias, wait for stronger confirmation."
+            elif strength < -20:
+                comment = "⏸️ Hold with caution. Minor weakness, consider tightening stop-loss."
+            else:
+                comment = "⏸️ Neutral. No clear direction. Wait for breakout or breakdown."
+        elif signal_type == "SELL":
+            comment = f"⚠️ Sell signal. Weakness in {'technicals' if tech_score < fund_score else 'fundamentals'}. Consider booking profits."
+        elif signal_type == "STRONG_SELL":
+            comment = f"🔴 Strong sell! Both technicals ({tech_score}%) and fundamentals ({fund_score}%) negative. Exit recommended."
+        else:
+            comment = "📋 Under analysis. Check back later."
+        
+        # Add reason snippet if available
+        if sig.reasons and len(sig.reasons) > 0:
+            main_reason = sig.reasons[0]
+            if len(main_reason) < 50:
+                comment += f" {main_reason}"
+        
+        return comment
     
     def generate_email_report(self, recommendation: PortfolioRecommendation, additional_info: Dict = None) -> str:
         """Legacy method - redirects to web dashboard."""
@@ -598,6 +646,7 @@ class HTMLReportGenerator:
                         <tr>
                             <th>Symbol</th>
                             <th>Signal</th>
+                            <th>Strength</th>
                             <th>Confidence</th>
                             <th>Price</th>
                             <th>Target</th>
@@ -605,6 +654,7 @@ class HTMLReportGenerator:
                             <th>Tech Score</th>
                             <th>Fund Score</th>
                             <th>Risk</th>
+                            <th style="min-width:250px">Comment</th>
                         </tr>
                     </thead>
                     <tbody id="signalsBody"></tbody>
@@ -967,7 +1017,7 @@ class HTMLReportGenerator:
             const tbody = document.getElementById('signalsBody');
             
             if (allSignals.length === 0) {{
-                tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:20px">No signals data available</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="11" style="text-align:center;padding:20px">No signals data available</td></tr>';
                 return;
             }}
             
@@ -975,6 +1025,7 @@ class HTMLReportGenerator:
                 <tr>
                     <td><strong>${{sig.symbol}}</strong><br><small style="color:#888">${{sig.name}}</small></td>
                     <td><span class="badge ${{sig.signal.toLowerCase().replace('_', '-')}}">${{sig.signal}}</span></td>
+                    <td><strong>${{sig.signalStrength || 0}}%</strong></td>
                     <td>${{sig.confidence}}%</td>
                     <td>₹${{sig.price}}</td>
                     <td>₹${{sig.target}}</td>
@@ -982,6 +1033,7 @@ class HTMLReportGenerator:
                     <td>${{sig.technicalScore}}%</td>
                     <td>${{sig.fundamentalScore}}%</td>
                     <td><span style="color:var(--${{sig.riskBucket}})">${{sig.riskBucket}}</span></td>
+                    <td style="font-size:12px;color:#ccc">${{sig.comment || ''}}</td>
                 </tr>
             `).join('');
         }}
