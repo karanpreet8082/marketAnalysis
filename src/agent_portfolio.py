@@ -28,9 +28,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent))
-
+# Now import local modules
 from src.config import BUDGET_MAX, DATA_DIR, REPORTS_DIR
 from src.data_fetcher import YFinanceFetcher, get_stock_universe
 from src.analysis import TechnicalAnalyzer, FundamentalAnalyzer, SignalGenerator
@@ -93,7 +91,7 @@ def run_analysis_for_picks():
     logger.info("Running analysis to get today's top picks...")
     
     fetcher = YFinanceFetcher()
-    symbols = get_stock_universe(include_suffix=True)[:100]  # Analyze top 100
+    symbols = get_stock_universe(include_suffix=True)  # Analyze all available stocks
     
     # Fetch data
     historical_data, stock_info = fetcher.fetch_multiple_stocks(symbols, period="1y")
