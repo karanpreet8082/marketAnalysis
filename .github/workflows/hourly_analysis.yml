@@ -23,7 +23,7 @@ on:
       max_stocks:
         description: 'Max stocks to analyze'
         required: false
-        default: '100'
+        default: '2000'
 
 jobs:
   analyze:
@@ -56,7 +56,7 @@ jobs:
         run: |
           python src/main.py \
             --budget ${{ github.event.inputs.budget || '50000' }} \
-            --max-stocks ${{ github.event.inputs.max_stocks || '100' }} \
+            --max-stocks ${{ github.event.inputs.max_stocks || '2000' }} \
             --no-email
       
       - name: Upload report artifact
