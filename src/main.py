@@ -24,9 +24,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent))
-
+# Now import local modules
 from src.config import BUDGET_MAX, REPORTS_DIR, DATA_DIR
 from src.data_fetcher import YFinanceFetcher, get_stock_universe, NIFTY_500_SYMBOLS
 from src.analysis import TechnicalAnalyzer, FundamentalAnalyzer, SignalGenerator
@@ -36,7 +34,7 @@ from src.reporting import HTMLReportGenerator
 
 def run_analysis(
     budget: float = BUDGET_MAX,
-    max_stocks: int = 100,  # Limit for faster execution
+    max_stocks: int = 2000,  # Analyze more stocks by default
     save_report: bool = True
 ) -> Dict:
     """
@@ -262,7 +260,7 @@ def main():
     parser.add_argument(
         '--max-stocks',
         type=int,
-        default=100,
+        default=2000,
         help='Maximum stocks to analyze (reduce for faster testing)'
     )
     parser.add_argument(
