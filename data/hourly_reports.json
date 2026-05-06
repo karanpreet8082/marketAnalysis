@@ -860,5 +860,43 @@
         "Unknown": 1
       }
     }
+  },
+  {
+    "timestamp": "2026-05-06 13:26 IST",
+    "budget": 50000.0,
+    "allocated": 43884.350000000006,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 43884.35,
+      "cash_reserve": 6115.65,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 19810.35,
+          "percent": 39.6,
+          "positions": 2
+        },
+        "moderate": {
+          "amount": 17110.7,
+          "percent": 34.2,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 6963.3,
+          "percent": 13.9,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 6.3,
+      "max_loss_percent": 4.4,
+      "sector_distribution": {
+        "Energy": 2,
+        "Utilities": 2,
+        "Financial Services": 1,
+        "Consumer Cyclical": 1,
+        "Technology": 1
+      }
+    }
   }
 ]
