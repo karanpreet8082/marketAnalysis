@@ -822,5 +822,43 @@
         "Consumer Cyclical": 1
       }
     }
+  },
+  {
+    "timestamp": "2026-05-06 12:51 IST",
+    "budget": 50000.0,
+    "allocated": 49300.14000000001,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 49300.14,
+      "cash_reserve": 699.86,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24716.88,
+          "percent": 49.4,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17128.0,
+          "percent": 34.3,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7455.26,
+          "percent": 14.9,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.9,
+      "max_loss_percent": 4.1,
+      "sector_distribution": {
+        "Utilities": 2,
+        "Financial Services": 2,
+        "Energy": 2,
+        "Consumer Cyclical": 1,
+        "Unknown": 1
+      }
+    }
   }
 ]
