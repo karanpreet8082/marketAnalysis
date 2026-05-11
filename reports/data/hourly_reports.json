@@ -1,15 +1,5 @@
 [
   {
-    "timestamp": "2026-04-30 14:02 IST",
-    "budget": 50000.0,
-    "allocated": 0,
-    "positions": 0,
-    "summary": {
-      "total_positions": 0,
-      "message": "No actionable buy signals found for today. Recommend staying in cash."
-    }
-  },
-  {
     "timestamp": "2026-04-30 14:17 IST",
     "budget": 50000.0,
     "allocated": 0,
@@ -1496,6 +1486,43 @@
         "Financial Services": 1,
         "Energy": 1,
         "Consumer Cyclical": 1,
+        "Technology": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-11 12:26 IST",
+    "budget": 50000.0,
+    "allocated": 33677.869999999995,
+    "positions": 5,
+    "summary": {
+      "total_positions": 5,
+      "total_invested": 33677.87,
+      "cash_reserve": 16322.13,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 9247.2,
+          "percent": 18.5,
+          "positions": 1
+        },
+        "moderate": {
+          "amount": 17417.37,
+          "percent": 34.8,
+          "positions": 2
+        },
+        "aggressive": {
+          "amount": 7013.3,
+          "percent": 14.0,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 7.4,
+      "max_loss_percent": 5.2,
+      "sector_distribution": {
+        "Financial Services": 2,
+        "Unknown": 1,
+        "Communication Services": 1,
         "Technology": 1
       }
     }
