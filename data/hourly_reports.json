@@ -1,15 +1,5 @@
 [
   {
-    "timestamp": "2026-05-01 14:03 IST",
-    "budget": 50000.0,
-    "allocated": 0,
-    "positions": 0,
-    "summary": {
-      "total_positions": 0,
-      "message": "No actionable buy signals found for today. Recommend staying in cash."
-    }
-  },
-  {
     "timestamp": "2026-05-01 14:50 IST",
     "budget": 50000.0,
     "allocated": 0,
@@ -1763,6 +1753,42 @@
         "Consumer Defensive": 1,
         "Financial Services": 1,
         "Technology": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-12 14:54 IST",
+    "budget": 50000.0,
+    "allocated": 16725.260000000002,
+    "positions": 3,
+    "summary": {
+      "total_positions": 3,
+      "total_invested": 16725.26,
+      "cash_reserve": 33274.74,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 0,
+          "percent": 0.0,
+          "positions": 0
+        },
+        "moderate": {
+          "amount": 16725.260000000002,
+          "percent": 33.5,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 0,
+          "percent": 0.0,
+          "positions": 0
+        }
+      },
+      "expected_gain_percent": 6.7,
+      "max_loss_percent": 5.0,
+      "sector_distribution": {
+        "Consumer Defensive": 1,
+        "Financial Services": 1,
+        "Healthcare": 1
       }
     }
   }
