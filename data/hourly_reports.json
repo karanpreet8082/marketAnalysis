@@ -1,44 +1,5 @@
 [
   {
-    "timestamp": "2026-05-04 16:55 IST",
-    "budget": 50000.0,
-    "allocated": 49021.86,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49021.86,
-      "cash_reserve": 978.14,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24576.66,
-          "percent": 49.2,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17370.38,
-          "percent": 34.7,
-          "positions": 2
-        },
-        "aggressive": {
-          "amount": 7074.82,
-          "percent": 14.1,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 6.1,
-      "max_loss_percent": 4.2,
-      "sector_distribution": {
-        "Financial Services": 2,
-        "Basic Materials": 1,
-        "Energy": 1,
-        "Utilities": 1,
-        "Communication Services": 1,
-        "Technology": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-05-05 11:34 IST",
     "budget": 50000.0,
     "allocated": 49724.780000000006,
@@ -1832,6 +1793,41 @@
       "max_loss_percent": 6.6,
       "sector_distribution": {
         "Unknown": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14 12:08 IST",
+    "budget": 50000.0,
+    "allocated": 29473.949999999997,
+    "positions": 3,
+    "summary": {
+      "total_positions": 3,
+      "total_invested": 29473.95,
+      "cash_reserve": 20526.05,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 19895.85,
+          "percent": 39.8,
+          "positions": 2
+        },
+        "moderate": {
+          "amount": 9578.1,
+          "percent": 19.2,
+          "positions": 1
+        },
+        "aggressive": {
+          "amount": 0,
+          "percent": 0.0,
+          "positions": 0
+        }
+      },
+      "expected_gain_percent": 5.7,
+      "max_loss_percent": 4.0,
+      "sector_distribution": {
+        "Financial Services": 1,
+        "Unknown": 2
       }
     }
   }
