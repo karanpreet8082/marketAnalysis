@@ -1,42 +1,5 @@
 [
   {
-    "timestamp": "2026-05-07 13:02 IST",
-    "budget": 50000.0,
-    "allocated": 31497.0,
-    "positions": 4,
-    "summary": {
-      "total_positions": 4,
-      "total_invested": 31497.0,
-      "cash_reserve": 18503.0,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24033.0,
-          "percent": 48.1,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 0,
-          "percent": 0.0,
-          "positions": 0
-        },
-        "aggressive": {
-          "amount": 7464.0,
-          "percent": 14.9,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 5.9,
-      "max_loss_percent": 3.9,
-      "sector_distribution": {
-        "Utilities": 1,
-        "Energy": 1,
-        "Financial Services": 1,
-        "Consumer Cyclical": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-05-07 13:35 IST",
     "budget": 50000.0,
     "allocated": 41719.74,
@@ -1785,6 +1748,43 @@
         },
         "aggressive": {
           "amount": 7486.92,
+          "percent": 15.0,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 6.4,
+      "max_loss_percent": 4.5,
+      "sector_distribution": {
+        "Financial Services": 1,
+        "Unknown": 1,
+        "Energy": 1,
+        "Basic Materials": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-18 14:28 IST",
+    "budget": 50000.0,
+    "allocated": 37229.119999999995,
+    "positions": 4,
+    "summary": {
+      "total_positions": 4,
+      "total_invested": 37229.12,
+      "cash_reserve": 12770.88,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 19818.92,
+          "percent": 39.6,
+          "positions": 2
+        },
+        "moderate": {
+          "amount": 9913.2,
+          "percent": 19.8,
+          "positions": 1
+        },
+        "aggressive": {
+          "amount": 7497.0,
           "percent": 15.0,
           "positions": 1
         }
