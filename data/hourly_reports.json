@@ -1,41 +1,5 @@
 [
   {
-    "timestamp": "2026-05-15 13:15 IST",
-    "budget": 50000.0,
-    "allocated": 37208.36,
-    "positions": 4,
-    "summary": {
-      "total_positions": 4,
-      "total_invested": 37208.36,
-      "cash_reserve": 12791.64,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 19892.52,
-          "percent": 39.8,
-          "positions": 2
-        },
-        "moderate": {
-          "amount": 9810.15,
-          "percent": 19.6,
-          "positions": 1
-        },
-        "aggressive": {
-          "amount": 7505.69,
-          "percent": 15.0,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 6.3,
-      "max_loss_percent": 4.3,
-      "sector_distribution": {
-        "Financial Services": 1,
-        "Unknown": 2,
-        "Basic Materials": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-05-15 13:57 IST",
     "budget": 50000.0,
     "allocated": 37200.770000000004,
@@ -1827,6 +1791,43 @@
         "Utilities": 1,
         "Financial Services": 3,
         "Basic Materials": 2,
+        "Consumer Cyclical": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-26 14:22 IST",
+    "budget": 50000.0,
+    "allocated": 49629.78,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49629.78,
+      "cash_reserve": 370.22,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24914.19,
+          "percent": 49.8,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17253.24,
+          "percent": 34.5,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7462.35,
+          "percent": 14.9,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 7.3,
+      "max_loss_percent": 5.0,
+      "sector_distribution": {
+        "Financial Services": 3,
+        "Basic Materials": 2,
+        "Utilities": 1,
         "Consumer Cyclical": 1
       }
     }
