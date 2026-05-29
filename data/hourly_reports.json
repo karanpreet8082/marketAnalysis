@@ -1,42 +1,5 @@
 [
   {
-    "timestamp": "2026-05-19 15:57 IST",
-    "budget": 50000.0,
-    "allocated": 41850.53,
-    "positions": 5,
-    "summary": {
-      "total_positions": 5,
-      "total_invested": 41850.53,
-      "cash_reserve": 8149.47,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24732.229999999996,
-          "percent": 49.5,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 9676.8,
-          "percent": 19.4,
-          "positions": 1
-        },
-        "aggressive": {
-          "amount": 7441.5,
-          "percent": 14.9,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 8.0,
-      "max_loss_percent": 5.5,
-      "sector_distribution": {
-        "Unknown": 2,
-        "Financial Services": 1,
-        "Energy": 1,
-        "Basic Materials": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-05-19 16:19 IST",
     "budget": 50000.0,
     "allocated": 41850.53,
@@ -1829,6 +1792,43 @@
         "Financial Services": 3,
         "Basic Materials": 2,
         "Unknown": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-29 14:00 IST",
+    "budget": 50000.0,
+    "allocated": 48923.39,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 48923.39,
+      "cash_reserve": 1076.61,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24349.8,
+          "percent": 48.7,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17156.98,
+          "percent": 34.3,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7416.61,
+          "percent": 14.8,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.6,
+      "max_loss_percent": 3.9,
+      "sector_distribution": {
+        "Utilities": 1,
+        "Financial Services": 4,
+        "Basic Materials": 2,
+        "Consumer Cyclical": 1
       }
     }
   }
