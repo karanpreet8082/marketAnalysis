@@ -451,7 +451,7 @@
 <body>
     <div class="header">
         <h1>📊 Stock Market Analysis Dashboard</h1>
-        <div class="timestamp">Last updated: <span id="lastUpdate">2026-06-02 18:30 IST</span></div>
+        <div class="timestamp">Last updated: <span id="lastUpdate">2026-06-03 14:05 IST</span></div>
     </div>
     
     <div class="nav-tabs">
@@ -460,6 +460,8 @@
         <div class="nav-tab" data-tab="portfolio">💼 My Portfolio</div>
         <div class="nav-tab" data-tab="sells">💰 Sell History</div>
         <div class="nav-tab" data-tab="agent">🤖 Agent Portfolio</div>
+        <div class="nav-tab" data-tab="intraday">💹 Intraday Trading</div>
+        <div class="nav-tab" data-tab="intradayHistory">📅 Intraday History</div>
     </div>
     
     <div class="container">
@@ -703,7 +705,157 @@
             Positions are auto-closed when: Target hit ✓ | Stop-loss hit ✗ | 30 days elapsed ⏱️
         </div>
     </div>
-    
+
+    <!-- Intraday Trading tab -->
+    <div class="tab-content" id="intraday">
+        <h3 style="margin-bottom: 12px;">💹 Intraday Trading Agent</h3>
+        <p style="margin-bottom: 18px; color: #666;">
+            Mandated daily deployment of <strong>₹1,00,000</strong> (between ₹90,000 and ₹1,00,000),
+            spread across <strong>14</strong> evaluations from 9:15 AM to 3:30 PM IST.
+            Every position is closed on the same trading day — strictly intraday.
+        </p>
+
+        <div id="intradayUnavailable" class="empty-state" style="display:none;">
+            <div class="icon">⏳</div>
+            <h3>No intraday data yet</h3>
+            <p>Waiting for the first run of the day. Workflow runs Mon–Fri, 9:15 AM – 3:30 PM IST.</p>
+        </div>
+
+        <div id="intradayContent">
+            <div class="portfolio-summary" style="margin-bottom: 20px;">
+                <div class="portfolio-stat">
+                    <div class="value" id="intraDate">—</div>
+                    <div class="label">Trading Day</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="intraIter">0 / 14</div>
+                    <div class="label">Iteration</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="intraInvested">₹0</div>
+                    <div class="label">Invested Today</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="intraPnl">₹0</div>
+                    <div class="label">Realised P&L</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="intraOpen">0</div>
+                    <div class="label">Open Positions</div>
+                </div>
+            </div>
+
+            <h4 style="margin: 20px 0 10px;">Open Intraday Positions</h4>
+            <div style="overflow-x:auto;">
+                <table class="portfolio-table">
+                    <thead>
+                        <tr>
+                            <th>Stock</th><th>Buy Time</th><th>Iter</th>
+                            <th>Qty</th><th>Buy Price</th><th>Cost</th>
+                            <th>Score Info</th>
+                        </tr>
+                    </thead>
+                    <tbody id="intraOpenBody"></tbody>
+                </table>
+            </div>
+            <div class="empty-state" id="intraOpenEmpty" style="display:none;">
+                <div class="icon">📭</div>
+                <h3>No open positions right now</h3>
+                <p>Either we haven't bought yet today, or we already squared off.</p>
+            </div>
+
+            <h4 style="margin: 30px 0 10px;">Today's Trades</h4>
+            <div style="overflow-x:auto;">
+                <table class="sells-table">
+                    <thead>
+                        <tr>
+                            <th>Time</th><th>Iter</th><th>Action</th><th>Stock</th>
+                            <th>Qty</th><th>Price</th><th>P&L</th><th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody id="intraTradesBody"></tbody>
+                </table>
+            </div>
+            <div class="empty-state" id="intraTradesEmpty" style="display:none;">
+                <div class="icon">🕒</div>
+                <h3>No trades yet today</h3>
+            </div>
+
+            <h4 style="margin: 30px 0 10px;">Iteration Log</h4>
+            <div style="overflow-x:auto;">
+                <table class="sells-table">
+                    <thead>
+                        <tr>
+                            <th>Iter</th><th>Time</th><th>Bought</th><th>Sold</th>
+                            <th>Cumulative Invested</th><th>Realised P&L</th><th>Open</th>
+                        </tr>
+                    </thead>
+                    <tbody id="intraIterBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="disclaimer" style="margin-top: 20px;">
+            ℹ️ Storage: <code>data/intraday_portfolio.json</code> committed by GitHub Actions —
+            free, version-controlled, no third-party DB required.
+        </div>
+    </div>
+
+    <!-- Intraday History tab -->
+    <div class="tab-content" id="intradayHistory">
+        <h3 style="margin-bottom: 12px;">📅 Intraday Day-wise History</h3>
+        <p style="margin-bottom: 18px; color: #666;">
+            Each row is one trading day. Click a date to expand the trades and the
+            self-generated feedback note for that day.
+        </p>
+
+        <div class="portfolio-summary" style="margin-bottom: 20px;">
+            <div class="portfolio-stat">
+                <div class="value" id="ihTotalDays">0</div>
+                <div class="label">Days Traded</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="ihWinRate">—</div>
+                <div class="label">Win Rate</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="ihTotalPnl">₹0</div>
+                <div class="label">Cumulative P&L</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="ihBestDay">₹0</div>
+                <div class="label">Best Day</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="ihWorstDay">₹0</div>
+                <div class="label">Worst Day</div>
+            </div>
+        </div>
+
+        <div style="overflow-x:auto;">
+            <table class="sells-table">
+                <thead>
+                    <tr>
+                        <th>Date</th><th>Iters</th><th>Invested</th>
+                        <th>Buys</th><th>Sells</th>
+                        <th>Realised P&L</th><th>Return %</th><th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="intraHistoryBody"></tbody>
+            </table>
+        </div>
+        <div class="empty-state" id="intraHistoryEmpty" style="display:none;">
+            <div class="icon">📅</div>
+            <h3>No completed days yet</h3>
+            <p>History appears after the day's final iteration liquidates positions.</p>
+        </div>
+
+        <h4 style="margin: 30px 0 10px;">Latest Feedback Notes</h4>
+        <div id="intraFeedbackBox" style="background:#fff8e6; border:1px solid #f0d68c; padding:14px; border-radius:8px;">
+            <em>No feedback yet.</em>
+        </div>
+    </div>
+
     <!-- Sell Modal -->
     <div id="sellModal" style="display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.5); z-index:1000; align-items:center; justify-content:center;">
         <div style="background:white; padding:25px; border-radius:12px; max-width:400px; width:90%;">
@@ -723,9 +875,9 @@
 
     <script>
         // Data from Python
-        const recommendedPositions = [{"symbol": "VEDL", "name": "Vedanta Limited", "signal": "BUY", "riskBucket": "conservative", "price": 333.55, "quantity": 25, "investment": 8338.75, "allocation": 16.7, "target": 364.88, "stopLoss": 312.66, "potentialGain": 9.4, "potentialLoss": 6.3, "confidence": 51, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"]}, {"symbol": "NMDC", "name": "NMDC Limited", "signal": "BUY", "riskBucket": "conservative", "price": 95.31, "quantity": 87, "investment": 8291.97, "allocation": 16.6, "target": 99.55, "stopLoss": 92.48, "potentialGain": 4.4, "potentialLoss": 3.0, "confidence": 51, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (11.252656)"]}, {"symbol": "GAIL", "name": "GAIL (India) Limited", "signal": "BUY", "riskBucket": "conservative", "price": 164.83, "quantity": 50, "investment": 8241.5, "allocation": 16.5, "target": 171.3, "stopLoss": 160.52, "potentialGain": 3.9, "potentialLoss": 2.6, "confidence": 52, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (14.295751)", "High liquidity ensures easy entry/exit"]}, {"symbol": "SOUTHBANK", "name": "The South Indian Bank Lim...", "signal": "BUY", "riskBucket": "moderate", "price": 42.08, "quantity": 139, "investment": 5849.12, "allocation": 11.7, "target": 44.47, "stopLoss": 40.29, "potentialGain": 5.7, "potentialLoss": 4.3, "confidence": 52, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (7.581982)"]}, {"symbol": "JINDALSAW", "name": "Jindal Saw Limited", "signal": "BUY", "riskBucket": "moderate", "price": 241.12, "quantity": 24, "investment": 5786.88, "allocation": 11.6, "target": 260.56, "stopLoss": 226.54, "potentialGain": 8.1, "potentialLoss": 6.0, "confidence": 51, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"]}, {"symbol": "IIFL", "name": "IIFL Finance Limited", "signal": "BUY", "riskBucket": "moderate", "price": 479.45, "quantity": 12, "investment": 5753.4, "allocation": 11.5, "target": 516.67, "stopLoss": 451.53, "potentialGain": 7.8, "potentialLoss": 5.8, "confidence": 51, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (12.379293)", "Trading near 52-week low - potential value"]}];
-        const allSignals = [{"symbol": "SOUTHBANK", "name": "The South Indian Bank Limited", "signal": "BUY", "signalStrength": 29, "confidence": 52, "price": 42.08, "target": 44.47, "stopLoss": 40.29, "riskBucket": "moderate", "technicalScore": 12, "fundamentalScore": 46, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (7.581982)"], "comment": "\ud83d\udc8e Fundamentally sound (46%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "GAIL", "name": "GAIL (India) Limited", "signal": "BUY", "signalStrength": 28, "confidence": 52, "price": 164.83, "target": 171.3, "stopLoss": 160.52, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 45, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (14.295751)", "High liquidity ensures easy entry/exit"], "comment": "\ud83d\udc8e Fundamentally sound (45%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "NMDC", "name": "NMDC Limited", "signal": "BUY", "signalStrength": 28, "confidence": 51, "price": 95.31, "target": 99.55, "stopLoss": 92.48, "riskBucket": "conservative", "technicalScore": 14, "fundamentalScore": 41, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (11.252656)"], "comment": "\ud83d\udc8e Fundamentally sound (41%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "VEDL", "name": "Vedanta Limited", "signal": "BUY", "signalStrength": 27, "confidence": 51, "price": 333.55, "target": 364.88, "stopLoss": 312.66, "riskBucket": "conservative", "technicalScore": 9, "fundamentalScore": 45, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\ud83d\udc8e Fundamentally sound (45%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "IIFL", "name": "IIFL Finance Limited", "signal": "BUY", "signalStrength": 26, "confidence": 51, "price": 479.45, "target": 516.67, "stopLoss": 451.53, "riskBucket": "moderate", "technicalScore": 6, "fundamentalScore": 47, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (12.379293)", "Trading near 52-week low - potential value"], "comment": "\ud83d\udc8e Fundamentally sound (47%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "YESBANK", "name": "Yes Bank Limited", "signal": "BUY", "signalStrength": 26, "confidence": 51, "price": 22.83, "target": 23.74, "stopLoss": 22.22, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 36, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\ud83d\udc8e Fundamentally sound (36%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "COALINDIA", "name": "Coal India Limited", "signal": "BUY", "signalStrength": 26, "confidence": 51, "price": 472.15, "target": 492.2, "stopLoss": 458.78, "riskBucket": "conservative", "technicalScore": 12, "fundamentalScore": 40, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (9.3550625)"], "comment": "\ud83d\udc8e Fundamentally sound (40%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "JINDALSAW", "name": "Jindal Saw Limited", "signal": "BUY", "signalStrength": 26, "confidence": 51, "price": 241.12, "target": 260.56, "stopLoss": 226.54, "riskBucket": "moderate", "technicalScore": 16, "fundamentalScore": 36, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\ud83d\udc8e Fundamentally sound (36%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "AXISBANK", "name": "Axis Bank Limited", "signal": "BUY", "signalStrength": 26, "confidence": 51, "price": 1251.1, "target": 1293.98, "stopLoss": 1222.51, "riskBucket": "conservative", "technicalScore": 7, "fundamentalScore": 45, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (14.812929)", "High liquidity ensures easy entry/exit"], "comment": "\ud83d\udc8e Fundamentally sound (45%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "PNB", "name": "Punjab National Bank", "signal": "BUY", "signalStrength": 26, "confidence": 50, "price": 104.09, "target": 107.83, "stopLoss": 101.6, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 48, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (6.505625)"], "comment": "\ud83d\udc8e Fundamentally sound (48%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "FEDERALBNK", "name": "The Federal Bank Limited", "signal": "BUY", "signalStrength": 26, "confidence": 50, "price": 293.05, "target": 303.29, "stopLoss": 286.22, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 34, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Trading near 52-week high - momentum play"], "comment": "\ud83d\udc8e Fundamentally sound (34%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "CYIENT", "name": "Cyient Limited", "signal": "HOLD", "signalStrength": 25, "confidence": 63, "price": 925.6, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 9, "fundamentalScore": 41, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "TCS", "name": "Tata Consultancy Services Limi", "signal": "HOLD", "signalStrength": 25, "confidence": 63, "price": 2446.9, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 8, "fundamentalScore": 42, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "HCLTECH", "name": "HCL Technologies Limited", "signal": "HOLD", "signalStrength": 25, "confidence": 63, "price": 1243.5, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 4, "fundamentalScore": 45, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "OBEROIRLTY", "name": "Oberoi Realty Limited", "signal": "HOLD", "signalStrength": 25, "confidence": 63, "price": 1674.7, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 32, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Sector: Real Estate"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "SUNTV", "name": "Sun TV Network Limited", "signal": "HOLD", "signalStrength": 24, "confidence": 63, "price": 517.9, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 4, "fundamentalScore": 44, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (14.15801)"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "NEWGEN", "name": "Newgen Software Technologies L", "signal": "HOLD", "signalStrength": 24, "confidence": 63, "price": 518.1, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 8, "fundamentalScore": 40, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "THOMASCOOK", "name": "Thomas Cook (India) Limited", "signal": "HOLD", "signalStrength": 24, "confidence": 63, "price": 91.97, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 3, "fundamentalScore": 44, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "GRASIM", "name": "Grasim Industries Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 3097.6, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "RBLBANK", "name": "RBL Bank Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 344.15, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 17, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Trading near 52-week high - momentum play"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "ONGC", "name": "Oil and Natural Gas Corporatio", "signal": "HOLD", "signalStrength": 23, "confidence": 51, "price": 265.05, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -4, "fundamentalScore": 49, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (8.048891)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bearish momentum"}, {"symbol": "WIPRO", "name": "Wipro Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 209.84, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 8, "fundamentalScore": 38, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "CANBK", "name": "Canara Bank", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 129.08, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 42, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (5.940175)"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "INDUSTOWER", "name": "Indus Towers Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 429.15, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 18, "fundamentalScore": 27, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "BANKBARODA", "name": "Bank of Baroda Limited", "signal": "HOLD", "signalStrength": 22, "confidence": 63, "price": 265.8, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 42, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (6.9254813)"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "ACC", "name": "ACC Limited", "signal": "HOLD", "signalStrength": 22, "confidence": 63, "price": 1369.9, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 3, "fundamentalScore": 41, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (12.063227)"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "SBIN", "name": "State Bank of India", "signal": "HOLD", "signalStrength": 22, "confidence": 63, "price": 956.65, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 5, "fundamentalScore": 38, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (10.498793)"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "ZEEL", "name": "Zee Entertainment Enterprises ", "signal": "HOLD", "signalStrength": 21, "confidence": 64, "price": 94.32, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 11, "fundamentalScore": 31, "reasons": ["MACD shows bullish momentum", "Significant correction from highs - potential recovery", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "INDIGO", "name": "InterGlobe Aviation Limited", "signal": "HOLD", "signalStrength": 21, "confidence": 64, "price": 4466.1, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "ROUTE", "name": "Route Mobile Limited", "signal": "HOLD", "signalStrength": 21, "confidence": 51, "price": 536.1, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": -7, "fundamentalScore": 48, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (14.122761)", "Trading near 52-week low - potential value"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bearish momentum"}, {"symbol": "HINDALCO", "name": "Hindalco Industries Limited", "signal": "HOLD", "signalStrength": 20, "confidence": 64, "price": 1146.3, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 12, "fundamentalScore": 28, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Trading near 52-week high - momentum play"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "AUROPHARMA", "name": "Aurobindo Pharma Limited", "signal": "HOLD", "signalStrength": 20, "confidence": 51, "price": 1429.2, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -1, "fundamentalScore": 40, "reasons": ["MACD shows bearish momentum", "High liquidity ensures easy entry/exit", "Sector: Healthcare"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "DCBBANK", "name": "DCB Bank Limited", "signal": "HOLD", "signalStrength": 19, "confidence": 51, "price": 173.2, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": -6, "fundamentalScore": 44, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (7.5898333)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "CENTRALBK", "name": "Central Bank of India", "signal": "HOLD", "signalStrength": 19, "confidence": 51, "price": 29.62, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": -5, "fundamentalScore": 44, "reasons": ["RSI (22.0) indicates oversold condition", "MACD shows bearish momentum", "Price trading below key moving averages"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. RSI (22.0) indicates oversold condition"}, {"symbol": "INFY", "name": "Infosys Limited", "signal": "HOLD", "signalStrength": 19, "confidence": 64, "price": 1270.8, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 8, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "TECHM", "name": "Tech Mahindra Limited", "signal": "HOLD", "signalStrength": 19, "confidence": 64, "price": 1571.4, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 14, "fundamentalScore": 24, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "AMBUJACEM", "name": "Ambuja Cements Limited", "signal": "HOLD", "signalStrength": 19, "confidence": 64, "price": 439.35, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 8, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "IOC", "name": "Indian Oil Corporation Limited", "signal": "HOLD", "signalStrength": 19, "confidence": 64, "price": 138.83, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 35, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (4.5428667)"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "LT", "name": "Larsen & Toubro Limited", "signal": "HOLD", "signalStrength": 19, "confidence": 64, "price": 4000.9, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 21, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "HAPPSTMNDS", "name": "Happiest Minds Technologies Li", "signal": "HOLD", "signalStrength": 19, "confidence": 64, "price": 378.5, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 8, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "ORIENTCEM", "name": "Orient Cement Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 64, "price": 137.56, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 3, "fundamentalScore": 34, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (8.362309)"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "INTELLECT", "name": "Intellect Design Arena Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 64, "price": 748.25, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 10, "fundamentalScore": 27, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "JMFINANCIL", "name": "JM Financial Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 52, "price": 129.16, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": -14, "fundamentalScore": 51, "reasons": ["MACD shows bearish momentum", "Price trading below key moving averages", "Attractive P/E ratio (10.291634)"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "NAUKRI", "name": "Info Edge (India) Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 65, "price": 1015.7, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 6, "fundamentalScore": 31, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "POWERGRID", "name": "Power Grid Corporation of Indi", "signal": "HOLD", "signalStrength": 18, "confidence": 52, "price": 282.15, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -2, "fundamentalScore": 38, "reasons": ["RSI (29.7) indicates oversold condition", "MACD shows bearish momentum", "Price trading below key moving averages"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. RSI (29.7) indicates oversold condition"}, {"symbol": "UPL", "name": "UPL Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 65, "price": 641.65, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 8, "fundamentalScore": 28, "reasons": ["MACD shows bullish momentum", "High liquidity ensures easy entry/exit", "Sector: Basic Materials"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "EICHERMOT", "name": "Eicher Motors Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 65, "price": 7141.5, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 18, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Sector: Consumer Cyclical"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "MAHLIFE", "name": "Mahindra Lifespace Developers ", "signal": "HOLD", "signalStrength": 17, "confidence": 65, "price": 337.2, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 11, "fundamentalScore": 24, "reasons": ["MACD shows bullish momentum", "Sector: Real Estate"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "KARURVYSYA", "name": "The Karur Vysya Bank Limited", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 293.05, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": -6, "fundamentalScore": 41, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (11.284174)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "BPCL", "name": "Bharat Petroleum Corporation L", "signal": "HOLD", "signalStrength": 17, "confidence": 65, "price": 294.4, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 32, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (4.8661156)"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}];
-        const summary = {"timestamp": "2026-06-02 18:30 IST", "budget": 50000.0, "allocated": 42261.62, "cashReserve": 7738.379999999997, "totalPositions": 6, "bucketCounts": {"conservative": 3, "moderate": 3, "aggressive": 0}};
+        const recommendedPositions = [{"symbol": "PNB", "name": "Punjab National Bank", "signal": "BUY", "riskBucket": "conservative", "price": 105.21, "quantity": 79, "investment": 8311.59, "allocation": 16.6, "target": 108.93, "stopLoss": 102.73, "potentialGain": 3.5, "potentialLoss": 2.4, "confidence": 51, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (6.575625)", "Trading near 52-week low - potential value"]}, {"symbol": "HCLTECH", "name": "HCL Technologies Limited", "signal": "BUY", "riskBucket": "conservative", "price": 1183.1, "quantity": 7, "investment": 8281.7, "allocation": 16.6, "target": 1229.57, "stopLoss": 1152.12, "potentialGain": 3.9, "potentialLoss": 2.6, "confidence": 51, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"]}, {"symbol": "NMDC", "name": "NMDC Limited", "signal": "BUY", "riskBucket": "conservative", "price": 96.18, "quantity": 86, "investment": 8271.48, "allocation": 16.5, "target": 100.38, "stopLoss": 93.38, "potentialGain": 4.4, "potentialLoss": 2.9, "confidence": 51, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (11.355371)"]}, {"symbol": "SOUTHBANK", "name": "The South Indian Bank Lim...", "signal": "BUY", "riskBucket": "moderate", "price": 42.82, "quantity": 136, "investment": 5823.52, "allocation": 11.6, "target": 45.16, "stopLoss": 41.06, "potentialGain": 5.5, "potentialLoss": 4.1, "confidence": 51, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (7.715315)"]}, {"symbol": "JINDALSAW", "name": "Jindal Saw Limited", "signal": "BUY", "riskBucket": "moderate", "price": 248.95, "quantity": 23, "investment": 5725.85, "allocation": 11.5, "target": 268.19, "stopLoss": 234.52, "potentialGain": 7.7, "potentialLoss": 5.8, "confidence": 50, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"]}, {"symbol": "CYIENT", "name": "Cyient Limited", "signal": "BUY", "riskBucket": "moderate", "price": 908.3, "quantity": 6, "investment": 5449.8, "allocation": 10.9, "target": 959.97, "stopLoss": 869.55, "potentialGain": 5.7, "potentialLoss": 4.3, "confidence": 51, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"]}, {"symbol": "THOMASCOOK", "name": "Thomas Cook (India) Limit...", "signal": "BUY", "riskBucket": "aggressive", "price": 91.03, "quantity": 41, "investment": 3732.23, "allocation": 7.5, "target": 101.93, "stopLoss": 83.76, "potentialGain": 12.0, "potentialLoss": 8.0, "confidence": 50, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"]}, {"symbol": "ROUTE", "name": "Route Mobile Limited", "signal": "BUY", "riskBucket": "aggressive", "price": 528.6, "quantity": 7, "investment": 3700.2, "allocation": 7.4, "target": 581.11, "stopLoss": 493.59, "potentialGain": 9.9, "potentialLoss": 6.6, "confidence": 52, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (13.925184)", "Trading near 52-week low - potential value"]}];
+        const allSignals = [{"symbol": "ROUTE", "name": "Route Mobile Limited", "signal": "BUY", "signalStrength": 29, "confidence": 52, "price": 528.6, "target": 581.11, "stopLoss": 493.59, "riskBucket": "aggressive", "technicalScore": 11, "fundamentalScore": 48, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (13.925184)", "Trading near 52-week low - potential value"], "comment": "\ud83d\udc8e Fundamentally sound (48%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "PNB", "name": "Punjab National Bank", "signal": "BUY", "signalStrength": 27, "confidence": 51, "price": 105.21, "target": 108.93, "stopLoss": 102.73, "riskBucket": "conservative", "technicalScore": 7, "fundamentalScore": 48, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (6.575625)", "Trading near 52-week low - potential value"], "comment": "\ud83d\udc8e Fundamentally sound (48%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "SOUTHBANK", "name": "The South Indian Bank Limited", "signal": "BUY", "signalStrength": 27, "confidence": 51, "price": 42.82, "target": 45.16, "stopLoss": 41.06, "riskBucket": "moderate", "technicalScore": 11, "fundamentalScore": 43, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (7.715315)"], "comment": "\ud83d\udc8e Fundamentally sound (43%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "NMDC", "name": "NMDC Limited", "signal": "BUY", "signalStrength": 26, "confidence": 51, "price": 96.18, "target": 100.38, "stopLoss": 93.38, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 41, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (11.355371)"], "comment": "\ud83d\udc8e Fundamentally sound (41%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "HCLTECH", "name": "HCL Technologies Limited", "signal": "BUY", "signalStrength": 26, "confidence": 51, "price": 1183.1, "target": 1229.57, "stopLoss": 1152.12, "riskBucket": "conservative", "technicalScore": 8, "fundamentalScore": 45, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\ud83d\udc8e Fundamentally sound (45%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "COALINDIA", "name": "Coal India Limited", "signal": "BUY", "signalStrength": 26, "confidence": 51, "price": 472.45, "target": 492.4, "stopLoss": 459.15, "riskBucket": "conservative", "technicalScore": 12, "fundamentalScore": 40, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Attractive P/E ratio (9.361007)"], "comment": "\ud83d\udc8e Fundamentally sound (40%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "CYIENT", "name": "Cyient Limited", "signal": "BUY", "signalStrength": 26, "confidence": 51, "price": 908.3, "target": 959.97, "stopLoss": 869.55, "riskBucket": "moderate", "technicalScore": 11, "fundamentalScore": 41, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\ud83d\udc8e Fundamentally sound (41%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "THOMASCOOK", "name": "Thomas Cook (India) Limited", "signal": "BUY", "signalStrength": 26, "confidence": 50, "price": 91.03, "target": 101.93, "stopLoss": 83.76, "riskBucket": "aggressive", "technicalScore": 8, "fundamentalScore": 44, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"], "comment": "\ud83d\udc8e Fundamentally sound (44%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "VEDL", "name": "Vedanta Limited", "signal": "BUY", "signalStrength": 25, "confidence": 50, "price": 328.65, "target": 358.71, "stopLoss": 308.61, "riskBucket": "conservative", "technicalScore": 6, "fundamentalScore": 45, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"], "comment": "\ud83d\udc8e Fundamentally sound (45%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "JINDALSAW", "name": "Jindal Saw Limited", "signal": "BUY", "signalStrength": 25, "confidence": 50, "price": 248.95, "target": 268.19, "stopLoss": 234.52, "riskBucket": "moderate", "technicalScore": 14, "fundamentalScore": 36, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\ud83d\udc8e Fundamentally sound (36%). Good for medium-term holding. MACD shows bullish momentum"}, {"symbol": "SUNTV", "name": "Sun TV Network Limited", "signal": "HOLD", "signalStrength": 24, "confidence": 63, "price": 513.15, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 5, "fundamentalScore": 44, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (14.035831)"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "BANKBARODA", "name": "Bank of Baroda Limited", "signal": "HOLD", "signalStrength": 24, "confidence": 63, "price": 267.5, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 6, "fundamentalScore": 42, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (6.9697757)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "RBLBANK", "name": "RBL Bank Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 345.8, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 16, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Trading near 52-week high - momentum play"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "IIFL", "name": "IIFL Finance Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 494.4, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 5, "fundamentalScore": 41, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (12.762002)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "FEDERALBNK", "name": "The Federal Bank Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 295.7, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 12, "fundamentalScore": 34, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Trading near 52-week high - momentum play"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "HINDALCO", "name": "Hindalco Industries Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 1138.9, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 17, "fundamentalScore": 28, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "Trading near 52-week high - momentum play"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "WIPRO", "name": "Wipro Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 203.57, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 8, "fundamentalScore": 38, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "CANBK", "name": "Canara Bank", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 130.41, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 7, "fundamentalScore": 38, "reasons": ["MACD shows bullish momentum", "Attractive P/E ratio (6.004144)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "INDUSTOWER", "name": "Indus Towers Limited", "signal": "HOLD", "signalStrength": 23, "confidence": 63, "price": 430.65, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 18, "fundamentalScore": 27, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "ONGC", "name": "Oil and Natural Gas Corporatio", "signal": "HOLD", "signalStrength": 23, "confidence": 51, "price": 267.85, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -4, "fundamentalScore": 49, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (8.136392)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bearish momentum"}, {"symbol": "ACC", "name": "ACC Limited", "signal": "HOLD", "signalStrength": 22, "confidence": 63, "price": 1354.0, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 3, "fundamentalScore": 41, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (11.923213)"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "MPHASIS", "name": "Mphasis Limited", "signal": "HOLD", "signalStrength": 22, "confidence": 63, "price": 2292.8, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 11, "fundamentalScore": 34, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Sector: Technology"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "SBIN", "name": "State Bank of India", "signal": "HOLD", "signalStrength": 22, "confidence": 64, "price": 961.0, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 5, "fundamentalScore": 38, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (10.540749)"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "NEWGEN", "name": "Newgen Software Technologies L", "signal": "HOLD", "signalStrength": 21, "confidence": 64, "price": 510.65, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 2, "fundamentalScore": 40, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "ZEEL", "name": "Zee Entertainment Enterprises ", "signal": "HOLD", "signalStrength": 21, "confidence": 64, "price": 93.25, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 11, "fundamentalScore": 31, "reasons": ["MACD shows bullish momentum", "Significant correction from highs - potential recovery", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "LT", "name": "Larsen & Toubro Limited", "signal": "HOLD", "signalStrength": 21, "confidence": 64, "price": 3959.3, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 18, "fundamentalScore": 24, "reasons": ["MACD shows bullish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "TCS", "name": "Tata Consultancy Services Limi", "signal": "HOLD", "signalStrength": 21, "confidence": 64, "price": 2243.3, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 0, "fundamentalScore": 42, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "INDIGO", "name": "InterGlobe Aviation Limited", "signal": "HOLD", "signalStrength": 21, "confidence": 64, "price": 4453.2, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Hold position. Slight bullish bias, wait for stronger confirmation. MACD shows bullish momentum"}, {"symbol": "JMFINANCIL", "name": "JM Financial Limited", "signal": "HOLD", "signalStrength": 20, "confidence": 51, "price": 123.05, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": -12, "fundamentalScore": 51, "reasons": ["MACD shows bearish momentum", "Price trading below key moving averages", "Attractive P/E ratio (9.804781)"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "DCBBANK", "name": "DCB Bank Limited", "signal": "HOLD", "signalStrength": 20, "confidence": 51, "price": 172.95, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": -5, "fundamentalScore": 44, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (7.575558)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "UPL", "name": "UPL Limited", "signal": "HOLD", "signalStrength": 19, "confidence": 64, "price": 647.35, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 28, "reasons": ["MACD shows bullish momentum", "High liquidity ensures easy entry/exit", "Sector: Basic Materials"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "IOC", "name": "Indian Oil Corporation Limited", "signal": "HOLD", "signalStrength": 19, "confidence": 64, "price": 137.58, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 35, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (4.5004907)"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "INTELLECT", "name": "Intellect Design Arena Limited", "signal": "HOLD", "signalStrength": 19, "confidence": 64, "price": 740.8, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 10, "fundamentalScore": 27, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "IRFC", "name": "Indian Railway Finance Corpora", "signal": "HOLD", "signalStrength": 19, "confidence": 52, "price": 95.74, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -11, "fundamentalScore": 48, "reasons": ["MACD shows bearish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "NAUKRI", "name": "Info Edge (India) Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 64, "price": 1010.5, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 6, "fundamentalScore": 31, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "KPITTECH", "name": "KPIT Technologies Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 64, "price": 782.0, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": 10, "fundamentalScore": 26, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "Significant correction from highs - potential recovery"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "INFY", "name": "Infosys Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 65, "price": 1223.7, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 6, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Trading near 52-week low - potential value", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "GAIL", "name": "GAIL (India) Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 52, "price": 164.43, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -9, "fundamentalScore": 45, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (14.248699)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "TECHM", "name": "Tech Mahindra Limited", "signal": "HOLD", "signalStrength": 18, "confidence": 65, "price": 1481.8, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 11, "fundamentalScore": 24, "reasons": ["MACD shows bullish momentum", "High liquidity ensures easy entry/exit", "Sector: Technology"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "AXISBANK", "name": "Axis Bank Limited", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 1258.5, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -11, "fundamentalScore": 45, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (14.902309)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "POWERGRID", "name": "Power Grid Corporation of Indi", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 285.0, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -4, "fundamentalScore": 38, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (14.1650095)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "BPCL", "name": "Bharat Petroleum Corporation L", "signal": "HOLD", "signalStrength": 17, "confidence": 65, "price": 293.55, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": 3, "fundamentalScore": 32, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Attractive P/E ratio (4.852066)"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}, {"symbol": "AUROPHARMA", "name": "Aurobindo Pharma Limited", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 1442.0, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -6, "fundamentalScore": 40, "reasons": ["MACD shows bearish momentum", "High liquidity ensures easy entry/exit", "Sector: Healthcare"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "NTPC", "name": "NTPC Limited", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 367.5, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -5, "fundamentalScore": 38, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (12.065003)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "NLCINDIA", "name": "NLC India Limited", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 346.25, "target": 0, "stopLoss": 0, "riskBucket": "moderate", "technicalScore": -2, "fundamentalScore": 36, "reasons": ["MACD shows bearish momentum", "Price trading above key moving averages", "Attractive P/E ratio (13.6372595)"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "RECLTD", "name": "REC Limited", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 325.65, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -11, "fundamentalScore": 44, "reasons": ["MACD shows bearish momentum", "Price trading below key moving averages", "Attractive P/E ratio (5.2677126)"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "LICI", "name": "Life Insurance Corporation of ", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 402.4, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -12, "fundamentalScore": 45, "reasons": ["MACD shows bearish momentum", "Attractive P/E ratio (8.855634)", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "RELIANCE", "name": "Reliance Industries Limited", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 1312.7, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -11, "fundamentalScore": 44, "reasons": ["MACD shows bearish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "YESBANK", "name": "Yes Bank Limited", "signal": "HOLD", "signalStrength": 17, "confidence": 52, "price": 22.73, "target": 0, "stopLoss": 0, "riskBucket": "conservative", "technicalScore": -3, "fundamentalScore": 36, "reasons": ["MACD shows bearish momentum", "Price trading above key moving averages", "High liquidity ensures easy entry/exit"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bearish momentum"}, {"symbol": "HAPPSTMNDS", "name": "Happiest Minds Technologies Li", "signal": "HOLD", "signalStrength": 16, "confidence": 65, "price": 369.15, "target": 0, "stopLoss": 0, "riskBucket": "aggressive", "technicalScore": 3, "fundamentalScore": 30, "reasons": ["MACD shows bullish momentum", "Price trading below key moving averages", "Trading near 52-week low - potential value"], "comment": "\u23f8\ufe0f Neutral. No clear direction. Wait for breakout or breakdown. MACD shows bullish momentum"}];
+        const summary = {"timestamp": "2026-06-03 14:05 IST", "budget": 50000.0, "allocated": 49296.37, "cashReserve": 703.6299999999974, "totalPositions": 8, "bucketCounts": {"conservative": 3, "moderate": 3, "aggressive": 2}};
         
         // Stock universe for search
         let stockUniverse = [];
@@ -738,6 +890,7 @@
             loadPortfolio();
             loadSells();
             loadAgentPortfolio();
+            loadIntraday();
             loadStockUniverse();
             initSearch();
             document.getElementById('buyDate').valueAsDate = new Date();
@@ -1306,6 +1459,218 @@
                         </tr>
                     `;
                 }).join('');
+            }
+        }
+
+        // ============== Intraday Trading tab ==============
+        async function loadIntraday() {
+            try {
+                const r = await fetch('data/intraday_portfolio.json');
+                if (!r.ok) { showIntradayUnavailable(); return; }
+                const data = await r.json();
+                renderIntraday(data);
+                renderIntradayHistory(data);
+            } catch(e) {
+                console.log('intraday data not available yet:', e);
+                showIntradayUnavailable();
+            }
+        }
+
+        function showIntradayUnavailable() {
+            document.getElementById('intradayUnavailable').style.display = 'block';
+            document.getElementById('intradayContent').style.display = 'none';
+            document.getElementById('intraHistoryEmpty').style.display = 'block';
+        }
+
+        function fmtMoney(n) {
+            if (n === undefined || n === null) return '₹0';
+            const sign = n < 0 ? '-' : '';
+            return sign + '₹' + Math.abs(Math.round(n)).toLocaleString('en-IN');
+        }
+
+        function renderIntraday(data) {
+            const day = data.current_day;
+            // Day might be null right after archive — fall back to last history entry
+            // for the "Today's snapshot" so the user still sees the most recent day.
+            let snapshot = day;
+            let isLive = !!day;
+            if (!day && Array.isArray(data.history) && data.history.length) {
+                const last = data.history[data.history.length - 1];
+                snapshot = {
+                    date: last.date + ' (closed)',
+                    iterations_run: last.iterations_run,
+                    total_iterations: last.iterations_run,
+                    invested_today: last.invested,
+                    realized_pnl_today: last.realized_pnl,
+                    open_positions: [],
+                    trades: last.trades || [],
+                    iteration_log: [],
+                };
+            }
+            if (!snapshot) {
+                showIntradayUnavailable();
+                return;
+            }
+
+            document.getElementById('intraDate').textContent = snapshot.date || '—';
+            const total = snapshot.total_iterations || 14;
+            document.getElementById('intraIter').textContent =
+                `${snapshot.iterations_run || 0} / ${total}`;
+            document.getElementById('intraInvested').textContent =
+                fmtMoney(snapshot.invested_today || 0);
+            const pnlEl = document.getElementById('intraPnl');
+            const pnl = snapshot.realized_pnl_today || 0;
+            pnlEl.textContent = (pnl >= 0 ? '+' : '') + fmtMoney(pnl);
+            pnlEl.style.color = pnl >= 0 ? 'var(--success)' : 'var(--danger)';
+            document.getElementById('intraOpen').textContent =
+                (snapshot.open_positions || []).length;
+
+            // Open positions
+            const obody = document.getElementById('intraOpenBody');
+            const oempty = document.getElementById('intraOpenEmpty');
+            const positions = snapshot.open_positions || [];
+            if (positions.length === 0) {
+                obody.innerHTML = '';
+                oempty.style.display = 'block';
+            } else {
+                oempty.style.display = 'none';
+                obody.innerHTML = positions.map(p => {
+                    const info = p.score_info || {};
+                    const cost = (p.qty * p.buy_price).toFixed(0);
+                    return `<tr>
+                        <td><strong>${p.symbol}</strong></td>
+                        <td>${p.buy_time || '—'}</td>
+                        <td>${p.iteration ?? '—'}</td>
+                        <td>${p.qty}</td>
+                        <td>₹${Number(p.buy_price).toFixed(2)}</td>
+                        <td>₹${Number(cost).toLocaleString('en-IN')}</td>
+                        <td><small>RSI ${info.rsi ?? '-'} · 30m ${info.mom_30m_pct ?? '-'}% · score ${info.score ?? '-'}</small></td>
+                    </tr>`;
+                }).join('');
+            }
+
+            // Trades
+            const tbody = document.getElementById('intraTradesBody');
+            const tempty = document.getElementById('intraTradesEmpty');
+            const trades = snapshot.trades || [];
+            if (trades.length === 0) {
+                tbody.innerHTML = '';
+                tempty.style.display = 'block';
+            } else {
+                tempty.style.display = 'none';
+                tbody.innerHTML = trades.slice().reverse().map(t => {
+                    const isSell = t.action === 'SELL';
+                    const pnlCell = isSell
+                        ? `<td class="${t.pnl >= 0 ? 'profit' : 'loss'}">
+                              ${t.pnl >= 0 ? '+' : ''}${fmtMoney(t.pnl)}
+                              <small>(${(t.pnl_pct ?? 0).toFixed?.(2) ?? t.pnl_pct}%)</small>
+                           </td>`
+                        : `<td>—</td>`;
+                    const badgeClass = isSell ? (t.pnl >= 0 ? 'strong-buy' : 'sell') : 'buy';
+                    return `<tr>
+                        <td>${t.time || '—'}</td>
+                        <td>${t.iteration ?? '—'}</td>
+                        <td><span class="badge ${badgeClass}">${t.action}</span></td>
+                        <td><strong>${t.symbol}</strong></td>
+                        <td>${t.qty}</td>
+                        <td>₹${Number(t.price).toFixed(2)}</td>
+                        ${pnlCell}
+                        <td>${t.reason || (t.action === 'BUY' ? 'Top intraday pick' : '')}</td>
+                    </tr>`;
+                }).join('');
+            }
+
+            // Iteration log
+            const ibody = document.getElementById('intraIterBody');
+            const log = snapshot.iteration_log || [];
+            ibody.innerHTML = log.map(it => `
+                <tr>
+                    <td>${it.iteration}</td>
+                    <td>${it.time}</td>
+                    <td>${it.n_bought}</td>
+                    <td>${it.n_sold}</td>
+                    <td>${fmtMoney(it.invested_today_after)}</td>
+                    <td class="${it.realized_pnl_today_after >= 0 ? 'profit' : 'loss'}">
+                        ${it.realized_pnl_today_after >= 0 ? '+' : ''}${fmtMoney(it.realized_pnl_today_after)}
+                    </td>
+                    <td>${it.open_positions_after}</td>
+                </tr>
+            `).join('');
+        }
+
+        function renderIntradayHistory(data) {
+            const stats = data.stats || {};
+            const hist = data.history || [];
+            const winDays = stats.winning_days || 0;
+            const totalDays = stats.total_days || 0;
+            const winRate = totalDays ? Math.round((winDays / totalDays) * 100) : null;
+
+            document.getElementById('ihTotalDays').textContent = totalDays;
+            document.getElementById('ihWinRate').textContent =
+                winRate === null ? '—' : `${winRate}%`;
+            const totalPnl = stats.total_realized_pnl || 0;
+            const tEl = document.getElementById('ihTotalPnl');
+            tEl.textContent = (totalPnl >= 0 ? '+' : '') + fmtMoney(totalPnl);
+            tEl.style.color = totalPnl >= 0 ? 'var(--success)' : 'var(--danger)';
+            document.getElementById('ihBestDay').textContent = '+' + fmtMoney(stats.best_day_pnl || 0);
+            document.getElementById('ihWorstDay').textContent = fmtMoney(stats.worst_day_pnl || 0);
+
+            const body = document.getElementById('intraHistoryBody');
+            const empty = document.getElementById('intraHistoryEmpty');
+            if (hist.length === 0) {
+                body.innerHTML = '';
+                empty.style.display = 'block';
+            } else {
+                empty.style.display = 'none';
+                body.innerHTML = hist.slice().reverse().map((h, idx) => {
+                    const rowId = `histRow_${idx}`;
+                    const tradesHtml = (h.trades || []).map(t => {
+                        const cls = t.action === 'SELL'
+                            ? (t.pnl >= 0 ? 'profit' : 'loss') : '';
+                        const extra = t.action === 'SELL'
+                            ? `${t.pnl >= 0 ? '+' : ''}${fmtMoney(t.pnl)} (${(t.pnl_pct ?? 0).toFixed?.(2) ?? t.pnl_pct}%)`
+                            : `Cost ${fmtMoney(t.cost || (t.qty * t.price))}`;
+                        return `<div style="font-size:12px; padding:2px 0;" class="${cls}">
+                            ${t.time} · <strong>${t.action}</strong> ${t.symbol} ×${t.qty} @ ₹${Number(t.price).toFixed(2)} · ${extra} ${t.reason ? '· ' + t.reason : ''}
+                        </div>`;
+                    }).join('');
+                    return `
+                        <tr style="cursor:pointer;" onclick="document.getElementById('${rowId}').style.display = (document.getElementById('${rowId}').style.display === 'table-row') ? 'none' : 'table-row';">
+                            <td><strong>${h.date}</strong></td>
+                            <td>${h.iterations_run}</td>
+                            <td>${fmtMoney(h.invested)}</td>
+                            <td>${h.n_buys}</td>
+                            <td>${h.n_sells}</td>
+                            <td class="${h.realized_pnl >= 0 ? 'profit' : 'loss'}">
+                                ${h.realized_pnl >= 0 ? '+' : ''}${fmtMoney(h.realized_pnl)}
+                            </td>
+                            <td class="${h.pnl_pct >= 0 ? 'profit' : 'loss'}">
+                                ${h.pnl_pct >= 0 ? '+' : ''}${(h.pnl_pct ?? 0).toFixed?.(2) ?? h.pnl_pct}%
+                            </td>
+                            <td>
+                                <span class="badge ${h.profitable ? 'strong-buy' : 'sell'}">
+                                    ${h.profitable ? 'PROFIT' : 'LOSS'}
+                                </span>
+                            </td>
+                        </tr>
+                        <tr id="${rowId}" style="display:none; background:#fafafa;">
+                            <td colspan="8" style="padding:10px 14px;">
+                                <div style="margin-bottom:8px;"><strong>Feedback:</strong> ${h.feedback || '—'}</div>
+                                <div><strong>Trades:</strong></div>
+                                ${tradesHtml || '<em>No trades.</em>'}
+                            </td>
+                        </tr>
+                    `;
+                }).join('');
+            }
+
+            // Feedback box
+            const notes = (stats.feedback_notes || []).slice(-5).reverse();
+            const fb = document.getElementById('intraFeedbackBox');
+            if (notes.length) {
+                fb.innerHTML = notes.map(n =>
+                    `<div style="margin-bottom:8px;"><strong>${n.date}:</strong> ${n.note}</div>`
+                ).join('');
             }
         }
     </script>
