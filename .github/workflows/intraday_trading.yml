@@ -1,0 +1,85 @@
+name: Intraday Trading Agent
+
+# Mandated daily ₹1,00,000 deployment, intraday only.
+# 14 randomly-chosen run times spread across NSE/BSE trading hours
+# (9:15 AM IST = 03:45 UTC, 3:30 PM IST = 10:00 UTC).
+# The 14th (last) run liquidates everything before market close.
+
+on:
+  schedule:
+    - cron: '47 3 * * 1-5'   # 09:17 IST  (iter 1)
+    - cron: '4 4 * * 1-5'    # 09:34 IST  (iter 2)
+    - cron: '23 4 * * 1-5'   # 09:53 IST  (iter 3)
+    - cron: '49 4 * * 1-5'   # 10:19 IST  (iter 4)
+    - cron: '11 5 * * 1-5'   # 10:41 IST  (iter 5)
+    - cron: '38 5 * * 1-5'   # 11:08 IST  (iter 6)
+    - cron: '2 6 * * 1-5'    # 11:32 IST  (iter 7)
+    - cron: '31 6 * * 1-5'   # 12:01 IST  (iter 8)
+    - cron: '7 7 * * 1-5'    # 12:37 IST  (iter 9)
+    - cron: '44 7 * * 1-5'   # 13:14 IST  (iter 10)
+    - cron: '19 8 * * 1-5'   # 13:49 IST  (iter 11)
+    - cron: '52 8 * * 1-5'   # 14:22 IST  (iter 12)
+    - cron: '21 9 * * 1-5'   # 14:51 IST  (iter 13)
+    - cron: '57 9 * * 1-5'   # 15:27 IST  (iter 14 - liquidate)
+
+  workflow_dispatch:
+
+jobs:
+  intraday-trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Intraday Trading Agent
+        env:
+          PYTHONUNBUFFERED: 1
+        run: |
+          python src/intraday_agent.py
+
+      - name: Copy data file for web dashboard
+        run: |
+          mkdir -p reports/data
+          cp data/intraday_portfolio.json reports/data/ 2>/dev/null || true
+
+      - name: Commit and push intraday state
+        run: |
+          git config --local user.email "intraday-agent@github.com"
+          git config --local user.name "Intraday Trading Agent"
+          git add data/intraday_portfolio.json reports/ || true
+          git diff --staged --quiet || \
+            git commit -m "💹 Intraday update $(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M IST')"
+          # Pull-rebase to avoid conflicts with parallel hourly_analysis runs
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push || echo "No changes to push"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: success()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./reports
+          destination_dir: .
+          keep_files: true
