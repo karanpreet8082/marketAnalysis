@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-03",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 8266.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-03 16:25:23",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16299.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 8266.500061035156,
+    "invested_today": 16299.500061035156,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,51 @@
           "rsi": 57.5,
           "vol_factor": 0.71,
           "score": 0.099
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1258.0,
+        "buy_time": "2026-06-03 16:25:23",
+        "iteration": 2,
+        "score_info": {
+          "last": 1258.0,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 1.722,
+          "rsi": 47.0,
+          "vol_factor": 2.0,
+          "score": 1.863
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "buy_price": 285.0,
+        "buy_time": "2026-06-03 16:25:23",
+        "iteration": 2,
+        "score_info": {
+          "last": 285.0,
+          "mom_30m_pct": -0.14,
+          "intraday_pct": 1.405,
+          "rsi": 44.1,
+          "vol_factor": 2.0,
+          "score": 1.211
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "buy_price": 381.0,
+        "buy_time": "2026-06-03 16:25:23",
+        "iteration": 2,
+        "score_info": {
+          "last": 381.0,
+          "mom_30m_pct": -0.131,
+          "intraday_pct": 1.33,
+          "rsi": 42.6,
+          "vol_factor": 2.0,
+          "score": 1.202
         }
       }
     ],
@@ -81,6 +135,57 @@
           "rsi": 57.5,
           "vol_factor": 0.71,
           "score": 0.099
+        }
+      },
+      {
+        "time": "2026-06-03 16:25:23",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1258.0,
+        "cost": 2516.0,
+        "score": {
+          "last": 1258.0,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 1.722,
+          "rsi": 47.0,
+          "vol_factor": 2.0,
+          "score": 1.863
+        }
+      },
+      {
+        "time": "2026-06-03 16:25:23",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 285.0,
+        "cost": 2850.0,
+        "score": {
+          "last": 285.0,
+          "mom_30m_pct": -0.14,
+          "intraday_pct": 1.405,
+          "rsi": 44.1,
+          "vol_factor": 2.0,
+          "score": 1.211
+        }
+      },
+      {
+        "time": "2026-06-03 16:25:23",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 381.0,
+        "cost": 2667.0,
+        "score": {
+          "last": 381.0,
+          "mom_30m_pct": -0.131,
+          "intraday_pct": 1.33,
+          "rsi": 42.6,
+          "vol_factor": 2.0,
+          "score": 1.202
         }
       }
     ],
