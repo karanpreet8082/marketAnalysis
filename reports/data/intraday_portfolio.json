@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-03",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 41052.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-06-03 19:41:50",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 49303.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 41052.500061035156,
+    "invested_today": 49303.500061035156,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -209,6 +218,36 @@
         "buy_price": 268.25,
         "buy_time": "2026-06-03 18:33:04",
         "iteration": 5,
+        "score_info": {
+          "last": 268.25,
+          "mom_30m_pct": 0.337,
+          "intraday_pct": 1.093,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.833
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1258.0,
+        "buy_time": "2026-06-03 19:41:50",
+        "iteration": 6,
+        "score_info": {
+          "last": 1258.0,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 1.722,
+          "rsi": 47.0,
+          "vol_factor": 2.0,
+          "score": 1.863
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 12,
+        "buy_price": 268.25,
+        "buy_time": "2026-06-03 19:41:50",
+        "iteration": 6,
         "score_info": {
           "last": 268.25,
           "mom_30m_pct": 0.337,
@@ -393,6 +432,40 @@
       {
         "time": "2026-06-03 18:33:04",
         "iteration": 5,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 12,
+        "price": 268.25,
+        "cost": 3219.0,
+        "score": {
+          "last": 268.25,
+          "mom_30m_pct": 0.337,
+          "intraday_pct": 1.093,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.833
+        }
+      },
+      {
+        "time": "2026-06-03 19:41:50",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1258.0,
+        "cost": 5032.0,
+        "score": {
+          "last": 1258.0,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 1.722,
+          "rsi": 47.0,
+          "vol_factor": 2.0,
+          "score": 1.863
+        }
+      },
+      {
+        "time": "2026-06-03 19:41:50",
+        "iteration": 6,
         "action": "BUY",
         "symbol": "ONGC",
         "qty": 12,
