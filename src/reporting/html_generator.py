@@ -622,6 +622,8 @@ class HTMLReportGenerator:
         <div class="nav-tab" data-tab="portfolio">💼 My Portfolio</div>
         <div class="nav-tab" data-tab="sells">💰 Sell History</div>
         <div class="nav-tab" data-tab="agent">🤖 Agent Portfolio</div>
+        <div class="nav-tab" data-tab="intraday">💹 Intraday Trading</div>
+        <div class="nav-tab" data-tab="intradayHistory">📅 Intraday History</div>
     </div>
     
     <div class="container">
@@ -865,7 +867,157 @@ class HTMLReportGenerator:
             Positions are auto-closed when: Target hit ✓ | Stop-loss hit ✗ | 30 days elapsed ⏱️
         </div>
     </div>
-    
+
+    <!-- Intraday Trading tab -->
+    <div class="tab-content" id="intraday">
+        <h3 style="margin-bottom: 12px;">💹 Intraday Trading Agent</h3>
+        <p style="margin-bottom: 18px; color: #666;">
+            Mandated daily deployment of <strong>₹1,00,000</strong> (between ₹90,000 and ₹1,00,000),
+            spread across <strong>14</strong> evaluations from 9:15 AM to 3:30 PM IST.
+            Every position is closed on the same trading day — strictly intraday.
+        </p>
+
+        <div id="intradayUnavailable" class="empty-state" style="display:none;">
+            <div class="icon">⏳</div>
+            <h3>No intraday data yet</h3>
+            <p>Waiting for the first run of the day. Workflow runs Mon–Fri, 9:15 AM – 3:30 PM IST.</p>
+        </div>
+
+        <div id="intradayContent">
+            <div class="portfolio-summary" style="margin-bottom: 20px;">
+                <div class="portfolio-stat">
+                    <div class="value" id="intraDate">—</div>
+                    <div class="label">Trading Day</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="intraIter">0 / 14</div>
+                    <div class="label">Iteration</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="intraInvested">₹0</div>
+                    <div class="label">Invested Today</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="intraPnl">₹0</div>
+                    <div class="label">Realised P&L</div>
+                </div>
+                <div class="portfolio-stat">
+                    <div class="value" id="intraOpen">0</div>
+                    <div class="label">Open Positions</div>
+                </div>
+            </div>
+
+            <h4 style="margin: 20px 0 10px;">Open Intraday Positions</h4>
+            <div style="overflow-x:auto;">
+                <table class="portfolio-table">
+                    <thead>
+                        <tr>
+                            <th>Stock</th><th>Buy Time</th><th>Iter</th>
+                            <th>Qty</th><th>Buy Price</th><th>Cost</th>
+                            <th>Score Info</th>
+                        </tr>
+                    </thead>
+                    <tbody id="intraOpenBody"></tbody>
+                </table>
+            </div>
+            <div class="empty-state" id="intraOpenEmpty" style="display:none;">
+                <div class="icon">📭</div>
+                <h3>No open positions right now</h3>
+                <p>Either we haven't bought yet today, or we already squared off.</p>
+            </div>
+
+            <h4 style="margin: 30px 0 10px;">Today's Trades</h4>
+            <div style="overflow-x:auto;">
+                <table class="sells-table">
+                    <thead>
+                        <tr>
+                            <th>Time</th><th>Iter</th><th>Action</th><th>Stock</th>
+                            <th>Qty</th><th>Price</th><th>P&L</th><th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody id="intraTradesBody"></tbody>
+                </table>
+            </div>
+            <div class="empty-state" id="intraTradesEmpty" style="display:none;">
+                <div class="icon">🕒</div>
+                <h3>No trades yet today</h3>
+            </div>
+
+            <h4 style="margin: 30px 0 10px;">Iteration Log</h4>
+            <div style="overflow-x:auto;">
+                <table class="sells-table">
+                    <thead>
+                        <tr>
+                            <th>Iter</th><th>Time</th><th>Bought</th><th>Sold</th>
+                            <th>Cumulative Invested</th><th>Realised P&L</th><th>Open</th>
+                        </tr>
+                    </thead>
+                    <tbody id="intraIterBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="disclaimer" style="margin-top: 20px;">
+            ℹ️ Storage: <code>data/intraday_portfolio.json</code> committed by GitHub Actions —
+            free, version-controlled, no third-party DB required.
+        </div>
+    </div>
+
+    <!-- Intraday History tab -->
+    <div class="tab-content" id="intradayHistory">
+        <h3 style="margin-bottom: 12px;">📅 Intraday Day-wise History</h3>
+        <p style="margin-bottom: 18px; color: #666;">
+            Each row is one trading day. Click a date to expand the trades and the
+            self-generated feedback note for that day.
+        </p>
+
+        <div class="portfolio-summary" style="margin-bottom: 20px;">
+            <div class="portfolio-stat">
+                <div class="value" id="ihTotalDays">0</div>
+                <div class="label">Days Traded</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="ihWinRate">—</div>
+                <div class="label">Win Rate</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="ihTotalPnl">₹0</div>
+                <div class="label">Cumulative P&L</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="ihBestDay">₹0</div>
+                <div class="label">Best Day</div>
+            </div>
+            <div class="portfolio-stat">
+                <div class="value" id="ihWorstDay">₹0</div>
+                <div class="label">Worst Day</div>
+            </div>
+        </div>
+
+        <div style="overflow-x:auto;">
+            <table class="sells-table">
+                <thead>
+                    <tr>
+                        <th>Date</th><th>Iters</th><th>Invested</th>
+                        <th>Buys</th><th>Sells</th>
+                        <th>Realised P&L</th><th>Return %</th><th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="intraHistoryBody"></tbody>
+            </table>
+        </div>
+        <div class="empty-state" id="intraHistoryEmpty" style="display:none;">
+            <div class="icon">📅</div>
+            <h3>No completed days yet</h3>
+            <p>History appears after the day's final iteration liquidates positions.</p>
+        </div>
+
+        <h4 style="margin: 30px 0 10px;">Latest Feedback Notes</h4>
+        <div id="intraFeedbackBox" style="background:#fff8e6; border:1px solid #f0d68c; padding:14px; border-radius:8px;">
+            <em>No feedback yet.</em>
+        </div>
+    </div>
+
     <!-- Sell Modal -->
     <div id="sellModal" style="display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.5); z-index:1000; align-items:center; justify-content:center;">
         <div style="background:white; padding:25px; border-radius:12px; max-width:400px; width:90%;">
@@ -900,6 +1052,7 @@ class HTMLReportGenerator:
             loadPortfolio();
             loadSells();
             loadAgentPortfolio();
+            loadIntraday();
             loadStockUniverse();
             initSearch();
             document.getElementById('buyDate').valueAsDate = new Date();
@@ -1468,6 +1621,218 @@ class HTMLReportGenerator:
                         </tr>
                     `;
                 }}).join('');
+            }}
+        }}
+
+        // ============== Intraday Trading tab ==============
+        async function loadIntraday() {{
+            try {{
+                const r = await fetch('data/intraday_portfolio.json');
+                if (!r.ok) {{ showIntradayUnavailable(); return; }}
+                const data = await r.json();
+                renderIntraday(data);
+                renderIntradayHistory(data);
+            }} catch(e) {{
+                console.log('intraday data not available yet:', e);
+                showIntradayUnavailable();
+            }}
+        }}
+
+        function showIntradayUnavailable() {{
+            document.getElementById('intradayUnavailable').style.display = 'block';
+            document.getElementById('intradayContent').style.display = 'none';
+            document.getElementById('intraHistoryEmpty').style.display = 'block';
+        }}
+
+        function fmtMoney(n) {{
+            if (n === undefined || n === null) return '₹0';
+            const sign = n < 0 ? '-' : '';
+            return sign + '₹' + Math.abs(Math.round(n)).toLocaleString('en-IN');
+        }}
+
+        function renderIntraday(data) {{
+            const day = data.current_day;
+            // Day might be null right after archive — fall back to last history entry
+            // for the "Today's snapshot" so the user still sees the most recent day.
+            let snapshot = day;
+            let isLive = !!day;
+            if (!day && Array.isArray(data.history) && data.history.length) {{
+                const last = data.history[data.history.length - 1];
+                snapshot = {{
+                    date: last.date + ' (closed)',
+                    iterations_run: last.iterations_run,
+                    total_iterations: last.iterations_run,
+                    invested_today: last.invested,
+                    realized_pnl_today: last.realized_pnl,
+                    open_positions: [],
+                    trades: last.trades || [],
+                    iteration_log: [],
+                }};
+            }}
+            if (!snapshot) {{
+                showIntradayUnavailable();
+                return;
+            }}
+
+            document.getElementById('intraDate').textContent = snapshot.date || '—';
+            const total = snapshot.total_iterations || 14;
+            document.getElementById('intraIter').textContent =
+                `${{snapshot.iterations_run || 0}} / ${{total}}`;
+            document.getElementById('intraInvested').textContent =
+                fmtMoney(snapshot.invested_today || 0);
+            const pnlEl = document.getElementById('intraPnl');
+            const pnl = snapshot.realized_pnl_today || 0;
+            pnlEl.textContent = (pnl >= 0 ? '+' : '') + fmtMoney(pnl);
+            pnlEl.style.color = pnl >= 0 ? 'var(--success)' : 'var(--danger)';
+            document.getElementById('intraOpen').textContent =
+                (snapshot.open_positions || []).length;
+
+            // Open positions
+            const obody = document.getElementById('intraOpenBody');
+            const oempty = document.getElementById('intraOpenEmpty');
+            const positions = snapshot.open_positions || [];
+            if (positions.length === 0) {{
+                obody.innerHTML = '';
+                oempty.style.display = 'block';
+            }} else {{
+                oempty.style.display = 'none';
+                obody.innerHTML = positions.map(p => {{
+                    const info = p.score_info || {{}};
+                    const cost = (p.qty * p.buy_price).toFixed(0);
+                    return `<tr>
+                        <td><strong>${{p.symbol}}</strong></td>
+                        <td>${{p.buy_time || '—'}}</td>
+                        <td>${{p.iteration ?? '—'}}</td>
+                        <td>${{p.qty}}</td>
+                        <td>₹${{Number(p.buy_price).toFixed(2)}}</td>
+                        <td>₹${{Number(cost).toLocaleString('en-IN')}}</td>
+                        <td><small>RSI ${{info.rsi ?? '-'}} · 30m ${{info.mom_30m_pct ?? '-'}}% · score ${{info.score ?? '-'}}</small></td>
+                    </tr>`;
+                }}).join('');
+            }}
+
+            // Trades
+            const tbody = document.getElementById('intraTradesBody');
+            const tempty = document.getElementById('intraTradesEmpty');
+            const trades = snapshot.trades || [];
+            if (trades.length === 0) {{
+                tbody.innerHTML = '';
+                tempty.style.display = 'block';
+            }} else {{
+                tempty.style.display = 'none';
+                tbody.innerHTML = trades.slice().reverse().map(t => {{
+                    const isSell = t.action === 'SELL';
+                    const pnlCell = isSell
+                        ? `<td class="${{t.pnl >= 0 ? 'profit' : 'loss'}}">
+                              ${{t.pnl >= 0 ? '+' : ''}}${{fmtMoney(t.pnl)}}
+                              <small>(${{(t.pnl_pct ?? 0).toFixed?.(2) ?? t.pnl_pct}}%)</small>
+                           </td>`
+                        : `<td>—</td>`;
+                    const badgeClass = isSell ? (t.pnl >= 0 ? 'strong-buy' : 'sell') : 'buy';
+                    return `<tr>
+                        <td>${{t.time || '—'}}</td>
+                        <td>${{t.iteration ?? '—'}}</td>
+                        <td><span class="badge ${{badgeClass}}">${{t.action}}</span></td>
+                        <td><strong>${{t.symbol}}</strong></td>
+                        <td>${{t.qty}}</td>
+                        <td>₹${{Number(t.price).toFixed(2)}}</td>
+                        ${{pnlCell}}
+                        <td>${{t.reason || (t.action === 'BUY' ? 'Top intraday pick' : '')}}</td>
+                    </tr>`;
+                }}).join('');
+            }}
+
+            // Iteration log
+            const ibody = document.getElementById('intraIterBody');
+            const log = snapshot.iteration_log || [];
+            ibody.innerHTML = log.map(it => `
+                <tr>
+                    <td>${{it.iteration}}</td>
+                    <td>${{it.time}}</td>
+                    <td>${{it.n_bought}}</td>
+                    <td>${{it.n_sold}}</td>
+                    <td>${{fmtMoney(it.invested_today_after)}}</td>
+                    <td class="${{it.realized_pnl_today_after >= 0 ? 'profit' : 'loss'}}">
+                        ${{it.realized_pnl_today_after >= 0 ? '+' : ''}}${{fmtMoney(it.realized_pnl_today_after)}}
+                    </td>
+                    <td>${{it.open_positions_after}}</td>
+                </tr>
+            `).join('');
+        }}
+
+        function renderIntradayHistory(data) {{
+            const stats = data.stats || {{}};
+            const hist = data.history || [];
+            const winDays = stats.winning_days || 0;
+            const totalDays = stats.total_days || 0;
+            const winRate = totalDays ? Math.round((winDays / totalDays) * 100) : null;
+
+            document.getElementById('ihTotalDays').textContent = totalDays;
+            document.getElementById('ihWinRate').textContent =
+                winRate === null ? '—' : `${{winRate}}%`;
+            const totalPnl = stats.total_realized_pnl || 0;
+            const tEl = document.getElementById('ihTotalPnl');
+            tEl.textContent = (totalPnl >= 0 ? '+' : '') + fmtMoney(totalPnl);
+            tEl.style.color = totalPnl >= 0 ? 'var(--success)' : 'var(--danger)';
+            document.getElementById('ihBestDay').textContent = '+' + fmtMoney(stats.best_day_pnl || 0);
+            document.getElementById('ihWorstDay').textContent = fmtMoney(stats.worst_day_pnl || 0);
+
+            const body = document.getElementById('intraHistoryBody');
+            const empty = document.getElementById('intraHistoryEmpty');
+            if (hist.length === 0) {{
+                body.innerHTML = '';
+                empty.style.display = 'block';
+            }} else {{
+                empty.style.display = 'none';
+                body.innerHTML = hist.slice().reverse().map((h, idx) => {{
+                    const rowId = `histRow_${{idx}}`;
+                    const tradesHtml = (h.trades || []).map(t => {{
+                        const cls = t.action === 'SELL'
+                            ? (t.pnl >= 0 ? 'profit' : 'loss') : '';
+                        const extra = t.action === 'SELL'
+                            ? `${{t.pnl >= 0 ? '+' : ''}}${{fmtMoney(t.pnl)}} (${{(t.pnl_pct ?? 0).toFixed?.(2) ?? t.pnl_pct}}%)`
+                            : `Cost ${{fmtMoney(t.cost || (t.qty * t.price))}}`;
+                        return `<div style="font-size:12px; padding:2px 0;" class="${{cls}}">
+                            ${{t.time}} · <strong>${{t.action}}</strong> ${{t.symbol}} ×${{t.qty}} @ ₹${{Number(t.price).toFixed(2)}} · ${{extra}} ${{t.reason ? '· ' + t.reason : ''}}
+                        </div>`;
+                    }}).join('');
+                    return `
+                        <tr style="cursor:pointer;" onclick="document.getElementById('${{rowId}}').style.display = (document.getElementById('${{rowId}}').style.display === 'table-row') ? 'none' : 'table-row';">
+                            <td><strong>${{h.date}}</strong></td>
+                            <td>${{h.iterations_run}}</td>
+                            <td>${{fmtMoney(h.invested)}}</td>
+                            <td>${{h.n_buys}}</td>
+                            <td>${{h.n_sells}}</td>
+                            <td class="${{h.realized_pnl >= 0 ? 'profit' : 'loss'}}">
+                                ${{h.realized_pnl >= 0 ? '+' : ''}}${{fmtMoney(h.realized_pnl)}}
+                            </td>
+                            <td class="${{h.pnl_pct >= 0 ? 'profit' : 'loss'}}">
+                                ${{h.pnl_pct >= 0 ? '+' : ''}}${{(h.pnl_pct ?? 0).toFixed?.(2) ?? h.pnl_pct}}%
+                            </td>
+                            <td>
+                                <span class="badge ${{h.profitable ? 'strong-buy' : 'sell'}}">
+                                    ${{h.profitable ? 'PROFIT' : 'LOSS'}}
+                                </span>
+                            </td>
+                        </tr>
+                        <tr id="${{rowId}}" style="display:none; background:#fafafa;">
+                            <td colspan="8" style="padding:10px 14px;">
+                                <div style="margin-bottom:8px;"><strong>Feedback:</strong> ${{h.feedback || '—'}}</div>
+                                <div><strong>Trades:</strong></div>
+                                ${{tradesHtml || '<em>No trades.</em>'}}
+                            </td>
+                        </tr>
+                    `;
+                }}).join('');
+            }}
+
+            // Feedback box
+            const notes = (stats.feedback_notes || []).slice(-5).reverse();
+            const fb = document.getElementById('intraFeedbackBox');
+            if (notes.length) {{
+                fb.innerHTML = notes.map(n =>
+                    `<div style="margin-bottom:8px;"><strong>${{n.date}}:</strong> ${{n.note}}</div>`
+                ).join('');
             }}
         }}
     </script>
