@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-04",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13198.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-06-04 14:07:17",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 21054.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 13198.600280761719,
+    "invested_today": 21054.80010986328,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -84,6 +93,36 @@
           "rsi": 52.7,
           "vol_factor": 0.47,
           "score": 0.372
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2970.7,
+        "buy_time": "2026-06-04 14:07:17",
+        "iteration": 3,
+        "score_info": {
+          "last": 2970.7,
+          "mom_30m_pct": 0.074,
+          "intraday_pct": 1.334,
+          "rsi": 56.3,
+          "vol_factor": 0.7,
+          "score": 0.207
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 5,
+        "buy_price": 977.1,
+        "buy_time": "2026-06-04 14:07:17",
+        "iteration": 3,
+        "score_info": {
+          "last": 977.1,
+          "mom_30m_pct": 0.221,
+          "intraday_pct": 1.596,
+          "rsi": 41.4,
+          "vol_factor": 0.32,
+          "score": 0.134
         }
       }
     ],
@@ -154,6 +193,40 @@
           "rsi": 52.7,
           "vol_factor": 0.47,
           "score": 0.372
+        }
+      },
+      {
+        "time": "2026-06-04 14:07:17",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2970.7,
+        "cost": 2970.7,
+        "score": {
+          "last": 2970.7,
+          "mom_30m_pct": 0.074,
+          "intraday_pct": 1.334,
+          "rsi": 56.3,
+          "vol_factor": 0.7,
+          "score": 0.207
+        }
+      },
+      {
+        "time": "2026-06-04 14:07:17",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 5,
+        "price": 977.1,
+        "cost": 4885.5,
+        "score": {
+          "last": 977.1,
+          "mom_30m_pct": 0.221,
+          "intraday_pct": 1.596,
+          "rsi": 41.4,
+          "vol_factor": 0.32,
+          "score": 0.134
         }
       }
     ],
