@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-04",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 38306.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-06-04 15:05:15",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 46173.45,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 38306.100036621094,
+    "invested_today": 46173.4501953125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -216,6 +225,36 @@
           "rsi": 61.7,
           "vol_factor": 0.92,
           "score": 0.586
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 5,
+        "buy_price": 979.45,
+        "buy_time": "2026-06-04 15:05:15",
+        "iteration": 6,
+        "score_info": {
+          "last": 979.45,
+          "mom_30m_pct": 0.271,
+          "intraday_pct": 0.87,
+          "rsi": 65.8,
+          "vol_factor": 1.0,
+          "score": 0.668
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2970.1,
+        "buy_time": "2026-06-04 15:05:15",
+        "iteration": 6,
+        "score_info": {
+          "last": 2970.1,
+          "mom_30m_pct": 0.118,
+          "intraday_pct": 1.507,
+          "rsi": 58.2,
+          "vol_factor": 1.0,
+          "score": 0.629
         }
       }
     ],
@@ -405,6 +444,40 @@
           "rsi": 61.7,
           "vol_factor": 0.92,
           "score": 0.586
+        }
+      },
+      {
+        "time": "2026-06-04 15:05:15",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 5,
+        "price": 979.45,
+        "cost": 4897.25,
+        "score": {
+          "last": 979.45,
+          "mom_30m_pct": 0.271,
+          "intraday_pct": 0.87,
+          "rsi": 65.8,
+          "vol_factor": 1.0,
+          "score": 0.668
+        }
+      },
+      {
+        "time": "2026-06-04 15:05:15",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2970.1,
+        "cost": 2970.1,
+        "score": {
+          "last": 2970.1,
+          "mom_30m_pct": 0.118,
+          "intraday_pct": 1.507,
+          "rsi": 58.2,
+          "vol_factor": 1.0,
+          "score": 0.629
         }
       }
     ],
