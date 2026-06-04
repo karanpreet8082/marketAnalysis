@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-04",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 21054.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-06-04 14:11:36",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 29607.0,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 8
       }
     ],
-    "invested_today": 29606.99981689453,
+    "invested_today": 21054.80010986328,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -132,36 +123,6 @@
           "rsi": 41.4,
           "vol_factor": 0.32,
           "score": 0.134
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "buy_price": 1257.7,
-        "buy_time": "2026-06-04 14:11:36",
-        "iteration": 4,
-        "score_info": {
-          "last": 1257.7,
-          "mom_30m_pct": 0.552,
-          "intraday_pct": 1.044,
-          "rsi": 65.3,
-          "vol_factor": 0.53,
-          "score": 0.669
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 8,
-        "buy_price": 754.6,
-        "buy_time": "2026-06-04 14:11:36",
-        "iteration": 4,
-        "score_info": {
-          "last": 754.6,
-          "mom_30m_pct": 0.633,
-          "intraday_pct": 0.633,
-          "rsi": 48.4,
-          "vol_factor": 0.31,
-          "score": 0.449
         }
       }
     ],
@@ -266,40 +227,6 @@
           "rsi": 41.4,
           "vol_factor": 0.32,
           "score": 0.134
-        }
-      },
-      {
-        "time": "2026-06-04 14:11:36",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "price": 1257.7,
-        "cost": 2515.4,
-        "score": {
-          "last": 1257.7,
-          "mom_30m_pct": 0.552,
-          "intraday_pct": 1.044,
-          "rsi": 65.3,
-          "vol_factor": 0.53,
-          "score": 0.669
-        }
-      },
-      {
-        "time": "2026-06-04 14:11:36",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 8,
-        "price": 754.6,
-        "cost": 6036.8,
-        "score": {
-          "last": 754.6,
-          "mom_30m_pct": 0.633,
-          "intraday_pct": 0.633,
-          "rsi": 48.4,
-          "vol_factor": 0.31,
-          "score": 0.449
         }
       }
     ],
