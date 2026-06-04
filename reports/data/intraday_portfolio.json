@@ -1,935 +1,5 @@
 {
-  "current_day": {
-    "date": "2026-06-04",
-    "total_iterations": 14,
-    "iterations_run": 13,
-    "iteration_log": [
-      {
-        "iteration": 1,
-        "time": "2026-06-04 13:39:05",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 8088.4,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 2
-      },
-      {
-        "iteration": 2,
-        "time": "2026-06-04 13:53:15",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 13198.6,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 4
-      },
-      {
-        "iteration": 3,
-        "time": "2026-06-04 14:07:17",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 21054.8,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-06-04 14:11:36",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 29607.0,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 8
-      },
-      {
-        "iteration": 5,
-        "time": "2026-06-04 14:28:37",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 38306.1,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 11
-      },
-      {
-        "iteration": 6,
-        "time": "2026-06-04 15:05:15",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 46173.45,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 13
-      },
-      {
-        "iteration": 7,
-        "time": "2026-06-04 15:40:15",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 54927.45,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 15
-      },
-      {
-        "iteration": 8,
-        "time": "2026-06-04 15:55:51",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 63681.45,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 17
-      },
-      {
-        "iteration": 9,
-        "time": "2026-06-04 16:13:18",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 72434.65,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 19
-      },
-      {
-        "iteration": 10,
-        "time": "2026-06-04 16:21:03",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 81187.85,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 21
-      },
-      {
-        "iteration": 11,
-        "time": "2026-06-04 16:57:00",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 89941.05,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 23
-      },
-      {
-        "iteration": 12,
-        "time": "2026-06-04 17:12:12",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 98694.25,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 25
-      },
-      {
-        "iteration": 13,
-        "time": "2026-06-04 17:53:28",
-        "n_bought": 0,
-        "n_sold": 0,
-        "invested_today_after": 98694.25,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 25
-      }
-    ],
-    "invested_today": 98694.24853515625,
-    "realized_pnl_today": 0.0,
-    "open_positions": [
-      {
-        "symbol": "TATACONSUM",
-        "qty": 4,
-        "buy_price": 1146.8,
-        "buy_time": "2026-06-04 13:39:05",
-        "iteration": 1,
-        "score_info": {
-          "last": 1146.8,
-          "mom_30m_pct": 0.157,
-          "intraday_pct": 0.113,
-          "rsi": 32.1,
-          "vol_factor": 1.7,
-          "score": 0.974
-        }
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "qty": 4,
-        "buy_price": 875.3,
-        "buy_time": "2026-06-04 13:39:05",
-        "iteration": 1,
-        "score_info": {
-          "last": 875.3,
-          "mom_30m_pct": 0.143,
-          "intraday_pct": 0.195,
-          "rsi": 51.8,
-          "vol_factor": 1.22,
-          "score": 0.491
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 900.15,
-        "buy_time": "2026-06-04 13:53:15",
-        "iteration": 2,
-        "score_info": {
-          "last": 900.15,
-          "mom_30m_pct": -0.172,
-          "intraday_pct": 0.575,
-          "rsi": 32.1,
-          "vol_factor": 2.0,
-          "score": 0.915
-        }
-      },
-      {
-        "symbol": "COALINDIA",
-        "qty": 5,
-        "buy_price": 481.95,
-        "buy_time": "2026-06-04 13:53:15",
-        "iteration": 2,
-        "score_info": {
-          "last": 481.95,
-          "mom_30m_pct": 0.198,
-          "intraday_pct": 2.011,
-          "rsi": 52.7,
-          "vol_factor": 0.47,
-          "score": 0.372
-        }
-      },
-      {
-        "symbol": "ADANIENT",
-        "qty": 1,
-        "buy_price": 2970.7,
-        "buy_time": "2026-06-04 14:07:17",
-        "iteration": 3,
-        "score_info": {
-          "last": 2970.7,
-          "mom_30m_pct": 0.074,
-          "intraday_pct": 1.334,
-          "rsi": 56.3,
-          "vol_factor": 0.7,
-          "score": 0.207
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 5,
-        "buy_price": 977.1,
-        "buy_time": "2026-06-04 14:07:17",
-        "iteration": 3,
-        "score_info": {
-          "last": 977.1,
-          "mom_30m_pct": 0.221,
-          "intraday_pct": 1.596,
-          "rsi": 41.4,
-          "vol_factor": 0.32,
-          "score": 0.134
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "buy_price": 1257.7,
-        "buy_time": "2026-06-04 14:11:36",
-        "iteration": 4,
-        "score_info": {
-          "last": 1257.7,
-          "mom_30m_pct": 0.552,
-          "intraday_pct": 1.044,
-          "rsi": 65.3,
-          "vol_factor": 0.53,
-          "score": 0.669
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 8,
-        "buy_price": 754.6,
-        "buy_time": "2026-06-04 14:11:36",
-        "iteration": 4,
-        "score_info": {
-          "last": 754.6,
-          "mom_30m_pct": 0.633,
-          "intraday_pct": 0.633,
-          "rsi": 48.4,
-          "vol_factor": 0.31,
-          "score": 0.449
-        }
-      },
-      {
-        "symbol": "COALINDIA",
-        "qty": 6,
-        "buy_price": 483.45,
-        "buy_time": "2026-06-04 14:28:37",
-        "iteration": 5,
-        "score_info": {
-          "last": 483.45,
-          "mom_30m_pct": 0.426,
-          "intraday_pct": 2.469,
-          "rsi": 55.0,
-          "vol_factor": 2.0,
-          "score": 2.38
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 2,
-        "buy_price": 1128.0,
-        "buy_time": "2026-06-04 14:28:37",
-        "iteration": 5,
-        "score_info": {
-          "last": 1128.0,
-          "mom_30m_pct": 0.329,
-          "intraday_pct": -1.321,
-          "rsi": 49.3,
-          "vol_factor": 2.0,
-          "score": 1.097
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 12,
-        "buy_price": 295.2,
-        "buy_time": "2026-06-04 14:28:37",
-        "iteration": 5,
-        "score_info": {
-          "last": 295.2,
-          "mom_30m_pct": 0.306,
-          "intraday_pct": 0.682,
-          "rsi": 61.7,
-          "vol_factor": 0.92,
-          "score": 0.586
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 5,
-        "buy_price": 979.45,
-        "buy_time": "2026-06-04 15:05:15",
-        "iteration": 6,
-        "score_info": {
-          "last": 979.45,
-          "mom_30m_pct": 0.271,
-          "intraday_pct": 0.87,
-          "rsi": 65.8,
-          "vol_factor": 1.0,
-          "score": 0.668
-        }
-      },
-      {
-        "symbol": "ADANIENT",
-        "qty": 1,
-        "buy_price": 2970.1,
-        "buy_time": "2026-06-04 15:05:15",
-        "iteration": 6,
-        "score_info": {
-          "last": 2970.1,
-          "mom_30m_pct": 0.118,
-          "intraday_pct": 1.507,
-          "rsi": 58.2,
-          "vol_factor": 1.0,
-          "score": 0.629
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 2,
-        "buy_price": 1399.1,
-        "buy_time": "2026-06-04 15:40:15",
-        "iteration": 7,
-        "score_info": {
-          "last": 1399.1,
-          "mom_30m_pct": 0.402,
-          "intraday_pct": 2.928,
-          "rsi": 70.4,
-          "vol_factor": 2.0,
-          "score": 2.481
-        }
-      },
-      {
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "buy_price": 2977.9,
-        "buy_time": "2026-06-04 15:40:15",
-        "iteration": 7,
-        "score_info": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 2,
-        "buy_price": 1399.1,
-        "buy_time": "2026-06-04 15:55:51",
-        "iteration": 8,
-        "score_info": {
-          "last": 1399.1,
-          "mom_30m_pct": 0.402,
-          "intraday_pct": 2.928,
-          "rsi": 70.4,
-          "vol_factor": 2.0,
-          "score": 2.481
-        }
-      },
-      {
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "buy_price": 2977.9,
-        "buy_time": "2026-06-04 15:55:51",
-        "iteration": 8,
-        "score_info": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 2,
-        "buy_price": 1398.7,
-        "buy_time": "2026-06-04 16:13:18",
-        "iteration": 9,
-        "score_info": {
-          "last": 1398.7,
-          "mom_30m_pct": 0.373,
-          "intraday_pct": 2.899,
-          "rsi": 69.8,
-          "vol_factor": 2.0,
-          "score": 2.429
-        }
-      },
-      {
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "buy_price": 2977.9,
-        "buy_time": "2026-06-04 16:13:18",
-        "iteration": 9,
-        "score_info": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 2,
-        "buy_price": 1398.7,
-        "buy_time": "2026-06-04 16:21:03",
-        "iteration": 10,
-        "score_info": {
-          "last": 1398.7,
-          "mom_30m_pct": 0.373,
-          "intraday_pct": 2.899,
-          "rsi": 69.8,
-          "vol_factor": 2.0,
-          "score": 2.429
-        }
-      },
-      {
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "buy_price": 2977.9,
-        "buy_time": "2026-06-04 16:21:03",
-        "iteration": 10,
-        "score_info": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 2,
-        "buy_price": 1398.7,
-        "buy_time": "2026-06-04 16:57:00",
-        "iteration": 11,
-        "score_info": {
-          "last": 1398.7,
-          "mom_30m_pct": 0.373,
-          "intraday_pct": 2.899,
-          "rsi": 69.8,
-          "vol_factor": 2.0,
-          "score": 2.429
-        }
-      },
-      {
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "buy_price": 2977.9,
-        "buy_time": "2026-06-04 16:57:00",
-        "iteration": 11,
-        "score_info": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 2,
-        "buy_price": 1398.7,
-        "buy_time": "2026-06-04 17:12:12",
-        "iteration": 12,
-        "score_info": {
-          "last": 1398.7,
-          "mom_30m_pct": 0.373,
-          "intraday_pct": 2.899,
-          "rsi": 69.8,
-          "vol_factor": 2.0,
-          "score": 2.429
-        }
-      },
-      {
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "buy_price": 2977.9,
-        "buy_time": "2026-06-04 17:12:12",
-        "iteration": 12,
-        "score_info": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      }
-    ],
-    "trades": [
-      {
-        "time": "2026-06-04 13:39:05",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "TATACONSUM",
-        "qty": 4,
-        "price": 1146.8,
-        "cost": 4587.2,
-        "score": {
-          "last": 1146.8,
-          "mom_30m_pct": 0.157,
-          "intraday_pct": 0.113,
-          "rsi": 32.1,
-          "vol_factor": 1.7,
-          "score": 0.974
-        }
-      },
-      {
-        "time": "2026-06-04 13:39:05",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "BAJFINANCE",
-        "qty": 4,
-        "price": 875.3,
-        "cost": 3501.2,
-        "score": {
-          "last": 875.3,
-          "mom_30m_pct": 0.143,
-          "intraday_pct": 0.195,
-          "rsi": 51.8,
-          "vol_factor": 1.22,
-          "score": 0.491
-        }
-      },
-      {
-        "time": "2026-06-04 13:53:15",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 900.15,
-        "cost": 2700.45,
-        "score": {
-          "last": 900.15,
-          "mom_30m_pct": -0.172,
-          "intraday_pct": 0.575,
-          "rsi": 32.1,
-          "vol_factor": 2.0,
-          "score": 0.915
-        }
-      },
-      {
-        "time": "2026-06-04 13:53:15",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "COALINDIA",
-        "qty": 5,
-        "price": 481.95,
-        "cost": 2409.75,
-        "score": {
-          "last": 481.95,
-          "mom_30m_pct": 0.198,
-          "intraday_pct": 2.011,
-          "rsi": 52.7,
-          "vol_factor": 0.47,
-          "score": 0.372
-        }
-      },
-      {
-        "time": "2026-06-04 14:07:17",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 1,
-        "price": 2970.7,
-        "cost": 2970.7,
-        "score": {
-          "last": 2970.7,
-          "mom_30m_pct": 0.074,
-          "intraday_pct": 1.334,
-          "rsi": 56.3,
-          "vol_factor": 0.7,
-          "score": 0.207
-        }
-      },
-      {
-        "time": "2026-06-04 14:07:17",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "SBIN",
-        "qty": 5,
-        "price": 977.1,
-        "cost": 4885.5,
-        "score": {
-          "last": 977.1,
-          "mom_30m_pct": 0.221,
-          "intraday_pct": 1.596,
-          "rsi": 41.4,
-          "vol_factor": 0.32,
-          "score": 0.134
-        }
-      },
-      {
-        "time": "2026-06-04 14:11:36",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "price": 1257.7,
-        "cost": 2515.4,
-        "score": {
-          "last": 1257.7,
-          "mom_30m_pct": 0.552,
-          "intraday_pct": 1.044,
-          "rsi": 65.3,
-          "vol_factor": 0.53,
-          "score": 0.669
-        }
-      },
-      {
-        "time": "2026-06-04 14:11:36",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 8,
-        "price": 754.6,
-        "cost": 6036.8,
-        "score": {
-          "last": 754.6,
-          "mom_30m_pct": 0.633,
-          "intraday_pct": 0.633,
-          "rsi": 48.4,
-          "vol_factor": 0.31,
-          "score": 0.449
-        }
-      },
-      {
-        "time": "2026-06-04 14:28:37",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "COALINDIA",
-        "qty": 6,
-        "price": 483.45,
-        "cost": 2900.7,
-        "score": {
-          "last": 483.45,
-          "mom_30m_pct": 0.426,
-          "intraday_pct": 2.469,
-          "rsi": 55.0,
-          "vol_factor": 2.0,
-          "score": 2.38
-        }
-      },
-      {
-        "time": "2026-06-04 14:28:37",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "HINDALCO",
-        "qty": 2,
-        "price": 1128.0,
-        "cost": 2256.0,
-        "score": {
-          "last": 1128.0,
-          "mom_30m_pct": 0.329,
-          "intraday_pct": -1.321,
-          "rsi": 49.3,
-          "vol_factor": 2.0,
-          "score": 1.097
-        }
-      },
-      {
-        "time": "2026-06-04 14:28:37",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 12,
-        "price": 295.2,
-        "cost": 3542.4,
-        "score": {
-          "last": 295.2,
-          "mom_30m_pct": 0.306,
-          "intraday_pct": 0.682,
-          "rsi": 61.7,
-          "vol_factor": 0.92,
-          "score": 0.586
-        }
-      },
-      {
-        "time": "2026-06-04 15:05:15",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "SBIN",
-        "qty": 5,
-        "price": 979.45,
-        "cost": 4897.25,
-        "score": {
-          "last": 979.45,
-          "mom_30m_pct": 0.271,
-          "intraday_pct": 0.87,
-          "rsi": 65.8,
-          "vol_factor": 1.0,
-          "score": 0.668
-        }
-      },
-      {
-        "time": "2026-06-04 15:05:15",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 1,
-        "price": 2970.1,
-        "cost": 2970.1,
-        "score": {
-          "last": 2970.1,
-          "mom_30m_pct": 0.118,
-          "intraday_pct": 1.507,
-          "rsi": 58.2,
-          "vol_factor": 1.0,
-          "score": 0.629
-        }
-      },
-      {
-        "time": "2026-06-04 15:40:15",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "CIPLA",
-        "qty": 2,
-        "price": 1399.1,
-        "cost": 2798.2,
-        "score": {
-          "last": 1399.1,
-          "mom_30m_pct": 0.402,
-          "intraday_pct": 2.928,
-          "rsi": 70.4,
-          "vol_factor": 2.0,
-          "score": 2.481
-        }
-      },
-      {
-        "time": "2026-06-04 15:40:15",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "price": 2977.9,
-        "cost": 5955.8,
-        "score": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "time": "2026-06-04 15:55:51",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "CIPLA",
-        "qty": 2,
-        "price": 1399.1,
-        "cost": 2798.2,
-        "score": {
-          "last": 1399.1,
-          "mom_30m_pct": 0.402,
-          "intraday_pct": 2.928,
-          "rsi": 70.4,
-          "vol_factor": 2.0,
-          "score": 2.481
-        }
-      },
-      {
-        "time": "2026-06-04 15:55:51",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "price": 2977.9,
-        "cost": 5955.8,
-        "score": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "time": "2026-06-04 16:13:18",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "CIPLA",
-        "qty": 2,
-        "price": 1398.7,
-        "cost": 2797.4,
-        "score": {
-          "last": 1398.7,
-          "mom_30m_pct": 0.373,
-          "intraday_pct": 2.899,
-          "rsi": 69.8,
-          "vol_factor": 2.0,
-          "score": 2.429
-        }
-      },
-      {
-        "time": "2026-06-04 16:13:18",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "price": 2977.9,
-        "cost": 5955.8,
-        "score": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "time": "2026-06-04 16:21:03",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "CIPLA",
-        "qty": 2,
-        "price": 1398.7,
-        "cost": 2797.4,
-        "score": {
-          "last": 1398.7,
-          "mom_30m_pct": 0.373,
-          "intraday_pct": 2.899,
-          "rsi": 69.8,
-          "vol_factor": 2.0,
-          "score": 2.429
-        }
-      },
-      {
-        "time": "2026-06-04 16:21:03",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "price": 2977.9,
-        "cost": 5955.8,
-        "score": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "time": "2026-06-04 16:57:00",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "CIPLA",
-        "qty": 2,
-        "price": 1398.7,
-        "cost": 2797.4,
-        "score": {
-          "last": 1398.7,
-          "mom_30m_pct": 0.373,
-          "intraday_pct": 2.899,
-          "rsi": 69.8,
-          "vol_factor": 2.0,
-          "score": 2.429
-        }
-      },
-      {
-        "time": "2026-06-04 16:57:00",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "price": 2977.9,
-        "cost": 5955.8,
-        "score": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      },
-      {
-        "time": "2026-06-04 17:12:12",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "CIPLA",
-        "qty": 2,
-        "price": 1398.7,
-        "cost": 2797.4,
-        "score": {
-          "last": 1398.7,
-          "mom_30m_pct": 0.373,
-          "intraday_pct": 2.899,
-          "rsi": 69.8,
-          "vol_factor": 2.0,
-          "score": 2.429
-        }
-      },
-      {
-        "time": "2026-06-04 17:12:12",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "price": 2977.9,
-        "cost": 5955.8,
-        "score": {
-          "last": 2977.9,
-          "mom_30m_pct": 0.378,
-          "intraday_pct": 0.642,
-          "rsi": 74.2,
-          "vol_factor": 1.96,
-          "score": 1.724
-        }
-      }
-    ],
-    "closed": false
-  },
+  "current_day": null,
   "history": [
     {
       "date": "2026-06-03",
@@ -1378,19 +448,761 @@
       "n_sells": 15,
       "feedback": "Day P&L \u20b90 on \u20b957555 deployed (0.00%). Profitable day \u2014 keep current parameters.",
       "profitable": false
+    },
+    {
+      "date": "2026-06-04",
+      "iterations_run": 14,
+      "invested": 98694.25,
+      "realized_pnl": 7.3,
+      "pnl_pct": 0.007,
+      "trades": [
+        {
+          "time": "2026-06-04 13:39:05",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "TATACONSUM",
+          "qty": 4,
+          "price": 1146.8,
+          "cost": 4587.2,
+          "score": {
+            "last": 1146.8,
+            "mom_30m_pct": 0.157,
+            "intraday_pct": 0.113,
+            "rsi": 32.1,
+            "vol_factor": 1.7,
+            "score": 0.974
+          }
+        },
+        {
+          "time": "2026-06-04 13:39:05",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "BAJFINANCE",
+          "qty": 4,
+          "price": 875.3,
+          "cost": 3501.2,
+          "score": {
+            "last": 875.3,
+            "mom_30m_pct": 0.143,
+            "intraday_pct": 0.195,
+            "rsi": 51.8,
+            "vol_factor": 1.22,
+            "score": 0.491
+          }
+        },
+        {
+          "time": "2026-06-04 13:53:15",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 900.15,
+          "cost": 2700.45,
+          "score": {
+            "last": 900.15,
+            "mom_30m_pct": -0.172,
+            "intraday_pct": 0.575,
+            "rsi": 32.1,
+            "vol_factor": 2.0,
+            "score": 0.915
+          }
+        },
+        {
+          "time": "2026-06-04 13:53:15",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "COALINDIA",
+          "qty": 5,
+          "price": 481.95,
+          "cost": 2409.75,
+          "score": {
+            "last": 481.95,
+            "mom_30m_pct": 0.198,
+            "intraday_pct": 2.011,
+            "rsi": 52.7,
+            "vol_factor": 0.47,
+            "score": 0.372
+          }
+        },
+        {
+          "time": "2026-06-04 14:07:17",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 1,
+          "price": 2970.7,
+          "cost": 2970.7,
+          "score": {
+            "last": 2970.7,
+            "mom_30m_pct": 0.074,
+            "intraday_pct": 1.334,
+            "rsi": 56.3,
+            "vol_factor": 0.7,
+            "score": 0.207
+          }
+        },
+        {
+          "time": "2026-06-04 14:07:17",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "SBIN",
+          "qty": 5,
+          "price": 977.1,
+          "cost": 4885.5,
+          "score": {
+            "last": 977.1,
+            "mom_30m_pct": 0.221,
+            "intraday_pct": 1.596,
+            "rsi": 41.4,
+            "vol_factor": 0.32,
+            "score": 0.134
+          }
+        },
+        {
+          "time": "2026-06-04 14:11:36",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "ICICIBANK",
+          "qty": 2,
+          "price": 1257.7,
+          "cost": 2515.4,
+          "score": {
+            "last": 1257.7,
+            "mom_30m_pct": 0.552,
+            "intraday_pct": 1.044,
+            "rsi": 65.3,
+            "vol_factor": 0.53,
+            "score": 0.669
+          }
+        },
+        {
+          "time": "2026-06-04 14:11:36",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "HDFCBANK",
+          "qty": 8,
+          "price": 754.6,
+          "cost": 6036.8,
+          "score": {
+            "last": 754.6,
+            "mom_30m_pct": 0.633,
+            "intraday_pct": 0.633,
+            "rsi": 48.4,
+            "vol_factor": 0.31,
+            "score": 0.449
+          }
+        },
+        {
+          "time": "2026-06-04 14:28:37",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "COALINDIA",
+          "qty": 6,
+          "price": 483.45,
+          "cost": 2900.7,
+          "score": {
+            "last": 483.45,
+            "mom_30m_pct": 0.426,
+            "intraday_pct": 2.469,
+            "rsi": 55.0,
+            "vol_factor": 2.0,
+            "score": 2.38
+          }
+        },
+        {
+          "time": "2026-06-04 14:28:37",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "HINDALCO",
+          "qty": 2,
+          "price": 1128.0,
+          "cost": 2256.0,
+          "score": {
+            "last": 1128.0,
+            "mom_30m_pct": 0.329,
+            "intraday_pct": -1.321,
+            "rsi": 49.3,
+            "vol_factor": 2.0,
+            "score": 1.097
+          }
+        },
+        {
+          "time": "2026-06-04 14:28:37",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "BPCL",
+          "qty": 12,
+          "price": 295.2,
+          "cost": 3542.4,
+          "score": {
+            "last": 295.2,
+            "mom_30m_pct": 0.306,
+            "intraday_pct": 0.682,
+            "rsi": 61.7,
+            "vol_factor": 0.92,
+            "score": 0.586
+          }
+        },
+        {
+          "time": "2026-06-04 15:05:15",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "SBIN",
+          "qty": 5,
+          "price": 979.45,
+          "cost": 4897.25,
+          "score": {
+            "last": 979.45,
+            "mom_30m_pct": 0.271,
+            "intraday_pct": 0.87,
+            "rsi": 65.8,
+            "vol_factor": 1.0,
+            "score": 0.668
+          }
+        },
+        {
+          "time": "2026-06-04 15:05:15",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 1,
+          "price": 2970.1,
+          "cost": 2970.1,
+          "score": {
+            "last": 2970.1,
+            "mom_30m_pct": 0.118,
+            "intraday_pct": 1.507,
+            "rsi": 58.2,
+            "vol_factor": 1.0,
+            "score": 0.629
+          }
+        },
+        {
+          "time": "2026-06-04 15:40:15",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1399.1,
+          "cost": 2798.2,
+          "score": {
+            "last": 1399.1,
+            "mom_30m_pct": 0.402,
+            "intraday_pct": 2.928,
+            "rsi": 70.4,
+            "vol_factor": 2.0,
+            "score": 2.481
+          }
+        },
+        {
+          "time": "2026-06-04 15:40:15",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "cost": 5955.8,
+          "score": {
+            "last": 2977.9,
+            "mom_30m_pct": 0.378,
+            "intraday_pct": 0.642,
+            "rsi": 74.2,
+            "vol_factor": 1.96,
+            "score": 1.724
+          }
+        },
+        {
+          "time": "2026-06-04 15:55:51",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1399.1,
+          "cost": 2798.2,
+          "score": {
+            "last": 1399.1,
+            "mom_30m_pct": 0.402,
+            "intraday_pct": 2.928,
+            "rsi": 70.4,
+            "vol_factor": 2.0,
+            "score": 2.481
+          }
+        },
+        {
+          "time": "2026-06-04 15:55:51",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "cost": 5955.8,
+          "score": {
+            "last": 2977.9,
+            "mom_30m_pct": 0.378,
+            "intraday_pct": 0.642,
+            "rsi": 74.2,
+            "vol_factor": 1.96,
+            "score": 1.724
+          }
+        },
+        {
+          "time": "2026-06-04 16:13:18",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "cost": 2797.4,
+          "score": {
+            "last": 1398.7,
+            "mom_30m_pct": 0.373,
+            "intraday_pct": 2.899,
+            "rsi": 69.8,
+            "vol_factor": 2.0,
+            "score": 2.429
+          }
+        },
+        {
+          "time": "2026-06-04 16:13:18",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "cost": 5955.8,
+          "score": {
+            "last": 2977.9,
+            "mom_30m_pct": 0.378,
+            "intraday_pct": 0.642,
+            "rsi": 74.2,
+            "vol_factor": 1.96,
+            "score": 1.724
+          }
+        },
+        {
+          "time": "2026-06-04 16:21:03",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "cost": 2797.4,
+          "score": {
+            "last": 1398.7,
+            "mom_30m_pct": 0.373,
+            "intraday_pct": 2.899,
+            "rsi": 69.8,
+            "vol_factor": 2.0,
+            "score": 2.429
+          }
+        },
+        {
+          "time": "2026-06-04 16:21:03",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "cost": 5955.8,
+          "score": {
+            "last": 2977.9,
+            "mom_30m_pct": 0.378,
+            "intraday_pct": 0.642,
+            "rsi": 74.2,
+            "vol_factor": 1.96,
+            "score": 1.724
+          }
+        },
+        {
+          "time": "2026-06-04 16:57:00",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "cost": 2797.4,
+          "score": {
+            "last": 1398.7,
+            "mom_30m_pct": 0.373,
+            "intraday_pct": 2.899,
+            "rsi": 69.8,
+            "vol_factor": 2.0,
+            "score": 2.429
+          }
+        },
+        {
+          "time": "2026-06-04 16:57:00",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "cost": 5955.8,
+          "score": {
+            "last": 2977.9,
+            "mom_30m_pct": 0.378,
+            "intraday_pct": 0.642,
+            "rsi": 74.2,
+            "vol_factor": 1.96,
+            "score": 1.724
+          }
+        },
+        {
+          "time": "2026-06-04 17:12:12",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "cost": 2797.4,
+          "score": {
+            "last": 1398.7,
+            "mom_30m_pct": 0.373,
+            "intraday_pct": 2.899,
+            "rsi": 69.8,
+            "vol_factor": 2.0,
+            "score": 2.429
+          }
+        },
+        {
+          "time": "2026-06-04 17:12:12",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "cost": 5955.8,
+          "score": {
+            "last": 2977.9,
+            "mom_30m_pct": 0.378,
+            "intraday_pct": 0.642,
+            "rsi": 74.2,
+            "vol_factor": 1.96,
+            "score": 1.724
+          }
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TATACONSUM",
+          "qty": 4,
+          "price": 1149.3,
+          "buy_price": 1146.8,
+          "pnl": 10.0,
+          "pnl_pct": 0.22,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BAJFINANCE",
+          "qty": 4,
+          "price": 877.05,
+          "buy_price": 875.3,
+          "pnl": 7.0,
+          "pnl_pct": 0.2,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 903.2,
+          "buy_price": 900.15,
+          "pnl": 9.15,
+          "pnl_pct": 0.34,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "COALINDIA",
+          "qty": 5,
+          "price": 481.35,
+          "buy_price": 481.95,
+          "pnl": -3.0,
+          "pnl_pct": -0.12,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 1,
+          "price": 2977.9,
+          "buy_price": 2970.7,
+          "pnl": 7.2,
+          "pnl_pct": 0.24,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SBIN",
+          "qty": 5,
+          "price": 979.25,
+          "buy_price": 977.1,
+          "pnl": 10.75,
+          "pnl_pct": 0.22,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ICICIBANK",
+          "qty": 2,
+          "price": 1253.0,
+          "buy_price": 1257.7,
+          "pnl": -9.4,
+          "pnl_pct": -0.37,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HDFCBANK",
+          "qty": 8,
+          "price": 753.25,
+          "buy_price": 754.6,
+          "pnl": -10.8,
+          "pnl_pct": -0.18,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "COALINDIA",
+          "qty": 6,
+          "price": 481.35,
+          "buy_price": 483.45,
+          "pnl": -12.6,
+          "pnl_pct": -0.43,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HINDALCO",
+          "qty": 2,
+          "price": 1125.2,
+          "buy_price": 1128.0,
+          "pnl": -5.6,
+          "pnl_pct": -0.25,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BPCL",
+          "qty": 12,
+          "price": 295.15,
+          "buy_price": 295.2,
+          "pnl": -0.6,
+          "pnl_pct": -0.02,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SBIN",
+          "qty": 5,
+          "price": 979.25,
+          "buy_price": 979.45,
+          "pnl": -1.0,
+          "pnl_pct": -0.02,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 1,
+          "price": 2977.9,
+          "buy_price": 2970.1,
+          "pnl": 7.8,
+          "pnl_pct": 0.26,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "buy_price": 1399.1,
+          "pnl": -0.8,
+          "pnl_pct": -0.03,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "buy_price": 2977.9,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "buy_price": 1399.1,
+          "pnl": -0.8,
+          "pnl_pct": -0.03,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "buy_price": 2977.9,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "buy_price": 1398.7,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "buy_price": 2977.9,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "buy_price": 1398.7,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "buy_price": 2977.9,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "buy_price": 1398.7,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "buy_price": 2977.9,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "CIPLA",
+          "qty": 2,
+          "price": 1398.7,
+          "buy_price": 1398.7,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-06-04 18:04:46",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2977.9,
+          "buy_price": 2977.9,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        }
+      ],
+      "n_buys": 25,
+      "n_sells": 25,
+      "feedback": "Day P&L \u20b97 on \u20b998694 deployed (0.01%). Worst trade: COALINDIA (P&L \u20b9-13, -0.43%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters.",
+      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 1,
-    "winning_days": 0,
+    "total_days": 2,
+    "winning_days": 1,
     "losing_days": 0,
-    "total_realized_pnl": 0.0,
-    "best_day_pnl": 0.0,
+    "total_realized_pnl": 7.3,
+    "best_day_pnl": 7.3,
     "worst_day_pnl": 0.0,
     "feedback_notes": [
       {
         "date": "2026-06-03",
         "note": "Day P&L \u20b90 on \u20b957555 deployed (0.00%). Profitable day \u2014 keep current parameters."
+      },
+      {
+        "date": "2026-06-04",
+        "note": "Day P&L \u20b97 on \u20b998694 deployed (0.01%). Worst trade: COALINDIA (P&L \u20b9-13, -0.43%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters."
       }
     ]
   }
