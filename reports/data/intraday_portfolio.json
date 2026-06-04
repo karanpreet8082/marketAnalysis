@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-04",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 29607.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-04 14:28:37",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 38306.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 29606.99981689453,
+    "invested_today": 38306.100036621094,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -162,6 +171,51 @@
           "rsi": 48.4,
           "vol_factor": 0.31,
           "score": 0.449
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "buy_price": 483.45,
+        "buy_time": "2026-06-04 14:28:37",
+        "iteration": 5,
+        "score_info": {
+          "last": 483.45,
+          "mom_30m_pct": 0.426,
+          "intraday_pct": 2.469,
+          "rsi": 55.0,
+          "vol_factor": 2.0,
+          "score": 2.38
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 1128.0,
+        "buy_time": "2026-06-04 14:28:37",
+        "iteration": 5,
+        "score_info": {
+          "last": 1128.0,
+          "mom_30m_pct": 0.329,
+          "intraday_pct": -1.321,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.097
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 12,
+        "buy_price": 295.2,
+        "buy_time": "2026-06-04 14:28:37",
+        "iteration": 5,
+        "score_info": {
+          "last": 295.2,
+          "mom_30m_pct": 0.306,
+          "intraday_pct": 0.682,
+          "rsi": 61.7,
+          "vol_factor": 0.92,
+          "score": 0.586
         }
       }
     ],
@@ -300,6 +354,57 @@
           "rsi": 48.4,
           "vol_factor": 0.31,
           "score": 0.449
+        }
+      },
+      {
+        "time": "2026-06-04 14:28:37",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "price": 483.45,
+        "cost": 2900.7,
+        "score": {
+          "last": 483.45,
+          "mom_30m_pct": 0.426,
+          "intraday_pct": 2.469,
+          "rsi": 55.0,
+          "vol_factor": 2.0,
+          "score": 2.38
+        }
+      },
+      {
+        "time": "2026-06-04 14:28:37",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 1128.0,
+        "cost": 2256.0,
+        "score": {
+          "last": 1128.0,
+          "mom_30m_pct": 0.329,
+          "intraday_pct": -1.321,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.097
+        }
+      },
+      {
+        "time": "2026-06-04 14:28:37",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 12,
+        "price": 295.2,
+        "cost": 3542.4,
+        "score": {
+          "last": 295.2,
+          "mom_30m_pct": 0.306,
+          "intraday_pct": 0.682,
+          "rsi": 61.7,
+          "vol_factor": 0.92,
+          "score": 0.586
         }
       }
     ],
