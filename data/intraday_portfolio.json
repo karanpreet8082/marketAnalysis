@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-04",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 89941.05,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 23
+      },
+      {
+        "iteration": 12,
+        "time": "2026-06-04 17:12:12",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 98694.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 25
       }
     ],
-    "invested_today": 89941.048828125,
+    "invested_today": 98694.24853515625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -443,6 +452,36 @@
         "buy_price": 2977.9,
         "buy_time": "2026-06-04 16:57:00",
         "iteration": 11,
+        "score_info": {
+          "last": 2977.9,
+          "mom_30m_pct": 0.378,
+          "intraday_pct": 0.642,
+          "rsi": 74.2,
+          "vol_factor": 1.96,
+          "score": 1.724
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1398.7,
+        "buy_time": "2026-06-04 17:12:12",
+        "iteration": 12,
+        "score_info": {
+          "last": 1398.7,
+          "mom_30m_pct": 0.373,
+          "intraday_pct": 2.899,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.429
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 2,
+        "buy_price": 2977.9,
+        "buy_time": "2026-06-04 17:12:12",
+        "iteration": 12,
         "score_info": {
           "last": 2977.9,
           "mom_30m_pct": 0.378,
@@ -831,6 +870,40 @@
       {
         "time": "2026-06-04 16:57:00",
         "iteration": 11,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 2,
+        "price": 2977.9,
+        "cost": 5955.8,
+        "score": {
+          "last": 2977.9,
+          "mom_30m_pct": 0.378,
+          "intraday_pct": 0.642,
+          "rsi": 74.2,
+          "vol_factor": 1.96,
+          "score": 1.724
+        }
+      },
+      {
+        "time": "2026-06-04 17:12:12",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1398.7,
+        "cost": 2797.4,
+        "score": {
+          "last": 1398.7,
+          "mom_30m_pct": 0.373,
+          "intraday_pct": 2.899,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.429
+        }
+      },
+      {
+        "time": "2026-06-04 17:12:12",
+        "iteration": 12,
         "action": "BUY",
         "symbol": "ADANIENT",
         "qty": 2,
