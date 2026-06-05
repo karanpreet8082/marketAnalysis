@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-05",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 37467.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-06-05 14:27:29",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 45343.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 37467.50012207031,
+    "invested_today": 45343.30017089844,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -231,6 +240,51 @@
           "rsi": 57.5,
           "vol_factor": 0.17,
           "score": -0.087
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1285.9,
+        "buy_time": "2026-06-05 14:27:29",
+        "iteration": 6,
+        "score_info": {
+          "last": 1285.9,
+          "mom_30m_pct": 0.359,
+          "intraday_pct": 1.284,
+          "rsi": 67.3,
+          "vol_factor": 2.0,
+          "score": 1.924
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3005.0,
+        "buy_time": "2026-06-05 14:27:29",
+        "iteration": 6,
+        "score_info": {
+          "last": 3005.0,
+          "mom_30m_pct": 0.377,
+          "intraday_pct": 1.366,
+          "rsi": 63.0,
+          "vol_factor": 0.79,
+          "score": 0.764
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1149.5,
+        "buy_time": "2026-06-05 14:27:29",
+        "iteration": 6,
+        "score_info": {
+          "last": 1149.5,
+          "mom_30m_pct": 0.104,
+          "intraday_pct": -1.752,
+          "rsi": 49.0,
+          "vol_factor": 1.42,
+          "score": 0.052
         }
       }
     ],
@@ -437,6 +491,57 @@
           "rsi": 57.5,
           "vol_factor": 0.17,
           "score": -0.087
+        }
+      },
+      {
+        "time": "2026-06-05 14:27:29",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1285.9,
+        "cost": 2571.8,
+        "score": {
+          "last": 1285.9,
+          "mom_30m_pct": 0.359,
+          "intraday_pct": 1.284,
+          "rsi": 67.3,
+          "vol_factor": 2.0,
+          "score": 1.924
+        }
+      },
+      {
+        "time": "2026-06-05 14:27:29",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3005.0,
+        "cost": 3005.0,
+        "score": {
+          "last": 3005.0,
+          "mom_30m_pct": 0.377,
+          "intraday_pct": 1.366,
+          "rsi": 63.0,
+          "vol_factor": 0.79,
+          "score": 0.764
+        }
+      },
+      {
+        "time": "2026-06-05 14:27:29",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1149.5,
+        "cost": 2299.0,
+        "score": {
+          "last": 1149.5,
+          "mom_30m_pct": 0.104,
+          "intraday_pct": -1.752,
+          "rsi": 49.0,
+          "vol_factor": 1.42,
+          "score": 0.052
         }
       }
     ],
