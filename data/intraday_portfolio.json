@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-05",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-05 13:26:18",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7286.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-05 13:40:47",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 14531.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 14531.0,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1792.7,
+        "buy_time": "2026-06-05 13:26:18",
+        "iteration": 1,
+        "score_info": {
+          "last": 1792.7,
+          "mom_30m_pct": -0.4,
+          "intraday_pct": 0.742,
+          "rsi": 38.5,
+          "vol_factor": 2.0,
+          "score": 0.622
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2698.6,
+        "buy_time": "2026-06-05 13:26:18",
+        "iteration": 1,
+        "score_info": {
+          "last": 2698.6,
+          "mom_30m_pct": 0.148,
+          "intraday_pct": 1.696,
+          "rsi": 65.2,
+          "vol_factor": 0.38,
+          "score": 0.111
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1397.4,
+        "buy_time": "2026-06-05 13:26:18",
+        "iteration": 1,
+        "score_info": {
+          "last": 1397.4,
+          "mom_30m_pct": -0.007,
+          "intraday_pct": 0.251,
+          "rsi": 60.4,
+          "vol_factor": 0.3,
+          "score": -0.631
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2114.5,
+        "buy_time": "2026-06-05 13:40:47",
+        "iteration": 2,
+        "score_info": {
+          "last": 2114.5,
+          "mom_30m_pct": 0.237,
+          "intraday_pct": 1.712,
+          "rsi": 63.3,
+          "vol_factor": 1.0,
+          "score": 0.869
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "buy_price": 1282.6,
+        "buy_time": "2026-06-05 13:40:47",
+        "iteration": 2,
+        "score_info": {
+          "last": 1282.6,
+          "mom_30m_pct": 0.078,
+          "intraday_pct": 1.311,
+          "rsi": 51.4,
+          "vol_factor": 1.0,
+          "score": 0.51
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-05 13:26:18",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1792.7,
+        "cost": 1792.7,
+        "score": {
+          "last": 1792.7,
+          "mom_30m_pct": -0.4,
+          "intraday_pct": 0.742,
+          "rsi": 38.5,
+          "vol_factor": 2.0,
+          "score": 0.622
+        }
+      },
+      {
+        "time": "2026-06-05 13:26:18",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2698.6,
+        "cost": 2698.6,
+        "score": {
+          "last": 2698.6,
+          "mom_30m_pct": 0.148,
+          "intraday_pct": 1.696,
+          "rsi": 65.2,
+          "vol_factor": 0.38,
+          "score": 0.111
+        }
+      },
+      {
+        "time": "2026-06-05 13:26:18",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1397.4,
+        "cost": 2794.8,
+        "score": {
+          "last": 1397.4,
+          "mom_30m_pct": -0.007,
+          "intraday_pct": 0.251,
+          "rsi": 60.4,
+          "vol_factor": 0.3,
+          "score": -0.631
+        }
+      },
+      {
+        "time": "2026-06-05 13:40:47",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2114.5,
+        "cost": 2114.5,
+        "score": {
+          "last": 2114.5,
+          "mom_30m_pct": 0.237,
+          "intraday_pct": 1.712,
+          "rsi": 63.3,
+          "vol_factor": 1.0,
+          "score": 0.869
+        }
+      },
+      {
+        "time": "2026-06-05 13:40:47",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "price": 1282.6,
+        "cost": 5130.4,
+        "score": {
+          "last": 1282.6,
+          "mom_30m_pct": 0.078,
+          "intraday_pct": 1.311,
+          "rsi": 51.4,
+          "vol_factor": 1.0,
+          "score": 0.51
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
