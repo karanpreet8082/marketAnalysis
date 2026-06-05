@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-05",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7286.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-05 13:40:47",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 14531.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 7286.10009765625,
+    "invested_today": 14531.0,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,36 @@
           "rsi": 60.4,
           "vol_factor": 0.3,
           "score": -0.631
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2114.5,
+        "buy_time": "2026-06-05 13:40:47",
+        "iteration": 2,
+        "score_info": {
+          "last": 2114.5,
+          "mom_30m_pct": 0.237,
+          "intraday_pct": 1.712,
+          "rsi": 63.3,
+          "vol_factor": 1.0,
+          "score": 0.869
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "buy_price": 1282.6,
+        "buy_time": "2026-06-05 13:40:47",
+        "iteration": 2,
+        "score_info": {
+          "last": 1282.6,
+          "mom_30m_pct": 0.078,
+          "intraday_pct": 1.311,
+          "rsi": 51.4,
+          "vol_factor": 1.0,
+          "score": 0.51
         }
       }
     ],
@@ -113,6 +152,40 @@
           "rsi": 60.4,
           "vol_factor": 0.3,
           "score": -0.631
+        }
+      },
+      {
+        "time": "2026-06-05 13:40:47",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2114.5,
+        "cost": 2114.5,
+        "score": {
+          "last": 2114.5,
+          "mom_30m_pct": 0.237,
+          "intraday_pct": 1.712,
+          "rsi": 63.3,
+          "vol_factor": 1.0,
+          "score": 0.869
+        }
+      },
+      {
+        "time": "2026-06-05 13:40:47",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "price": 1282.6,
+        "cost": 5130.4,
+        "score": {
+          "last": 1282.6,
+          "mom_30m_pct": 0.078,
+          "intraday_pct": 1.311,
+          "rsi": 51.4,
+          "vol_factor": 1.0,
+          "score": 0.51
         }
       }
     ],
