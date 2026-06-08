@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-08",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-08 14:01:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7077.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 7077.699951171875,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "TECHM",
+        "qty": 3,
+        "buy_price": 1504.5,
+        "buy_time": "2026-06-08 14:01:13",
+        "iteration": 1,
+        "score_info": {
+          "last": 1504.5,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": 2.138,
+          "rsi": 35.6,
+          "vol_factor": 0.11,
+          "score": 0.254
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1282.1,
+        "buy_time": "2026-06-08 14:01:13",
+        "iteration": 1,
+        "score_info": {
+          "last": 1282.1,
+          "mom_30m_pct": 0.329,
+          "intraday_pct": -0.07,
+          "rsi": 32.8,
+          "vol_factor": 0.17,
+          "score": -0.353
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-08 14:01:13",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 3,
+        "price": 1504.5,
+        "cost": 4513.5,
+        "score": {
+          "last": 1504.5,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": 2.138,
+          "rsi": 35.6,
+          "vol_factor": 0.11,
+          "score": 0.254
+        }
+      },
+      {
+        "time": "2026-06-08 14:01:13",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1282.1,
+        "cost": 2564.2,
+        "score": {
+          "last": 1282.1,
+          "mom_30m_pct": 0.329,
+          "intraday_pct": -0.07,
+          "rsi": 32.8,
+          "vol_factor": 0.17,
+          "score": -0.353
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
