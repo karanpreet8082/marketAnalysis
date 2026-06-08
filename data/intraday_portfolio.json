@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-08",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,10 +30,28 @@
         "invested_today_after": 21930.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-08 14:44:50",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 30551.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-08 15:23:43",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 35943.7,
+        "realized_pnl_today_after": -42.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 21930.199676513672,
-    "realized_pnl_today": 0.0,
+    "invested_today": 35943.69940185547,
+    "realized_pnl_today": -42.00004882812482,
     "open_positions": [
       {
         "symbol": "TECHM",
@@ -78,21 +96,6 @@
           "rsi": 71.5,
           "vol_factor": 0.33,
           "score": 0.316
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 3626.2,
-        "buy_time": "2026-06-08 14:27:59",
-        "iteration": 2,
-        "score_info": {
-          "last": 3626.2,
-          "mom_30m_pct": 0.31,
-          "intraday_pct": -1.521,
-          "rsi": 30.7,
-          "vol_factor": 1.21,
-          "score": 0.222
         }
       },
       {
@@ -153,6 +156,81 @@
           "rsi": 61.9,
           "vol_factor": 1.0,
           "score": 0.596
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2110.9,
+        "buy_time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "score_info": {
+          "last": 2110.9,
+          "mom_30m_pct": 0.252,
+          "intraday_pct": -0.288,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.291
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "buy_price": 291.65,
+        "buy_time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "score_info": {
+          "last": 291.65,
+          "mom_30m_pct": 0.465,
+          "intraday_pct": 2.065,
+          "rsi": 64.7,
+          "vol_factor": 0.95,
+          "score": 1.263
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1505.2,
+        "buy_time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "score_info": {
+          "last": 1505.2,
+          "mom_30m_pct": 0.233,
+          "intraday_pct": 2.034,
+          "rsi": 72.8,
+          "vol_factor": 1.04,
+          "score": 0.998
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 9,
+        "buy_price": 290.4,
+        "buy_time": "2026-06-08 15:23:43",
+        "iteration": 5,
+        "score_info": {
+          "last": 290.4,
+          "mom_30m_pct": -0.258,
+          "intraday_pct": 1.716,
+          "rsi": 51.2,
+          "vol_factor": 1.56,
+          "score": 0.688
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1389.4,
+        "buy_time": "2026-06-08 15:23:43",
+        "iteration": 5,
+        "score_info": {
+          "last": 1389.4,
+          "mom_30m_pct": -0.072,
+          "intraday_pct": -0.849,
+          "rsi": 53.7,
+          "vol_factor": 2.0,
+          "score": 0.637
         }
       }
     ],
@@ -291,6 +369,103 @@
           "rsi": 61.9,
           "vol_factor": 1.0,
           "score": 0.596
+        }
+      },
+      {
+        "time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2110.9,
+        "cost": 2110.9,
+        "score": {
+          "last": 2110.9,
+          "mom_30m_pct": 0.252,
+          "intraday_pct": -0.288,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.291
+        }
+      },
+      {
+        "time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "price": 291.65,
+        "cost": 3499.8,
+        "score": {
+          "last": 291.65,
+          "mom_30m_pct": 0.465,
+          "intraday_pct": 2.065,
+          "rsi": 64.7,
+          "vol_factor": 0.95,
+          "score": 1.263
+        }
+      },
+      {
+        "time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1505.2,
+        "cost": 3010.4,
+        "score": {
+          "last": 1505.2,
+          "mom_30m_pct": 0.233,
+          "intraday_pct": 2.034,
+          "rsi": 72.8,
+          "vol_factor": 1.04,
+          "score": 0.998
+        }
+      },
+      {
+        "time": "2026-06-08 15:23:43",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3584.2,
+        "buy_price": 3626.2,
+        "pnl": -42.0,
+        "pnl_pct": -1.16,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-06-08 15:23:43",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 9,
+        "price": 290.4,
+        "cost": 2613.6,
+        "score": {
+          "last": 290.4,
+          "mom_30m_pct": -0.258,
+          "intraday_pct": 1.716,
+          "rsi": 51.2,
+          "vol_factor": 1.56,
+          "score": 0.688
+        }
+      },
+      {
+        "time": "2026-06-08 15:23:43",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1389.4,
+        "cost": 2778.8,
+        "score": {
+          "last": 1389.4,
+          "mom_30m_pct": -0.072,
+          "intraday_pct": -0.849,
+          "rsi": 53.7,
+          "vol_factor": 2.0,
+          "score": 0.637
         }
       }
     ],
