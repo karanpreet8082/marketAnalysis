@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-08",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,18 +48,9 @@
         "invested_today_after": 35943.7,
         "realized_pnl_today_after": -42.0,
         "open_positions_after": 12
-      },
-      {
-        "iteration": 6,
-        "time": "2026-06-08 15:37:38",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 45092.0,
-        "realized_pnl_today_after": -42.0,
-        "open_positions_after": 15
       }
     ],
-    "invested_today": 45091.99938964844,
+    "invested_today": 35943.69940185547,
     "realized_pnl_today": -42.00004882812482,
     "open_positions": [
       {
@@ -240,51 +231,6 @@
           "rsi": 53.7,
           "vol_factor": 2.0,
           "score": 0.637
-        }
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "qty": 1,
-        "buy_price": 1819.0,
-        "buy_time": "2026-06-08 15:37:38",
-        "iteration": 6,
-        "score_info": {
-          "last": 1819.0,
-          "mom_30m_pct": 0.331,
-          "intraday_pct": 1.569,
-          "rsi": 68.6,
-          "vol_factor": 2.0,
-          "score": 1.967
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 11,
-        "buy_price": 377.7,
-        "buy_time": "2026-06-08 15:37:38",
-        "iteration": 6,
-        "score_info": {
-          "last": 377.7,
-          "mom_30m_pct": 0.04,
-          "intraday_pct": 0.868,
-          "rsi": 58.8,
-          "vol_factor": 2.0,
-          "score": 1.32
-        }
-      },
-      {
-        "symbol": "ONGC",
-        "qty": 12,
-        "buy_price": 264.55,
-        "buy_time": "2026-06-08 15:37:38",
-        "iteration": 6,
-        "score_info": {
-          "last": 264.55,
-          "mom_30m_pct": 0.114,
-          "intraday_pct": 0.398,
-          "rsi": 39.1,
-          "vol_factor": 2.0,
-          "score": 1.29
         }
       }
     ],
@@ -520,57 +466,6 @@
           "rsi": 53.7,
           "vol_factor": 2.0,
           "score": 0.637
-        }
-      },
-      {
-        "time": "2026-06-08 15:37:38",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "BHARTIARTL",
-        "qty": 1,
-        "price": 1819.0,
-        "cost": 1819.0,
-        "score": {
-          "last": 1819.0,
-          "mom_30m_pct": 0.331,
-          "intraday_pct": 1.569,
-          "rsi": 68.6,
-          "vol_factor": 2.0,
-          "score": 1.967
-        }
-      },
-      {
-        "time": "2026-06-08 15:37:38",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "KOTAKBANK",
-        "qty": 11,
-        "price": 377.7,
-        "cost": 4154.7,
-        "score": {
-          "last": 377.7,
-          "mom_30m_pct": 0.04,
-          "intraday_pct": 0.868,
-          "rsi": 58.8,
-          "vol_factor": 2.0,
-          "score": 1.32
-        }
-      },
-      {
-        "time": "2026-06-08 15:37:38",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "ONGC",
-        "qty": 12,
-        "price": 264.55,
-        "cost": 3174.6,
-        "score": {
-          "last": 264.55,
-          "mom_30m_pct": 0.114,
-          "intraday_pct": 0.398,
-          "rsi": 39.1,
-          "vol_factor": 2.0,
-          "score": 1.29
         }
       }
     ],
