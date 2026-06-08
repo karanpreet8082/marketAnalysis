@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-08",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 72343.9,
         "realized_pnl_today_after": -42.0,
         "open_positions_after": 24
+      },
+      {
+        "iteration": 10,
+        "time": "2026-06-08 17:47:09",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 81470.0,
+        "realized_pnl_today_after": -42.0,
+        "open_positions_after": 27
       }
     ],
-    "invested_today": 72343.89904785156,
+    "invested_today": 81469.99890136719,
     "realized_pnl_today": -42.00004882812482,
     "open_positions": [
       {
@@ -440,6 +449,51 @@
         "buy_price": 280.0,
         "buy_time": "2026-06-08 17:36:19",
         "iteration": 9,
+        "score_info": {
+          "last": 280.0,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 0.738,
+          "rsi": 39.8,
+          "vol_factor": 2.0,
+          "score": 1.221
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1813.3,
+        "buy_time": "2026-06-08 17:47:09",
+        "iteration": 10,
+        "score_info": {
+          "last": 1813.3,
+          "mom_30m_pct": 0.017,
+          "intraday_pct": 1.251,
+          "rsi": 53.0,
+          "vol_factor": 2.0,
+          "score": 1.4
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 16,
+        "buy_price": 264.55,
+        "buy_time": "2026-06-08 17:47:09",
+        "iteration": 10,
+        "score_info": {
+          "last": 264.55,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": 0.398,
+          "rsi": 39.1,
+          "vol_factor": 2.0,
+          "score": 1.29
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 11,
+        "buy_price": 280.0,
+        "buy_time": "2026-06-08 17:47:09",
+        "iteration": 10,
         "score_info": {
           "last": 280.0,
           "mom_30m_pct": 0.0,
@@ -874,6 +928,57 @@
       {
         "time": "2026-06-08 17:36:19",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 11,
+        "price": 280.0,
+        "cost": 3080.0,
+        "score": {
+          "last": 280.0,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 0.738,
+          "rsi": 39.8,
+          "vol_factor": 2.0,
+          "score": 1.221
+        }
+      },
+      {
+        "time": "2026-06-08 17:47:09",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1813.3,
+        "cost": 1813.3,
+        "score": {
+          "last": 1813.3,
+          "mom_30m_pct": 0.017,
+          "intraday_pct": 1.251,
+          "rsi": 53.0,
+          "vol_factor": 2.0,
+          "score": 1.4
+        }
+      },
+      {
+        "time": "2026-06-08 17:47:09",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 16,
+        "price": 264.55,
+        "cost": 4232.8,
+        "score": {
+          "last": 264.55,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": 0.398,
+          "rsi": 39.1,
+          "vol_factor": 2.0,
+          "score": 1.29
+        }
+      },
+      {
+        "time": "2026-06-08 17:47:09",
+        "iteration": 10,
         "action": "BUY",
         "symbol": "ITC",
         "qty": 11,
