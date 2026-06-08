@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-08",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 21930.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-08 14:44:50",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 30551.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 21930.199676513672,
+    "invested_today": 30551.299407958984,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -153,6 +162,51 @@
           "rsi": 61.9,
           "vol_factor": 1.0,
           "score": 0.596
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2110.9,
+        "buy_time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "score_info": {
+          "last": 2110.9,
+          "mom_30m_pct": 0.252,
+          "intraday_pct": -0.288,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.291
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "buy_price": 291.65,
+        "buy_time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "score_info": {
+          "last": 291.65,
+          "mom_30m_pct": 0.465,
+          "intraday_pct": 2.065,
+          "rsi": 64.7,
+          "vol_factor": 0.95,
+          "score": 1.263
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1505.2,
+        "buy_time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "score_info": {
+          "last": 1505.2,
+          "mom_30m_pct": 0.233,
+          "intraday_pct": 2.034,
+          "rsi": 72.8,
+          "vol_factor": 1.04,
+          "score": 0.998
         }
       }
     ],
@@ -291,6 +345,57 @@
           "rsi": 61.9,
           "vol_factor": 1.0,
           "score": 0.596
+        }
+      },
+      {
+        "time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2110.9,
+        "cost": 2110.9,
+        "score": {
+          "last": 2110.9,
+          "mom_30m_pct": 0.252,
+          "intraday_pct": -0.288,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.291
+        }
+      },
+      {
+        "time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "price": 291.65,
+        "cost": 3499.8,
+        "score": {
+          "last": 291.65,
+          "mom_30m_pct": 0.465,
+          "intraday_pct": 2.065,
+          "rsi": 64.7,
+          "vol_factor": 0.95,
+          "score": 1.263
+        }
+      },
+      {
+        "time": "2026-06-08 14:44:50",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1505.2,
+        "cost": 3010.4,
+        "score": {
+          "last": 1505.2,
+          "mom_30m_pct": 0.233,
+          "intraday_pct": 2.034,
+          "rsi": 72.8,
+          "vol_factor": 1.04,
+          "score": 0.998
         }
       }
     ],
