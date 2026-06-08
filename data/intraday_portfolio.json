@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-08",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-08 14:01:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7077.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-08 14:27:59",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 14005.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 14005.199829101562,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "TECHM",
+        "qty": 3,
+        "buy_price": 1504.5,
+        "buy_time": "2026-06-08 14:01:13",
+        "iteration": 1,
+        "score_info": {
+          "last": 1504.5,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": 2.138,
+          "rsi": 35.6,
+          "vol_factor": 0.11,
+          "score": 0.254
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1282.1,
+        "buy_time": "2026-06-08 14:01:13",
+        "iteration": 1,
+        "score_info": {
+          "last": 1282.1,
+          "mom_30m_pct": 0.329,
+          "intraday_pct": -0.07,
+          "rsi": 32.8,
+          "vol_factor": 0.17,
+          "score": -0.353
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1505.2,
+        "buy_time": "2026-06-08 14:27:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 1505.2,
+          "mom_30m_pct": 0.186,
+          "intraday_pct": 2.367,
+          "rsi": 71.5,
+          "vol_factor": 0.33,
+          "score": 0.316
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3626.2,
+        "buy_time": "2026-06-08 14:27:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 3626.2,
+          "mom_30m_pct": 0.31,
+          "intraday_pct": -1.521,
+          "rsi": 30.7,
+          "vol_factor": 1.21,
+          "score": 0.222
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1796.1,
+        "buy_time": "2026-06-08 14:27:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 1796.1,
+          "mom_30m_pct": 0.084,
+          "intraday_pct": 0.335,
+          "rsi": 54.9,
+          "vol_factor": 0.89,
+          "score": 0.114
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-08 14:01:13",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 3,
+        "price": 1504.5,
+        "cost": 4513.5,
+        "score": {
+          "last": 1504.5,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": 2.138,
+          "rsi": 35.6,
+          "vol_factor": 0.11,
+          "score": 0.254
+        }
+      },
+      {
+        "time": "2026-06-08 14:01:13",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1282.1,
+        "cost": 2564.2,
+        "score": {
+          "last": 1282.1,
+          "mom_30m_pct": 0.329,
+          "intraday_pct": -0.07,
+          "rsi": 32.8,
+          "vol_factor": 0.17,
+          "score": -0.353
+        }
+      },
+      {
+        "time": "2026-06-08 14:27:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1505.2,
+        "cost": 1505.2,
+        "score": {
+          "last": 1505.2,
+          "mom_30m_pct": 0.186,
+          "intraday_pct": 2.367,
+          "rsi": 71.5,
+          "vol_factor": 0.33,
+          "score": 0.316
+        }
+      },
+      {
+        "time": "2026-06-08 14:27:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3626.2,
+        "cost": 3626.2,
+        "score": {
+          "last": 3626.2,
+          "mom_30m_pct": 0.31,
+          "intraday_pct": -1.521,
+          "rsi": 30.7,
+          "vol_factor": 1.21,
+          "score": 0.222
+        }
+      },
+      {
+        "time": "2026-06-08 14:27:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1796.1,
+        "cost": 1796.1,
+        "score": {
+          "last": 1796.1,
+          "mom_30m_pct": 0.084,
+          "intraday_pct": 0.335,
+          "rsi": 54.9,
+          "vol_factor": 0.89,
+          "score": 0.114
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
