@@ -1,5 +1,100 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-09",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-09 12:35:09",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 7978.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-09 13:24:00",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 15697.35,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 15697.350402832031,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 21,
+        "buy_price": 379.95,
+        "buy_time": "2026-06-09 12:35:09",
+        "iteration": 1,
+        "score_info": {
+          "last": 379.95,
+          "mom_30m_pct": 0.33,
+          "intraday_pct": 0.556,
+          "rsi": 64.5,
+          "vol_factor": 1.0,
+          "score": 0.662
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 6,
+        "buy_price": 1286.4,
+        "buy_time": "2026-06-09 13:24:00",
+        "iteration": 2,
+        "score_info": {
+          "last": 1286.4,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 0.791,
+          "rsi": 64.1,
+          "vol_factor": 0.53,
+          "score": 0.399
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-09 12:35:09",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 21,
+        "price": 379.95,
+        "cost": 7978.95,
+        "score": {
+          "last": 379.95,
+          "mom_30m_pct": 0.33,
+          "intraday_pct": 0.556,
+          "rsi": 64.5,
+          "vol_factor": 1.0,
+          "score": 0.662
+        }
+      },
+      {
+        "time": "2026-06-09 13:24:00",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 6,
+        "price": 1286.4,
+        "cost": 7718.4,
+        "score": {
+          "last": 1286.4,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 0.791,
+          "rsi": 64.1,
+          "vol_factor": 0.53,
+          "score": 0.399
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
