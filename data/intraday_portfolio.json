@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-09",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 38889.62,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-06-09 14:19:06",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 45686.72,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 38889.62049865723,
+    "invested_today": 45686.72050476074,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -186,6 +195,51 @@
           "rsi": 64.5,
           "vol_factor": 0.55,
           "score": 0.442
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 14,
+        "buy_price": 202.95,
+        "buy_time": "2026-06-09 14:19:06",
+        "iteration": 6,
+        "score_info": {
+          "last": 202.95,
+          "mom_30m_pct": 0.247,
+          "intraday_pct": -0.354,
+          "rsi": 73.3,
+          "vol_factor": 2.0,
+          "score": 1.264
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1826.8,
+        "buy_time": "2026-06-09 14:19:06",
+        "iteration": 6,
+        "score_info": {
+          "last": 1826.8,
+          "mom_30m_pct": 0.956,
+          "intraday_pct": 0.85,
+          "rsi": 91.7,
+          "vol_factor": 2.0,
+          "score": 1.189
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2129.0,
+        "buy_time": "2026-06-09 14:19:06",
+        "iteration": 6,
+        "score_info": {
+          "last": 2129.0,
+          "mom_30m_pct": 0.254,
+          "intraday_pct": 1.02,
+          "rsi": 66.3,
+          "vol_factor": 1.01,
+          "score": 0.698
         }
       }
     ],
@@ -341,6 +395,57 @@
           "rsi": 64.5,
           "vol_factor": 0.55,
           "score": 0.442
+        }
+      },
+      {
+        "time": "2026-06-09 14:19:06",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 14,
+        "price": 202.95,
+        "cost": 2841.3,
+        "score": {
+          "last": 202.95,
+          "mom_30m_pct": 0.247,
+          "intraday_pct": -0.354,
+          "rsi": 73.3,
+          "vol_factor": 2.0,
+          "score": 1.264
+        }
+      },
+      {
+        "time": "2026-06-09 14:19:06",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1826.8,
+        "cost": 1826.8,
+        "score": {
+          "last": 1826.8,
+          "mom_30m_pct": 0.956,
+          "intraday_pct": 0.85,
+          "rsi": 91.7,
+          "vol_factor": 2.0,
+          "score": 1.189
+        }
+      },
+      {
+        "time": "2026-06-09 14:19:06",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2129.0,
+        "cost": 2129.0,
+        "score": {
+          "last": 2129.0,
+          "mom_30m_pct": 0.254,
+          "intraday_pct": 1.02,
+          "rsi": 66.3,
+          "vol_factor": 1.01,
+          "score": 0.698
         }
       }
     ],
