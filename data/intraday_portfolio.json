@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-09",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 23771.35,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-09 13:52:53",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 31472.52,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 23771.35040283203,
+    "invested_today": 31472.520401000977,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -93,6 +102,36 @@
           "rsi": 73.4,
           "vol_factor": 1.0,
           "score": 0.979
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 13,
+        "buy_price": 202.49,
+        "buy_time": "2026-06-09 13:52:53",
+        "iteration": 4,
+        "score_info": {
+          "last": 202.49,
+          "mom_30m_pct": 0.516,
+          "intraday_pct": -0.271,
+          "rsi": 58.8,
+          "vol_factor": 1.81,
+          "score": 1.5
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 3,
+        "buy_price": 1689.6,
+        "buy_time": "2026-06-09 13:52:53",
+        "iteration": 4,
+        "score_info": {
+          "last": 1689.6,
+          "mom_30m_pct": -0.059,
+          "intraday_pct": 0.721,
+          "rsi": 45.6,
+          "vol_factor": 1.38,
+          "score": 0.506
         }
       }
     ],
@@ -163,6 +202,40 @@
           "rsi": 73.4,
           "vol_factor": 1.0,
           "score": 0.979
+        }
+      },
+      {
+        "time": "2026-06-09 13:52:53",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 13,
+        "price": 202.49,
+        "cost": 2632.37,
+        "score": {
+          "last": 202.49,
+          "mom_30m_pct": 0.516,
+          "intraday_pct": -0.271,
+          "rsi": 58.8,
+          "vol_factor": 1.81,
+          "score": 1.5
+        }
+      },
+      {
+        "time": "2026-06-09 13:52:53",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 3,
+        "price": 1689.6,
+        "cost": 5068.8,
+        "score": {
+          "last": 1689.6,
+          "mom_30m_pct": -0.059,
+          "intraday_pct": 0.721,
+          "rsi": 45.6,
+          "vol_factor": 1.38,
+          "score": 0.506
         }
       }
     ],
