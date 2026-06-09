@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-09",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 31472.52,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-09 14:09:20",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 38889.62,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 31472.520401000977,
+    "invested_today": 38889.62049865723,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -132,6 +141,51 @@
           "rsi": 45.6,
           "vol_factor": 1.38,
           "score": 0.506
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2702.1,
+        "buy_time": "2026-06-09 14:09:20",
+        "iteration": 5,
+        "score_info": {
+          "last": 2702.1,
+          "mom_30m_pct": -0.078,
+          "intraday_pct": 1.51,
+          "rsi": 60.8,
+          "vol_factor": 2.0,
+          "score": 1.337
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 1081.4,
+        "buy_time": "2026-06-09 14:09:20",
+        "iteration": 5,
+        "score_info": {
+          "last": 1081.4,
+          "mom_30m_pct": 1.009,
+          "intraday_pct": 1.245,
+          "rsi": 93.5,
+          "vol_factor": 1.9,
+          "score": 1.29
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1276.1,
+        "buy_time": "2026-06-09 14:09:20",
+        "iteration": 5,
+        "score_info": {
+          "last": 1276.1,
+          "mom_30m_pct": 0.196,
+          "intraday_pct": 1.982,
+          "rsi": 64.5,
+          "vol_factor": 0.55,
+          "score": 0.442
         }
       }
     ],
@@ -236,6 +290,57 @@
           "rsi": 45.6,
           "vol_factor": 1.38,
           "score": 0.506
+        }
+      },
+      {
+        "time": "2026-06-09 14:09:20",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2702.1,
+        "cost": 2702.1,
+        "score": {
+          "last": 2702.1,
+          "mom_30m_pct": -0.078,
+          "intraday_pct": 1.51,
+          "rsi": 60.8,
+          "vol_factor": 2.0,
+          "score": 1.337
+        }
+      },
+      {
+        "time": "2026-06-09 14:09:20",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 1081.4,
+        "cost": 2162.8,
+        "score": {
+          "last": 1081.4,
+          "mom_30m_pct": 1.009,
+          "intraday_pct": 1.245,
+          "rsi": 93.5,
+          "vol_factor": 1.9,
+          "score": 1.29
+        }
+      },
+      {
+        "time": "2026-06-09 14:09:20",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1276.1,
+        "cost": 2552.2,
+        "score": {
+          "last": 1276.1,
+          "mom_30m_pct": 0.196,
+          "intraday_pct": 1.982,
+          "rsi": 64.5,
+          "vol_factor": 0.55,
+          "score": 0.442
         }
       }
     ],
