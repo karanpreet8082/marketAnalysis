@@ -1,5 +1,40 @@
 [
   {
+    "timestamp": "2026-05-25 16:29 IST",
+    "budget": 50000.0,
+    "allocated": 41314.78,
+    "positions": 6,
+    "summary": {
+      "total_positions": 6,
+      "total_invested": 41314.78,
+      "cash_reserve": 8685.22,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24023.98,
+          "percent": 48.0,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17290.8,
+          "percent": 34.6,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 0,
+          "percent": 0.0,
+          "positions": 0
+        }
+      },
+      "expected_gain_percent": 4.8,
+      "max_loss_percent": 3.4,
+      "sector_distribution": {
+        "Financial Services": 5,
+        "Energy": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-05-25 17:08 IST",
     "budget": 50000.0,
     "allocated": 41314.78,
@@ -1820,45 +1855,6 @@
         "Financial Services": 2,
         "Basic Materials": 1,
         "Consumer Cyclical": 1,
-        "Technology": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-06-09 14:19 IST",
-    "budget": 50000.0,
-    "allocated": 41765.15,
-    "positions": 6,
-    "summary": {
-      "total_positions": 6,
-      "total_invested": 41765.15,
-      "cash_reserve": 8234.85,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24980.1,
-          "percent": 50.0,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 9674.8,
-          "percent": 19.3,
-          "positions": 1
-        },
-        "aggressive": {
-          "amount": 7110.25,
-          "percent": 14.2,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 7.2,
-      "max_loss_percent": 4.9,
-      "sector_distribution": {
-        "Financial Services": 1,
-        "Utilities": 1,
-        "Energy": 1,
-        "Unknown": 1,
-        "Communication Services": 1,
         "Technology": 1
       }
     }
