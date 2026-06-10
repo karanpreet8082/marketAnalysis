@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-10",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-10 13:27:17",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7650.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-10 13:41:21",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 15972.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 15972.89990234375,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1299.3,
+        "buy_time": "2026-06-10 13:27:17",
+        "iteration": 1,
+        "score_info": {
+          "last": 1299.3,
+          "mom_30m_pct": 0.023,
+          "intraday_pct": 1.874,
+          "rsi": 34.3,
+          "vol_factor": 1.08,
+          "score": 0.674
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "buy_price": 389.5,
+        "buy_time": "2026-06-10 13:27:17",
+        "iteration": 1,
+        "score_info": {
+          "last": 389.5,
+          "mom_30m_pct": 0.039,
+          "intraday_pct": 2.757,
+          "rsi": 46.9,
+          "vol_factor": 0.64,
+          "score": 0.522
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1162.9,
+        "buy_time": "2026-06-10 13:27:17",
+        "iteration": 1,
+        "score_info": {
+          "last": 1162.9,
+          "mom_30m_pct": 0.25,
+          "intraday_pct": 1.777,
+          "rsi": 69.3,
+          "vol_factor": 0.43,
+          "score": 0.339
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 4,
+        "buy_price": 1301.2,
+        "buy_time": "2026-06-10 13:41:21",
+        "iteration": 2,
+        "score_info": {
+          "last": 1301.2,
+          "mom_30m_pct": 0.177,
+          "intraday_pct": 2.215,
+          "rsi": 43.7,
+          "vol_factor": 0.14,
+          "score": 0.073
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "buy_price": 389.65,
+        "buy_time": "2026-06-10 13:41:21",
+        "iteration": 2,
+        "score_info": {
+          "last": 389.65,
+          "mom_30m_pct": -0.218,
+          "intraday_pct": 2.593,
+          "rsi": 57.5,
+          "vol_factor": 0.26,
+          "score": -0.285
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-10 13:27:17",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1299.3,
+        "cost": 2598.6,
+        "score": {
+          "last": 1299.3,
+          "mom_30m_pct": 0.023,
+          "intraday_pct": 1.874,
+          "rsi": 34.3,
+          "vol_factor": 1.08,
+          "score": 0.674
+        }
+      },
+      {
+        "time": "2026-06-10 13:27:17",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 389.5,
+        "cost": 2726.5,
+        "score": {
+          "last": 389.5,
+          "mom_30m_pct": 0.039,
+          "intraday_pct": 2.757,
+          "rsi": 46.9,
+          "vol_factor": 0.64,
+          "score": 0.522
+        }
+      },
+      {
+        "time": "2026-06-10 13:27:17",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1162.9,
+        "cost": 2325.8,
+        "score": {
+          "last": 1162.9,
+          "mom_30m_pct": 0.25,
+          "intraday_pct": 1.777,
+          "rsi": 69.3,
+          "vol_factor": 0.43,
+          "score": 0.339
+        }
+      },
+      {
+        "time": "2026-06-10 13:41:21",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 4,
+        "price": 1301.2,
+        "cost": 5204.8,
+        "score": {
+          "last": 1301.2,
+          "mom_30m_pct": 0.177,
+          "intraday_pct": 2.215,
+          "rsi": 43.7,
+          "vol_factor": 0.14,
+          "score": 0.073
+        }
+      },
+      {
+        "time": "2026-06-10 13:41:21",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "price": 389.65,
+        "cost": 3117.2,
+        "score": {
+          "last": 389.65,
+          "mom_30m_pct": -0.218,
+          "intraday_pct": 2.593,
+          "rsi": 57.5,
+          "vol_factor": 0.26,
+          "score": -0.285
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
