@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-10",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 71452.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 24
+      },
+      {
+        "iteration": 10,
+        "time": "2026-06-10 16:56:02",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 79958.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 27
       }
     ],
-    "invested_today": 71452.59936523438,
+    "invested_today": 79958.09930419922,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -440,6 +449,51 @@
         "buy_price": 1271.7,
         "buy_time": "2026-06-10 16:31:40",
         "iteration": 9,
+        "score_info": {
+          "last": 1271.7,
+          "mom_30m_pct": 0.071,
+          "intraday_pct": -0.477,
+          "rsi": 53.8,
+          "vol_factor": 2.0,
+          "score": 0.963
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 288.4,
+        "buy_time": "2026-06-10 16:56:02",
+        "iteration": 10,
+        "score_info": {
+          "last": 288.4,
+          "mom_30m_pct": 0.313,
+          "intraday_pct": -0.156,
+          "rsi": 55.7,
+          "vol_factor": 1.57,
+          "score": 0.992
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3078.1,
+        "buy_time": "2026-06-10 16:56:02",
+        "iteration": 10,
+        "score_info": {
+          "last": 3078.1,
+          "mom_30m_pct": 0.059,
+          "intraday_pct": -0.333,
+          "rsi": 33.6,
+          "vol_factor": 2.0,
+          "score": 0.988
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1271.7,
+        "buy_time": "2026-06-10 16:56:02",
+        "iteration": 10,
         "score_info": {
           "last": 1271.7,
           "mom_30m_pct": 0.071,
@@ -845,6 +899,57 @@
       {
         "time": "2026-06-10 16:31:40",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1271.7,
+        "cost": 2543.4,
+        "score": {
+          "last": 1271.7,
+          "mom_30m_pct": 0.071,
+          "intraday_pct": -0.477,
+          "rsi": 53.8,
+          "vol_factor": 2.0,
+          "score": 0.963
+        }
+      },
+      {
+        "time": "2026-06-10 16:56:02",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 288.4,
+        "cost": 2884.0,
+        "score": {
+          "last": 288.4,
+          "mom_30m_pct": 0.313,
+          "intraday_pct": -0.156,
+          "rsi": 55.7,
+          "vol_factor": 1.57,
+          "score": 0.992
+        }
+      },
+      {
+        "time": "2026-06-10 16:56:02",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3078.1,
+        "cost": 3078.1,
+        "score": {
+          "last": 3078.1,
+          "mom_30m_pct": 0.059,
+          "intraday_pct": -0.333,
+          "rsi": 33.6,
+          "vol_factor": 2.0,
+          "score": 0.988
+        }
+      },
+      {
+        "time": "2026-06-10 16:56:02",
+        "iteration": 10,
         "action": "BUY",
         "symbol": "DRREDDY",
         "qty": 2,
