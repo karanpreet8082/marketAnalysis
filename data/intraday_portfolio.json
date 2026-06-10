@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-10",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 21337.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-10 14:07:00",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 29276.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-10 14:29:53",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 37048.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 21337.19989013672,
+    "invested_today": 37047.99969482422,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -138,6 +156,96 @@
           "rsi": 57.0,
           "vol_factor": 1.0,
           "score": 0.819
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1165.1,
+        "buy_time": "2026-06-10 14:07:00",
+        "iteration": 4,
+        "score_info": {
+          "last": 1165.1,
+          "mom_30m_pct": 0.25,
+          "intraday_pct": 1.791,
+          "rsi": 65.3,
+          "vol_factor": 0.59,
+          "score": 0.502
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1319.2,
+        "buy_time": "2026-06-10 14:07:00",
+        "iteration": 4,
+        "score_info": {
+          "last": 1319.2,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 2.375,
+          "rsi": 38.9,
+          "vol_factor": 0.31,
+          "score": 0.387
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1485.2,
+        "buy_time": "2026-06-10 14:07:00",
+        "iteration": 4,
+        "score_info": {
+          "last": 1485.2,
+          "mom_30m_pct": 0.054,
+          "intraday_pct": 0.705,
+          "rsi": 58.8,
+          "vol_factor": 0.91,
+          "score": 0.206
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1324.5,
+        "buy_time": "2026-06-10 14:29:53",
+        "iteration": 5,
+        "score_info": {
+          "last": 1324.5,
+          "mom_30m_pct": 0.447,
+          "intraday_pct": 2.619,
+          "rsi": 56.8,
+          "vol_factor": 1.16,
+          "score": 1.621
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1789.8,
+        "buy_time": "2026-06-10 14:29:53",
+        "iteration": 5,
+        "score_info": {
+          "last": 1789.8,
+          "mom_30m_pct": 0.073,
+          "intraday_pct": 1.056,
+          "rsi": 40.9,
+          "vol_factor": 1.47,
+          "score": 0.891
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1111.0,
+        "buy_time": "2026-06-10 14:29:53",
+        "iteration": 5,
+        "score_info": {
+          "last": 1111.0,
+          "mom_30m_pct": -0.296,
+          "intraday_pct": 0.945,
+          "rsi": 32.4,
+          "vol_factor": 1.97,
+          "score": 0.806
         }
       }
     ],
@@ -259,6 +367,108 @@
           "rsi": 57.0,
           "vol_factor": 1.0,
           "score": 0.819
+        }
+      },
+      {
+        "time": "2026-06-10 14:07:00",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1165.1,
+        "cost": 2330.2,
+        "score": {
+          "last": 1165.1,
+          "mom_30m_pct": 0.25,
+          "intraday_pct": 1.791,
+          "rsi": 65.3,
+          "vol_factor": 0.59,
+          "score": 0.502
+        }
+      },
+      {
+        "time": "2026-06-10 14:07:00",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1319.2,
+        "cost": 2638.4,
+        "score": {
+          "last": 1319.2,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 2.375,
+          "rsi": 38.9,
+          "vol_factor": 0.31,
+          "score": 0.387
+        }
+      },
+      {
+        "time": "2026-06-10 14:07:00",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1485.2,
+        "cost": 2970.4,
+        "score": {
+          "last": 1485.2,
+          "mom_30m_pct": 0.054,
+          "intraday_pct": 0.705,
+          "rsi": 58.8,
+          "vol_factor": 0.91,
+          "score": 0.206
+        }
+      },
+      {
+        "time": "2026-06-10 14:29:53",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1324.5,
+        "cost": 2649.0,
+        "score": {
+          "last": 1324.5,
+          "mom_30m_pct": 0.447,
+          "intraday_pct": 2.619,
+          "rsi": 56.8,
+          "vol_factor": 1.16,
+          "score": 1.621
+        }
+      },
+      {
+        "time": "2026-06-10 14:29:53",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1789.8,
+        "cost": 1789.8,
+        "score": {
+          "last": 1789.8,
+          "mom_30m_pct": 0.073,
+          "intraday_pct": 1.056,
+          "rsi": 40.9,
+          "vol_factor": 1.47,
+          "score": 0.891
+        }
+      },
+      {
+        "time": "2026-06-10 14:29:53",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1111.0,
+        "cost": 3333.0,
+        "score": {
+          "last": 1111.0,
+          "mom_30m_pct": -0.296,
+          "intraday_pct": 0.945,
+          "rsi": 32.4,
+          "vol_factor": 1.97,
+          "score": 0.806
         }
       }
     ],
