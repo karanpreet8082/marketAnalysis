@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-10",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,18 +48,9 @@
         "invested_today_after": 37048.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 13
-      },
-      {
-        "iteration": 6,
-        "time": "2026-06-10 14:36:49",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 45936.1,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 15
       }
     ],
-    "invested_today": 45936.099548339844,
+    "invested_today": 37047.99969482422,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -255,36 +246,6 @@
           "rsi": 32.4,
           "vol_factor": 1.97,
           "score": 0.806
-        }
-      },
-      {
-        "symbol": "AXISBANK",
-        "qty": 4,
-        "buy_price": 1323.6,
-        "buy_time": "2026-06-10 14:36:49",
-        "iteration": 6,
-        "score_info": {
-          "last": 1323.6,
-          "mom_30m_pct": 0.394,
-          "intraday_pct": 2.13,
-          "rsi": 59.3,
-          "vol_factor": 0.3,
-          "score": 0.53
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 3593.7,
-        "buy_time": "2026-06-10 14:36:49",
-        "iteration": 6,
-        "score_info": {
-          "last": 3593.7,
-          "mom_30m_pct": 0.022,
-          "intraday_pct": -0.504,
-          "rsi": 37.5,
-          "vol_factor": 0.93,
-          "score": -0.184
         }
       }
     ],
@@ -508,40 +469,6 @@
           "rsi": 32.4,
           "vol_factor": 1.97,
           "score": 0.806
-        }
-      },
-      {
-        "time": "2026-06-10 14:36:49",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "AXISBANK",
-        "qty": 4,
-        "price": 1323.6,
-        "cost": 5294.4,
-        "score": {
-          "last": 1323.6,
-          "mom_30m_pct": 0.394,
-          "intraday_pct": 2.13,
-          "rsi": 59.3,
-          "vol_factor": 0.3,
-          "score": 0.53
-        }
-      },
-      {
-        "time": "2026-06-10 14:36:49",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 3593.7,
-        "cost": 3593.7,
-        "score": {
-          "last": 3593.7,
-          "mom_30m_pct": 0.022,
-          "intraday_pct": -0.504,
-          "rsi": 37.5,
-          "vol_factor": 0.93,
-          "score": -0.184
         }
       }
     ],
