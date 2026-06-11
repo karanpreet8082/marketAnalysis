@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-11",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 59952.45,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 9,
+        "time": "2026-06-11 17:13:48",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 68757.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 24
       }
     ],
-    "invested_today": 59952.450744628906,
+    "invested_today": 68757.4009399414,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -386,6 +395,51 @@
         "buy_price": 2136.8,
         "buy_time": "2026-06-11 16:39:59",
         "iteration": 8,
+        "score_info": {
+          "last": 2136.8,
+          "mom_30m_pct": 0.202,
+          "intraday_pct": 0.645,
+          "rsi": 53.7,
+          "vol_factor": 2.0,
+          "score": 1.496
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 564.25,
+        "buy_time": "2026-06-11 17:13:48",
+        "iteration": 9,
+        "score_info": {
+          "last": 564.25,
+          "mom_30m_pct": 0.356,
+          "intraday_pct": 0.669,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.734
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "buy_price": 1282.3,
+        "buy_time": "2026-06-11 17:13:48",
+        "iteration": 9,
+        "score_info": {
+          "last": 1282.3,
+          "mom_30m_pct": 0.188,
+          "intraday_pct": 1.448,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.716
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2136.8,
+        "buy_time": "2026-06-11 17:13:48",
+        "iteration": 9,
         "score_info": {
           "last": 2136.8,
           "mom_30m_pct": 0.202,
@@ -740,6 +794,57 @@
       {
         "time": "2026-06-11 16:39:59",
         "iteration": 8,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2136.8,
+        "cost": 2136.8,
+        "score": {
+          "last": 2136.8,
+          "mom_30m_pct": 0.202,
+          "intraday_pct": 0.645,
+          "rsi": 53.7,
+          "vol_factor": 2.0,
+          "score": 1.496
+        }
+      },
+      {
+        "time": "2026-06-11 17:13:48",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 564.25,
+        "cost": 2821.25,
+        "score": {
+          "last": 564.25,
+          "mom_30m_pct": 0.356,
+          "intraday_pct": 0.669,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.734
+        }
+      },
+      {
+        "time": "2026-06-11 17:13:48",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "price": 1282.3,
+        "cost": 3846.9,
+        "score": {
+          "last": 1282.3,
+          "mom_30m_pct": 0.188,
+          "intraday_pct": 1.448,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.716
+        }
+      },
+      {
+        "time": "2026-06-11 17:13:48",
+        "iteration": 9,
         "action": "BUY",
         "symbol": "TCS",
         "qty": 1,
