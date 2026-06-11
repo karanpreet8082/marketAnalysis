@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-11",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 19907.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-11 14:35:05",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 28501.35,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-11 14:49:14",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 37182.15,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 19907.000091552734,
+    "invested_today": 37182.15042114258,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -123,6 +141,96 @@
           "rsi": 44.2,
           "vol_factor": 0.86,
           "score": 0.111
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1465.8,
+        "buy_time": "2026-06-11 14:35:05",
+        "iteration": 4,
+        "score_info": {
+          "last": 1465.8,
+          "mom_30m_pct": 0.722,
+          "intraday_pct": -0.946,
+          "rsi": 68.6,
+          "vol_factor": 1.0,
+          "score": 0.798
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1268.8,
+        "buy_time": "2026-06-11 14:35:05",
+        "iteration": 4,
+        "score_info": {
+          "last": 1268.8,
+          "mom_30m_pct": 0.118,
+          "intraday_pct": 0.372,
+          "rsi": 60.5,
+          "vol_factor": 1.49,
+          "score": 0.783
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 446.45,
+        "buy_time": "2026-06-11 14:35:05",
+        "iteration": 4,
+        "score_info": {
+          "last": 446.45,
+          "mom_30m_pct": 0.101,
+          "intraday_pct": -1.304,
+          "rsi": 61.0,
+          "vol_factor": 2.0,
+          "score": 0.76
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1266.4,
+        "buy_time": "2026-06-11 14:49:14",
+        "iteration": 5,
+        "score_info": {
+          "last": 1266.4,
+          "mom_30m_pct": 0.047,
+          "intraday_pct": 0.349,
+          "rsi": 48.0,
+          "vol_factor": 2.0,
+          "score": 1.176
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1108.5,
+        "buy_time": "2026-06-11 14:49:14",
+        "iteration": 5,
+        "score_info": {
+          "last": 1108.5,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": -0.045,
+          "rsi": 55.6,
+          "vol_factor": 2.0,
+          "score": 1.0
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 10,
+        "buy_price": 282.25,
+        "buy_time": "2026-06-11 14:49:14",
+        "iteration": 5,
+        "score_info": {
+          "last": 282.25,
+          "mom_30m_pct": 0.053,
+          "intraday_pct": -0.686,
+          "rsi": 58.3,
+          "vol_factor": 2.0,
+          "score": 0.874
         }
       }
     ],
@@ -227,6 +335,108 @@
           "rsi": 44.2,
           "vol_factor": 0.86,
           "score": 0.111
+        }
+      },
+      {
+        "time": "2026-06-11 14:35:05",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1465.8,
+        "cost": 2931.6,
+        "score": {
+          "last": 1465.8,
+          "mom_30m_pct": 0.722,
+          "intraday_pct": -0.946,
+          "rsi": 68.6,
+          "vol_factor": 1.0,
+          "score": 0.798
+        }
+      },
+      {
+        "time": "2026-06-11 14:35:05",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1268.8,
+        "cost": 2537.6,
+        "score": {
+          "last": 1268.8,
+          "mom_30m_pct": 0.118,
+          "intraday_pct": 0.372,
+          "rsi": 60.5,
+          "vol_factor": 1.49,
+          "score": 0.783
+        }
+      },
+      {
+        "time": "2026-06-11 14:35:05",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 446.45,
+        "cost": 3125.15,
+        "score": {
+          "last": 446.45,
+          "mom_30m_pct": 0.101,
+          "intraday_pct": -1.304,
+          "rsi": 61.0,
+          "vol_factor": 2.0,
+          "score": 0.76
+        }
+      },
+      {
+        "time": "2026-06-11 14:49:14",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1266.4,
+        "cost": 2532.8,
+        "score": {
+          "last": 1266.4,
+          "mom_30m_pct": 0.047,
+          "intraday_pct": 0.349,
+          "rsi": 48.0,
+          "vol_factor": 2.0,
+          "score": 1.176
+        }
+      },
+      {
+        "time": "2026-06-11 14:49:14",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1108.5,
+        "cost": 3325.5,
+        "score": {
+          "last": 1108.5,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": -0.045,
+          "rsi": 55.6,
+          "vol_factor": 2.0,
+          "score": 1.0
+        }
+      },
+      {
+        "time": "2026-06-11 14:49:14",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 10,
+        "price": 282.25,
+        "cost": 2822.5,
+        "score": {
+          "last": 282.25,
+          "mom_30m_pct": 0.053,
+          "intraday_pct": -0.686,
+          "rsi": 58.3,
+          "vol_factor": 2.0,
+          "score": 0.874
         }
       }
     ],
