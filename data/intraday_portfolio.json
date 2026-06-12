@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-12",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 21895.7,
         "realized_pnl_today_after": 28.4,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-12 14:18:39",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 30211.4,
+        "realized_pnl_today_after": 28.4,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 21895.700073242188,
+    "invested_today": 30211.40008544922,
     "realized_pnl_today": 28.40000000000009,
     "open_positions": [
       {
@@ -138,6 +147,36 @@
           "rsi": 89.6,
           "vol_factor": 1.0,
           "score": 0.781
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 6,
+        "buy_price": 899.45,
+        "buy_time": "2026-06-12 14:18:39",
+        "iteration": 4,
+        "score_info": {
+          "last": 899.45,
+          "mom_30m_pct": -0.061,
+          "intraday_pct": 3.053,
+          "rsi": 71.0,
+          "vol_factor": 1.24,
+          "score": 1.06
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 583.8,
+        "buy_time": "2026-06-12 14:18:39",
+        "iteration": 4,
+        "score_info": {
+          "last": 583.8,
+          "mom_30m_pct": 1.047,
+          "intraday_pct": 3.879,
+          "rsi": 88.4,
+          "vol_factor": 0.81,
+          "score": 1.045
         }
       }
     ],
@@ -288,6 +327,40 @@
           "rsi": 89.6,
           "vol_factor": 1.0,
           "score": 0.781
+        }
+      },
+      {
+        "time": "2026-06-12 14:18:39",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 6,
+        "price": 899.45,
+        "cost": 5396.7,
+        "score": {
+          "last": 899.45,
+          "mom_30m_pct": -0.061,
+          "intraday_pct": 3.053,
+          "rsi": 71.0,
+          "vol_factor": 1.24,
+          "score": 1.06
+        }
+      },
+      {
+        "time": "2026-06-12 14:18:39",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 583.8,
+        "cost": 2919.0,
+        "score": {
+          "last": 583.8,
+          "mom_30m_pct": 1.047,
+          "intraday_pct": 3.879,
+          "rsi": 88.4,
+          "vol_factor": 0.81,
+          "score": 1.045
         }
       }
     ],
