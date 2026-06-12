@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-05-26 13:53 IST",
+    "budget": 50000.0,
+    "allocated": 49817.840000000004,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49817.84,
+      "cash_reserve": 182.16,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25073.73,
+          "percent": 50.1,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17281.760000000002,
+          "percent": 34.6,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7462.35,
+          "percent": 14.9,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 7.2,
+      "max_loss_percent": 5.0,
+      "sector_distribution": {
+        "Utilities": 1,
+        "Financial Services": 3,
+        "Basic Materials": 2,
+        "Consumer Cyclical": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-05-26 14:22 IST",
     "budget": 50000.0,
     "allocated": 49629.78,
@@ -1830,44 +1867,6 @@
         "Utilities": 1,
         "Unknown": 1,
         "Consumer Cyclical": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-06-12 15:16 IST",
-    "budget": 50000.0,
-    "allocated": 49339.020000000004,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49339.02,
-      "cash_reserve": 660.98,
-      "avg_confidence": 0.51,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24988.73,
-          "percent": 50.0,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17038.300000000003,
-          "percent": 34.1,
-          "positions": 2
-        },
-        "aggressive": {
-          "amount": 7311.99,
-          "percent": 14.6,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 6.6,
-      "max_loss_percent": 4.6,
-      "sector_distribution": {
-        "Communication Services": 1,
-        "Utilities": 1,
-        "Unknown": 1,
-        "Financial Services": 3,
-        "Basic Materials": 1
       }
     }
   }
