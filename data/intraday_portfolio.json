@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-12",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 55435.08,
         "realized_pnl_today_after": 190.4,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 8,
+        "time": "2026-06-12 16:19:22",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 64328.96,
+        "realized_pnl_today_after": 190.4,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 55435.08068847656,
+    "invested_today": 64328.96081542969,
     "realized_pnl_today": 190.40039672851537,
     "open_positions": [
       {
@@ -219,6 +228,51 @@
           "rsi": 63.6,
           "vol_factor": 1.12,
           "score": 1.521
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 16,
+        "buy_price": 180.23,
+        "buy_time": "2026-06-12 16:19:22",
+        "iteration": 8,
+        "score_info": {
+          "last": 180.23,
+          "mom_30m_pct": 0.423,
+          "intraday_pct": 0.941,
+          "rsi": 65.5,
+          "vol_factor": 1.78,
+          "score": 1.693
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1690.0,
+        "buy_time": "2026-06-12 16:19:22",
+        "iteration": 8,
+        "score_info": {
+          "last": 1690.0,
+          "mom_30m_pct": 0.16,
+          "intraday_pct": 1.137,
+          "rsi": 73.2,
+          "vol_factor": 2.0,
+          "score": 1.581
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 2,
+        "buy_price": 2160.1,
+        "buy_time": "2026-06-12 16:19:22",
+        "iteration": 8,
+        "score_info": {
+          "last": 2160.1,
+          "mom_30m_pct": 0.199,
+          "intraday_pct": 0.756,
+          "rsi": 64.6,
+          "vol_factor": 2.0,
+          "score": 1.526
         }
       }
     ],
@@ -565,6 +619,57 @@
           "rsi": 63.6,
           "vol_factor": 1.12,
           "score": 1.521
+        }
+      },
+      {
+        "time": "2026-06-12 16:19:22",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 16,
+        "price": 180.23,
+        "cost": 2883.68,
+        "score": {
+          "last": 180.23,
+          "mom_30m_pct": 0.423,
+          "intraday_pct": 0.941,
+          "rsi": 65.5,
+          "vol_factor": 1.78,
+          "score": 1.693
+        }
+      },
+      {
+        "time": "2026-06-12 16:19:22",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1690.0,
+        "cost": 1690.0,
+        "score": {
+          "last": 1690.0,
+          "mom_30m_pct": 0.16,
+          "intraday_pct": 1.137,
+          "rsi": 73.2,
+          "vol_factor": 2.0,
+          "score": 1.581
+        }
+      },
+      {
+        "time": "2026-06-12 16:19:22",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 2,
+        "price": 2160.1,
+        "cost": 4320.2,
+        "score": {
+          "last": 2160.1,
+          "mom_30m_pct": 0.199,
+          "intraday_pct": 0.756,
+          "rsi": 64.6,
+          "vol_factor": 2.0,
+          "score": 1.526
         }
       }
     ],
