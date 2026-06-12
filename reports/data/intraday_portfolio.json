@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-12",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,10 +39,19 @@
         "invested_today_after": 30211.4,
         "realized_pnl_today_after": 28.4,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-12 14:39:07",
+        "n_bought": 1,
+        "n_sold": 2,
+        "invested_today_after": 38307.2,
+        "realized_pnl_today_after": 110.75,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 30211.40008544922,
-    "realized_pnl_today": 28.40000000000009,
+    "invested_today": 38307.20037841797,
+    "realized_pnl_today": 110.75021972656225,
     "open_positions": [
       {
         "symbol": "ASIANPAINT",
@@ -120,21 +129,6 @@
         }
       },
       {
-        "symbol": "BAJFINANCE",
-        "qty": 3,
-        "buy_price": 899.6,
-        "buy_time": "2026-06-12 14:15:15",
-        "iteration": 3,
-        "score_info": {
-          "last": 899.6,
-          "mom_30m_pct": -0.044,
-          "intraday_pct": 3.071,
-          "rsi": 71.2,
-          "vol_factor": 1.0,
-          "score": 0.855
-        }
-      },
-      {
         "symbol": "BPCL",
         "qty": 12,
         "buy_price": 299.5,
@@ -150,21 +144,6 @@
         }
       },
       {
-        "symbol": "BAJFINANCE",
-        "qty": 6,
-        "buy_price": 899.45,
-        "buy_time": "2026-06-12 14:18:39",
-        "iteration": 4,
-        "score_info": {
-          "last": 899.45,
-          "mom_30m_pct": -0.061,
-          "intraday_pct": 3.053,
-          "rsi": 71.0,
-          "vol_factor": 1.24,
-          "score": 1.06
-        }
-      },
-      {
         "symbol": "DLF",
         "qty": 5,
         "buy_price": 583.8,
@@ -177,6 +156,21 @@
           "rsi": 88.4,
           "vol_factor": 0.81,
           "score": 1.045
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 6,
+        "buy_price": 1349.3,
+        "buy_time": "2026-06-12 14:39:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 1349.3,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": 2.274,
+          "rsi": 69.5,
+          "vol_factor": 1.34,
+          "score": 1.527
         }
       }
     ],
@@ -361,6 +355,47 @@
           "rsi": 88.4,
           "vol_factor": 0.81,
           "score": 1.045
+        }
+      },
+      {
+        "time": "2026-06-12 14:39:07",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 908.65,
+        "buy_price": 899.6,
+        "pnl": 27.15,
+        "pnl_pct": 1.01,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-06-12 14:39:07",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "BAJFINANCE",
+        "qty": 6,
+        "price": 908.65,
+        "buy_price": 899.45,
+        "pnl": 55.2,
+        "pnl_pct": 1.02,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-06-12 14:39:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 6,
+        "price": 1349.3,
+        "cost": 8095.8,
+        "score": {
+          "last": 1349.3,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": 2.274,
+          "rsi": 69.5,
+          "vol_factor": 1.34,
+          "score": 1.527
         }
       }
     ],
