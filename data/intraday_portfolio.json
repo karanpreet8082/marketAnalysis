@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-12",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13272.5,
         "realized_pnl_today_after": 28.4,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-06-12 14:15:15",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 21895.7,
+        "realized_pnl_today_after": 28.4,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 13272.500244140625,
+    "invested_today": 21895.700073242188,
     "realized_pnl_today": 28.40000000000009,
     "open_positions": [
       {
@@ -84,6 +93,51 @@
           "rsi": 90.9,
           "vol_factor": 0.58,
           "score": 2.241
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 582.6,
+        "buy_time": "2026-06-12 14:15:15",
+        "iteration": 3,
+        "score_info": {
+          "last": 582.6,
+          "mom_30m_pct": 0.839,
+          "intraday_pct": 3.665,
+          "rsi": 87.7,
+          "vol_factor": 1.0,
+          "score": 0.859
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 899.6,
+        "buy_time": "2026-06-12 14:15:15",
+        "iteration": 3,
+        "score_info": {
+          "last": 899.6,
+          "mom_30m_pct": -0.044,
+          "intraday_pct": 3.071,
+          "rsi": 71.2,
+          "vol_factor": 1.0,
+          "score": 0.855
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 12,
+        "buy_price": 299.5,
+        "buy_time": "2026-06-12 14:15:15",
+        "iteration": 3,
+        "score_info": {
+          "last": 299.5,
+          "mom_30m_pct": 0.503,
+          "intraday_pct": 5.088,
+          "rsi": 89.6,
+          "vol_factor": 1.0,
+          "score": 0.781
         }
       }
     ],
@@ -183,6 +237,57 @@
           "rsi": 90.9,
           "vol_factor": 0.58,
           "score": 2.241
+        }
+      },
+      {
+        "time": "2026-06-12 14:15:15",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 582.6,
+        "cost": 2330.4,
+        "score": {
+          "last": 582.6,
+          "mom_30m_pct": 0.839,
+          "intraday_pct": 3.665,
+          "rsi": 87.7,
+          "vol_factor": 1.0,
+          "score": 0.859
+        }
+      },
+      {
+        "time": "2026-06-12 14:15:15",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 899.6,
+        "cost": 2698.8,
+        "score": {
+          "last": 899.6,
+          "mom_30m_pct": -0.044,
+          "intraday_pct": 3.071,
+          "rsi": 71.2,
+          "vol_factor": 1.0,
+          "score": 0.855
+        }
+      },
+      {
+        "time": "2026-06-12 14:15:15",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 12,
+        "price": 299.5,
+        "cost": 3594.0,
+        "score": {
+          "last": 299.5,
+          "mom_30m_pct": 0.503,
+          "intraday_pct": 5.088,
+          "rsi": 89.6,
+          "vol_factor": 1.0,
+          "score": 0.781
         }
       }
     ],
