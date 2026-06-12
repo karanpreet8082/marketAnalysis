@@ -1,5 +1,193 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-12",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-12 13:42:14",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8250.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-12 13:57:51",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 13272.5,
+        "realized_pnl_today_after": 28.4,
+        "open_positions_after": 4
+      }
+    ],
+    "invested_today": 13272.500244140625,
+    "realized_pnl_today": 28.40000000000009,
+    "open_positions": [
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2744.6,
+        "buy_time": "2026-06-12 13:42:14",
+        "iteration": 1,
+        "score_info": {
+          "last": 2744.6,
+          "mom_30m_pct": 0.782,
+          "intraday_pct": 2.269,
+          "rsi": 69.5,
+          "vol_factor": 1.28,
+          "score": 2.131
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "buy_price": 400.85,
+        "buy_time": "2026-06-12 13:42:14",
+        "iteration": 1,
+        "score_info": {
+          "last": 400.85,
+          "mom_30m_pct": 0.691,
+          "intraday_pct": 1.148,
+          "rsi": 73.1,
+          "vol_factor": 1.61,
+          "score": 1.989
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 299.5,
+        "buy_time": "2026-06-12 13:57:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 299.5,
+          "mom_30m_pct": 1.836,
+          "intraday_pct": 5.309,
+          "rsi": 83.2,
+          "vol_factor": 0.74,
+          "score": 2.586
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 581.75,
+        "buy_time": "2026-06-12 13:57:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 581.75,
+          "mom_30m_pct": 2.088,
+          "intraday_pct": 3.441,
+          "rsi": 90.9,
+          "vol_factor": 0.58,
+          "score": 2.241
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-12 13:42:14",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 574.65,
+        "cost": 2298.6,
+        "score": {
+          "last": 574.65,
+          "mom_30m_pct": 1.385,
+          "intraday_pct": 2.388,
+          "rsi": 75.8,
+          "vol_factor": 2.0,
+          "score": 2.294
+        }
+      },
+      {
+        "time": "2026-06-12 13:42:14",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2744.6,
+        "cost": 2744.6,
+        "score": {
+          "last": 2744.6,
+          "mom_30m_pct": 0.782,
+          "intraday_pct": 2.269,
+          "rsi": 69.5,
+          "vol_factor": 1.28,
+          "score": 2.131
+        }
+      },
+      {
+        "time": "2026-06-12 13:42:14",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "price": 400.85,
+        "cost": 3206.8,
+        "score": {
+          "last": 400.85,
+          "mom_30m_pct": 0.691,
+          "intraday_pct": 1.148,
+          "rsi": 73.1,
+          "vol_factor": 1.61,
+          "score": 1.989
+        }
+      },
+      {
+        "time": "2026-06-12 13:57:51",
+        "iteration": 2,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 581.75,
+        "buy_price": 574.65,
+        "pnl": 28.4,
+        "pnl_pct": 1.24,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-06-12 13:57:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 299.5,
+        "cost": 2695.5,
+        "score": {
+          "last": 299.5,
+          "mom_30m_pct": 1.836,
+          "intraday_pct": 5.309,
+          "rsi": 83.2,
+          "vol_factor": 0.74,
+          "score": 2.586
+        }
+      },
+      {
+        "time": "2026-06-12 13:57:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 581.75,
+        "cost": 2327.0,
+        "score": {
+          "last": 581.75,
+          "mom_30m_pct": 2.088,
+          "intraday_pct": 3.441,
+          "rsi": 90.9,
+          "vol_factor": 0.58,
+          "score": 2.241
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
