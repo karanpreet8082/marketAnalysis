@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-12",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 46763.1,
         "realized_pnl_today_after": 130.55,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 7,
+        "time": "2026-06-12 16:07:56",
+        "n_bought": 3,
+        "n_sold": 2,
+        "invested_today_after": 55435.08,
+        "realized_pnl_today_after": 190.4,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 46763.1005859375,
-    "realized_pnl_today": 130.55026855468725,
+    "invested_today": 55435.08068847656,
+    "realized_pnl_today": 190.40039672851537,
     "open_positions": [
       {
         "symbol": "ASIANPAINT",
@@ -93,21 +102,6 @@
         }
       },
       {
-        "symbol": "BPCL",
-        "qty": 9,
-        "buy_price": 299.5,
-        "buy_time": "2026-06-12 13:57:51",
-        "iteration": 2,
-        "score_info": {
-          "last": 299.5,
-          "mom_30m_pct": 1.836,
-          "intraday_pct": 5.309,
-          "rsi": 83.2,
-          "vol_factor": 0.74,
-          "score": 2.586
-        }
-      },
-      {
         "symbol": "DLF",
         "qty": 4,
         "buy_price": 582.6,
@@ -120,21 +114,6 @@
           "rsi": 87.7,
           "vol_factor": 1.0,
           "score": 0.859
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 12,
-        "buy_price": 299.5,
-        "buy_time": "2026-06-12 14:15:15",
-        "iteration": 3,
-        "score_info": {
-          "last": 299.5,
-          "mom_30m_pct": 0.503,
-          "intraday_pct": 5.088,
-          "rsi": 89.6,
-          "vol_factor": 1.0,
-          "score": 0.781
         }
       },
       {
@@ -195,6 +174,51 @@
           "rsi": 70.8,
           "vol_factor": 0.16,
           "score": 1.101
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 16,
+        "buy_price": 180.23,
+        "buy_time": "2026-06-12 16:07:56",
+        "iteration": 7,
+        "score_info": {
+          "last": 180.23,
+          "mom_30m_pct": 0.423,
+          "intraday_pct": 0.941,
+          "rsi": 65.5,
+          "vol_factor": 1.78,
+          "score": 1.693
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2160.1,
+        "buy_time": "2026-06-12 16:07:56",
+        "iteration": 7,
+        "score_info": {
+          "last": 2160.1,
+          "mom_30m_pct": 0.199,
+          "intraday_pct": 0.756,
+          "rsi": 64.6,
+          "vol_factor": 2.0,
+          "score": 1.526
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 12,
+        "buy_price": 302.35,
+        "buy_time": "2026-06-12 16:07:56",
+        "iteration": 7,
+        "score_info": {
+          "last": 302.35,
+          "mom_30m_pct": 0.449,
+          "intraday_pct": 2.422,
+          "rsi": 63.6,
+          "vol_factor": 1.12,
+          "score": 1.521
         }
       }
     ],
@@ -466,6 +490,81 @@
           "rsi": 70.8,
           "vol_factor": 0.16,
           "score": 1.101
+        }
+      },
+      {
+        "time": "2026-06-12 16:07:56",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 302.35,
+        "buy_price": 299.5,
+        "pnl": 25.65,
+        "pnl_pct": 0.95,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-06-12 16:07:56",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "BPCL",
+        "qty": 12,
+        "price": 302.35,
+        "buy_price": 299.5,
+        "pnl": 34.2,
+        "pnl_pct": 0.95,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-06-12 16:07:56",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 16,
+        "price": 180.23,
+        "cost": 2883.68,
+        "score": {
+          "last": 180.23,
+          "mom_30m_pct": 0.423,
+          "intraday_pct": 0.941,
+          "rsi": 65.5,
+          "vol_factor": 1.78,
+          "score": 1.693
+        }
+      },
+      {
+        "time": "2026-06-12 16:07:56",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2160.1,
+        "cost": 2160.1,
+        "score": {
+          "last": 2160.1,
+          "mom_30m_pct": 0.199,
+          "intraday_pct": 0.756,
+          "rsi": 64.6,
+          "vol_factor": 2.0,
+          "score": 1.526
+        }
+      },
+      {
+        "time": "2026-06-12 16:07:56",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 12,
+        "price": 302.35,
+        "cost": 3628.2,
+        "score": {
+          "last": 302.35,
+          "mom_30m_pct": 0.449,
+          "intraday_pct": 2.422,
+          "rsi": 63.6,
+          "vol_factor": 1.12,
+          "score": 1.521
         }
       }
     ],
