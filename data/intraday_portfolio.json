@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-15",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,27 @@
         "invested_today_after": 70832.35,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 10,
+        "time": "2026-06-15 19:09:05",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 80548.65,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 22
+      },
+      {
+        "iteration": 11,
+        "time": "2026-06-15 20:06:25",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 90264.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 24
       }
     ],
-    "invested_today": 70832.34930419922,
+    "invested_today": 90264.94915771484,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -380,6 +398,66 @@
         "buy_price": 1749.8,
         "buy_time": "2026-06-15 18:53:56",
         "iteration": 9,
+        "score_info": {
+          "last": 1749.8,
+          "mom_30m_pct": -0.074,
+          "intraday_pct": 0.679,
+          "rsi": 43.7,
+          "vol_factor": 2.0,
+          "score": 1.092
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 14,
+        "buy_price": 444.05,
+        "buy_time": "2026-06-15 19:09:05",
+        "iteration": 10,
+        "score_info": {
+          "last": 444.05,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 0.045,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 1.522
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "buy_price": 1749.8,
+        "buy_time": "2026-06-15 19:09:05",
+        "iteration": 10,
+        "score_info": {
+          "last": 1749.8,
+          "mom_30m_pct": -0.074,
+          "intraday_pct": 0.679,
+          "rsi": 43.7,
+          "vol_factor": 2.0,
+          "score": 1.092
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 14,
+        "buy_price": 444.05,
+        "buy_time": "2026-06-15 20:06:25",
+        "iteration": 11,
+        "score_info": {
+          "last": 444.05,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 0.045,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 1.522
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "buy_price": 1749.8,
+        "buy_time": "2026-06-15 20:06:25",
+        "iteration": 11,
         "score_info": {
           "last": 1749.8,
           "mom_30m_pct": -0.074,
@@ -717,6 +795,74 @@
       {
         "time": "2026-06-15 18:53:56",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "price": 1749.8,
+        "cost": 3499.6,
+        "score": {
+          "last": 1749.8,
+          "mom_30m_pct": -0.074,
+          "intraday_pct": 0.679,
+          "rsi": 43.7,
+          "vol_factor": 2.0,
+          "score": 1.092
+        }
+      },
+      {
+        "time": "2026-06-15 19:09:05",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 14,
+        "price": 444.05,
+        "cost": 6216.7,
+        "score": {
+          "last": 444.05,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 0.045,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 1.522
+        }
+      },
+      {
+        "time": "2026-06-15 19:09:05",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "price": 1749.8,
+        "cost": 3499.6,
+        "score": {
+          "last": 1749.8,
+          "mom_30m_pct": -0.074,
+          "intraday_pct": 0.679,
+          "rsi": 43.7,
+          "vol_factor": 2.0,
+          "score": 1.092
+        }
+      },
+      {
+        "time": "2026-06-15 20:06:25",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 14,
+        "price": 444.05,
+        "cost": 6216.7,
+        "score": {
+          "last": 444.05,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 0.045,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 1.522
+        }
+      },
+      {
+        "time": "2026-06-15 20:06:25",
+        "iteration": 11,
         "action": "BUY",
         "symbol": "BAJAJFINSV",
         "qty": 2,
