@@ -1,5 +1,228 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-16",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-16 14:42:45",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8116.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-16 14:59:59",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16378.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
+      }
+    ],
+    "invested_today": 16378.849792480469,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2199.0,
+        "buy_time": "2026-06-16 14:42:45",
+        "iteration": 1,
+        "score_info": {
+          "last": 2199.0,
+          "mom_30m_pct": 0.406,
+          "intraday_pct": 1.603,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 2.091
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 9,
+        "buy_price": 355.05,
+        "buy_time": "2026-06-16 14:42:45",
+        "iteration": 1,
+        "score_info": {
+          "last": 355.05,
+          "mom_30m_pct": 0.155,
+          "intraday_pct": 1.777,
+          "rsi": 64.9,
+          "vol_factor": 2.0,
+          "score": 1.766
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 11,
+        "buy_price": 247.5,
+        "buy_time": "2026-06-16 14:42:45",
+        "iteration": 1,
+        "score_info": {
+          "last": 247.5,
+          "mom_30m_pct": 0.121,
+          "intraday_pct": 1.601,
+          "rsi": 58.5,
+          "vol_factor": 1.38,
+          "score": 1.044
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 627.05,
+        "buy_time": "2026-06-16 14:59:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 627.05,
+          "mom_30m_pct": 0.731,
+          "intraday_pct": 2.051,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.712
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1787.3,
+        "buy_time": "2026-06-16 14:59:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 1787.3,
+          "mom_30m_pct": 0.106,
+          "intraday_pct": 2.161,
+          "rsi": 71.6,
+          "vol_factor": 1.62,
+          "score": 1.432
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 16,
+        "buy_price": 247.9,
+        "buy_time": "2026-06-16 14:59:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 247.9,
+          "mom_30m_pct": 0.141,
+          "intraday_pct": 1.703,
+          "rsi": 61.2,
+          "vol_factor": 1.32,
+          "score": 1.041
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-16 14:42:45",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2199.0,
+        "cost": 2199.0,
+        "score": {
+          "last": 2199.0,
+          "mom_30m_pct": 0.406,
+          "intraday_pct": 1.603,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 2.091
+        }
+      },
+      {
+        "time": "2026-06-16 14:42:45",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 9,
+        "price": 355.05,
+        "cost": 3195.45,
+        "score": {
+          "last": 355.05,
+          "mom_30m_pct": 0.155,
+          "intraday_pct": 1.777,
+          "rsi": 64.9,
+          "vol_factor": 2.0,
+          "score": 1.766
+        }
+      },
+      {
+        "time": "2026-06-16 14:42:45",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 11,
+        "price": 247.5,
+        "cost": 2722.5,
+        "score": {
+          "last": 247.5,
+          "mom_30m_pct": 0.121,
+          "intraday_pct": 1.601,
+          "rsi": 58.5,
+          "vol_factor": 1.38,
+          "score": 1.044
+        }
+      },
+      {
+        "time": "2026-06-16 14:59:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 627.05,
+        "cost": 2508.2,
+        "score": {
+          "last": 627.05,
+          "mom_30m_pct": 0.731,
+          "intraday_pct": 2.051,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.712
+        }
+      },
+      {
+        "time": "2026-06-16 14:59:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1787.3,
+        "cost": 1787.3,
+        "score": {
+          "last": 1787.3,
+          "mom_30m_pct": 0.106,
+          "intraday_pct": 2.161,
+          "rsi": 71.6,
+          "vol_factor": 1.62,
+          "score": 1.432
+        }
+      },
+      {
+        "time": "2026-06-16 14:59:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 16,
+        "price": 247.9,
+        "cost": 3966.4,
+        "score": {
+          "last": 247.9,
+          "mom_30m_pct": 0.141,
+          "intraday_pct": 1.703,
+          "rsi": 61.2,
+          "vol_factor": 1.32,
+          "score": 1.041
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
