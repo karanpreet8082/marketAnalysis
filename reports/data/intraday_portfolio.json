@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-16",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,9 +111,18 @@
         "invested_today_after": 98935.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 35
+      },
+      {
+        "iteration": 13,
+        "time": "2026-06-16 19:59:06",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 99227.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 36
       }
     ],
-    "invested_today": 98935.30163574219,
+    "invested_today": 99227.25164794922,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -639,6 +648,21 @@
           "rsi": 72.3,
           "vol_factor": 1.93,
           "score": 1.268
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 1,
+        "buy_price": 291.95,
+        "buy_time": "2026-06-16 19:59:06",
+        "iteration": 13,
+        "score_info": {
+          "last": 291.95,
+          "mom_30m_pct": 0.258,
+          "intraday_pct": 1.091,
+          "rsi": 66.7,
+          "vol_factor": 2.0,
+          "score": 1.714
         }
       }
     ],
@@ -1236,6 +1260,23 @@
           "rsi": 72.3,
           "vol_factor": 1.93,
           "score": 1.268
+        }
+      },
+      {
+        "time": "2026-06-16 19:59:06",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 1,
+        "price": 291.95,
+        "cost": 291.95,
+        "score": {
+          "last": 291.95,
+          "mom_30m_pct": 0.258,
+          "intraday_pct": 1.091,
+          "rsi": 66.7,
+          "vol_factor": 2.0,
+          "score": 1.714
         }
       }
     ],
