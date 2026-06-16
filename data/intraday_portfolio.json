@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-16",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 16378.85,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 3,
+        "time": "2026-06-16 15:08:34",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 24602.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 16378.849792480469,
+    "invested_today": 24602.849670410156,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -114,6 +123,51 @@
           "rsi": 61.2,
           "vol_factor": 1.32,
           "score": 1.041
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1788.4,
+        "buy_time": "2026-06-16 15:08:34",
+        "iteration": 3,
+        "score_info": {
+          "last": 1788.4,
+          "mom_30m_pct": 0.19,
+          "intraday_pct": 2.153,
+          "rsi": 72.0,
+          "vol_factor": 1.72,
+          "score": 1.656
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1335.0,
+        "buy_time": "2026-06-16 15:08:34",
+        "iteration": 3,
+        "score_info": {
+          "last": 1335.0,
+          "mom_30m_pct": 0.278,
+          "intraday_pct": 0.588,
+          "rsi": 70.9,
+          "vol_factor": 2.0,
+          "score": 1.593
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 6,
+        "buy_price": 627.6,
+        "buy_time": "2026-06-16 15:08:34",
+        "iteration": 3,
+        "score_info": {
+          "last": 627.6,
+          "mom_30m_pct": 0.352,
+          "intraday_pct": 2.415,
+          "rsi": 72.1,
+          "vol_factor": 1.26,
+          "score": 1.517
         }
       }
     ],
@@ -218,6 +272,57 @@
           "rsi": 61.2,
           "vol_factor": 1.32,
           "score": 1.041
+        }
+      },
+      {
+        "time": "2026-06-16 15:08:34",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1788.4,
+        "cost": 1788.4,
+        "score": {
+          "last": 1788.4,
+          "mom_30m_pct": 0.19,
+          "intraday_pct": 2.153,
+          "rsi": 72.0,
+          "vol_factor": 1.72,
+          "score": 1.656
+        }
+      },
+      {
+        "time": "2026-06-16 15:08:34",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1335.0,
+        "cost": 2670.0,
+        "score": {
+          "last": 1335.0,
+          "mom_30m_pct": 0.278,
+          "intraday_pct": 0.588,
+          "rsi": 70.9,
+          "vol_factor": 2.0,
+          "score": 1.593
+        }
+      },
+      {
+        "time": "2026-06-16 15:08:34",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 6,
+        "price": 627.6,
+        "cost": 3765.6,
+        "score": {
+          "last": 627.6,
+          "mom_30m_pct": 0.352,
+          "intraday_pct": 2.415,
+          "rsi": 72.1,
+          "vol_factor": 1.26,
+          "score": 1.517
         }
       }
     ],
