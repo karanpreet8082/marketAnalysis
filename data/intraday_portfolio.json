@@ -1,118 +1,95 @@
 {
   "current_day": {
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
-        "time": "2026-06-16 20:22:03",
-        "n_bought": 3,
+        "time": "2026-06-17 14:20:53",
+        "n_bought": 1,
         "n_sold": 0,
-        "invested_today_after": 7841.95,
+        "invested_today_after": 5407.4,
         "realized_pnl_today_after": 0.0,
-        "open_positions_after": 3
+        "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-17 14:35:21",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 11124.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
       }
     ],
-    "invested_today": 7841.950256347656,
+    "invested_today": 11124.200225830078,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
-        "symbol": "ITC",
-        "qty": 9,
-        "buy_price": 291.95,
-        "buy_time": "2026-06-16 20:22:03",
+        "symbol": "POWERGRID",
+        "qty": 19,
+        "buy_price": 284.6,
+        "buy_time": "2026-06-17 14:20:53",
         "iteration": 1,
         "score_info": {
-          "last": 291.95,
-          "mom_30m_pct": 0.258,
-          "intraday_pct": 1.091,
-          "rsi": 66.7,
-          "vol_factor": 2.0,
-          "score": 1.714
+          "last": 284.6,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": -0.123,
+          "rsi": 64.9,
+          "vol_factor": 1.0,
+          "score": 0.359
         }
       },
       {
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "buy_price": 1160.4,
-        "buy_time": "2026-06-16 20:22:03",
-        "iteration": 1,
+        "symbol": "BPCL",
+        "qty": 18,
+        "buy_price": 317.6,
+        "buy_time": "2026-06-17 14:35:21",
+        "iteration": 2,
         "score_info": {
-          "last": 1160.4,
-          "mom_30m_pct": 0.104,
-          "intraday_pct": 1.23,
-          "rsi": 72.5,
-          "vol_factor": 1.79,
-          "score": 1.313
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 2,
-        "buy_price": 1446.8,
-        "buy_time": "2026-06-16 20:22:03",
-        "iteration": 1,
-        "score_info": {
-          "last": 1446.8,
-          "mom_30m_pct": 0.138,
-          "intraday_pct": 0.444,
-          "rsi": 72.3,
-          "vol_factor": 1.93,
-          "score": 1.268
+          "last": 317.6,
+          "mom_30m_pct": 0.316,
+          "intraday_pct": 1.648,
+          "rsi": 42.9,
+          "vol_factor": 1.0,
+          "score": 0.968
         }
       }
     ],
     "trades": [
       {
-        "time": "2026-06-16 20:22:03",
+        "time": "2026-06-17 14:20:53",
         "iteration": 1,
         "action": "BUY",
-        "symbol": "ITC",
-        "qty": 9,
-        "price": 291.95,
-        "cost": 2627.55,
+        "symbol": "POWERGRID",
+        "qty": 19,
+        "price": 284.6,
+        "cost": 5407.4,
         "score": {
-          "last": 291.95,
-          "mom_30m_pct": 0.258,
-          "intraday_pct": 1.091,
-          "rsi": 66.7,
-          "vol_factor": 2.0,
-          "score": 1.714
+          "last": 284.6,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": -0.123,
+          "rsi": 64.9,
+          "vol_factor": 1.0,
+          "score": 0.359
         }
       },
       {
-        "time": "2026-06-16 20:22:03",
-        "iteration": 1,
+        "time": "2026-06-17 14:35:21",
+        "iteration": 2,
         "action": "BUY",
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "price": 1160.4,
-        "cost": 2320.8,
+        "symbol": "BPCL",
+        "qty": 18,
+        "price": 317.6,
+        "cost": 5716.8,
         "score": {
-          "last": 1160.4,
-          "mom_30m_pct": 0.104,
-          "intraday_pct": 1.23,
-          "rsi": 72.5,
-          "vol_factor": 1.79,
-          "score": 1.313
-        }
-      },
-      {
-        "time": "2026-06-16 20:22:03",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 2,
-        "price": 1446.8,
-        "cost": 2893.6,
-        "score": {
-          "last": 1446.8,
-          "mom_30m_pct": 0.138,
-          "intraday_pct": 0.444,
-          "rsi": 72.3,
-          "vol_factor": 1.93,
-          "score": 1.268
+          "last": 317.6,
+          "mom_30m_pct": 0.316,
+          "intraday_pct": 1.648,
+          "rsi": 42.9,
+          "vol_factor": 1.0,
+          "score": 0.968
         }
       }
     ],
@@ -8716,10 +8693,110 @@
       "n_sells": 36,
       "feedback": "Day P&L \u20b953 on \u20b999227 deployed (0.05%). Worst trade: HINDUNILVR (P&L \u20b9-5, -0.23%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
       "profitable": true
+    },
+    {
+      "date": "2026-06-16",
+      "iterations_run": 1,
+      "invested": 7841.95,
+      "realized_pnl": 0.0,
+      "pnl_pct": 0.0,
+      "trades": [
+        {
+          "time": "2026-06-16 20:22:03",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "ITC",
+          "qty": 9,
+          "price": 291.95,
+          "cost": 2627.55,
+          "score": {
+            "last": 291.95,
+            "mom_30m_pct": 0.258,
+            "intraday_pct": 1.091,
+            "rsi": 66.7,
+            "vol_factor": 2.0,
+            "score": 1.714
+          }
+        },
+        {
+          "time": "2026-06-16 20:22:03",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "HCLTECH",
+          "qty": 2,
+          "price": 1160.4,
+          "cost": 2320.8,
+          "score": {
+            "last": 1160.4,
+            "mom_30m_pct": 0.104,
+            "intraday_pct": 1.23,
+            "rsi": 72.5,
+            "vol_factor": 1.79,
+            "score": 1.313
+          }
+        },
+        {
+          "time": "2026-06-16 20:22:03",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1446.8,
+          "cost": 2893.6,
+          "score": {
+            "last": 1446.8,
+            "mom_30m_pct": 0.138,
+            "intraday_pct": 0.444,
+            "rsi": 72.3,
+            "vol_factor": 1.93,
+            "score": 1.268
+          }
+        },
+        {
+          "time": "2026-06-17 14:20:40",
+          "iteration": 2,
+          "action": "SELL",
+          "symbol": "ITC",
+          "qty": 9,
+          "price": 291.95,
+          "buy_price": 291.95,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-06-17 14:20:40",
+          "iteration": 2,
+          "action": "SELL",
+          "symbol": "HCLTECH",
+          "qty": 2,
+          "price": 1160.4,
+          "buy_price": 1160.4,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-06-17 14:20:40",
+          "iteration": 2,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1446.8,
+          "buy_price": 1446.8,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        }
+      ],
+      "n_buys": 3,
+      "n_sells": 3,
+      "feedback": "Day P&L \u20b90 on \u20b97842 deployed (0.00%). Profitable day \u2014 keep current parameters.",
+      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 10,
+    "total_days": 11,
     "winning_days": 5,
     "losing_days": 4,
     "total_realized_pnl": -8.12,
@@ -8765,6 +8842,10 @@
       {
         "date": "2026-06-16",
         "note": "Day P&L \u20b953 on \u20b999227 deployed (0.05%). Worst trade: HINDUNILVR (P&L \u20b9-5, -0.23%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
+      {
+        "date": "2026-06-16",
+        "note": "Day P&L \u20b90 on \u20b97842 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
