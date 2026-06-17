@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-17",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 20371.9,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
-      },
-      {
-        "iteration": 4,
-        "time": "2026-06-17 14:52:34",
-        "n_bought": 1,
-        "n_sold": 0,
-        "invested_today_after": 25243.8,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 5
       }
     ],
-    "invested_today": 25243.800323486328,
+    "invested_today": 20371.900421142578,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -102,21 +93,6 @@
           "rsi": 55.5,
           "vol_factor": 0.41,
           "score": -0.098
-        }
-      },
-      {
-        "symbol": "INDIGO",
-        "qty": 1,
-        "buy_price": 4871.9,
-        "buy_time": "2026-06-17 14:52:34",
-        "iteration": 4,
-        "score_info": {
-          "last": 4871.9,
-          "mom_30m_pct": 0.278,
-          "intraday_pct": 0.807,
-          "rsi": 66.6,
-          "vol_factor": 0.6,
-          "score": 0.26
         }
       }
     ],
@@ -187,23 +163,6 @@
           "rsi": 55.5,
           "vol_factor": 0.41,
           "score": -0.098
-        }
-      },
-      {
-        "time": "2026-06-17 14:52:34",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "INDIGO",
-        "qty": 1,
-        "price": 4871.9,
-        "cost": 4871.9,
-        "score": {
-          "last": 4871.9,
-          "mom_30m_pct": 0.278,
-          "intraday_pct": 0.807,
-          "rsi": 66.6,
-          "vol_factor": 0.6,
-          "score": 0.26
         }
       }
     ],
