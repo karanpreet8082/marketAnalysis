@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-17",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 48290.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 8,
+        "time": "2026-06-17 16:51:28",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 58434.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 48290.50015258789,
+    "invested_today": 58434.00015258789,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -233,6 +242,51 @@
           "intraday_pct": 0.476,
           "rsi": 72.7,
           "vol_factor": 2.0,
+          "score": 1.519
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 936.0,
+        "buy_time": "2026-06-17 16:51:28",
+        "iteration": 8,
+        "score_info": {
+          "last": 936.0,
+          "mom_30m_pct": 0.246,
+          "intraday_pct": 1.151,
+          "rsi": 72.3,
+          "vol_factor": 2.0,
+          "score": 1.715
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2955.0,
+        "buy_time": "2026-06-17 16:51:28",
+        "iteration": 8,
+        "score_info": {
+          "last": 2955.0,
+          "mom_30m_pct": 0.251,
+          "intraday_pct": 0.476,
+          "rsi": 72.7,
+          "vol_factor": 2.0,
+          "score": 1.519
+        }
+      },
+      {
+        "symbol": "TITAN",
+        "qty": 1,
+        "buy_price": 4380.5,
+        "buy_time": "2026-06-17 16:51:28",
+        "iteration": 8,
+        "score_info": {
+          "last": 4380.5,
+          "mom_30m_pct": 0.24,
+          "intraday_pct": 0.908,
+          "rsi": 60.8,
+          "vol_factor": 1.89,
           "score": 1.519
         }
       }
@@ -422,6 +476,57 @@
           "intraday_pct": 0.476,
           "rsi": 72.7,
           "vol_factor": 2.0,
+          "score": 1.519
+        }
+      },
+      {
+        "time": "2026-06-17 16:51:28",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 936.0,
+        "cost": 2808.0,
+        "score": {
+          "last": 936.0,
+          "mom_30m_pct": 0.246,
+          "intraday_pct": 1.151,
+          "rsi": 72.3,
+          "vol_factor": 2.0,
+          "score": 1.715
+        }
+      },
+      {
+        "time": "2026-06-17 16:51:28",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2955.0,
+        "cost": 2955.0,
+        "score": {
+          "last": 2955.0,
+          "mom_30m_pct": 0.251,
+          "intraday_pct": 0.476,
+          "rsi": 72.7,
+          "vol_factor": 2.0,
+          "score": 1.519
+        }
+      },
+      {
+        "time": "2026-06-17 16:51:28",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TITAN",
+        "qty": 1,
+        "price": 4380.5,
+        "cost": 4380.5,
+        "score": {
+          "last": 4380.5,
+          "mom_30m_pct": 0.24,
+          "intraday_pct": 0.908,
+          "rsi": 60.8,
+          "vol_factor": 1.89,
           "score": 1.519
         }
       }
