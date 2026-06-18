@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-18",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,9 +111,18 @@
         "invested_today_after": 98725.4,
         "realized_pnl_today_after": 70.5,
         "open_positions_after": 30
+      },
+      {
+        "iteration": 13,
+        "time": "2026-06-18 18:04:09",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 99303.8,
+        "realized_pnl_today_after": 70.5,
+        "open_positions_after": 31
       }
     ],
-    "invested_today": 98725.40118408203,
+    "invested_today": 99303.8012084961,
     "realized_pnl_today": 70.49990234374991,
     "open_positions": [
       {
@@ -564,6 +573,21 @@
           "rsi": 74.8,
           "vol_factor": 2.0,
           "score": 1.828
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 2,
+        "buy_price": 289.2,
+        "buy_time": "2026-06-18 18:04:09",
+        "iteration": 13,
+        "score_info": {
+          "last": 289.2,
+          "mom_30m_pct": 0.504,
+          "intraday_pct": 0.767,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.986
         }
       }
     ],
@@ -1105,6 +1129,23 @@
           "rsi": 74.8,
           "vol_factor": 2.0,
           "score": 1.828
+        }
+      },
+      {
+        "time": "2026-06-18 18:04:09",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 2,
+        "price": 289.2,
+        "cost": 578.4,
+        "score": {
+          "last": 289.2,
+          "mom_30m_pct": 0.504,
+          "intraday_pct": 0.767,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.986
         }
       }
     ],
