@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-18",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 16028.65,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-06-18 14:29:00",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 20693.75,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 16028.650024414062,
+    "invested_today": 20693.750122070312,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -84,6 +93,36 @@
           "rsi": 52.1,
           "vol_factor": 2.0,
           "score": 0.654
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1288.8,
+        "buy_time": "2026-06-18 14:29:00",
+        "iteration": 3,
+        "score_info": {
+          "last": 1288.8,
+          "mom_30m_pct": -0.054,
+          "intraday_pct": 0.46,
+          "rsi": 44.4,
+          "vol_factor": 1.8,
+          "score": 0.861
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 1043.75,
+        "buy_time": "2026-06-18 14:29:00",
+        "iteration": 3,
+        "score_info": {
+          "last": 1043.75,
+          "mom_30m_pct": 0.312,
+          "intraday_pct": 2.008,
+          "rsi": 80.3,
+          "vol_factor": 2.0,
+          "score": 0.571
         }
       }
     ],
@@ -154,6 +193,40 @@
           "rsi": 52.1,
           "vol_factor": 2.0,
           "score": 0.654
+        }
+      },
+      {
+        "time": "2026-06-18 14:29:00",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1288.8,
+        "cost": 2577.6,
+        "score": {
+          "last": 1288.8,
+          "mom_30m_pct": -0.054,
+          "intraday_pct": 0.46,
+          "rsi": 44.4,
+          "vol_factor": 1.8,
+          "score": 0.861
+        }
+      },
+      {
+        "time": "2026-06-18 14:29:00",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1043.75,
+        "cost": 2087.5,
+        "score": {
+          "last": 1043.75,
+          "mom_30m_pct": 0.312,
+          "intraday_pct": 2.008,
+          "rsi": 80.3,
+          "vol_factor": 2.0,
+          "score": 0.571
         }
       }
     ],
