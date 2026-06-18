@@ -1,5 +1,164 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-18",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-18 13:57:15",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 8215.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-18 14:20:06",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 16028.65,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
+      }
+    ],
+    "invested_today": 16028.650024414062,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 4992.3,
+        "buy_time": "2026-06-18 13:57:15",
+        "iteration": 1,
+        "score_info": {
+          "last": 4992.3,
+          "mom_30m_pct": 0.908,
+          "intraday_pct": 2.83,
+          "rsi": 79.5,
+          "vol_factor": 1.53,
+          "score": 1.236
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "buy_price": 402.95,
+        "buy_time": "2026-06-18 13:57:15",
+        "iteration": 1,
+        "score_info": {
+          "last": 402.95,
+          "mom_30m_pct": -0.037,
+          "intraday_pct": -0.21,
+          "rsi": 58.7,
+          "vol_factor": 2.0,
+          "score": 0.881
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3137.0,
+        "buy_time": "2026-06-18 14:20:06",
+        "iteration": 2,
+        "score_info": {
+          "last": 3137.0,
+          "mom_30m_pct": -0.038,
+          "intraday_pct": 0.5,
+          "rsi": 44.1,
+          "vol_factor": 2.0,
+          "score": 1.093
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 5,
+        "buy_price": 935.15,
+        "buy_time": "2026-06-18 14:20:06",
+        "iteration": 2,
+        "score_info": {
+          "last": 935.15,
+          "mom_30m_pct": -0.299,
+          "intraday_pct": 0.338,
+          "rsi": 52.1,
+          "vol_factor": 2.0,
+          "score": 0.654
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-18 13:57:15",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 4992.3,
+        "cost": 4992.3,
+        "score": {
+          "last": 4992.3,
+          "mom_30m_pct": 0.908,
+          "intraday_pct": 2.83,
+          "rsi": 79.5,
+          "vol_factor": 1.53,
+          "score": 1.236
+        }
+      },
+      {
+        "time": "2026-06-18 13:57:15",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "price": 402.95,
+        "cost": 3223.6,
+        "score": {
+          "last": 402.95,
+          "mom_30m_pct": -0.037,
+          "intraday_pct": -0.21,
+          "rsi": 58.7,
+          "vol_factor": 2.0,
+          "score": 0.881
+        }
+      },
+      {
+        "time": "2026-06-18 14:20:06",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3137.0,
+        "cost": 3137.0,
+        "score": {
+          "last": 3137.0,
+          "mom_30m_pct": -0.038,
+          "intraday_pct": 0.5,
+          "rsi": 44.1,
+          "vol_factor": 2.0,
+          "score": 1.093
+        }
+      },
+      {
+        "time": "2026-06-18 14:20:06",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 5,
+        "price": 935.15,
+        "cost": 4675.75,
+        "score": {
+          "last": 935.15,
+          "mom_30m_pct": -0.299,
+          "intraday_pct": 0.338,
+          "rsi": 52.1,
+          "vol_factor": 2.0,
+          "score": 0.654
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
