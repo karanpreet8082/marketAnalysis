@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-18",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,27 @@
         "invested_today_after": 69330.2,
         "realized_pnl_today_after": 70.5,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 10,
+        "time": "2026-06-18 17:09:33",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 78839.4,
+        "realized_pnl_today_after": 70.5,
+        "open_positions_after": 24
+      },
+      {
+        "iteration": 11,
+        "time": "2026-06-18 17:28:42",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 88348.6,
+        "realized_pnl_today_after": 70.5,
+        "open_positions_after": 27
       }
     ],
-    "invested_today": 69330.20037841797,
+    "invested_today": 88348.60089111328,
     "realized_pnl_today": 70.49990234374991,
     "open_positions": [
       {
@@ -395,6 +413,96 @@
         "buy_price": 1358.8,
         "buy_time": "2026-06-18 16:45:20",
         "iteration": 9,
+        "score_info": {
+          "last": 1358.8,
+          "mom_30m_pct": 0.525,
+          "intraday_pct": 0.133,
+          "rsi": 74.8,
+          "vol_factor": 2.0,
+          "score": 1.828
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3032.0,
+        "buy_time": "2026-06-18 17:09:33",
+        "iteration": 10,
+        "score_info": {
+          "last": 3032.0,
+          "mom_30m_pct": 2.194,
+          "intraday_pct": 1.871,
+          "rsi": 97.4,
+          "vol_factor": 2.0,
+          "score": 3.353
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 13,
+        "buy_price": 289.2,
+        "buy_time": "2026-06-18 17:09:33",
+        "iteration": 10,
+        "score_info": {
+          "last": 289.2,
+          "mom_30m_pct": 0.504,
+          "intraday_pct": 0.767,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.986
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1358.8,
+        "buy_time": "2026-06-18 17:09:33",
+        "iteration": 10,
+        "score_info": {
+          "last": 1358.8,
+          "mom_30m_pct": 0.525,
+          "intraday_pct": 0.133,
+          "rsi": 74.8,
+          "vol_factor": 2.0,
+          "score": 1.828
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3032.0,
+        "buy_time": "2026-06-18 17:28:42",
+        "iteration": 11,
+        "score_info": {
+          "last": 3032.0,
+          "mom_30m_pct": 2.194,
+          "intraday_pct": 1.871,
+          "rsi": 97.4,
+          "vol_factor": 2.0,
+          "score": 3.353
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 13,
+        "buy_price": 289.2,
+        "buy_time": "2026-06-18 17:28:42",
+        "iteration": 11,
+        "score_info": {
+          "last": 289.2,
+          "mom_30m_pct": 0.504,
+          "intraday_pct": 0.767,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.986
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1358.8,
+        "buy_time": "2026-06-18 17:28:42",
+        "iteration": 11,
         "score_info": {
           "last": 1358.8,
           "mom_30m_pct": 0.525,
@@ -778,6 +886,108 @@
       {
         "time": "2026-06-18 16:45:20",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1358.8,
+        "cost": 2717.6,
+        "score": {
+          "last": 1358.8,
+          "mom_30m_pct": 0.525,
+          "intraday_pct": 0.133,
+          "rsi": 74.8,
+          "vol_factor": 2.0,
+          "score": 1.828
+        }
+      },
+      {
+        "time": "2026-06-18 17:09:33",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3032.0,
+        "cost": 3032.0,
+        "score": {
+          "last": 3032.0,
+          "mom_30m_pct": 2.194,
+          "intraday_pct": 1.871,
+          "rsi": 97.4,
+          "vol_factor": 2.0,
+          "score": 3.353
+        }
+      },
+      {
+        "time": "2026-06-18 17:09:33",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 13,
+        "price": 289.2,
+        "cost": 3759.6,
+        "score": {
+          "last": 289.2,
+          "mom_30m_pct": 0.504,
+          "intraday_pct": 0.767,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.986
+        }
+      },
+      {
+        "time": "2026-06-18 17:09:33",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1358.8,
+        "cost": 2717.6,
+        "score": {
+          "last": 1358.8,
+          "mom_30m_pct": 0.525,
+          "intraday_pct": 0.133,
+          "rsi": 74.8,
+          "vol_factor": 2.0,
+          "score": 1.828
+        }
+      },
+      {
+        "time": "2026-06-18 17:28:42",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3032.0,
+        "cost": 3032.0,
+        "score": {
+          "last": 3032.0,
+          "mom_30m_pct": 2.194,
+          "intraday_pct": 1.871,
+          "rsi": 97.4,
+          "vol_factor": 2.0,
+          "score": 3.353
+        }
+      },
+      {
+        "time": "2026-06-18 17:28:42",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 13,
+        "price": 289.2,
+        "cost": 3759.6,
+        "score": {
+          "last": 289.2,
+          "mom_30m_pct": 0.504,
+          "intraday_pct": 0.767,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.986
+        }
+      },
+      {
+        "time": "2026-06-18 17:28:42",
+        "iteration": 11,
         "action": "BUY",
         "symbol": "CIPLA",
         "qty": 2,
