@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-18",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 41959.4,
         "realized_pnl_today_after": 70.5,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-06-18 16:14:05",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 50890.2,
+        "realized_pnl_today_after": 70.5,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 41959.399658203125,
+    "invested_today": 50890.19989013672,
     "realized_pnl_today": 70.49990234374991,
     "open_positions": [
       {
@@ -240,6 +249,51 @@
           "rsi": 73.0,
           "vol_factor": 1.12,
           "score": 0.946
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3032.0,
+        "buy_time": "2026-06-18 16:14:05",
+        "iteration": 7,
+        "score_info": {
+          "last": 3032.0,
+          "mom_30m_pct": 2.194,
+          "intraday_pct": 1.871,
+          "rsi": 97.4,
+          "vol_factor": 2.0,
+          "score": 3.353
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "buy_price": 289.2,
+        "buy_time": "2026-06-18 16:14:05",
+        "iteration": 7,
+        "score_info": {
+          "last": 289.2,
+          "mom_30m_pct": 0.504,
+          "intraday_pct": 0.767,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.986
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1358.8,
+        "buy_time": "2026-06-18 16:14:05",
+        "iteration": 7,
+        "score_info": {
+          "last": 1358.8,
+          "mom_30m_pct": 0.525,
+          "intraday_pct": 0.133,
+          "rsi": 74.8,
+          "vol_factor": 2.0,
+          "score": 1.828
         }
       }
     ],
@@ -475,6 +529,57 @@
           "rsi": 73.0,
           "vol_factor": 1.12,
           "score": 0.946
+        }
+      },
+      {
+        "time": "2026-06-18 16:14:05",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3032.0,
+        "cost": 3032.0,
+        "score": {
+          "last": 3032.0,
+          "mom_30m_pct": 2.194,
+          "intraday_pct": 1.871,
+          "rsi": 97.4,
+          "vol_factor": 2.0,
+          "score": 3.353
+        }
+      },
+      {
+        "time": "2026-06-18 16:14:05",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "price": 289.2,
+        "cost": 3181.2,
+        "score": {
+          "last": 289.2,
+          "mom_30m_pct": 0.504,
+          "intraday_pct": 0.767,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.986
+        }
+      },
+      {
+        "time": "2026-06-18 16:14:05",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1358.8,
+        "cost": 2717.6,
+        "score": {
+          "last": 1358.8,
+          "mom_30m_pct": 0.525,
+          "intraday_pct": 0.133,
+          "rsi": 74.8,
+          "vol_factor": 2.0,
+          "score": 1.828
         }
       }
     ],
