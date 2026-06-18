@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-18",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,10 +48,19 @@
         "invested_today_after": 32837.85,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-06-18 15:27:54",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 41959.4,
+        "realized_pnl_today_after": 70.5,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 32837.84973144531,
-    "realized_pnl_today": 0.0,
+    "invested_today": 41959.399658203125,
+    "realized_pnl_today": 70.49990234374991,
     "open_positions": [
       {
         "symbol": "INDIGO",
@@ -191,16 +200,46 @@
       {
         "symbol": "ADANIENT",
         "qty": 1,
-        "buy_price": 2961.9,
-        "buy_time": "2026-06-18 14:54:07",
-        "iteration": 5,
+        "buy_price": 3032.4,
+        "buy_time": "2026-06-18 15:27:54",
+        "iteration": 6,
         "score_info": {
-          "last": 2961.9,
-          "mom_30m_pct": 0.291,
-          "intraday_pct": 0.485,
-          "rsi": 59.8,
-          "vol_factor": 1.65,
-          "score": 1.233
+          "last": 3032.4,
+          "mom_30m_pct": 2.208,
+          "intraday_pct": 1.885,
+          "rsi": 97.4,
+          "vol_factor": 1.5,
+          "score": 2.878
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 641.95,
+        "buy_time": "2026-06-18 15:27:54",
+        "iteration": 6,
+        "score_info": {
+          "last": 641.95,
+          "mom_30m_pct": 0.659,
+          "intraday_pct": 2.026,
+          "rsi": 73.8,
+          "vol_factor": 0.63,
+          "score": 1.222
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 959.8,
+        "buy_time": "2026-06-18 15:27:54",
+        "iteration": 6,
+        "score_info": {
+          "last": 959.8,
+          "mom_30m_pct": 0.303,
+          "intraday_pct": 1.229,
+          "rsi": 73.0,
+          "vol_factor": 1.12,
+          "score": 0.946
         }
       }
     ],
@@ -373,6 +412,69 @@
           "rsi": 59.8,
           "vol_factor": 1.65,
           "score": 1.233
+        }
+      },
+      {
+        "time": "2026-06-18 15:27:54",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3032.4,
+        "buy_price": 2961.9,
+        "pnl": 70.5,
+        "pnl_pct": 2.38,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-06-18 15:27:54",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3032.4,
+        "cost": 3032.4,
+        "score": {
+          "last": 3032.4,
+          "mom_30m_pct": 2.208,
+          "intraday_pct": 1.885,
+          "rsi": 97.4,
+          "vol_factor": 1.5,
+          "score": 2.878
+        }
+      },
+      {
+        "time": "2026-06-18 15:27:54",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 641.95,
+        "cost": 3209.75,
+        "score": {
+          "last": 641.95,
+          "mom_30m_pct": 0.659,
+          "intraday_pct": 2.026,
+          "rsi": 73.8,
+          "vol_factor": 0.63,
+          "score": 1.222
+        }
+      },
+      {
+        "time": "2026-06-18 15:27:54",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 959.8,
+        "cost": 2879.4,
+        "score": {
+          "last": 959.8,
+          "mom_30m_pct": 0.303,
+          "intraday_pct": 1.229,
+          "rsi": 73.0,
+          "vol_factor": 1.12,
+          "score": 0.946
         }
       }
     ],
