@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-18",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 20693.75,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-18 14:36:54",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 27664.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-18 14:54:07",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 32837.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 20693.750122070312,
+    "invested_today": 32837.84973144531,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -123,6 +141,66 @@
           "rsi": 80.3,
           "vol_factor": 2.0,
           "score": 0.571
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1290.7,
+        "buy_time": "2026-06-18 14:36:54",
+        "iteration": 4,
+        "score_info": {
+          "last": 1290.7,
+          "mom_30m_pct": 0.202,
+          "intraday_pct": 0.459,
+          "rsi": 53.8,
+          "vol_factor": 1.5,
+          "score": 0.939
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 2,
+        "buy_price": 2194.9,
+        "buy_time": "2026-06-18 14:36:54",
+        "iteration": 4,
+        "score_info": {
+          "last": 2194.9,
+          "mom_30m_pct": 0.292,
+          "intraday_pct": -1.104,
+          "rsi": 50.3,
+          "vol_factor": 1.39,
+          "score": 0.502
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2211.0,
+        "buy_time": "2026-06-18 14:54:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 2211.0,
+          "mom_30m_pct": 0.272,
+          "intraday_pct": 0.701,
+          "rsi": 68.1,
+          "vol_factor": 2.0,
+          "score": 1.619
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2961.9,
+        "buy_time": "2026-06-18 14:54:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 2961.9,
+          "mom_30m_pct": 0.291,
+          "intraday_pct": 0.485,
+          "rsi": 59.8,
+          "vol_factor": 1.65,
+          "score": 1.233
         }
       }
     ],
@@ -227,6 +305,74 @@
           "rsi": 80.3,
           "vol_factor": 2.0,
           "score": 0.571
+        }
+      },
+      {
+        "time": "2026-06-18 14:36:54",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1290.7,
+        "cost": 2581.4,
+        "score": {
+          "last": 1290.7,
+          "mom_30m_pct": 0.202,
+          "intraday_pct": 0.459,
+          "rsi": 53.8,
+          "vol_factor": 1.5,
+          "score": 0.939
+        }
+      },
+      {
+        "time": "2026-06-18 14:36:54",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 2,
+        "price": 2194.9,
+        "cost": 4389.8,
+        "score": {
+          "last": 2194.9,
+          "mom_30m_pct": 0.292,
+          "intraday_pct": -1.104,
+          "rsi": 50.3,
+          "vol_factor": 1.39,
+          "score": 0.502
+        }
+      },
+      {
+        "time": "2026-06-18 14:54:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2211.0,
+        "cost": 2211.0,
+        "score": {
+          "last": 2211.0,
+          "mom_30m_pct": 0.272,
+          "intraday_pct": 0.701,
+          "rsi": 68.1,
+          "vol_factor": 2.0,
+          "score": 1.619
+        }
+      },
+      {
+        "time": "2026-06-18 14:54:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2961.9,
+        "cost": 2961.9,
+        "score": {
+          "last": 2961.9,
+          "mom_30m_pct": 0.291,
+          "intraday_pct": 0.485,
+          "rsi": 59.8,
+          "vol_factor": 1.65,
+          "score": 1.233
         }
       }
     ],
