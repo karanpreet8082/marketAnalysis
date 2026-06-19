@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-19",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,10 +30,28 @@
         "invested_today_after": 21528.24,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-19 14:53:02",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 30200.54,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-19 15:20:07",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 37237.64,
+        "realized_pnl_today_after": 51.8,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 21528.240203857422,
-    "realized_pnl_today": 0.0,
+    "invested_today": 37237.640533447266,
+    "realized_pnl_today": 51.80009765624982,
     "open_positions": [
       {
         "symbol": "BHARTIARTL",
@@ -48,21 +66,6 @@
           "rsi": 84.1,
           "vol_factor": 2.0,
           "score": 1.653
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 3160.3,
-        "buy_time": "2026-06-19 14:24:54",
-        "iteration": 1,
-        "score_info": {
-          "last": 3160.3,
-          "mom_30m_pct": 0.33,
-          "intraday_pct": -0.13,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 1.456
         }
       },
       {
@@ -138,6 +141,66 @@
           "rsi": 63.7,
           "vol_factor": 0.16,
           "score": 0.043
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3139.5,
+        "buy_time": "2026-06-19 14:53:02",
+        "iteration": 4,
+        "score_info": {
+          "last": 3139.5,
+          "mom_30m_pct": 0.067,
+          "intraday_pct": 0.211,
+          "rsi": 54.6,
+          "vol_factor": 2.0,
+          "score": 1.164
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 19,
+        "buy_price": 291.2,
+        "buy_time": "2026-06-19 14:53:02",
+        "iteration": 4,
+        "score_info": {
+          "last": 291.2,
+          "mom_30m_pct": -0.206,
+          "intraday_pct": 1.199,
+          "rsi": 40.0,
+          "vol_factor": 1.95,
+          "score": 0.998
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3212.1,
+        "buy_time": "2026-06-19 15:20:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 3212.1,
+          "mom_30m_pct": 1.156,
+          "intraday_pct": 0.994,
+          "rsi": 72.3,
+          "vol_factor": 2.0,
+          "score": 3.032
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 1912.5,
+        "buy_time": "2026-06-19 15:20:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 1912.5,
+          "mom_30m_pct": 0.616,
+          "intraday_pct": 1.962,
+          "rsi": 64.5,
+          "vol_factor": 2.0,
+          "score": 2.512
         }
       }
     ],
@@ -259,6 +322,86 @@
           "rsi": 63.7,
           "vol_factor": 0.16,
           "score": 0.043
+        }
+      },
+      {
+        "time": "2026-06-19 14:53:02",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3139.5,
+        "cost": 3139.5,
+        "score": {
+          "last": 3139.5,
+          "mom_30m_pct": 0.067,
+          "intraday_pct": 0.211,
+          "rsi": 54.6,
+          "vol_factor": 2.0,
+          "score": 1.164
+        }
+      },
+      {
+        "time": "2026-06-19 14:53:02",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 19,
+        "price": 291.2,
+        "cost": 5532.8,
+        "score": {
+          "last": 291.2,
+          "mom_30m_pct": -0.206,
+          "intraday_pct": 1.199,
+          "rsi": 40.0,
+          "vol_factor": 1.95,
+          "score": 0.998
+        }
+      },
+      {
+        "time": "2026-06-19 15:20:07",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3212.1,
+        "buy_price": 3160.3,
+        "pnl": 51.8,
+        "pnl_pct": 1.64,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-06-19 15:20:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3212.1,
+        "cost": 3212.1,
+        "score": {
+          "last": 3212.1,
+          "mom_30m_pct": 1.156,
+          "intraday_pct": 0.994,
+          "rsi": 72.3,
+          "vol_factor": 2.0,
+          "score": 3.032
+        }
+      },
+      {
+        "time": "2026-06-19 15:20:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 1912.5,
+        "cost": 3825.0,
+        "score": {
+          "last": 1912.5,
+          "mom_30m_pct": 0.616,
+          "intraday_pct": 1.962,
+          "rsi": 64.5,
+          "vol_factor": 2.0,
+          "score": 2.512
         }
       }
     ],
