@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-22",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 19501.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-22 15:59:03",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 27036.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-22 16:16:21",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 35544.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 19501.39990234375,
+    "invested_today": 35544.89990234375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -131,6 +149,51 @@
         "buy_price": 1418.0,
         "buy_time": "2026-06-22 15:49:56",
         "iteration": 3,
+        "score_info": {
+          "last": 1418.0,
+          "mom_30m_pct": 0.17,
+          "intraday_pct": 2.464,
+          "rsi": 67.7,
+          "vol_factor": 1.64,
+          "score": 1.633
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 4,
+        "buy_price": 1418.0,
+        "buy_time": "2026-06-22 15:59:03",
+        "iteration": 4,
+        "score_info": {
+          "last": 1418.0,
+          "mom_30m_pct": 0.17,
+          "intraday_pct": 2.464,
+          "rsi": 67.7,
+          "vol_factor": 1.64,
+          "score": 1.633
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1863.5,
+        "buy_time": "2026-06-22 15:59:03",
+        "iteration": 4,
+        "score_info": {
+          "last": 1863.5,
+          "mom_30m_pct": 0.038,
+          "intraday_pct": 1.559,
+          "rsi": 59.5,
+          "vol_factor": 2.0,
+          "score": 1.524
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 6,
+        "buy_price": 1418.0,
+        "buy_time": "2026-06-22 16:16:21",
+        "iteration": 5,
         "score_info": {
           "last": 1418.0,
           "mom_30m_pct": 0.17,
@@ -252,6 +315,57 @@
         "qty": 3,
         "price": 1418.0,
         "cost": 4254.0,
+        "score": {
+          "last": 1418.0,
+          "mom_30m_pct": 0.17,
+          "intraday_pct": 2.464,
+          "rsi": 67.7,
+          "vol_factor": 1.64,
+          "score": 1.633
+        }
+      },
+      {
+        "time": "2026-06-22 15:59:03",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 4,
+        "price": 1418.0,
+        "cost": 5672.0,
+        "score": {
+          "last": 1418.0,
+          "mom_30m_pct": 0.17,
+          "intraday_pct": 2.464,
+          "rsi": 67.7,
+          "vol_factor": 1.64,
+          "score": 1.633
+        }
+      },
+      {
+        "time": "2026-06-22 15:59:03",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1863.5,
+        "cost": 1863.5,
+        "score": {
+          "last": 1863.5,
+          "mom_30m_pct": 0.038,
+          "intraday_pct": 1.559,
+          "rsi": 59.5,
+          "vol_factor": 2.0,
+          "score": 1.524
+        }
+      },
+      {
+        "time": "2026-06-22 16:16:21",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 6,
+        "price": 1418.0,
+        "cost": 8508.0,
         "score": {
           "last": 1418.0,
           "mom_30m_pct": 0.17,
