@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-22",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13808.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-06-22 15:49:56",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 19501.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 13808.39990234375,
+    "invested_today": 19501.39990234375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,36 @@
           "rsi": 54.2,
           "vol_factor": 1.0,
           "score": 0.659
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1439.0,
+        "buy_time": "2026-06-22 15:49:56",
+        "iteration": 3,
+        "score_info": {
+          "last": 1439.0,
+          "mom_30m_pct": 0.482,
+          "intraday_pct": 0.869,
+          "rsi": 70.7,
+          "vol_factor": 2.0,
+          "score": 1.983
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 3,
+        "buy_price": 1418.0,
+        "buy_time": "2026-06-22 15:49:56",
+        "iteration": 3,
+        "score_info": {
+          "last": 1418.0,
+          "mom_30m_pct": 0.17,
+          "intraday_pct": 2.464,
+          "rsi": 67.7,
+          "vol_factor": 1.64,
+          "score": 1.633
         }
       }
     ],
@@ -186,6 +225,40 @@
           "rsi": 54.2,
           "vol_factor": 1.0,
           "score": 0.659
+        }
+      },
+      {
+        "time": "2026-06-22 15:49:56",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1439.0,
+        "cost": 1439.0,
+        "score": {
+          "last": 1439.0,
+          "mom_30m_pct": 0.482,
+          "intraday_pct": 0.869,
+          "rsi": 70.7,
+          "vol_factor": 2.0,
+          "score": 1.983
+        }
+      },
+      {
+        "time": "2026-06-22 15:49:56",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 3,
+        "price": 1418.0,
+        "cost": 4254.0,
+        "score": {
+          "last": 1418.0,
+          "mom_30m_pct": 0.17,
+          "intraday_pct": 2.464,
+          "rsi": 67.7,
+          "vol_factor": 1.64,
+          "score": 1.633
         }
       }
     ],
