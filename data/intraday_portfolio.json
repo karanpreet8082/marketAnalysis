@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-23",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-23 13:03:19",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 6952.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 6952.7998046875,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1304.1,
+        "buy_time": "2026-06-23 13:03:19",
+        "iteration": 1,
+        "score_info": {
+          "last": 1304.1,
+          "mom_30m_pct": 0.146,
+          "intraday_pct": 0.586,
+          "rsi": 61.3,
+          "vol_factor": 0.43,
+          "score": -0.179
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 3,
+        "buy_price": 1448.2,
+        "buy_time": "2026-06-23 13:03:19",
+        "iteration": 1,
+        "score_info": {
+          "last": 1448.2,
+          "mom_30m_pct": -0.289,
+          "intraday_pct": 2.622,
+          "rsi": 39.5,
+          "vol_factor": 0.23,
+          "score": -0.415
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-23 13:03:19",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1304.1,
+        "cost": 2608.2,
+        "score": {
+          "last": 1304.1,
+          "mom_30m_pct": 0.146,
+          "intraday_pct": 0.586,
+          "rsi": 61.3,
+          "vol_factor": 0.43,
+          "score": -0.179
+        }
+      },
+      {
+        "time": "2026-06-23 13:03:19",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 3,
+        "price": 1448.2,
+        "cost": 4344.6,
+        "score": {
+          "last": 1448.2,
+          "mom_30m_pct": -0.289,
+          "intraday_pct": 2.622,
+          "rsi": 39.5,
+          "vol_factor": 0.23,
+          "score": -0.415
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
