@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-23",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,27 @@
         "invested_today_after": 35050.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-06-23 14:15:24",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 43355.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 7,
+        "time": "2026-06-23 15:29:37",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 51524.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 35050.399658203125,
+    "invested_today": 51524.499603271484,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -231,6 +249,81 @@
           "rsi": 61.0,
           "vol_factor": 0.13,
           "score": -0.465
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1367.6,
+        "buy_time": "2026-06-23 14:15:24",
+        "iteration": 6,
+        "score_info": {
+          "last": 1367.6,
+          "mom_30m_pct": 0.337,
+          "intraday_pct": 0.566,
+          "rsi": 64.9,
+          "vol_factor": 1.0,
+          "score": 0.676
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "buy_price": 291.9,
+        "buy_time": "2026-06-23 14:15:24",
+        "iteration": 6,
+        "score_info": {
+          "last": 291.9,
+          "mom_30m_pct": 0.189,
+          "intraday_pct": 0.864,
+          "rsi": 65.3,
+          "vol_factor": 1.0,
+          "score": 0.542
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1179.5,
+        "buy_time": "2026-06-23 14:15:24",
+        "iteration": 6,
+        "score_info": {
+          "last": 1179.5,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": -0.017,
+          "rsi": 63.5,
+          "vol_factor": 1.0,
+          "score": 0.39
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "buy_price": 292.6,
+        "buy_time": "2026-06-23 15:29:37",
+        "iteration": 7,
+        "score_info": {
+          "last": 292.6,
+          "mom_30m_pct": 0.034,
+          "intraday_pct": 0.671,
+          "rsi": 57.5,
+          "vol_factor": 2.0,
+          "score": 1.253
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5243.0,
+        "buy_time": "2026-06-23 15:29:37",
+        "iteration": 7,
+        "score_info": {
+          "last": 5243.0,
+          "mom_30m_pct": -0.238,
+          "intraday_pct": 0.325,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 0.741
         }
       }
     ],
@@ -437,6 +530,91 @@
           "rsi": 61.0,
           "vol_factor": 0.13,
           "score": -0.465
+        }
+      },
+      {
+        "time": "2026-06-23 14:15:24",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1367.6,
+        "cost": 2735.2,
+        "score": {
+          "last": 1367.6,
+          "mom_30m_pct": 0.337,
+          "intraday_pct": 0.566,
+          "rsi": 64.9,
+          "vol_factor": 1.0,
+          "score": 0.676
+        }
+      },
+      {
+        "time": "2026-06-23 14:15:24",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "price": 291.9,
+        "cost": 3210.9,
+        "score": {
+          "last": 291.9,
+          "mom_30m_pct": 0.189,
+          "intraday_pct": 0.864,
+          "rsi": 65.3,
+          "vol_factor": 1.0,
+          "score": 0.542
+        }
+      },
+      {
+        "time": "2026-06-23 14:15:24",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1179.5,
+        "cost": 2359.0,
+        "score": {
+          "last": 1179.5,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": -0.017,
+          "rsi": 63.5,
+          "vol_factor": 1.0,
+          "score": 0.39
+        }
+      },
+      {
+        "time": "2026-06-23 15:29:37",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 292.6,
+        "cost": 2926.0,
+        "score": {
+          "last": 292.6,
+          "mom_30m_pct": 0.034,
+          "intraday_pct": 0.671,
+          "rsi": 57.5,
+          "vol_factor": 2.0,
+          "score": 1.253
+        }
+      },
+      {
+        "time": "2026-06-23 15:29:37",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5243.0,
+        "cost": 5243.0,
+        "score": {
+          "last": 5243.0,
+          "mom_30m_pct": -0.238,
+          "intraday_pct": 0.325,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 0.741
         }
       }
     ],
