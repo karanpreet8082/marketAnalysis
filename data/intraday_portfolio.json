@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-23",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 78404.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 23
+      },
+      {
+        "iteration": 11,
+        "time": "2026-06-23 17:02:15",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 89092.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 25
       }
     ],
-    "invested_today": 78404.19931030273,
+    "invested_today": 89092.19918823242,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -434,6 +443,36 @@
         "buy_price": 1435.6,
         "buy_time": "2026-06-23 16:19:32",
         "iteration": 10,
+        "score_info": {
+          "last": 1435.6,
+          "mom_30m_pct": -0.104,
+          "intraday_pct": 0.956,
+          "rsi": 48.4,
+          "vol_factor": 1.81,
+          "score": 0.937
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "buy_price": 292.5,
+        "buy_time": "2026-06-23 17:02:15",
+        "iteration": 11,
+        "score_info": {
+          "last": 292.5,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 0.637,
+          "rsi": 56.4,
+          "vol_factor": 2.0,
+          "score": 1.191
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 5,
+        "buy_price": 1435.6,
+        "buy_time": "2026-06-23 17:02:15",
+        "iteration": 11,
         "score_info": {
           "last": 1435.6,
           "mom_30m_pct": -0.104,
@@ -827,6 +866,40 @@
         "qty": 4,
         "price": 1435.6,
         "cost": 5742.4,
+        "score": {
+          "last": 1435.6,
+          "mom_30m_pct": -0.104,
+          "intraday_pct": 0.956,
+          "rsi": 48.4,
+          "vol_factor": 1.81,
+          "score": 0.937
+        }
+      },
+      {
+        "time": "2026-06-23 17:02:15",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "price": 292.5,
+        "cost": 3510.0,
+        "score": {
+          "last": 292.5,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 0.637,
+          "rsi": 56.4,
+          "vol_factor": 2.0,
+          "score": 1.191
+        }
+      },
+      {
+        "time": "2026-06-23 17:02:15",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 5,
+        "price": 1435.6,
+        "cost": 7178.0,
         "score": {
           "last": 1435.6,
           "mom_30m_pct": -0.104,
