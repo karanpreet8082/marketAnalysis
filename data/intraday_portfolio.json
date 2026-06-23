@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-23",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 27982.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-23 14:06:45",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 35050.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 27982.199951171875,
+    "invested_today": 35050.399658203125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -192,6 +201,36 @@
           "rsi": 48.5,
           "vol_factor": 1.0,
           "score": 0.273
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1365.2,
+        "buy_time": "2026-06-23 14:06:45",
+        "iteration": 5,
+        "score_info": {
+          "last": 1365.2,
+          "mom_30m_pct": 0.323,
+          "intraday_pct": 0.56,
+          "rsi": 63.2,
+          "vol_factor": 0.22,
+          "score": -0.128
+        }
+      },
+      {
+        "symbol": "TITAN",
+        "qty": 1,
+        "buy_price": 4337.8,
+        "buy_time": "2026-06-23 14:06:45",
+        "iteration": 5,
+        "score_info": {
+          "last": 4337.8,
+          "mom_30m_pct": 0.461,
+          "intraday_pct": -0.959,
+          "rsi": 61.0,
+          "vol_factor": 0.13,
+          "score": -0.465
         }
       }
     ],
@@ -364,6 +403,40 @@
           "rsi": 48.5,
           "vol_factor": 1.0,
           "score": 0.273
+        }
+      },
+      {
+        "time": "2026-06-23 14:06:45",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1365.2,
+        "cost": 2730.4,
+        "score": {
+          "last": 1365.2,
+          "mom_30m_pct": 0.323,
+          "intraday_pct": 0.56,
+          "rsi": 63.2,
+          "vol_factor": 0.22,
+          "score": -0.128
+        }
+      },
+      {
+        "time": "2026-06-23 14:06:45",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TITAN",
+        "qty": 1,
+        "price": 4337.8,
+        "cost": 4337.8,
+        "score": {
+          "last": 4337.8,
+          "mom_30m_pct": 0.461,
+          "intraday_pct": -0.959,
+          "rsi": 61.0,
+          "vol_factor": 0.13,
+          "score": -0.465
         }
       }
     ],
