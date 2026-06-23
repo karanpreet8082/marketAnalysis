@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-23",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13556.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-06-23 13:31:37",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 19275.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 13556.199798583984,
+    "invested_today": 19275.84994506836,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,36 @@
           "rsi": 32.1,
           "vol_factor": 1.44,
           "score": 0.268
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "buy_price": 401.95,
+        "buy_time": "2026-06-23 13:31:37",
+        "iteration": 3,
+        "score_info": {
+          "last": 401.95,
+          "mom_30m_pct": 0.025,
+          "intraday_pct": 0.174,
+          "rsi": 58.2,
+          "vol_factor": 0.81,
+          "score": -0.1
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "buy_price": 290.6,
+        "buy_time": "2026-06-23 13:31:37",
+        "iteration": 3,
+        "score_info": {
+          "last": 290.6,
+          "mom_30m_pct": 0.121,
+          "intraday_pct": 0.345,
+          "rsi": 56.4,
+          "vol_factor": 0.37,
+          "score": -0.348
         }
       }
     ],
@@ -186,6 +225,40 @@
           "rsi": 32.1,
           "vol_factor": 1.44,
           "score": 0.268
+        }
+      },
+      {
+        "time": "2026-06-23 13:31:37",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 401.95,
+        "cost": 2813.65,
+        "score": {
+          "last": 401.95,
+          "mom_30m_pct": 0.025,
+          "intraday_pct": 0.174,
+          "rsi": 58.2,
+          "vol_factor": 0.81,
+          "score": -0.1
+        }
+      },
+      {
+        "time": "2026-06-23 13:31:37",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 290.6,
+        "cost": 2906.0,
+        "score": {
+          "last": 290.6,
+          "mom_30m_pct": 0.121,
+          "intraday_pct": 0.345,
+          "rsi": 56.4,
+          "vol_factor": 0.37,
+          "score": -0.348
         }
       }
     ],
