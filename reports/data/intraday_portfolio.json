@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-23",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 6952.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-23 13:23:08",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 13556.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 6952.7998046875,
+    "invested_today": 13556.199798583984,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,51 @@
           "rsi": 39.5,
           "vol_factor": 0.23,
           "score": -0.415
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "buy_price": 398.6,
+        "buy_time": "2026-06-23 13:23:08",
+        "iteration": 2,
+        "score_info": {
+          "last": 398.6,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": -1.665,
+          "rsi": 63.3,
+          "vol_factor": 2.0,
+          "score": 0.84
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "buy_price": 967.6,
+        "buy_time": "2026-06-23 13:23:08",
+        "iteration": 2,
+        "score_info": {
+          "last": 967.6,
+          "mom_30m_pct": 0.119,
+          "intraday_pct": 0.373,
+          "rsi": 48.3,
+          "vol_factor": 1.01,
+          "score": 0.299
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1878.0,
+        "buy_time": "2026-06-23 13:23:08",
+        "iteration": 2,
+        "score_info": {
+          "last": 1878.0,
+          "mom_30m_pct": -0.324,
+          "intraday_pct": 1.038,
+          "rsi": 32.1,
+          "vol_factor": 1.44,
+          "score": 0.268
         }
       }
     ],
@@ -81,6 +135,57 @@
           "rsi": 39.5,
           "vol_factor": 0.23,
           "score": -0.415
+        }
+      },
+      {
+        "time": "2026-06-23 13:23:08",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 398.6,
+        "cost": 2790.2,
+        "score": {
+          "last": 398.6,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": -1.665,
+          "rsi": 63.3,
+          "vol_factor": 2.0,
+          "score": 0.84
+        }
+      },
+      {
+        "time": "2026-06-23 13:23:08",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "price": 967.6,
+        "cost": 1935.2,
+        "score": {
+          "last": 967.6,
+          "mom_30m_pct": 0.119,
+          "intraday_pct": 0.373,
+          "rsi": 48.3,
+          "vol_factor": 1.01,
+          "score": 0.299
+        }
+      },
+      {
+        "time": "2026-06-23 13:23:08",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1878.0,
+        "cost": 1878.0,
+        "score": {
+          "last": 1878.0,
+          "mom_30m_pct": -0.324,
+          "intraday_pct": 1.038,
+          "rsi": 32.1,
+          "vol_factor": 1.44,
+          "score": 0.268
         }
       }
     ],
