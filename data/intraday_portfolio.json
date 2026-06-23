@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-23",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 19275.85,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
-      },
-      {
-        "iteration": 4,
-        "time": "2026-06-23 13:50:20",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 27982.2,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 10
       }
     ],
-    "invested_today": 27982.199951171875,
+    "invested_today": 19275.84994506836,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -147,51 +138,6 @@
           "rsi": 56.4,
           "vol_factor": 0.37,
           "score": -0.348
-        }
-      },
-      {
-        "symbol": "AXISBANK",
-        "qty": 2,
-        "buy_price": 1362.6,
-        "buy_time": "2026-06-23 13:50:20",
-        "iteration": 4,
-        "score_info": {
-          "last": 1362.6,
-          "mom_30m_pct": 0.294,
-          "intraday_pct": 0.213,
-          "rsi": 54.0,
-          "vol_factor": 1.0,
-          "score": 0.506
-        }
-      },
-      {
-        "symbol": "POWERGRID",
-        "qty": 11,
-        "buy_price": 291.25,
-        "buy_time": "2026-06-23 13:50:20",
-        "iteration": 4,
-        "score_info": {
-          "last": 291.25,
-          "mom_30m_pct": 0.155,
-          "intraday_pct": 0.604,
-          "rsi": 54.7,
-          "vol_factor": 1.0,
-          "score": 0.413
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 9,
-        "buy_price": 308.6,
-        "buy_time": "2026-06-23 13:50:20",
-        "iteration": 4,
-        "score_info": {
-          "last": 308.6,
-          "mom_30m_pct": 0.097,
-          "intraday_pct": 0.423,
-          "rsi": 48.5,
-          "vol_factor": 1.0,
-          "score": 0.273
         }
       }
     ],
@@ -313,57 +259,6 @@
           "rsi": 56.4,
           "vol_factor": 0.37,
           "score": -0.348
-        }
-      },
-      {
-        "time": "2026-06-23 13:50:20",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "AXISBANK",
-        "qty": 2,
-        "price": 1362.6,
-        "cost": 2725.2,
-        "score": {
-          "last": 1362.6,
-          "mom_30m_pct": 0.294,
-          "intraday_pct": 0.213,
-          "rsi": 54.0,
-          "vol_factor": 1.0,
-          "score": 0.506
-        }
-      },
-      {
-        "time": "2026-06-23 13:50:20",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "POWERGRID",
-        "qty": 11,
-        "price": 291.25,
-        "cost": 3203.75,
-        "score": {
-          "last": 291.25,
-          "mom_30m_pct": 0.155,
-          "intraday_pct": 0.604,
-          "rsi": 54.7,
-          "vol_factor": 1.0,
-          "score": 0.413
-        }
-      },
-      {
-        "time": "2026-06-23 13:50:20",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 9,
-        "price": 308.6,
-        "cost": 2777.4,
-        "score": {
-          "last": 308.6,
-          "mom_30m_pct": 0.097,
-          "intraday_pct": 0.423,
-          "rsi": 48.5,
-          "vol_factor": 1.0,
-          "score": 0.273
         }
       }
     ],
