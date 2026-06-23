@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-23",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 43355.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 7,
+        "time": "2026-06-23 15:29:37",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 51524.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 43355.49954223633,
+    "invested_today": 51524.499603271484,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -285,6 +294,36 @@
           "rsi": 63.5,
           "vol_factor": 1.0,
           "score": 0.39
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "buy_price": 292.6,
+        "buy_time": "2026-06-23 15:29:37",
+        "iteration": 7,
+        "score_info": {
+          "last": 292.6,
+          "mom_30m_pct": 0.034,
+          "intraday_pct": 0.671,
+          "rsi": 57.5,
+          "vol_factor": 2.0,
+          "score": 1.253
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5243.0,
+        "buy_time": "2026-06-23 15:29:37",
+        "iteration": 7,
+        "score_info": {
+          "last": 5243.0,
+          "mom_30m_pct": -0.238,
+          "intraday_pct": 0.325,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 0.741
         }
       }
     ],
@@ -542,6 +581,40 @@
           "rsi": 63.5,
           "vol_factor": 1.0,
           "score": 0.39
+        }
+      },
+      {
+        "time": "2026-06-23 15:29:37",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 292.6,
+        "cost": 2926.0,
+        "score": {
+          "last": 292.6,
+          "mom_30m_pct": 0.034,
+          "intraday_pct": 0.671,
+          "rsi": 57.5,
+          "vol_factor": 2.0,
+          "score": 1.253
+        }
+      },
+      {
+        "time": "2026-06-23 15:29:37",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5243.0,
+        "cost": 5243.0,
+        "score": {
+          "last": 5243.0,
+          "mom_30m_pct": -0.238,
+          "intraday_pct": 0.325,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 0.741
         }
       }
     ],
