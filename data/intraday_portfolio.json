@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-24",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 44310.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-06-24 15:18:14",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 52608.5,
+        "realized_pnl_today_after": 79.9,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 44310.09948730469,
-    "realized_pnl_today": 0.0,
+    "invested_today": 52608.49938964844,
+    "realized_pnl_today": 79.89999389648438,
     "open_positions": [
       {
         "symbol": "DRREDDY",
@@ -78,21 +87,6 @@
         }
       },
       {
-        "symbol": "BAJFINANCE",
-        "qty": 3,
-        "buy_price": 983.25,
-        "buy_time": "2026-06-24 12:32:49",
-        "iteration": 1,
-        "score_info": {
-          "last": 983.25,
-          "mom_30m_pct": 0.28,
-          "intraday_pct": 1.345,
-          "rsi": 63.9,
-          "vol_factor": 0.28,
-          "score": 0.106
-        }
-      },
-      {
         "symbol": "TECHM",
         "qty": 1,
         "buy_price": 1458.4,
@@ -105,21 +99,6 @@
           "rsi": 60.3,
           "vol_factor": 0.92,
           "score": 2.808
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 13,
-        "buy_price": 311.5,
-        "buy_time": "2026-06-24 13:14:49",
-        "iteration": 2,
-        "score_info": {
-          "last": 311.5,
-          "mom_30m_pct": 0.549,
-          "intraday_pct": 1.038,
-          "rsi": 57.9,
-          "vol_factor": 2.0,
-          "score": 2.135
         }
       },
       {
@@ -240,6 +219,36 @@
           "rsi": 61.3,
           "vol_factor": 1.0,
           "score": 0.396
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 2,
+        "buy_price": 3070.2,
+        "buy_time": "2026-06-24 15:18:14",
+        "iteration": 7,
+        "score_info": {
+          "last": 3070.2,
+          "mom_30m_pct": 0.085,
+          "intraday_pct": 3.941,
+          "rsi": 68.1,
+          "vol_factor": 1.29,
+          "score": 1.601
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2158.0,
+        "buy_time": "2026-06-24 15:18:14",
+        "iteration": 7,
+        "score_info": {
+          "last": 2158.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": -0.13,
+          "rsi": 41.4,
+          "vol_factor": 2.0,
+          "score": 1.302
         }
       }
     ],
@@ -446,6 +455,64 @@
           "rsi": 61.3,
           "vol_factor": 1.0,
           "score": 0.396
+        }
+      },
+      {
+        "time": "2026-06-24 15:18:14",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 991.9,
+        "buy_price": 983.25,
+        "pnl": 25.95,
+        "pnl_pct": 0.88,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-06-24 15:18:14",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "BPCL",
+        "qty": 13,
+        "price": 315.65,
+        "buy_price": 311.5,
+        "pnl": 53.95,
+        "pnl_pct": 1.33,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-06-24 15:18:14",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 2,
+        "price": 3070.2,
+        "cost": 6140.4,
+        "score": {
+          "last": 3070.2,
+          "mom_30m_pct": 0.085,
+          "intraday_pct": 3.941,
+          "rsi": 68.1,
+          "vol_factor": 1.29,
+          "score": 1.601
+        }
+      },
+      {
+        "time": "2026-06-24 15:18:14",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2158.0,
+        "cost": 2158.0,
+        "score": {
+          "last": 2158.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": -0.13,
+          "rsi": 41.4,
+          "vol_factor": 2.0,
+          "score": 1.302
         }
       }
     ],
