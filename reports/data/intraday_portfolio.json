@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-24",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 22256.25,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-24 13:35:14",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 30886.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 22256.249755859375,
+    "invested_today": 30886.549560546875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -138,6 +147,36 @@
           "rsi": 72.7,
           "vol_factor": 0.54,
           "score": 1.488
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3055.7,
+        "buy_time": "2026-06-24 13:35:14",
+        "iteration": 4,
+        "score_info": {
+          "last": 3055.7,
+          "mom_30m_pct": 0.401,
+          "intraday_pct": 2.65,
+          "rsi": 72.0,
+          "vol_factor": 1.0,
+          "score": 1.396
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 6,
+        "buy_price": 929.1,
+        "buy_time": "2026-06-24 13:35:14",
+        "iteration": 4,
+        "score_info": {
+          "last": 929.1,
+          "mom_30m_pct": 0.329,
+          "intraday_pct": 2.521,
+          "rsi": 71.2,
+          "vol_factor": 1.0,
+          "score": 1.25
         }
       }
     ],
@@ -259,6 +298,40 @@
           "rsi": 72.7,
           "vol_factor": 0.54,
           "score": 1.488
+        }
+      },
+      {
+        "time": "2026-06-24 13:35:14",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3055.7,
+        "cost": 3055.7,
+        "score": {
+          "last": 3055.7,
+          "mom_30m_pct": 0.401,
+          "intraday_pct": 2.65,
+          "rsi": 72.0,
+          "vol_factor": 1.0,
+          "score": 1.396
+        }
+      },
+      {
+        "time": "2026-06-24 13:35:14",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 6,
+        "price": 929.1,
+        "cost": 5574.6,
+        "score": {
+          "last": 929.1,
+          "mom_30m_pct": 0.329,
+          "intraday_pct": 2.521,
+          "rsi": 71.2,
+          "vol_factor": 1.0,
+          "score": 1.25
         }
       }
     ],
