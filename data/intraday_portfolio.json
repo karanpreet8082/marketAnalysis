@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-24",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,18 +84,9 @@
         "invested_today_after": 69760.5,
         "realized_pnl_today_after": 79.9,
         "open_positions_after": 16
-      },
-      {
-        "iteration": 10,
-        "time": "2026-06-24 16:05:37",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 78427.15,
-        "realized_pnl_today_after": 79.9,
-        "open_positions_after": 18
       }
     ],
-    "invested_today": 78427.14916992188,
+    "invested_today": 69760.49926757812,
     "realized_pnl_today": 79.89999389648438,
     "open_positions": [
       {
@@ -329,36 +320,6 @@
         "buy_price": 2161.9,
         "buy_time": "2026-06-24 15:56:52",
         "iteration": 9,
-        "score_info": {
-          "last": 2161.9,
-          "mom_30m_pct": 0.339,
-          "intraday_pct": 0.302,
-          "rsi": 53.6,
-          "vol_factor": 2.0,
-          "score": 1.599
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 7,
-        "buy_price": 929.25,
-        "buy_time": "2026-06-24 16:05:37",
-        "iteration": 10,
-        "score_info": {
-          "last": 929.25,
-          "mom_30m_pct": 0.092,
-          "intraday_pct": 2.555,
-          "rsi": 45.9,
-          "vol_factor": 1.97,
-          "score": 1.877
-        }
-      },
-      {
-        "symbol": "HINDUNILVR",
-        "qty": 1,
-        "buy_price": 2161.9,
-        "buy_time": "2026-06-24 16:05:37",
-        "iteration": 10,
         "score_info": {
           "last": 2161.9,
           "mom_30m_pct": 0.339,
@@ -686,40 +647,6 @@
       {
         "time": "2026-06-24 15:56:52",
         "iteration": 9,
-        "action": "BUY",
-        "symbol": "HINDUNILVR",
-        "qty": 1,
-        "price": 2161.9,
-        "cost": 2161.9,
-        "score": {
-          "last": 2161.9,
-          "mom_30m_pct": 0.339,
-          "intraday_pct": 0.302,
-          "rsi": 53.6,
-          "vol_factor": 2.0,
-          "score": 1.599
-        }
-      },
-      {
-        "time": "2026-06-24 16:05:37",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 7,
-        "price": 929.25,
-        "cost": 6504.75,
-        "score": {
-          "last": 929.25,
-          "mom_30m_pct": 0.092,
-          "intraday_pct": 2.555,
-          "rsi": 45.9,
-          "vol_factor": 1.97,
-          "score": 1.877
-        }
-      },
-      {
-        "time": "2026-06-24 16:05:37",
-        "iteration": 10,
         "action": "BUY",
         "symbol": "HINDUNILVR",
         "qty": 1,
