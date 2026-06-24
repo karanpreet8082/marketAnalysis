@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-24",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 8288.55,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-24 13:14:49",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 15768.45,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 8288.5498046875,
+    "invested_today": 15768.449829101562,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,51 @@
           "rsi": 63.9,
           "vol_factor": 0.28,
           "score": 0.106
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1458.4,
+        "buy_time": "2026-06-24 13:14:49",
+        "iteration": 2,
+        "score_info": {
+          "last": 1458.4,
+          "mom_30m_pct": 1.158,
+          "intraday_pct": 3.83,
+          "rsi": 60.3,
+          "vol_factor": 0.92,
+          "score": 2.808
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 13,
+        "buy_price": 311.5,
+        "buy_time": "2026-06-24 13:14:49",
+        "iteration": 2,
+        "score_info": {
+          "last": 311.5,
+          "mom_30m_pct": 0.549,
+          "intraday_pct": 1.038,
+          "rsi": 57.9,
+          "vol_factor": 2.0,
+          "score": 2.135
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "buy_price": 986.0,
+        "buy_time": "2026-06-24 13:14:49",
+        "iteration": 2,
+        "score_info": {
+          "last": 986.0,
+          "mom_30m_pct": 0.351,
+          "intraday_pct": 2.023,
+          "rsi": 69.5,
+          "vol_factor": 1.32,
+          "score": 1.45
         }
       }
     ],
@@ -81,6 +135,57 @@
           "rsi": 63.9,
           "vol_factor": 0.28,
           "score": 0.106
+        }
+      },
+      {
+        "time": "2026-06-24 13:14:49",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1458.4,
+        "cost": 1458.4,
+        "score": {
+          "last": 1458.4,
+          "mom_30m_pct": 1.158,
+          "intraday_pct": 3.83,
+          "rsi": 60.3,
+          "vol_factor": 0.92,
+          "score": 2.808
+        }
+      },
+      {
+        "time": "2026-06-24 13:14:49",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 13,
+        "price": 311.5,
+        "cost": 4049.5,
+        "score": {
+          "last": 311.5,
+          "mom_30m_pct": 0.549,
+          "intraday_pct": 1.038,
+          "rsi": 57.9,
+          "vol_factor": 2.0,
+          "score": 2.135
+        }
+      },
+      {
+        "time": "2026-06-24 13:14:49",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "price": 986.0,
+        "cost": 1972.0,
+        "score": {
+          "last": 986.0,
+          "mom_30m_pct": 0.351,
+          "intraday_pct": 2.023,
+          "rsi": 69.5,
+          "vol_factor": 1.32,
+          "score": 1.45
         }
       }
     ],
