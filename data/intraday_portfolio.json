@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-25",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,27 @@
         "invested_today_after": 37346.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-06-25 14:07:39",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 44905.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-06-25 15:08:35",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 53061.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 37346.400146484375,
+    "invested_today": 53061.600341796875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -186,6 +204,66 @@
           "rsi": 64.3,
           "vol_factor": 1.79,
           "score": 1.052
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3200.1,
+        "buy_time": "2026-06-25 14:07:39",
+        "iteration": 6,
+        "score_info": {
+          "last": 3200.1,
+          "mom_30m_pct": -0.053,
+          "intraday_pct": 3.67,
+          "rsi": 60.8,
+          "vol_factor": 0.29,
+          "score": 0.311
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 3,
+        "buy_price": 1453.0,
+        "buy_time": "2026-06-25 14:07:39",
+        "iteration": 6,
+        "score_info": {
+          "last": 1453.0,
+          "mom_30m_pct": 0.373,
+          "intraday_pct": 0.623,
+          "rsi": 64.7,
+          "vol_factor": 0.51,
+          "score": 0.259
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1353.3,
+        "buy_time": "2026-06-25 15:08:35",
+        "iteration": 7,
+        "score_info": {
+          "last": 1353.3,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": 1.951,
+          "rsi": 61.6,
+          "vol_factor": 1.78,
+          "score": 1.81
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 5449.5,
+        "buy_time": "2026-06-25 15:08:35",
+        "iteration": 7,
+        "score_info": {
+          "last": 5449.5,
+          "mom_30m_pct": 0.156,
+          "intraday_pct": 4.855,
+          "rsi": 49.4,
+          "vol_factor": 0.95,
+          "score": 1.637
         }
       }
     ],
@@ -341,6 +419,74 @@
           "rsi": 64.3,
           "vol_factor": 1.79,
           "score": 1.052
+        }
+      },
+      {
+        "time": "2026-06-25 14:07:39",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3200.1,
+        "cost": 3200.1,
+        "score": {
+          "last": 3200.1,
+          "mom_30m_pct": -0.053,
+          "intraday_pct": 3.67,
+          "rsi": 60.8,
+          "vol_factor": 0.29,
+          "score": 0.311
+        }
+      },
+      {
+        "time": "2026-06-25 14:07:39",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 3,
+        "price": 1453.0,
+        "cost": 4359.0,
+        "score": {
+          "last": 1453.0,
+          "mom_30m_pct": 0.373,
+          "intraday_pct": 0.623,
+          "rsi": 64.7,
+          "vol_factor": 0.51,
+          "score": 0.259
+        }
+      },
+      {
+        "time": "2026-06-25 15:08:35",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1353.3,
+        "cost": 2706.6,
+        "score": {
+          "last": 1353.3,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": 1.951,
+          "rsi": 61.6,
+          "vol_factor": 1.78,
+          "score": 1.81
+        }
+      },
+      {
+        "time": "2026-06-25 15:08:35",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5449.5,
+        "cost": 5449.5,
+        "score": {
+          "last": 5449.5,
+          "mom_30m_pct": 0.156,
+          "intraday_pct": 4.855,
+          "rsi": 49.4,
+          "vol_factor": 0.95,
+          "score": 1.637
         }
       }
     ],
