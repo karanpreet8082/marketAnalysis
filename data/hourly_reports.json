@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-05-29 16:05 IST",
+    "budget": 50000.0,
+    "allocated": 49459.19,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49459.19,
+      "cash_reserve": 540.81,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24893.15,
+          "percent": 49.8,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17081.64,
+          "percent": 34.2,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7484.4,
+          "percent": 15.0,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 5.5,
+      "max_loss_percent": 3.8,
+      "sector_distribution": {
+        "Financial Services": 3,
+        "Technology": 1,
+        "Basic Materials": 2,
+        "Unknown": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-05-29 16:28 IST",
     "budget": 50000.0,
     "allocated": 49459.19,
@@ -1791,44 +1828,6 @@
   },
   {
     "timestamp": "2026-06-25 16:51 IST",
-    "budget": 50000.0,
-    "allocated": 49188.71,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 49188.71,
-      "cash_reserve": 811.29,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24543.949999999997,
-          "percent": 49.1,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17242.260000000002,
-          "percent": 34.5,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7402.5,
-          "percent": 14.8,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 6.2,
-      "max_loss_percent": 4.3,
-      "sector_distribution": {
-        "Utilities": 1,
-        "Unknown": 2,
-        "Financial Services": 3,
-        "Energy": 1,
-        "Consumer Cyclical": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-06-25 17:34 IST",
     "budget": 50000.0,
     "allocated": 49188.71,
     "positions": 8,
