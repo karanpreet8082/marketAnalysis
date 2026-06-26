@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-26",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 87421.65,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 12,
+        "time": "2026-06-26 17:05:28",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 95587.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 87421.6516418457,
+    "invested_today": 95587.8518371582,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -390,6 +399,36 @@
           "rsi": 70.7,
           "vol_factor": 2.0,
           "score": 0.842
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3641.0,
+        "buy_time": "2026-06-26 17:05:28",
+        "iteration": 12,
+        "score_info": {
+          "last": 3641.0,
+          "mom_30m_pct": 0.306,
+          "intraday_pct": 1.234,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.829
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "buy_price": 1131.3,
+        "buy_time": "2026-06-26 17:05:28",
+        "iteration": 12,
+        "score_info": {
+          "last": 1131.3,
+          "mom_30m_pct": 0.248,
+          "intraday_pct": 2.622,
+          "rsi": 69.0,
+          "vol_factor": 0.98,
+          "score": 1.135
         }
       }
     ],
@@ -715,6 +754,40 @@
           "rsi": 70.7,
           "vol_factor": 2.0,
           "score": 0.842
+        }
+      },
+      {
+        "time": "2026-06-26 17:05:28",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3641.0,
+        "cost": 3641.0,
+        "score": {
+          "last": 3641.0,
+          "mom_30m_pct": 0.306,
+          "intraday_pct": 1.234,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.829
+        }
+      },
+      {
+        "time": "2026-06-26 17:05:28",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "price": 1131.3,
+        "cost": 4525.2,
+        "score": {
+          "last": 1131.3,
+          "mom_30m_pct": 0.248,
+          "intraday_pct": 2.622,
+          "rsi": 69.0,
+          "vol_factor": 0.98,
+          "score": 1.135
         }
       }
     ],
