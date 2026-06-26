@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-26",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 8219.9,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-26 13:27:28",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 12745.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
       }
     ],
-    "invested_today": 8219.900146484375,
+    "invested_today": 12745.900146484375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,21 @@
           "rsi": 52.8,
           "vol_factor": 2.0,
           "score": 1.093
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "buy_price": 1131.5,
+        "buy_time": "2026-06-26 13:27:28",
+        "iteration": 2,
+        "score_info": {
+          "last": 1131.5,
+          "mom_30m_pct": 0.266,
+          "intraday_pct": 2.64,
+          "rsi": 69.2,
+          "vol_factor": 0.98,
+          "score": 1.167
         }
       }
     ],
@@ -81,6 +105,23 @@
           "rsi": 52.8,
           "vol_factor": 2.0,
           "score": 1.093
+        }
+      },
+      {
+        "time": "2026-06-26 13:27:28",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "price": 1131.5,
+        "cost": 4526.0,
+        "score": {
+          "last": 1131.5,
+          "mom_30m_pct": 0.266,
+          "intraday_pct": 2.64,
+          "rsi": 69.2,
+          "vol_factor": 0.98,
+          "score": 1.167
         }
       }
     ],
