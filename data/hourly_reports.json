@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-05-29 16:28 IST",
+    "budget": 50000.0,
+    "allocated": 49459.19,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49459.19,
+      "cash_reserve": 540.81,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24893.15,
+          "percent": 49.8,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17081.64,
+          "percent": 34.2,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7484.4,
+          "percent": 15.0,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 5.5,
+      "max_loss_percent": 3.8,
+      "sector_distribution": {
+        "Financial Services": 3,
+        "Technology": 1,
+        "Basic Materials": 2,
+        "Unknown": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-05-29 17:25 IST",
     "budget": 50000.0,
     "allocated": 49459.19,
@@ -1825,42 +1862,6 @@
         "Financial Services": 3,
         "Energy": 1,
         "Consumer Cyclical": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-06-29 14:48 IST",
-    "budget": 50000.0,
-    "allocated": 49608.28,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49608.28,
-      "cash_reserve": 391.72,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24949.02,
-          "percent": 49.9,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17143.260000000002,
-          "percent": 34.3,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7516.0,
-          "percent": 15.0,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 6.1,
-      "max_loss_percent": 4.3,
-      "sector_distribution": {
-        "Financial Services": 4,
-        "Unknown": 2,
-        "Basic Materials": 1
       }
     }
   }
