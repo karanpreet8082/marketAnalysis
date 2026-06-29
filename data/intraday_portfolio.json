@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-29",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 21882.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-06-29 14:48:58",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 30517.2,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 9
       }
     ],
-    "invested_today": 30517.200317382812,
+    "invested_today": 21882.80029296875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -132,51 +123,6 @@
           "rsi": 42.7,
           "vol_factor": 2.0,
           "score": 0.418
-        }
-      },
-      {
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "buy_price": 2656.0,
-        "buy_time": "2026-06-29 14:48:58",
-        "iteration": 4,
-        "score_info": {
-          "last": 2656.0,
-          "mom_30m_pct": 0.113,
-          "intraday_pct": 0.139,
-          "rsi": 70.6,
-          "vol_factor": 2.0,
-          "score": 1.211
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "buy_price": 968.3,
-        "buy_time": "2026-06-29 14:48:58",
-        "iteration": 4,
-        "score_info": {
-          "last": 968.3,
-          "mom_30m_pct": -0.083,
-          "intraday_pct": 1.297,
-          "rsi": 49.4,
-          "vol_factor": 1.73,
-          "score": 1.0
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 5,
-        "buy_price": 614.7,
-        "buy_time": "2026-06-29 14:48:58",
-        "iteration": 4,
-        "score_info": {
-          "last": 614.7,
-          "mom_30m_pct": 0.277,
-          "intraday_pct": -1.522,
-          "rsi": 64.8,
-          "vol_factor": 1.58,
-          "score": 0.538
         }
       }
     ],
@@ -281,57 +227,6 @@
           "rsi": 42.7,
           "vol_factor": 2.0,
           "score": 0.418
-        }
-      },
-      {
-        "time": "2026-06-29 14:48:58",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "price": 2656.0,
-        "cost": 2656.0,
-        "score": {
-          "last": 2656.0,
-          "mom_30m_pct": 0.113,
-          "intraday_pct": 0.139,
-          "rsi": 70.6,
-          "vol_factor": 2.0,
-          "score": 1.211
-        }
-      },
-      {
-        "time": "2026-06-29 14:48:58",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "price": 968.3,
-        "cost": 2904.9,
-        "score": {
-          "last": 968.3,
-          "mom_30m_pct": -0.083,
-          "intraday_pct": 1.297,
-          "rsi": 49.4,
-          "vol_factor": 1.73,
-          "score": 1.0
-        }
-      },
-      {
-        "time": "2026-06-29 14:48:58",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 5,
-        "price": 614.7,
-        "cost": 3073.5,
-        "score": {
-          "last": 614.7,
-          "mom_30m_pct": 0.277,
-          "intraday_pct": -1.522,
-          "rsi": 64.8,
-          "vol_factor": 1.58,
-          "score": 0.538
         }
       }
     ],
