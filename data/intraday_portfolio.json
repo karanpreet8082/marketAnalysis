@@ -1,5 +1,123 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-29",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-29 14:05:23",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8112.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 8112.800048828125,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1384.8,
+        "buy_time": "2026-06-29 14:05:23",
+        "iteration": 1,
+        "score_info": {
+          "last": 1384.8,
+          "mom_30m_pct": -0.022,
+          "intraday_pct": 2.753,
+          "rsi": 58.1,
+          "vol_factor": 1.0,
+          "score": 0.793
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 1,
+        "buy_price": 1468.8,
+        "buy_time": "2026-06-29 14:05:23",
+        "iteration": 1,
+        "score_info": {
+          "last": 1468.8,
+          "mom_30m_pct": 0.054,
+          "intraday_pct": 1.206,
+          "rsi": 34.3,
+          "vol_factor": 1.0,
+          "score": 0.443
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 4,
+        "buy_price": 968.6,
+        "buy_time": "2026-06-29 14:05:23",
+        "iteration": 1,
+        "score_info": {
+          "last": 968.6,
+          "mom_30m_pct": 0.021,
+          "intraday_pct": 1.138,
+          "rsi": 50.4,
+          "vol_factor": 1.0,
+          "score": 0.372
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-29 14:05:23",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1384.8,
+        "cost": 2769.6,
+        "score": {
+          "last": 1384.8,
+          "mom_30m_pct": -0.022,
+          "intraday_pct": 2.753,
+          "rsi": 58.1,
+          "vol_factor": 1.0,
+          "score": 0.793
+        }
+      },
+      {
+        "time": "2026-06-29 14:05:23",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 1,
+        "price": 1468.8,
+        "cost": 1468.8,
+        "score": {
+          "last": 1468.8,
+          "mom_30m_pct": 0.054,
+          "intraday_pct": 1.206,
+          "rsi": 34.3,
+          "vol_factor": 1.0,
+          "score": 0.443
+        }
+      },
+      {
+        "time": "2026-06-29 14:05:23",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 4,
+        "price": 968.6,
+        "cost": 3874.4,
+        "score": {
+          "last": 968.6,
+          "mom_30m_pct": 0.021,
+          "intraday_pct": 1.138,
+          "rsi": 50.4,
+          "vol_factor": 1.0,
+          "score": 0.372
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
