@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-29",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,18 +48,9 @@
         "invested_today_after": 38981.2,
         "realized_pnl_today_after": -18.3,
         "open_positions_after": 11
-      },
-      {
-        "iteration": 6,
-        "time": "2026-06-29 15:41:52",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 47501.3,
-        "realized_pnl_today_after": -18.3,
-        "open_positions_after": 14
       }
     ],
-    "invested_today": 47501.30047607422,
+    "invested_today": 38981.20050048828,
     "realized_pnl_today": -18.299999999999955,
     "open_positions": [
       {
@@ -225,51 +216,6 @@
           "rsi": 47.5,
           "vol_factor": 1.35,
           "score": 0.434
-        }
-      },
-      {
-        "symbol": "ONGC",
-        "qty": 12,
-        "buy_price": 233.95,
-        "buy_time": "2026-06-29 15:41:52",
-        "iteration": 6,
-        "score_info": {
-          "last": 233.95,
-          "mom_30m_pct": 1.058,
-          "intraday_pct": -0.764,
-          "rsi": 67.8,
-          "vol_factor": 1.82,
-          "score": 2.174
-        }
-      },
-      {
-        "symbol": "AXISBANK",
-        "qty": 2,
-        "buy_price": 1370.9,
-        "buy_time": "2026-06-29 15:41:52",
-        "iteration": 6,
-        "score_info": {
-          "last": 1370.9,
-          "mom_30m_pct": 0.801,
-          "intraday_pct": -0.846,
-          "rsi": 52.9,
-          "vol_factor": 1.93,
-          "score": 1.883
-        }
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "qty": 3,
-        "buy_price": 990.3,
-        "buy_time": "2026-06-29 15:41:52",
-        "iteration": 6,
-        "score_info": {
-          "last": 990.3,
-          "mom_30m_pct": 0.871,
-          "intraday_pct": 0.258,
-          "rsi": 61.7,
-          "vol_factor": 1.44,
-          "score": 1.824
         }
       }
     ],
@@ -488,57 +434,6 @@
           "rsi": 47.5,
           "vol_factor": 1.35,
           "score": 0.434
-        }
-      },
-      {
-        "time": "2026-06-29 15:41:52",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "ONGC",
-        "qty": 12,
-        "price": 233.95,
-        "cost": 2807.4,
-        "score": {
-          "last": 233.95,
-          "mom_30m_pct": 1.058,
-          "intraday_pct": -0.764,
-          "rsi": 67.8,
-          "vol_factor": 1.82,
-          "score": 2.174
-        }
-      },
-      {
-        "time": "2026-06-29 15:41:52",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "AXISBANK",
-        "qty": 2,
-        "price": 1370.9,
-        "cost": 2741.8,
-        "score": {
-          "last": 1370.9,
-          "mom_30m_pct": 0.801,
-          "intraday_pct": -0.846,
-          "rsi": 52.9,
-          "vol_factor": 1.93,
-          "score": 1.883
-        }
-      },
-      {
-        "time": "2026-06-29 15:41:52",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "BAJFINANCE",
-        "qty": 3,
-        "price": 990.3,
-        "cost": 2970.9,
-        "score": {
-          "last": 990.3,
-          "mom_30m_pct": 0.871,
-          "intraday_pct": 0.258,
-          "rsi": 61.7,
-          "vol_factor": 1.44,
-          "score": 1.824
         }
       }
     ],
