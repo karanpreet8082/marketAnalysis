@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-30",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 6562.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-30 13:26:44",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 14372.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
       }
     ],
-    "invested_today": 6562.3001708984375,
+    "invested_today": 14372.250366210938,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,36 @@
           "rsi": 65.3,
           "vol_factor": 0.67,
           "score": 0.117
+        }
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 4803.2,
+        "buy_time": "2026-06-30 13:26:44",
+        "iteration": 2,
+        "score_info": {
+          "last": 4803.2,
+          "mom_30m_pct": 0.557,
+          "intraday_pct": 0.04,
+          "rsi": 50.9,
+          "vol_factor": 0.14,
+          "score": -0.012
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1002.25,
+        "buy_time": "2026-06-30 13:26:44",
+        "iteration": 2,
+        "score_info": {
+          "last": 1002.25,
+          "mom_30m_pct": -0.005,
+          "intraday_pct": 2.015,
+          "rsi": 71.9,
+          "vol_factor": 0.38,
+          "score": -0.025
         }
       }
     ],
@@ -81,6 +120,40 @@
           "rsi": 65.3,
           "vol_factor": 0.67,
           "score": 0.117
+        }
+      },
+      {
+        "time": "2026-06-30 13:26:44",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 4803.2,
+        "cost": 4803.2,
+        "score": {
+          "last": 4803.2,
+          "mom_30m_pct": 0.557,
+          "intraday_pct": 0.04,
+          "rsi": 50.9,
+          "vol_factor": 0.14,
+          "score": -0.012
+        }
+      },
+      {
+        "time": "2026-06-30 13:26:44",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1002.25,
+        "cost": 3006.75,
+        "score": {
+          "last": 1002.25,
+          "mom_30m_pct": -0.005,
+          "intraday_pct": 2.015,
+          "rsi": 71.9,
+          "vol_factor": 0.38,
+          "score": -0.025
         }
       }
     ],
