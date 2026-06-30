@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-30",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 55085.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 9,
+        "time": "2026-06-30 16:04:58",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 66255.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 55085.3005065918,
+    "invested_today": 66255.5505065918,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -296,6 +305,36 @@
         "buy_price": 304.25,
         "buy_time": "2026-06-30 15:37:10",
         "iteration": 8,
+        "score_info": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 396.0,
+        "buy_time": "2026-06-30 16:04:58",
+        "iteration": 9,
+        "score_info": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 25,
+        "buy_price": 304.25,
+        "buy_time": "2026-06-30 16:04:58",
+        "iteration": 9,
         "score_info": {
           "last": 304.25,
           "mom_30m_pct": 0.231,
@@ -553,6 +592,40 @@
         "qty": 12,
         "price": 304.25,
         "cost": 3651.0,
+        "score": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "time": "2026-06-30 16:04:58",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 396.0,
+        "cost": 3564.0,
+        "score": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "time": "2026-06-30 16:04:58",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 25,
+        "price": 304.25,
+        "cost": 7606.25,
         "score": {
           "last": 304.25,
           "mom_30m_pct": 0.231,
