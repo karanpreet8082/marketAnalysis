@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-06-30",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 32659.05,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-06-30 14:13:58",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 42146.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 32659.050354003906,
+    "invested_today": 42146.25064086914,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -186,6 +195,36 @@
           "rsi": 49.4,
           "vol_factor": 0.12,
           "score": -0.102
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 10,
+        "buy_price": 619.65,
+        "buy_time": "2026-06-30 14:13:58",
+        "iteration": 6,
+        "score_info": {
+          "last": 619.65,
+          "mom_30m_pct": 0.162,
+          "intraday_pct": 1.085,
+          "rsi": 61.8,
+          "vol_factor": 1.03,
+          "score": 0.6
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 235.05,
+        "buy_time": "2026-06-30 14:13:58",
+        "iteration": 6,
+        "score_info": {
+          "last": 235.05,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 1.886,
+          "rsi": 65.4,
+          "vol_factor": 0.99,
+          "score": 0.557
         }
       }
     ],
@@ -341,6 +380,40 @@
           "rsi": 49.4,
           "vol_factor": 0.12,
           "score": -0.102
+        }
+      },
+      {
+        "time": "2026-06-30 14:13:58",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 10,
+        "price": 619.65,
+        "cost": 6196.5,
+        "score": {
+          "last": 619.65,
+          "mom_30m_pct": 0.162,
+          "intraday_pct": 1.085,
+          "rsi": 61.8,
+          "vol_factor": 1.03,
+          "score": 0.6
+        }
+      },
+      {
+        "time": "2026-06-30 14:13:58",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 235.05,
+        "cost": 3290.7,
+        "score": {
+          "last": 235.05,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 1.886,
+          "rsi": 65.4,
+          "vol_factor": 0.99,
+          "score": 0.557
         }
       }
     ],
