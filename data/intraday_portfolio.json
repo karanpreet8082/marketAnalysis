@@ -1,5 +1,935 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-30",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-30 13:08:44",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 6562.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-06-30 13:26:44",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 14372.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-06-30 13:34:57",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 19958.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 4,
+        "time": "2026-06-30 13:50:55",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 25776.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
+      },
+      {
+        "iteration": 5,
+        "time": "2026-06-30 14:06:19",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 32659.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-06-30 14:13:58",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 42146.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-06-30 15:27:01",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 48266.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-06-30 15:37:10",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 55085.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 9,
+        "time": "2026-06-30 16:04:58",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 66255.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
+      },
+      {
+        "iteration": 10,
+        "time": "2026-06-30 16:14:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 77425.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 19
+      },
+      {
+        "iteration": 11,
+        "time": "2026-06-30 16:52:54",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 88596.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 21
+      },
+      {
+        "iteration": 12,
+        "time": "2026-06-30 17:05:57",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 96115.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 13,
+        "time": "2026-06-30 17:26:15",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99737.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 25
+      }
+    ],
+    "invested_today": 99737.3005065918,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 4780.7,
+        "buy_time": "2026-06-30 13:08:44",
+        "iteration": 1,
+        "score_info": {
+          "last": 4780.7,
+          "mom_30m_pct": -0.142,
+          "intraday_pct": -0.336,
+          "rsi": 36.4,
+          "vol_factor": 2.0,
+          "score": 0.686
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1781.6,
+        "buy_time": "2026-06-30 13:08:44",
+        "iteration": 1,
+        "score_info": {
+          "last": 1781.6,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 1.038,
+          "rsi": 65.3,
+          "vol_factor": 0.67,
+          "score": 0.117
+        }
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 4803.2,
+        "buy_time": "2026-06-30 13:26:44",
+        "iteration": 2,
+        "score_info": {
+          "last": 4803.2,
+          "mom_30m_pct": 0.557,
+          "intraday_pct": 0.04,
+          "rsi": 50.9,
+          "vol_factor": 0.14,
+          "score": -0.012
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1002.25,
+        "buy_time": "2026-06-30 13:26:44",
+        "iteration": 2,
+        "score_info": {
+          "last": 1002.25,
+          "mom_30m_pct": -0.005,
+          "intraday_pct": 2.015,
+          "rsi": 71.9,
+          "vol_factor": 0.38,
+          "score": -0.025
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 9,
+        "buy_price": 620.7,
+        "buy_time": "2026-06-30 13:34:57",
+        "iteration": 3,
+        "score_info": {
+          "last": 620.7,
+          "mom_30m_pct": 0.486,
+          "intraday_pct": 1.289,
+          "rsi": 69.3,
+          "vol_factor": 1.91,
+          "score": 2.02
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1808.1,
+        "buy_time": "2026-06-30 13:50:55",
+        "iteration": 4,
+        "score_info": {
+          "last": 1808.1,
+          "mom_30m_pct": 0.394,
+          "intraday_pct": 1.465,
+          "rsi": 58.9,
+          "vol_factor": 1.0,
+          "score": 1.031
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 4,
+        "buy_price": 1002.55,
+        "buy_time": "2026-06-30 13:50:55",
+        "iteration": 4,
+        "score_info": {
+          "last": 1002.55,
+          "mom_30m_pct": 0.305,
+          "intraday_pct": 1.74,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 0.98
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 619.2,
+        "buy_time": "2026-06-30 14:06:19",
+        "iteration": 5,
+        "score_info": {
+          "last": 619.2,
+          "mom_30m_pct": -0.048,
+          "intraday_pct": 1.011,
+          "rsi": 57.8,
+          "vol_factor": 1.52,
+          "score": 0.755
+        }
+      },
+      {
+        "symbol": "TITAN",
+        "qty": 1,
+        "buy_price": 4405.4,
+        "buy_time": "2026-06-30 14:06:19",
+        "iteration": 5,
+        "score_info": {
+          "last": 4405.4,
+          "mom_30m_pct": 0.011,
+          "intraday_pct": 2.549,
+          "rsi": 49.4,
+          "vol_factor": 0.12,
+          "score": -0.102
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 10,
+        "buy_price": 619.65,
+        "buy_time": "2026-06-30 14:13:58",
+        "iteration": 6,
+        "score_info": {
+          "last": 619.65,
+          "mom_30m_pct": 0.162,
+          "intraday_pct": 1.085,
+          "rsi": 61.8,
+          "vol_factor": 1.03,
+          "score": 0.6
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 235.05,
+        "buy_time": "2026-06-30 14:13:58",
+        "iteration": 6,
+        "score_info": {
+          "last": 235.05,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 1.886,
+          "rsi": 65.4,
+          "vol_factor": 0.99,
+          "score": 0.557
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1785.5,
+        "buy_time": "2026-06-30 15:27:01",
+        "iteration": 7,
+        "score_info": {
+          "last": 1785.5,
+          "mom_30m_pct": 0.473,
+          "intraday_pct": 1.622,
+          "rsi": 56.3,
+          "vol_factor": 0.47,
+          "score": 0.664
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 11,
+        "buy_price": 394.05,
+        "buy_time": "2026-06-30 15:27:01",
+        "iteration": 7,
+        "score_info": {
+          "last": 394.05,
+          "mom_30m_pct": 0.729,
+          "intraday_pct": 0.025,
+          "rsi": 68.8,
+          "vol_factor": 0.42,
+          "score": 0.516
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "buy_price": 396.0,
+        "buy_time": "2026-06-30 15:37:10",
+        "iteration": 8,
+        "score_info": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 12,
+        "buy_price": 304.25,
+        "buy_time": "2026-06-30 15:37:10",
+        "iteration": 8,
+        "score_info": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 396.0,
+        "buy_time": "2026-06-30 16:04:58",
+        "iteration": 9,
+        "score_info": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 25,
+        "buy_price": 304.25,
+        "buy_time": "2026-06-30 16:04:58",
+        "iteration": 9,
+        "score_info": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 396.0,
+        "buy_time": "2026-06-30 16:14:13",
+        "iteration": 10,
+        "score_info": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 25,
+        "buy_price": 304.25,
+        "buy_time": "2026-06-30 16:14:13",
+        "iteration": 10,
+        "score_info": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 396.0,
+        "buy_time": "2026-06-30 16:52:54",
+        "iteration": 11,
+        "score_info": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 25,
+        "buy_price": 304.25,
+        "buy_time": "2026-06-30 16:52:54",
+        "iteration": 11,
+        "score_info": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 396.0,
+        "buy_time": "2026-06-30 17:05:57",
+        "iteration": 12,
+        "score_info": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 13,
+        "buy_price": 304.25,
+        "buy_time": "2026-06-30 17:05:57",
+        "iteration": 12,
+        "score_info": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 3,
+        "buy_price": 396.0,
+        "buy_time": "2026-06-30 17:26:15",
+        "iteration": 13,
+        "score_info": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 8,
+        "buy_price": 304.25,
+        "buy_time": "2026-06-30 17:26:15",
+        "iteration": 13,
+        "score_info": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-30 13:08:44",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 4780.7,
+        "cost": 4780.7,
+        "score": {
+          "last": 4780.7,
+          "mom_30m_pct": -0.142,
+          "intraday_pct": -0.336,
+          "rsi": 36.4,
+          "vol_factor": 2.0,
+          "score": 0.686
+        }
+      },
+      {
+        "time": "2026-06-30 13:08:44",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1781.6,
+        "cost": 1781.6,
+        "score": {
+          "last": 1781.6,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 1.038,
+          "rsi": 65.3,
+          "vol_factor": 0.67,
+          "score": 0.117
+        }
+      },
+      {
+        "time": "2026-06-30 13:26:44",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 4803.2,
+        "cost": 4803.2,
+        "score": {
+          "last": 4803.2,
+          "mom_30m_pct": 0.557,
+          "intraday_pct": 0.04,
+          "rsi": 50.9,
+          "vol_factor": 0.14,
+          "score": -0.012
+        }
+      },
+      {
+        "time": "2026-06-30 13:26:44",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1002.25,
+        "cost": 3006.75,
+        "score": {
+          "last": 1002.25,
+          "mom_30m_pct": -0.005,
+          "intraday_pct": 2.015,
+          "rsi": 71.9,
+          "vol_factor": 0.38,
+          "score": -0.025
+        }
+      },
+      {
+        "time": "2026-06-30 13:34:57",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 9,
+        "price": 620.7,
+        "cost": 5586.3,
+        "score": {
+          "last": 620.7,
+          "mom_30m_pct": 0.486,
+          "intraday_pct": 1.289,
+          "rsi": 69.3,
+          "vol_factor": 1.91,
+          "score": 2.02
+        }
+      },
+      {
+        "time": "2026-06-30 13:50:55",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1808.1,
+        "cost": 1808.1,
+        "score": {
+          "last": 1808.1,
+          "mom_30m_pct": 0.394,
+          "intraday_pct": 1.465,
+          "rsi": 58.9,
+          "vol_factor": 1.0,
+          "score": 1.031
+        }
+      },
+      {
+        "time": "2026-06-30 13:50:55",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 4,
+        "price": 1002.55,
+        "cost": 4010.2,
+        "score": {
+          "last": 1002.55,
+          "mom_30m_pct": 0.305,
+          "intraday_pct": 1.74,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 0.98
+        }
+      },
+      {
+        "time": "2026-06-30 14:06:19",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 619.2,
+        "cost": 2476.8,
+        "score": {
+          "last": 619.2,
+          "mom_30m_pct": -0.048,
+          "intraday_pct": 1.011,
+          "rsi": 57.8,
+          "vol_factor": 1.52,
+          "score": 0.755
+        }
+      },
+      {
+        "time": "2026-06-30 14:06:19",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TITAN",
+        "qty": 1,
+        "price": 4405.4,
+        "cost": 4405.4,
+        "score": {
+          "last": 4405.4,
+          "mom_30m_pct": 0.011,
+          "intraday_pct": 2.549,
+          "rsi": 49.4,
+          "vol_factor": 0.12,
+          "score": -0.102
+        }
+      },
+      {
+        "time": "2026-06-30 14:13:58",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 10,
+        "price": 619.65,
+        "cost": 6196.5,
+        "score": {
+          "last": 619.65,
+          "mom_30m_pct": 0.162,
+          "intraday_pct": 1.085,
+          "rsi": 61.8,
+          "vol_factor": 1.03,
+          "score": 0.6
+        }
+      },
+      {
+        "time": "2026-06-30 14:13:58",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 235.05,
+        "cost": 3290.7,
+        "score": {
+          "last": 235.05,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 1.886,
+          "rsi": 65.4,
+          "vol_factor": 0.99,
+          "score": 0.557
+        }
+      },
+      {
+        "time": "2026-06-30 15:27:01",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1785.5,
+        "cost": 1785.5,
+        "score": {
+          "last": 1785.5,
+          "mom_30m_pct": 0.473,
+          "intraday_pct": 1.622,
+          "rsi": 56.3,
+          "vol_factor": 0.47,
+          "score": 0.664
+        }
+      },
+      {
+        "time": "2026-06-30 15:27:01",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 11,
+        "price": 394.05,
+        "cost": 4334.55,
+        "score": {
+          "last": 394.05,
+          "mom_30m_pct": 0.729,
+          "intraday_pct": 0.025,
+          "rsi": 68.8,
+          "vol_factor": 0.42,
+          "score": 0.516
+        }
+      },
+      {
+        "time": "2026-06-30 15:37:10",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "price": 396.0,
+        "cost": 3168.0,
+        "score": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "time": "2026-06-30 15:37:10",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 12,
+        "price": 304.25,
+        "cost": 3651.0,
+        "score": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "time": "2026-06-30 16:04:58",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 396.0,
+        "cost": 3564.0,
+        "score": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "time": "2026-06-30 16:04:58",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 25,
+        "price": 304.25,
+        "cost": 7606.25,
+        "score": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "time": "2026-06-30 16:14:13",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 396.0,
+        "cost": 3564.0,
+        "score": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "time": "2026-06-30 16:14:13",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 25,
+        "price": 304.25,
+        "cost": 7606.25,
+        "score": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "time": "2026-06-30 16:52:54",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 396.0,
+        "cost": 3564.0,
+        "score": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "time": "2026-06-30 16:52:54",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 25,
+        "price": 304.25,
+        "cost": 7606.25,
+        "score": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "time": "2026-06-30 17:05:57",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 396.0,
+        "cost": 3564.0,
+        "score": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "time": "2026-06-30 17:05:57",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 13,
+        "price": 304.25,
+        "cost": 3955.25,
+        "score": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      },
+      {
+        "time": "2026-06-30 17:26:15",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 3,
+        "price": 396.0,
+        "cost": 1188.0,
+        "score": {
+          "last": 396.0,
+          "mom_30m_pct": 1.227,
+          "intraday_pct": 0.52,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "time": "2026-06-30 17:26:15",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 8,
+        "price": 304.25,
+        "cost": 2434.0,
+        "score": {
+          "last": 304.25,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.778,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.579
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -15717,751 +16647,13 @@
       "n_sells": 33,
       "feedback": "Day P&L \u20b9-170 on \u20b999723 deployed (-0.17%). Worst trade: HAVELLS (P&L \u20b9-34, -0.58%). Consider tighter stop on entries with weaker momentum scores. 31 EOD force-sells contributed \u20b9-123. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
-    },
-    {
-      "date": "2026-06-30",
-      "iterations_run": 14,
-      "invested": 99737.3,
-      "realized_pnl": 42.2,
-      "pnl_pct": 0.042,
-      "trades": [
-        {
-          "time": "2026-06-30 13:08:44",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "HEROMOTOCO",
-          "qty": 1,
-          "price": 4780.7,
-          "cost": 4780.7,
-          "score": {
-            "last": 4780.7,
-            "mom_30m_pct": -0.142,
-            "intraday_pct": -0.336,
-            "rsi": 36.4,
-            "vol_factor": 2.0,
-            "score": 0.686
-          }
-        },
-        {
-          "time": "2026-06-30 13:08:44",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "BAJAJFINSV",
-          "qty": 1,
-          "price": 1781.6,
-          "cost": 1781.6,
-          "score": {
-            "last": 1781.6,
-            "mom_30m_pct": 0.09,
-            "intraday_pct": 1.038,
-            "rsi": 65.3,
-            "vol_factor": 0.67,
-            "score": 0.117
-          }
-        },
-        {
-          "time": "2026-06-30 13:26:44",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "HEROMOTOCO",
-          "qty": 1,
-          "price": 4803.2,
-          "cost": 4803.2,
-          "score": {
-            "last": 4803.2,
-            "mom_30m_pct": 0.557,
-            "intraday_pct": 0.04,
-            "rsi": 50.9,
-            "vol_factor": 0.14,
-            "score": -0.012
-          }
-        },
-        {
-          "time": "2026-06-30 13:26:44",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "BAJFINANCE",
-          "qty": 3,
-          "price": 1002.25,
-          "cost": 3006.75,
-          "score": {
-            "last": 1002.25,
-            "mom_30m_pct": -0.005,
-            "intraday_pct": 2.015,
-            "rsi": 71.9,
-            "vol_factor": 0.38,
-            "score": -0.025
-          }
-        },
-        {
-          "time": "2026-06-30 13:34:57",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 9,
-          "price": 620.7,
-          "cost": 5586.3,
-          "score": {
-            "last": 620.7,
-            "mom_30m_pct": 0.486,
-            "intraday_pct": 1.289,
-            "rsi": 69.3,
-            "vol_factor": 1.91,
-            "score": 2.02
-          }
-        },
-        {
-          "time": "2026-06-30 13:50:55",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1808.1,
-          "cost": 1808.1,
-          "score": {
-            "last": 1808.1,
-            "mom_30m_pct": 0.394,
-            "intraday_pct": 1.465,
-            "rsi": 58.9,
-            "vol_factor": 1.0,
-            "score": 1.031
-          }
-        },
-        {
-          "time": "2026-06-30 13:50:55",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "BAJFINANCE",
-          "qty": 4,
-          "price": 1002.55,
-          "cost": 4010.2,
-          "score": {
-            "last": 1002.55,
-            "mom_30m_pct": 0.305,
-            "intraday_pct": 1.74,
-            "rsi": 61.0,
-            "vol_factor": 1.0,
-            "score": 0.98
-          }
-        },
-        {
-          "time": "2026-06-30 14:06:19",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 619.2,
-          "cost": 2476.8,
-          "score": {
-            "last": 619.2,
-            "mom_30m_pct": -0.048,
-            "intraday_pct": 1.011,
-            "rsi": 57.8,
-            "vol_factor": 1.52,
-            "score": 0.755
-          }
-        },
-        {
-          "time": "2026-06-30 14:06:19",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "TITAN",
-          "qty": 1,
-          "price": 4405.4,
-          "cost": 4405.4,
-          "score": {
-            "last": 4405.4,
-            "mom_30m_pct": 0.011,
-            "intraday_pct": 2.549,
-            "rsi": 49.4,
-            "vol_factor": 0.12,
-            "score": -0.102
-          }
-        },
-        {
-          "time": "2026-06-30 14:13:58",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 10,
-          "price": 619.65,
-          "cost": 6196.5,
-          "score": {
-            "last": 619.65,
-            "mom_30m_pct": 0.162,
-            "intraday_pct": 1.085,
-            "rsi": 61.8,
-            "vol_factor": 1.03,
-            "score": 0.6
-          }
-        },
-        {
-          "time": "2026-06-30 14:13:58",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 235.05,
-          "cost": 3290.7,
-          "score": {
-            "last": 235.05,
-            "mom_30m_pct": 0.0,
-            "intraday_pct": 1.886,
-            "rsi": 65.4,
-            "vol_factor": 0.99,
-            "score": 0.557
-          }
-        },
-        {
-          "time": "2026-06-30 15:27:01",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "BAJAJFINSV",
-          "qty": 1,
-          "price": 1785.5,
-          "cost": 1785.5,
-          "score": {
-            "last": 1785.5,
-            "mom_30m_pct": 0.473,
-            "intraday_pct": 1.622,
-            "rsi": 56.3,
-            "vol_factor": 0.47,
-            "score": 0.664
-          }
-        },
-        {
-          "time": "2026-06-30 15:27:01",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "KOTAKBANK",
-          "qty": 11,
-          "price": 394.05,
-          "cost": 4334.55,
-          "score": {
-            "last": 394.05,
-            "mom_30m_pct": 0.729,
-            "intraday_pct": 0.025,
-            "rsi": 68.8,
-            "vol_factor": 0.42,
-            "score": 0.516
-          }
-        },
-        {
-          "time": "2026-06-30 15:37:10",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "KOTAKBANK",
-          "qty": 8,
-          "price": 396.0,
-          "cost": 3168.0,
-          "score": {
-            "last": 396.0,
-            "mom_30m_pct": 1.227,
-            "intraday_pct": 0.52,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.997
-          }
-        },
-        {
-          "time": "2026-06-30 15:37:10",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 12,
-          "price": 304.25,
-          "cost": 3651.0,
-          "score": {
-            "last": 304.25,
-            "mom_30m_pct": 0.231,
-            "intraday_pct": 0.778,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.579
-          }
-        },
-        {
-          "time": "2026-06-30 16:04:58",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "KOTAKBANK",
-          "qty": 9,
-          "price": 396.0,
-          "cost": 3564.0,
-          "score": {
-            "last": 396.0,
-            "mom_30m_pct": 1.227,
-            "intraday_pct": 0.52,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.997
-          }
-        },
-        {
-          "time": "2026-06-30 16:04:58",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 25,
-          "price": 304.25,
-          "cost": 7606.25,
-          "score": {
-            "last": 304.25,
-            "mom_30m_pct": 0.231,
-            "intraday_pct": 0.778,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.579
-          }
-        },
-        {
-          "time": "2026-06-30 16:14:13",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "KOTAKBANK",
-          "qty": 9,
-          "price": 396.0,
-          "cost": 3564.0,
-          "score": {
-            "last": 396.0,
-            "mom_30m_pct": 1.227,
-            "intraday_pct": 0.52,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.997
-          }
-        },
-        {
-          "time": "2026-06-30 16:14:13",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 25,
-          "price": 304.25,
-          "cost": 7606.25,
-          "score": {
-            "last": 304.25,
-            "mom_30m_pct": 0.231,
-            "intraday_pct": 0.778,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.579
-          }
-        },
-        {
-          "time": "2026-06-30 16:52:54",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "KOTAKBANK",
-          "qty": 9,
-          "price": 396.0,
-          "cost": 3564.0,
-          "score": {
-            "last": 396.0,
-            "mom_30m_pct": 1.227,
-            "intraday_pct": 0.52,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.997
-          }
-        },
-        {
-          "time": "2026-06-30 16:52:54",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 25,
-          "price": 304.25,
-          "cost": 7606.25,
-          "score": {
-            "last": 304.25,
-            "mom_30m_pct": 0.231,
-            "intraday_pct": 0.778,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.579
-          }
-        },
-        {
-          "time": "2026-06-30 17:05:57",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "KOTAKBANK",
-          "qty": 9,
-          "price": 396.0,
-          "cost": 3564.0,
-          "score": {
-            "last": 396.0,
-            "mom_30m_pct": 1.227,
-            "intraday_pct": 0.52,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.997
-          }
-        },
-        {
-          "time": "2026-06-30 17:05:57",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 13,
-          "price": 304.25,
-          "cost": 3955.25,
-          "score": {
-            "last": 304.25,
-            "mom_30m_pct": 0.231,
-            "intraday_pct": 0.778,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.579
-          }
-        },
-        {
-          "time": "2026-06-30 17:26:15",
-          "iteration": 13,
-          "action": "BUY",
-          "symbol": "KOTAKBANK",
-          "qty": 3,
-          "price": 396.0,
-          "cost": 1188.0,
-          "score": {
-            "last": 396.0,
-            "mom_30m_pct": 1.227,
-            "intraday_pct": 0.52,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.997
-          }
-        },
-        {
-          "time": "2026-06-30 17:26:15",
-          "iteration": 13,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 8,
-          "price": 304.25,
-          "cost": 2434.0,
-          "score": {
-            "last": 304.25,
-            "mom_30m_pct": 0.231,
-            "intraday_pct": 0.778,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.579
-          }
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HEROMOTOCO",
-          "qty": 1,
-          "price": 4794.3,
-          "buy_price": 4780.7,
-          "pnl": 13.6,
-          "pnl_pct": 0.28,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BAJAJFINSV",
-          "qty": 1,
-          "price": 1769.9,
-          "buy_price": 1781.6,
-          "pnl": -11.7,
-          "pnl_pct": -0.66,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HEROMOTOCO",
-          "qty": 1,
-          "price": 4794.3,
-          "buy_price": 4803.2,
-          "pnl": -8.9,
-          "pnl_pct": -0.19,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BAJFINANCE",
-          "qty": 3,
-          "price": 1004.75,
-          "buy_price": 1002.25,
-          "pnl": 7.5,
-          "pnl_pct": 0.25,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 9,
-          "price": 620.15,
-          "buy_price": 620.7,
-          "pnl": -4.95,
-          "pnl_pct": -0.09,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1810.2,
-          "buy_price": 1808.1,
-          "pnl": 2.1,
-          "pnl_pct": 0.12,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BAJFINANCE",
-          "qty": 4,
-          "price": 1004.75,
-          "buy_price": 1002.55,
-          "pnl": 8.8,
-          "pnl_pct": 0.22,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 620.15,
-          "buy_price": 619.2,
-          "pnl": 3.8,
-          "pnl_pct": 0.15,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TITAN",
-          "qty": 1,
-          "price": 4423.7,
-          "buy_price": 4405.4,
-          "pnl": 18.3,
-          "pnl_pct": 0.42,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 10,
-          "price": 620.15,
-          "buy_price": 619.65,
-          "pnl": 5.0,
-          "pnl_pct": 0.08,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 235.25,
-          "buy_price": 235.05,
-          "pnl": 2.8,
-          "pnl_pct": 0.09,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BAJAJFINSV",
-          "qty": 1,
-          "price": 1769.9,
-          "buy_price": 1785.5,
-          "pnl": -15.6,
-          "pnl_pct": -0.87,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "KOTAKBANK",
-          "qty": 11,
-          "price": 396.0,
-          "buy_price": 394.05,
-          "pnl": 21.45,
-          "pnl_pct": 0.49,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "KOTAKBANK",
-          "qty": 8,
-          "price": 396.0,
-          "buy_price": 396.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 12,
-          "price": 304.25,
-          "buy_price": 304.25,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "KOTAKBANK",
-          "qty": 9,
-          "price": 396.0,
-          "buy_price": 396.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 25,
-          "price": 304.25,
-          "buy_price": 304.25,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "KOTAKBANK",
-          "qty": 9,
-          "price": 396.0,
-          "buy_price": 396.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 25,
-          "price": 304.25,
-          "buy_price": 304.25,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "KOTAKBANK",
-          "qty": 9,
-          "price": 396.0,
-          "buy_price": 396.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 25,
-          "price": 304.25,
-          "buy_price": 304.25,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "KOTAKBANK",
-          "qty": 9,
-          "price": 396.0,
-          "buy_price": 396.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 13,
-          "price": 304.25,
-          "buy_price": 304.25,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "KOTAKBANK",
-          "qty": 3,
-          "price": 396.0,
-          "buy_price": 396.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-06-30 17:32:49",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 8,
-          "price": 304.25,
-          "buy_price": 304.25,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 25,
-      "n_sells": 25,
-      "feedback": "Day P&L \u20b942 on \u20b999737 deployed (0.04%). Worst trade: BAJAJFINSV (P&L \u20b9-16, -0.87%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
-      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 21,
-    "winning_days": 11,
+    "total_days": 20,
+    "winning_days": 10,
     "losing_days": 8,
-    "total_realized_pnl": -10.64,
+    "total_realized_pnl": -52.84,
     "best_day_pnl": 263.9,
     "worst_day_pnl": -247.2,
     "feedback_notes": [
@@ -16544,10 +16736,6 @@
       {
         "date": "2026-06-29",
         "note": "Day P&L \u20b9-170 on \u20b999723 deployed (-0.17%). Worst trade: HAVELLS (P&L \u20b9-34, -0.58%). Consider tighter stop on entries with weaker momentum scores. 31 EOD force-sells contributed \u20b9-123. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
-      },
-      {
-        "date": "2026-06-30",
-        "note": "Day P&L \u20b942 on \u20b999737 deployed (0.04%). Worst trade: BAJAJFINSV (P&L \u20b9-16, -0.87%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
       }
     ]
   }
