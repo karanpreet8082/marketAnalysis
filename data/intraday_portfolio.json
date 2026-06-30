@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-06-30",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-06-30 13:08:44",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 6562.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 6562.3001708984375,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 4780.7,
+        "buy_time": "2026-06-30 13:08:44",
+        "iteration": 1,
+        "score_info": {
+          "last": 4780.7,
+          "mom_30m_pct": -0.142,
+          "intraday_pct": -0.336,
+          "rsi": 36.4,
+          "vol_factor": 2.0,
+          "score": 0.686
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1781.6,
+        "buy_time": "2026-06-30 13:08:44",
+        "iteration": 1,
+        "score_info": {
+          "last": 1781.6,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 1.038,
+          "rsi": 65.3,
+          "vol_factor": 0.67,
+          "score": 0.117
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-06-30 13:08:44",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 4780.7,
+        "cost": 4780.7,
+        "score": {
+          "last": 4780.7,
+          "mom_30m_pct": -0.142,
+          "intraday_pct": -0.336,
+          "rsi": 36.4,
+          "vol_factor": 2.0,
+          "score": 0.686
+        }
+      },
+      {
+        "time": "2026-06-30 13:08:44",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1781.6,
+        "cost": 1781.6,
+        "score": {
+          "last": 1781.6,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 1.038,
+          "rsi": 65.3,
+          "vol_factor": 0.67,
+          "score": 0.117
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
