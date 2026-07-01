@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-01",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,18 +48,9 @@
         "invested_today_after": 34306.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
-      },
-      {
-        "iteration": 6,
-        "time": "2026-07-01 14:34:50",
-        "n_bought": 1,
-        "n_sold": 0,
-        "invested_today_after": 39131.6,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 10
       }
     ],
-    "invested_today": 39131.600006103516,
+    "invested_today": 34306.600006103516,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -195,21 +186,6 @@
           "rsi": 33.6,
           "vol_factor": 1.74,
           "score": 0.772
-        }
-      },
-      {
-        "symbol": "HEROMOTOCO",
-        "qty": 1,
-        "buy_price": 4825.0,
-        "buy_time": "2026-07-01 14:34:50",
-        "iteration": 6,
-        "score_info": {
-          "last": 4825.0,
-          "mom_30m_pct": 0.387,
-          "intraday_pct": 0.324,
-          "rsi": 74.7,
-          "vol_factor": 1.19,
-          "score": 0.866
         }
       }
     ],
@@ -365,23 +341,6 @@
           "rsi": 33.6,
           "vol_factor": 1.74,
           "score": 0.772
-        }
-      },
-      {
-        "time": "2026-07-01 14:34:50",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "HEROMOTOCO",
-        "qty": 1,
-        "price": 4825.0,
-        "cost": 4825.0,
-        "score": {
-          "last": 4825.0,
-          "mom_30m_pct": 0.387,
-          "intraday_pct": 0.324,
-          "rsi": 74.7,
-          "vol_factor": 1.19,
-          "score": 0.866
         }
       }
     ],
