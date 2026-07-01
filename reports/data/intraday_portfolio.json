@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-01",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 66265.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 10,
+        "time": "2026-07-01 16:26:48",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 75269.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 66265.50015258789,
+    "invested_today": 75269.10025024414,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -335,6 +344,36 @@
         "buy_price": 3143.6,
         "buy_time": "2026-07-01 16:17:31",
         "iteration": 9,
+        "score_info": {
+          "last": 3143.6,
+          "mom_30m_pct": -0.067,
+          "intraday_pct": 4.093,
+          "rsi": 62.5,
+          "vol_factor": 1.19,
+          "score": 1.32
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2716.4,
+        "buy_time": "2026-07-01 16:26:48",
+        "iteration": 10,
+        "score_info": {
+          "last": 2716.4,
+          "mom_30m_pct": -0.088,
+          "intraday_pct": 3.513,
+          "rsi": 58.8,
+          "vol_factor": 2.0,
+          "score": 1.922
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 2,
+        "buy_price": 3143.6,
+        "buy_time": "2026-07-01 16:26:48",
+        "iteration": 10,
         "score_info": {
           "last": 3143.6,
           "mom_30m_pct": -0.067,
@@ -621,6 +660,40 @@
       {
         "time": "2026-07-01 16:17:31",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 2,
+        "price": 3143.6,
+        "cost": 6287.2,
+        "score": {
+          "last": 3143.6,
+          "mom_30m_pct": -0.067,
+          "intraday_pct": 4.093,
+          "rsi": 62.5,
+          "vol_factor": 1.19,
+          "score": 1.32
+        }
+      },
+      {
+        "time": "2026-07-01 16:26:48",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2716.4,
+        "cost": 2716.4,
+        "score": {
+          "last": 2716.4,
+          "mom_30m_pct": -0.088,
+          "intraday_pct": 3.513,
+          "rsi": 58.8,
+          "vol_factor": 2.0,
+          "score": 1.922
+        }
+      },
+      {
+        "time": "2026-07-01 16:26:48",
+        "iteration": 10,
         "action": "BUY",
         "symbol": "ADANIENT",
         "qty": 2,
