@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-01",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 21604.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-01 14:10:12",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 25969.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-01 14:24:15",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 34306.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 21604.600128173828,
+    "invested_today": 34306.600006103516,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -123,6 +141,51 @@
           "rsi": 50.0,
           "vol_factor": 2.0,
           "score": 1.015
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "buy_price": 2182.2,
+        "buy_time": "2026-07-01 14:10:12",
+        "iteration": 4,
+        "score_info": {
+          "last": 2182.2,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 3.021,
+          "rsi": 60.2,
+          "vol_factor": 1.0,
+          "score": 1.196
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1859.4,
+        "buy_time": "2026-07-01 14:24:15",
+        "iteration": 5,
+        "score_info": {
+          "last": 1859.4,
+          "mom_30m_pct": 0.221,
+          "intraday_pct": 2.452,
+          "rsi": 42.0,
+          "vol_factor": 0.73,
+          "score": 0.801
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1379.7,
+        "buy_time": "2026-07-01 14:24:15",
+        "iteration": 5,
+        "score_info": {
+          "last": 1379.7,
+          "mom_30m_pct": -0.029,
+          "intraday_pct": 0.262,
+          "rsi": 33.6,
+          "vol_factor": 1.74,
+          "score": 0.772
         }
       }
     ],
@@ -227,6 +290,57 @@
           "rsi": 50.0,
           "vol_factor": 2.0,
           "score": 1.015
+        }
+      },
+      {
+        "time": "2026-07-01 14:10:12",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "price": 2182.2,
+        "cost": 4364.4,
+        "score": {
+          "last": 2182.2,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 3.021,
+          "rsi": 60.2,
+          "vol_factor": 1.0,
+          "score": 1.196
+        }
+      },
+      {
+        "time": "2026-07-01 14:24:15",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1859.4,
+        "cost": 5578.2,
+        "score": {
+          "last": 1859.4,
+          "mom_30m_pct": 0.221,
+          "intraday_pct": 2.452,
+          "rsi": 42.0,
+          "vol_factor": 0.73,
+          "score": 0.801
+        }
+      },
+      {
+        "time": "2026-07-01 14:24:15",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1379.7,
+        "cost": 2759.4,
+        "score": {
+          "last": 1379.7,
+          "mom_30m_pct": -0.029,
+          "intraday_pct": 0.262,
+          "rsi": 33.6,
+          "vol_factor": 1.74,
+          "score": 0.772
         }
       }
     ],
