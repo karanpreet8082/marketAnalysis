@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-01",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13057.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-01 14:04:21",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 21604.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 13057.5,
+    "invested_today": 21604.600128173828,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -84,6 +93,36 @@
           "rsi": 64.0,
           "vol_factor": 0.3,
           "score": 1.215
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2182.0,
+        "buy_time": "2026-07-01 14:04:21",
+        "iteration": 3,
+        "score_info": {
+          "last": 2182.0,
+          "mom_30m_pct": 0.386,
+          "intraday_pct": 3.09,
+          "rsi": 62.2,
+          "vol_factor": 1.13,
+          "score": 1.64
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 21,
+        "buy_price": 303.1,
+        "buy_time": "2026-07-01 14:04:21",
+        "iteration": 3,
+        "score_info": {
+          "last": 303.1,
+          "mom_30m_pct": 0.033,
+          "intraday_pct": -0.115,
+          "rsi": 50.0,
+          "vol_factor": 2.0,
+          "score": 1.015
         }
       }
     ],
@@ -154,6 +193,40 @@
           "rsi": 64.0,
           "vol_factor": 0.3,
           "score": 1.215
+        }
+      },
+      {
+        "time": "2026-07-01 14:04:21",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2182.0,
+        "cost": 2182.0,
+        "score": {
+          "last": 2182.0,
+          "mom_30m_pct": 0.386,
+          "intraday_pct": 3.09,
+          "rsi": 62.2,
+          "vol_factor": 1.13,
+          "score": 1.64
+        }
+      },
+      {
+        "time": "2026-07-01 14:04:21",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 21,
+        "price": 303.1,
+        "cost": 6365.1,
+        "score": {
+          "last": 303.1,
+          "mom_30m_pct": 0.033,
+          "intraday_pct": -0.115,
+          "rsi": 50.0,
+          "vol_factor": 2.0,
+          "score": 1.015
         }
       }
     ],
