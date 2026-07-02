@@ -1,5 +1,228 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-02",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-02 12:26:52",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8251.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-02 13:05:53",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16390.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
+      }
+    ],
+    "invested_today": 16390.199951171875,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "CIPLA",
+        "qty": 1,
+        "buy_price": 1458.7,
+        "buy_time": "2026-07-02 12:26:52",
+        "iteration": 1,
+        "score_info": {
+          "last": 1458.7,
+          "mom_30m_pct": -0.267,
+          "intraday_pct": 0.455,
+          "rsi": 38.3,
+          "vol_factor": 2.0,
+          "score": 0.736
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "buy_price": 1837.5,
+        "buy_time": "2026-07-02 12:26:52",
+        "iteration": 1,
+        "score_info": {
+          "last": 1837.5,
+          "mom_30m_pct": 0.404,
+          "intraday_pct": 3.37,
+          "rsi": 52.3,
+          "vol_factor": 0.02,
+          "score": 0.641
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1039.2,
+        "buy_time": "2026-07-02 12:26:52",
+        "iteration": 1,
+        "score_info": {
+          "last": 1039.2,
+          "mom_30m_pct": 0.01,
+          "intraday_pct": 4.537,
+          "rsi": 54.0,
+          "vol_factor": 0.11,
+          "score": 0.483
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1039.5,
+        "buy_time": "2026-07-02 13:05:53",
+        "iteration": 2,
+        "score_info": {
+          "last": 1039.5,
+          "mom_30m_pct": 0.019,
+          "intraday_pct": 4.725,
+          "rsi": 51.9,
+          "vol_factor": 1.0,
+          "score": 1.446
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1408.0,
+        "buy_time": "2026-07-02 13:05:53",
+        "iteration": 2,
+        "score_info": {
+          "last": 1408.0,
+          "mom_30m_pct": 0.249,
+          "intraday_pct": 3.226,
+          "rsi": 63.9,
+          "vol_factor": 1.0,
+          "score": 1.342
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1081.3,
+        "buy_time": "2026-07-02 13:05:53",
+        "iteration": 2,
+        "score_info": {
+          "last": 1081.3,
+          "mom_30m_pct": 0.019,
+          "intraday_pct": 3.296,
+          "rsi": 53.0,
+          "vol_factor": 1.0,
+          "score": 1.016
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-02 12:26:52",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 1,
+        "price": 1458.7,
+        "cost": 1458.7,
+        "score": {
+          "last": 1458.7,
+          "mom_30m_pct": -0.267,
+          "intraday_pct": 0.455,
+          "rsi": 38.3,
+          "vol_factor": 2.0,
+          "score": 0.736
+        }
+      },
+      {
+        "time": "2026-07-02 12:26:52",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "price": 1837.5,
+        "cost": 3675.0,
+        "score": {
+          "last": 1837.5,
+          "mom_30m_pct": 0.404,
+          "intraday_pct": 3.37,
+          "rsi": 52.3,
+          "vol_factor": 0.02,
+          "score": 0.641
+        }
+      },
+      {
+        "time": "2026-07-02 12:26:52",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1039.2,
+        "cost": 3117.6,
+        "score": {
+          "last": 1039.2,
+          "mom_30m_pct": 0.01,
+          "intraday_pct": 4.537,
+          "rsi": 54.0,
+          "vol_factor": 0.11,
+          "score": 0.483
+        }
+      },
+      {
+        "time": "2026-07-02 13:05:53",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1039.5,
+        "cost": 2079.0,
+        "score": {
+          "last": 1039.5,
+          "mom_30m_pct": 0.019,
+          "intraday_pct": 4.725,
+          "rsi": 51.9,
+          "vol_factor": 1.0,
+          "score": 1.446
+        }
+      },
+      {
+        "time": "2026-07-02 13:05:53",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1408.0,
+        "cost": 2816.0,
+        "score": {
+          "last": 1408.0,
+          "mom_30m_pct": 0.249,
+          "intraday_pct": 3.226,
+          "rsi": 63.9,
+          "vol_factor": 1.0,
+          "score": 1.342
+        }
+      },
+      {
+        "time": "2026-07-02 13:05:53",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1081.3,
+        "cost": 3243.9,
+        "score": {
+          "last": 1081.3,
+          "mom_30m_pct": 0.019,
+          "intraday_pct": 3.296,
+          "rsi": 53.0,
+          "vol_factor": 1.0,
+          "score": 1.016
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
