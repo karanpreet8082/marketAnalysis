@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-02",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 55847.1,
         "realized_pnl_today_after": 68.5,
         "open_positions_after": 18
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-02 15:13:09",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 64397.7,
+        "realized_pnl_today_after": 68.5,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 55847.1005859375,
+    "invested_today": 64397.70068359375,
     "realized_pnl_today": 68.5001220703125,
     "open_positions": [
       {
@@ -339,6 +348,51 @@
           "rsi": 46.3,
           "vol_factor": 1.2,
           "score": 1.446
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1040.8,
+        "buy_time": "2026-07-02 15:13:09",
+        "iteration": 8,
+        "score_info": {
+          "last": 1040.8,
+          "mom_30m_pct": -0.01,
+          "intraday_pct": 5.697,
+          "rsi": 57.2,
+          "vol_factor": 1.66,
+          "score": 2.352
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 658.0,
+        "buy_time": "2026-07-02 15:13:09",
+        "iteration": 8,
+        "score_info": {
+          "last": 658.0,
+          "mom_30m_pct": 0.558,
+          "intraday_pct": 1.504,
+          "rsi": 70.7,
+          "vol_factor": 2.0,
+          "score": 2.288
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3179.0,
+        "buy_time": "2026-07-02 15:13:09",
+        "iteration": 8,
+        "score_info": {
+          "last": 3179.0,
+          "mom_30m_pct": 0.557,
+          "intraday_pct": 1.488,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.281
         }
       }
     ],
@@ -705,6 +759,57 @@
           "rsi": 46.3,
           "vol_factor": 1.2,
           "score": 1.446
+        }
+      },
+      {
+        "time": "2026-07-02 15:13:09",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1040.8,
+        "cost": 2081.6,
+        "score": {
+          "last": 1040.8,
+          "mom_30m_pct": -0.01,
+          "intraday_pct": 5.697,
+          "rsi": 57.2,
+          "vol_factor": 1.66,
+          "score": 2.352
+        }
+      },
+      {
+        "time": "2026-07-02 15:13:09",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 658.0,
+        "cost": 3290.0,
+        "score": {
+          "last": 658.0,
+          "mom_30m_pct": 0.558,
+          "intraday_pct": 1.504,
+          "rsi": 70.7,
+          "vol_factor": 2.0,
+          "score": 2.288
+        }
+      },
+      {
+        "time": "2026-07-02 15:13:09",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3179.0,
+        "cost": 3179.0,
+        "score": {
+          "last": 3179.0,
+          "mom_30m_pct": 0.557,
+          "intraday_pct": 1.488,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.281
         }
       }
     ],
