@@ -1,5 +1,44 @@
 [
   {
+    "timestamp": "2026-06-01 16:28 IST",
+    "budget": 50000.0,
+    "allocated": 49168.71,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49168.71,
+      "cash_reserve": 831.29,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24481.94,
+          "percent": 49.0,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17266.300000000003,
+          "percent": 34.5,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7420.47,
+          "percent": 14.8,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 6.5,
+      "max_loss_percent": 4.5,
+      "sector_distribution": {
+        "Utilities": 1,
+        "Financial Services": 2,
+        "Energy": 1,
+        "Consumer Cyclical": 1,
+        "Basic Materials": 1,
+        "Unknown": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-01 17:53 IST",
     "budget": 50000.0,
     "allocated": 49168.71,
@@ -1814,41 +1853,6 @@
         "Unknown": 3,
         "Financial Services": 3,
         "Communication Services": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-02 16:48 IST",
-    "budget": 50000.0,
-    "allocated": 50055.719999999994,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 50055.72,
-      "cash_reserve": -55.72,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24987.46,
-          "percent": 50.0,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17522.15,
-          "percent": 35.0,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7546.11,
-          "percent": 15.1,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 5.5,
-      "max_loss_percent": 3.9,
-      "sector_distribution": {
-        "Unknown": 3,
-        "Financial Services": 4
       }
     }
   }
