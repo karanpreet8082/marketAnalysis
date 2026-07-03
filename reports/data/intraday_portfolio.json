@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-03",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7398.95,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-03 12:54:37",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 15408.35,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 7398.950134277344,
+    "invested_today": 15408.350280761719,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,36 @@
           "rsi": 70.6,
           "vol_factor": 0.04,
           "score": 0.463
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "buy_price": 1385.4,
+        "buy_time": "2026-07-03 12:54:37",
+        "iteration": 2,
+        "score_info": {
+          "last": 1385.4,
+          "mom_30m_pct": 0.69,
+          "intraday_pct": 2.615,
+          "rsi": 83.5,
+          "vol_factor": 2.0,
+          "score": 1.32
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1233.9,
+        "buy_time": "2026-07-03 12:54:37",
+        "iteration": 2,
+        "score_info": {
+          "last": 1233.9,
+          "mom_30m_pct": 0.146,
+          "intraday_pct": 1.123,
+          "rsi": 51.1,
+          "vol_factor": 1.71,
+          "score": 1.264
         }
       }
     ],
@@ -113,6 +152,40 @@
           "rsi": 70.6,
           "vol_factor": 0.04,
           "score": 0.463
+        }
+      },
+      {
+        "time": "2026-07-03 12:54:37",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "price": 1385.4,
+        "cost": 5541.6,
+        "score": {
+          "last": 1385.4,
+          "mom_30m_pct": 0.69,
+          "intraday_pct": 2.615,
+          "rsi": 83.5,
+          "vol_factor": 2.0,
+          "score": 1.32
+        }
+      },
+      {
+        "time": "2026-07-03 12:54:37",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1233.9,
+        "cost": 2467.8,
+        "score": {
+          "last": 1233.9,
+          "mom_30m_pct": 0.146,
+          "intraday_pct": 1.123,
+          "rsi": 51.1,
+          "vol_factor": 1.71,
+          "score": 1.264
         }
       }
     ],
