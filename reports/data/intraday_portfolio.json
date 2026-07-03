@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-03",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,10 +75,19 @@
         "invested_today_after": 63462.83,
         "realized_pnl_today_after": 50.1,
         "open_positions_after": 18
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-03 15:39:50",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 69093.58,
+        "realized_pnl_today_after": 17.7,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 63462.83026123047,
-    "realized_pnl_today": 50.100122070312864,
+    "invested_today": 69093.58026123047,
+    "realized_pnl_today": 17.70021972656241,
     "open_positions": [
       {
         "symbol": "ITC",
@@ -108,21 +117,6 @@
           "rsi": 70.6,
           "vol_factor": 0.04,
           "score": 0.463
-        }
-      },
-      {
-        "symbol": "DRREDDY",
-        "qty": 4,
-        "buy_price": 1385.4,
-        "buy_time": "2026-07-03 12:54:37",
-        "iteration": 2,
-        "score_info": {
-          "last": 1385.4,
-          "mom_30m_pct": 0.69,
-          "intraday_pct": 2.615,
-          "rsi": 83.5,
-          "vol_factor": 2.0,
-          "score": 1.32
         }
       },
       {
@@ -168,21 +162,6 @@
           "rsi": 55.2,
           "vol_factor": 0.26,
           "score": 0.785
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 4,
-        "buy_price": 670.6,
-        "buy_time": "2026-07-03 13:21:06",
-        "iteration": 4,
-        "score_info": {
-          "last": 670.6,
-          "mom_30m_pct": -0.045,
-          "intraday_pct": 2.304,
-          "rsi": 54.3,
-          "vol_factor": 1.0,
-          "score": 0.624
         }
       },
       {
@@ -348,6 +327,36 @@
           "rsi": 69.8,
           "vol_factor": 0.94,
           "score": 1.196
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 677.0,
+        "buy_time": "2026-07-03 15:39:50",
+        "iteration": 9,
+        "score_info": {
+          "last": 677.0,
+          "mom_30m_pct": 0.594,
+          "intraday_pct": 2.584,
+          "rsi": 69.1,
+          "vol_factor": 2.0,
+          "score": 2.667
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 974.25,
+        "buy_time": "2026-07-03 15:39:50",
+        "iteration": 9,
+        "score_info": {
+          "last": 974.25,
+          "mom_30m_pct": 0.48,
+          "intraday_pct": 3.199,
+          "rsi": 69.8,
+          "vol_factor": 1.91,
+          "score": 2.592
         }
       }
     ],
@@ -743,6 +752,64 @@
           "rsi": 69.8,
           "vol_factor": 0.94,
           "score": 1.196
+        }
+      },
+      {
+        "time": "2026-07-03 15:39:50",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "price": 1370.9,
+        "buy_price": 1385.4,
+        "pnl": -58.0,
+        "pnl_pct": -1.05,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-03 15:39:50",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 677.0,
+        "buy_price": 670.6,
+        "pnl": 25.6,
+        "pnl_pct": 0.95,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-03 15:39:50",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 677.0,
+        "cost": 2708.0,
+        "score": {
+          "last": 677.0,
+          "mom_30m_pct": 0.594,
+          "intraday_pct": 2.584,
+          "rsi": 69.1,
+          "vol_factor": 2.0,
+          "score": 2.667
+        }
+      },
+      {
+        "time": "2026-07-03 15:39:50",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 974.25,
+        "cost": 2922.75,
+        "score": {
+          "last": 974.25,
+          "mom_30m_pct": 0.48,
+          "intraday_pct": 3.199,
+          "rsi": 69.8,
+          "vol_factor": 1.91,
+          "score": 2.592
         }
       }
     ],
