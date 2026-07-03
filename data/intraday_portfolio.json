@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-03",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 15408.35,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-03 13:13:54",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 23233.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 15408.350280761719,
+    "invested_today": 23233.850158691406,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,36 @@
           "rsi": 51.1,
           "vol_factor": 1.71,
           "score": 1.264
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2104.2,
+        "buy_time": "2026-07-03 13:13:54",
+        "iteration": 3,
+        "score_info": {
+          "last": 2104.2,
+          "mom_30m_pct": -0.109,
+          "intraday_pct": 2.081,
+          "rsi": 53.5,
+          "vol_factor": 2.0,
+          "score": 1.461
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 6,
+        "buy_price": 953.55,
+        "buy_time": "2026-07-03 13:13:54",
+        "iteration": 3,
+        "score_info": {
+          "last": 953.55,
+          "mom_30m_pct": 0.628,
+          "intraday_pct": 1.793,
+          "rsi": 48.4,
+          "vol_factor": 0.58,
+          "score": 1.065
         }
       }
     ],
@@ -186,6 +225,40 @@
           "rsi": 51.1,
           "vol_factor": 1.71,
           "score": 1.264
+        }
+      },
+      {
+        "time": "2026-07-03 13:13:54",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2104.2,
+        "cost": 2104.2,
+        "score": {
+          "last": 2104.2,
+          "mom_30m_pct": -0.109,
+          "intraday_pct": 2.081,
+          "rsi": 53.5,
+          "vol_factor": 2.0,
+          "score": 1.461
+        }
+      },
+      {
+        "time": "2026-07-03 13:13:54",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 6,
+        "price": 953.55,
+        "cost": 5721.3,
+        "score": {
+          "last": 953.55,
+          "mom_30m_pct": 0.628,
+          "intraday_pct": 1.793,
+          "rsi": 48.4,
+          "vol_factor": 0.58,
+          "score": 1.065
         }
       }
     ],
