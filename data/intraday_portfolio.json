@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-03",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,18 +84,9 @@
         "invested_today_after": 69093.58,
         "realized_pnl_today_after": 17.7,
         "open_positions_after": 18
-      },
-      {
-        "iteration": 10,
-        "time": "2026-07-03 15:47:48",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 78946.13,
-        "realized_pnl_today_after": 17.7,
-        "open_positions_after": 21
       }
     ],
-    "invested_today": 78946.1303100586,
+    "invested_today": 69093.58026123047,
     "realized_pnl_today": 17.70021972656241,
     "open_positions": [
       {
@@ -366,51 +357,6 @@
           "rsi": 69.8,
           "vol_factor": 1.91,
           "score": 2.592
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 5,
-        "buy_price": 677.0,
-        "buy_time": "2026-07-03 15:47:48",
-        "iteration": 10,
-        "score_info": {
-          "last": 677.0,
-          "mom_30m_pct": 0.594,
-          "intraday_pct": 2.584,
-          "rsi": 69.1,
-          "vol_factor": 2.0,
-          "score": 2.667
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 974.25,
-        "buy_time": "2026-07-03 15:47:48",
-        "iteration": 10,
-        "score_info": {
-          "last": 974.25,
-          "mom_30m_pct": 0.48,
-          "intraday_pct": 3.199,
-          "rsi": 69.8,
-          "vol_factor": 1.91,
-          "score": 2.592
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 3544.8,
-        "buy_time": "2026-07-03 15:47:48",
-        "iteration": 10,
-        "score_info": {
-          "last": 3544.8,
-          "mom_30m_pct": 0.585,
-          "intraday_pct": 0.331,
-          "rsi": 66.5,
-          "vol_factor": 2.0,
-          "score": 1.976
         }
       }
     ],
@@ -864,57 +810,6 @@
           "rsi": 69.8,
           "vol_factor": 1.91,
           "score": 2.592
-        }
-      },
-      {
-        "time": "2026-07-03 15:47:48",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 5,
-        "price": 677.0,
-        "cost": 3385.0,
-        "score": {
-          "last": 677.0,
-          "mom_30m_pct": 0.594,
-          "intraday_pct": 2.584,
-          "rsi": 69.1,
-          "vol_factor": 2.0,
-          "score": 2.667
-        }
-      },
-      {
-        "time": "2026-07-03 15:47:48",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 974.25,
-        "cost": 2922.75,
-        "score": {
-          "last": 974.25,
-          "mom_30m_pct": 0.48,
-          "intraday_pct": 3.199,
-          "rsi": 69.8,
-          "vol_factor": 1.91,
-          "score": 2.592
-        }
-      },
-      {
-        "time": "2026-07-03 15:47:48",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 3544.8,
-        "cost": 3544.8,
-        "score": {
-          "last": 3544.8,
-          "mom_30m_pct": 0.585,
-          "intraday_pct": 0.331,
-          "rsi": 66.5,
-          "vol_factor": 2.0,
-          "score": 1.976
         }
       }
     ],
