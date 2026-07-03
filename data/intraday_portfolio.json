@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-03",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,26 +30,29 @@
         "invested_today_after": 23233.85,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-03 13:21:06",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 31279.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-03 13:52:02",
+        "n_bought": 3,
+        "n_sold": 2,
+        "invested_today_after": 38902.95,
+        "realized_pnl_today_after": 21.8,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 23233.850158691406,
-    "realized_pnl_today": 0.0,
+    "invested_today": 38902.950134277344,
+    "realized_pnl_today": 21.800097656250273,
     "open_positions": [
-      {
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "buy_price": 1154.0,
-        "buy_time": "2026-07-03 12:21:25",
-        "iteration": 1,
-        "score_info": {
-          "last": 1154.0,
-          "mom_30m_pct": 0.698,
-          "intraday_pct": 6.723,
-          "rsi": 72.4,
-          "vol_factor": 0.45,
-          "score": 2.518
-        }
-      },
       {
         "symbol": "ITC",
         "qty": 11,
@@ -127,17 +130,92 @@
       },
       {
         "symbol": "INDUSINDBK",
-        "qty": 6,
-        "buy_price": 953.55,
-        "buy_time": "2026-07-03 13:13:54",
-        "iteration": 3,
+        "qty": 2,
+        "buy_price": 956.8,
+        "buy_time": "2026-07-03 13:21:06",
+        "iteration": 4,
         "score_info": {
-          "last": 953.55,
-          "mom_30m_pct": 0.628,
-          "intraday_pct": 1.793,
-          "rsi": 48.4,
-          "vol_factor": 0.58,
-          "score": 1.065
+          "last": 956.8,
+          "mom_30m_pct": 0.732,
+          "intraday_pct": 2.2,
+          "rsi": 74.9,
+          "vol_factor": 1.0,
+          "score": 1.758
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1149.8,
+        "buy_time": "2026-07-03 13:21:06",
+        "iteration": 4,
+        "score_info": {
+          "last": 1149.8,
+          "mom_30m_pct": -0.278,
+          "intraday_pct": 6.463,
+          "rsi": 55.2,
+          "vol_factor": 0.26,
+          "score": 0.785
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 670.6,
+        "buy_time": "2026-07-03 13:21:06",
+        "iteration": 4,
+        "score_info": {
+          "last": 670.6,
+          "mom_30m_pct": -0.045,
+          "intraday_pct": 2.304,
+          "rsi": 54.3,
+          "vol_factor": 1.0,
+          "score": 0.624
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1906.4,
+        "buy_time": "2026-07-03 13:52:02",
+        "iteration": 5,
+        "score_info": {
+          "last": 1906.4,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 2.396,
+          "rsi": 48.7,
+          "vol_factor": 0.53,
+          "score": 0.593
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "buy_price": 1907.7,
+        "buy_time": "2026-07-03 13:52:02",
+        "iteration": 5,
+        "score_info": {
+          "last": 1907.7,
+          "mom_30m_pct": 0.005,
+          "intraday_pct": 2.087,
+          "rsi": 44.5,
+          "vol_factor": 0.74,
+          "score": 0.372
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1901.9,
+        "buy_time": "2026-07-03 13:52:02",
+        "iteration": 5,
+        "score_info": {
+          "last": 1901.9,
+          "mom_30m_pct": -0.037,
+          "intraday_pct": 3.229,
+          "rsi": 44.6,
+          "vol_factor": 0.16,
+          "score": 0.074
         }
       }
     ],
@@ -259,6 +337,132 @@
           "rsi": 48.4,
           "vol_factor": 0.58,
           "score": 1.065
+        }
+      },
+      {
+        "time": "2026-07-03 13:21:06",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 956.8,
+        "cost": 1913.6,
+        "score": {
+          "last": 956.8,
+          "mom_30m_pct": 0.732,
+          "intraday_pct": 2.2,
+          "rsi": 74.9,
+          "vol_factor": 1.0,
+          "score": 1.758
+        }
+      },
+      {
+        "time": "2026-07-03 13:21:06",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1149.8,
+        "cost": 3449.4,
+        "score": {
+          "last": 1149.8,
+          "mom_30m_pct": -0.278,
+          "intraday_pct": 6.463,
+          "rsi": 55.2,
+          "vol_factor": 0.26,
+          "score": 0.785
+        }
+      },
+      {
+        "time": "2026-07-03 13:21:06",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 670.6,
+        "cost": 2682.4,
+        "score": {
+          "last": 670.6,
+          "mom_30m_pct": -0.045,
+          "intraday_pct": 2.304,
+          "rsi": 54.3,
+          "vol_factor": 1.0,
+          "score": 0.624
+        }
+      },
+      {
+        "time": "2026-07-03 13:52:02",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1140.6,
+        "buy_price": 1154.0,
+        "pnl": -26.8,
+        "pnl_pct": -1.16,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-03 13:52:02",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 6,
+        "price": 961.65,
+        "buy_price": 953.55,
+        "pnl": 48.6,
+        "pnl_pct": 0.85,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-03 13:52:02",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1906.4,
+        "cost": 1906.4,
+        "score": {
+          "last": 1906.4,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 2.396,
+          "rsi": 48.7,
+          "vol_factor": 0.53,
+          "score": 0.593
+        }
+      },
+      {
+        "time": "2026-07-03 13:52:02",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "price": 1907.7,
+        "cost": 3815.4,
+        "score": {
+          "last": 1907.7,
+          "mom_30m_pct": 0.005,
+          "intraday_pct": 2.087,
+          "rsi": 44.5,
+          "vol_factor": 0.74,
+          "score": 0.372
+        }
+      },
+      {
+        "time": "2026-07-03 13:52:02",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1901.9,
+        "cost": 1901.9,
+        "score": {
+          "last": 1901.9,
+          "mom_30m_pct": -0.037,
+          "intraday_pct": 3.229,
+          "rsi": 44.6,
+          "vol_factor": 0.16,
+          "score": 0.074
         }
       }
     ],
