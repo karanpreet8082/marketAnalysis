@@ -1,5 +1,44 @@
 [
   {
+    "timestamp": "2026-06-01 16:28 IST",
+    "budget": 50000.0,
+    "allocated": 49168.71,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49168.71,
+      "cash_reserve": 831.29,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24481.94,
+          "percent": 49.0,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17266.300000000003,
+          "percent": 34.5,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7420.47,
+          "percent": 14.8,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 6.5,
+      "max_loss_percent": 4.5,
+      "sector_distribution": {
+        "Utilities": 1,
+        "Financial Services": 2,
+        "Energy": 1,
+        "Consumer Cyclical": 1,
+        "Basic Materials": 1,
+        "Unknown": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-01 17:53 IST",
     "budget": 50000.0,
     "allocated": 49168.71,
@@ -1814,43 +1853,6 @@
         "Unknown": 3,
         "Financial Services": 3,
         "Communication Services": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-03 12:20 IST",
-    "budget": 50000.0,
-    "allocated": 48999.090000000004,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 48999.09,
-      "cash_reserve": 1000.91,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24662.9,
-          "percent": 49.3,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17326.8,
-          "percent": 34.7,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7009.389999999999,
-          "percent": 14.0,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.1,
-      "max_loss_percent": 3.5,
-      "sector_distribution": {
-        "Unknown": 2,
-        "Financial Services": 3,
-        "Technology": 1,
-        "Communication Services": 2
       }
     }
   }
