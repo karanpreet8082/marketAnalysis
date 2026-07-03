@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-03",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 47129.55,
         "realized_pnl_today_after": 21.8,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-03 15:01:56",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 54428.63,
+        "realized_pnl_today_after": 50.1,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 47129.55010986328,
-    "realized_pnl_today": 21.800097656250273,
+    "invested_today": 54428.63018798828,
+    "realized_pnl_today": 50.100122070312864,
     "open_positions": [
       {
         "symbol": "ITC",
@@ -135,21 +144,6 @@
           "rsi": 53.5,
           "vol_factor": 2.0,
           "score": 1.461
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 956.8,
-        "buy_time": "2026-07-03 13:21:06",
-        "iteration": 4,
-        "score_info": {
-          "last": 956.8,
-          "mom_30m_pct": 0.732,
-          "intraday_pct": 2.2,
-          "rsi": 74.9,
-          "vol_factor": 1.0,
-          "score": 1.758
         }
       },
       {
@@ -270,6 +264,51 @@
           "rsi": 54.0,
           "vol_factor": 0.16,
           "score": 0.573
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 16,
+        "buy_price": 176.08,
+        "buy_time": "2026-07-03 15:01:56",
+        "iteration": 7,
+        "score_info": {
+          "last": 176.08,
+          "mom_30m_pct": 0.692,
+          "intraday_pct": 1.143,
+          "rsi": 66.7,
+          "vol_factor": 1.5,
+          "score": 1.881
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1140.8,
+        "buy_time": "2026-07-03 15:01:56",
+        "iteration": 7,
+        "score_info": {
+          "last": 1140.8,
+          "mom_30m_pct": -0.061,
+          "intraday_pct": 5.934,
+          "rsi": 49.2,
+          "vol_factor": 0.74,
+          "score": 1.431
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2200.2,
+        "buy_time": "2026-07-03 15:01:56",
+        "iteration": 7,
+        "score_info": {
+          "last": 2200.2,
+          "mom_30m_pct": 0.21,
+          "intraday_pct": -0.533,
+          "rsi": 46.2,
+          "vol_factor": 2.0,
+          "score": 1.154
         }
       }
     ],
@@ -568,6 +607,69 @@
           "rsi": 54.0,
           "vol_factor": 0.16,
           "score": 0.573
+        }
+      },
+      {
+        "time": "2026-07-03 15:01:56",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 970.95,
+        "buy_price": 956.8,
+        "pnl": 28.3,
+        "pnl_pct": 1.48,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-03 15:01:56",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 16,
+        "price": 176.08,
+        "cost": 2817.28,
+        "score": {
+          "last": 176.08,
+          "mom_30m_pct": 0.692,
+          "intraday_pct": 1.143,
+          "rsi": 66.7,
+          "vol_factor": 1.5,
+          "score": 1.881
+        }
+      },
+      {
+        "time": "2026-07-03 15:01:56",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1140.8,
+        "cost": 2281.6,
+        "score": {
+          "last": 1140.8,
+          "mom_30m_pct": -0.061,
+          "intraday_pct": 5.934,
+          "rsi": 49.2,
+          "vol_factor": 0.74,
+          "score": 1.431
+        }
+      },
+      {
+        "time": "2026-07-03 15:01:56",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2200.2,
+        "cost": 2200.2,
+        "score": {
+          "last": 2200.2,
+          "mom_30m_pct": 0.21,
+          "intraday_pct": -0.533,
+          "rsi": 46.2,
+          "vol_factor": 2.0,
+          "score": 1.154
         }
       }
     ],
