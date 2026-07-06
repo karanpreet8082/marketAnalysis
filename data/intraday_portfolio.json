@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-06",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,27 @@
         "invested_today_after": 89826.1,
         "realized_pnl_today_after": 16.7,
         "open_positions_after": 23
+      },
+      {
+        "iteration": 12,
+        "time": "2026-07-06 18:01:30",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99244.5,
+        "realized_pnl_today_after": 16.7,
+        "open_positions_after": 25
+      },
+      {
+        "iteration": 13,
+        "time": "2026-07-06 18:31:11",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99244.5,
+        "realized_pnl_today_after": 16.7,
+        "open_positions_after": 25
       }
     ],
-    "invested_today": 89826.10076904297,
+    "invested_today": 99244.50091552734,
     "realized_pnl_today": 16.69997558593741,
     "open_positions": [
       {
@@ -443,6 +461,36 @@
         "buy_price": 1321.3,
         "buy_time": "2026-07-06 17:45:13",
         "iteration": 11,
+        "score_info": {
+          "last": 1321.3,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 1.467,
+          "rsi": 60.0,
+          "vol_factor": 1.97,
+          "score": 1.77
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5454.5,
+        "buy_time": "2026-07-06 18:01:30",
+        "iteration": 12,
+        "score_info": {
+          "last": 5454.5,
+          "mom_30m_pct": 0.211,
+          "intraday_pct": 1.592,
+          "rsi": 53.8,
+          "vol_factor": 2.0,
+          "score": 1.795
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1321.3,
+        "buy_time": "2026-07-06 18:01:30",
+        "iteration": 12,
         "score_info": {
           "last": 1321.3,
           "mom_30m_pct": 0.243,
@@ -860,6 +908,40 @@
       {
         "time": "2026-07-06 17:45:13",
         "iteration": 11,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1321.3,
+        "cost": 3963.9,
+        "score": {
+          "last": 1321.3,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 1.467,
+          "rsi": 60.0,
+          "vol_factor": 1.97,
+          "score": 1.77
+        }
+      },
+      {
+        "time": "2026-07-06 18:01:30",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5454.5,
+        "cost": 5454.5,
+        "score": {
+          "last": 5454.5,
+          "mom_30m_pct": 0.211,
+          "intraday_pct": 1.592,
+          "rsi": 53.8,
+          "vol_factor": 2.0,
+          "score": 1.795
+        }
+      },
+      {
+        "time": "2026-07-06 18:01:30",
+        "iteration": 12,
         "action": "BUY",
         "symbol": "RELIANCE",
         "qty": 3,
