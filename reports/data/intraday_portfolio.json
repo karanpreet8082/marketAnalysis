@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-06",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 44112.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-06 16:26:50",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 52152.5,
+        "realized_pnl_today_after": 16.7,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 44112.40008544922,
-    "realized_pnl_today": 0.0,
+    "invested_today": 52152.50018310547,
+    "realized_pnl_today": 16.69997558593741,
     "open_positions": [
       {
         "symbol": "SUNPHARMA",
@@ -105,21 +114,6 @@
           "rsi": 43.7,
           "vol_factor": 0.75,
           "score": 0.244
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 1001.45,
-        "buy_time": "2026-07-06 13:55:19",
-        "iteration": 2,
-        "score_info": {
-          "last": 1001.45,
-          "mom_30m_pct": 0.115,
-          "intraday_pct": 4.198,
-          "rsi": 60.3,
-          "vol_factor": 1.0,
-          "score": 1.432
         }
       },
       {
@@ -270,6 +264,36 @@
           "rsi": 62.6,
           "vol_factor": 1.42,
           "score": 1.371
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 4,
+        "buy_price": 1321.3,
+        "buy_time": "2026-07-06 16:26:50",
+        "iteration": 7,
+        "score_info": {
+          "last": 1321.3,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 1.467,
+          "rsi": 60.0,
+          "vol_factor": 1.97,
+          "score": 1.77
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2754.9,
+        "buy_time": "2026-07-06 16:26:50",
+        "iteration": 7,
+        "score_info": {
+          "last": 2754.9,
+          "mom_30m_pct": 0.164,
+          "intraday_pct": 1.064,
+          "rsi": 66.2,
+          "vol_factor": 2.0,
+          "score": 1.565
         }
       }
     ],
@@ -510,6 +534,52 @@
           "rsi": 62.6,
           "vol_factor": 1.42,
           "score": 1.371
+        }
+      },
+      {
+        "time": "2026-07-06 16:26:50",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1009.8,
+        "buy_price": 1001.45,
+        "pnl": 16.7,
+        "pnl_pct": 0.83,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-06 16:26:50",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 4,
+        "price": 1321.3,
+        "cost": 5285.2,
+        "score": {
+          "last": 1321.3,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 1.467,
+          "rsi": 60.0,
+          "vol_factor": 1.97,
+          "score": 1.77
+        }
+      },
+      {
+        "time": "2026-07-06 16:26:50",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2754.9,
+        "cost": 2754.9,
+        "score": {
+          "last": 2754.9,
+          "mom_30m_pct": 0.164,
+          "intraday_pct": 1.064,
+          "rsi": 66.2,
+          "vol_factor": 2.0,
+          "score": 1.565
         }
       }
     ],
