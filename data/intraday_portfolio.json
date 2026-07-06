@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-06",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-06 13:36:50",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8323.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-06 13:55:19",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 13646.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 13646.000122070312,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1912.2,
+        "buy_time": "2026-07-06 13:36:50",
+        "iteration": 1,
+        "score_info": {
+          "last": 1912.2,
+          "mom_30m_pct": 0.394,
+          "intraday_pct": 0.283,
+          "rsi": 64.5,
+          "vol_factor": 1.29,
+          "score": 0.962
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3209.2,
+        "buy_time": "2026-07-06 13:36:50",
+        "iteration": 1,
+        "score_info": {
+          "last": 3209.2,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.495,
+          "rsi": 41.0,
+          "vol_factor": 0.94,
+          "score": 0.44
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3202.1,
+        "buy_time": "2026-07-06 13:36:50",
+        "iteration": 1,
+        "score_info": {
+          "last": 3202.1,
+          "mom_30m_pct": -0.047,
+          "intraday_pct": 1.867,
+          "rsi": 43.7,
+          "vol_factor": 0.75,
+          "score": 0.244
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "buy_price": 1001.45,
+        "buy_time": "2026-07-06 13:55:19",
+        "iteration": 2,
+        "score_info": {
+          "last": 1001.45,
+          "mom_30m_pct": 0.115,
+          "intraday_pct": 4.198,
+          "rsi": 60.3,
+          "vol_factor": 1.0,
+          "score": 1.432
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "buy_price": 829.9,
+        "buy_time": "2026-07-06 13:55:19",
+        "iteration": 2,
+        "score_info": {
+          "last": 829.9,
+          "mom_30m_pct": 0.054,
+          "intraday_pct": 3.389,
+          "rsi": 70.5,
+          "vol_factor": 1.0,
+          "score": 1.098
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-06 13:36:50",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1912.2,
+        "cost": 1912.2,
+        "score": {
+          "last": 1912.2,
+          "mom_30m_pct": 0.394,
+          "intraday_pct": 0.283,
+          "rsi": 64.5,
+          "vol_factor": 1.29,
+          "score": 0.962
+        }
+      },
+      {
+        "time": "2026-07-06 13:36:50",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3209.2,
+        "cost": 3209.2,
+        "score": {
+          "last": 3209.2,
+          "mom_30m_pct": 0.231,
+          "intraday_pct": 0.495,
+          "rsi": 41.0,
+          "vol_factor": 0.94,
+          "score": 0.44
+        }
+      },
+      {
+        "time": "2026-07-06 13:36:50",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3202.1,
+        "cost": 3202.1,
+        "score": {
+          "last": 3202.1,
+          "mom_30m_pct": -0.047,
+          "intraday_pct": 1.867,
+          "rsi": 43.7,
+          "vol_factor": 0.75,
+          "score": 0.244
+        }
+      },
+      {
+        "time": "2026-07-06 13:55:19",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1001.45,
+        "cost": 2002.9,
+        "score": {
+          "last": 1001.45,
+          "mom_30m_pct": 0.115,
+          "intraday_pct": 4.198,
+          "rsi": 60.3,
+          "vol_factor": 1.0,
+          "score": 1.432
+        }
+      },
+      {
+        "time": "2026-07-06 13:55:19",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 829.9,
+        "cost": 3319.6,
+        "score": {
+          "last": 829.9,
+          "mom_30m_pct": 0.054,
+          "intraday_pct": 3.389,
+          "rsi": 70.5,
+          "vol_factor": 1.0,
+          "score": 1.098
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
