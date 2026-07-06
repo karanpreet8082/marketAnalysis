@@ -1,964 +1,5 @@
 {
-  "current_day": {
-    "date": "2026-07-06",
-    "total_iterations": 14,
-    "iterations_run": 13,
-    "iteration_log": [
-      {
-        "iteration": 1,
-        "time": "2026-07-06 13:36:50",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 8323.5,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 3
-      },
-      {
-        "iteration": 2,
-        "time": "2026-07-06 13:55:19",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 13646.0,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 5
-      },
-      {
-        "iteration": 3,
-        "time": "2026-07-06 14:15:45",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 22170.2,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 8
-      },
-      {
-        "iteration": 4,
-        "time": "2026-07-06 14:21:17",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 27493.6,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 10
-      },
-      {
-        "iteration": 5,
-        "time": "2026-07-06 14:38:37",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 36023.8,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 12
-      },
-      {
-        "iteration": 6,
-        "time": "2026-07-06 15:08:33",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 44112.4,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 14
-      },
-      {
-        "iteration": 7,
-        "time": "2026-07-06 16:26:50",
-        "n_bought": 2,
-        "n_sold": 1,
-        "invested_today_after": 52152.5,
-        "realized_pnl_today_after": 16.7,
-        "open_positions_after": 15
-      },
-      {
-        "iteration": 8,
-        "time": "2026-07-06 16:42:26",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 61570.9,
-        "realized_pnl_today_after": 16.7,
-        "open_positions_after": 17
-      },
-      {
-        "iteration": 9,
-        "time": "2026-07-06 17:12:44",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 70989.3,
-        "realized_pnl_today_after": 16.7,
-        "open_positions_after": 19
-      },
-      {
-        "iteration": 10,
-        "time": "2026-07-06 17:20:27",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 80407.7,
-        "realized_pnl_today_after": 16.7,
-        "open_positions_after": 21
-      },
-      {
-        "iteration": 11,
-        "time": "2026-07-06 17:45:13",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 89826.1,
-        "realized_pnl_today_after": 16.7,
-        "open_positions_after": 23
-      },
-      {
-        "iteration": 12,
-        "time": "2026-07-06 18:01:30",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 99244.5,
-        "realized_pnl_today_after": 16.7,
-        "open_positions_after": 25
-      },
-      {
-        "iteration": 13,
-        "time": "2026-07-06 18:31:11",
-        "n_bought": 0,
-        "n_sold": 0,
-        "invested_today_after": 99244.5,
-        "realized_pnl_today_after": 16.7,
-        "open_positions_after": 25
-      }
-    ],
-    "invested_today": 99244.50091552734,
-    "realized_pnl_today": 16.69997558593741,
-    "open_positions": [
-      {
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "buy_price": 1912.2,
-        "buy_time": "2026-07-06 13:36:50",
-        "iteration": 1,
-        "score_info": {
-          "last": 1912.2,
-          "mom_30m_pct": 0.394,
-          "intraday_pct": 0.283,
-          "rsi": 64.5,
-          "vol_factor": 1.29,
-          "score": 0.962
-        }
-      },
-      {
-        "symbol": "GRASIM",
-        "qty": 1,
-        "buy_price": 3209.2,
-        "buy_time": "2026-07-06 13:36:50",
-        "iteration": 1,
-        "score_info": {
-          "last": 3209.2,
-          "mom_30m_pct": 0.231,
-          "intraday_pct": 0.495,
-          "rsi": 41.0,
-          "vol_factor": 0.94,
-          "score": 0.44
-        }
-      },
-      {
-        "symbol": "M&M",
-        "qty": 1,
-        "buy_price": 3202.1,
-        "buy_time": "2026-07-06 13:36:50",
-        "iteration": 1,
-        "score_info": {
-          "last": 3202.1,
-          "mom_30m_pct": -0.047,
-          "intraday_pct": 1.867,
-          "rsi": 43.7,
-          "vol_factor": 0.75,
-          "score": 0.244
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "buy_price": 829.9,
-        "buy_time": "2026-07-06 13:55:19",
-        "iteration": 2,
-        "score_info": {
-          "last": 829.9,
-          "mom_30m_pct": 0.054,
-          "intraday_pct": 3.389,
-          "rsi": 70.5,
-          "vol_factor": 1.0,
-          "score": 1.098
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 1002.5,
-        "buy_time": "2026-07-06 14:15:45",
-        "iteration": 3,
-        "score_info": {
-          "last": 1002.5,
-          "mom_30m_pct": -0.01,
-          "intraday_pct": 3.575,
-          "rsi": 49.4,
-          "vol_factor": 1.0,
-          "score": 1.057
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "buy_price": 829.0,
-        "buy_time": "2026-07-06 14:15:45",
-        "iteration": 3,
-        "score_info": {
-          "last": 829.0,
-          "mom_30m_pct": -0.108,
-          "intraday_pct": 3.354,
-          "rsi": 35.5,
-          "vol_factor": 1.0,
-          "score": 0.843
-        }
-      },
-      {
-        "symbol": "M&M",
-        "qty": 1,
-        "buy_price": 3203.2,
-        "buy_time": "2026-07-06 14:15:45",
-        "iteration": 3,
-        "score_info": {
-          "last": 3203.2,
-          "mom_30m_pct": 0.156,
-          "intraday_pct": 1.977,
-          "rsi": 49.2,
-          "vol_factor": 1.0,
-          "score": 0.828
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 1003.3,
-        "buy_time": "2026-07-06 14:21:17",
-        "iteration": 4,
-        "score_info": {
-          "last": 1003.3,
-          "mom_30m_pct": 0.335,
-          "intraday_pct": 3.449,
-          "rsi": 45.3,
-          "vol_factor": 0.07,
-          "score": 0.611
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "buy_price": 829.2,
-        "buy_time": "2026-07-06 14:21:17",
-        "iteration": 4,
-        "score_info": {
-          "last": 829.2,
-          "mom_30m_pct": -0.096,
-          "intraday_pct": 3.34,
-          "rsi": 46.3,
-          "vol_factor": 0.21,
-          "score": 0.071
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 6,
-        "buy_price": 1006.3,
-        "buy_time": "2026-07-06 14:38:37",
-        "iteration": 5,
-        "score_info": {
-          "last": 1006.3,
-          "mom_30m_pct": 0.399,
-          "intraday_pct": 3.433,
-          "rsi": 69.7,
-          "vol_factor": 0.94,
-          "score": 1.569
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 3,
-        "buy_price": 830.8,
-        "buy_time": "2026-07-06 14:38:37",
-        "iteration": 5,
-        "score_info": {
-          "last": 830.8,
-          "mom_30m_pct": 0.169,
-          "intraday_pct": 3.514,
-          "rsi": 61.0,
-          "vol_factor": 1.03,
-          "score": 1.342
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 7,
-        "buy_price": 831.0,
-        "buy_time": "2026-07-06 15:08:33",
-        "iteration": 6,
-        "score_info": {
-          "last": 831.0,
-          "mom_30m_pct": 0.036,
-          "intraday_pct": 3.752,
-          "rsi": 55.8,
-          "vol_factor": 1.35,
-          "score": 1.529
-        }
-      },
-      {
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "buy_price": 1135.8,
-        "buy_time": "2026-07-06 15:08:33",
-        "iteration": 6,
-        "score_info": {
-          "last": 1135.8,
-          "mom_30m_pct": 0.683,
-          "intraday_pct": -0.228,
-          "rsi": 62.6,
-          "vol_factor": 1.42,
-          "score": 1.371
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 4,
-        "buy_price": 1321.3,
-        "buy_time": "2026-07-06 16:26:50",
-        "iteration": 7,
-        "score_info": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "buy_price": 2754.9,
-        "buy_time": "2026-07-06 16:26:50",
-        "iteration": 7,
-        "score_info": {
-          "last": 2754.9,
-          "mom_30m_pct": 0.164,
-          "intraday_pct": 1.064,
-          "rsi": 66.2,
-          "vol_factor": 2.0,
-          "score": 1.565
-        }
-      },
-      {
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "buy_price": 5454.5,
-        "buy_time": "2026-07-06 16:42:26",
-        "iteration": 8,
-        "score_info": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "buy_price": 1321.3,
-        "buy_time": "2026-07-06 16:42:26",
-        "iteration": 8,
-        "score_info": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "buy_price": 5454.5,
-        "buy_time": "2026-07-06 17:12:44",
-        "iteration": 9,
-        "score_info": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "buy_price": 1321.3,
-        "buy_time": "2026-07-06 17:12:44",
-        "iteration": 9,
-        "score_info": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "buy_price": 5454.5,
-        "buy_time": "2026-07-06 17:20:27",
-        "iteration": 10,
-        "score_info": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "buy_price": 1321.3,
-        "buy_time": "2026-07-06 17:20:27",
-        "iteration": 10,
-        "score_info": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "buy_price": 5454.5,
-        "buy_time": "2026-07-06 17:45:13",
-        "iteration": 11,
-        "score_info": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "buy_price": 1321.3,
-        "buy_time": "2026-07-06 17:45:13",
-        "iteration": 11,
-        "score_info": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "buy_price": 5454.5,
-        "buy_time": "2026-07-06 18:01:30",
-        "iteration": 12,
-        "score_info": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "buy_price": 1321.3,
-        "buy_time": "2026-07-06 18:01:30",
-        "iteration": 12,
-        "score_info": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      }
-    ],
-    "trades": [
-      {
-        "time": "2026-07-06 13:36:50",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "price": 1912.2,
-        "cost": 1912.2,
-        "score": {
-          "last": 1912.2,
-          "mom_30m_pct": 0.394,
-          "intraday_pct": 0.283,
-          "rsi": 64.5,
-          "vol_factor": 1.29,
-          "score": 0.962
-        }
-      },
-      {
-        "time": "2026-07-06 13:36:50",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "GRASIM",
-        "qty": 1,
-        "price": 3209.2,
-        "cost": 3209.2,
-        "score": {
-          "last": 3209.2,
-          "mom_30m_pct": 0.231,
-          "intraday_pct": 0.495,
-          "rsi": 41.0,
-          "vol_factor": 0.94,
-          "score": 0.44
-        }
-      },
-      {
-        "time": "2026-07-06 13:36:50",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "M&M",
-        "qty": 1,
-        "price": 3202.1,
-        "cost": 3202.1,
-        "score": {
-          "last": 3202.1,
-          "mom_30m_pct": -0.047,
-          "intraday_pct": 1.867,
-          "rsi": 43.7,
-          "vol_factor": 0.75,
-          "score": 0.244
-        }
-      },
-      {
-        "time": "2026-07-06 13:55:19",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "price": 1001.45,
-        "cost": 2002.9,
-        "score": {
-          "last": 1001.45,
-          "mom_30m_pct": 0.115,
-          "intraday_pct": 4.198,
-          "rsi": 60.3,
-          "vol_factor": 1.0,
-          "score": 1.432
-        }
-      },
-      {
-        "time": "2026-07-06 13:55:19",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "price": 829.9,
-        "cost": 3319.6,
-        "score": {
-          "last": 829.9,
-          "mom_30m_pct": 0.054,
-          "intraday_pct": 3.389,
-          "rsi": 70.5,
-          "vol_factor": 1.0,
-          "score": 1.098
-        }
-      },
-      {
-        "time": "2026-07-06 14:15:45",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "price": 1002.5,
-        "cost": 2005.0,
-        "score": {
-          "last": 1002.5,
-          "mom_30m_pct": -0.01,
-          "intraday_pct": 3.575,
-          "rsi": 49.4,
-          "vol_factor": 1.0,
-          "score": 1.057
-        }
-      },
-      {
-        "time": "2026-07-06 14:15:45",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "price": 829.0,
-        "cost": 3316.0,
-        "score": {
-          "last": 829.0,
-          "mom_30m_pct": -0.108,
-          "intraday_pct": 3.354,
-          "rsi": 35.5,
-          "vol_factor": 1.0,
-          "score": 0.843
-        }
-      },
-      {
-        "time": "2026-07-06 14:15:45",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "M&M",
-        "qty": 1,
-        "price": 3203.2,
-        "cost": 3203.2,
-        "score": {
-          "last": 3203.2,
-          "mom_30m_pct": 0.156,
-          "intraday_pct": 1.977,
-          "rsi": 49.2,
-          "vol_factor": 1.0,
-          "score": 0.828
-        }
-      },
-      {
-        "time": "2026-07-06 14:21:17",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "price": 1003.3,
-        "cost": 2006.6,
-        "score": {
-          "last": 1003.3,
-          "mom_30m_pct": 0.335,
-          "intraday_pct": 3.449,
-          "rsi": 45.3,
-          "vol_factor": 0.07,
-          "score": 0.611
-        }
-      },
-      {
-        "time": "2026-07-06 14:21:17",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "price": 829.2,
-        "cost": 3316.8,
-        "score": {
-          "last": 829.2,
-          "mom_30m_pct": -0.096,
-          "intraday_pct": 3.34,
-          "rsi": 46.3,
-          "vol_factor": 0.21,
-          "score": 0.071
-        }
-      },
-      {
-        "time": "2026-07-06 14:38:37",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 6,
-        "price": 1006.3,
-        "cost": 6037.8,
-        "score": {
-          "last": 1006.3,
-          "mom_30m_pct": 0.399,
-          "intraday_pct": 3.433,
-          "rsi": 69.7,
-          "vol_factor": 0.94,
-          "score": 1.569
-        }
-      },
-      {
-        "time": "2026-07-06 14:38:37",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 3,
-        "price": 830.8,
-        "cost": 2492.4,
-        "score": {
-          "last": 830.8,
-          "mom_30m_pct": 0.169,
-          "intraday_pct": 3.514,
-          "rsi": 61.0,
-          "vol_factor": 1.03,
-          "score": 1.342
-        }
-      },
-      {
-        "time": "2026-07-06 15:08:33",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 7,
-        "price": 831.0,
-        "cost": 5817.0,
-        "score": {
-          "last": 831.0,
-          "mom_30m_pct": 0.036,
-          "intraday_pct": 3.752,
-          "rsi": 55.8,
-          "vol_factor": 1.35,
-          "score": 1.529
-        }
-      },
-      {
-        "time": "2026-07-06 15:08:33",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "price": 1135.8,
-        "cost": 2271.6,
-        "score": {
-          "last": 1135.8,
-          "mom_30m_pct": 0.683,
-          "intraday_pct": -0.228,
-          "rsi": 62.6,
-          "vol_factor": 1.42,
-          "score": 1.371
-        }
-      },
-      {
-        "time": "2026-07-06 16:26:50",
-        "iteration": 7,
-        "action": "SELL",
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "price": 1009.8,
-        "buy_price": 1001.45,
-        "pnl": 16.7,
-        "pnl_pct": 0.83,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-07-06 16:26:50",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 4,
-        "price": 1321.3,
-        "cost": 5285.2,
-        "score": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "time": "2026-07-06 16:26:50",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "price": 2754.9,
-        "cost": 2754.9,
-        "score": {
-          "last": 2754.9,
-          "mom_30m_pct": 0.164,
-          "intraday_pct": 1.064,
-          "rsi": 66.2,
-          "vol_factor": 2.0,
-          "score": 1.565
-        }
-      },
-      {
-        "time": "2026-07-06 16:42:26",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "price": 5454.5,
-        "cost": 5454.5,
-        "score": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "time": "2026-07-06 16:42:26",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "price": 1321.3,
-        "cost": 3963.9,
-        "score": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "time": "2026-07-06 17:12:44",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "price": 5454.5,
-        "cost": 5454.5,
-        "score": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "time": "2026-07-06 17:12:44",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "price": 1321.3,
-        "cost": 3963.9,
-        "score": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "time": "2026-07-06 17:20:27",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "price": 5454.5,
-        "cost": 5454.5,
-        "score": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "time": "2026-07-06 17:20:27",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "price": 1321.3,
-        "cost": 3963.9,
-        "score": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "time": "2026-07-06 17:45:13",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "price": 5454.5,
-        "cost": 5454.5,
-        "score": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "time": "2026-07-06 17:45:13",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "price": 1321.3,
-        "cost": 3963.9,
-        "score": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      },
-      {
-        "time": "2026-07-06 18:01:30",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "price": 5454.5,
-        "cost": 5454.5,
-        "score": {
-          "last": 5454.5,
-          "mom_30m_pct": 0.211,
-          "intraday_pct": 1.592,
-          "rsi": 53.8,
-          "vol_factor": 2.0,
-          "score": 1.795
-        }
-      },
-      {
-        "time": "2026-07-06 18:01:30",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "price": 1321.3,
-        "cost": 3963.9,
-        "score": {
-          "last": 1321.3,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 1.467,
-          "rsi": 60.0,
-          "vol_factor": 1.97,
-          "score": 1.77
-        }
-      }
-    ],
-    "closed": false
-  },
+  "current_day": null,
   "history": [
     {
       "date": "2026-06-03",
@@ -20034,13 +19075,780 @@
       "n_sells": 33,
       "feedback": "Day P&L \u20b9-28 on \u20b999228 deployed (-0.03%). Worst trade: DRREDDY (P&L \u20b9-58, -1.05%). Consider tighter stop on entries with weaker momentum scores. 28 EOD force-sells contributed \u20b9-46. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
+    },
+    {
+      "date": "2026-07-06",
+      "iterations_run": 14,
+      "invested": 99244.5,
+      "realized_pnl": 25.3,
+      "pnl_pct": 0.025,
+      "trades": [
+        {
+          "time": "2026-07-06 13:36:50",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "SUNPHARMA",
+          "qty": 1,
+          "price": 1912.2,
+          "cost": 1912.2,
+          "score": {
+            "last": 1912.2,
+            "mom_30m_pct": 0.394,
+            "intraday_pct": 0.283,
+            "rsi": 64.5,
+            "vol_factor": 1.29,
+            "score": 0.962
+          }
+        },
+        {
+          "time": "2026-07-06 13:36:50",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "GRASIM",
+          "qty": 1,
+          "price": 3209.2,
+          "cost": 3209.2,
+          "score": {
+            "last": 3209.2,
+            "mom_30m_pct": 0.231,
+            "intraday_pct": 0.495,
+            "rsi": 41.0,
+            "vol_factor": 0.94,
+            "score": 0.44
+          }
+        },
+        {
+          "time": "2026-07-06 13:36:50",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "M&M",
+          "qty": 1,
+          "price": 3202.1,
+          "cost": 3202.1,
+          "score": {
+            "last": 3202.1,
+            "mom_30m_pct": -0.047,
+            "intraday_pct": 1.867,
+            "rsi": 43.7,
+            "vol_factor": 0.75,
+            "score": 0.244
+          }
+        },
+        {
+          "time": "2026-07-06 13:55:19",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1001.45,
+          "cost": 2002.9,
+          "score": {
+            "last": 1001.45,
+            "mom_30m_pct": 0.115,
+            "intraday_pct": 4.198,
+            "rsi": 60.3,
+            "vol_factor": 1.0,
+            "score": 1.432
+          }
+        },
+        {
+          "time": "2026-07-06 13:55:19",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "HDFCBANK",
+          "qty": 4,
+          "price": 829.9,
+          "cost": 3319.6,
+          "score": {
+            "last": 829.9,
+            "mom_30m_pct": 0.054,
+            "intraday_pct": 3.389,
+            "rsi": 70.5,
+            "vol_factor": 1.0,
+            "score": 1.098
+          }
+        },
+        {
+          "time": "2026-07-06 14:15:45",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1002.5,
+          "cost": 2005.0,
+          "score": {
+            "last": 1002.5,
+            "mom_30m_pct": -0.01,
+            "intraday_pct": 3.575,
+            "rsi": 49.4,
+            "vol_factor": 1.0,
+            "score": 1.057
+          }
+        },
+        {
+          "time": "2026-07-06 14:15:45",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "HDFCBANK",
+          "qty": 4,
+          "price": 829.0,
+          "cost": 3316.0,
+          "score": {
+            "last": 829.0,
+            "mom_30m_pct": -0.108,
+            "intraday_pct": 3.354,
+            "rsi": 35.5,
+            "vol_factor": 1.0,
+            "score": 0.843
+          }
+        },
+        {
+          "time": "2026-07-06 14:15:45",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "M&M",
+          "qty": 1,
+          "price": 3203.2,
+          "cost": 3203.2,
+          "score": {
+            "last": 3203.2,
+            "mom_30m_pct": 0.156,
+            "intraday_pct": 1.977,
+            "rsi": 49.2,
+            "vol_factor": 1.0,
+            "score": 0.828
+          }
+        },
+        {
+          "time": "2026-07-06 14:21:17",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1003.3,
+          "cost": 2006.6,
+          "score": {
+            "last": 1003.3,
+            "mom_30m_pct": 0.335,
+            "intraday_pct": 3.449,
+            "rsi": 45.3,
+            "vol_factor": 0.07,
+            "score": 0.611
+          }
+        },
+        {
+          "time": "2026-07-06 14:21:17",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "HDFCBANK",
+          "qty": 4,
+          "price": 829.2,
+          "cost": 3316.8,
+          "score": {
+            "last": 829.2,
+            "mom_30m_pct": -0.096,
+            "intraday_pct": 3.34,
+            "rsi": 46.3,
+            "vol_factor": 0.21,
+            "score": 0.071
+          }
+        },
+        {
+          "time": "2026-07-06 14:38:37",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 6,
+          "price": 1006.3,
+          "cost": 6037.8,
+          "score": {
+            "last": 1006.3,
+            "mom_30m_pct": 0.399,
+            "intraday_pct": 3.433,
+            "rsi": 69.7,
+            "vol_factor": 0.94,
+            "score": 1.569
+          }
+        },
+        {
+          "time": "2026-07-06 14:38:37",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "HDFCBANK",
+          "qty": 3,
+          "price": 830.8,
+          "cost": 2492.4,
+          "score": {
+            "last": 830.8,
+            "mom_30m_pct": 0.169,
+            "intraday_pct": 3.514,
+            "rsi": 61.0,
+            "vol_factor": 1.03,
+            "score": 1.342
+          }
+        },
+        {
+          "time": "2026-07-06 15:08:33",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "HDFCBANK",
+          "qty": 7,
+          "price": 831.0,
+          "cost": 5817.0,
+          "score": {
+            "last": 831.0,
+            "mom_30m_pct": 0.036,
+            "intraday_pct": 3.752,
+            "rsi": 55.8,
+            "vol_factor": 1.35,
+            "score": 1.529
+          }
+        },
+        {
+          "time": "2026-07-06 15:08:33",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "HCLTECH",
+          "qty": 2,
+          "price": 1135.8,
+          "cost": 2271.6,
+          "score": {
+            "last": 1135.8,
+            "mom_30m_pct": 0.683,
+            "intraday_pct": -0.228,
+            "rsi": 62.6,
+            "vol_factor": 1.42,
+            "score": 1.371
+          }
+        },
+        {
+          "time": "2026-07-06 16:26:50",
+          "iteration": 7,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1009.8,
+          "buy_price": 1001.45,
+          "pnl": 16.7,
+          "pnl_pct": 0.83,
+          "reason": "TAKE_PROFIT"
+        },
+        {
+          "time": "2026-07-06 16:26:50",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 4,
+          "price": 1321.3,
+          "cost": 5285.2,
+          "score": {
+            "last": 1321.3,
+            "mom_30m_pct": 0.243,
+            "intraday_pct": 1.467,
+            "rsi": 60.0,
+            "vol_factor": 1.97,
+            "score": 1.77
+          }
+        },
+        {
+          "time": "2026-07-06 16:26:50",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "ASIANPAINT",
+          "qty": 1,
+          "price": 2754.9,
+          "cost": 2754.9,
+          "score": {
+            "last": 2754.9,
+            "mom_30m_pct": 0.164,
+            "intraday_pct": 1.064,
+            "rsi": 66.2,
+            "vol_factor": 2.0,
+            "score": 1.565
+          }
+        },
+        {
+          "time": "2026-07-06 16:42:26",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "cost": 5454.5,
+          "score": {
+            "last": 5454.5,
+            "mom_30m_pct": 0.211,
+            "intraday_pct": 1.592,
+            "rsi": 53.8,
+            "vol_factor": 2.0,
+            "score": 1.795
+          }
+        },
+        {
+          "time": "2026-07-06 16:42:26",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "cost": 3963.9,
+          "score": {
+            "last": 1321.3,
+            "mom_30m_pct": 0.243,
+            "intraday_pct": 1.467,
+            "rsi": 60.0,
+            "vol_factor": 1.97,
+            "score": 1.77
+          }
+        },
+        {
+          "time": "2026-07-06 17:12:44",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "cost": 5454.5,
+          "score": {
+            "last": 5454.5,
+            "mom_30m_pct": 0.211,
+            "intraday_pct": 1.592,
+            "rsi": 53.8,
+            "vol_factor": 2.0,
+            "score": 1.795
+          }
+        },
+        {
+          "time": "2026-07-06 17:12:44",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "cost": 3963.9,
+          "score": {
+            "last": 1321.3,
+            "mom_30m_pct": 0.243,
+            "intraday_pct": 1.467,
+            "rsi": 60.0,
+            "vol_factor": 1.97,
+            "score": 1.77
+          }
+        },
+        {
+          "time": "2026-07-06 17:20:27",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "cost": 5454.5,
+          "score": {
+            "last": 5454.5,
+            "mom_30m_pct": 0.211,
+            "intraday_pct": 1.592,
+            "rsi": 53.8,
+            "vol_factor": 2.0,
+            "score": 1.795
+          }
+        },
+        {
+          "time": "2026-07-06 17:20:27",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "cost": 3963.9,
+          "score": {
+            "last": 1321.3,
+            "mom_30m_pct": 0.243,
+            "intraday_pct": 1.467,
+            "rsi": 60.0,
+            "vol_factor": 1.97,
+            "score": 1.77
+          }
+        },
+        {
+          "time": "2026-07-06 17:45:13",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "cost": 5454.5,
+          "score": {
+            "last": 5454.5,
+            "mom_30m_pct": 0.211,
+            "intraday_pct": 1.592,
+            "rsi": 53.8,
+            "vol_factor": 2.0,
+            "score": 1.795
+          }
+        },
+        {
+          "time": "2026-07-06 17:45:13",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "cost": 3963.9,
+          "score": {
+            "last": 1321.3,
+            "mom_30m_pct": 0.243,
+            "intraday_pct": 1.467,
+            "rsi": 60.0,
+            "vol_factor": 1.97,
+            "score": 1.77
+          }
+        },
+        {
+          "time": "2026-07-06 18:01:30",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "cost": 5454.5,
+          "score": {
+            "last": 5454.5,
+            "mom_30m_pct": 0.211,
+            "intraday_pct": 1.592,
+            "rsi": 53.8,
+            "vol_factor": 2.0,
+            "score": 1.795
+          }
+        },
+        {
+          "time": "2026-07-06 18:01:30",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "cost": 3963.9,
+          "score": {
+            "last": 1321.3,
+            "mom_30m_pct": 0.243,
+            "intraday_pct": 1.467,
+            "rsi": 60.0,
+            "vol_factor": 1.97,
+            "score": 1.77
+          }
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SUNPHARMA",
+          "qty": 1,
+          "price": 1912.8,
+          "buy_price": 1912.2,
+          "pnl": 0.6,
+          "pnl_pct": 0.03,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "GRASIM",
+          "qty": 1,
+          "price": 3217.3,
+          "buy_price": 3209.2,
+          "pnl": 8.1,
+          "pnl_pct": 0.25,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "M&M",
+          "qty": 1,
+          "price": 3202.0,
+          "buy_price": 3202.1,
+          "pnl": -0.1,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HDFCBANK",
+          "qty": 4,
+          "price": 828.0,
+          "buy_price": 829.9,
+          "pnl": -7.6,
+          "pnl_pct": -0.23,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1009.8,
+          "buy_price": 1002.5,
+          "pnl": 14.6,
+          "pnl_pct": 0.73,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HDFCBANK",
+          "qty": 4,
+          "price": 828.0,
+          "buy_price": 829.0,
+          "pnl": -4.0,
+          "pnl_pct": -0.12,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "M&M",
+          "qty": 1,
+          "price": 3202.0,
+          "buy_price": 3203.2,
+          "pnl": -1.2,
+          "pnl_pct": -0.04,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1009.8,
+          "buy_price": 1003.3,
+          "pnl": 13.0,
+          "pnl_pct": 0.65,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HDFCBANK",
+          "qty": 4,
+          "price": 828.0,
+          "buy_price": 829.2,
+          "pnl": -4.8,
+          "pnl_pct": -0.14,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 6,
+          "price": 1009.8,
+          "buy_price": 1006.3,
+          "pnl": 21.0,
+          "pnl_pct": 0.35,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HDFCBANK",
+          "qty": 3,
+          "price": 828.0,
+          "buy_price": 830.8,
+          "pnl": -8.4,
+          "pnl_pct": -0.34,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HDFCBANK",
+          "qty": 7,
+          "price": 828.0,
+          "buy_price": 831.0,
+          "pnl": -21.0,
+          "pnl_pct": -0.36,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HCLTECH",
+          "qty": 2,
+          "price": 1135.0,
+          "buy_price": 1135.8,
+          "pnl": -1.6,
+          "pnl_pct": -0.07,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 4,
+          "price": 1321.3,
+          "buy_price": 1321.3,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ASIANPAINT",
+          "qty": 1,
+          "price": 2754.9,
+          "buy_price": 2754.9,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "buy_price": 5454.5,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "buy_price": 1321.3,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "buy_price": 5454.5,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "buy_price": 1321.3,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "buy_price": 5454.5,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "buy_price": 1321.3,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "buy_price": 5454.5,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "buy_price": 1321.3,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5454.5,
+          "buy_price": 5454.5,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-06 19:06:00",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 3,
+          "price": 1321.3,
+          "buy_price": 1321.3,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        }
+      ],
+      "n_buys": 26,
+      "n_sells": 26,
+      "feedback": "Day P&L \u20b925 on \u20b999245 deployed (0.03%). Worst trade: HDFCBANK (P&L \u20b9-21, -0.36%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters.",
+      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 24,
-    "winning_days": 12,
+    "total_days": 25,
+    "winning_days": 13,
     "losing_days": 10,
-    "total_realized_pnl": 166.93,
+    "total_realized_pnl": 192.23,
     "best_day_pnl": 263.9,
     "worst_day_pnl": -247.2,
     "feedback_notes": [
@@ -20139,6 +19947,10 @@
       {
         "date": "2026-07-03",
         "note": "Day P&L \u20b9-28 on \u20b999228 deployed (-0.03%). Worst trade: DRREDDY (P&L \u20b9-58, -1.05%). Consider tighter stop on entries with weaker momentum scores. 28 EOD force-sells contributed \u20b9-46. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
+      {
+        "date": "2026-07-06",
+        "note": "Day P&L \u20b925 on \u20b999245 deployed (0.03%). Worst trade: HDFCBANK (P&L \u20b9-21, -0.36%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters."
       }
     ]
   }
