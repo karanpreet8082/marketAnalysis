@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-07",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 86320.74,
         "realized_pnl_today_after": -43.25,
         "open_positions_after": 23
+      },
+      {
+        "iteration": 12,
+        "time": "2026-07-07 17:04:19",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 98932.59,
+        "realized_pnl_today_after": -43.25,
+        "open_positions_after": 26
       }
     ],
-    "invested_today": 86320.7395324707,
+    "invested_today": 98932.5894165039,
     "realized_pnl_today": -43.25004882812482,
     "open_positions": [
       {
@@ -443,6 +452,51 @@
         "buy_price": 1168.2,
         "buy_time": "2026-07-07 16:49:59",
         "iteration": 11,
+        "score_info": {
+          "last": 1168.2,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": 1.556,
+          "rsi": 34.9,
+          "vol_factor": 1.75,
+          "score": 1.231
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 11,
+        "buy_price": 382.15,
+        "buy_time": "2026-07-07 17:04:19",
+        "iteration": 12,
+        "score_info": {
+          "last": 382.15,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 0.5,
+          "rsi": 56.9,
+          "vol_factor": 2.0,
+          "score": 1.563
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 4,
+        "buy_price": 1225.9,
+        "buy_time": "2026-07-07 17:04:19",
+        "iteration": 12,
+        "score_info": {
+          "last": 1225.9,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 3.74,
+          "rsi": 56.9,
+          "vol_factor": 1.23,
+          "score": 1.489
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1168.2,
+        "buy_time": "2026-07-07 17:04:19",
+        "iteration": 12,
         "score_info": {
           "last": 1168.2,
           "mom_30m_pct": 0.009,
@@ -923,6 +977,57 @@
         "qty": 4,
         "price": 1168.2,
         "cost": 4672.8,
+        "score": {
+          "last": 1168.2,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": 1.556,
+          "rsi": 34.9,
+          "vol_factor": 1.75,
+          "score": 1.231
+        }
+      },
+      {
+        "time": "2026-07-07 17:04:19",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 11,
+        "price": 382.15,
+        "cost": 4203.65,
+        "score": {
+          "last": 382.15,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 0.5,
+          "rsi": 56.9,
+          "vol_factor": 2.0,
+          "score": 1.563
+        }
+      },
+      {
+        "time": "2026-07-07 17:04:19",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 4,
+        "price": 1225.9,
+        "cost": 4903.6,
+        "score": {
+          "last": 1225.9,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 3.74,
+          "rsi": 56.9,
+          "vol_factor": 1.23,
+          "score": 1.489
+        }
+      },
+      {
+        "time": "2026-07-07 17:04:19",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1168.2,
+        "cost": 3504.6,
         "score": {
           "last": 1168.2,
           "mom_30m_pct": 0.009,
