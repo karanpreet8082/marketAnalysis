@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-07",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 32169.56,
         "realized_pnl_today_after": 29.2,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-07-07 14:22:02",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 40637.06,
+        "realized_pnl_today_after": 29.2,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 32169.559768676758,
+    "invested_today": 40637.05976867676,
     "realized_pnl_today": 29.199951171875,
     "open_positions": [
       {
@@ -201,6 +210,51 @@
           "rsi": 70.2,
           "vol_factor": 1.29,
           "score": 1.585
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1042.3,
+        "buy_time": "2026-07-07 14:22:02",
+        "iteration": 6,
+        "score_info": {
+          "last": 1042.3,
+          "mom_30m_pct": 0.705,
+          "intraday_pct": 1.569,
+          "rsi": 69.6,
+          "vol_factor": 0.12,
+          "score": 0.65
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1077.7,
+        "buy_time": "2026-07-07 14:22:02",
+        "iteration": 6,
+        "score_info": {
+          "last": 1077.7,
+          "mom_30m_pct": -0.065,
+          "intraday_pct": 4.196,
+          "rsi": 45.8,
+          "vol_factor": 0.38,
+          "score": 0.538
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2107.5,
+        "buy_time": "2026-07-07 14:22:02",
+        "iteration": 6,
+        "score_info": {
+          "last": 2107.5,
+          "mom_30m_pct": 0.343,
+          "intraday_pct": 2.595,
+          "rsi": 72.9,
+          "vol_factor": 0.19,
+          "score": 0.483
         }
       }
     ],
@@ -402,6 +456,57 @@
           "rsi": 70.2,
           "vol_factor": 1.29,
           "score": 1.585
+        }
+      },
+      {
+        "time": "2026-07-07 14:22:02",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1042.3,
+        "cost": 3126.9,
+        "score": {
+          "last": 1042.3,
+          "mom_30m_pct": 0.705,
+          "intraday_pct": 1.569,
+          "rsi": 69.6,
+          "vol_factor": 0.12,
+          "score": 0.65
+        }
+      },
+      {
+        "time": "2026-07-07 14:22:02",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1077.7,
+        "cost": 3233.1,
+        "score": {
+          "last": 1077.7,
+          "mom_30m_pct": -0.065,
+          "intraday_pct": 4.196,
+          "rsi": 45.8,
+          "vol_factor": 0.38,
+          "score": 0.538
+        }
+      },
+      {
+        "time": "2026-07-07 14:22:02",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2107.5,
+        "cost": 2107.5,
+        "score": {
+          "last": 2107.5,
+          "mom_30m_pct": 0.343,
+          "intraday_pct": 2.595,
+          "rsi": 72.9,
+          "vol_factor": 0.19,
+          "score": 0.483
         }
       }
     ],
