@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-07",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 60760.91,
         "realized_pnl_today_after": -43.25,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 10,
+        "time": "2026-07-07 16:10:04",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 73766.59,
+        "realized_pnl_today_after": -43.25,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 60760.909896850586,
+    "invested_today": 73766.58972167969,
     "realized_pnl_today": -43.25004882812482,
     "open_positions": [
       {
@@ -342,6 +351,51 @@
           "rsi": 56.9,
           "vol_factor": 1.23,
           "score": 1.489
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 11,
+        "buy_price": 382.15,
+        "buy_time": "2026-07-07 16:10:04",
+        "iteration": 10,
+        "score_info": {
+          "last": 382.15,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 0.5,
+          "rsi": 56.9,
+          "vol_factor": 2.0,
+          "score": 1.563
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1225.9,
+        "buy_time": "2026-07-07 16:10:04",
+        "iteration": 10,
+        "score_info": {
+          "last": 1225.9,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 3.74,
+          "rsi": 56.9,
+          "vol_factor": 1.23,
+          "score": 1.489
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 27,
+        "buy_price": 189.79,
+        "buy_time": "2026-07-07 16:10:04",
+        "iteration": 10,
+        "score_info": {
+          "last": 189.79,
+          "mom_30m_pct": 0.011,
+          "intraday_pct": 0.254,
+          "rsi": 63.4,
+          "vol_factor": 2.0,
+          "score": 1.092
         }
       }
     ],
@@ -720,6 +774,57 @@
           "rsi": 56.9,
           "vol_factor": 1.23,
           "score": 1.489
+        }
+      },
+      {
+        "time": "2026-07-07 16:10:04",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 11,
+        "price": 382.15,
+        "cost": 4203.65,
+        "score": {
+          "last": 382.15,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 0.5,
+          "rsi": 56.9,
+          "vol_factor": 2.0,
+          "score": 1.563
+        }
+      },
+      {
+        "time": "2026-07-07 16:10:04",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1225.9,
+        "cost": 3677.7,
+        "score": {
+          "last": 1225.9,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 3.74,
+          "rsi": 56.9,
+          "vol_factor": 1.23,
+          "score": 1.489
+        }
+      },
+      {
+        "time": "2026-07-07 16:10:04",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 27,
+        "price": 189.79,
+        "cost": 5124.33,
+        "score": {
+          "last": 189.79,
+          "mom_30m_pct": 0.011,
+          "intraday_pct": 0.254,
+          "rsi": 63.4,
+          "vol_factor": 2.0,
+          "score": 1.092
         }
       }
     ],
