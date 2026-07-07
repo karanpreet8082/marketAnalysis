@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-07",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-07 12:34:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 4377.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-07 13:12:43",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 13679.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 13678.999877929688,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1887.0,
+        "buy_time": "2026-07-07 12:34:13",
+        "iteration": 1,
+        "score_info": {
+          "last": 1887.0,
+          "mom_30m_pct": 0.032,
+          "intraday_pct": 0.801,
+          "rsi": 56.3,
+          "vol_factor": 2.0,
+          "score": 1.288
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1245.0,
+        "buy_time": "2026-07-07 12:34:13",
+        "iteration": 1,
+        "score_info": {
+          "last": 1245.0,
+          "mom_30m_pct": 0.298,
+          "intraday_pct": 0.379,
+          "rsi": 49.4,
+          "vol_factor": 1.72,
+          "score": 1.28
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1212.0,
+        "buy_time": "2026-07-07 13:12:43",
+        "iteration": 2,
+        "score_info": {
+          "last": 1212.0,
+          "mom_30m_pct": 0.556,
+          "intraday_pct": 2.581,
+          "rsi": 69.0,
+          "vol_factor": 0.2,
+          "score": 0.808
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 10,
+        "buy_price": 376.8,
+        "buy_time": "2026-07-07 13:12:43",
+        "iteration": 2,
+        "score_info": {
+          "last": 376.8,
+          "mom_30m_pct": 0.239,
+          "intraday_pct": -0.698,
+          "rsi": 52.6,
+          "vol_factor": 1.46,
+          "score": 0.612
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 311.0,
+        "buy_time": "2026-07-07 13:12:43",
+        "iteration": 2,
+        "score_info": {
+          "last": 311.0,
+          "mom_30m_pct": 0.631,
+          "intraday_pct": 0.501,
+          "rsi": 74.7,
+          "vol_factor": 0.24,
+          "score": 0.339
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-07 12:34:13",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1887.0,
+        "cost": 1887.0,
+        "score": {
+          "last": 1887.0,
+          "mom_30m_pct": 0.032,
+          "intraday_pct": 0.801,
+          "rsi": 56.3,
+          "vol_factor": 2.0,
+          "score": 1.288
+        }
+      },
+      {
+        "time": "2026-07-07 12:34:13",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1245.0,
+        "cost": 2490.0,
+        "score": {
+          "last": 1245.0,
+          "mom_30m_pct": 0.298,
+          "intraday_pct": 0.379,
+          "rsi": 49.4,
+          "vol_factor": 1.72,
+          "score": 1.28
+        }
+      },
+      {
+        "time": "2026-07-07 13:12:43",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1212.0,
+        "cost": 2424.0,
+        "score": {
+          "last": 1212.0,
+          "mom_30m_pct": 0.556,
+          "intraday_pct": 2.581,
+          "rsi": 69.0,
+          "vol_factor": 0.2,
+          "score": 0.808
+        }
+      },
+      {
+        "time": "2026-07-07 13:12:43",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 10,
+        "price": 376.8,
+        "cost": 3768.0,
+        "score": {
+          "last": 376.8,
+          "mom_30m_pct": 0.239,
+          "intraday_pct": -0.698,
+          "rsi": 52.6,
+          "vol_factor": 1.46,
+          "score": 0.612
+        }
+      },
+      {
+        "time": "2026-07-07 13:12:43",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 311.0,
+        "cost": 3110.0,
+        "score": {
+          "last": 311.0,
+          "mom_30m_pct": 0.631,
+          "intraday_pct": 0.501,
+          "rsi": 74.7,
+          "vol_factor": 0.24,
+          "score": 0.339
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
