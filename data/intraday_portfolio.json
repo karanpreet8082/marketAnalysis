@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-07",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 53261.71,
         "realized_pnl_today_after": -43.25,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-07 16:00:28",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 60760.91,
+        "realized_pnl_today_after": -43.25,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 53261.709884643555,
+    "invested_today": 60760.909896850586,
     "realized_pnl_today": -43.25004882812482,
     "open_positions": [
       {
@@ -296,6 +305,36 @@
         "buy_price": 1225.9,
         "buy_time": "2026-07-07 15:36:11",
         "iteration": 8,
+        "score_info": {
+          "last": 1225.9,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 3.74,
+          "rsi": 56.9,
+          "vol_factor": 1.23,
+          "score": 1.489
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 10,
+        "buy_price": 382.15,
+        "buy_time": "2026-07-07 16:00:28",
+        "iteration": 9,
+        "score_info": {
+          "last": 382.15,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 0.5,
+          "rsi": 56.9,
+          "vol_factor": 2.0,
+          "score": 1.563
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1225.9,
+        "buy_time": "2026-07-07 16:00:28",
+        "iteration": 9,
         "score_info": {
           "last": 1225.9,
           "mom_30m_pct": 0.09,
@@ -635,6 +674,40 @@
       {
         "time": "2026-07-07 15:36:11",
         "iteration": 8,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1225.9,
+        "cost": 3677.7,
+        "score": {
+          "last": 1225.9,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 3.74,
+          "rsi": 56.9,
+          "vol_factor": 1.23,
+          "score": 1.489
+        }
+      },
+      {
+        "time": "2026-07-07 16:00:28",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 10,
+        "price": 382.15,
+        "cost": 3821.5,
+        "score": {
+          "last": 382.15,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 0.5,
+          "rsi": 56.9,
+          "vol_factor": 2.0,
+          "score": 1.563
+        }
+      },
+      {
+        "time": "2026-07-07 16:00:28",
+        "iteration": 9,
         "action": "BUY",
         "symbol": "HAVELLS",
         "qty": 3,
