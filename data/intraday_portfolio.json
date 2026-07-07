@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-07",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 40637.06,
         "realized_pnl_today_after": 29.2,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-07 15:27:45",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 46144.66,
+        "realized_pnl_today_after": -43.25,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 40637.05976867676,
-    "realized_pnl_today": 29.199951171875,
+    "invested_today": 46144.65986633301,
+    "realized_pnl_today": -43.25004882812482,
     "open_positions": [
       {
         "symbol": "BAJAJFINSV",
@@ -168,21 +177,6 @@
         }
       },
       {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 1031.35,
-        "buy_time": "2026-07-07 13:33:15",
-        "iteration": 4,
-        "score_info": {
-          "last": 1031.35,
-          "mom_30m_pct": 0.223,
-          "intraday_pct": 2.965,
-          "rsi": 53.2,
-          "vol_factor": 0.56,
-          "score": 0.781
-        }
-      },
-      {
         "symbol": "BAJFINANCE",
         "qty": 2,
         "buy_price": 1038.6,
@@ -195,21 +189,6 @@
           "rsi": 59.7,
           "vol_factor": 2.0,
           "score": 2.436
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1034.5,
-        "buy_time": "2026-07-07 14:04:44",
-        "iteration": 5,
-        "score_info": {
-          "last": 1034.5,
-          "mom_30m_pct": 0.223,
-          "intraday_pct": 3.213,
-          "rsi": 70.2,
-          "vol_factor": 1.29,
-          "score": 1.585
         }
       },
       {
@@ -255,6 +234,36 @@
           "rsi": 72.9,
           "vol_factor": 0.19,
           "score": 0.483
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "buy_price": 382.0,
+        "buy_time": "2026-07-07 15:27:45",
+        "iteration": 7,
+        "score_info": {
+          "last": 382.0,
+          "mom_30m_pct": 0.236,
+          "intraday_pct": 0.46,
+          "rsi": 54.5,
+          "vol_factor": 2.0,
+          "score": 1.492
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1225.8,
+        "buy_time": "2026-07-07 15:27:45",
+        "iteration": 7,
+        "score_info": {
+          "last": 1225.8,
+          "mom_30m_pct": 0.082,
+          "intraday_pct": 3.732,
+          "rsi": 56.3,
+          "vol_factor": 0.49,
+          "score": 0.736
         }
       }
     ],
@@ -507,6 +516,64 @@
           "rsi": 72.9,
           "vol_factor": 0.19,
           "score": 0.483
+        }
+      },
+      {
+        "time": "2026-07-07 15:27:45",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1018.75,
+        "buy_price": 1031.35,
+        "pnl": -25.2,
+        "pnl_pct": -1.22,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-07 15:27:45",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1018.75,
+        "buy_price": 1034.5,
+        "pnl": -47.25,
+        "pnl_pct": -1.52,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-07 15:27:45",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "price": 382.0,
+        "cost": 3056.0,
+        "score": {
+          "last": 382.0,
+          "mom_30m_pct": 0.236,
+          "intraday_pct": 0.46,
+          "rsi": 54.5,
+          "vol_factor": 2.0,
+          "score": 1.492
+        }
+      },
+      {
+        "time": "2026-07-07 15:27:45",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1225.8,
+        "cost": 2451.6,
+        "score": {
+          "last": 1225.8,
+          "mom_30m_pct": 0.082,
+          "intraday_pct": 3.732,
+          "rsi": 56.3,
+          "vol_factor": 0.49,
+          "score": 0.736
         }
       }
     ],
