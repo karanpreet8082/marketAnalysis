@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-07",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-07 12:34:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 4377.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 4377.0,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1887.0,
+        "buy_time": "2026-07-07 12:34:13",
+        "iteration": 1,
+        "score_info": {
+          "last": 1887.0,
+          "mom_30m_pct": 0.032,
+          "intraday_pct": 0.801,
+          "rsi": 56.3,
+          "vol_factor": 2.0,
+          "score": 1.288
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1245.0,
+        "buy_time": "2026-07-07 12:34:13",
+        "iteration": 1,
+        "score_info": {
+          "last": 1245.0,
+          "mom_30m_pct": 0.298,
+          "intraday_pct": 0.379,
+          "rsi": 49.4,
+          "vol_factor": 1.72,
+          "score": 1.28
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-07 12:34:13",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1887.0,
+        "cost": 1887.0,
+        "score": {
+          "last": 1887.0,
+          "mom_30m_pct": 0.032,
+          "intraday_pct": 0.801,
+          "rsi": 56.3,
+          "vol_factor": 2.0,
+          "score": 1.288
+        }
+      },
+      {
+        "time": "2026-07-07 12:34:13",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1245.0,
+        "cost": 2490.0,
+        "score": {
+          "last": 1245.0,
+          "mom_30m_pct": 0.298,
+          "intraday_pct": 0.379,
+          "rsi": 49.4,
+          "vol_factor": 1.72,
+          "score": 1.28
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
