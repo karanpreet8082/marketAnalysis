@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-07",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 22240.29,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-07 13:33:15",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 26988.86,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 22240.28988647461,
+    "invested_today": 26988.859817504883,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -138,6 +147,36 @@
           "rsi": 51.9,
           "vol_factor": 0.66,
           "score": 0.081
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 11,
+        "buy_price": 244.17,
+        "buy_time": "2026-07-07 13:33:15",
+        "iteration": 4,
+        "score_info": {
+          "last": 244.17,
+          "mom_30m_pct": 0.428,
+          "intraday_pct": 0.271,
+          "rsi": 62.1,
+          "vol_factor": 1.15,
+          "score": 0.871
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "buy_price": 1031.35,
+        "buy_time": "2026-07-07 13:33:15",
+        "iteration": 4,
+        "score_info": {
+          "last": 1031.35,
+          "mom_30m_pct": 0.223,
+          "intraday_pct": 2.965,
+          "rsi": 53.2,
+          "vol_factor": 0.56,
+          "score": 0.781
         }
       }
     ],
@@ -259,6 +298,40 @@
           "rsi": 51.9,
           "vol_factor": 0.66,
           "score": 0.081
+        }
+      },
+      {
+        "time": "2026-07-07 13:33:15",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 11,
+        "price": 244.17,
+        "cost": 2685.87,
+        "score": {
+          "last": 244.17,
+          "mom_30m_pct": 0.428,
+          "intraday_pct": 0.271,
+          "rsi": 62.1,
+          "vol_factor": 1.15,
+          "score": 0.871
+        }
+      },
+      {
+        "time": "2026-07-07 13:33:15",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1031.35,
+        "cost": 2062.7,
+        "score": {
+          "last": 1031.35,
+          "mom_30m_pct": 0.223,
+          "intraday_pct": 2.965,
+          "rsi": 53.2,
+          "vol_factor": 0.56,
+          "score": 0.781
         }
       }
     ],
