@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-07",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13679.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-07 13:26:46",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 22240.29,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 13678.999877929688,
+    "invested_today": 22240.28988647461,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,36 @@
           "rsi": 74.7,
           "vol_factor": 0.24,
           "score": 0.339
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 5,
+        "buy_price": 1028.75,
+        "buy_time": "2026-07-07 13:26:46",
+        "iteration": 3,
+        "score_info": {
+          "last": 1028.75,
+          "mom_30m_pct": 0.312,
+          "intraday_pct": 2.839,
+          "rsi": 53.5,
+          "vol_factor": 0.14,
+          "score": 0.455
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 244.11,
+        "buy_time": "2026-07-07 13:26:46",
+        "iteration": 3,
+        "score_info": {
+          "last": 244.11,
+          "mom_30m_pct": 0.234,
+          "intraday_pct": 0.246,
+          "rsi": 51.9,
+          "vol_factor": 0.66,
+          "score": 0.081
         }
       }
     ],
@@ -186,6 +225,40 @@
           "rsi": 74.7,
           "vol_factor": 0.24,
           "score": 0.339
+        }
+      },
+      {
+        "time": "2026-07-07 13:26:46",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 5,
+        "price": 1028.75,
+        "cost": 5143.75,
+        "score": {
+          "last": 1028.75,
+          "mom_30m_pct": 0.312,
+          "intraday_pct": 2.839,
+          "rsi": 53.5,
+          "vol_factor": 0.14,
+          "score": 0.455
+        }
+      },
+      {
+        "time": "2026-07-07 13:26:46",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 244.11,
+        "cost": 3417.54,
+        "score": {
+          "last": 244.11,
+          "mom_30m_pct": 0.234,
+          "intraday_pct": 0.246,
+          "rsi": 51.9,
+          "vol_factor": 0.66,
+          "score": 0.081
         }
       }
     ],
