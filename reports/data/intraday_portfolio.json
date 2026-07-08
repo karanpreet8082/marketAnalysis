@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-08",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 70819.85,
         "realized_pnl_today_after": -778.8,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 10,
+        "time": "2026-07-08 15:29:07",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 79610.85,
+        "realized_pnl_today_after": -778.8,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 70819.85057067871,
+    "invested_today": 79610.85057067871,
     "realized_pnl_today": -778.7996612548842,
     "open_positions": [
       {
@@ -207,6 +216,51 @@
           "rsi": 54.1,
           "vol_factor": 0.79,
           "score": 0.149
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "buy_price": 976.0,
+        "buy_time": "2026-07-08 15:29:07",
+        "iteration": 10,
+        "score_info": {
+          "last": 976.0,
+          "mom_30m_pct": 1.124,
+          "intraday_pct": 0.743,
+          "rsi": 71.0,
+          "vol_factor": 2.0,
+          "score": 2.909
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "buy_price": 430.0,
+        "buy_time": "2026-07-08 15:29:07",
+        "iteration": 10,
+        "score_info": {
+          "last": 430.0,
+          "mom_30m_pct": 0.608,
+          "intraday_pct": -0.012,
+          "rsi": 59.6,
+          "vol_factor": 1.62,
+          "score": 1.534
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1211.5,
+        "buy_time": "2026-07-08 15:29:07",
+        "iteration": 10,
+        "score_info": {
+          "last": 1211.5,
+          "mom_30m_pct": 0.807,
+          "intraday_pct": -0.697,
+          "rsi": 67.5,
+          "vol_factor": 1.37,
+          "score": 1.37
         }
       }
     ],
@@ -722,6 +776,57 @@
           "rsi": 54.1,
           "vol_factor": 0.79,
           "score": 0.149
+        }
+      },
+      {
+        "time": "2026-07-08 15:29:07",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 976.0,
+        "cost": 2928.0,
+        "score": {
+          "last": 976.0,
+          "mom_30m_pct": 1.124,
+          "intraday_pct": 0.743,
+          "rsi": 71.0,
+          "vol_factor": 2.0,
+          "score": 2.909
+        }
+      },
+      {
+        "time": "2026-07-08 15:29:07",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "price": 430.0,
+        "cost": 3440.0,
+        "score": {
+          "last": 430.0,
+          "mom_30m_pct": 0.608,
+          "intraday_pct": -0.012,
+          "rsi": 59.6,
+          "vol_factor": 1.62,
+          "score": 1.534
+        }
+      },
+      {
+        "time": "2026-07-08 15:29:07",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1211.5,
+        "cost": 2423.0,
+        "score": {
+          "last": 1211.5,
+          "mom_30m_pct": 0.807,
+          "intraday_pct": -0.697,
+          "rsi": 67.5,
+          "vol_factor": 1.37,
+          "score": 1.37
         }
       }
     ],
