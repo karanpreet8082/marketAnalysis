@@ -1,42 +1,5 @@
 [
   {
-    "timestamp": "2026-06-02 15:21 IST",
-    "budget": 50000.0,
-    "allocated": 42237.59,
-    "positions": 6,
-    "summary": {
-      "total_positions": 6,
-      "total_invested": 42237.59,
-      "cash_reserve": 7762.41,
-      "avg_confidence": 0.51,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24885.17,
-          "percent": 49.8,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17352.420000000002,
-          "percent": 34.7,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 0,
-          "percent": 0.0,
-          "positions": 0
-        }
-      },
-      "expected_gain_percent": 6.4,
-      "max_loss_percent": 4.5,
-      "sector_distribution": {
-        "Basic Materials": 2,
-        "Unknown": 1,
-        "Utilities": 1,
-        "Financial Services": 2
-      }
-    }
-  },
-  {
     "timestamp": "2026-06-02 16:38 IST",
     "budget": 50000.0,
     "allocated": 42261.62,
@@ -1845,6 +1808,44 @@
         "Financial Services": 3,
         "Energy": 1,
         "Unknown": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-08 12:44 IST",
+    "budget": 50000.0,
+    "allocated": 48675.53,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 48675.53,
+      "cash_reserve": 1324.47,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24631.88,
+          "percent": 49.3,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17029.15,
+          "percent": 34.1,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7014.5,
+          "percent": 14.0,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.1,
+      "max_loss_percent": 3.6,
+      "sector_distribution": {
+        "Financial Services": 3,
+        "Energy": 1,
+        "Technology": 1,
+        "Unknown": 1,
+        "Communication Services": 2
       }
     }
   }
