@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-08",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 63540.15,
         "realized_pnl_today_after": -778.8,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-08 15:01:26",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 70819.85,
+        "realized_pnl_today_after": -778.8,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 63540.150619506836,
+    "invested_today": 70819.85057067871,
     "realized_pnl_today": -778.7996612548842,
     "open_positions": [
       {
@@ -168,6 +177,36 @@
           "rsi": 42.3,
           "vol_factor": 0.49,
           "score": -0.996
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "buy_price": 1348.1,
+        "buy_time": "2026-07-08 15:01:26",
+        "iteration": 9,
+        "score_info": {
+          "last": 1348.1,
+          "mom_30m_pct": 0.41,
+          "intraday_pct": -0.399,
+          "rsi": 49.2,
+          "vol_factor": 0.69,
+          "score": 0.185
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1887.3,
+        "buy_time": "2026-07-08 15:01:26",
+        "iteration": 9,
+        "score_info": {
+          "last": 1887.3,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": -0.898,
+          "rsi": 54.1,
+          "vol_factor": 0.79,
+          "score": 0.149
         }
       }
     ],
@@ -649,6 +688,40 @@
           "rsi": 42.3,
           "vol_factor": 0.49,
           "score": -0.996
+        }
+      },
+      {
+        "time": "2026-07-08 15:01:26",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "price": 1348.1,
+        "cost": 5392.4,
+        "score": {
+          "last": 1348.1,
+          "mom_30m_pct": 0.41,
+          "intraday_pct": -0.399,
+          "rsi": 49.2,
+          "vol_factor": 0.69,
+          "score": 0.185
+        }
+      },
+      {
+        "time": "2026-07-08 15:01:26",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1887.3,
+        "cost": 1887.3,
+        "score": {
+          "last": 1887.3,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": -0.898,
+          "rsi": 54.1,
+          "vol_factor": 0.79,
+          "score": 0.149
         }
       }
     ],
