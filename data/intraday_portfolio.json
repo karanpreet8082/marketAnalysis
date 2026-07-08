@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-08",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 54670.55,
         "realized_pnl_today_after": -778.8,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-08 14:36:31",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 63540.15,
+        "realized_pnl_today_after": -778.8,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 54670.550521850586,
+    "invested_today": 63540.150619506836,
     "realized_pnl_today": -778.7996612548842,
     "open_positions": [
       {
@@ -114,6 +123,51 @@
           "rsi": 3.7,
           "vol_factor": 1.74,
           "score": -2.142
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1205.3,
+        "buy_time": "2026-07-08 14:36:31",
+        "iteration": 8,
+        "score_info": {
+          "last": 1205.3,
+          "mom_30m_pct": -0.066,
+          "intraday_pct": -1.479,
+          "rsi": 17.8,
+          "vol_factor": 1.36,
+          "score": -0.68
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1343.9,
+        "buy_time": "2026-07-08 14:36:31",
+        "iteration": 8,
+        "score_info": {
+          "last": 1343.9,
+          "mom_30m_pct": -0.015,
+          "intraday_pct": -1.589,
+          "rsi": 30.4,
+          "vol_factor": 0.55,
+          "score": -0.951
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 1885.6,
+        "buy_time": "2026-07-08 14:36:31",
+        "iteration": 8,
+        "score_info": {
+          "last": 1885.6,
+          "mom_30m_pct": 0.133,
+          "intraday_pct": -2.285,
+          "rsi": 42.3,
+          "vol_factor": 0.49,
+          "score": -0.996
         }
       }
     ],
@@ -544,6 +598,57 @@
           "rsi": 3.7,
           "vol_factor": 1.74,
           "score": -2.142
+        }
+      },
+      {
+        "time": "2026-07-08 14:36:31",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1205.3,
+        "cost": 2410.6,
+        "score": {
+          "last": 1205.3,
+          "mom_30m_pct": -0.066,
+          "intraday_pct": -1.479,
+          "rsi": 17.8,
+          "vol_factor": 1.36,
+          "score": -0.68
+        }
+      },
+      {
+        "time": "2026-07-08 14:36:31",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1343.9,
+        "cost": 2687.8,
+        "score": {
+          "last": 1343.9,
+          "mom_30m_pct": -0.015,
+          "intraday_pct": -1.589,
+          "rsi": 30.4,
+          "vol_factor": 0.55,
+          "score": -0.951
+        }
+      },
+      {
+        "time": "2026-07-08 14:36:31",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 1885.6,
+        "cost": 3771.2,
+        "score": {
+          "last": 1885.6,
+          "mom_30m_pct": 0.133,
+          "intraday_pct": -2.285,
+          "rsi": 42.3,
+          "vol_factor": 0.49,
+          "score": -0.996
         }
       }
     ],
