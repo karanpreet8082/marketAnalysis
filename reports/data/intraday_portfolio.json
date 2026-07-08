@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-08",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13431.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-08 12:13:03",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 21159.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 13431.100219726562,
+    "invested_today": 21159.05027770996,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,36 @@
           "rsi": 48.8,
           "vol_factor": 1.0,
           "score": -0.155
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "buy_price": 188.98,
+        "buy_time": "2026-07-08 12:13:03",
+        "iteration": 3,
+        "score_info": {
+          "last": 188.98,
+          "mom_30m_pct": -0.232,
+          "intraday_pct": -0.311,
+          "rsi": 42.5,
+          "vol_factor": 2.0,
+          "score": 0.558
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 5,
+        "buy_price": 978.65,
+        "buy_time": "2026-07-08 12:13:03",
+        "iteration": 3,
+        "score_info": {
+          "last": 978.65,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": 1.283,
+          "rsi": 61.5,
+          "vol_factor": 0.15,
+          "score": 0.038
         }
       }
     ],
@@ -186,6 +225,40 @@
           "rsi": 48.8,
           "vol_factor": 1.0,
           "score": -0.155
+        }
+      },
+      {
+        "time": "2026-07-08 12:13:03",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "price": 188.98,
+        "cost": 2834.7,
+        "score": {
+          "last": 188.98,
+          "mom_30m_pct": -0.232,
+          "intraday_pct": -0.311,
+          "rsi": 42.5,
+          "vol_factor": 2.0,
+          "score": 0.558
+        }
+      },
+      {
+        "time": "2026-07-08 12:13:03",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 5,
+        "price": 978.65,
+        "cost": 4893.25,
+        "score": {
+          "last": 978.65,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": 1.283,
+          "rsi": 61.5,
+          "vol_factor": 0.15,
+          "score": 0.038
         }
       }
     ],
