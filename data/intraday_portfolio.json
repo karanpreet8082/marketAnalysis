@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-08",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 21159.05,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-08 12:45:07",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 28872.75,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 21159.05027770996,
+    "invested_today": 28872.750228881836,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -138,6 +147,51 @@
           "rsi": 61.5,
           "vol_factor": 0.15,
           "score": 0.038
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1879.7,
+        "buy_time": "2026-07-08 12:45:07",
+        "iteration": 4,
+        "score_info": {
+          "last": 1879.7,
+          "mom_30m_pct": -0.011,
+          "intraday_pct": -0.629,
+          "rsi": 44.3,
+          "vol_factor": 2.0,
+          "score": 0.795
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 3,
+        "buy_price": 1037.0,
+        "buy_time": "2026-07-08 12:45:07",
+        "iteration": 4,
+        "score_info": {
+          "last": 1037.0,
+          "mom_30m_pct": 0.135,
+          "intraday_pct": -0.585,
+          "rsi": 53.1,
+          "vol_factor": 1.0,
+          "score": 0.027
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1361.5,
+        "buy_time": "2026-07-08 12:45:07",
+        "iteration": 4,
+        "score_info": {
+          "last": 1361.5,
+          "mom_30m_pct": 0.103,
+          "intraday_pct": -0.468,
+          "rsi": 45.3,
+          "vol_factor": 1.0,
+          "score": 0.014
         }
       }
     ],
@@ -259,6 +313,57 @@
           "rsi": 61.5,
           "vol_factor": 0.15,
           "score": 0.038
+        }
+      },
+      {
+        "time": "2026-07-08 12:45:07",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1879.7,
+        "cost": 1879.7,
+        "score": {
+          "last": 1879.7,
+          "mom_30m_pct": -0.011,
+          "intraday_pct": -0.629,
+          "rsi": 44.3,
+          "vol_factor": 2.0,
+          "score": 0.795
+        }
+      },
+      {
+        "time": "2026-07-08 12:45:07",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 3,
+        "price": 1037.0,
+        "cost": 3111.0,
+        "score": {
+          "last": 1037.0,
+          "mom_30m_pct": 0.135,
+          "intraday_pct": -0.585,
+          "rsi": 53.1,
+          "vol_factor": 1.0,
+          "score": 0.027
+        }
+      },
+      {
+        "time": "2026-07-08 12:45:07",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1361.5,
+        "cost": 2723.0,
+        "score": {
+          "last": 1361.5,
+          "mom_30m_pct": 0.103,
+          "intraday_pct": -0.468,
+          "rsi": 45.3,
+          "vol_factor": 1.0,
+          "score": 0.014
         }
       }
     ],
