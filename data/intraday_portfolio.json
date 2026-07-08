@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-08",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-08 11:46:26",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7986.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-08 12:01:12",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 13431.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 13431.100219726562,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "buy_price": 1022.75,
+        "buy_time": "2026-07-08 11:46:26",
+        "iteration": 1,
+        "score_info": {
+          "last": 1022.75,
+          "mom_30m_pct": -0.024,
+          "intraday_pct": -0.486,
+          "rsi": 52.5,
+          "vol_factor": 1.86,
+          "score": 0.678
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1227.3,
+        "buy_time": "2026-07-08 11:46:26",
+        "iteration": 1,
+        "score_info": {
+          "last": 1227.3,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 1.986,
+          "rsi": 60.4,
+          "vol_factor": 0.03,
+          "score": -0.299
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3486.8,
+        "buy_time": "2026-07-08 11:46:26",
+        "iteration": 1,
+        "score_info": {
+          "last": 3486.8,
+          "mom_30m_pct": -0.063,
+          "intraday_pct": 0.198,
+          "rsi": 46.1,
+          "vol_factor": 0.7,
+          "score": -0.336
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 978.7,
+        "buy_time": "2026-07-08 12:01:12",
+        "iteration": 2,
+        "score_info": {
+          "last": 978.7,
+          "mom_30m_pct": 0.328,
+          "intraday_pct": 1.017,
+          "rsi": 68.7,
+          "vol_factor": 0.15,
+          "score": -0.052
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3486.8,
+        "buy_time": "2026-07-08 12:01:12",
+        "iteration": 2,
+        "score_info": {
+          "last": 3486.8,
+          "mom_30m_pct": -0.095,
+          "intraday_pct": -0.043,
+          "rsi": 48.8,
+          "vol_factor": 1.0,
+          "score": -0.155
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-08 11:46:26",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1022.75,
+        "cost": 2045.5,
+        "score": {
+          "last": 1022.75,
+          "mom_30m_pct": -0.024,
+          "intraday_pct": -0.486,
+          "rsi": 52.5,
+          "vol_factor": 1.86,
+          "score": 0.678
+        }
+      },
+      {
+        "time": "2026-07-08 11:46:26",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1227.3,
+        "cost": 2454.6,
+        "score": {
+          "last": 1227.3,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 1.986,
+          "rsi": 60.4,
+          "vol_factor": 0.03,
+          "score": -0.299
+        }
+      },
+      {
+        "time": "2026-07-08 11:46:26",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3486.8,
+        "cost": 3486.8,
+        "score": {
+          "last": 3486.8,
+          "mom_30m_pct": -0.063,
+          "intraday_pct": 0.198,
+          "rsi": 46.1,
+          "vol_factor": 0.7,
+          "score": -0.336
+        }
+      },
+      {
+        "time": "2026-07-08 12:01:12",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 978.7,
+        "cost": 1957.4,
+        "score": {
+          "last": 978.7,
+          "mom_30m_pct": 0.328,
+          "intraday_pct": 1.017,
+          "rsi": 68.7,
+          "vol_factor": 0.15,
+          "score": -0.052
+        }
+      },
+      {
+        "time": "2026-07-08 12:01:12",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3486.8,
+        "cost": 3486.8,
+        "score": {
+          "last": 3486.8,
+          "mom_30m_pct": -0.095,
+          "intraday_pct": -0.043,
+          "rsi": 48.8,
+          "vol_factor": 1.0,
+          "score": -0.155
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
