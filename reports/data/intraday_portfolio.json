@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-09",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-09 12:35:21",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 4873.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 4873.5999755859375,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1935.4,
+        "buy_time": "2026-07-09 12:35:21",
+        "iteration": 1,
+        "score_info": {
+          "last": 1935.4,
+          "mom_30m_pct": -0.046,
+          "intraday_pct": 2.186,
+          "rsi": 41.8,
+          "vol_factor": 1.0,
+          "score": 0.586
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2938.2,
+        "buy_time": "2026-07-09 12:35:21",
+        "iteration": 1,
+        "score_info": {
+          "last": 2938.2,
+          "mom_30m_pct": 0.472,
+          "intraday_pct": -0.508,
+          "rsi": 71.1,
+          "vol_factor": 1.0,
+          "score": 0.555
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-09 12:35:21",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1935.4,
+        "cost": 1935.4,
+        "score": {
+          "last": 1935.4,
+          "mom_30m_pct": -0.046,
+          "intraday_pct": 2.186,
+          "rsi": 41.8,
+          "vol_factor": 1.0,
+          "score": 0.586
+        }
+      },
+      {
+        "time": "2026-07-09 12:35:21",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2938.2,
+        "cost": 2938.2,
+        "score": {
+          "last": 2938.2,
+          "mom_30m_pct": 0.472,
+          "intraday_pct": -0.508,
+          "rsi": 71.1,
+          "vol_factor": 1.0,
+          "score": 0.555
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
