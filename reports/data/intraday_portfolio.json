@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-09",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 29557.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-09 14:11:07",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 37175.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 29557.19989013672,
+    "invested_today": 37175.69989013672,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -192,6 +201,51 @@
           "rsi": 67.9,
           "vol_factor": 0.74,
           "score": 0.478
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 658.85,
+        "buy_time": "2026-07-09 14:11:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 658.85,
+          "mom_30m_pct": 0.965,
+          "intraday_pct": 3.813,
+          "rsi": 63.0,
+          "vol_factor": 1.0,
+          "score": 2.592
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 1015.9,
+        "buy_time": "2026-07-09 14:11:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 1015.9,
+          "mom_30m_pct": 0.044,
+          "intraday_pct": 1.387,
+          "rsi": 56.9,
+          "vol_factor": 1.2,
+          "score": 0.685
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1935.4,
+        "buy_time": "2026-07-09 14:11:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 1935.4,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 2.723,
+          "rsi": 58.4,
+          "vol_factor": 0.34,
+          "score": 0.524
         }
       }
     ],
@@ -364,6 +418,57 @@
           "rsi": 67.9,
           "vol_factor": 0.74,
           "score": 0.478
+        }
+      },
+      {
+        "time": "2026-07-09 14:11:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 658.85,
+        "cost": 2635.4,
+        "score": {
+          "last": 658.85,
+          "mom_30m_pct": 0.965,
+          "intraday_pct": 3.813,
+          "rsi": 63.0,
+          "vol_factor": 1.0,
+          "score": 2.592
+        }
+      },
+      {
+        "time": "2026-07-09 14:11:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1015.9,
+        "cost": 3047.7,
+        "score": {
+          "last": 1015.9,
+          "mom_30m_pct": 0.044,
+          "intraday_pct": 1.387,
+          "rsi": 56.9,
+          "vol_factor": 1.2,
+          "score": 0.685
+        }
+      },
+      {
+        "time": "2026-07-09 14:11:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1935.4,
+        "cost": 1935.4,
+        "score": {
+          "last": 1935.4,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 2.723,
+          "rsi": 58.4,
+          "vol_factor": 0.34,
+          "score": 0.524
         }
       }
     ],
