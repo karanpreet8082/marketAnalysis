@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-06-02 17:58 IST",
+    "budget": 50000.0,
+    "allocated": 42261.62,
+    "positions": 6,
+    "summary": {
+      "total_positions": 6,
+      "total_invested": 42261.62,
+      "cash_reserve": 7738.38,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24872.22,
+          "percent": 49.7,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17389.4,
+          "percent": 34.8,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 0,
+          "percent": 0.0,
+          "positions": 0
+        }
+      },
+      "expected_gain_percent": 6.4,
+      "max_loss_percent": 4.5,
+      "sector_distribution": {
+        "Basic Materials": 2,
+        "Unknown": 1,
+        "Utilities": 1,
+        "Financial Services": 2
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-02 18:30 IST",
     "budget": 50000.0,
     "allocated": 42261.62,
@@ -1809,44 +1846,6 @@
         "Financial Services": 2,
         "Unknown": 3,
         "Communication Services": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-09 12:34 IST",
-    "budget": 50000.0,
-    "allocated": 49767.700000000004,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49767.7,
-      "cash_reserve": 232.3,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24959.75,
-          "percent": 49.9,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17307.1,
-          "percent": 34.6,
-          "positions": 2
-        },
-        "aggressive": {
-          "amount": 7500.85,
-          "percent": 15.0,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.4,
-      "max_loss_percent": 3.8,
-      "sector_distribution": {
-        "Unknown": 2,
-        "Financial Services": 2,
-        "Energy": 1,
-        "Communication Services": 1,
-        "Technology": 1
       }
     }
   }

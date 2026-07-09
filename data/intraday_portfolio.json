@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-09",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-09 12:35:21",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 4873.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-09 13:09:58",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 13355.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 13355.200134277344,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1935.4,
+        "buy_time": "2026-07-09 12:35:21",
+        "iteration": 1,
+        "score_info": {
+          "last": 1935.4,
+          "mom_30m_pct": -0.046,
+          "intraday_pct": 2.186,
+          "rsi": 41.8,
+          "vol_factor": 1.0,
+          "score": 0.586
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2938.2,
+        "buy_time": "2026-07-09 12:35:21",
+        "iteration": 1,
+        "score_info": {
+          "last": 2938.2,
+          "mom_30m_pct": 0.472,
+          "intraday_pct": -0.508,
+          "rsi": 71.1,
+          "vol_factor": 1.0,
+          "score": 0.555
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1896.4,
+        "buy_time": "2026-07-09 13:09:58",
+        "iteration": 2,
+        "score_info": {
+          "last": 1896.4,
+          "mom_30m_pct": 0.546,
+          "intraday_pct": 0.664,
+          "rsi": 55.3,
+          "vol_factor": 1.24,
+          "score": 1.257
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 14,
+        "buy_price": 283.1,
+        "buy_time": "2026-07-09 13:09:58",
+        "iteration": 2,
+        "score_info": {
+          "last": 283.1,
+          "mom_30m_pct": 0.018,
+          "intraday_pct": -0.545,
+          "rsi": 50.0,
+          "vol_factor": 2.0,
+          "score": 0.863
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 655.45,
+        "buy_time": "2026-07-09 13:09:58",
+        "iteration": 2,
+        "score_info": {
+          "last": 655.45,
+          "mom_30m_pct": 0.668,
+          "intraday_pct": 0.475,
+          "rsi": 75.4,
+          "vol_factor": 2.0,
+          "score": 0.645
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-09 12:35:21",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1935.4,
+        "cost": 1935.4,
+        "score": {
+          "last": 1935.4,
+          "mom_30m_pct": -0.046,
+          "intraday_pct": 2.186,
+          "rsi": 41.8,
+          "vol_factor": 1.0,
+          "score": 0.586
+        }
+      },
+      {
+        "time": "2026-07-09 12:35:21",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2938.2,
+        "cost": 2938.2,
+        "score": {
+          "last": 2938.2,
+          "mom_30m_pct": 0.472,
+          "intraday_pct": -0.508,
+          "rsi": 71.1,
+          "vol_factor": 1.0,
+          "score": 0.555
+        }
+      },
+      {
+        "time": "2026-07-09 13:09:58",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1896.4,
+        "cost": 1896.4,
+        "score": {
+          "last": 1896.4,
+          "mom_30m_pct": 0.546,
+          "intraday_pct": 0.664,
+          "rsi": 55.3,
+          "vol_factor": 1.24,
+          "score": 1.257
+        }
+      },
+      {
+        "time": "2026-07-09 13:09:58",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 14,
+        "price": 283.1,
+        "cost": 3963.4,
+        "score": {
+          "last": 283.1,
+          "mom_30m_pct": 0.018,
+          "intraday_pct": -0.545,
+          "rsi": 50.0,
+          "vol_factor": 2.0,
+          "score": 0.863
+        }
+      },
+      {
+        "time": "2026-07-09 13:09:58",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 655.45,
+        "cost": 2621.8,
+        "score": {
+          "last": 655.45,
+          "mom_30m_pct": 0.668,
+          "intraday_pct": 0.475,
+          "rsi": 75.4,
+          "vol_factor": 2.0,
+          "score": 0.645
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
