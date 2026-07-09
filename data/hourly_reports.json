@@ -1,5 +1,44 @@
 [
   {
+    "timestamp": "2026-06-03 14:05 IST",
+    "budget": 50000.0,
+    "allocated": 49296.37,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 49296.37,
+      "cash_reserve": 703.63,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24864.77,
+          "percent": 49.7,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 16999.170000000002,
+          "percent": 34.0,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7432.43,
+          "percent": 14.9,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.8,
+      "max_loss_percent": 4.1,
+      "sector_distribution": {
+        "Financial Services": 2,
+        "Technology": 1,
+        "Unknown": 2,
+        "Basic Materials": 1,
+        "Industrials": 1,
+        "Communication Services": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-03 14:48 IST",
     "budget": 50000.0,
     "allocated": 49364.33,
@@ -1807,44 +1846,6 @@
         "Financial Services": 3,
         "Energy": 1,
         "Communication Services": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-09 17:53 IST",
-    "budget": 50000.0,
-    "allocated": 49112.020000000004,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49112.02,
-      "cash_reserve": 887.98,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24667.45,
-          "percent": 49.3,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 16913.97,
-          "percent": 33.8,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7530.6,
-          "percent": 15.1,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 5.6,
-      "max_loss_percent": 3.9,
-      "sector_distribution": {
-        "Financial Services": 3,
-        "Energy": 1,
-        "Technology": 1,
-        "Communication Services": 1,
-        "Unknown": 1
       }
     }
   }
