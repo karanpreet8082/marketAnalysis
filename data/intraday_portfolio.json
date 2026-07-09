@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-09",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,9 +111,18 @@
         "invested_today_after": 94568.7,
         "realized_pnl_today_after": 24.65,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 13,
+        "time": "2026-07-09 17:53:30",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 98021.7,
+        "realized_pnl_today_after": 24.65,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 94568.70001220703,
+    "invested_today": 98021.70001220703,
     "realized_pnl_today": 24.64990234375,
     "open_positions": [
       {
@@ -422,6 +431,21 @@
         "buy_price": 1151.0,
         "buy_time": "2026-07-09 17:47:50",
         "iteration": 12,
+        "score_info": {
+          "last": 1151.0,
+          "mom_30m_pct": -0.415,
+          "intraday_pct": 2.521,
+          "rsi": 33.2,
+          "vol_factor": 2.0,
+          "score": 1.133
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1151.0,
+        "buy_time": "2026-07-09 17:53:30",
+        "iteration": 13,
         "score_info": {
           "last": 1151.0,
           "mom_30m_pct": -0.415,
@@ -868,6 +892,23 @@
         "qty": 8,
         "price": 1151.0,
         "cost": 9208.0,
+        "score": {
+          "last": 1151.0,
+          "mom_30m_pct": -0.415,
+          "intraday_pct": 2.521,
+          "rsi": 33.2,
+          "vol_factor": 2.0,
+          "score": 1.133
+        }
+      },
+      {
+        "time": "2026-07-09 17:53:30",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1151.0,
+        "cost": 3453.0,
         "score": {
           "last": 1151.0,
           "mom_30m_pct": -0.415,
