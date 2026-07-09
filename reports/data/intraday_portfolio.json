@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-09",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,10 +48,19 @@
         "invested_today_after": 37175.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 6,
+        "time": "2026-07-09 14:23:26",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 42923.7,
+        "realized_pnl_today_after": 57.95,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 37175.69989013672,
-    "realized_pnl_today": 0.0,
+    "invested_today": 42923.69989013672,
+    "realized_pnl_today": 57.94999999999982,
     "open_positions": [
       {
         "symbol": "SUNPHARMA",
@@ -114,21 +123,6 @@
         }
       },
       {
-        "symbol": "DLF",
-        "qty": 4,
-        "buy_price": 655.45,
-        "buy_time": "2026-07-09 13:09:58",
-        "iteration": 2,
-        "score_info": {
-          "last": 655.45,
-          "mom_30m_pct": 0.668,
-          "intraday_pct": 0.475,
-          "rsi": 75.4,
-          "vol_factor": 2.0,
-          "score": 0.645
-        }
-      },
-      {
         "symbol": "BAJAJFINSV",
         "qty": 3,
         "buy_price": 1894.7,
@@ -171,21 +165,6 @@
           "rsi": 56.5,
           "vol_factor": 0.85,
           "score": 1.442
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 5,
-        "buy_price": 654.75,
-        "buy_time": "2026-07-09 13:54:11",
-        "iteration": 4,
-        "score_info": {
-          "last": 654.75,
-          "mom_30m_pct": 0.499,
-          "intraday_pct": 2.081,
-          "rsi": 65.2,
-          "vol_factor": 0.4,
-          "score": 0.776
         }
       },
       {
@@ -246,6 +225,36 @@
           "rsi": 58.4,
           "vol_factor": 0.34,
           "score": 0.524
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1940.0,
+        "buy_time": "2026-07-09 14:23:26",
+        "iteration": 6,
+        "score_info": {
+          "last": 1940.0,
+          "mom_30m_pct": 0.248,
+          "intraday_pct": 3.345,
+          "rsi": 62.7,
+          "vol_factor": 2.0,
+          "score": 2.376
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "buy_price": 1904.0,
+        "buy_time": "2026-07-09 14:23:26",
+        "iteration": 6,
+        "score_info": {
+          "last": 1904.0,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": 3.198,
+          "rsi": 73.2,
+          "vol_factor": 1.49,
+          "score": 1.793
         }
       }
     ],
@@ -469,6 +478,64 @@
           "rsi": 58.4,
           "vol_factor": 0.34,
           "score": 0.524
+        }
+      },
+      {
+        "time": "2026-07-09 14:23:26",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 661.5,
+        "buy_price": 655.45,
+        "pnl": 24.2,
+        "pnl_pct": 0.92,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-09 14:23:26",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 661.5,
+        "buy_price": 654.75,
+        "pnl": 33.75,
+        "pnl_pct": 1.03,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-09 14:23:26",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1940.0,
+        "cost": 1940.0,
+        "score": {
+          "last": 1940.0,
+          "mom_30m_pct": 0.248,
+          "intraday_pct": 3.345,
+          "rsi": 62.7,
+          "vol_factor": 2.0,
+          "score": 2.376
+        }
+      },
+      {
+        "time": "2026-07-09 14:23:26",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "price": 1904.0,
+        "cost": 3808.0,
+        "score": {
+          "last": 1904.0,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": 3.198,
+          "rsi": 73.2,
+          "vol_factor": 1.49,
+          "score": 1.793
         }
       }
     ],
