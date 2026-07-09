@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-06-02 17:58 IST",
+    "budget": 50000.0,
+    "allocated": 42261.62,
+    "positions": 6,
+    "summary": {
+      "total_positions": 6,
+      "total_invested": 42261.62,
+      "cash_reserve": 7738.38,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24872.22,
+          "percent": 49.7,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17389.4,
+          "percent": 34.8,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 0,
+          "percent": 0.0,
+          "positions": 0
+        }
+      },
+      "expected_gain_percent": 6.4,
+      "max_loss_percent": 4.5,
+      "sector_distribution": {
+        "Basic Materials": 2,
+        "Unknown": 1,
+        "Utilities": 1,
+        "Financial Services": 2
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-02 18:30 IST",
     "budget": 50000.0,
     "allocated": 42261.62,
@@ -1809,44 +1846,6 @@
         "Financial Services": 2,
         "Unknown": 3,
         "Communication Services": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-09 13:54 IST",
-    "budget": 50000.0,
-    "allocated": 49203.55000000001,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 49203.55,
-      "cash_reserve": 796.45,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24923.940000000002,
-          "percent": 49.8,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 16788.91,
-          "percent": 33.6,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7490.700000000001,
-          "percent": 15.0,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.4,
-      "max_loss_percent": 3.8,
-      "sector_distribution": {
-        "Financial Services": 3,
-        "Energy": 1,
-        "Unknown": 2,
-        "Communication Services": 1,
-        "Technology": 1
       }
     }
   }
