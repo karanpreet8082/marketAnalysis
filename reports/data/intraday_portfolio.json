@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-10",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 52507.55,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-10 15:30:34",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 60758.75,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 52507.54992675781,
+    "invested_today": 60758.74987792969,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -279,6 +288,51 @@
           "rsi": 70.1,
           "vol_factor": 1.0,
           "score": 0.971
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 687.0,
+        "buy_time": "2026-07-10 15:30:34",
+        "iteration": 8,
+        "score_info": {
+          "last": 687.0,
+          "mom_30m_pct": 0.321,
+          "intraday_pct": 4.004,
+          "rsi": 66.3,
+          "vol_factor": 2.0,
+          "score": 2.683
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1309.6,
+        "buy_time": "2026-07-10 15:30:34",
+        "iteration": 8,
+        "score_info": {
+          "last": 1309.6,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 1.527,
+          "rsi": 70.7,
+          "vol_factor": 2.0,
+          "score": 2.045
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1442.0,
+        "buy_time": "2026-07-10 15:30:34",
+        "iteration": 8,
+        "score_info": {
+          "last": 1442.0,
+          "mom_30m_pct": 0.355,
+          "intraday_pct": 0.215,
+          "rsi": 57.7,
+          "vol_factor": 2.0,
+          "score": 1.597
         }
       }
     ],
@@ -519,6 +573,57 @@
           "rsi": 70.1,
           "vol_factor": 1.0,
           "score": 0.971
+        }
+      },
+      {
+        "time": "2026-07-10 15:30:34",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 687.0,
+        "cost": 2748.0,
+        "score": {
+          "last": 687.0,
+          "mom_30m_pct": 0.321,
+          "intraday_pct": 4.004,
+          "rsi": 66.3,
+          "vol_factor": 2.0,
+          "score": 2.683
+        }
+      },
+      {
+        "time": "2026-07-10 15:30:34",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1309.6,
+        "cost": 2619.2,
+        "score": {
+          "last": 1309.6,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 1.527,
+          "rsi": 70.7,
+          "vol_factor": 2.0,
+          "score": 2.045
+        }
+      },
+      {
+        "time": "2026-07-10 15:30:34",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1442.0,
+        "cost": 2884.0,
+        "score": {
+          "last": 1442.0,
+          "mom_30m_pct": 0.355,
+          "intraday_pct": 0.215,
+          "rsi": 57.7,
+          "vol_factor": 2.0,
+          "score": 1.597
         }
       }
     ],
