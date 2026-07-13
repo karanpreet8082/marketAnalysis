@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-13",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 54125.1,
         "realized_pnl_today_after": 30.5,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-13 15:24:01",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 60233.34,
+        "realized_pnl_today_after": 30.5,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 54125.09979248047,
+    "invested_today": 60233.33972167969,
     "realized_pnl_today": 30.5,
     "open_positions": [
       {
@@ -309,6 +318,36 @@
           "rsi": 67.9,
           "vol_factor": 2.0,
           "score": 1.155
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2181.9,
+        "buy_time": "2026-07-13 15:24:01",
+        "iteration": 8,
+        "score_info": {
+          "last": 2181.9,
+          "mom_30m_pct": -0.069,
+          "intraday_pct": 5.513,
+          "rsi": 52.3,
+          "vol_factor": 1.42,
+          "score": 1.97
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 22,
+        "buy_price": 178.47,
+        "buy_time": "2026-07-13 15:24:01",
+        "iteration": 8,
+        "score_info": {
+          "last": 178.47,
+          "mom_30m_pct": -0.123,
+          "intraday_pct": 1.681,
+          "rsi": 49.0,
+          "vol_factor": 2.0,
+          "score": 1.32
         }
       }
     ],
@@ -670,6 +709,40 @@
           "rsi": 67.9,
           "vol_factor": 2.0,
           "score": 1.155
+        }
+      },
+      {
+        "time": "2026-07-13 15:24:01",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2181.9,
+        "cost": 2181.9,
+        "score": {
+          "last": 2181.9,
+          "mom_30m_pct": -0.069,
+          "intraday_pct": 5.513,
+          "rsi": 52.3,
+          "vol_factor": 1.42,
+          "score": 1.97
+        }
+      },
+      {
+        "time": "2026-07-13 15:24:01",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 22,
+        "price": 178.47,
+        "cost": 3926.34,
+        "score": {
+          "last": 178.47,
+          "mom_30m_pct": -0.123,
+          "intraday_pct": 1.681,
+          "rsi": 49.0,
+          "vol_factor": 2.0,
+          "score": 1.32
         }
       }
     ],
