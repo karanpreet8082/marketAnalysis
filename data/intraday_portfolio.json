@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-13",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 46352.0,
         "realized_pnl_today_after": 65.0,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-13 15:14:21",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 54125.1,
+        "realized_pnl_today_after": 30.5,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 46351.999938964844,
-    "realized_pnl_today": 65.0,
+    "invested_today": 54125.09979248047,
+    "realized_pnl_today": 30.5,
     "open_positions": [
       {
         "symbol": "TCS",
@@ -135,21 +144,6 @@
           "rsi": 51.3,
           "vol_factor": 1.0,
           "score": 1.613
-        }
-      },
-      {
-        "symbol": "INFY",
-        "qty": 3,
-        "buy_price": 1112.0,
-        "buy_time": "2026-07-13 13:15:56",
-        "iteration": 3,
-        "score_info": {
-          "last": 1112.0,
-          "mom_30m_pct": -0.036,
-          "intraday_pct": 3.964,
-          "rsi": 69.2,
-          "vol_factor": 1.0,
-          "score": 1.135
         }
       },
       {
@@ -270,6 +264,51 @@
           "rsi": 15.5,
           "vol_factor": 1.0,
           "score": 0.787
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1504.0,
+        "buy_time": "2026-07-13 15:14:21",
+        "iteration": 7,
+        "score_info": {
+          "last": 1504.0,
+          "mom_30m_pct": -0.007,
+          "intraday_pct": 3.439,
+          "rsi": 34.8,
+          "vol_factor": 1.37,
+          "score": 1.39
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 2,
+        "buy_price": 2180.7,
+        "buy_time": "2026-07-13 15:14:21",
+        "iteration": 7,
+        "score_info": {
+          "last": 2180.7,
+          "mom_30m_pct": -0.169,
+          "intraday_pct": 5.399,
+          "rsi": 46.6,
+          "vol_factor": 0.89,
+          "score": 1.26
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1907.7,
+        "buy_time": "2026-07-13 15:14:21",
+        "iteration": 7,
+        "score_info": {
+          "last": 1907.7,
+          "mom_30m_pct": 0.194,
+          "intraday_pct": -0.454,
+          "rsi": 67.9,
+          "vol_factor": 2.0,
+          "score": 1.155
         }
       }
     ],
@@ -568,6 +607,69 @@
           "rsi": 15.5,
           "vol_factor": 1.0,
           "score": 0.787
+        }
+      },
+      {
+        "time": "2026-07-13 15:14:21",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1100.5,
+        "buy_price": 1112.0,
+        "pnl": -34.5,
+        "pnl_pct": -1.03,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-13 15:14:21",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1504.0,
+        "cost": 1504.0,
+        "score": {
+          "last": 1504.0,
+          "mom_30m_pct": -0.007,
+          "intraday_pct": 3.439,
+          "rsi": 34.8,
+          "vol_factor": 1.37,
+          "score": 1.39
+        }
+      },
+      {
+        "time": "2026-07-13 15:14:21",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 2,
+        "price": 2180.7,
+        "cost": 4361.4,
+        "score": {
+          "last": 2180.7,
+          "mom_30m_pct": -0.169,
+          "intraday_pct": 5.399,
+          "rsi": 46.6,
+          "vol_factor": 0.89,
+          "score": 1.26
+        }
+      },
+      {
+        "time": "2026-07-13 15:14:21",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1907.7,
+        "cost": 1907.7,
+        "score": {
+          "last": 1907.7,
+          "mom_30m_pct": 0.194,
+          "intraday_pct": -0.454,
+          "rsi": 67.9,
+          "vol_factor": 2.0,
+          "score": 1.155
         }
       }
     ],
