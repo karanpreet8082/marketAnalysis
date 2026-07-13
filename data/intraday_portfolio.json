@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-13",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 89676.99,
         "realized_pnl_today_after": 30.5,
         "open_positions_after": 27
+      },
+      {
+        "iteration": 12,
+        "time": "2026-07-13 17:15:53",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99876.59,
+        "realized_pnl_today_after": 30.5,
+        "open_positions_after": 30
       }
     ],
-    "invested_today": 89676.98922729492,
+    "invested_today": 99876.58905029297,
     "realized_pnl_today": 30.5,
     "open_positions": [
       {
@@ -503,6 +512,51 @@
         "buy_price": 385.05,
         "buy_time": "2026-07-13 17:00:42",
         "iteration": 11,
+        "score_info": {
+          "last": 385.05,
+          "mom_30m_pct": 0.273,
+          "intraday_pct": 2.448,
+          "rsi": 66.0,
+          "vol_factor": 1.23,
+          "score": 1.379
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 9,
+        "buy_price": 352.4,
+        "buy_time": "2026-07-13 17:15:53",
+        "iteration": 12,
+        "score_info": {
+          "last": 352.4,
+          "mom_30m_pct": 0.571,
+          "intraday_pct": 1.923,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 2.433
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3177.5,
+        "buy_time": "2026-07-13 17:15:53",
+        "iteration": 12,
+        "score_info": {
+          "last": 3177.5,
+          "mom_30m_pct": 0.063,
+          "intraday_pct": 1.285,
+          "rsi": 51.8,
+          "vol_factor": 2.0,
+          "score": 1.48
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 10,
+        "buy_price": 385.05,
+        "buy_time": "2026-07-13 17:15:53",
+        "iteration": 12,
         "score_info": {
           "last": 385.05,
           "mom_30m_pct": 0.273,
@@ -1051,6 +1105,57 @@
         "qty": 9,
         "price": 385.05,
         "cost": 3465.45,
+        "score": {
+          "last": 385.05,
+          "mom_30m_pct": 0.273,
+          "intraday_pct": 2.448,
+          "rsi": 66.0,
+          "vol_factor": 1.23,
+          "score": 1.379
+        }
+      },
+      {
+        "time": "2026-07-13 17:15:53",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 9,
+        "price": 352.4,
+        "cost": 3171.6,
+        "score": {
+          "last": 352.4,
+          "mom_30m_pct": 0.571,
+          "intraday_pct": 1.923,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 2.433
+        }
+      },
+      {
+        "time": "2026-07-13 17:15:53",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3177.5,
+        "cost": 3177.5,
+        "score": {
+          "last": 3177.5,
+          "mom_30m_pct": 0.063,
+          "intraday_pct": 1.285,
+          "rsi": 51.8,
+          "vol_factor": 2.0,
+          "score": 1.48
+        }
+      },
+      {
+        "time": "2026-07-13 17:15:53",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 10,
+        "price": 385.05,
+        "cost": 3850.5,
         "score": {
           "last": 385.05,
           "mom_30m_pct": 0.273,
