@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-13",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 30980.3,
         "realized_pnl_today_after": 65.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-13 13:55:50",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 38658.3,
+        "realized_pnl_today_after": 65.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 30980.299865722656,
+    "invested_today": 38658.299865722656,
     "realized_pnl_today": 65.0,
     "open_positions": [
       {
@@ -162,6 +171,51 @@
           "rsi": 59.0,
           "vol_factor": 1.32,
           "score": 0.567
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1220.5,
+        "buy_time": "2026-07-13 13:55:50",
+        "iteration": 5,
+        "score_info": {
+          "last": 1220.5,
+          "mom_30m_pct": 0.213,
+          "intraday_pct": 5.671,
+          "rsi": 29.8,
+          "vol_factor": 1.0,
+          "score": 1.522
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1514.0,
+        "buy_time": "2026-07-13 13:55:50",
+        "iteration": 5,
+        "score_info": {
+          "last": 1514.0,
+          "mom_30m_pct": -0.007,
+          "intraday_pct": 4.241,
+          "rsi": 40.5,
+          "vol_factor": 1.0,
+          "score": 1.262
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1104.5,
+        "buy_time": "2026-07-13 13:55:50",
+        "iteration": 5,
+        "score_info": {
+          "last": 1104.5,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 3.224,
+          "rsi": 32.9,
+          "vol_factor": 1.0,
+          "score": 0.967
         }
       }
     ],
@@ -358,6 +412,57 @@
           "rsi": 59.0,
           "vol_factor": 1.32,
           "score": 0.567
+        }
+      },
+      {
+        "time": "2026-07-13 13:55:50",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1220.5,
+        "cost": 2441.0,
+        "score": {
+          "last": 1220.5,
+          "mom_30m_pct": 0.213,
+          "intraday_pct": 5.671,
+          "rsi": 29.8,
+          "vol_factor": 1.0,
+          "score": 1.522
+        }
+      },
+      {
+        "time": "2026-07-13 13:55:50",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1514.0,
+        "cost": 3028.0,
+        "score": {
+          "last": 1514.0,
+          "mom_30m_pct": -0.007,
+          "intraday_pct": 4.241,
+          "rsi": 40.5,
+          "vol_factor": 1.0,
+          "score": 1.262
+        }
+      },
+      {
+        "time": "2026-07-13 13:55:50",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1104.5,
+        "cost": 2209.0,
+        "score": {
+          "last": 1104.5,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 3.224,
+          "rsi": 32.9,
+          "vol_factor": 1.0,
+          "score": 0.967
         }
       }
     ],
