@@ -1,5 +1,123 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-13",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-13 12:10:12",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7633.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 7633.39990234375,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1217.0,
+        "buy_time": "2026-07-13 12:10:12",
+        "iteration": 1,
+        "score_info": {
+          "last": 1217.0,
+          "mom_30m_pct": 1.679,
+          "intraday_pct": 4.688,
+          "rsi": 70.2,
+          "vol_factor": 1.0,
+          "score": 3.925
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1503.5,
+        "buy_time": "2026-07-13 12:10:12",
+        "iteration": 1,
+        "score_info": {
+          "last": 1503.5,
+          "mom_30m_pct": 0.967,
+          "intraday_pct": 3.468,
+          "rsi": 67.4,
+          "vol_factor": 1.0,
+          "score": 2.491
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2192.4,
+        "buy_time": "2026-07-13 12:10:12",
+        "iteration": 1,
+        "score_info": {
+          "last": 2192.4,
+          "mom_30m_pct": 1.477,
+          "intraday_pct": 5.76,
+          "rsi": 86.4,
+          "vol_factor": 1.0,
+          "score": 2.443
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-13 12:10:12",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1217.0,
+        "cost": 2434.0,
+        "score": {
+          "last": 1217.0,
+          "mom_30m_pct": 1.679,
+          "intraday_pct": 4.688,
+          "rsi": 70.2,
+          "vol_factor": 1.0,
+          "score": 3.925
+        }
+      },
+      {
+        "time": "2026-07-13 12:10:12",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1503.5,
+        "cost": 3007.0,
+        "score": {
+          "last": 1503.5,
+          "mom_30m_pct": 0.967,
+          "intraday_pct": 3.468,
+          "rsi": 67.4,
+          "vol_factor": 1.0,
+          "score": 2.491
+        }
+      },
+      {
+        "time": "2026-07-13 12:10:12",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2192.4,
+        "cost": 2192.4,
+        "score": {
+          "last": 2192.4,
+          "mom_30m_pct": 1.477,
+          "intraday_pct": 5.76,
+          "rsi": 86.4,
+          "vol_factor": 1.0,
+          "score": 2.443
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
