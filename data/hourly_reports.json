@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-06-03 15:54 IST",
+    "budget": 50000.0,
+    "allocated": 49399.03,
+    "positions": 6,
+    "summary": {
+      "total_positions": 6,
+      "total_invested": 49399.03,
+      "cash_reserve": 600.97,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25048.03,
+          "percent": 50.1,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 16963.9,
+          "percent": 33.9,
+          "positions": 2
+        },
+        "aggressive": {
+          "amount": 7387.1,
+          "percent": 14.8,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 5.4,
+      "max_loss_percent": 3.8,
+      "sector_distribution": {
+        "Financial Services": 3,
+        "Unknown": 1,
+        "Industrials": 1,
+        "Communication Services": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-03 17:02 IST",
     "budget": 50000.0,
     "allocated": 49399.03,
@@ -1796,43 +1833,6 @@
         "aggressive": {
           "amount": 7483.0,
           "percent": 15.0,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.2,
-      "max_loss_percent": 3.6,
-      "sector_distribution": {
-        "Financial Services": 5,
-        "Unknown": 1,
-        "Energy": 1,
-        "Basic Materials": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-13 17:51 IST",
-    "budget": 50000.0,
-    "allocated": 49103.51,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 49103.51,
-      "cash_reserve": 896.49,
-      "avg_confidence": 0.51,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24791.33,
-          "percent": 49.6,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 16944.36,
-          "percent": 33.9,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7367.82,
-          "percent": 14.7,
           "positions": 2
         }
       },
