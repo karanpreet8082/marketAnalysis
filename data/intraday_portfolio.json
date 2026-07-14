@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-14",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 55730.2,
         "realized_pnl_today_after": -60.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-14 14:05:57",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 63492.6,
+        "realized_pnl_today_after": -60.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 55730.19952392578,
+    "invested_today": 63492.59942626953,
     "realized_pnl_today": -60.000146484375136,
     "open_positions": [
       {
@@ -249,6 +258,36 @@
           "rsi": 64.1,
           "vol_factor": 1.03,
           "score": 0.436
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3490.4,
+        "buy_time": "2026-07-14 14:05:57",
+        "iteration": 8,
+        "score_info": {
+          "last": 3490.4,
+          "mom_30m_pct": 0.628,
+          "intraday_pct": 0.302,
+          "rsi": 48.3,
+          "vol_factor": 1.0,
+          "score": 1.033
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "buy_price": 2136.0,
+        "buy_time": "2026-07-14 14:05:57",
+        "iteration": 8,
+        "score_info": {
+          "last": 2136.0,
+          "mom_30m_pct": 0.518,
+          "intraday_pct": 0.47,
+          "rsi": 64.1,
+          "vol_factor": 1.0,
+          "score": 0.918
         }
       }
     ],
@@ -484,6 +523,40 @@
           "rsi": 64.1,
           "vol_factor": 1.03,
           "score": 0.436
+        }
+      },
+      {
+        "time": "2026-07-14 14:05:57",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3490.4,
+        "cost": 3490.4,
+        "score": {
+          "last": 3490.4,
+          "mom_30m_pct": 0.628,
+          "intraday_pct": 0.302,
+          "rsi": 48.3,
+          "vol_factor": 1.0,
+          "score": 1.033
+        }
+      },
+      {
+        "time": "2026-07-14 14:05:57",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "price": 2136.0,
+        "cost": 4272.0,
+        "score": {
+          "last": 2136.0,
+          "mom_30m_pct": 0.518,
+          "intraday_pct": 0.47,
+          "rsi": 64.1,
+          "vol_factor": 1.0,
+          "score": 0.918
         }
       }
     ],
