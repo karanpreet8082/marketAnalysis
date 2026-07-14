@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-14",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,18 +102,9 @@
         "invested_today_after": 90364.6,
         "realized_pnl_today_after": 35.6,
         "open_positions_after": 19
-      },
-      {
-        "iteration": 12,
-        "time": "2026-07-14 15:57:23",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 99673.6,
-        "realized_pnl_today_after": 35.6,
-        "open_positions_after": 21
       }
     ],
-    "invested_today": 99673.59996032715,
+    "invested_today": 90364.59971618652,
     "realized_pnl_today": 35.59954833984352,
     "open_positions": [
       {
@@ -399,36 +390,6 @@
           "rsi": 69.3,
           "vol_factor": 1.53,
           "score": 1.344
-        }
-      },
-      {
-        "symbol": "HAVELLS",
-        "qty": 5,
-        "buy_price": 1188.9,
-        "buy_time": "2026-07-14 15:57:23",
-        "iteration": 12,
-        "score_info": {
-          "last": 1188.9,
-          "mom_30m_pct": 0.16,
-          "intraday_pct": 1.485,
-          "rsi": 58.8,
-          "vol_factor": 2.0,
-          "score": 1.686
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 5,
-        "buy_price": 672.9,
-        "buy_time": "2026-07-14 15:57:23",
-        "iteration": 12,
-        "score_info": {
-          "last": 672.9,
-          "mom_30m_pct": 0.343,
-          "intraday_pct": -0.422,
-          "rsi": 60.5,
-          "vol_factor": 2.0,
-          "score": 1.388
         }
       }
     ],
@@ -841,40 +802,6 @@
           "rsi": 69.3,
           "vol_factor": 1.53,
           "score": 1.344
-        }
-      },
-      {
-        "time": "2026-07-14 15:57:23",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "HAVELLS",
-        "qty": 5,
-        "price": 1188.9,
-        "cost": 5944.5,
-        "score": {
-          "last": 1188.9,
-          "mom_30m_pct": 0.16,
-          "intraday_pct": 1.485,
-          "rsi": 58.8,
-          "vol_factor": 2.0,
-          "score": 1.686
-        }
-      },
-      {
-        "time": "2026-07-14 15:57:23",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 5,
-        "price": 672.9,
-        "cost": 3364.5,
-        "score": {
-          "last": 672.9,
-          "mom_30m_pct": 0.343,
-          "intraday_pct": -0.422,
-          "rsi": 60.5,
-          "vol_factor": 2.0,
-          "score": 1.388
         }
       }
     ],
