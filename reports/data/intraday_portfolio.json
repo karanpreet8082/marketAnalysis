@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-14",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 47998.9,
         "realized_pnl_today_after": -60.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-14 13:53:59",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 55730.2,
+        "realized_pnl_today_after": -60.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 47998.89953613281,
+    "invested_today": 55730.19952392578,
     "realized_pnl_today": -60.000146484375136,
     "open_positions": [
       {
@@ -195,6 +204,51 @@
           "rsi": 42.4,
           "vol_factor": 0.06,
           "score": -0.001
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2133.8,
+        "buy_time": "2026-07-14 13:53:59",
+        "iteration": 7,
+        "score_info": {
+          "last": 2133.8,
+          "mom_30m_pct": 0.273,
+          "intraday_pct": 0.466,
+          "rsi": 59.6,
+          "vol_factor": 1.02,
+          "score": 0.565
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 378.3,
+        "buy_time": "2026-07-14 13:53:59",
+        "iteration": 7,
+        "score_info": {
+          "last": 378.3,
+          "mom_30m_pct": 0.225,
+          "intraday_pct": -0.46,
+          "rsi": 59.7,
+          "vol_factor": 1.27,
+          "score": 0.474
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2192.8,
+        "buy_time": "2026-07-14 13:53:59",
+        "iteration": 7,
+        "score_info": {
+          "last": 2192.8,
+          "mom_30m_pct": 0.16,
+          "intraday_pct": 0.546,
+          "rsi": 64.1,
+          "vol_factor": 1.03,
+          "score": 0.436
         }
       }
     ],
@@ -379,6 +433,57 @@
           "rsi": 42.4,
           "vol_factor": 0.06,
           "score": -0.001
+        }
+      },
+      {
+        "time": "2026-07-14 13:53:59",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2133.8,
+        "cost": 2133.8,
+        "score": {
+          "last": 2133.8,
+          "mom_30m_pct": 0.273,
+          "intraday_pct": 0.466,
+          "rsi": 59.6,
+          "vol_factor": 1.02,
+          "score": 0.565
+        }
+      },
+      {
+        "time": "2026-07-14 13:53:59",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 378.3,
+        "cost": 3404.7,
+        "score": {
+          "last": 378.3,
+          "mom_30m_pct": 0.225,
+          "intraday_pct": -0.46,
+          "rsi": 59.7,
+          "vol_factor": 1.27,
+          "score": 0.474
+        }
+      },
+      {
+        "time": "2026-07-14 13:53:59",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2192.8,
+        "cost": 2192.8,
+        "score": {
+          "last": 2192.8,
+          "mom_30m_pct": 0.16,
+          "intraday_pct": 0.546,
+          "rsi": 64.1,
+          "vol_factor": 1.03,
+          "score": 0.436
         }
       }
     ],
