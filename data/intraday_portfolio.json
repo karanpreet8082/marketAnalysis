@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-14",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 15367.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-14 12:01:09",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 23828.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 15367.599853515625,
+    "invested_today": 23828.599853515625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,36 @@
           "rsi": 39.0,
           "vol_factor": 2.0,
           "score": 0.81
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1247.0,
+        "buy_time": "2026-07-14 12:01:09",
+        "iteration": 3,
+        "score_info": {
+          "last": 1247.0,
+          "mom_30m_pct": -0.088,
+          "intraday_pct": 1.746,
+          "rsi": 40.8,
+          "vol_factor": 1.73,
+          "score": 1.124
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 17,
+        "buy_price": 351.0,
+        "buy_time": "2026-07-14 12:01:09",
+        "iteration": 3,
+        "score_info": {
+          "last": 351.0,
+          "mom_30m_pct": 0.386,
+          "intraday_pct": 1.182,
+          "rsi": 55.8,
+          "vol_factor": 0.62,
+          "score": 0.555
         }
       }
     ],
@@ -122,6 +161,40 @@
           "rsi": 39.0,
           "vol_factor": 2.0,
           "score": 0.81
+        }
+      },
+      {
+        "time": "2026-07-14 12:01:09",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1247.0,
+        "cost": 2494.0,
+        "score": {
+          "last": 1247.0,
+          "mom_30m_pct": -0.088,
+          "intraday_pct": 1.746,
+          "rsi": 40.8,
+          "vol_factor": 1.73,
+          "score": 1.124
+        }
+      },
+      {
+        "time": "2026-07-14 12:01:09",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 17,
+        "price": 351.0,
+        "cost": 5967.0,
+        "score": {
+          "last": 351.0,
+          "mom_30m_pct": 0.386,
+          "intraday_pct": 1.182,
+          "rsi": 55.8,
+          "vol_factor": 0.62,
+          "score": 0.555
         }
       }
     ],
