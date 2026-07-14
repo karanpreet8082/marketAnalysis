@@ -1,42 +1,5 @@
 [
   {
-    "timestamp": "2026-06-03 15:54 IST",
-    "budget": 50000.0,
-    "allocated": 49399.03,
-    "positions": 6,
-    "summary": {
-      "total_positions": 6,
-      "total_invested": 49399.03,
-      "cash_reserve": 600.97,
-      "avg_confidence": 0.51,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 25048.03,
-          "percent": 50.1,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 16963.9,
-          "percent": 33.9,
-          "positions": 2
-        },
-        "aggressive": {
-          "amount": 7387.1,
-          "percent": 14.8,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 5.4,
-      "max_loss_percent": 3.8,
-      "sector_distribution": {
-        "Financial Services": 3,
-        "Unknown": 1,
-        "Industrials": 1,
-        "Communication Services": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-06-03 17:02 IST",
     "budget": 50000.0,
     "allocated": 49399.03,
@@ -1842,6 +1805,44 @@
         "Financial Services": 5,
         "Unknown": 1,
         "Energy": 1,
+        "Basic Materials": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-14 12:27 IST",
+    "budget": 50000.0,
+    "allocated": 48490.65,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 48490.65,
+      "cash_reserve": 1509.35,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24862.300000000003,
+          "percent": 49.7,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 16620.35,
+          "percent": 33.2,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7008.0,
+          "percent": 14.0,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 4.9,
+      "max_loss_percent": 3.4,
+      "sector_distribution": {
+        "Energy": 1,
+        "Unknown": 1,
+        "Financial Services": 3,
+        "Communication Services": 1,
         "Basic Materials": 1
       }
     }
