@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-06-03 15:54 IST",
+    "budget": 50000.0,
+    "allocated": 49399.03,
+    "positions": 6,
+    "summary": {
+      "total_positions": 6,
+      "total_invested": 49399.03,
+      "cash_reserve": 600.97,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25048.03,
+          "percent": 50.1,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 16963.9,
+          "percent": 33.9,
+          "positions": 2
+        },
+        "aggressive": {
+          "amount": 7387.1,
+          "percent": 14.8,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 5.4,
+      "max_loss_percent": 3.8,
+      "sector_distribution": {
+        "Financial Services": 3,
+        "Unknown": 1,
+        "Industrials": 1,
+        "Communication Services": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-03 17:02 IST",
     "budget": 50000.0,
     "allocated": 49399.03,
@@ -1804,42 +1841,6 @@
       "sector_distribution": {
         "Financial Services": 5,
         "Unknown": 1,
-        "Energy": 1,
-        "Basic Materials": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-14 12:57 IST",
-    "budget": 50000.0,
-    "allocated": 41207.34,
-    "positions": 6,
-    "summary": {
-      "total_positions": 6,
-      "total_invested": 41207.34,
-      "cash_reserve": 8792.66,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24579.19,
-          "percent": 49.2,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 16628.15,
-          "percent": 33.3,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 0,
-          "percent": 0.0,
-          "positions": 0
-        }
-      },
-      "expected_gain_percent": 4.1,
-      "max_loss_percent": 2.9,
-      "sector_distribution": {
-        "Financial Services": 4,
         "Energy": 1,
         "Basic Materials": 1
       }
