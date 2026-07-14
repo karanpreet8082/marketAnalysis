@@ -1,5 +1,132 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-14",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-14 11:28:09",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7160.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-14 11:43:38",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 15367.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 15367.599853515625,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "COALINDIA",
+        "qty": 12,
+        "buy_price": 435.55,
+        "buy_time": "2026-07-14 11:28:09",
+        "iteration": 1,
+        "score_info": {
+          "last": 435.55,
+          "mom_30m_pct": 0.519,
+          "intraday_pct": 2.098,
+          "rsi": 79.2,
+          "vol_factor": 2.0,
+          "score": 0.908
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1934.0,
+        "buy_time": "2026-07-14 11:28:09",
+        "iteration": 1,
+        "score_info": {
+          "last": 1934.0,
+          "mom_30m_pct": 0.171,
+          "intraday_pct": 1.752,
+          "rsi": 66.7,
+          "vol_factor": 0.54,
+          "score": 0.322
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 29,
+        "buy_price": 283.0,
+        "buy_time": "2026-07-14 11:43:38",
+        "iteration": 2,
+        "score_info": {
+          "last": 283.0,
+          "mom_30m_pct": -0.035,
+          "intraday_pct": -0.457,
+          "rsi": 39.0,
+          "vol_factor": 2.0,
+          "score": 0.81
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-14 11:28:09",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 12,
+        "price": 435.55,
+        "cost": 5226.6,
+        "score": {
+          "last": 435.55,
+          "mom_30m_pct": 0.519,
+          "intraday_pct": 2.098,
+          "rsi": 79.2,
+          "vol_factor": 2.0,
+          "score": 0.908
+        }
+      },
+      {
+        "time": "2026-07-14 11:28:09",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1934.0,
+        "cost": 1934.0,
+        "score": {
+          "last": 1934.0,
+          "mom_30m_pct": 0.171,
+          "intraday_pct": 1.752,
+          "rsi": 66.7,
+          "vol_factor": 0.54,
+          "score": 0.322
+        }
+      },
+      {
+        "time": "2026-07-14 11:43:38",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 29,
+        "price": 283.0,
+        "cost": 8207.0,
+        "score": {
+          "last": 283.0,
+          "mom_30m_pct": -0.035,
+          "intraday_pct": -0.457,
+          "rsi": 39.0,
+          "vol_factor": 2.0,
+          "score": 0.81
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
