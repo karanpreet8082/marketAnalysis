@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-14",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,26 +30,29 @@
         "invested_today_after": 23828.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-14 12:27:36",
+        "n_bought": 1,
+        "n_sold": 1,
+        "invested_today_after": 32050.1,
+        "realized_pnl_today_after": -60.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-14 12:48:23",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 39802.9,
+        "realized_pnl_today_after": -60.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 23828.599853515625,
-    "realized_pnl_today": 0.0,
+    "invested_today": 39802.899658203125,
+    "realized_pnl_today": -60.000146484375136,
     "open_positions": [
-      {
-        "symbol": "COALINDIA",
-        "qty": 12,
-        "buy_price": 435.55,
-        "buy_time": "2026-07-14 11:28:09",
-        "iteration": 1,
-        "score_info": {
-          "last": 435.55,
-          "mom_30m_pct": 0.519,
-          "intraday_pct": 2.098,
-          "rsi": 79.2,
-          "vol_factor": 2.0,
-          "score": 0.908
-        }
-      },
       {
         "symbol": "BHARTIARTL",
         "qty": 1,
@@ -108,6 +111,51 @@
           "rsi": 55.8,
           "vol_factor": 0.62,
           "score": 0.555
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 29,
+        "buy_price": 283.5,
+        "buy_time": "2026-07-14 12:27:36",
+        "iteration": 4,
+        "score_info": {
+          "last": 283.5,
+          "mom_30m_pct": 0.159,
+          "intraday_pct": -0.456,
+          "rsi": 60.0,
+          "vol_factor": 1.61,
+          "score": 0.715
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3493.0,
+        "buy_time": "2026-07-14 12:48:23",
+        "iteration": 5,
+        "score_info": {
+          "last": 3493.0,
+          "mom_30m_pct": 0.451,
+          "intraday_pct": 0.472,
+          "rsi": 67.9,
+          "vol_factor": 0.47,
+          "score": 0.292
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "buy_price": 2129.9,
+        "buy_time": "2026-07-14 12:48:23",
+        "iteration": 5,
+        "score_info": {
+          "last": 2129.9,
+          "mom_30m_pct": 0.103,
+          "intraday_pct": -0.332,
+          "rsi": 34.9,
+          "vol_factor": 0.94,
+          "score": -0.001
         }
       }
     ],
@@ -195,6 +243,69 @@
           "rsi": 55.8,
           "vol_factor": 0.62,
           "score": 0.555
+        }
+      },
+      {
+        "time": "2026-07-14 12:27:36",
+        "iteration": 4,
+        "action": "SELL",
+        "symbol": "COALINDIA",
+        "qty": 12,
+        "price": 430.55,
+        "buy_price": 435.55,
+        "pnl": -60.0,
+        "pnl_pct": -1.15,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-14 12:27:36",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 29,
+        "price": 283.5,
+        "cost": 8221.5,
+        "score": {
+          "last": 283.5,
+          "mom_30m_pct": 0.159,
+          "intraday_pct": -0.456,
+          "rsi": 60.0,
+          "vol_factor": 1.61,
+          "score": 0.715
+        }
+      },
+      {
+        "time": "2026-07-14 12:48:23",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3493.0,
+        "cost": 3493.0,
+        "score": {
+          "last": 3493.0,
+          "mom_30m_pct": 0.451,
+          "intraday_pct": 0.472,
+          "rsi": 67.9,
+          "vol_factor": 0.47,
+          "score": 0.292
+        }
+      },
+      {
+        "time": "2026-07-14 12:48:23",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "price": 2129.9,
+        "cost": 4259.8,
+        "score": {
+          "last": 2129.9,
+          "mom_30m_pct": 0.103,
+          "intraday_pct": -0.332,
+          "rsi": 34.9,
+          "vol_factor": 0.94,
+          "score": -0.001
         }
       }
     ],
