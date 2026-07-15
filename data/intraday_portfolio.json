@@ -1,868 +1,5 @@
 {
-  "current_day": {
-    "date": "2026-07-15",
-    "total_iterations": 14,
-    "iterations_run": 13,
-    "iteration_log": [
-      {
-        "iteration": 1,
-        "time": "2026-07-15 11:30:09",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 5530.3,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 2
-      },
-      {
-        "iteration": 2,
-        "time": "2026-07-15 11:48:18",
-        "n_bought": 2,
-        "n_sold": 1,
-        "invested_today_after": 12744.1,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 3
-      },
-      {
-        "iteration": 3,
-        "time": "2026-07-15 12:03:52",
-        "n_bought": 1,
-        "n_sold": 0,
-        "invested_today_after": 20234.1,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 4
-      },
-      {
-        "iteration": 4,
-        "time": "2026-07-15 12:30:12",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 28176.2,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 6
-      },
-      {
-        "iteration": 5,
-        "time": "2026-07-15 12:51:57",
-        "n_bought": 1,
-        "n_sold": 0,
-        "invested_today_after": 35578.2,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 7
-      },
-      {
-        "iteration": 6,
-        "time": "2026-07-15 13:01:15",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 44445.9,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 9
-      },
-      {
-        "iteration": 7,
-        "time": "2026-07-15 13:59:50",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 50538.8,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 11
-      },
-      {
-        "iteration": 8,
-        "time": "2026-07-15 14:12:30",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 60084.7,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 13
-      },
-      {
-        "iteration": 9,
-        "time": "2026-07-15 14:48:14",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 69291.7,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 15
-      },
-      {
-        "iteration": 10,
-        "time": "2026-07-15 15:03:23",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 78509.8,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 17
-      },
-      {
-        "iteration": 11,
-        "time": "2026-07-15 15:46:14",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 85571.0,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 19
-      },
-      {
-        "iteration": 12,
-        "time": "2026-07-15 16:01:01",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 99201.7,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 22
-      },
-      {
-        "iteration": 13,
-        "time": "2026-07-15 16:34:01",
-        "n_bought": 0,
-        "n_sold": 0,
-        "invested_today_after": 99201.7,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 22
-      }
-    ],
-    "invested_today": 99201.69934082031,
-    "realized_pnl_today": -80.39985351562473,
-    "open_positions": [
-      {
-        "symbol": "TECHM",
-        "qty": 1,
-        "buy_price": 1498.0,
-        "buy_time": "2026-07-15 11:30:09",
-        "iteration": 1,
-        "score_info": {
-          "last": 1498.0,
-          "mom_30m_pct": 1.244,
-          "intraday_pct": -0.531,
-          "rsi": 65.4,
-          "vol_factor": 1.81,
-          "score": 2.519
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 3,
-        "buy_price": 1444.8,
-        "buy_time": "2026-07-15 11:48:18",
-        "iteration": 2,
-        "score_info": {
-          "last": 1444.8,
-          "mom_30m_pct": 0.278,
-          "intraday_pct": -0.324,
-          "rsi": 69.6,
-          "vol_factor": 2.0,
-          "score": 1.319
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 2879.4,
-        "buy_time": "2026-07-15 11:48:18",
-        "iteration": 2,
-        "score_info": {
-          "last": 2879.4,
-          "mom_30m_pct": 0.157,
-          "intraday_pct": 0.293,
-          "rsi": 57.2,
-          "vol_factor": 1.99,
-          "score": 1.308
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 5,
-        "buy_price": 1498.0,
-        "buy_time": "2026-07-15 12:03:52",
-        "iteration": 3,
-        "score_info": {
-          "last": 1498.0,
-          "mom_30m_pct": 0.281,
-          "intraday_pct": -0.2,
-          "rsi": 70.7,
-          "vol_factor": 1.09,
-          "score": 0.451
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 2,
-        "buy_price": 1032.7,
-        "buy_time": "2026-07-15 12:30:12",
-        "iteration": 4,
-        "score_info": {
-          "last": 1032.7,
-          "mom_30m_pct": 0.771,
-          "intraday_pct": 1.136,
-          "rsi": 63.9,
-          "vol_factor": 1.0,
-          "score": 1.497
-        }
-      },
-      {
-        "symbol": "SUNPHARMA",
-        "qty": 3,
-        "buy_price": 1958.9,
-        "buy_time": "2026-07-15 12:30:12",
-        "iteration": 4,
-        "score_info": {
-          "last": 1958.9,
-          "mom_30m_pct": 0.138,
-          "intraday_pct": 0.699,
-          "rsi": 56.3,
-          "vol_factor": 1.0,
-          "score": 0.417
-        }
-      },
-      {
-        "symbol": "EICHERMOT",
-        "qty": 1,
-        "buy_price": 7402.0,
-        "buy_time": "2026-07-15 12:51:57",
-        "iteration": 5,
-        "score_info": {
-          "last": 7402.0,
-          "mom_30m_pct": -0.014,
-          "intraday_pct": 2.125,
-          "rsi": 47.0,
-          "vol_factor": 0.25,
-          "score": -0.135
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 9,
-        "buy_price": 310.0,
-        "buy_time": "2026-07-15 13:01:15",
-        "iteration": 6,
-        "score_info": {
-          "last": 310.0,
-          "mom_30m_pct": 0.065,
-          "intraday_pct": 1.907,
-          "rsi": 44.8,
-          "vol_factor": 0.1,
-          "score": -0.235
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 6,
-        "buy_price": 1012.95,
-        "buy_time": "2026-07-15 13:01:15",
-        "iteration": 6,
-        "score_info": {
-          "last": 1012.95,
-          "mom_30m_pct": -0.163,
-          "intraday_pct": 1.224,
-          "rsi": 34.8,
-          "vol_factor": 0.35,
-          "score": -0.531
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 2,
-        "buy_price": 1498.7,
-        "buy_time": "2026-07-15 13:59:50",
-        "iteration": 7,
-        "score_info": {
-          "last": 1498.7,
-          "mom_30m_pct": 0.651,
-          "intraday_pct": 0.335,
-          "rsi": 70.5,
-          "vol_factor": 1.06,
-          "score": 1.14
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 10,
-        "buy_price": 309.55,
-        "buy_time": "2026-07-15 13:59:50",
-        "iteration": 7,
-        "score_info": {
-          "last": 309.55,
-          "mom_30m_pct": -0.193,
-          "intraday_pct": 1.425,
-          "rsi": 53.2,
-          "vol_factor": 2.0,
-          "score": 1.137
-        }
-      },
-      {
-        "symbol": "AXISBANK",
-        "qty": 5,
-        "buy_price": 1307.7,
-        "buy_time": "2026-07-15 14:12:30",
-        "iteration": 8,
-        "score_info": {
-          "last": 1307.7,
-          "mom_30m_pct": -0.137,
-          "intraday_pct": -0.721,
-          "rsi": 38.0,
-          "vol_factor": 2.0,
-          "score": 0.577
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 2,
-        "buy_price": 1503.7,
-        "buy_time": "2026-07-15 14:12:30",
-        "iteration": 8,
-        "score_info": {
-          "last": 1503.7,
-          "mom_30m_pct": 1.001,
-          "intraday_pct": 0.838,
-          "rsi": 76.9,
-          "vol_factor": 1.18,
-          "score": 0.437
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 3,
-        "buy_price": 1028.4,
-        "buy_time": "2026-07-15 14:48:14",
-        "iteration": 9,
-        "score_info": {
-          "last": 1028.4,
-          "mom_30m_pct": 0.616,
-          "intraday_pct": 1.54,
-          "rsi": 66.7,
-          "vol_factor": 2.0,
-          "score": 2.387
-        }
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "qty": 6,
-        "buy_price": 1020.3,
-        "buy_time": "2026-07-15 14:48:14",
-        "iteration": 9,
-        "score_info": {
-          "last": 1020.3,
-          "mom_30m_pct": 0.098,
-          "intraday_pct": 1.482,
-          "rsi": 55.3,
-          "vol_factor": 1.78,
-          "score": 1.368
-        }
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "qty": 6,
-        "buy_price": 1021.7,
-        "buy_time": "2026-07-15 15:03:23",
-        "iteration": 10,
-        "score_info": {
-          "last": 1021.7,
-          "mom_30m_pct": 0.235,
-          "intraday_pct": 1.561,
-          "rsi": 58.5,
-          "vol_factor": 2.0,
-          "score": 1.821
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 3,
-        "buy_price": 1029.3,
-        "buy_time": "2026-07-15 15:03:23",
-        "iteration": 10,
-        "score_info": {
-          "last": 1029.3,
-          "mom_30m_pct": 0.636,
-          "intraday_pct": 1.13,
-          "rsi": 74.2,
-          "vol_factor": 0.85,
-          "score": 1.141
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 2,
-        "buy_price": 1502.6,
-        "buy_time": "2026-07-15 15:46:14",
-        "iteration": 11,
-        "score_info": {
-          "last": 1502.6,
-          "mom_30m_pct": 0.401,
-          "intraday_pct": 2.476,
-          "rsi": 44.9,
-          "vol_factor": 2.0,
-          "score": 2.344
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 4,
-        "buy_price": 1014.0,
-        "buy_time": "2026-07-15 15:46:14",
-        "iteration": 11,
-        "score_info": {
-          "last": 1014.0,
-          "mom_30m_pct": 0.64,
-          "intraday_pct": 0.66,
-          "rsi": 46.7,
-          "vol_factor": 2.0,
-          "score": 2.158
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 4,
-        "buy_price": 1014.0,
-        "buy_time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "score_info": {
-          "last": 1014.0,
-          "mom_30m_pct": 0.64,
-          "intraday_pct": 0.66,
-          "rsi": 46.7,
-          "vol_factor": 2.0,
-          "score": 2.158
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 3579.9,
-        "buy_time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "score_info": {
-          "last": 3579.9,
-          "mom_30m_pct": 0.706,
-          "intraday_pct": 0.842,
-          "rsi": 45.1,
-          "vol_factor": 1.82,
-          "score": 2.135
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 4,
-        "buy_price": 1498.7,
-        "buy_time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "score_info": {
-          "last": 1498.7,
-          "mom_30m_pct": 0.14,
-          "intraday_pct": 2.21,
-          "rsi": 38.3,
-          "vol_factor": 2.0,
-          "score": 1.873
-        }
-      }
-    ],
-    "trades": [
-      {
-        "time": "2026-07-15 11:30:09",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 1,
-        "price": 1498.0,
-        "cost": 1498.0,
-        "score": {
-          "last": 1498.0,
-          "mom_30m_pct": 1.244,
-          "intraday_pct": -0.531,
-          "rsi": 65.4,
-          "vol_factor": 1.81,
-          "score": 2.519
-        }
-      },
-      {
-        "time": "2026-07-15 11:30:09",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "AXISBANK",
-        "qty": 3,
-        "price": 1344.1,
-        "cost": 4032.3,
-        "score": {
-          "last": 1344.1,
-          "mom_30m_pct": 0.667,
-          "intraday_pct": 2.494,
-          "rsi": 63.3,
-          "vol_factor": 1.0,
-          "score": 1.748
-        }
-      },
-      {
-        "time": "2026-07-15 11:48:18",
-        "iteration": 2,
-        "action": "SELL",
-        "symbol": "AXISBANK",
-        "qty": 3,
-        "price": 1317.3,
-        "buy_price": 1344.1,
-        "pnl": -80.4,
-        "pnl_pct": -1.99,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-07-15 11:48:18",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "CIPLA",
-        "qty": 3,
-        "price": 1444.8,
-        "cost": 4334.4,
-        "score": {
-          "last": 1444.8,
-          "mom_30m_pct": 0.278,
-          "intraday_pct": -0.324,
-          "rsi": 69.6,
-          "vol_factor": 2.0,
-          "score": 1.319
-        }
-      },
-      {
-        "time": "2026-07-15 11:48:18",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "TRENT",
-        "qty": 1,
-        "price": 2879.4,
-        "cost": 2879.4,
-        "score": {
-          "last": 2879.4,
-          "mom_30m_pct": 0.157,
-          "intraday_pct": 0.293,
-          "rsi": 57.2,
-          "vol_factor": 1.99,
-          "score": 1.308
-        }
-      },
-      {
-        "time": "2026-07-15 12:03:52",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 5,
-        "price": 1498.0,
-        "cost": 7490.0,
-        "score": {
-          "last": 1498.0,
-          "mom_30m_pct": 0.281,
-          "intraday_pct": -0.2,
-          "rsi": 70.7,
-          "vol_factor": 1.09,
-          "score": 0.451
-        }
-      },
-      {
-        "time": "2026-07-15 12:30:12",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "SBIN",
-        "qty": 2,
-        "price": 1032.7,
-        "cost": 2065.4,
-        "score": {
-          "last": 1032.7,
-          "mom_30m_pct": 0.771,
-          "intraday_pct": 1.136,
-          "rsi": 63.9,
-          "vol_factor": 1.0,
-          "score": 1.497
-        }
-      },
-      {
-        "time": "2026-07-15 12:30:12",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "SUNPHARMA",
-        "qty": 3,
-        "price": 1958.9,
-        "cost": 5876.7,
-        "score": {
-          "last": 1958.9,
-          "mom_30m_pct": 0.138,
-          "intraday_pct": 0.699,
-          "rsi": 56.3,
-          "vol_factor": 1.0,
-          "score": 0.417
-        }
-      },
-      {
-        "time": "2026-07-15 12:51:57",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "EICHERMOT",
-        "qty": 1,
-        "price": 7402.0,
-        "cost": 7402.0,
-        "score": {
-          "last": 7402.0,
-          "mom_30m_pct": -0.014,
-          "intraday_pct": 2.125,
-          "rsi": 47.0,
-          "vol_factor": 0.25,
-          "score": -0.135
-        }
-      },
-      {
-        "time": "2026-07-15 13:01:15",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 9,
-        "price": 310.0,
-        "cost": 2790.0,
-        "score": {
-          "last": 310.0,
-          "mom_30m_pct": 0.065,
-          "intraday_pct": 1.907,
-          "rsi": 44.8,
-          "vol_factor": 0.1,
-          "score": -0.235
-        }
-      },
-      {
-        "time": "2026-07-15 13:01:15",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 6,
-        "price": 1012.95,
-        "cost": 6077.7,
-        "score": {
-          "last": 1012.95,
-          "mom_30m_pct": -0.163,
-          "intraday_pct": 1.224,
-          "rsi": 34.8,
-          "vol_factor": 0.35,
-          "score": -0.531
-        }
-      },
-      {
-        "time": "2026-07-15 13:59:50",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 2,
-        "price": 1498.7,
-        "cost": 2997.4,
-        "score": {
-          "last": 1498.7,
-          "mom_30m_pct": 0.651,
-          "intraday_pct": 0.335,
-          "rsi": 70.5,
-          "vol_factor": 1.06,
-          "score": 1.14
-        }
-      },
-      {
-        "time": "2026-07-15 13:59:50",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 10,
-        "price": 309.55,
-        "cost": 3095.5,
-        "score": {
-          "last": 309.55,
-          "mom_30m_pct": -0.193,
-          "intraday_pct": 1.425,
-          "rsi": 53.2,
-          "vol_factor": 2.0,
-          "score": 1.137
-        }
-      },
-      {
-        "time": "2026-07-15 14:12:30",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "AXISBANK",
-        "qty": 5,
-        "price": 1307.7,
-        "cost": 6538.5,
-        "score": {
-          "last": 1307.7,
-          "mom_30m_pct": -0.137,
-          "intraday_pct": -0.721,
-          "rsi": 38.0,
-          "vol_factor": 2.0,
-          "score": 0.577
-        }
-      },
-      {
-        "time": "2026-07-15 14:12:30",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 2,
-        "price": 1503.7,
-        "cost": 3007.4,
-        "score": {
-          "last": 1503.7,
-          "mom_30m_pct": 1.001,
-          "intraday_pct": 0.838,
-          "rsi": 76.9,
-          "vol_factor": 1.18,
-          "score": 0.437
-        }
-      },
-      {
-        "time": "2026-07-15 14:48:14",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "SBIN",
-        "qty": 3,
-        "price": 1028.4,
-        "cost": 3085.2,
-        "score": {
-          "last": 1028.4,
-          "mom_30m_pct": 0.616,
-          "intraday_pct": 1.54,
-          "rsi": 66.7,
-          "vol_factor": 2.0,
-          "score": 2.387
-        }
-      },
-      {
-        "time": "2026-07-15 14:48:14",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "BAJFINANCE",
-        "qty": 6,
-        "price": 1020.3,
-        "cost": 6121.8,
-        "score": {
-          "last": 1020.3,
-          "mom_30m_pct": 0.098,
-          "intraday_pct": 1.482,
-          "rsi": 55.3,
-          "vol_factor": 1.78,
-          "score": 1.368
-        }
-      },
-      {
-        "time": "2026-07-15 15:03:23",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "BAJFINANCE",
-        "qty": 6,
-        "price": 1021.7,
-        "cost": 6130.2,
-        "score": {
-          "last": 1021.7,
-          "mom_30m_pct": 0.235,
-          "intraday_pct": 1.561,
-          "rsi": 58.5,
-          "vol_factor": 2.0,
-          "score": 1.821
-        }
-      },
-      {
-        "time": "2026-07-15 15:03:23",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "SBIN",
-        "qty": 3,
-        "price": 1029.3,
-        "cost": 3087.9,
-        "score": {
-          "last": 1029.3,
-          "mom_30m_pct": 0.636,
-          "intraday_pct": 1.13,
-          "rsi": 74.2,
-          "vol_factor": 0.85,
-          "score": 1.141
-        }
-      },
-      {
-        "time": "2026-07-15 15:46:14",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 2,
-        "price": 1502.6,
-        "cost": 3005.2,
-        "score": {
-          "last": 1502.6,
-          "mom_30m_pct": 0.401,
-          "intraday_pct": 2.476,
-          "rsi": 44.9,
-          "vol_factor": 2.0,
-          "score": 2.344
-        }
-      },
-      {
-        "time": "2026-07-15 15:46:14",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 4,
-        "price": 1014.0,
-        "cost": 4056.0,
-        "score": {
-          "last": 1014.0,
-          "mom_30m_pct": 0.64,
-          "intraday_pct": 0.66,
-          "rsi": 46.7,
-          "vol_factor": 2.0,
-          "score": 2.158
-        }
-      },
-      {
-        "time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 4,
-        "price": 1014.0,
-        "cost": 4056.0,
-        "score": {
-          "last": 1014.0,
-          "mom_30m_pct": 0.64,
-          "intraday_pct": 0.66,
-          "rsi": 46.7,
-          "vol_factor": 2.0,
-          "score": 2.158
-        }
-      },
-      {
-        "time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 3579.9,
-        "cost": 3579.9,
-        "score": {
-          "last": 3579.9,
-          "mom_30m_pct": 0.706,
-          "intraday_pct": 0.842,
-          "rsi": 45.1,
-          "vol_factor": 1.82,
-          "score": 2.135
-        }
-      },
-      {
-        "time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 4,
-        "price": 1498.7,
-        "cost": 5994.8,
-        "score": {
-          "last": 1498.7,
-          "mom_30m_pct": 0.14,
-          "intraday_pct": 2.21,
-          "rsi": 38.3,
-          "vol_factor": 2.0,
-          "score": 1.873
-        }
-      }
-    ],
-    "closed": false
-  },
+  "current_day": null,
   "history": [
     {
       "date": "2026-06-03",
@@ -25713,20 +24850,696 @@
       "n_sells": 24,
       "feedback": "Day P&L \u20b9-46 on \u20b999674 deployed (-0.05%). Worst trade: COALINDIA (P&L \u20b9-60, -1.15%). Consider tighter stop on entries with weaker momentum scores. 21 EOD force-sells contributed \u20b9-82. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
+    },
+    {
+      "date": "2026-07-15",
+      "iterations_run": 14,
+      "invested": 99201.7,
+      "realized_pnl": -105.45,
+      "pnl_pct": -0.106,
+      "trades": [
+        {
+          "time": "2026-07-15 11:30:09",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 1,
+          "price": 1498.0,
+          "cost": 1498.0,
+          "score": {
+            "last": 1498.0,
+            "mom_30m_pct": 1.244,
+            "intraday_pct": -0.531,
+            "rsi": 65.4,
+            "vol_factor": 1.81,
+            "score": 2.519
+          }
+        },
+        {
+          "time": "2026-07-15 11:30:09",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "AXISBANK",
+          "qty": 3,
+          "price": 1344.1,
+          "cost": 4032.3,
+          "score": {
+            "last": 1344.1,
+            "mom_30m_pct": 0.667,
+            "intraday_pct": 2.494,
+            "rsi": 63.3,
+            "vol_factor": 1.0,
+            "score": 1.748
+          }
+        },
+        {
+          "time": "2026-07-15 11:48:18",
+          "iteration": 2,
+          "action": "SELL",
+          "symbol": "AXISBANK",
+          "qty": 3,
+          "price": 1317.3,
+          "buy_price": 1344.1,
+          "pnl": -80.4,
+          "pnl_pct": -1.99,
+          "reason": "STOP_LOSS"
+        },
+        {
+          "time": "2026-07-15 11:48:18",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "CIPLA",
+          "qty": 3,
+          "price": 1444.8,
+          "cost": 4334.4,
+          "score": {
+            "last": 1444.8,
+            "mom_30m_pct": 0.278,
+            "intraday_pct": -0.324,
+            "rsi": 69.6,
+            "vol_factor": 2.0,
+            "score": 1.319
+          }
+        },
+        {
+          "time": "2026-07-15 11:48:18",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 2879.4,
+          "cost": 2879.4,
+          "score": {
+            "last": 2879.4,
+            "mom_30m_pct": 0.157,
+            "intraday_pct": 0.293,
+            "rsi": 57.2,
+            "vol_factor": 1.99,
+            "score": 1.308
+          }
+        },
+        {
+          "time": "2026-07-15 12:03:52",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 5,
+          "price": 1498.0,
+          "cost": 7490.0,
+          "score": {
+            "last": 1498.0,
+            "mom_30m_pct": 0.281,
+            "intraday_pct": -0.2,
+            "rsi": 70.7,
+            "vol_factor": 1.09,
+            "score": 0.451
+          }
+        },
+        {
+          "time": "2026-07-15 12:30:12",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "SBIN",
+          "qty": 2,
+          "price": 1032.7,
+          "cost": 2065.4,
+          "score": {
+            "last": 1032.7,
+            "mom_30m_pct": 0.771,
+            "intraday_pct": 1.136,
+            "rsi": 63.9,
+            "vol_factor": 1.0,
+            "score": 1.497
+          }
+        },
+        {
+          "time": "2026-07-15 12:30:12",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "SUNPHARMA",
+          "qty": 3,
+          "price": 1958.9,
+          "cost": 5876.7,
+          "score": {
+            "last": 1958.9,
+            "mom_30m_pct": 0.138,
+            "intraday_pct": 0.699,
+            "rsi": 56.3,
+            "vol_factor": 1.0,
+            "score": 0.417
+          }
+        },
+        {
+          "time": "2026-07-15 12:51:57",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "EICHERMOT",
+          "qty": 1,
+          "price": 7402.0,
+          "cost": 7402.0,
+          "score": {
+            "last": 7402.0,
+            "mom_30m_pct": -0.014,
+            "intraday_pct": 2.125,
+            "rsi": 47.0,
+            "vol_factor": 0.25,
+            "score": -0.135
+          }
+        },
+        {
+          "time": "2026-07-15 13:01:15",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "BPCL",
+          "qty": 9,
+          "price": 310.0,
+          "cost": 2790.0,
+          "score": {
+            "last": 310.0,
+            "mom_30m_pct": 0.065,
+            "intraday_pct": 1.907,
+            "rsi": 44.8,
+            "vol_factor": 0.1,
+            "score": -0.235
+          }
+        },
+        {
+          "time": "2026-07-15 13:01:15",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 6,
+          "price": 1012.95,
+          "cost": 6077.7,
+          "score": {
+            "last": 1012.95,
+            "mom_30m_pct": -0.163,
+            "intraday_pct": 1.224,
+            "rsi": 34.8,
+            "vol_factor": 0.35,
+            "score": -0.531
+          }
+        },
+        {
+          "time": "2026-07-15 13:59:50",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1498.7,
+          "cost": 2997.4,
+          "score": {
+            "last": 1498.7,
+            "mom_30m_pct": 0.651,
+            "intraday_pct": 0.335,
+            "rsi": 70.5,
+            "vol_factor": 1.06,
+            "score": 1.14
+          }
+        },
+        {
+          "time": "2026-07-15 13:59:50",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "BPCL",
+          "qty": 10,
+          "price": 309.55,
+          "cost": 3095.5,
+          "score": {
+            "last": 309.55,
+            "mom_30m_pct": -0.193,
+            "intraday_pct": 1.425,
+            "rsi": 53.2,
+            "vol_factor": 2.0,
+            "score": 1.137
+          }
+        },
+        {
+          "time": "2026-07-15 14:12:30",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "AXISBANK",
+          "qty": 5,
+          "price": 1307.7,
+          "cost": 6538.5,
+          "score": {
+            "last": 1307.7,
+            "mom_30m_pct": -0.137,
+            "intraday_pct": -0.721,
+            "rsi": 38.0,
+            "vol_factor": 2.0,
+            "score": 0.577
+          }
+        },
+        {
+          "time": "2026-07-15 14:12:30",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1503.7,
+          "cost": 3007.4,
+          "score": {
+            "last": 1503.7,
+            "mom_30m_pct": 1.001,
+            "intraday_pct": 0.838,
+            "rsi": 76.9,
+            "vol_factor": 1.18,
+            "score": 0.437
+          }
+        },
+        {
+          "time": "2026-07-15 14:48:14",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "SBIN",
+          "qty": 3,
+          "price": 1028.4,
+          "cost": 3085.2,
+          "score": {
+            "last": 1028.4,
+            "mom_30m_pct": 0.616,
+            "intraday_pct": 1.54,
+            "rsi": 66.7,
+            "vol_factor": 2.0,
+            "score": 2.387
+          }
+        },
+        {
+          "time": "2026-07-15 14:48:14",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "BAJFINANCE",
+          "qty": 6,
+          "price": 1020.3,
+          "cost": 6121.8,
+          "score": {
+            "last": 1020.3,
+            "mom_30m_pct": 0.098,
+            "intraday_pct": 1.482,
+            "rsi": 55.3,
+            "vol_factor": 1.78,
+            "score": 1.368
+          }
+        },
+        {
+          "time": "2026-07-15 15:03:23",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "BAJFINANCE",
+          "qty": 6,
+          "price": 1021.7,
+          "cost": 6130.2,
+          "score": {
+            "last": 1021.7,
+            "mom_30m_pct": 0.235,
+            "intraday_pct": 1.561,
+            "rsi": 58.5,
+            "vol_factor": 2.0,
+            "score": 1.821
+          }
+        },
+        {
+          "time": "2026-07-15 15:03:23",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "SBIN",
+          "qty": 3,
+          "price": 1029.3,
+          "cost": 3087.9,
+          "score": {
+            "last": 1029.3,
+            "mom_30m_pct": 0.636,
+            "intraday_pct": 1.13,
+            "rsi": 74.2,
+            "vol_factor": 0.85,
+            "score": 1.141
+          }
+        },
+        {
+          "time": "2026-07-15 15:46:14",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1502.6,
+          "cost": 3005.2,
+          "score": {
+            "last": 1502.6,
+            "mom_30m_pct": 0.401,
+            "intraday_pct": 2.476,
+            "rsi": 44.9,
+            "vol_factor": 2.0,
+            "score": 2.344
+          }
+        },
+        {
+          "time": "2026-07-15 15:46:14",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 4,
+          "price": 1014.0,
+          "cost": 4056.0,
+          "score": {
+            "last": 1014.0,
+            "mom_30m_pct": 0.64,
+            "intraday_pct": 0.66,
+            "rsi": 46.7,
+            "vol_factor": 2.0,
+            "score": 2.158
+          }
+        },
+        {
+          "time": "2026-07-15 16:01:01",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 4,
+          "price": 1014.0,
+          "cost": 4056.0,
+          "score": {
+            "last": 1014.0,
+            "mom_30m_pct": 0.64,
+            "intraday_pct": 0.66,
+            "rsi": 46.7,
+            "vol_factor": 2.0,
+            "score": 2.158
+          }
+        },
+        {
+          "time": "2026-07-15 16:01:01",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 3579.9,
+          "cost": 3579.9,
+          "score": {
+            "last": 3579.9,
+            "mom_30m_pct": 0.706,
+            "intraday_pct": 0.842,
+            "rsi": 45.1,
+            "vol_factor": 1.82,
+            "score": 2.135
+          }
+        },
+        {
+          "time": "2026-07-15 16:01:01",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 4,
+          "price": 1498.7,
+          "cost": 5994.8,
+          "score": {
+            "last": 1498.7,
+            "mom_30m_pct": 0.14,
+            "intraday_pct": 2.21,
+            "rsi": 38.3,
+            "vol_factor": 2.0,
+            "score": 1.873
+          }
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 1,
+          "price": 1498.7,
+          "buy_price": 1498.0,
+          "pnl": 0.7,
+          "pnl_pct": 0.05,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "CIPLA",
+          "qty": 3,
+          "price": 1438.0,
+          "buy_price": 1444.8,
+          "pnl": -20.4,
+          "pnl_pct": -0.47,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 2870.9,
+          "buy_price": 2879.4,
+          "pnl": -8.5,
+          "pnl_pct": -0.3,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 5,
+          "price": 1498.7,
+          "buy_price": 1498.0,
+          "pnl": 3.5,
+          "pnl_pct": 0.05,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SBIN",
+          "qty": 2,
+          "price": 1030.9,
+          "buy_price": 1032.7,
+          "pnl": -3.6,
+          "pnl_pct": -0.17,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SUNPHARMA",
+          "qty": 3,
+          "price": 1953.0,
+          "buy_price": 1958.9,
+          "pnl": -17.7,
+          "pnl_pct": -0.3,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "EICHERMOT",
+          "qty": 1,
+          "price": 7404.5,
+          "buy_price": 7402.0,
+          "pnl": 2.5,
+          "pnl_pct": 0.03,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BPCL",
+          "qty": 9,
+          "price": 310.05,
+          "buy_price": 310.0,
+          "pnl": 0.45,
+          "pnl_pct": 0.02,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 6,
+          "price": 1014.0,
+          "buy_price": 1012.95,
+          "pnl": 6.3,
+          "pnl_pct": 0.1,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1498.7,
+          "buy_price": 1498.7,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BPCL",
+          "qty": 10,
+          "price": 310.05,
+          "buy_price": 309.55,
+          "pnl": 5.0,
+          "pnl_pct": 0.16,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "AXISBANK",
+          "qty": 5,
+          "price": 1312.3,
+          "buy_price": 1307.7,
+          "pnl": 23.0,
+          "pnl_pct": 0.35,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1498.7,
+          "buy_price": 1503.7,
+          "pnl": -10.0,
+          "pnl_pct": -0.33,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SBIN",
+          "qty": 3,
+          "price": 1030.9,
+          "buy_price": 1028.4,
+          "pnl": 7.5,
+          "pnl_pct": 0.24,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BAJFINANCE",
+          "qty": 6,
+          "price": 1020.1,
+          "buy_price": 1020.3,
+          "pnl": -1.2,
+          "pnl_pct": -0.02,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BAJFINANCE",
+          "qty": 6,
+          "price": 1020.1,
+          "buy_price": 1021.7,
+          "pnl": -9.6,
+          "pnl_pct": -0.16,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SBIN",
+          "qty": 3,
+          "price": 1030.9,
+          "buy_price": 1029.3,
+          "pnl": 4.8,
+          "pnl_pct": 0.16,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1498.7,
+          "buy_price": 1502.6,
+          "pnl": -7.8,
+          "pnl_pct": -0.26,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 4,
+          "price": 1014.0,
+          "buy_price": 1014.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 4,
+          "price": 1014.0,
+          "buy_price": 1014.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 3579.9,
+          "buy_price": 3579.9,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-07-15 16:47:24",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 4,
+          "price": 1498.7,
+          "buy_price": 1498.7,
+          "pnl": -0.0,
+          "pnl_pct": -0.0,
+          "reason": "EOD_FORCE_SELL"
+        }
+      ],
+      "n_buys": 23,
+      "n_sells": 23,
+      "feedback": "Day P&L \u20b9-105 on \u20b999202 deployed (-0.11%). Worst trade: AXISBANK (P&L \u20b9-80, -1.99%). Consider tighter stop on entries with weaker momentum scores. 22 EOD force-sells contributed \u20b9-25. Earlier intraday exits (lower take-profit threshold) might have preserved capital.",
+      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 31,
+    "total_days": 32,
     "winning_days": 15,
-    "losing_days": 14,
-    "total_realized_pnl": -746.58,
+    "losing_days": 15,
+    "total_realized_pnl": -852.03,
     "best_day_pnl": 263.9,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-06-04",
-        "note": "Day P&L \u20b97 on \u20b998694 deployed (0.01%). Worst trade: COALINDIA (P&L \u20b9-13, -0.43%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters."
-      },
       {
         "date": "2026-06-05",
         "note": "Day P&L \u20b985 on \u20b999956 deployed (0.08%). Worst trade: ASIANPAINT (P&L \u20b9-22, -0.81%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -25842,6 +25655,10 @@
       {
         "date": "2026-07-14",
         "note": "Day P&L \u20b9-46 on \u20b999674 deployed (-0.05%). Worst trade: COALINDIA (P&L \u20b9-60, -1.15%). Consider tighter stop on entries with weaker momentum scores. 21 EOD force-sells contributed \u20b9-82. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
+      {
+        "date": "2026-07-15",
+        "note": "Day P&L \u20b9-105 on \u20b999202 deployed (-0.11%). Worst trade: AXISBANK (P&L \u20b9-80, -1.99%). Consider tighter stop on entries with weaker momentum scores. 22 EOD force-sells contributed \u20b9-25. Earlier intraday exits (lower take-profit threshold) might have preserved capital."
       }
     ]
   }
