@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-15",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,18 +84,9 @@
         "invested_today_after": 69291.7,
         "realized_pnl_today_after": -80.4,
         "open_positions_after": 15
-      },
-      {
-        "iteration": 10,
-        "time": "2026-07-15 15:03:23",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 78509.8,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 17
       }
     ],
-    "invested_today": 78509.79968261719,
+    "invested_today": 69291.69946289062,
     "realized_pnl_today": -80.39985351562473,
     "open_positions": [
       {
@@ -321,36 +312,6 @@
           "rsi": 55.3,
           "vol_factor": 1.78,
           "score": 1.368
-        }
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "qty": 6,
-        "buy_price": 1021.7,
-        "buy_time": "2026-07-15 15:03:23",
-        "iteration": 10,
-        "score_info": {
-          "last": 1021.7,
-          "mom_30m_pct": 0.235,
-          "intraday_pct": 1.561,
-          "rsi": 58.5,
-          "vol_factor": 2.0,
-          "score": 1.821
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 3,
-        "buy_price": 1029.3,
-        "buy_time": "2026-07-15 15:03:23",
-        "iteration": 10,
-        "score_info": {
-          "last": 1029.3,
-          "mom_30m_pct": 0.636,
-          "intraday_pct": 1.13,
-          "rsi": 74.2,
-          "vol_factor": 0.85,
-          "score": 1.141
         }
       }
     ],
@@ -637,40 +598,6 @@
           "rsi": 55.3,
           "vol_factor": 1.78,
           "score": 1.368
-        }
-      },
-      {
-        "time": "2026-07-15 15:03:23",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "BAJFINANCE",
-        "qty": 6,
-        "price": 1021.7,
-        "cost": 6130.2,
-        "score": {
-          "last": 1021.7,
-          "mom_30m_pct": 0.235,
-          "intraday_pct": 1.561,
-          "rsi": 58.5,
-          "vol_factor": 2.0,
-          "score": 1.821
-        }
-      },
-      {
-        "time": "2026-07-15 15:03:23",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "SBIN",
-        "qty": 3,
-        "price": 1029.3,
-        "cost": 3087.9,
-        "score": {
-          "last": 1029.3,
-          "mom_30m_pct": 0.636,
-          "intraday_pct": 1.13,
-          "rsi": 74.2,
-          "vol_factor": 0.85,
-          "score": 1.141
         }
       }
     ],
