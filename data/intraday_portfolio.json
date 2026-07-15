@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-15",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 12744.1,
         "realized_pnl_today_after": -80.4,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-15 12:03:52",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 20234.1,
+        "realized_pnl_today_after": -80.4,
+        "open_positions_after": 4
       }
     ],
-    "invested_today": 12744.099975585938,
+    "invested_today": 20234.099975585938,
     "realized_pnl_today": -80.39985351562473,
     "open_positions": [
       {
@@ -69,6 +78,21 @@
           "rsi": 57.2,
           "vol_factor": 1.99,
           "score": 1.308
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 5,
+        "buy_price": 1498.0,
+        "buy_time": "2026-07-15 12:03:52",
+        "iteration": 3,
+        "score_info": {
+          "last": 1498.0,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": -0.2,
+          "rsi": 70.7,
+          "vol_factor": 1.09,
+          "score": 0.451
         }
       }
     ],
@@ -151,6 +175,23 @@
           "rsi": 57.2,
           "vol_factor": 1.99,
           "score": 1.308
+        }
+      },
+      {
+        "time": "2026-07-15 12:03:52",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 5,
+        "price": 1498.0,
+        "cost": 7490.0,
+        "score": {
+          "last": 1498.0,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": -0.2,
+          "rsi": 70.7,
+          "vol_factor": 1.09,
+          "score": 0.451
         }
       }
     ],
