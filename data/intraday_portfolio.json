@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-15",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 44445.9,
         "realized_pnl_today_after": -80.4,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-15 13:59:50",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 50538.8,
+        "realized_pnl_today_after": -80.4,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 44445.90002441406,
+    "invested_today": 50538.7998046875,
     "realized_pnl_today": -80.39985351562473,
     "open_positions": [
       {
@@ -195,6 +204,36 @@
           "rsi": 34.8,
           "vol_factor": 0.35,
           "score": -0.531
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1498.7,
+        "buy_time": "2026-07-15 13:59:50",
+        "iteration": 7,
+        "score_info": {
+          "last": 1498.7,
+          "mom_30m_pct": 0.651,
+          "intraday_pct": 0.335,
+          "rsi": 70.5,
+          "vol_factor": 1.06,
+          "score": 1.14
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 309.55,
+        "buy_time": "2026-07-15 13:59:50",
+        "iteration": 7,
+        "score_info": {
+          "last": 309.55,
+          "mom_30m_pct": -0.193,
+          "intraday_pct": 1.425,
+          "rsi": 53.2,
+          "vol_factor": 2.0,
+          "score": 1.137
         }
       }
     ],
@@ -379,6 +418,40 @@
           "rsi": 34.8,
           "vol_factor": 0.35,
           "score": -0.531
+        }
+      },
+      {
+        "time": "2026-07-15 13:59:50",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1498.7,
+        "cost": 2997.4,
+        "score": {
+          "last": 1498.7,
+          "mom_30m_pct": 0.651,
+          "intraday_pct": 0.335,
+          "rsi": 70.5,
+          "vol_factor": 1.06,
+          "score": 1.14
+        }
+      },
+      {
+        "time": "2026-07-15 13:59:50",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 309.55,
+        "cost": 3095.5,
+        "score": {
+          "last": 309.55,
+          "mom_30m_pct": -0.193,
+          "intraday_pct": 1.425,
+          "rsi": 53.2,
+          "vol_factor": 2.0,
+          "score": 1.137
         }
       }
     ],
