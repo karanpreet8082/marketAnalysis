@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-15",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 28176.2,
         "realized_pnl_today_after": -80.4,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-15 12:51:57",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 35578.2,
+        "realized_pnl_today_after": -80.4,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 28176.199951171875,
+    "invested_today": 35578.199951171875,
     "realized_pnl_today": -80.39985351562473,
     "open_positions": [
       {
@@ -132,6 +141,21 @@
           "rsi": 56.3,
           "vol_factor": 1.0,
           "score": 0.417
+        }
+      },
+      {
+        "symbol": "EICHERMOT",
+        "qty": 1,
+        "buy_price": 7402.0,
+        "buy_time": "2026-07-15 12:51:57",
+        "iteration": 5,
+        "score_info": {
+          "last": 7402.0,
+          "mom_30m_pct": -0.014,
+          "intraday_pct": 2.125,
+          "rsi": 47.0,
+          "vol_factor": 0.25,
+          "score": -0.135
         }
       }
     ],
@@ -265,6 +289,23 @@
           "rsi": 56.3,
           "vol_factor": 1.0,
           "score": 0.417
+        }
+      },
+      {
+        "time": "2026-07-15 12:51:57",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "EICHERMOT",
+        "qty": 1,
+        "price": 7402.0,
+        "cost": 7402.0,
+        "score": {
+          "last": 7402.0,
+          "mom_30m_pct": -0.014,
+          "intraday_pct": 2.125,
+          "rsi": 47.0,
+          "vol_factor": 0.25,
+          "score": -0.135
         }
       }
     ],
