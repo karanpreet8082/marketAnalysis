@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-15",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,18 +102,9 @@
         "invested_today_after": 85571.0,
         "realized_pnl_today_after": -80.4,
         "open_positions_after": 19
-      },
-      {
-        "iteration": 12,
-        "time": "2026-07-15 16:01:01",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 99201.7,
-        "realized_pnl_today_after": -80.4,
-        "open_positions_after": 22
       }
     ],
-    "invested_today": 99201.69934082031,
+    "invested_today": 85570.99963378906,
     "realized_pnl_today": -80.39985351562473,
     "open_positions": [
       {
@@ -399,51 +390,6 @@
           "rsi": 46.7,
           "vol_factor": 2.0,
           "score": 2.158
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 4,
-        "buy_price": 1014.0,
-        "buy_time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "score_info": {
-          "last": 1014.0,
-          "mom_30m_pct": 0.64,
-          "intraday_pct": 0.66,
-          "rsi": 46.7,
-          "vol_factor": 2.0,
-          "score": 2.158
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 3579.9,
-        "buy_time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "score_info": {
-          "last": 3579.9,
-          "mom_30m_pct": 0.706,
-          "intraday_pct": 0.842,
-          "rsi": 45.1,
-          "vol_factor": 1.82,
-          "score": 2.135
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 4,
-        "buy_price": 1498.7,
-        "buy_time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "score_info": {
-          "last": 1498.7,
-          "mom_30m_pct": 0.14,
-          "intraday_pct": 2.21,
-          "rsi": 38.3,
-          "vol_factor": 2.0,
-          "score": 1.873
         }
       }
     ],
@@ -798,57 +744,6 @@
           "rsi": 46.7,
           "vol_factor": 2.0,
           "score": 2.158
-        }
-      },
-      {
-        "time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 4,
-        "price": 1014.0,
-        "cost": 4056.0,
-        "score": {
-          "last": 1014.0,
-          "mom_30m_pct": 0.64,
-          "intraday_pct": 0.66,
-          "rsi": 46.7,
-          "vol_factor": 2.0,
-          "score": 2.158
-        }
-      },
-      {
-        "time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 3579.9,
-        "cost": 3579.9,
-        "score": {
-          "last": 3579.9,
-          "mom_30m_pct": 0.706,
-          "intraday_pct": 0.842,
-          "rsi": 45.1,
-          "vol_factor": 1.82,
-          "score": 2.135
-        }
-      },
-      {
-        "time": "2026-07-15 16:01:01",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 4,
-        "price": 1498.7,
-        "cost": 5994.8,
-        "score": {
-          "last": 1498.7,
-          "mom_30m_pct": 0.14,
-          "intraday_pct": 2.21,
-          "rsi": 38.3,
-          "vol_factor": 2.0,
-          "score": 1.873
         }
       }
     ],
