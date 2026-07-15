@@ -1,5 +1,161 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-15",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-15 11:30:09",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 5530.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-15 11:48:18",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 12744.1,
+        "realized_pnl_today_after": -80.4,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 12744.099975585938,
+    "realized_pnl_today": -80.39985351562473,
+    "open_positions": [
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1498.0,
+        "buy_time": "2026-07-15 11:30:09",
+        "iteration": 1,
+        "score_info": {
+          "last": 1498.0,
+          "mom_30m_pct": 1.244,
+          "intraday_pct": -0.531,
+          "rsi": 65.4,
+          "vol_factor": 1.81,
+          "score": 2.519
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 3,
+        "buy_price": 1444.8,
+        "buy_time": "2026-07-15 11:48:18",
+        "iteration": 2,
+        "score_info": {
+          "last": 1444.8,
+          "mom_30m_pct": 0.278,
+          "intraday_pct": -0.324,
+          "rsi": 69.6,
+          "vol_factor": 2.0,
+          "score": 1.319
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2879.4,
+        "buy_time": "2026-07-15 11:48:18",
+        "iteration": 2,
+        "score_info": {
+          "last": 2879.4,
+          "mom_30m_pct": 0.157,
+          "intraday_pct": 0.293,
+          "rsi": 57.2,
+          "vol_factor": 1.99,
+          "score": 1.308
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-15 11:30:09",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1498.0,
+        "cost": 1498.0,
+        "score": {
+          "last": 1498.0,
+          "mom_30m_pct": 1.244,
+          "intraday_pct": -0.531,
+          "rsi": 65.4,
+          "vol_factor": 1.81,
+          "score": 2.519
+        }
+      },
+      {
+        "time": "2026-07-15 11:30:09",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 3,
+        "price": 1344.1,
+        "cost": 4032.3,
+        "score": {
+          "last": 1344.1,
+          "mom_30m_pct": 0.667,
+          "intraday_pct": 2.494,
+          "rsi": 63.3,
+          "vol_factor": 1.0,
+          "score": 1.748
+        }
+      },
+      {
+        "time": "2026-07-15 11:48:18",
+        "iteration": 2,
+        "action": "SELL",
+        "symbol": "AXISBANK",
+        "qty": 3,
+        "price": 1317.3,
+        "buy_price": 1344.1,
+        "pnl": -80.4,
+        "pnl_pct": -1.99,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-15 11:48:18",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 3,
+        "price": 1444.8,
+        "cost": 4334.4,
+        "score": {
+          "last": 1444.8,
+          "mom_30m_pct": 0.278,
+          "intraday_pct": -0.324,
+          "rsi": 69.6,
+          "vol_factor": 2.0,
+          "score": 1.319
+        }
+      },
+      {
+        "time": "2026-07-15 11:48:18",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2879.4,
+        "cost": 2879.4,
+        "score": {
+          "last": 2879.4,
+          "mom_30m_pct": 0.157,
+          "intraday_pct": 0.293,
+          "rsi": 57.2,
+          "vol_factor": 1.99,
+          "score": 1.308
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
