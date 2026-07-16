@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-16",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 40192.2,
         "realized_pnl_today_after": -50.4,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 6,
+        "time": "2026-07-16 13:07:12",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 47186.6,
+        "realized_pnl_today_after": -50.4,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 40192.20007324219,
+    "invested_today": 47186.59997558594,
     "realized_pnl_today": -50.40009765625018,
     "open_positions": [
       {
@@ -171,6 +180,36 @@
           "rsi": 47.6,
           "vol_factor": 0.81,
           "score": 0.406
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 1935.0,
+        "buy_time": "2026-07-16 13:07:12",
+        "iteration": 6,
+        "score_info": {
+          "last": 1935.0,
+          "mom_30m_pct": 0.358,
+          "intraday_pct": 0.676,
+          "rsi": 60.2,
+          "vol_factor": 0.51,
+          "score": 0.246
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3124.4,
+        "buy_time": "2026-07-16 13:07:12",
+        "iteration": 6,
+        "score_info": {
+          "last": 3124.4,
+          "mom_30m_pct": 0.048,
+          "intraday_pct": 1.294,
+          "rsi": 37.7,
+          "vol_factor": 0.61,
+          "score": 0.07
         }
       }
     ],
@@ -338,6 +377,40 @@
           "rsi": 47.6,
           "vol_factor": 0.81,
           "score": 0.406
+        }
+      },
+      {
+        "time": "2026-07-16 13:07:12",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 1935.0,
+        "cost": 3870.0,
+        "score": {
+          "last": 1935.0,
+          "mom_30m_pct": 0.358,
+          "intraday_pct": 0.676,
+          "rsi": 60.2,
+          "vol_factor": 0.51,
+          "score": 0.246
+        }
+      },
+      {
+        "time": "2026-07-16 13:07:12",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3124.4,
+        "cost": 3124.4,
+        "score": {
+          "last": 3124.4,
+          "mom_30m_pct": 0.048,
+          "intraday_pct": 1.294,
+          "rsi": 37.7,
+          "vol_factor": 0.61,
+          "score": 0.07
         }
       }
     ],
