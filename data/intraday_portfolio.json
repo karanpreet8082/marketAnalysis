@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-16",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 81835.6,
         "realized_pnl_today_after": -40.55,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 11,
+        "time": "2026-07-16 15:51:40",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 90908.53,
+        "realized_pnl_today_after": -40.55,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 81835.60000610352,
+    "invested_today": 90908.52983093262,
     "realized_pnl_today": -40.55020751953123,
     "open_positions": [
       {
@@ -306,6 +315,51 @@
           "rsi": 70.2,
           "vol_factor": 1.53,
           "score": 1.207
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 10,
+        "buy_price": 279.9,
+        "buy_time": "2026-07-16 15:51:40",
+        "iteration": 11,
+        "score_info": {
+          "last": 279.9,
+          "mom_30m_pct": 0.251,
+          "intraday_pct": 0.865,
+          "rsi": 55.9,
+          "vol_factor": 2.0,
+          "score": 1.636
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1038.5,
+        "buy_time": "2026-07-16 15:51:40",
+        "iteration": 11,
+        "score_info": {
+          "last": 1038.5,
+          "mom_30m_pct": 0.067,
+          "intraday_pct": 1.268,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 1.481
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "buy_price": 185.79,
+        "buy_time": "2026-07-16 15:51:40",
+        "iteration": 11,
+        "score_info": {
+          "last": 185.79,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": 0.092,
+          "rsi": 53.3,
+          "vol_factor": 2.0,
+          "score": 1.424
         }
       }
     ],
@@ -633,6 +687,57 @@
           "rsi": 70.2,
           "vol_factor": 1.53,
           "score": 1.207
+        }
+      },
+      {
+        "time": "2026-07-16 15:51:40",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 10,
+        "price": 279.9,
+        "cost": 2799.0,
+        "score": {
+          "last": 279.9,
+          "mom_30m_pct": 0.251,
+          "intraday_pct": 0.865,
+          "rsi": 55.9,
+          "vol_factor": 2.0,
+          "score": 1.636
+        }
+      },
+      {
+        "time": "2026-07-16 15:51:40",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1038.5,
+        "cost": 3115.5,
+        "score": {
+          "last": 1038.5,
+          "mom_30m_pct": 0.067,
+          "intraday_pct": 1.268,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 1.481
+        }
+      },
+      {
+        "time": "2026-07-16 15:51:40",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "price": 185.79,
+        "cost": 3158.43,
+        "score": {
+          "last": 185.79,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": 0.092,
+          "rsi": 53.3,
+          "vol_factor": 2.0,
+          "score": 1.424
         }
       }
     ],
