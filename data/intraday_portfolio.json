@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-16",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 47186.6,
         "realized_pnl_today_after": -50.4,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-16 13:57:51",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 55716.4,
+        "realized_pnl_today_after": -85.05,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 47186.59997558594,
-    "realized_pnl_today": -50.40009765625018,
+    "invested_today": 55716.399841308594,
+    "realized_pnl_today": -85.05020751953123,
     "open_positions": [
       {
         "symbol": "INDIGO",
@@ -75,21 +84,6 @@
           "rsi": 74.5,
           "vol_factor": 1.0,
           "score": 1.009
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 9,
-        "buy_price": 315.65,
-        "buy_time": "2026-07-16 11:35:12",
-        "iteration": 1,
-        "score_info": {
-          "last": 315.65,
-          "mom_30m_pct": -0.063,
-          "intraday_pct": 2.004,
-          "rsi": 47.4,
-          "vol_factor": 1.0,
-          "score": 0.506
         }
       },
       {
@@ -210,6 +204,36 @@
           "rsi": 37.7,
           "vol_factor": 0.61,
           "score": 0.07
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1302.8,
+        "buy_time": "2026-07-16 13:57:51",
+        "iteration": 7,
+        "score_info": {
+          "last": 1302.8,
+          "mom_30m_pct": -0.1,
+          "intraday_pct": 0.323,
+          "rsi": 42.2,
+          "vol_factor": 1.81,
+          "score": 0.756
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 19,
+        "buy_price": 311.8,
+        "buy_time": "2026-07-16 13:57:51",
+        "iteration": 7,
+        "score_info": {
+          "last": 311.8,
+          "mom_30m_pct": -0.288,
+          "intraday_pct": 0.776,
+          "rsi": 30.5,
+          "vol_factor": 1.69,
+          "score": 0.493
         }
       }
     ],
@@ -411,6 +435,52 @@
           "rsi": 37.7,
           "vol_factor": 0.61,
           "score": 0.07
+        }
+      },
+      {
+        "time": "2026-07-16 13:57:51",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 311.8,
+        "buy_price": 315.65,
+        "pnl": -34.65,
+        "pnl_pct": -1.22,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-16 13:57:51",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1302.8,
+        "cost": 2605.6,
+        "score": {
+          "last": 1302.8,
+          "mom_30m_pct": -0.1,
+          "intraday_pct": 0.323,
+          "rsi": 42.2,
+          "vol_factor": 1.81,
+          "score": 0.756
+        }
+      },
+      {
+        "time": "2026-07-16 13:57:51",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 19,
+        "price": 311.8,
+        "cost": 5924.2,
+        "score": {
+          "last": 311.8,
+          "mom_30m_pct": -0.288,
+          "intraday_pct": 0.776,
+          "rsi": 30.5,
+          "vol_factor": 1.69,
+          "score": 0.493
         }
       }
     ],
