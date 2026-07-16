@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-16",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,26 +75,20 @@
         "invested_today_after": 63975.6,
         "realized_pnl_today_after": -85.05,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-16 14:52:30",
+        "n_bought": 1,
+        "n_sold": 1,
+        "invested_today_after": 72859.1,
+        "realized_pnl_today_after": -40.55,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 63975.600036621094,
-    "realized_pnl_today": -85.05020751953123,
+    "invested_today": 72859.09994506836,
+    "realized_pnl_today": -40.55020751953123,
     "open_positions": [
-      {
-        "symbol": "INDIGO",
-        "qty": 1,
-        "buy_price": 5221.5,
-        "buy_time": "2026-07-16 11:35:12",
-        "iteration": 1,
-        "score_info": {
-          "last": 5221.5,
-          "mom_30m_pct": 0.626,
-          "intraday_pct": 0.23,
-          "rsi": 74.5,
-          "vol_factor": 1.0,
-          "score": 1.009
-        }
-      },
       {
         "symbol": "BAJFINANCE",
         "qty": 4,
@@ -258,6 +252,21 @@
           "rsi": 63.3,
           "vol_factor": 1.0,
           "score": 0.871
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 50,
+        "buy_price": 177.67,
+        "buy_time": "2026-07-16 14:52:30",
+        "iteration": 9,
+        "score_info": {
+          "last": 177.67,
+          "mom_30m_pct": 0.028,
+          "intraday_pct": 1.595,
+          "rsi": 70.9,
+          "vol_factor": 0.4,
+          "score": -0.084
         }
       }
     ],
@@ -522,6 +531,35 @@
           "rsi": 63.3,
           "vol_factor": 1.0,
           "score": 0.871
+        }
+      },
+      {
+        "time": "2026-07-16 14:52:30",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5266.0,
+        "buy_price": 5221.5,
+        "pnl": 44.5,
+        "pnl_pct": 0.85,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-16 14:52:30",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 50,
+        "price": 177.67,
+        "cost": 8883.5,
+        "score": {
+          "last": 177.67,
+          "mom_30m_pct": 0.028,
+          "intraday_pct": 1.595,
+          "rsi": 70.9,
+          "vol_factor": 0.4,
+          "score": -0.084
         }
       }
     ],
