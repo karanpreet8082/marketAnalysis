@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-16",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 55716.4,
         "realized_pnl_today_after": -85.05,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-16 14:11:02",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 63975.6,
+        "realized_pnl_today_after": -85.05,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 55716.399841308594,
+    "invested_today": 63975.600036621094,
     "realized_pnl_today": -85.05020751953123,
     "open_positions": [
       {
@@ -234,6 +243,21 @@
           "rsi": 30.5,
           "vol_factor": 1.69,
           "score": 0.493
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 8,
+        "buy_price": 1032.4,
+        "buy_time": "2026-07-16 14:11:02",
+        "iteration": 8,
+        "score_info": {
+          "last": 1032.4,
+          "mom_30m_pct": 0.379,
+          "intraday_pct": 1.008,
+          "rsi": 63.3,
+          "vol_factor": 1.0,
+          "score": 0.871
         }
       }
     ],
@@ -481,6 +505,23 @@
           "rsi": 30.5,
           "vol_factor": 1.69,
           "score": 0.493
+        }
+      },
+      {
+        "time": "2026-07-16 14:11:02",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 8,
+        "price": 1032.4,
+        "cost": 8259.2,
+        "score": {
+          "last": 1032.4,
+          "mom_30m_pct": 0.379,
+          "intraday_pct": 1.008,
+          "rsi": 63.3,
+          "vol_factor": 1.0,
+          "score": 0.871
         }
       }
     ],
