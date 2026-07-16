@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-16",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,10 +30,28 @@
         "invested_today_after": 24243.25,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-16 12:39:44",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 32397.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-16 12:59:30",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 40192.2,
+        "realized_pnl_today_after": -50.4,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 24243.250091552734,
-    "realized_pnl_today": 0.0,
+    "invested_today": 40192.20007324219,
+    "realized_pnl_today": -50.40009765625018,
     "open_positions": [
       {
         "symbol": "INDIGO",
@@ -63,21 +81,6 @@
           "rsi": 47.4,
           "vol_factor": 1.0,
           "score": 0.506
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 3707.3,
-        "buy_time": "2026-07-16 11:52:18",
-        "iteration": 2,
-        "score_info": {
-          "last": 3707.3,
-          "mom_30m_pct": 0.442,
-          "intraday_pct": 3.351,
-          "rsi": 50.2,
-          "vol_factor": 0.09,
-          "score": 0.755
         }
       },
       {
@@ -123,6 +126,51 @@
           "rsi": 55.6,
           "vol_factor": 2.0,
           "score": 0.886
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 19,
+        "buy_price": 429.15,
+        "buy_time": "2026-07-16 12:39:44",
+        "iteration": 4,
+        "score_info": {
+          "last": 429.15,
+          "mom_30m_pct": 0.257,
+          "intraday_pct": 0.163,
+          "rsi": 64.0,
+          "vol_factor": 2.0,
+          "score": 1.434
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1231.8,
+        "buy_time": "2026-07-16 12:59:30",
+        "iteration": 5,
+        "score_info": {
+          "last": 1231.8,
+          "mom_30m_pct": 0.26,
+          "intraday_pct": -0.057,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.374
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5331.5,
+        "buy_time": "2026-07-16 12:59:30",
+        "iteration": 5,
+        "score_info": {
+          "last": 5331.5,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 0.481,
+          "rsi": 47.6,
+          "vol_factor": 0.81,
+          "score": 0.406
         }
       }
     ],
@@ -227,6 +275,69 @@
           "rsi": 55.6,
           "vol_factor": 2.0,
           "score": 0.886
+        }
+      },
+      {
+        "time": "2026-07-16 12:39:44",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 19,
+        "price": 429.15,
+        "cost": 8153.85,
+        "score": {
+          "last": 429.15,
+          "mom_30m_pct": 0.257,
+          "intraday_pct": 0.163,
+          "rsi": 64.0,
+          "vol_factor": 2.0,
+          "score": 1.434
+        }
+      },
+      {
+        "time": "2026-07-16 12:59:30",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3656.9,
+        "buy_price": 3707.3,
+        "pnl": -50.4,
+        "pnl_pct": -1.36,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-16 12:59:30",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1231.8,
+        "cost": 2463.6,
+        "score": {
+          "last": 1231.8,
+          "mom_30m_pct": 0.26,
+          "intraday_pct": -0.057,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.374
+        }
+      },
+      {
+        "time": "2026-07-16 12:59:30",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5331.5,
+        "cost": 5331.5,
+        "score": {
+          "last": 5331.5,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 0.481,
+          "rsi": 47.6,
+          "vol_factor": 0.81,
+          "score": 0.406
         }
       }
     ],
