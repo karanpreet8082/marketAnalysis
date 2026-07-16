@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-16",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 8062.35,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-16 11:52:18",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 15926.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
       }
     ],
-    "invested_today": 8062.349945068359,
+    "invested_today": 15926.049896240234,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,36 @@
           "rsi": 47.4,
           "vol_factor": 1.0,
           "score": 0.506
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3707.3,
+        "buy_time": "2026-07-16 11:52:18",
+        "iteration": 2,
+        "score_info": {
+          "last": 3707.3,
+          "mom_30m_pct": 0.442,
+          "intraday_pct": 3.351,
+          "rsi": 50.2,
+          "vol_factor": 0.09,
+          "score": 0.755
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 4,
+        "buy_price": 1039.1,
+        "buy_time": "2026-07-16 11:52:18",
+        "iteration": 2,
+        "score_info": {
+          "last": 1039.1,
+          "mom_30m_pct": 0.386,
+          "intraday_pct": 1.05,
+          "rsi": 68.3,
+          "vol_factor": 0.25,
+          "score": 0.146
         }
       }
     ],
@@ -81,6 +120,40 @@
           "rsi": 47.4,
           "vol_factor": 1.0,
           "score": 0.506
+        }
+      },
+      {
+        "time": "2026-07-16 11:52:18",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3707.3,
+        "cost": 3707.3,
+        "score": {
+          "last": 3707.3,
+          "mom_30m_pct": 0.442,
+          "intraday_pct": 3.351,
+          "rsi": 50.2,
+          "vol_factor": 0.09,
+          "score": 0.755
+        }
+      },
+      {
+        "time": "2026-07-16 11:52:18",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 4,
+        "price": 1039.1,
+        "cost": 4156.4,
+        "score": {
+          "last": 1039.1,
+          "mom_30m_pct": 0.386,
+          "intraday_pct": 1.05,
+          "rsi": 68.3,
+          "vol_factor": 0.25,
+          "score": 0.146
         }
       }
     ],
