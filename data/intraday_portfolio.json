@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-17",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,18 +102,9 @@
         "invested_today_after": 88473.8,
         "realized_pnl_today_after": 232.8,
         "open_positions_after": 20
-      },
-      {
-        "iteration": 12,
-        "time": "2026-07-17 15:57:25",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 99905.6,
-        "realized_pnl_today_after": 232.8,
-        "open_positions_after": 23
       }
     ],
-    "invested_today": 99905.59962463379,
+    "invested_today": 88473.79981994629,
     "realized_pnl_today": 232.80019531250014,
     "open_positions": [
       {
@@ -407,51 +398,6 @@
         "buy_price": 283.8,
         "buy_time": "2026-07-17 15:42:38",
         "iteration": 11,
-        "score_info": {
-          "last": 283.8,
-          "mom_30m_pct": 0.3,
-          "intraday_pct": 1.267,
-          "rsi": 61.1,
-          "vol_factor": 2.0,
-          "score": 1.831
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "buy_price": 1452.0,
-        "buy_time": "2026-07-17 15:57:25",
-        "iteration": 12,
-        "score_info": {
-          "last": 1452.0,
-          "mom_30m_pct": 1.03,
-          "intraday_pct": 1.659,
-          "rsi": 65.8,
-          "vol_factor": 1.36,
-          "score": 2.398
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "buy_price": 1329.0,
-        "buy_time": "2026-07-17 15:57:25",
-        "iteration": 12,
-        "score_info": {
-          "last": 1329.0,
-          "mom_30m_pct": 0.537,
-          "intraday_pct": 1.528,
-          "rsi": 68.8,
-          "vol_factor": 2.0,
-          "score": 2.264
-        }
-      },
-      {
-        "symbol": "POWERGRID",
-        "qty": 16,
-        "buy_price": 283.8,
-        "buy_time": "2026-07-17 15:57:25",
-        "iteration": 12,
         "score_info": {
           "last": 283.8,
           "mom_30m_pct": 0.3,
@@ -934,57 +880,6 @@
       {
         "time": "2026-07-17 15:42:38",
         "iteration": 11,
-        "action": "BUY",
-        "symbol": "POWERGRID",
-        "qty": 16,
-        "price": 283.8,
-        "cost": 4540.8,
-        "score": {
-          "last": 283.8,
-          "mom_30m_pct": 0.3,
-          "intraday_pct": 1.267,
-          "rsi": 61.1,
-          "vol_factor": 2.0,
-          "score": 1.831
-        }
-      },
-      {
-        "time": "2026-07-17 15:57:25",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "price": 1452.0,
-        "cost": 2904.0,
-        "score": {
-          "last": 1452.0,
-          "mom_30m_pct": 1.03,
-          "intraday_pct": 1.659,
-          "rsi": 65.8,
-          "vol_factor": 1.36,
-          "score": 2.398
-        }
-      },
-      {
-        "time": "2026-07-17 15:57:25",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 3,
-        "price": 1329.0,
-        "cost": 3987.0,
-        "score": {
-          "last": 1329.0,
-          "mom_30m_pct": 0.537,
-          "intraday_pct": 1.528,
-          "rsi": 68.8,
-          "vol_factor": 2.0,
-          "score": 2.264
-        }
-      },
-      {
-        "time": "2026-07-17 15:57:25",
-        "iteration": 12,
         "action": "BUY",
         "symbol": "POWERGRID",
         "qty": 16,
