@@ -1,5 +1,1016 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-17",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-17 11:35:19",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7924.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-17 11:50:03",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 13358.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-17 12:03:00",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 18836.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-17 12:33:45",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 27324.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-17 12:57:00",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 34376.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-07-17 13:05:29",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 38908.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-17 13:54:11",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 47941.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-17 14:04:44",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 57955.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 16
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-17 14:47:05",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 67830.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 19
+      },
+      {
+        "iteration": 10,
+        "time": "2026-07-17 15:00:11",
+        "n_bought": 3,
+        "n_sold": 2,
+        "invested_today_after": 77042.0,
+        "realized_pnl_today_after": 124.6,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 11,
+        "time": "2026-07-17 15:42:38",
+        "n_bought": 3,
+        "n_sold": 3,
+        "invested_today_after": 88473.8,
+        "realized_pnl_today_after": 232.8,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-07-17 15:57:25",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99905.6,
+        "realized_pnl_today_after": 232.8,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 13,
+        "time": "2026-07-17 16:29:24",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99905.6,
+        "realized_pnl_today_after": 232.8,
+        "open_positions_after": 23
+      }
+    ],
+    "invested_today": 99905.59962463379,
+    "realized_pnl_today": 232.80019531250014,
+    "open_positions": [
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1204.8,
+        "buy_time": "2026-07-17 11:35:19",
+        "iteration": 1,
+        "score_info": {
+          "last": 1204.8,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": 1.057,
+          "rsi": 55.9,
+          "vol_factor": 1.0,
+          "score": 0.679
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 22,
+        "buy_price": 247.0,
+        "buy_time": "2026-07-17 11:50:03",
+        "iteration": 2,
+        "score_info": {
+          "last": 247.0,
+          "mom_30m_pct": 0.211,
+          "intraday_pct": 0.464,
+          "rsi": 49.4,
+          "vol_factor": 2.0,
+          "score": 1.456
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "buy_price": 282.4,
+        "buy_time": "2026-07-17 12:03:00",
+        "iteration": 3,
+        "score_info": {
+          "last": 282.4,
+          "mom_30m_pct": 0.16,
+          "intraday_pct": -0.141,
+          "rsi": 42.2,
+          "vol_factor": 2.0,
+          "score": 1.197
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1326.9,
+        "buy_time": "2026-07-17 12:03:00",
+        "iteration": 3,
+        "score_info": {
+          "last": 1326.9,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": 1.952,
+          "rsi": 52.0,
+          "vol_factor": 1.26,
+          "score": 1.177
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 17,
+        "buy_price": 175.8,
+        "buy_time": "2026-07-17 12:33:45",
+        "iteration": 4,
+        "score_info": {
+          "last": 175.8,
+          "mom_30m_pct": 0.428,
+          "intraday_pct": -0.88,
+          "rsi": 73.0,
+          "vol_factor": 1.79,
+          "score": 1.172
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1208.7,
+        "buy_time": "2026-07-17 12:33:45",
+        "iteration": 4,
+        "score_info": {
+          "last": 1208.7,
+          "mom_30m_pct": 0.407,
+          "intraday_pct": 0.986,
+          "rsi": 67.1,
+          "vol_factor": 1.16,
+          "score": 1.068
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2143.0,
+        "buy_time": "2026-07-17 12:57:00",
+        "iteration": 5,
+        "score_info": {
+          "last": 2143.0,
+          "mom_30m_pct": 0.61,
+          "intraday_pct": 1.66,
+          "rsi": 64.2,
+          "vol_factor": 1.05,
+          "score": 1.465
+        }
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 4909.5,
+        "buy_time": "2026-07-17 12:57:00",
+        "iteration": 5,
+        "score_info": {
+          "last": 4909.5,
+          "mom_30m_pct": 0.358,
+          "intraday_pct": 0.358,
+          "rsi": 72.8,
+          "vol_factor": 0.65,
+          "score": 0.292
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 2,
+        "buy_price": 2266.0,
+        "buy_time": "2026-07-17 13:05:29",
+        "iteration": 6,
+        "score_info": {
+          "last": 2266.0,
+          "mom_30m_pct": 0.203,
+          "intraday_pct": 2.219,
+          "rsi": 70.6,
+          "vol_factor": 1.0,
+          "score": 0.971
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1571.7,
+        "buy_time": "2026-07-17 13:54:11",
+        "iteration": 7,
+        "score_info": {
+          "last": 1571.7,
+          "mom_30m_pct": 0.544,
+          "intraday_pct": 3.715,
+          "rsi": 74.5,
+          "vol_factor": 1.68,
+          "score": 2.611
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1576.9,
+        "buy_time": "2026-07-17 14:04:44",
+        "iteration": 8,
+        "score_info": {
+          "last": 1576.9,
+          "mom_30m_pct": 0.401,
+          "intraday_pct": 4.086,
+          "rsi": 74.3,
+          "vol_factor": 1.03,
+          "score": 1.857
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 6,
+        "buy_price": 664.9,
+        "buy_time": "2026-07-17 14:04:44",
+        "iteration": 8,
+        "score_info": {
+          "last": 664.9,
+          "mom_30m_pct": -0.397,
+          "intraday_pct": 2.143,
+          "rsi": 37.0,
+          "vol_factor": 1.71,
+          "score": 0.758
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1330.9,
+        "buy_time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "score_info": {
+          "last": 1330.9,
+          "mom_30m_pct": 0.833,
+          "intraday_pct": 1.938,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 2.831
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "buy_price": 1236.4,
+        "buy_time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "score_info": {
+          "last": 1236.4,
+          "mom_30m_pct": 0.906,
+          "intraday_pct": 1.178,
+          "rsi": 70.1,
+          "vol_factor": 2.0,
+          "score": 2.712
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1189.9,
+        "buy_time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "score_info": {
+          "last": 1189.9,
+          "mom_30m_pct": 3.2,
+          "intraday_pct": 1.519,
+          "rsi": 55.8,
+          "vol_factor": 1.0,
+          "score": 5.256
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1238.2,
+        "buy_time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "score_info": {
+          "last": 1238.2,
+          "mom_30m_pct": 0.97,
+          "intraday_pct": 1.508,
+          "rsi": 72.9,
+          "vol_factor": 1.0,
+          "score": 1.908
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1582.6,
+        "buy_time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "score_info": {
+          "last": 1582.6,
+          "mom_30m_pct": 0.272,
+          "intraday_pct": 4.579,
+          "rsi": 73.6,
+          "vol_factor": 1.0,
+          "score": 1.782
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1452.0,
+        "buy_time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "score_info": {
+          "last": 1452.0,
+          "mom_30m_pct": 1.03,
+          "intraday_pct": 1.659,
+          "rsi": 65.8,
+          "vol_factor": 1.36,
+          "score": 2.398
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1329.0,
+        "buy_time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "score_info": {
+          "last": 1329.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 1.528,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.264
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 16,
+        "buy_price": 283.8,
+        "buy_time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "score_info": {
+          "last": 283.8,
+          "mom_30m_pct": 0.3,
+          "intraday_pct": 1.267,
+          "rsi": 61.1,
+          "vol_factor": 2.0,
+          "score": 1.831
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1452.0,
+        "buy_time": "2026-07-17 15:57:25",
+        "iteration": 12,
+        "score_info": {
+          "last": 1452.0,
+          "mom_30m_pct": 1.03,
+          "intraday_pct": 1.659,
+          "rsi": 65.8,
+          "vol_factor": 1.36,
+          "score": 2.398
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1329.0,
+        "buy_time": "2026-07-17 15:57:25",
+        "iteration": 12,
+        "score_info": {
+          "last": 1329.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 1.528,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.264
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 16,
+        "buy_price": 283.8,
+        "buy_time": "2026-07-17 15:57:25",
+        "iteration": 12,
+        "score_info": {
+          "last": 283.8,
+          "mom_30m_pct": 0.3,
+          "intraday_pct": 1.267,
+          "rsi": 61.1,
+          "vol_factor": 2.0,
+          "score": 1.831
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-17 11:35:19",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1436.6,
+        "cost": 4309.8,
+        "score": {
+          "last": 1436.6,
+          "mom_30m_pct": 0.202,
+          "intraday_pct": 1.641,
+          "rsi": 63.4,
+          "vol_factor": 1.0,
+          "score": 0.796
+        }
+      },
+      {
+        "time": "2026-07-17 11:35:19",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1204.8,
+        "cost": 3614.4,
+        "score": {
+          "last": 1204.8,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": 1.057,
+          "rsi": 55.9,
+          "vol_factor": 1.0,
+          "score": 0.679
+        }
+      },
+      {
+        "time": "2026-07-17 11:50:03",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 22,
+        "price": 247.0,
+        "cost": 5434.0,
+        "score": {
+          "last": 247.0,
+          "mom_30m_pct": 0.211,
+          "intraday_pct": 0.464,
+          "rsi": 49.4,
+          "vol_factor": 2.0,
+          "score": 1.456
+        }
+      },
+      {
+        "time": "2026-07-17 12:03:00",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 282.4,
+        "cost": 2824.0,
+        "score": {
+          "last": 282.4,
+          "mom_30m_pct": 0.16,
+          "intraday_pct": -0.141,
+          "rsi": 42.2,
+          "vol_factor": 2.0,
+          "score": 1.197
+        }
+      },
+      {
+        "time": "2026-07-17 12:03:00",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1326.9,
+        "cost": 2653.8,
+        "score": {
+          "last": 1326.9,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": 1.952,
+          "rsi": 52.0,
+          "vol_factor": 1.26,
+          "score": 1.177
+        }
+      },
+      {
+        "time": "2026-07-17 12:33:45",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 17,
+        "price": 175.8,
+        "cost": 2988.6,
+        "score": {
+          "last": 175.8,
+          "mom_30m_pct": 0.428,
+          "intraday_pct": -0.88,
+          "rsi": 73.0,
+          "vol_factor": 1.79,
+          "score": 1.172
+        }
+      },
+      {
+        "time": "2026-07-17 12:33:45",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1208.7,
+        "cost": 2417.4,
+        "score": {
+          "last": 1208.7,
+          "mom_30m_pct": 0.407,
+          "intraday_pct": 0.986,
+          "rsi": 67.1,
+          "vol_factor": 1.16,
+          "score": 1.068
+        }
+      },
+      {
+        "time": "2026-07-17 12:33:45",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3082.0,
+        "cost": 3082.0,
+        "score": {
+          "last": 3082.0,
+          "mom_30m_pct": -0.016,
+          "intraday_pct": -0.175,
+          "rsi": 66.0,
+          "vol_factor": 2.0,
+          "score": 0.923
+        }
+      },
+      {
+        "time": "2026-07-17 12:57:00",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2143.0,
+        "cost": 2143.0,
+        "score": {
+          "last": 2143.0,
+          "mom_30m_pct": 0.61,
+          "intraday_pct": 1.66,
+          "rsi": 64.2,
+          "vol_factor": 1.05,
+          "score": 1.465
+        }
+      },
+      {
+        "time": "2026-07-17 12:57:00",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 4909.5,
+        "cost": 4909.5,
+        "score": {
+          "last": 4909.5,
+          "mom_30m_pct": 0.358,
+          "intraday_pct": 0.358,
+          "rsi": 72.8,
+          "vol_factor": 0.65,
+          "score": 0.292
+        }
+      },
+      {
+        "time": "2026-07-17 13:05:29",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 2,
+        "price": 2266.0,
+        "cost": 4532.0,
+        "score": {
+          "last": 2266.0,
+          "mom_30m_pct": 0.203,
+          "intraday_pct": 2.219,
+          "rsi": 70.6,
+          "vol_factor": 1.0,
+          "score": 0.971
+        }
+      },
+      {
+        "time": "2026-07-17 13:54:11",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1571.7,
+        "cost": 3143.4,
+        "score": {
+          "last": 1571.7,
+          "mom_30m_pct": 0.544,
+          "intraday_pct": 3.715,
+          "rsi": 74.5,
+          "vol_factor": 1.68,
+          "score": 2.611
+        }
+      },
+      {
+        "time": "2026-07-17 13:54:11",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "price": 1178.0,
+        "cost": 5890.0,
+        "score": {
+          "last": 1178.0,
+          "mom_30m_pct": -0.169,
+          "intraday_pct": 0.076,
+          "rsi": 50.8,
+          "vol_factor": 1.81,
+          "score": 0.576
+        }
+      },
+      {
+        "time": "2026-07-17 14:04:44",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1576.9,
+        "cost": 3153.8,
+        "score": {
+          "last": 1576.9,
+          "mom_30m_pct": 0.401,
+          "intraday_pct": 4.086,
+          "rsi": 74.3,
+          "vol_factor": 1.03,
+          "score": 1.857
+        }
+      },
+      {
+        "time": "2026-07-17 14:04:44",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1435.0,
+        "cost": 2870.0,
+        "score": {
+          "last": 1435.0,
+          "mom_30m_pct": -0.07,
+          "intraday_pct": 1.787,
+          "rsi": 46.0,
+          "vol_factor": 2.0,
+          "score": 1.432
+        }
+      },
+      {
+        "time": "2026-07-17 14:04:44",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 6,
+        "price": 664.9,
+        "cost": 3989.4,
+        "score": {
+          "last": 664.9,
+          "mom_30m_pct": -0.397,
+          "intraday_pct": 2.143,
+          "rsi": 37.0,
+          "vol_factor": 1.71,
+          "score": 0.758
+        }
+      },
+      {
+        "time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1330.9,
+        "cost": 2661.8,
+        "score": {
+          "last": 1330.9,
+          "mom_30m_pct": 0.833,
+          "intraday_pct": 1.938,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 2.831
+        }
+      },
+      {
+        "time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "price": 1236.4,
+        "cost": 3709.2,
+        "score": {
+          "last": 1236.4,
+          "mom_30m_pct": 0.906,
+          "intraday_pct": 1.178,
+          "rsi": 70.1,
+          "vol_factor": 2.0,
+          "score": 2.712
+        }
+      },
+      {
+        "time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1168.2,
+        "cost": 3504.6,
+        "score": {
+          "last": 1168.2,
+          "mom_30m_pct": 1.38,
+          "intraday_pct": -0.248,
+          "rsi": 44.6,
+          "vol_factor": 0.27,
+          "score": 1.266
+        }
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "price": 1189.9,
+        "buy_price": 1178.0,
+        "pnl": 59.5,
+        "pnl_pct": 1.01,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1189.9,
+        "buy_price": 1168.2,
+        "pnl": 65.1,
+        "pnl_pct": 1.86,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1189.9,
+        "cost": 3569.7,
+        "score": {
+          "last": 1189.9,
+          "mom_30m_pct": 3.2,
+          "intraday_pct": 1.519,
+          "rsi": 55.8,
+          "vol_factor": 1.0,
+          "score": 5.256
+        }
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1238.2,
+        "cost": 2476.4,
+        "score": {
+          "last": 1238.2,
+          "mom_30m_pct": 0.97,
+          "intraday_pct": 1.508,
+          "rsi": 72.9,
+          "vol_factor": 1.0,
+          "score": 1.908
+        }
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1582.6,
+        "cost": 3165.2,
+        "score": {
+          "last": 1582.6,
+          "mom_30m_pct": 0.272,
+          "intraday_pct": 4.579,
+          "rsi": 73.6,
+          "vol_factor": 1.0,
+          "score": 1.782
+        }
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1452.0,
+        "buy_price": 1436.6,
+        "pnl": 46.2,
+        "pnl_pct": 1.07,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3110.0,
+        "buy_price": 3082.0,
+        "pnl": 28.0,
+        "pnl_pct": 0.91,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1452.0,
+        "buy_price": 1435.0,
+        "pnl": 34.0,
+        "pnl_pct": 1.18,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1452.0,
+        "cost": 2904.0,
+        "score": {
+          "last": 1452.0,
+          "mom_30m_pct": 1.03,
+          "intraday_pct": 1.659,
+          "rsi": 65.8,
+          "vol_factor": 1.36,
+          "score": 2.398
+        }
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1329.0,
+        "cost": 3987.0,
+        "score": {
+          "last": 1329.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 1.528,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.264
+        }
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 16,
+        "price": 283.8,
+        "cost": 4540.8,
+        "score": {
+          "last": 283.8,
+          "mom_30m_pct": 0.3,
+          "intraday_pct": 1.267,
+          "rsi": 61.1,
+          "vol_factor": 2.0,
+          "score": 1.831
+        }
+      },
+      {
+        "time": "2026-07-17 15:57:25",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1452.0,
+        "cost": 2904.0,
+        "score": {
+          "last": 1452.0,
+          "mom_30m_pct": 1.03,
+          "intraday_pct": 1.659,
+          "rsi": 65.8,
+          "vol_factor": 1.36,
+          "score": 2.398
+        }
+      },
+      {
+        "time": "2026-07-17 15:57:25",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1329.0,
+        "cost": 3987.0,
+        "score": {
+          "last": 1329.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 1.528,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.264
+        }
+      },
+      {
+        "time": "2026-07-17 15:57:25",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 16,
+        "price": 283.8,
+        "cost": 4540.8,
+        "score": {
+          "last": 283.8,
+          "mom_30m_pct": 0.3,
+          "intraday_pct": 1.267,
+          "rsi": 61.1,
+          "vol_factor": 2.0,
+          "score": 1.831
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -26210,841 +27221,20 @@
       "n_sells": 23,
       "feedback": "Day P&L \u20b9-201 on \u20b999979 deployed (-0.20%). Worst trade: SIEMENS (P&L \u20b9-50, -1.36%). Consider tighter stop on entries with weaker momentum scores. 20 EOD force-sells contributed \u20b9-160. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
-    },
-    {
-      "date": "2026-07-17",
-      "iterations_run": 14,
-      "invested": 99905.6,
-      "realized_pnl": 189.54,
-      "pnl_pct": 0.19,
-      "trades": [
-        {
-          "time": "2026-07-17 11:35:19",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1436.6,
-          "cost": 4309.8,
-          "score": {
-            "last": 1436.6,
-            "mom_30m_pct": 0.202,
-            "intraday_pct": 1.641,
-            "rsi": 63.4,
-            "vol_factor": 1.0,
-            "score": 0.796
-          }
-        },
-        {
-          "time": "2026-07-17 11:35:19",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "HCLTECH",
-          "qty": 3,
-          "price": 1204.8,
-          "cost": 3614.4,
-          "score": {
-            "last": 1204.8,
-            "mom_30m_pct": 0.241,
-            "intraday_pct": 1.057,
-            "rsi": 55.9,
-            "vol_factor": 1.0,
-            "score": 0.679
-          }
-        },
-        {
-          "time": "2026-07-17 11:50:03",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 22,
-          "price": 247.0,
-          "cost": 5434.0,
-          "score": {
-            "last": 247.0,
-            "mom_30m_pct": 0.211,
-            "intraday_pct": 0.464,
-            "rsi": 49.4,
-            "vol_factor": 2.0,
-            "score": 1.456
-          }
-        },
-        {
-          "time": "2026-07-17 12:03:00",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 10,
-          "price": 282.4,
-          "cost": 2824.0,
-          "score": {
-            "last": 282.4,
-            "mom_30m_pct": 0.16,
-            "intraday_pct": -0.141,
-            "rsi": 42.2,
-            "vol_factor": 2.0,
-            "score": 1.197
-          }
-        },
-        {
-          "time": "2026-07-17 12:03:00",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 2,
-          "price": 1326.9,
-          "cost": 2653.8,
-          "score": {
-            "last": 1326.9,
-            "mom_30m_pct": 0.219,
-            "intraday_pct": 1.952,
-            "rsi": 52.0,
-            "vol_factor": 1.26,
-            "score": 1.177
-          }
-        },
-        {
-          "time": "2026-07-17 12:33:45",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "WIPRO",
-          "qty": 17,
-          "price": 175.8,
-          "cost": 2988.6,
-          "score": {
-            "last": 175.8,
-            "mom_30m_pct": 0.428,
-            "intraday_pct": -0.88,
-            "rsi": 73.0,
-            "vol_factor": 1.79,
-            "score": 1.172
-          }
-        },
-        {
-          "time": "2026-07-17 12:33:45",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "HCLTECH",
-          "qty": 2,
-          "price": 1208.7,
-          "cost": 2417.4,
-          "score": {
-            "last": 1208.7,
-            "mom_30m_pct": 0.407,
-            "intraday_pct": 0.986,
-            "rsi": 67.1,
-            "vol_factor": 1.16,
-            "score": 1.068
-          }
-        },
-        {
-          "time": "2026-07-17 12:33:45",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "GRASIM",
-          "qty": 1,
-          "price": 3082.0,
-          "cost": 3082.0,
-          "score": {
-            "last": 3082.0,
-            "mom_30m_pct": -0.016,
-            "intraday_pct": -0.175,
-            "rsi": 66.0,
-            "vol_factor": 2.0,
-            "score": 0.923
-          }
-        },
-        {
-          "time": "2026-07-17 12:57:00",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "HINDUNILVR",
-          "qty": 1,
-          "price": 2143.0,
-          "cost": 2143.0,
-          "score": {
-            "last": 2143.0,
-            "mom_30m_pct": 0.61,
-            "intraday_pct": 1.66,
-            "rsi": 64.2,
-            "vol_factor": 1.05,
-            "score": 1.465
-          }
-        },
-        {
-          "time": "2026-07-17 12:57:00",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "HEROMOTOCO",
-          "qty": 1,
-          "price": 4909.5,
-          "cost": 4909.5,
-          "score": {
-            "last": 4909.5,
-            "mom_30m_pct": 0.358,
-            "intraday_pct": 0.358,
-            "rsi": 72.8,
-            "vol_factor": 0.65,
-            "score": 0.292
-          }
-        },
-        {
-          "time": "2026-07-17 13:05:29",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 2,
-          "price": 2266.0,
-          "cost": 4532.0,
-          "score": {
-            "last": 2266.0,
-            "mom_30m_pct": 0.203,
-            "intraday_pct": 2.219,
-            "rsi": 70.6,
-            "vol_factor": 1.0,
-            "score": 0.971
-          }
-        },
-        {
-          "time": "2026-07-17 13:54:11",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1571.7,
-          "cost": 3143.4,
-          "score": {
-            "last": 1571.7,
-            "mom_30m_pct": 0.544,
-            "intraday_pct": 3.715,
-            "rsi": 74.5,
-            "vol_factor": 1.68,
-            "score": 2.611
-          }
-        },
-        {
-          "time": "2026-07-17 13:54:11",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "HAVELLS",
-          "qty": 5,
-          "price": 1178.0,
-          "cost": 5890.0,
-          "score": {
-            "last": 1178.0,
-            "mom_30m_pct": -0.169,
-            "intraday_pct": 0.076,
-            "rsi": 50.8,
-            "vol_factor": 1.81,
-            "score": 0.576
-          }
-        },
-        {
-          "time": "2026-07-17 14:04:44",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1576.9,
-          "cost": 3153.8,
-          "score": {
-            "last": 1576.9,
-            "mom_30m_pct": 0.401,
-            "intraday_pct": 4.086,
-            "rsi": 74.3,
-            "vol_factor": 1.03,
-            "score": 1.857
-          }
-        },
-        {
-          "time": "2026-07-17 14:04:44",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1435.0,
-          "cost": 2870.0,
-          "score": {
-            "last": 1435.0,
-            "mom_30m_pct": -0.07,
-            "intraday_pct": 1.787,
-            "rsi": 46.0,
-            "vol_factor": 2.0,
-            "score": 1.432
-          }
-        },
-        {
-          "time": "2026-07-17 14:04:44",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 6,
-          "price": 664.9,
-          "cost": 3989.4,
-          "score": {
-            "last": 664.9,
-            "mom_30m_pct": -0.397,
-            "intraday_pct": 2.143,
-            "rsi": 37.0,
-            "vol_factor": 1.71,
-            "score": 0.758
-          }
-        },
-        {
-          "time": "2026-07-17 14:47:05",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 2,
-          "price": 1330.9,
-          "cost": 2661.8,
-          "score": {
-            "last": 1330.9,
-            "mom_30m_pct": 0.833,
-            "intraday_pct": 1.938,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 2.831
-          }
-        },
-        {
-          "time": "2026-07-17 14:47:05",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "JSWSTEEL",
-          "qty": 3,
-          "price": 1236.4,
-          "cost": 3709.2,
-          "score": {
-            "last": 1236.4,
-            "mom_30m_pct": 0.906,
-            "intraday_pct": 1.178,
-            "rsi": 70.1,
-            "vol_factor": 2.0,
-            "score": 2.712
-          }
-        },
-        {
-          "time": "2026-07-17 14:47:05",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "HAVELLS",
-          "qty": 3,
-          "price": 1168.2,
-          "cost": 3504.6,
-          "score": {
-            "last": 1168.2,
-            "mom_30m_pct": 1.38,
-            "intraday_pct": -0.248,
-            "rsi": 44.6,
-            "vol_factor": 0.27,
-            "score": 1.266
-          }
-        },
-        {
-          "time": "2026-07-17 15:00:11",
-          "iteration": 10,
-          "action": "SELL",
-          "symbol": "HAVELLS",
-          "qty": 5,
-          "price": 1189.9,
-          "buy_price": 1178.0,
-          "pnl": 59.5,
-          "pnl_pct": 1.01,
-          "reason": "TAKE_PROFIT"
-        },
-        {
-          "time": "2026-07-17 15:00:11",
-          "iteration": 10,
-          "action": "SELL",
-          "symbol": "HAVELLS",
-          "qty": 3,
-          "price": 1189.9,
-          "buy_price": 1168.2,
-          "pnl": 65.1,
-          "pnl_pct": 1.86,
-          "reason": "TAKE_PROFIT"
-        },
-        {
-          "time": "2026-07-17 15:00:11",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "HAVELLS",
-          "qty": 3,
-          "price": 1189.9,
-          "cost": 3569.7,
-          "score": {
-            "last": 1189.9,
-            "mom_30m_pct": 3.2,
-            "intraday_pct": 1.519,
-            "rsi": 55.8,
-            "vol_factor": 1.0,
-            "score": 5.256
-          }
-        },
-        {
-          "time": "2026-07-17 15:00:11",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "JSWSTEEL",
-          "qty": 2,
-          "price": 1238.2,
-          "cost": 2476.4,
-          "score": {
-            "last": 1238.2,
-            "mom_30m_pct": 0.97,
-            "intraday_pct": 1.508,
-            "rsi": 72.9,
-            "vol_factor": 1.0,
-            "score": 1.908
-          }
-        },
-        {
-          "time": "2026-07-17 15:00:11",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1582.6,
-          "cost": 3165.2,
-          "score": {
-            "last": 1582.6,
-            "mom_30m_pct": 0.272,
-            "intraday_pct": 4.579,
-            "rsi": 73.6,
-            "vol_factor": 1.0,
-            "score": 1.782
-          }
-        },
-        {
-          "time": "2026-07-17 15:42:38",
-          "iteration": 11,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1452.0,
-          "buy_price": 1436.6,
-          "pnl": 46.2,
-          "pnl_pct": 1.07,
-          "reason": "TAKE_PROFIT"
-        },
-        {
-          "time": "2026-07-17 15:42:38",
-          "iteration": 11,
-          "action": "SELL",
-          "symbol": "GRASIM",
-          "qty": 1,
-          "price": 3110.0,
-          "buy_price": 3082.0,
-          "pnl": 28.0,
-          "pnl_pct": 0.91,
-          "reason": "TAKE_PROFIT"
-        },
-        {
-          "time": "2026-07-17 15:42:38",
-          "iteration": 11,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1452.0,
-          "buy_price": 1435.0,
-          "pnl": 34.0,
-          "pnl_pct": 1.18,
-          "reason": "TAKE_PROFIT"
-        },
-        {
-          "time": "2026-07-17 15:42:38",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1452.0,
-          "cost": 2904.0,
-          "score": {
-            "last": 1452.0,
-            "mom_30m_pct": 1.03,
-            "intraday_pct": 1.659,
-            "rsi": 65.8,
-            "vol_factor": 1.36,
-            "score": 2.398
-          }
-        },
-        {
-          "time": "2026-07-17 15:42:38",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1329.0,
-          "cost": 3987.0,
-          "score": {
-            "last": 1329.0,
-            "mom_30m_pct": 0.537,
-            "intraday_pct": 1.528,
-            "rsi": 68.8,
-            "vol_factor": 2.0,
-            "score": 2.264
-          }
-        },
-        {
-          "time": "2026-07-17 15:42:38",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 16,
-          "price": 283.8,
-          "cost": 4540.8,
-          "score": {
-            "last": 283.8,
-            "mom_30m_pct": 0.3,
-            "intraday_pct": 1.267,
-            "rsi": 61.1,
-            "vol_factor": 2.0,
-            "score": 1.831
-          }
-        },
-        {
-          "time": "2026-07-17 15:57:25",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1452.0,
-          "cost": 2904.0,
-          "score": {
-            "last": 1452.0,
-            "mom_30m_pct": 1.03,
-            "intraday_pct": 1.659,
-            "rsi": 65.8,
-            "vol_factor": 1.36,
-            "score": 2.398
-          }
-        },
-        {
-          "time": "2026-07-17 15:57:25",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1329.0,
-          "cost": 3987.0,
-          "score": {
-            "last": 1329.0,
-            "mom_30m_pct": 0.537,
-            "intraday_pct": 1.528,
-            "rsi": 68.8,
-            "vol_factor": 2.0,
-            "score": 2.264
-          }
-        },
-        {
-          "time": "2026-07-17 15:57:25",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 16,
-          "price": 283.8,
-          "cost": 4540.8,
-          "score": {
-            "last": 283.8,
-            "mom_30m_pct": 0.3,
-            "intraday_pct": 1.267,
-            "rsi": 61.1,
-            "vol_factor": 2.0,
-            "score": 1.831
-          }
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HCLTECH",
-          "qty": 3,
-          "price": 1203.9,
-          "buy_price": 1204.8,
-          "pnl": -2.7,
-          "pnl_pct": -0.07,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 22,
-          "price": 247.47,
-          "buy_price": 247.0,
-          "pnl": 10.34,
-          "pnl_pct": 0.19,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 10,
-          "price": 283.8,
-          "buy_price": 282.4,
-          "pnl": 14.0,
-          "pnl_pct": 0.5,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 2,
-          "price": 1329.4,
-          "buy_price": 1326.9,
-          "pnl": 5.0,
-          "pnl_pct": 0.19,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "WIPRO",
-          "qty": 17,
-          "price": 175.9,
-          "buy_price": 175.8,
-          "pnl": 1.7,
-          "pnl_pct": 0.06,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HCLTECH",
-          "qty": 2,
-          "price": 1203.9,
-          "buy_price": 1208.7,
-          "pnl": -9.6,
-          "pnl_pct": -0.4,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HINDUNILVR",
-          "qty": 1,
-          "price": 2143.0,
-          "buy_price": 2143.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HEROMOTOCO",
-          "qty": 1,
-          "price": 4909.9,
-          "buy_price": 4909.5,
-          "pnl": 0.4,
-          "pnl_pct": 0.01,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 2,
-          "price": 2265.0,
-          "buy_price": 2266.0,
-          "pnl": -2.0,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1571.0,
-          "buy_price": 1571.7,
-          "pnl": -1.4,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1571.0,
-          "buy_price": 1576.9,
-          "pnl": -11.8,
-          "pnl_pct": -0.37,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 6,
-          "price": 667.8,
-          "buy_price": 664.9,
-          "pnl": 17.4,
-          "pnl_pct": 0.44,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 2,
-          "price": 1329.4,
-          "buy_price": 1330.9,
-          "pnl": -3.0,
-          "pnl_pct": -0.11,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "JSWSTEEL",
-          "qty": 3,
-          "price": 1231.0,
-          "buy_price": 1236.4,
-          "pnl": -16.2,
-          "pnl_pct": -0.44,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HAVELLS",
-          "qty": 3,
-          "price": 1187.3,
-          "buy_price": 1189.9,
-          "pnl": -7.8,
-          "pnl_pct": -0.22,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "JSWSTEEL",
-          "qty": 2,
-          "price": 1231.0,
-          "buy_price": 1238.2,
-          "pnl": -14.4,
-          "pnl_pct": -0.58,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1571.0,
-          "buy_price": 1582.6,
-          "pnl": -23.2,
-          "pnl_pct": -0.73,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1452.0,
-          "buy_price": 1452.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1329.0,
-          "buy_price": 1329.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 16,
-          "price": 283.8,
-          "buy_price": 283.8,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1452.0,
-          "buy_price": 1452.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1329.0,
-          "buy_price": 1329.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-17 16:41:06",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 16,
-          "price": 283.8,
-          "buy_price": 283.8,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 28,
-      "n_sells": 28,
-      "feedback": "Day P&L \u20b9190 on \u20b999906 deployed (0.19%). Worst trade: TECHM (P&L \u20b9-23, -0.73%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
-      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 34,
-    "winning_days": 16,
+    "total_days": 33,
+    "winning_days": 15,
     "losing_days": 16,
-    "total_realized_pnl": -863.41,
+    "total_realized_pnl": -1052.95,
     "best_day_pnl": 263.9,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-06-08",
+        "note": "Day P&L \u20b9-160 on \u20b999722 deployed (-0.16%). Worst trade: SIEMENS (P&L \u20b9-42, -1.16%). Consider tighter stop on entries with weaker momentum scores. 33 EOD force-sells contributed \u20b9-118. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
       {
         "date": "2026-06-09",
         "note": "Day P&L \u20b975 on \u20b999976 deployed (0.08%). Worst trade: HINDALCO (P&L \u20b9-13, -0.60%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -27160,10 +27350,6 @@
       {
         "date": "2026-07-16",
         "note": "Day P&L \u20b9-201 on \u20b999979 deployed (-0.20%). Worst trade: SIEMENS (P&L \u20b9-50, -1.36%). Consider tighter stop on entries with weaker momentum scores. 20 EOD force-sells contributed \u20b9-160. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
-      },
-      {
-        "date": "2026-07-17",
-        "note": "Day P&L \u20b9190 on \u20b999906 deployed (0.19%). Worst trade: TECHM (P&L \u20b9-23, -0.73%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
       }
     ]
   }
