@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-17",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 57955.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-17 14:47:05",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 67830.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 57955.10011291504,
+    "invested_today": 67830.70008850098,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -318,6 +327,51 @@
           "rsi": 37.0,
           "vol_factor": 1.71,
           "score": 0.758
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1330.9,
+        "buy_time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "score_info": {
+          "last": 1330.9,
+          "mom_30m_pct": 0.833,
+          "intraday_pct": 1.938,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 2.831
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "buy_price": 1236.4,
+        "buy_time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "score_info": {
+          "last": 1236.4,
+          "mom_30m_pct": 0.906,
+          "intraday_pct": 1.178,
+          "rsi": 70.1,
+          "vol_factor": 2.0,
+          "score": 2.712
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1168.2,
+        "buy_time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "score_info": {
+          "last": 1168.2,
+          "mom_30m_pct": 1.38,
+          "intraday_pct": -0.248,
+          "rsi": 44.6,
+          "vol_factor": 0.27,
+          "score": 1.266
         }
       }
     ],
@@ -592,6 +646,57 @@
           "rsi": 37.0,
           "vol_factor": 1.71,
           "score": 0.758
+        }
+      },
+      {
+        "time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1330.9,
+        "cost": 2661.8,
+        "score": {
+          "last": 1330.9,
+          "mom_30m_pct": 0.833,
+          "intraday_pct": 1.938,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 2.831
+        }
+      },
+      {
+        "time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "price": 1236.4,
+        "cost": 3709.2,
+        "score": {
+          "last": 1236.4,
+          "mom_30m_pct": 0.906,
+          "intraday_pct": 1.178,
+          "rsi": 70.1,
+          "vol_factor": 2.0,
+          "score": 2.712
+        }
+      },
+      {
+        "time": "2026-07-17 14:47:05",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1168.2,
+        "cost": 3504.6,
+        "score": {
+          "last": 1168.2,
+          "mom_30m_pct": 1.38,
+          "intraday_pct": -0.248,
+          "rsi": 44.6,
+          "vol_factor": 0.27,
+          "score": 1.266
         }
       }
     ],
