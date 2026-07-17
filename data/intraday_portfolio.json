@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-17",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-17 11:35:19",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7924.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 7924.2000732421875,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "buy_price": 1436.6,
+        "buy_time": "2026-07-17 11:35:19",
+        "iteration": 1,
+        "score_info": {
+          "last": 1436.6,
+          "mom_30m_pct": 0.202,
+          "intraday_pct": 1.641,
+          "rsi": 63.4,
+          "vol_factor": 1.0,
+          "score": 0.796
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1204.8,
+        "buy_time": "2026-07-17 11:35:19",
+        "iteration": 1,
+        "score_info": {
+          "last": 1204.8,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": 1.057,
+          "rsi": 55.9,
+          "vol_factor": 1.0,
+          "score": 0.679
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-17 11:35:19",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1436.6,
+        "cost": 4309.8,
+        "score": {
+          "last": 1436.6,
+          "mom_30m_pct": 0.202,
+          "intraday_pct": 1.641,
+          "rsi": 63.4,
+          "vol_factor": 1.0,
+          "score": 0.796
+        }
+      },
+      {
+        "time": "2026-07-17 11:35:19",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1204.8,
+        "cost": 3614.4,
+        "score": {
+          "last": 1204.8,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": 1.057,
+          "rsi": 55.9,
+          "vol_factor": 1.0,
+          "score": 0.679
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
