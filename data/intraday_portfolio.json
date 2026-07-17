@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-17",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,26 +93,20 @@
         "invested_today_after": 77042.0,
         "realized_pnl_today_after": 124.6,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 11,
+        "time": "2026-07-17 15:42:38",
+        "n_bought": 3,
+        "n_sold": 3,
+        "invested_today_after": 88473.8,
+        "realized_pnl_today_after": 232.8,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 77042.00001525879,
-    "realized_pnl_today": 124.60019531249986,
+    "invested_today": 88473.79981994629,
+    "realized_pnl_today": 232.80019531250014,
     "open_positions": [
-      {
-        "symbol": "ICICIBANK",
-        "qty": 3,
-        "buy_price": 1436.6,
-        "buy_time": "2026-07-17 11:35:19",
-        "iteration": 1,
-        "score_info": {
-          "last": 1436.6,
-          "mom_30m_pct": 0.202,
-          "intraday_pct": 1.641,
-          "rsi": 63.4,
-          "vol_factor": 1.0,
-          "score": 0.796
-        }
-      },
       {
         "symbol": "HCLTECH",
         "qty": 3,
@@ -204,21 +198,6 @@
         }
       },
       {
-        "symbol": "GRASIM",
-        "qty": 1,
-        "buy_price": 3082.0,
-        "buy_time": "2026-07-17 12:33:45",
-        "iteration": 4,
-        "score_info": {
-          "last": 3082.0,
-          "mom_30m_pct": -0.016,
-          "intraday_pct": -0.175,
-          "rsi": 66.0,
-          "vol_factor": 2.0,
-          "score": 0.923
-        }
-      },
-      {
         "symbol": "HINDUNILVR",
         "qty": 1,
         "buy_price": 2143.0,
@@ -291,21 +270,6 @@
           "rsi": 74.3,
           "vol_factor": 1.03,
           "score": 1.857
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "buy_price": 1435.0,
-        "buy_time": "2026-07-17 14:04:44",
-        "iteration": 8,
-        "score_info": {
-          "last": 1435.0,
-          "mom_30m_pct": -0.07,
-          "intraday_pct": 1.787,
-          "rsi": 46.0,
-          "vol_factor": 2.0,
-          "score": 1.432
         }
       },
       {
@@ -396,6 +360,51 @@
           "rsi": 73.6,
           "vol_factor": 1.0,
           "score": 1.782
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1452.0,
+        "buy_time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "score_info": {
+          "last": 1452.0,
+          "mom_30m_pct": 1.03,
+          "intraday_pct": 1.659,
+          "rsi": 65.8,
+          "vol_factor": 1.36,
+          "score": 2.398
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1329.0,
+        "buy_time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "score_info": {
+          "last": 1329.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 1.528,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.264
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 16,
+        "buy_price": 283.8,
+        "buy_time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "score_info": {
+          "last": 283.8,
+          "mom_30m_pct": 0.3,
+          "intraday_pct": 1.267,
+          "rsi": 61.1,
+          "vol_factor": 2.0,
+          "score": 1.831
         }
       }
     ],
@@ -796,6 +805,93 @@
           "rsi": 73.6,
           "vol_factor": 1.0,
           "score": 1.782
+        }
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1452.0,
+        "buy_price": 1436.6,
+        "pnl": 46.2,
+        "pnl_pct": 1.07,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3110.0,
+        "buy_price": 3082.0,
+        "pnl": 28.0,
+        "pnl_pct": 0.91,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1452.0,
+        "buy_price": 1435.0,
+        "pnl": 34.0,
+        "pnl_pct": 1.18,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1452.0,
+        "cost": 2904.0,
+        "score": {
+          "last": 1452.0,
+          "mom_30m_pct": 1.03,
+          "intraday_pct": 1.659,
+          "rsi": 65.8,
+          "vol_factor": 1.36,
+          "score": 2.398
+        }
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1329.0,
+        "cost": 3987.0,
+        "score": {
+          "last": 1329.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 1.528,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.264
+        }
+      },
+      {
+        "time": "2026-07-17 15:42:38",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 16,
+        "price": 283.8,
+        "cost": 4540.8,
+        "score": {
+          "last": 283.8,
+          "mom_30m_pct": 0.3,
+          "intraday_pct": 1.267,
+          "rsi": 61.1,
+          "vol_factor": 2.0,
+          "score": 1.831
         }
       }
     ],
