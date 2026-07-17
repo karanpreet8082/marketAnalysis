@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-17",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 34376.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-07-17 13:05:29",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 38908.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 34376.50001525879,
+    "invested_today": 38908.50001525879,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -201,6 +210,21 @@
           "rsi": 72.8,
           "vol_factor": 0.65,
           "score": 0.292
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 2,
+        "buy_price": 2266.0,
+        "buy_time": "2026-07-17 13:05:29",
+        "iteration": 6,
+        "score_info": {
+          "last": 2266.0,
+          "mom_30m_pct": 0.203,
+          "intraday_pct": 2.219,
+          "rsi": 70.6,
+          "vol_factor": 1.0,
+          "score": 0.971
         }
       }
     ],
@@ -373,6 +397,23 @@
           "rsi": 72.8,
           "vol_factor": 0.65,
           "score": 0.292
+        }
+      },
+      {
+        "time": "2026-07-17 13:05:29",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 2,
+        "price": 2266.0,
+        "cost": 4532.0,
+        "score": {
+          "last": 2266.0,
+          "mom_30m_pct": 0.203,
+          "intraday_pct": 2.219,
+          "rsi": 70.6,
+          "vol_factor": 1.0,
+          "score": 0.971
         }
       }
     ],
