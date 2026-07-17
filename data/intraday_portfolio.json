@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-17",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13358.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-17 12:03:00",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 18836.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 13358.200073242188,
+    "invested_today": 18836.000061035156,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,36 @@
           "rsi": 49.4,
           "vol_factor": 2.0,
           "score": 1.456
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "buy_price": 282.4,
+        "buy_time": "2026-07-17 12:03:00",
+        "iteration": 3,
+        "score_info": {
+          "last": 282.4,
+          "mom_30m_pct": 0.16,
+          "intraday_pct": -0.141,
+          "rsi": 42.2,
+          "vol_factor": 2.0,
+          "score": 1.197
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1326.9,
+        "buy_time": "2026-07-17 12:03:00",
+        "iteration": 3,
+        "score_info": {
+          "last": 1326.9,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": 1.952,
+          "rsi": 52.0,
+          "vol_factor": 1.26,
+          "score": 1.177
         }
       }
     ],
@@ -122,6 +161,40 @@
           "rsi": 49.4,
           "vol_factor": 2.0,
           "score": 1.456
+        }
+      },
+      {
+        "time": "2026-07-17 12:03:00",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 282.4,
+        "cost": 2824.0,
+        "score": {
+          "last": 282.4,
+          "mom_30m_pct": 0.16,
+          "intraday_pct": -0.141,
+          "rsi": 42.2,
+          "vol_factor": 2.0,
+          "score": 1.197
+        }
+      },
+      {
+        "time": "2026-07-17 12:03:00",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1326.9,
+        "cost": 2653.8,
+        "score": {
+          "last": 1326.9,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": 1.952,
+          "rsi": 52.0,
+          "vol_factor": 1.26,
+          "score": 1.177
         }
       }
     ],
