@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-17",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 27324.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-17 12:57:00",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 34376.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 27324.00001525879,
+    "invested_today": 34376.50001525879,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -162,6 +171,36 @@
           "rsi": 66.0,
           "vol_factor": 2.0,
           "score": 0.923
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2143.0,
+        "buy_time": "2026-07-17 12:57:00",
+        "iteration": 5,
+        "score_info": {
+          "last": 2143.0,
+          "mom_30m_pct": 0.61,
+          "intraday_pct": 1.66,
+          "rsi": 64.2,
+          "vol_factor": 1.05,
+          "score": 1.465
+        }
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 4909.5,
+        "buy_time": "2026-07-17 12:57:00",
+        "iteration": 5,
+        "score_info": {
+          "last": 4909.5,
+          "mom_30m_pct": 0.358,
+          "intraday_pct": 0.358,
+          "rsi": 72.8,
+          "vol_factor": 0.65,
+          "score": 0.292
         }
       }
     ],
@@ -300,6 +339,40 @@
           "rsi": 66.0,
           "vol_factor": 2.0,
           "score": 0.923
+        }
+      },
+      {
+        "time": "2026-07-17 12:57:00",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2143.0,
+        "cost": 2143.0,
+        "score": {
+          "last": 2143.0,
+          "mom_30m_pct": 0.61,
+          "intraday_pct": 1.66,
+          "rsi": 64.2,
+          "vol_factor": 1.05,
+          "score": 1.465
+        }
+      },
+      {
+        "time": "2026-07-17 12:57:00",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 4909.5,
+        "cost": 4909.5,
+        "score": {
+          "last": 4909.5,
+          "mom_30m_pct": 0.358,
+          "intraday_pct": 0.358,
+          "rsi": 72.8,
+          "vol_factor": 0.65,
+          "score": 0.292
         }
       }
     ],
