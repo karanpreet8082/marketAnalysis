@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-17",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 18836.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
-      },
-      {
-        "iteration": 4,
-        "time": "2026-07-17 12:33:45",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 27324.0,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 8
       }
     ],
-    "invested_today": 27324.00001525879,
+    "invested_today": 18836.000061035156,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -117,51 +108,6 @@
           "rsi": 52.0,
           "vol_factor": 1.26,
           "score": 1.177
-        }
-      },
-      {
-        "symbol": "WIPRO",
-        "qty": 17,
-        "buy_price": 175.8,
-        "buy_time": "2026-07-17 12:33:45",
-        "iteration": 4,
-        "score_info": {
-          "last": 175.8,
-          "mom_30m_pct": 0.428,
-          "intraday_pct": -0.88,
-          "rsi": 73.0,
-          "vol_factor": 1.79,
-          "score": 1.172
-        }
-      },
-      {
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "buy_price": 1208.7,
-        "buy_time": "2026-07-17 12:33:45",
-        "iteration": 4,
-        "score_info": {
-          "last": 1208.7,
-          "mom_30m_pct": 0.407,
-          "intraday_pct": 0.986,
-          "rsi": 67.1,
-          "vol_factor": 1.16,
-          "score": 1.068
-        }
-      },
-      {
-        "symbol": "GRASIM",
-        "qty": 1,
-        "buy_price": 3082.0,
-        "buy_time": "2026-07-17 12:33:45",
-        "iteration": 4,
-        "score_info": {
-          "last": 3082.0,
-          "mom_30m_pct": -0.016,
-          "intraday_pct": -0.175,
-          "rsi": 66.0,
-          "vol_factor": 2.0,
-          "score": 0.923
         }
       }
     ],
@@ -249,57 +195,6 @@
           "rsi": 52.0,
           "vol_factor": 1.26,
           "score": 1.177
-        }
-      },
-      {
-        "time": "2026-07-17 12:33:45",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "WIPRO",
-        "qty": 17,
-        "price": 175.8,
-        "cost": 2988.6,
-        "score": {
-          "last": 175.8,
-          "mom_30m_pct": 0.428,
-          "intraday_pct": -0.88,
-          "rsi": 73.0,
-          "vol_factor": 1.79,
-          "score": 1.172
-        }
-      },
-      {
-        "time": "2026-07-17 12:33:45",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "price": 1208.7,
-        "cost": 2417.4,
-        "score": {
-          "last": 1208.7,
-          "mom_30m_pct": 0.407,
-          "intraday_pct": 0.986,
-          "rsi": 67.1,
-          "vol_factor": 1.16,
-          "score": 1.068
-        }
-      },
-      {
-        "time": "2026-07-17 12:33:45",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "GRASIM",
-        "qty": 1,
-        "price": 3082.0,
-        "cost": 3082.0,
-        "score": {
-          "last": 3082.0,
-          "mom_30m_pct": -0.016,
-          "intraday_pct": -0.175,
-          "rsi": 66.0,
-          "vol_factor": 2.0,
-          "score": 0.923
         }
       }
     ],
