@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-17",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,10 +84,19 @@
         "invested_today_after": 67830.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 10,
+        "time": "2026-07-17 15:00:11",
+        "n_bought": 3,
+        "n_sold": 2,
+        "invested_today_after": 77042.0,
+        "realized_pnl_today_after": 124.6,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 67830.70008850098,
-    "realized_pnl_today": 0.0,
+    "invested_today": 77042.00001525879,
+    "realized_pnl_today": 124.60019531249986,
     "open_positions": [
       {
         "symbol": "ICICIBANK",
@@ -270,21 +279,6 @@
         }
       },
       {
-        "symbol": "HAVELLS",
-        "qty": 5,
-        "buy_price": 1178.0,
-        "buy_time": "2026-07-17 13:54:11",
-        "iteration": 7,
-        "score_info": {
-          "last": 1178.0,
-          "mom_30m_pct": -0.169,
-          "intraday_pct": 0.076,
-          "rsi": 50.8,
-          "vol_factor": 1.81,
-          "score": 0.576
-        }
-      },
-      {
         "symbol": "TECHM",
         "qty": 2,
         "buy_price": 1576.9,
@@ -362,16 +356,46 @@
       {
         "symbol": "HAVELLS",
         "qty": 3,
-        "buy_price": 1168.2,
-        "buy_time": "2026-07-17 14:47:05",
-        "iteration": 9,
+        "buy_price": 1189.9,
+        "buy_time": "2026-07-17 15:00:11",
+        "iteration": 10,
         "score_info": {
-          "last": 1168.2,
-          "mom_30m_pct": 1.38,
-          "intraday_pct": -0.248,
-          "rsi": 44.6,
-          "vol_factor": 0.27,
-          "score": 1.266
+          "last": 1189.9,
+          "mom_30m_pct": 3.2,
+          "intraday_pct": 1.519,
+          "rsi": 55.8,
+          "vol_factor": 1.0,
+          "score": 5.256
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1238.2,
+        "buy_time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "score_info": {
+          "last": 1238.2,
+          "mom_30m_pct": 0.97,
+          "intraday_pct": 1.508,
+          "rsi": 72.9,
+          "vol_factor": 1.0,
+          "score": 1.908
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1582.6,
+        "buy_time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "score_info": {
+          "last": 1582.6,
+          "mom_30m_pct": 0.272,
+          "intraday_pct": 4.579,
+          "rsi": 73.6,
+          "vol_factor": 1.0,
+          "score": 1.782
         }
       }
     ],
@@ -697,6 +721,81 @@
           "rsi": 44.6,
           "vol_factor": 0.27,
           "score": 1.266
+        }
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "price": 1189.9,
+        "buy_price": 1178.0,
+        "pnl": 59.5,
+        "pnl_pct": 1.01,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1189.9,
+        "buy_price": 1168.2,
+        "pnl": 65.1,
+        "pnl_pct": 1.86,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1189.9,
+        "cost": 3569.7,
+        "score": {
+          "last": 1189.9,
+          "mom_30m_pct": 3.2,
+          "intraday_pct": 1.519,
+          "rsi": 55.8,
+          "vol_factor": 1.0,
+          "score": 5.256
+        }
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1238.2,
+        "cost": 2476.4,
+        "score": {
+          "last": 1238.2,
+          "mom_30m_pct": 0.97,
+          "intraday_pct": 1.508,
+          "rsi": 72.9,
+          "vol_factor": 1.0,
+          "score": 1.908
+        }
+      },
+      {
+        "time": "2026-07-17 15:00:11",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1582.6,
+        "cost": 3165.2,
+        "score": {
+          "last": 1582.6,
+          "mom_30m_pct": 0.272,
+          "intraday_pct": 4.579,
+          "rsi": 73.6,
+          "vol_factor": 1.0,
+          "score": 1.782
         }
       }
     ],
