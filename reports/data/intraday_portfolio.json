@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-17",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7924.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-17 11:50:03",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 13358.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
       }
     ],
-    "invested_today": 7924.2000732421875,
+    "invested_today": 13358.200073242188,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,21 @@
           "rsi": 55.9,
           "vol_factor": 1.0,
           "score": 0.679
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 22,
+        "buy_price": 247.0,
+        "buy_time": "2026-07-17 11:50:03",
+        "iteration": 2,
+        "score_info": {
+          "last": 247.0,
+          "mom_30m_pct": 0.211,
+          "intraday_pct": 0.464,
+          "rsi": 49.4,
+          "vol_factor": 2.0,
+          "score": 1.456
         }
       }
     ],
@@ -81,6 +105,23 @@
           "rsi": 55.9,
           "vol_factor": 1.0,
           "score": 0.679
+        }
+      },
+      {
+        "time": "2026-07-17 11:50:03",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 22,
+        "price": 247.0,
+        "cost": 5434.0,
+        "score": {
+          "last": 247.0,
+          "mom_30m_pct": 0.211,
+          "intraday_pct": 0.464,
+          "rsi": 49.4,
+          "vol_factor": 2.0,
+          "score": 1.456
         }
       }
     ],
