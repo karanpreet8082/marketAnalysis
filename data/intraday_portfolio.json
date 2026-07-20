@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-20",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,9 +111,18 @@
         "invested_today_after": 94217.85,
         "realized_pnl_today_after": 50.0,
         "open_positions_after": 24
+      },
+      {
+        "iteration": 13,
+        "time": "2026-07-20 17:29:59",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 97825.95,
+        "realized_pnl_today_after": 50.0,
+        "open_positions_after": 25
       }
     ],
-    "invested_today": 94217.84896850586,
+    "invested_today": 97825.94882202148,
     "realized_pnl_today": 49.99995117187518,
     "open_positions": [
       {
@@ -467,6 +476,21 @@
         "buy_price": 1202.7,
         "buy_time": "2026-07-20 17:00:44",
         "iteration": 12,
+        "score_info": {
+          "last": 1202.7,
+          "mom_30m_pct": 0.325,
+          "intraday_pct": 1.622,
+          "rsi": 72.7,
+          "vol_factor": 2.0,
+          "score": 1.975
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1202.7,
+        "buy_time": "2026-07-20 17:29:59",
+        "iteration": 13,
         "score_info": {
           "last": 1202.7,
           "mom_30m_pct": 0.325,
@@ -964,6 +988,23 @@
         "qty": 5,
         "price": 1202.7,
         "cost": 6013.5,
+        "score": {
+          "last": 1202.7,
+          "mom_30m_pct": 0.325,
+          "intraday_pct": 1.622,
+          "rsi": 72.7,
+          "vol_factor": 2.0,
+          "score": 1.975
+        }
+      },
+      {
+        "time": "2026-07-20 17:29:59",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1202.7,
+        "cost": 3608.1,
         "score": {
           "last": 1202.7,
           "mom_30m_pct": 0.325,
