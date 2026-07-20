@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-20",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 54147.5,
         "realized_pnl_today_after": 50.0,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-20 15:11:56",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 63169.2,
+        "realized_pnl_today_after": 50.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 54147.49984741211,
+    "invested_today": 63169.199615478516,
     "realized_pnl_today": 49.99995117187518,
     "open_positions": [
       {
@@ -294,6 +303,36 @@
           "rsi": 65.6,
           "vol_factor": 1.0,
           "score": 0.657
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 2,
+        "buy_price": 2925.2,
+        "buy_time": "2026-07-20 15:11:56",
+        "iteration": 8,
+        "score_info": {
+          "last": 2925.2,
+          "mom_30m_pct": 0.068,
+          "intraday_pct": 2.946,
+          "rsi": 44.8,
+          "vol_factor": 0.57,
+          "score": 0.558
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "buy_price": 288.3,
+        "buy_time": "2026-07-20 15:11:56",
+        "iteration": 8,
+        "score_info": {
+          "last": 288.3,
+          "mom_30m_pct": 0.209,
+          "intraday_pct": 1.747,
+          "rsi": 51.6,
+          "vol_factor": 0.65,
+          "score": 0.49
         }
       }
     ],
@@ -638,6 +677,40 @@
           "rsi": 65.6,
           "vol_factor": 1.0,
           "score": 0.657
+        }
+      },
+      {
+        "time": "2026-07-20 15:11:56",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 2,
+        "price": 2925.2,
+        "cost": 5850.4,
+        "score": {
+          "last": 2925.2,
+          "mom_30m_pct": 0.068,
+          "intraday_pct": 2.946,
+          "rsi": 44.8,
+          "vol_factor": 0.57,
+          "score": 0.558
+        }
+      },
+      {
+        "time": "2026-07-20 15:11:56",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "price": 288.3,
+        "cost": 3171.3,
+        "score": {
+          "last": 288.3,
+          "mom_30m_pct": 0.209,
+          "intraday_pct": 1.747,
+          "rsi": 51.6,
+          "vol_factor": 0.65,
+          "score": 0.49
         }
       }
     ],
