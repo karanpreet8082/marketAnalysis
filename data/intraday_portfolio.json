@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-20",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,26 +39,20 @@
         "invested_today_after": 29346.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-20 13:45:27",
+        "n_bought": 3,
+        "n_sold": 2,
+        "invested_today_after": 37244.3,
+        "realized_pnl_today_after": 80.4,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 29346.199951171875,
-    "realized_pnl_today": 0.0,
+    "invested_today": 37244.300048828125,
+    "realized_pnl_today": 80.40000000000009,
     "open_positions": [
-      {
-        "symbol": "BPCL",
-        "qty": 8,
-        "buy_price": 312.3,
-        "buy_time": "2026-07-20 12:05:07",
-        "iteration": 1,
-        "score_info": {
-          "last": 312.3,
-          "mom_30m_pct": 0.402,
-          "intraday_pct": -0.303,
-          "rsi": 65.7,
-          "vol_factor": 1.65,
-          "score": 1.158
-        }
-      },
       {
         "symbol": "JSWSTEEL",
         "qty": 4,
@@ -72,21 +66,6 @@
           "rsi": 35.5,
           "vol_factor": 1.0,
           "score": 0.488
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 8,
-        "buy_price": 313.15,
-        "buy_time": "2026-07-20 12:20:38",
-        "iteration": 2,
-        "score_info": {
-          "last": 313.15,
-          "mom_30m_pct": 0.627,
-          "intraday_pct": -0.064,
-          "rsi": 71.0,
-          "vol_factor": 1.0,
-          "score": 0.921
         }
       },
       {
@@ -177,6 +156,51 @@
           "rsi": 63.7,
           "vol_factor": 1.0,
           "score": 1.016
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1459.3,
+        "buy_time": "2026-07-20 13:45:27",
+        "iteration": 5,
+        "score_info": {
+          "last": 1459.3,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 3.306,
+          "rsi": 37.8,
+          "vol_factor": 1.0,
+          "score": 0.992
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "buy_price": 1028.65,
+        "buy_time": "2026-07-20 13:45:27",
+        "iteration": 5,
+        "score_info": {
+          "last": 1028.65,
+          "mom_30m_pct": 0.503,
+          "intraday_pct": 0.685,
+          "rsi": 63.9,
+          "vol_factor": 1.0,
+          "score": 0.96
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1461.1,
+        "buy_time": "2026-07-20 13:45:27",
+        "iteration": 5,
+        "score_info": {
+          "last": 1461.1,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": 2.011,
+          "rsi": 73.7,
+          "vol_factor": 1.0,
+          "score": 0.932
         }
       }
     ],
@@ -332,6 +356,81 @@
           "rsi": 63.7,
           "vol_factor": 1.0,
           "score": 1.016
+        }
+      },
+      {
+        "time": "2026-07-20 13:45:27",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "BPCL",
+        "qty": 8,
+        "price": 317.75,
+        "buy_price": 312.3,
+        "pnl": 43.6,
+        "pnl_pct": 1.75,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-20 13:45:27",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "BPCL",
+        "qty": 8,
+        "price": 317.75,
+        "buy_price": 313.15,
+        "pnl": 36.8,
+        "pnl_pct": 1.47,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-20 13:45:27",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1459.3,
+        "cost": 2918.6,
+        "score": {
+          "last": 1459.3,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 3.306,
+          "rsi": 37.8,
+          "vol_factor": 1.0,
+          "score": 0.992
+        }
+      },
+      {
+        "time": "2026-07-20 13:45:27",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1028.65,
+        "cost": 2057.3,
+        "score": {
+          "last": 1028.65,
+          "mom_30m_pct": 0.503,
+          "intraday_pct": 0.685,
+          "rsi": 63.9,
+          "vol_factor": 1.0,
+          "score": 0.96
+        }
+      },
+      {
+        "time": "2026-07-20 13:45:27",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1461.1,
+        "cost": 2922.2,
+        "score": {
+          "last": 1461.1,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": 2.011,
+          "rsi": 73.7,
+          "vol_factor": 1.0,
+          "score": 0.932
         }
       }
     ],
