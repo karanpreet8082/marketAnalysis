@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-20",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 78308.65,
         "realized_pnl_today_after": 50.0,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 11,
+        "time": "2026-07-20 16:45:08",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 85060.55,
+        "realized_pnl_today_after": 50.0,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 78308.64926147461,
+    "invested_today": 85060.54916381836,
     "realized_pnl_today": 49.99995117187518,
     "open_positions": [
       {
@@ -389,6 +398,36 @@
         "buy_price": 1202.7,
         "buy_time": "2026-07-20 15:59:24",
         "iteration": 10,
+        "score_info": {
+          "last": 1202.7,
+          "mom_30m_pct": 0.325,
+          "intraday_pct": 1.622,
+          "rsi": 72.7,
+          "vol_factor": 2.0,
+          "score": 1.975
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3143.8,
+        "buy_time": "2026-07-20 16:45:08",
+        "iteration": 11,
+        "score_info": {
+          "last": 3143.8,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 1.279,
+          "rsi": 58.2,
+          "vol_factor": 2.0,
+          "score": 2.016
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1202.7,
+        "buy_time": "2026-07-20 16:45:08",
+        "iteration": 11,
         "score_info": {
           "last": 1202.7,
           "mom_30m_pct": 0.325,
@@ -818,6 +857,40 @@
         "qty": 5,
         "price": 1202.7,
         "cost": 6013.5,
+        "score": {
+          "last": 1202.7,
+          "mom_30m_pct": 0.325,
+          "intraday_pct": 1.622,
+          "rsi": 72.7,
+          "vol_factor": 2.0,
+          "score": 1.975
+        }
+      },
+      {
+        "time": "2026-07-20 16:45:08",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3143.8,
+        "cost": 3143.8,
+        "score": {
+          "last": 3143.8,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 1.279,
+          "rsi": 58.2,
+          "vol_factor": 2.0,
+          "score": 2.016
+        }
+      },
+      {
+        "time": "2026-07-20 16:45:08",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1202.7,
+        "cost": 3608.1,
         "score": {
           "last": 1202.7,
           "mom_30m_pct": 0.325,
