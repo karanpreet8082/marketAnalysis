@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-20",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,18 +48,9 @@
         "invested_today_after": 37244.3,
         "realized_pnl_today_after": 80.4,
         "open_positions_after": 10
-      },
-      {
-        "iteration": 6,
-        "time": "2026-07-20 13:57:30",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 45907.2,
-        "realized_pnl_today_after": 80.4,
-        "open_positions_after": 13
       }
     ],
-    "invested_today": 45907.199951171875,
+    "invested_today": 37244.300048828125,
     "realized_pnl_today": 80.40000000000009,
     "open_positions": [
       {
@@ -210,51 +201,6 @@
           "rsi": 73.7,
           "vol_factor": 1.0,
           "score": 0.932
-        }
-      },
-      {
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "buy_price": 287.9,
-        "buy_time": "2026-07-20 13:57:30",
-        "iteration": 6,
-        "score_info": {
-          "last": 287.9,
-          "mom_30m_pct": 0.331,
-          "intraday_pct": 1.767,
-          "rsi": 82.5,
-          "vol_factor": 2.0,
-          "score": 0.527
-        }
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "qty": 1,
-        "buy_price": 1937.4,
-        "buy_time": "2026-07-20 13:57:30",
-        "iteration": 6,
-        "score_info": {
-          "last": 1937.4,
-          "mom_30m_pct": 0.316,
-          "intraday_pct": 1.77,
-          "rsi": 59.4,
-          "vol_factor": 0.12,
-          "score": 0.126
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 10,
-        "buy_price": 384.65,
-        "buy_time": "2026-07-20 13:57:30",
-        "iteration": 6,
-        "score_info": {
-          "last": 384.65,
-          "mom_30m_pct": 0.221,
-          "intraday_pct": 2.219,
-          "rsi": 87.5,
-          "vol_factor": 1.62,
-          "score": 0.114
         }
       }
     ],
@@ -485,57 +431,6 @@
           "rsi": 73.7,
           "vol_factor": 1.0,
           "score": 0.932
-        }
-      },
-      {
-        "time": "2026-07-20 13:57:30",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "price": 287.9,
-        "cost": 2879.0,
-        "score": {
-          "last": 287.9,
-          "mom_30m_pct": 0.331,
-          "intraday_pct": 1.767,
-          "rsi": 82.5,
-          "vol_factor": 2.0,
-          "score": 0.527
-        }
-      },
-      {
-        "time": "2026-07-20 13:57:30",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "BHARTIARTL",
-        "qty": 1,
-        "price": 1937.4,
-        "cost": 1937.4,
-        "score": {
-          "last": 1937.4,
-          "mom_30m_pct": 0.316,
-          "intraday_pct": 1.77,
-          "rsi": 59.4,
-          "vol_factor": 0.12,
-          "score": 0.126
-        }
-      },
-      {
-        "time": "2026-07-20 13:57:30",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 10,
-        "price": 384.65,
-        "cost": 3846.5,
-        "score": {
-          "last": 384.65,
-          "mom_30m_pct": 0.221,
-          "intraday_pct": 2.219,
-          "rsi": 87.5,
-          "vol_factor": 1.62,
-          "score": 0.114
         }
       }
     ],
