@@ -1,42 +1,5 @@
 [
   {
-    "timestamp": "2026-06-10 17:28 IST",
-    "budget": 50000.0,
-    "allocated": 41939.77,
-    "positions": 6,
-    "summary": {
-      "total_positions": 6,
-      "total_invested": 41939.77,
-      "cash_reserve": 8060.23,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24667.9,
-          "percent": 49.3,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 9926.0,
-          "percent": 19.9,
-          "positions": 1
-        },
-        "aggressive": {
-          "amount": 7345.87,
-          "percent": 14.7,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 6.7,
-      "max_loss_percent": 4.6,
-      "sector_distribution": {
-        "Financial Services": 3,
-        "Utilities": 1,
-        "Unknown": 1,
-        "Communication Services": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-06-11 16:45 IST",
     "budget": 50000.0,
     "allocated": 42103.1,
@@ -1838,6 +1801,43 @@
         "Energy": 1,
         "Basic Materials": 2,
         "Unknown": 1,
+        "Communication Services": 1,
+        "Financial Services": 2
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-20 12:04 IST",
+    "budget": 50000.0,
+    "allocated": 48850.18,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 48850.18,
+      "cash_reserve": 1149.82,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24854.33,
+          "percent": 49.7,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 16680.1,
+          "percent": 33.4,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7315.75,
+          "percent": 14.6,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 5.8,
+      "max_loss_percent": 4.1,
+      "sector_distribution": {
+        "Unknown": 3,
+        "Energy": 1,
         "Communication Services": 1,
         "Financial Services": 2
       }
