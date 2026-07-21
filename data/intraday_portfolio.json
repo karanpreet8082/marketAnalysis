@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-21",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 43051.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-21 14:11:28",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 52441.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 43051.6999206543,
+    "invested_today": 52441.6999206543,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -285,6 +294,36 @@
           "rsi": 59.1,
           "vol_factor": 0.25,
           "score": 1.189
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "buy_price": 1059.0,
+        "buy_time": "2026-07-21 14:11:28",
+        "iteration": 7,
+        "score_info": {
+          "last": 1059.0,
+          "mom_30m_pct": 0.432,
+          "intraday_pct": 2.736,
+          "rsi": 52.0,
+          "vol_factor": 0.33,
+          "score": 0.802
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 6,
+        "buy_price": 1212.0,
+        "buy_time": "2026-07-21 14:11:28",
+        "iteration": 7,
+        "score_info": {
+          "last": 1212.0,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.152,
+          "rsi": 40.1,
+          "vol_factor": 0.09,
+          "score": -0.141
         }
       }
     ],
@@ -542,6 +581,40 @@
           "rsi": 59.1,
           "vol_factor": 0.25,
           "score": 1.189
+        }
+      },
+      {
+        "time": "2026-07-21 14:11:28",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1059.0,
+        "cost": 2118.0,
+        "score": {
+          "last": 1059.0,
+          "mom_30m_pct": 0.432,
+          "intraday_pct": 2.736,
+          "rsi": 52.0,
+          "vol_factor": 0.33,
+          "score": 0.802
+        }
+      },
+      {
+        "time": "2026-07-21 14:11:28",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 6,
+        "price": 1212.0,
+        "cost": 7272.0,
+        "score": {
+          "last": 1212.0,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.152,
+          "rsi": 40.1,
+          "vol_factor": 0.09,
+          "score": -0.141
         }
       }
     ],
