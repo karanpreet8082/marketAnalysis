@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-21",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 85853.29,
         "realized_pnl_today_after": 107.4,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-07-21 16:23:21",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99671.79,
+        "realized_pnl_today_after": 107.4,
+        "open_positions_after": 23
       }
     ],
-    "invested_today": 85853.28970336914,
+    "invested_today": 99671.78970336914,
     "realized_pnl_today": 107.39990234375045,
     "open_positions": [
       {
@@ -398,6 +407,51 @@
         "buy_price": 1239.5,
         "buy_time": "2026-07-21 16:04:47",
         "iteration": 11,
+        "score_info": {
+          "last": 1239.5,
+          "mom_30m_pct": 0.073,
+          "intraday_pct": 1.465,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.549
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3201.7,
+        "buy_time": "2026-07-21 16:23:21",
+        "iteration": 12,
+        "score_info": {
+          "last": 3201.7,
+          "mom_30m_pct": 0.342,
+          "intraday_pct": 1.272,
+          "rsi": 66.0,
+          "vol_factor": 1.86,
+          "score": 1.758
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3179.8,
+        "buy_time": "2026-07-21 16:23:21",
+        "iteration": 12,
+        "score_info": {
+          "last": 3179.8,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": 0.802,
+          "rsi": 74.1,
+          "vol_factor": 2.0,
+          "score": 1.681
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 6,
+        "buy_price": 1239.5,
+        "buy_time": "2026-07-21 16:23:21",
+        "iteration": 12,
         "score_info": {
           "last": 1239.5,
           "mom_30m_pct": 0.073,
@@ -885,6 +939,57 @@
         "qty": 2,
         "price": 1239.5,
         "cost": 2479.0,
+        "score": {
+          "last": 1239.5,
+          "mom_30m_pct": 0.073,
+          "intraday_pct": 1.465,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.549
+        }
+      },
+      {
+        "time": "2026-07-21 16:23:21",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3201.7,
+        "cost": 3201.7,
+        "score": {
+          "last": 3201.7,
+          "mom_30m_pct": 0.342,
+          "intraday_pct": 1.272,
+          "rsi": 66.0,
+          "vol_factor": 1.86,
+          "score": 1.758
+        }
+      },
+      {
+        "time": "2026-07-21 16:23:21",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3179.8,
+        "cost": 3179.8,
+        "score": {
+          "last": 3179.8,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": 0.802,
+          "rsi": 74.1,
+          "vol_factor": 2.0,
+          "score": 1.681
+        }
+      },
+      {
+        "time": "2026-07-21 16:23:21",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 6,
+        "price": 1239.5,
+        "cost": 7437.0,
         "score": {
           "last": 1239.5,
           "mom_30m_pct": 0.073,
