@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-21",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 80194.49,
         "realized_pnl_today_after": 107.4,
         "open_positions_after": 18
+      },
+      {
+        "iteration": 11,
+        "time": "2026-07-21 16:04:47",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 85853.29,
+        "realized_pnl_today_after": 107.4,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 80194.48965454102,
+    "invested_today": 85853.28970336914,
     "realized_pnl_today": 107.39990234375045,
     "open_positions": [
       {
@@ -366,6 +375,36 @@
           "rsi": 62.6,
           "vol_factor": 1.96,
           "score": 1.272
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3179.8,
+        "buy_time": "2026-07-21 16:04:47",
+        "iteration": 11,
+        "score_info": {
+          "last": 3179.8,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": 0.802,
+          "rsi": 74.1,
+          "vol_factor": 2.0,
+          "score": 1.681
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1239.5,
+        "buy_time": "2026-07-21 16:04:47",
+        "iteration": 11,
+        "score_info": {
+          "last": 1239.5,
+          "mom_30m_pct": 0.073,
+          "intraday_pct": 1.465,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.549
         }
       }
     ],
@@ -819,6 +858,40 @@
           "rsi": 62.6,
           "vol_factor": 1.96,
           "score": 1.272
+        }
+      },
+      {
+        "time": "2026-07-21 16:04:47",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3179.8,
+        "cost": 3179.8,
+        "score": {
+          "last": 3179.8,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": 0.802,
+          "rsi": 74.1,
+          "vol_factor": 2.0,
+          "score": 1.681
+        }
+      },
+      {
+        "time": "2026-07-21 16:04:47",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1239.5,
+        "cost": 2479.0,
+        "score": {
+          "last": 1239.5,
+          "mom_30m_pct": 0.073,
+          "intraday_pct": 1.465,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.549
         }
       }
     ],
