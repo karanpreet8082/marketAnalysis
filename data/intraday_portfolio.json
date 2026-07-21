@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-21",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 20555.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
-      },
-      {
-        "iteration": 4,
-        "time": "2026-07-21 12:50:37",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 28808.9,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 11
       }
     ],
-    "invested_today": 28808.899871826172,
+    "invested_today": 20555.09994506836,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -162,51 +153,6 @@
           "rsi": 51.9,
           "vol_factor": 1.0,
           "score": 1.063
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 1056.85,
-        "buy_time": "2026-07-21 12:50:37",
-        "iteration": 4,
-        "score_info": {
-          "last": 1056.85,
-          "mom_30m_pct": -0.142,
-          "intraday_pct": 3.294,
-          "rsi": 34.9,
-          "vol_factor": 1.0,
-          "score": 0.776
-        }
-      },
-      {
-        "symbol": "HCLTECH",
-        "qty": 3,
-        "buy_price": 1234.1,
-        "buy_time": "2026-07-21 12:50:37",
-        "iteration": 4,
-        "score_info": {
-          "last": 1234.1,
-          "mom_30m_pct": 0.187,
-          "intraday_pct": 1.614,
-          "rsi": 54.7,
-          "vol_factor": 1.0,
-          "score": 0.764
-        }
-      },
-      {
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "buy_price": 1218.9,
-        "buy_time": "2026-07-21 12:50:37",
-        "iteration": 4,
-        "score_info": {
-          "last": 1218.9,
-          "mom_30m_pct": 0.033,
-          "intraday_pct": 1.821,
-          "rsi": 67.4,
-          "vol_factor": 1.0,
-          "score": 0.596
         }
       }
     ],
@@ -345,57 +291,6 @@
           "rsi": 51.9,
           "vol_factor": 1.0,
           "score": 1.063
-        }
-      },
-      {
-        "time": "2026-07-21 12:50:37",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "price": 1056.85,
-        "cost": 2113.7,
-        "score": {
-          "last": 1056.85,
-          "mom_30m_pct": -0.142,
-          "intraday_pct": 3.294,
-          "rsi": 34.9,
-          "vol_factor": 1.0,
-          "score": 0.776
-        }
-      },
-      {
-        "time": "2026-07-21 12:50:37",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HCLTECH",
-        "qty": 3,
-        "price": 1234.1,
-        "cost": 3702.3,
-        "score": {
-          "last": 1234.1,
-          "mom_30m_pct": 0.187,
-          "intraday_pct": 1.614,
-          "rsi": 54.7,
-          "vol_factor": 1.0,
-          "score": 0.764
-        }
-      },
-      {
-        "time": "2026-07-21 12:50:37",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "price": 1218.9,
-        "cost": 2437.8,
-        "score": {
-          "last": 1218.9,
-          "mom_30m_pct": 0.033,
-          "intraday_pct": 1.821,
-          "rsi": 67.4,
-          "vol_factor": 1.0,
-          "score": 0.596
         }
       }
     ],
