@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-22",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,26 +75,20 @@
         "invested_today_after": 63076.15,
         "realized_pnl_today_after": 27.45,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-22 15:03:51",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 72188.35,
+        "realized_pnl_today_after": -4.75,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 63076.150329589844,
-    "realized_pnl_today": 27.449926757812364,
+    "invested_today": 72188.35034179688,
+    "realized_pnl_today": -4.750024414062636,
     "open_positions": [
-      {
-        "symbol": "M&M",
-        "qty": 1,
-        "buy_price": 3205.5,
-        "buy_time": "2026-07-22 11:45:30",
-        "iteration": 1,
-        "score_info": {
-          "last": 3205.5,
-          "mom_30m_pct": 0.338,
-          "intraday_pct": 0.764,
-          "rsi": 67.9,
-          "vol_factor": 1.0,
-          "score": 0.736
-        }
-      },
       {
         "symbol": "GRASIM",
         "qty": 2,
@@ -288,6 +282,36 @@
           "rsi": 54.5,
           "vol_factor": 1.62,
           "score": 0.771
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "buy_price": 2688.8,
+        "buy_time": "2026-07-22 15:03:51",
+        "iteration": 9,
+        "score_info": {
+          "last": 2688.8,
+          "mom_30m_pct": 0.516,
+          "intraday_pct": -0.03,
+          "rsi": 67.7,
+          "vol_factor": 2.0,
+          "score": 1.765
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 20,
+        "buy_price": 186.73,
+        "buy_time": "2026-07-22 15:03:51",
+        "iteration": 9,
+        "score_info": {
+          "last": 186.73,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": -0.198,
+          "rsi": 60.0,
+          "vol_factor": 2.0,
+          "score": 1.44
         }
       }
     ],
@@ -557,6 +581,52 @@
           "rsi": 54.5,
           "vol_factor": 1.62,
           "score": 0.771
+        }
+      },
+      {
+        "time": "2026-07-22 15:03:51",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3173.3,
+        "buy_price": 3205.5,
+        "pnl": -32.2,
+        "pnl_pct": -1.0,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-22 15:03:51",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "price": 2688.8,
+        "cost": 5377.6,
+        "score": {
+          "last": 2688.8,
+          "mom_30m_pct": 0.516,
+          "intraday_pct": -0.03,
+          "rsi": 67.7,
+          "vol_factor": 2.0,
+          "score": 1.765
+        }
+      },
+      {
+        "time": "2026-07-22 15:03:51",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 20,
+        "price": 186.73,
+        "cost": 3734.6,
+        "score": {
+          "last": 186.73,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": -0.198,
+          "rsi": 60.0,
+          "vol_factor": 2.0,
+          "score": 1.44
         }
       }
     ],
