@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-22",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,27 @@
         "invested_today_after": 89848.25,
         "realized_pnl_today_after": -4.75,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-07-22 16:24:27",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99504.45,
+        "realized_pnl_today_after": -4.75,
+        "open_positions_after": 22
+      },
+      {
+        "iteration": 13,
+        "time": "2026-07-22 16:52:38",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 99786.25,
+        "realized_pnl_today_after": -4.75,
+        "open_positions_after": 23
       }
     ],
-    "invested_today": 89848.24993896484,
+    "invested_today": 99786.24963378906,
     "realized_pnl_today": -4.750024414062636,
     "open_positions": [
       {
@@ -405,6 +423,51 @@
           "rsi": 69.5,
           "vol_factor": 2.0,
           "score": 1.528
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 24,
+        "buy_price": 281.8,
+        "buy_time": "2026-07-22 16:24:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 281.8,
+          "mom_30m_pct": 0.338,
+          "intraday_pct": 0.571,
+          "rsi": 56.7,
+          "vol_factor": 2.0,
+          "score": 1.679
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2893.0,
+        "buy_time": "2026-07-22 16:24:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 2893.0,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": -0.079,
+          "rsi": 69.5,
+          "vol_factor": 2.0,
+          "score": 1.528
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 1,
+        "buy_price": 281.8,
+        "buy_time": "2026-07-22 16:52:38",
+        "iteration": 13,
+        "score_info": {
+          "last": 281.8,
+          "mom_30m_pct": 0.338,
+          "intraday_pct": 0.571,
+          "rsi": 56.7,
+          "vol_factor": 2.0,
+          "score": 1.679
         }
       }
     ],
@@ -805,6 +868,57 @@
           "rsi": 69.5,
           "vol_factor": 2.0,
           "score": 1.528
+        }
+      },
+      {
+        "time": "2026-07-22 16:24:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 24,
+        "price": 281.8,
+        "cost": 6763.2,
+        "score": {
+          "last": 281.8,
+          "mom_30m_pct": 0.338,
+          "intraday_pct": 0.571,
+          "rsi": 56.7,
+          "vol_factor": 2.0,
+          "score": 1.679
+        }
+      },
+      {
+        "time": "2026-07-22 16:24:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2893.0,
+        "cost": 2893.0,
+        "score": {
+          "last": 2893.0,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": -0.079,
+          "rsi": 69.5,
+          "vol_factor": 2.0,
+          "score": 1.528
+        }
+      },
+      {
+        "time": "2026-07-22 16:52:38",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 1,
+        "price": 281.8,
+        "cost": 281.8,
+        "score": {
+          "last": 281.8,
+          "mom_30m_pct": 0.338,
+          "intraday_pct": 0.571,
+          "rsi": 56.7,
+          "vol_factor": 2.0,
+          "score": 1.679
         }
       }
     ],
