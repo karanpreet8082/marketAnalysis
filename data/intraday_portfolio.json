@@ -1,5 +1,59 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-22",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-22 11:45:30",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 3205.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      }
+    ],
+    "invested_today": 3205.5,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3205.5,
+        "buy_time": "2026-07-22 11:45:30",
+        "iteration": 1,
+        "score_info": {
+          "last": 3205.5,
+          "mom_30m_pct": 0.338,
+          "intraday_pct": 0.764,
+          "rsi": 67.9,
+          "vol_factor": 1.0,
+          "score": 0.736
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-22 11:45:30",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3205.5,
+        "cost": 3205.5,
+        "score": {
+          "last": 3205.5,
+          "mom_30m_pct": 0.338,
+          "intraday_pct": 0.764,
+          "rsi": 67.9,
+          "vol_factor": 1.0,
+          "score": 0.736
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
