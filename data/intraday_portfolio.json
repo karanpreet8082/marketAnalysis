@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-23",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 28109.93,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-23 13:12:07",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 34062.73,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 28109.930053710938,
+    "invested_today": 34062.730224609375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -177,6 +186,21 @@
           "rsi": 30.4,
           "vol_factor": 2.0,
           "score": 0.464
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 14,
+        "buy_price": 425.2,
+        "buy_time": "2026-07-23 13:12:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 425.2,
+          "mom_30m_pct": 0.059,
+          "intraday_pct": -0.585,
+          "rsi": 44.3,
+          "vol_factor": 2.0,
+          "score": 0.913
         }
       }
     ],
@@ -332,6 +356,23 @@
           "rsi": 30.4,
           "vol_factor": 2.0,
           "score": 0.464
+        }
+      },
+      {
+        "time": "2026-07-23 13:12:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 14,
+        "price": 425.2,
+        "cost": 5952.8,
+        "score": {
+          "last": 425.2,
+          "mom_30m_pct": 0.059,
+          "intraday_pct": -0.585,
+          "rsi": 44.3,
+          "vol_factor": 2.0,
+          "score": 0.913
         }
       }
     ],
