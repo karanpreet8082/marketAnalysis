@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-23",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 56786.03,
         "realized_pnl_today_after": 73.5,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-23 15:00:30",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 65636.83,
+        "realized_pnl_today_after": 73.5,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 56786.03076171875,
+    "invested_today": 65636.83081054688,
     "realized_pnl_today": 73.49999999999955,
     "open_positions": [
       {
@@ -258,6 +267,36 @@
           "rsi": 70.3,
           "vol_factor": 0.48,
           "score": 0.368
+        }
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 5172.5,
+        "buy_time": "2026-07-23 15:00:30",
+        "iteration": 9,
+        "score_info": {
+          "last": 5172.5,
+          "mom_30m_pct": -0.145,
+          "intraday_pct": 3.618,
+          "rsi": 51.8,
+          "vol_factor": 1.0,
+          "score": 0.868
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3678.3,
+        "buy_time": "2026-07-23 15:00:30",
+        "iteration": 9,
+        "score_info": {
+          "last": 3678.3,
+          "mom_30m_pct": 0.008,
+          "intraday_pct": 0.695,
+          "rsi": 49.4,
+          "vol_factor": 1.0,
+          "score": 0.221
         }
       }
     ],
@@ -522,6 +561,40 @@
           "rsi": 70.3,
           "vol_factor": 0.48,
           "score": 0.368
+        }
+      },
+      {
+        "time": "2026-07-23 15:00:30",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 5172.5,
+        "cost": 5172.5,
+        "score": {
+          "last": 5172.5,
+          "mom_30m_pct": -0.145,
+          "intraday_pct": 3.618,
+          "rsi": 51.8,
+          "vol_factor": 1.0,
+          "score": 0.868
+        }
+      },
+      {
+        "time": "2026-07-23 15:00:30",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3678.3,
+        "cost": 3678.3,
+        "score": {
+          "last": 3678.3,
+          "mom_30m_pct": 0.008,
+          "intraday_pct": 0.695,
+          "rsi": 49.4,
+          "vol_factor": 1.0,
+          "score": 0.221
         }
       }
     ],
