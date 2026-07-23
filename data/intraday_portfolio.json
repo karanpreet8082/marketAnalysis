@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-23",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 8312.45,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-23 12:03:07",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 15862.15,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 8312.449890136719,
+    "invested_today": 15862.150085449219,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,51 @@
           "rsi": 57.0,
           "vol_factor": 1.79,
           "score": 0.419
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2228.3,
+        "buy_time": "2026-07-23 12:03:07",
+        "iteration": 2,
+        "score_info": {
+          "last": 2228.3,
+          "mom_30m_pct": 0.764,
+          "intraday_pct": 0.338,
+          "rsi": 63.2,
+          "vol_factor": 1.24,
+          "score": 1.491
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1052.8,
+        "buy_time": "2026-07-23 12:03:07",
+        "iteration": 2,
+        "score_info": {
+          "last": 1052.8,
+          "mom_30m_pct": 1.075,
+          "intraday_pct": -0.303,
+          "rsi": 66.2,
+          "vol_factor": 0.83,
+          "score": 1.354
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2163.0,
+        "buy_time": "2026-07-23 12:03:07",
+        "iteration": 2,
+        "score_info": {
+          "last": 2163.0,
+          "mom_30m_pct": 0.088,
+          "intraday_pct": 0.703,
+          "rsi": 61.2,
+          "vol_factor": 1.7,
+          "score": 1.04
         }
       }
     ],
@@ -81,6 +135,57 @@
           "rsi": 57.0,
           "vol_factor": 1.79,
           "score": 0.419
+        }
+      },
+      {
+        "time": "2026-07-23 12:03:07",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2228.3,
+        "cost": 2228.3,
+        "score": {
+          "last": 2228.3,
+          "mom_30m_pct": 0.764,
+          "intraday_pct": 0.338,
+          "rsi": 63.2,
+          "vol_factor": 1.24,
+          "score": 1.491
+        }
+      },
+      {
+        "time": "2026-07-23 12:03:07",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1052.8,
+        "cost": 3158.4,
+        "score": {
+          "last": 1052.8,
+          "mom_30m_pct": 1.075,
+          "intraday_pct": -0.303,
+          "rsi": 66.2,
+          "vol_factor": 0.83,
+          "score": 1.354
+        }
+      },
+      {
+        "time": "2026-07-23 12:03:07",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2163.0,
+        "cost": 2163.0,
+        "score": {
+          "last": 2163.0,
+          "mom_30m_pct": 0.088,
+          "intraday_pct": 0.703,
+          "rsi": 61.2,
+          "vol_factor": 1.7,
+          "score": 1.04
         }
       }
     ],
