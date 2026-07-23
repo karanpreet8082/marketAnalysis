@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-23",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 15862.15,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-23 12:13:55",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 23087.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 15862.150085449219,
+    "invested_today": 23087.950134277344,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,36 @@
           "rsi": 61.2,
           "vol_factor": 1.7,
           "score": 1.04
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 4,
+        "buy_price": 1247.4,
+        "buy_time": "2026-07-23 12:13:55",
+        "iteration": 3,
+        "score_info": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.516,
+          "intraday_pct": 0.873,
+          "rsi": 63.2,
+          "vol_factor": 0.64,
+          "score": 0.675
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2236.2,
+        "buy_time": "2026-07-23 12:13:55",
+        "iteration": 3,
+        "score_info": {
+          "last": 2236.2,
+          "mom_30m_pct": 0.889,
+          "intraday_pct": 0.761,
+          "rsi": 75.3,
+          "vol_factor": 1.59,
+          "score": 0.654
         }
       }
     ],
@@ -186,6 +225,40 @@
           "rsi": 61.2,
           "vol_factor": 1.7,
           "score": 1.04
+        }
+      },
+      {
+        "time": "2026-07-23 12:13:55",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 4,
+        "price": 1247.4,
+        "cost": 4989.6,
+        "score": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.516,
+          "intraday_pct": 0.873,
+          "rsi": 63.2,
+          "vol_factor": 0.64,
+          "score": 0.675
+        }
+      },
+      {
+        "time": "2026-07-23 12:13:55",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2236.2,
+        "cost": 2236.2,
+        "score": {
+          "last": 2236.2,
+          "mom_30m_pct": 0.889,
+          "intraday_pct": 0.761,
+          "rsi": 75.3,
+          "vol_factor": 1.59,
+          "score": 0.654
         }
       }
     ],
