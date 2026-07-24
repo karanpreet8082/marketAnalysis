@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-24",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 12782.85,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-24 12:13:40",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 21217.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 12782.850036621094,
+    "invested_today": 21217.050170898438,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,51 @@
           "rsi": 68.1,
           "vol_factor": 0.51,
           "score": 0.238
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1223.9,
+        "buy_time": "2026-07-24 12:13:40",
+        "iteration": 3,
+        "score_info": {
+          "last": 1223.9,
+          "mom_30m_pct": 0.575,
+          "intraday_pct": -0.512,
+          "rsi": 67.7,
+          "vol_factor": 1.05,
+          "score": 0.758
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 11,
+        "buy_price": 284.2,
+        "buy_time": "2026-07-24 12:13:40",
+        "iteration": 3,
+        "score_info": {
+          "last": 284.2,
+          "mom_30m_pct": 0.62,
+          "intraday_pct": 0.353,
+          "rsi": 68.9,
+          "vol_factor": 0.43,
+          "score": 0.47
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1430.1,
+        "buy_time": "2026-07-24 12:13:40",
+        "iteration": 3,
+        "score_info": {
+          "last": 1430.1,
+          "mom_30m_pct": 0.492,
+          "intraday_pct": -0.529,
+          "rsi": 73.8,
+          "vol_factor": 0.57,
+          "score": 0.149
         }
       }
     ],
@@ -122,6 +176,57 @@
           "rsi": 68.1,
           "vol_factor": 0.51,
           "score": 0.238
+        }
+      },
+      {
+        "time": "2026-07-24 12:13:40",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1223.9,
+        "cost": 2447.8,
+        "score": {
+          "last": 1223.9,
+          "mom_30m_pct": 0.575,
+          "intraday_pct": -0.512,
+          "rsi": 67.7,
+          "vol_factor": 1.05,
+          "score": 0.758
+        }
+      },
+      {
+        "time": "2026-07-24 12:13:40",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 11,
+        "price": 284.2,
+        "cost": 3126.2,
+        "score": {
+          "last": 284.2,
+          "mom_30m_pct": 0.62,
+          "intraday_pct": 0.353,
+          "rsi": 68.9,
+          "vol_factor": 0.43,
+          "score": 0.47
+        }
+      },
+      {
+        "time": "2026-07-24 12:13:40",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1430.1,
+        "cost": 2860.2,
+        "score": {
+          "last": 1430.1,
+          "mom_30m_pct": 0.492,
+          "intraday_pct": -0.529,
+          "rsi": 73.8,
+          "vol_factor": 0.57,
+          "score": 0.149
         }
       }
     ],
