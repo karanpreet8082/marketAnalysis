@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-24",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 29416.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-24 13:10:18",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 34721.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 29416.20034790039,
+    "invested_today": 34721.20034790039,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -177,6 +186,36 @@
           "rsi": 61.7,
           "vol_factor": 2.0,
           "score": 0.541
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1418.3,
+        "buy_time": "2026-07-24 13:10:18",
+        "iteration": 5,
+        "score_info": {
+          "last": 1418.3,
+          "mom_30m_pct": 0.021,
+          "intraday_pct": 3.616,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": 1.117
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1234.2,
+        "buy_time": "2026-07-24 13:10:18",
+        "iteration": 5,
+        "score_info": {
+          "last": 1234.2,
+          "mom_30m_pct": 0.341,
+          "intraday_pct": 1.992,
+          "rsi": 64.2,
+          "vol_factor": 1.0,
+          "score": 1.11
         }
       }
     ],
@@ -332,6 +371,40 @@
           "rsi": 61.7,
           "vol_factor": 2.0,
           "score": 0.541
+        }
+      },
+      {
+        "time": "2026-07-24 13:10:18",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1418.3,
+        "cost": 2836.6,
+        "score": {
+          "last": 1418.3,
+          "mom_30m_pct": 0.021,
+          "intraday_pct": 3.616,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": 1.117
+        }
+      },
+      {
+        "time": "2026-07-24 13:10:18",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1234.2,
+        "cost": 2468.4,
+        "score": {
+          "last": 1234.2,
+          "mom_30m_pct": 0.341,
+          "intraday_pct": 1.992,
+          "rsi": 64.2,
+          "vol_factor": 1.0,
+          "score": 1.11
         }
       }
     ],
