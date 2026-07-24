@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-24",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,27 @@
         "invested_today_after": 70745.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 22
+      },
+      {
+        "iteration": 10,
+        "time": "2026-07-24 15:29:43",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 77081.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 24
+      },
+      {
+        "iteration": 11,
+        "time": "2026-07-24 15:59:08",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 88310.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 27
       }
     ],
-    "invested_today": 70745.30038452148,
+    "invested_today": 88310.70028686523,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -417,6 +435,81 @@
           "rsi": 43.4,
           "vol_factor": 2.0,
           "score": 0.781
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1018.0,
+        "buy_time": "2026-07-24 15:29:43",
+        "iteration": 10,
+        "score_info": {
+          "last": 1018.0,
+          "mom_30m_pct": 0.593,
+          "intraday_pct": -0.741,
+          "rsi": 70.4,
+          "vol_factor": 2.0,
+          "score": 1.667
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1094.0,
+        "buy_time": "2026-07-24 15:29:43",
+        "iteration": 10,
+        "score_info": {
+          "last": 1094.0,
+          "mom_30m_pct": 0.764,
+          "intraday_pct": -0.978,
+          "rsi": 71.6,
+          "vol_factor": 1.78,
+          "score": 1.63
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3033.4,
+        "buy_time": "2026-07-24 15:59:08",
+        "iteration": 11,
+        "score_info": {
+          "last": 3033.4,
+          "mom_30m_pct": 0.507,
+          "intraday_pct": 0.168,
+          "rsi": 58.9,
+          "vol_factor": 2.0,
+          "score": 1.811
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 12,
+        "buy_price": 375.5,
+        "buy_time": "2026-07-24 15:59:08",
+        "iteration": 11,
+        "score_info": {
+          "last": 375.5,
+          "mom_30m_pct": 0.428,
+          "intraday_pct": 0.053,
+          "rsi": 61.0,
+          "vol_factor": 2.0,
+          "score": 1.658
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1230.0,
+        "buy_time": "2026-07-24 15:59:08",
+        "iteration": 11,
+        "score_info": {
+          "last": 1230.0,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": 2.058,
+          "rsi": 32.9,
+          "vol_factor": 1.86,
+          "score": 1.652
         }
       }
     ],
@@ -793,6 +886,91 @@
           "rsi": 43.4,
           "vol_factor": 2.0,
           "score": 0.781
+        }
+      },
+      {
+        "time": "2026-07-24 15:29:43",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1018.0,
+        "cost": 3054.0,
+        "score": {
+          "last": 1018.0,
+          "mom_30m_pct": 0.593,
+          "intraday_pct": -0.741,
+          "rsi": 70.4,
+          "vol_factor": 2.0,
+          "score": 1.667
+        }
+      },
+      {
+        "time": "2026-07-24 15:29:43",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1094.0,
+        "cost": 3282.0,
+        "score": {
+          "last": 1094.0,
+          "mom_30m_pct": 0.764,
+          "intraday_pct": -0.978,
+          "rsi": 71.6,
+          "vol_factor": 1.78,
+          "score": 1.63
+        }
+      },
+      {
+        "time": "2026-07-24 15:59:08",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3033.4,
+        "cost": 3033.4,
+        "score": {
+          "last": 3033.4,
+          "mom_30m_pct": 0.507,
+          "intraday_pct": 0.168,
+          "rsi": 58.9,
+          "vol_factor": 2.0,
+          "score": 1.811
+        }
+      },
+      {
+        "time": "2026-07-24 15:59:08",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 12,
+        "price": 375.5,
+        "cost": 4506.0,
+        "score": {
+          "last": 375.5,
+          "mom_30m_pct": 0.428,
+          "intraday_pct": 0.053,
+          "rsi": 61.0,
+          "vol_factor": 2.0,
+          "score": 1.658
+        }
+      },
+      {
+        "time": "2026-07-24 15:59:08",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1230.0,
+        "cost": 3690.0,
+        "score": {
+          "last": 1230.0,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": 2.058,
+          "rsi": 32.9,
+          "vol_factor": 1.86,
+          "score": 1.652
         }
       }
     ],
