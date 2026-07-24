@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-24",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 52424.45,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-24 14:33:41",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 61142.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 52424.45053100586,
+    "invested_today": 61142.900482177734,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -324,6 +333,51 @@
           "rsi": 42.0,
           "vol_factor": 1.83,
           "score": 0.9
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1269.0,
+        "buy_time": "2026-07-24 14:33:41",
+        "iteration": 8,
+        "score_info": {
+          "last": 1269.0,
+          "mom_30m_pct": 0.221,
+          "intraday_pct": 2.01,
+          "rsi": 66.2,
+          "vol_factor": 0.78,
+          "score": 0.717
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 13,
+        "buy_price": 284.25,
+        "buy_time": "2026-07-24 14:33:41",
+        "iteration": 8,
+        "score_info": {
+          "last": 284.25,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 1.031,
+          "rsi": 60.4,
+          "vol_factor": 1.16,
+          "score": 0.467
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1242.6,
+        "buy_time": "2026-07-24 14:33:41",
+        "iteration": 8,
+        "score_info": {
+          "last": 1242.6,
+          "mom_30m_pct": 0.169,
+          "intraday_pct": 0.177,
+          "rsi": 71.2,
+          "vol_factor": 1.04,
+          "score": 0.346
         }
       }
     ],
@@ -615,6 +669,57 @@
           "rsi": 42.0,
           "vol_factor": 1.83,
           "score": 0.9
+        }
+      },
+      {
+        "time": "2026-07-24 14:33:41",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1269.0,
+        "cost": 2538.0,
+        "score": {
+          "last": 1269.0,
+          "mom_30m_pct": 0.221,
+          "intraday_pct": 2.01,
+          "rsi": 66.2,
+          "vol_factor": 0.78,
+          "score": 0.717
+        }
+      },
+      {
+        "time": "2026-07-24 14:33:41",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 13,
+        "price": 284.25,
+        "cost": 3695.25,
+        "score": {
+          "last": 284.25,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 1.031,
+          "rsi": 60.4,
+          "vol_factor": 1.16,
+          "score": 0.467
+        }
+      },
+      {
+        "time": "2026-07-24 14:33:41",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1242.6,
+        "cost": 2485.2,
+        "score": {
+          "last": 1242.6,
+          "mom_30m_pct": 0.169,
+          "intraday_pct": 0.177,
+          "rsi": 71.2,
+          "vol_factor": 1.04,
+          "score": 0.346
         }
       }
     ],
