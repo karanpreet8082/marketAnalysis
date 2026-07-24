@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-24",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 42916.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-24 14:08:40",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 52424.45,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 42916.000396728516,
+    "invested_today": 52424.45053100586,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -270,6 +279,51 @@
           "rsi": 71.6,
           "vol_factor": 0.18,
           "score": -0.19
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 427.75,
+        "buy_time": "2026-07-24 14:08:40",
+        "iteration": 7,
+        "score_info": {
+          "last": 427.75,
+          "mom_30m_pct": 0.34,
+          "intraday_pct": 0.623,
+          "rsi": 52.1,
+          "vol_factor": 2.0,
+          "score": 1.697
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1243.0,
+        "buy_time": "2026-07-24 14:08:40",
+        "iteration": 7,
+        "score_info": {
+          "last": 1243.0,
+          "mom_30m_pct": 0.436,
+          "intraday_pct": 0.072,
+          "rsi": 64.4,
+          "vol_factor": 2.0,
+          "score": 1.676
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 22,
+        "buy_price": 183.1,
+        "buy_time": "2026-07-24 14:08:40",
+        "iteration": 7,
+        "score_info": {
+          "last": 183.1,
+          "mom_30m_pct": 0.104,
+          "intraday_pct": -0.283,
+          "rsi": 42.0,
+          "vol_factor": 1.83,
+          "score": 0.9
         }
       }
     ],
@@ -510,6 +564,57 @@
           "rsi": 71.6,
           "vol_factor": 0.18,
           "score": -0.19
+        }
+      },
+      {
+        "time": "2026-07-24 14:08:40",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 427.75,
+        "cost": 2994.25,
+        "score": {
+          "last": 427.75,
+          "mom_30m_pct": 0.34,
+          "intraday_pct": 0.623,
+          "rsi": 52.1,
+          "vol_factor": 2.0,
+          "score": 1.697
+        }
+      },
+      {
+        "time": "2026-07-24 14:08:40",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1243.0,
+        "cost": 2486.0,
+        "score": {
+          "last": 1243.0,
+          "mom_30m_pct": 0.436,
+          "intraday_pct": 0.072,
+          "rsi": 64.4,
+          "vol_factor": 2.0,
+          "score": 1.676
+        }
+      },
+      {
+        "time": "2026-07-24 14:08:40",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 22,
+        "price": 183.1,
+        "cost": 4028.2,
+        "score": {
+          "last": 183.1,
+          "mom_30m_pct": 0.104,
+          "intraday_pct": -0.283,
+          "rsi": 42.0,
+          "vol_factor": 1.83,
+          "score": 0.9
         }
       }
     ],
