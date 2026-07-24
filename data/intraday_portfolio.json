@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-24",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 34721.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-07-24 13:26:53",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 42916.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 34721.20034790039,
+    "invested_today": 42916.000396728516,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -216,6 +225,51 @@
           "rsi": 64.2,
           "vol_factor": 1.0,
           "score": 1.11
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1238.4,
+        "buy_time": "2026-07-24 13:26:53",
+        "iteration": 6,
+        "score_info": {
+          "last": 1238.4,
+          "mom_30m_pct": 0.073,
+          "intraday_pct": 2.364,
+          "rsi": 72.4,
+          "vol_factor": 0.23,
+          "score": 0.046
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1419.5,
+        "buy_time": "2026-07-24 13:26:53",
+        "iteration": 6,
+        "score_info": {
+          "last": 1419.5,
+          "mom_30m_pct": -0.021,
+          "intraday_pct": 3.251,
+          "rsi": 46.6,
+          "vol_factor": 0.0,
+          "score": -0.053
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1439.5,
+        "buy_time": "2026-07-24 13:26:53",
+        "iteration": 6,
+        "score_info": {
+          "last": 1439.5,
+          "mom_30m_pct": 0.258,
+          "intraday_pct": 0.812,
+          "rsi": 71.6,
+          "vol_factor": 0.18,
+          "score": -0.19
         }
       }
     ],
@@ -405,6 +459,57 @@
           "rsi": 64.2,
           "vol_factor": 1.0,
           "score": 1.11
+        }
+      },
+      {
+        "time": "2026-07-24 13:26:53",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1238.4,
+        "cost": 2476.8,
+        "score": {
+          "last": 1238.4,
+          "mom_30m_pct": 0.073,
+          "intraday_pct": 2.364,
+          "rsi": 72.4,
+          "vol_factor": 0.23,
+          "score": 0.046
+        }
+      },
+      {
+        "time": "2026-07-24 13:26:53",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1419.5,
+        "cost": 2839.0,
+        "score": {
+          "last": 1419.5,
+          "mom_30m_pct": -0.021,
+          "intraday_pct": 3.251,
+          "rsi": 46.6,
+          "vol_factor": 0.0,
+          "score": -0.053
+        }
+      },
+      {
+        "time": "2026-07-24 13:26:53",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1439.5,
+        "cost": 2879.0,
+        "score": {
+          "last": 1439.5,
+          "mom_30m_pct": 0.258,
+          "intraday_pct": 0.812,
+          "rsi": 71.6,
+          "vol_factor": 0.18,
+          "score": -0.19
         }
       }
     ],
