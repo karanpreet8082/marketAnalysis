@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-24",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 61142.9,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-24 14:58:02",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 70745.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 61142.900482177734,
+    "invested_today": 70745.30038452148,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -378,6 +387,36 @@
           "rsi": 71.2,
           "vol_factor": 1.04,
           "score": 0.346
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 20,
+        "buy_price": 310.05,
+        "buy_time": "2026-07-24 14:58:02",
+        "iteration": 9,
+        "score_info": {
+          "last": 310.05,
+          "mom_30m_pct": 0.081,
+          "intraday_pct": 0.259,
+          "rsi": 55.1,
+          "vol_factor": 1.94,
+          "score": 1.14
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 12,
+        "buy_price": 283.45,
+        "buy_time": "2026-07-24 14:58:02",
+        "iteration": 9,
+        "score_info": {
+          "last": 283.45,
+          "mom_30m_pct": -0.317,
+          "intraday_pct": 0.854,
+          "rsi": 43.4,
+          "vol_factor": 2.0,
+          "score": 0.781
         }
       }
     ],
@@ -720,6 +759,40 @@
           "rsi": 71.2,
           "vol_factor": 1.04,
           "score": 0.346
+        }
+      },
+      {
+        "time": "2026-07-24 14:58:02",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 20,
+        "price": 310.05,
+        "cost": 6201.0,
+        "score": {
+          "last": 310.05,
+          "mom_30m_pct": 0.081,
+          "intraday_pct": 0.259,
+          "rsi": 55.1,
+          "vol_factor": 1.94,
+          "score": 1.14
+        }
+      },
+      {
+        "time": "2026-07-24 14:58:02",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 12,
+        "price": 283.45,
+        "cost": 3401.4,
+        "score": {
+          "last": 283.45,
+          "mom_30m_pct": -0.317,
+          "intraday_pct": 0.854,
+          "rsi": 43.4,
+          "vol_factor": 2.0,
+          "score": 0.781
         }
       }
     ],
