@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-24",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 21217.05,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-24 12:48:06",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 29416.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-24 13:10:18",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 34721.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 21217.050170898438,
+    "invested_today": 34721.20034790039,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -123,6 +141,81 @@
           "rsi": 73.8,
           "vol_factor": 0.57,
           "score": 0.149
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "buy_price": 385.85,
+        "buy_time": "2026-07-24 12:48:06",
+        "iteration": 4,
+        "score_info": {
+          "last": 385.85,
+          "mom_30m_pct": 0.613,
+          "intraday_pct": 0.81,
+          "rsi": 71.3,
+          "vol_factor": 0.69,
+          "score": 0.853
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1230.8,
+        "buy_time": "2026-07-24 12:48:06",
+        "iteration": 4,
+        "score_info": {
+          "last": 1230.8,
+          "mom_30m_pct": 0.212,
+          "intraday_pct": 1.376,
+          "rsi": 61.8,
+          "vol_factor": 1.06,
+          "score": 0.787
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1012.2,
+        "buy_time": "2026-07-24 12:48:06",
+        "iteration": 4,
+        "score_info": {
+          "last": 1012.2,
+          "mom_30m_pct": 0.407,
+          "intraday_pct": -3.563,
+          "rsi": 61.7,
+          "vol_factor": 2.0,
+          "score": 0.541
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1418.3,
+        "buy_time": "2026-07-24 13:10:18",
+        "iteration": 5,
+        "score_info": {
+          "last": 1418.3,
+          "mom_30m_pct": 0.021,
+          "intraday_pct": 3.616,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": 1.117
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1234.2,
+        "buy_time": "2026-07-24 13:10:18",
+        "iteration": 5,
+        "score_info": {
+          "last": 1234.2,
+          "mom_30m_pct": 0.341,
+          "intraday_pct": 1.992,
+          "rsi": 64.2,
+          "vol_factor": 1.0,
+          "score": 1.11
         }
       }
     ],
@@ -227,6 +320,91 @@
           "rsi": 73.8,
           "vol_factor": 0.57,
           "score": 0.149
+        }
+      },
+      {
+        "time": "2026-07-24 12:48:06",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 385.85,
+        "cost": 2700.95,
+        "score": {
+          "last": 385.85,
+          "mom_30m_pct": 0.613,
+          "intraday_pct": 0.81,
+          "rsi": 71.3,
+          "vol_factor": 0.69,
+          "score": 0.853
+        }
+      },
+      {
+        "time": "2026-07-24 12:48:06",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1230.8,
+        "cost": 2461.6,
+        "score": {
+          "last": 1230.8,
+          "mom_30m_pct": 0.212,
+          "intraday_pct": 1.376,
+          "rsi": 61.8,
+          "vol_factor": 1.06,
+          "score": 0.787
+        }
+      },
+      {
+        "time": "2026-07-24 12:48:06",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1012.2,
+        "cost": 3036.6,
+        "score": {
+          "last": 1012.2,
+          "mom_30m_pct": 0.407,
+          "intraday_pct": -3.563,
+          "rsi": 61.7,
+          "vol_factor": 2.0,
+          "score": 0.541
+        }
+      },
+      {
+        "time": "2026-07-24 13:10:18",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1418.3,
+        "cost": 2836.6,
+        "score": {
+          "last": 1418.3,
+          "mom_30m_pct": 0.021,
+          "intraday_pct": 3.616,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": 1.117
+        }
+      },
+      {
+        "time": "2026-07-24 13:10:18",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1234.2,
+        "cost": 2468.4,
+        "score": {
+          "last": 1234.2,
+          "mom_30m_pct": 0.341,
+          "intraday_pct": 1.992,
+          "rsi": 64.2,
+          "vol_factor": 1.0,
+          "score": 1.11
         }
       }
     ],

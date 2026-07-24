@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-18 15:28 IST",
+    "budget": 50000.0,
+    "allocated": 48944.40000000001,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 48944.4,
+      "cash_reserve": 1055.6,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24588.4,
+          "percent": 49.2,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17220.95,
+          "percent": 34.4,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7135.05,
+          "percent": 14.3,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 6.4,
+      "max_loss_percent": 4.5,
+      "sector_distribution": {
+        "Unknown": 2,
+        "Financial Services": 5,
+        "Technology": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-18 16:31 IST",
     "budget": 50000.0,
     "allocated": 48951.36,
@@ -1815,44 +1851,6 @@
         "Consumer Defensive": 1,
         "Communication Services": 1,
         "Technology": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-24 12:47 IST",
-    "budget": 50000.0,
-    "allocated": 47697.83,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 47697.83,
-      "cash_reserve": 2302.17,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 23619.59,
-          "percent": 47.2,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17124.239999999998,
-          "percent": 34.2,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 6954.0,
-          "percent": 13.9,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 6.0,
-      "max_loss_percent": 4.2,
-      "sector_distribution": {
-        "Energy": 1,
-        "Unknown": 1,
-        "Financial Services": 3,
-        "Communication Services": 1,
-        "Consumer Defensive": 1
       }
     }
   }
