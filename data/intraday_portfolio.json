@@ -1,5 +1,132 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-24",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-24 11:44:26",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 1889.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-24 11:58:43",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 12782.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 12782.850036621094,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 944.75,
+        "buy_time": "2026-07-24 11:44:26",
+        "iteration": 1,
+        "score_info": {
+          "last": 944.75,
+          "mom_30m_pct": 0.393,
+          "intraday_pct": -1.44,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.158
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 13,
+        "buy_price": 289.55,
+        "buy_time": "2026-07-24 11:58:43",
+        "iteration": 2,
+        "score_info": {
+          "last": 289.55,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": -0.293,
+          "rsi": 65.7,
+          "vol_factor": 2.0,
+          "score": 1.224
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 4,
+        "buy_price": 1782.3,
+        "buy_time": "2026-07-24 11:58:43",
+        "iteration": 2,
+        "score_info": {
+          "last": 1782.3,
+          "mom_30m_pct": 0.78,
+          "intraday_pct": -1.465,
+          "rsi": 68.1,
+          "vol_factor": 0.51,
+          "score": 0.238
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-24 11:44:26",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 944.75,
+        "cost": 1889.5,
+        "score": {
+          "last": 944.75,
+          "mom_30m_pct": 0.393,
+          "intraday_pct": -1.44,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.158
+        }
+      },
+      {
+        "time": "2026-07-24 11:58:43",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 13,
+        "price": 289.55,
+        "cost": 3764.15,
+        "score": {
+          "last": 289.55,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": -0.293,
+          "rsi": 65.7,
+          "vol_factor": 2.0,
+          "score": 1.224
+        }
+      },
+      {
+        "time": "2026-07-24 11:58:43",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 4,
+        "price": 1782.3,
+        "cost": 7129.2,
+        "score": {
+          "last": 1782.3,
+          "mom_30m_pct": 0.78,
+          "intraday_pct": -1.465,
+          "rsi": 68.1,
+          "vol_factor": 0.51,
+          "score": 0.238
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",

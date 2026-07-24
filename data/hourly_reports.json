@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-18 15:28 IST",
+    "budget": 50000.0,
+    "allocated": 48944.40000000001,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 48944.4,
+      "cash_reserve": 1055.6,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24588.4,
+          "percent": 49.2,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17220.95,
+          "percent": 34.4,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7135.05,
+          "percent": 14.3,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 6.4,
+      "max_loss_percent": 4.5,
+      "sector_distribution": {
+        "Unknown": 2,
+        "Financial Services": 5,
+        "Technology": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-18 16:31 IST",
     "budget": 50000.0,
     "allocated": 48951.36,
@@ -1815,44 +1851,6 @@
         "Consumer Defensive": 1,
         "Communication Services": 1,
         "Technology": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-24 11:42 IST",
-    "budget": 50000.0,
-    "allocated": 49664.65999999999,
-    "positions": 6,
-    "summary": {
-      "total_positions": 6,
-      "total_invested": 49664.66,
-      "cash_reserve": 335.34,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 25062.679999999997,
-          "percent": 50.1,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17118.53,
-          "percent": 34.2,
-          "positions": 2
-        },
-        "aggressive": {
-          "amount": 7483.45,
-          "percent": 15.0,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 6.3,
-      "max_loss_percent": 4.4,
-      "sector_distribution": {
-        "Financial Services": 2,
-        "Unknown": 1,
-        "Basic Materials": 1,
-        "Energy": 1,
-        "Communication Services": 1
       }
     }
   }
