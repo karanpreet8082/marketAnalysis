@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-18 15:28 IST",
+    "budget": 50000.0,
+    "allocated": 48944.40000000001,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 48944.4,
+      "cash_reserve": 1055.6,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24588.4,
+          "percent": 49.2,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17220.95,
+          "percent": 34.4,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7135.05,
+          "percent": 14.3,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 6.4,
+      "max_loss_percent": 4.5,
+      "sector_distribution": {
+        "Unknown": 2,
+        "Financial Services": 5,
+        "Technology": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-18 16:31 IST",
     "budget": 50000.0,
     "allocated": 48951.36,
@@ -1815,45 +1851,6 @@
         "Consumer Defensive": 1,
         "Communication Services": 1,
         "Technology": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-24 13:26 IST",
-    "budget": 50000.0,
-    "allocated": 49412.89,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49412.89,
-      "cash_reserve": 587.11,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24796.79,
-          "percent": 49.6,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17141.1,
-          "percent": 34.3,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7475.0,
-          "percent": 14.9,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 6.1,
-      "max_loss_percent": 4.3,
-      "sector_distribution": {
-        "Basic Materials": 1,
-        "Energy": 1,
-        "Unknown": 1,
-        "Communication Services": 1,
-        "Financial Services": 2,
-        "Consumer Defensive": 1
       }
     }
   }
