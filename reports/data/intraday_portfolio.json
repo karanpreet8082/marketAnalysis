@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-27",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 46961.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-27 15:35:40",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 52753.05,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 46961.300537109375,
-    "realized_pnl_today": 0.0,
+    "invested_today": 52753.050537109375,
+    "realized_pnl_today": 22.75,
     "open_positions": [
       {
         "symbol": "HINDUNILVR",
@@ -105,21 +114,6 @@
           "rsi": 46.3,
           "vol_factor": 0.82,
           "score": 0.491
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 7,
-        "buy_price": 375.75,
-        "buy_time": "2026-07-27 13:28:48",
-        "iteration": 3,
-        "score_info": {
-          "last": 375.75,
-          "mom_30m_pct": 0.067,
-          "intraday_pct": 0.334,
-          "rsi": 67.3,
-          "vol_factor": 1.98,
-          "score": 1.18
         }
       },
       {
@@ -240,6 +234,36 @@
           "rsi": 73.3,
           "vol_factor": 0.66,
           "score": 1.021
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2941.0,
+        "buy_time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "score_info": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 316.75,
+        "buy_time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "score_info": {
+          "last": 316.75,
+          "mom_30m_pct": 0.492,
+          "intraday_pct": -0.032,
+          "rsi": 63.6,
+          "vol_factor": 1.81,
+          "score": 1.542
         }
       }
     ],
@@ -446,6 +470,52 @@
           "rsi": 73.3,
           "vol_factor": 0.66,
           "score": 1.021
+        }
+      },
+      {
+        "time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 379.0,
+        "buy_price": 375.75,
+        "pnl": 22.75,
+        "pnl_pct": 0.86,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2941.0,
+        "cost": 2941.0,
+        "score": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 316.75,
+        "cost": 2850.75,
+        "score": {
+          "last": 316.75,
+          "mom_30m_pct": 0.492,
+          "intraday_pct": -0.032,
+          "rsi": 63.6,
+          "vol_factor": 1.81,
+          "score": 1.542
         }
       }
     ],
