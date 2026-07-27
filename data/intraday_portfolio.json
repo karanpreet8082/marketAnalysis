@@ -1,5 +1,868 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-27",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-27 12:21:55",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 5309.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-27 13:06:21",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 13440.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-27 13:28:48",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 21286.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-27 13:45:15",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 29603.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-27 14:12:22",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 38390.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-07-27 14:27:38",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 46961.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-27 15:35:40",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 52753.05,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-27 15:56:15",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 61875.55,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-27 16:19:47",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 67757.55,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 16
+      },
+      {
+        "iteration": 10,
+        "time": "2026-07-27 16:26:11",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 73639.55,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 17
+      },
+      {
+        "iteration": 11,
+        "time": "2026-07-27 17:12:09",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 85051.05,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-07-27 17:30:48",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99104.05,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 22
+      },
+      {
+        "iteration": 13,
+        "time": "2026-07-27 18:09:00",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99104.05,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 22
+      }
+    ],
+    "invested_today": 99104.05053710938,
+    "realized_pnl_today": 22.75,
+    "open_positions": [
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2176.7,
+        "buy_time": "2026-07-27 12:21:55",
+        "iteration": 1,
+        "score_info": {
+          "last": 2176.7,
+          "mom_30m_pct": -0.032,
+          "intraday_pct": 1.346,
+          "rsi": 48.5,
+          "vol_factor": 1.4,
+          "score": 0.754
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1044.4,
+        "buy_time": "2026-07-27 12:21:55",
+        "iteration": 1,
+        "score_info": {
+          "last": 1044.4,
+          "mom_30m_pct": 0.086,
+          "intraday_pct": 3.171,
+          "rsi": 70.5,
+          "vol_factor": 0.25,
+          "score": 0.33
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 3,
+        "buy_price": 2710.3,
+        "buy_time": "2026-07-27 13:06:21",
+        "iteration": 2,
+        "score_info": {
+          "last": 2710.3,
+          "mom_30m_pct": 0.011,
+          "intraday_pct": 2.187,
+          "rsi": 46.3,
+          "vol_factor": 0.82,
+          "score": 0.491
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 5215.5,
+        "buy_time": "2026-07-27 13:28:48",
+        "iteration": 3,
+        "score_info": {
+          "last": 5215.5,
+          "mom_30m_pct": -0.01,
+          "intraday_pct": 5.823,
+          "rsi": 52.5,
+          "vol_factor": 0.43,
+          "score": 1.167
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 4,
+        "buy_price": 1296.7,
+        "buy_time": "2026-07-27 13:45:15",
+        "iteration": 4,
+        "score_info": {
+          "last": 1296.7,
+          "mom_30m_pct": 0.046,
+          "intraday_pct": 2.75,
+          "rsi": 45.3,
+          "vol_factor": 1.0,
+          "score": 0.894
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1043.4,
+        "buy_time": "2026-07-27 13:45:15",
+        "iteration": 4,
+        "score_info": {
+          "last": 1043.4,
+          "mom_30m_pct": -0.038,
+          "intraday_pct": 2.94,
+          "rsi": 53.2,
+          "vol_factor": 1.0,
+          "score": 0.825
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 15,
+        "buy_price": 376.25,
+        "buy_time": "2026-07-27 14:12:22",
+        "iteration": 5,
+        "score_info": {
+          "last": 376.25,
+          "mom_30m_pct": 0.133,
+          "intraday_pct": 0.44,
+          "rsi": 63.3,
+          "vol_factor": 2.0,
+          "score": 1.332
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1047.8,
+        "buy_time": "2026-07-27 14:12:22",
+        "iteration": 5,
+        "score_info": {
+          "last": 1047.8,
+          "mom_30m_pct": 0.46,
+          "intraday_pct": 3.558,
+          "rsi": 62.2,
+          "vol_factor": 0.31,
+          "score": 1.067
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "buy_price": 1045.8,
+        "buy_time": "2026-07-27 14:27:38",
+        "iteration": 6,
+        "score_info": {
+          "last": 1045.8,
+          "mom_30m_pct": -0.191,
+          "intraday_pct": 3.35,
+          "rsi": 56.3,
+          "vol_factor": 1.53,
+          "score": 1.245
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1080.3,
+        "buy_time": "2026-07-27 14:27:38",
+        "iteration": 6,
+        "score_info": {
+          "last": 1080.3,
+          "mom_30m_pct": 0.185,
+          "intraday_pct": 4.812,
+          "rsi": 51.4,
+          "vol_factor": 0.33,
+          "score": 1.056
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3238.1,
+        "buy_time": "2026-07-27 14:27:38",
+        "iteration": 6,
+        "score_info": {
+          "last": 3238.1,
+          "mom_30m_pct": 0.353,
+          "intraday_pct": 2.758,
+          "rsi": 73.3,
+          "vol_factor": 0.66,
+          "score": 1.021
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2941.0,
+        "buy_time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "score_info": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 316.75,
+        "buy_time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "score_info": {
+          "last": 316.75,
+          "mom_30m_pct": 0.492,
+          "intraday_pct": -0.032,
+          "rsi": 63.6,
+          "vol_factor": 1.81,
+          "score": 1.542
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 2,
+        "buy_price": 2941.0,
+        "buy_time": "2026-07-27 15:56:15",
+        "iteration": 8,
+        "score_info": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3240.5,
+        "buy_time": "2026-07-27 15:56:15",
+        "iteration": 8,
+        "score_info": {
+          "last": 3240.5,
+          "mom_30m_pct": -0.006,
+          "intraday_pct": 1.532,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 1.45
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 2,
+        "buy_price": 2941.0,
+        "buy_time": "2026-07-27 16:19:47",
+        "iteration": 9,
+        "score_info": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 2,
+        "buy_price": 2941.0,
+        "buy_time": "2026-07-27 16:26:11",
+        "iteration": 10,
+        "score_info": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2941.0,
+        "buy_time": "2026-07-27 17:12:09",
+        "iteration": 11,
+        "score_info": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 5230.0,
+        "buy_time": "2026-07-27 17:12:09",
+        "iteration": 11,
+        "score_info": {
+          "last": 5230.0,
+          "mom_30m_pct": 0.384,
+          "intraday_pct": 1.672,
+          "rsi": 62.2,
+          "vol_factor": 1.51,
+          "score": 1.585
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3240.5,
+        "buy_time": "2026-07-27 17:12:09",
+        "iteration": 11,
+        "score_info": {
+          "last": 3240.5,
+          "mom_30m_pct": -0.006,
+          "intraday_pct": 1.532,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 1.45
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 3,
+        "buy_price": 2941.0,
+        "buy_time": "2026-07-27 17:30:48",
+        "iteration": 12,
+        "score_info": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 5230.0,
+        "buy_time": "2026-07-27 17:30:48",
+        "iteration": 12,
+        "score_info": {
+          "last": 5230.0,
+          "mom_30m_pct": 0.384,
+          "intraday_pct": 1.672,
+          "rsi": 62.2,
+          "vol_factor": 1.51,
+          "score": 1.585
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-27 12:21:55",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2176.7,
+        "cost": 2176.7,
+        "score": {
+          "last": 2176.7,
+          "mom_30m_pct": -0.032,
+          "intraday_pct": 1.346,
+          "rsi": 48.5,
+          "vol_factor": 1.4,
+          "score": 0.754
+        }
+      },
+      {
+        "time": "2026-07-27 12:21:55",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1044.4,
+        "cost": 3133.2,
+        "score": {
+          "last": 1044.4,
+          "mom_30m_pct": 0.086,
+          "intraday_pct": 3.171,
+          "rsi": 70.5,
+          "vol_factor": 0.25,
+          "score": 0.33
+        }
+      },
+      {
+        "time": "2026-07-27 13:06:21",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 3,
+        "price": 2710.3,
+        "cost": 8130.9,
+        "score": {
+          "last": 2710.3,
+          "mom_30m_pct": 0.011,
+          "intraday_pct": 2.187,
+          "rsi": 46.3,
+          "vol_factor": 0.82,
+          "score": 0.491
+        }
+      },
+      {
+        "time": "2026-07-27 13:28:48",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 375.75,
+        "cost": 2630.25,
+        "score": {
+          "last": 375.75,
+          "mom_30m_pct": 0.067,
+          "intraday_pct": 0.334,
+          "rsi": 67.3,
+          "vol_factor": 1.98,
+          "score": 1.18
+        }
+      },
+      {
+        "time": "2026-07-27 13:28:48",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5215.5,
+        "cost": 5215.5,
+        "score": {
+          "last": 5215.5,
+          "mom_30m_pct": -0.01,
+          "intraday_pct": 5.823,
+          "rsi": 52.5,
+          "vol_factor": 0.43,
+          "score": 1.167
+        }
+      },
+      {
+        "time": "2026-07-27 13:45:15",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 4,
+        "price": 1296.7,
+        "cost": 5186.8,
+        "score": {
+          "last": 1296.7,
+          "mom_30m_pct": 0.046,
+          "intraday_pct": 2.75,
+          "rsi": 45.3,
+          "vol_factor": 1.0,
+          "score": 0.894
+        }
+      },
+      {
+        "time": "2026-07-27 13:45:15",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1043.4,
+        "cost": 3130.2,
+        "score": {
+          "last": 1043.4,
+          "mom_30m_pct": -0.038,
+          "intraday_pct": 2.94,
+          "rsi": 53.2,
+          "vol_factor": 1.0,
+          "score": 0.825
+        }
+      },
+      {
+        "time": "2026-07-27 14:12:22",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 15,
+        "price": 376.25,
+        "cost": 5643.75,
+        "score": {
+          "last": 376.25,
+          "mom_30m_pct": 0.133,
+          "intraday_pct": 0.44,
+          "rsi": 63.3,
+          "vol_factor": 2.0,
+          "score": 1.332
+        }
+      },
+      {
+        "time": "2026-07-27 14:12:22",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1047.8,
+        "cost": 3143.4,
+        "score": {
+          "last": 1047.8,
+          "mom_30m_pct": 0.46,
+          "intraday_pct": 3.558,
+          "rsi": 62.2,
+          "vol_factor": 0.31,
+          "score": 1.067
+        }
+      },
+      {
+        "time": "2026-07-27 14:27:38",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "price": 1045.8,
+        "cost": 2091.6,
+        "score": {
+          "last": 1045.8,
+          "mom_30m_pct": -0.191,
+          "intraday_pct": 3.35,
+          "rsi": 56.3,
+          "vol_factor": 1.53,
+          "score": 1.245
+        }
+      },
+      {
+        "time": "2026-07-27 14:27:38",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1080.3,
+        "cost": 3240.9,
+        "score": {
+          "last": 1080.3,
+          "mom_30m_pct": 0.185,
+          "intraday_pct": 4.812,
+          "rsi": 51.4,
+          "vol_factor": 0.33,
+          "score": 1.056
+        }
+      },
+      {
+        "time": "2026-07-27 14:27:38",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3238.1,
+        "cost": 3238.1,
+        "score": {
+          "last": 3238.1,
+          "mom_30m_pct": 0.353,
+          "intraday_pct": 2.758,
+          "rsi": 73.3,
+          "vol_factor": 0.66,
+          "score": 1.021
+        }
+      },
+      {
+        "time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 379.0,
+        "buy_price": 375.75,
+        "pnl": 22.75,
+        "pnl_pct": 0.86,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2941.0,
+        "cost": 2941.0,
+        "score": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "time": "2026-07-27 15:35:40",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 316.75,
+        "cost": 2850.75,
+        "score": {
+          "last": 316.75,
+          "mom_30m_pct": 0.492,
+          "intraday_pct": -0.032,
+          "rsi": 63.6,
+          "vol_factor": 1.81,
+          "score": 1.542
+        }
+      },
+      {
+        "time": "2026-07-27 15:56:15",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 2,
+        "price": 2941.0,
+        "cost": 5882.0,
+        "score": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "time": "2026-07-27 15:56:15",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3240.5,
+        "cost": 3240.5,
+        "score": {
+          "last": 3240.5,
+          "mom_30m_pct": -0.006,
+          "intraday_pct": 1.532,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 1.45
+        }
+      },
+      {
+        "time": "2026-07-27 16:19:47",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 2,
+        "price": 2941.0,
+        "cost": 5882.0,
+        "score": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "time": "2026-07-27 16:26:11",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 2,
+        "price": 2941.0,
+        "cost": 5882.0,
+        "score": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "time": "2026-07-27 17:12:09",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2941.0,
+        "cost": 2941.0,
+        "score": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "time": "2026-07-27 17:12:09",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5230.0,
+        "cost": 5230.0,
+        "score": {
+          "last": 5230.0,
+          "mom_30m_pct": 0.384,
+          "intraday_pct": 1.672,
+          "rsi": 62.2,
+          "vol_factor": 1.51,
+          "score": 1.585
+        }
+      },
+      {
+        "time": "2026-07-27 17:12:09",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3240.5,
+        "cost": 3240.5,
+        "score": {
+          "last": 3240.5,
+          "mom_30m_pct": -0.006,
+          "intraday_pct": 1.532,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 1.45
+        }
+      },
+      {
+        "time": "2026-07-27 17:30:48",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 3,
+        "price": 2941.0,
+        "cost": 8823.0,
+        "score": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "time": "2026-07-27 17:30:48",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5230.0,
+        "cost": 5230.0,
+        "score": {
+          "last": 5230.0,
+          "mom_30m_pct": 0.384,
+          "intraday_pct": 1.672,
+          "rsi": 62.2,
+          "vol_factor": 1.51,
+          "score": 1.585
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -30957,696 +31820,20 @@
       "n_sells": 30,
       "feedback": "Day P&L \u20b9-136 on \u20b999540 deployed (-0.14%). Worst trade: ADANIPORTS (P&L \u20b9-35, -0.49%). Consider tighter stop on entries with weaker momentum scores. 30 EOD force-sells contributed \u20b9-136. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
-    },
-    {
-      "date": "2026-07-27",
-      "iterations_run": 14,
-      "invested": 99104.05,
-      "realized_pnl": 98.3,
-      "pnl_pct": 0.099,
-      "trades": [
-        {
-          "time": "2026-07-27 12:21:55",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "HINDUNILVR",
-          "qty": 1,
-          "price": 2176.7,
-          "cost": 2176.7,
-          "score": {
-            "last": 2176.7,
-            "mom_30m_pct": -0.032,
-            "intraday_pct": 1.346,
-            "rsi": 48.5,
-            "vol_factor": 1.4,
-            "score": 0.754
-          }
-        },
-        {
-          "time": "2026-07-27 12:21:55",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "BAJFINANCE",
-          "qty": 3,
-          "price": 1044.4,
-          "cost": 3133.2,
-          "score": {
-            "last": 1044.4,
-            "mom_30m_pct": 0.086,
-            "intraday_pct": 3.171,
-            "rsi": 70.5,
-            "vol_factor": 0.25,
-            "score": 0.33
-          }
-        },
-        {
-          "time": "2026-07-27 13:06:21",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 3,
-          "price": 2710.3,
-          "cost": 8130.9,
-          "score": {
-            "last": 2710.3,
-            "mom_30m_pct": 0.011,
-            "intraday_pct": 2.187,
-            "rsi": 46.3,
-            "vol_factor": 0.82,
-            "score": 0.491
-          }
-        },
-        {
-          "time": "2026-07-27 13:28:48",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "TATAPOWER",
-          "qty": 7,
-          "price": 375.75,
-          "cost": 2630.25,
-          "score": {
-            "last": 375.75,
-            "mom_30m_pct": 0.067,
-            "intraday_pct": 0.334,
-            "rsi": 67.3,
-            "vol_factor": 1.98,
-            "score": 1.18
-          }
-        },
-        {
-          "time": "2026-07-27 13:28:48",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5215.5,
-          "cost": 5215.5,
-          "score": {
-            "last": 5215.5,
-            "mom_30m_pct": -0.01,
-            "intraday_pct": 5.823,
-            "rsi": 52.5,
-            "vol_factor": 0.43,
-            "score": 1.167
-          }
-        },
-        {
-          "time": "2026-07-27 13:45:15",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "HCLTECH",
-          "qty": 4,
-          "price": 1296.7,
-          "cost": 5186.8,
-          "score": {
-            "last": 1296.7,
-            "mom_30m_pct": 0.046,
-            "intraday_pct": 2.75,
-            "rsi": 45.3,
-            "vol_factor": 1.0,
-            "score": 0.894
-          }
-        },
-        {
-          "time": "2026-07-27 13:45:15",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "BAJFINANCE",
-          "qty": 3,
-          "price": 1043.4,
-          "cost": 3130.2,
-          "score": {
-            "last": 1043.4,
-            "mom_30m_pct": -0.038,
-            "intraday_pct": 2.94,
-            "rsi": 53.2,
-            "vol_factor": 1.0,
-            "score": 0.825
-          }
-        },
-        {
-          "time": "2026-07-27 14:12:22",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "TATAPOWER",
-          "qty": 15,
-          "price": 376.25,
-          "cost": 5643.75,
-          "score": {
-            "last": 376.25,
-            "mom_30m_pct": 0.133,
-            "intraday_pct": 0.44,
-            "rsi": 63.3,
-            "vol_factor": 2.0,
-            "score": 1.332
-          }
-        },
-        {
-          "time": "2026-07-27 14:12:22",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "BAJFINANCE",
-          "qty": 3,
-          "price": 1047.8,
-          "cost": 3143.4,
-          "score": {
-            "last": 1047.8,
-            "mom_30m_pct": 0.46,
-            "intraday_pct": 3.558,
-            "rsi": 62.2,
-            "vol_factor": 0.31,
-            "score": 1.067
-          }
-        },
-        {
-          "time": "2026-07-27 14:27:38",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "BAJFINANCE",
-          "qty": 2,
-          "price": 1045.8,
-          "cost": 2091.6,
-          "score": {
-            "last": 1045.8,
-            "mom_30m_pct": -0.191,
-            "intraday_pct": 3.35,
-            "rsi": 56.3,
-            "vol_factor": 1.53,
-            "score": 1.245
-          }
-        },
-        {
-          "time": "2026-07-27 14:27:38",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1080.3,
-          "cost": 3240.9,
-          "score": {
-            "last": 1080.3,
-            "mom_30m_pct": 0.185,
-            "intraday_pct": 4.812,
-            "rsi": 51.4,
-            "vol_factor": 0.33,
-            "score": 1.056
-          }
-        },
-        {
-          "time": "2026-07-27 14:27:38",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3238.1,
-          "cost": 3238.1,
-          "score": {
-            "last": 3238.1,
-            "mom_30m_pct": 0.353,
-            "intraday_pct": 2.758,
-            "rsi": 73.3,
-            "vol_factor": 0.66,
-            "score": 1.021
-          }
-        },
-        {
-          "time": "2026-07-27 15:35:40",
-          "iteration": 7,
-          "action": "SELL",
-          "symbol": "TATAPOWER",
-          "qty": 7,
-          "price": 379.0,
-          "buy_price": 375.75,
-          "pnl": 22.75,
-          "pnl_pct": 0.86,
-          "reason": "TAKE_PROFIT"
-        },
-        {
-          "time": "2026-07-27 15:35:40",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2941.0,
-          "cost": 2941.0,
-          "score": {
-            "last": 2941.0,
-            "mom_30m_pct": 0.228,
-            "intraday_pct": 1.01,
-            "rsi": 72.4,
-            "vol_factor": 2.0,
-            "score": 1.645
-          }
-        },
-        {
-          "time": "2026-07-27 15:35:40",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 9,
-          "price": 316.75,
-          "cost": 2850.75,
-          "score": {
-            "last": 316.75,
-            "mom_30m_pct": 0.492,
-            "intraday_pct": -0.032,
-            "rsi": 63.6,
-            "vol_factor": 1.81,
-            "score": 1.542
-          }
-        },
-        {
-          "time": "2026-07-27 15:56:15",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2941.0,
-          "cost": 5882.0,
-          "score": {
-            "last": 2941.0,
-            "mom_30m_pct": 0.228,
-            "intraday_pct": 1.01,
-            "rsi": 72.4,
-            "vol_factor": 2.0,
-            "score": 1.645
-          }
-        },
-        {
-          "time": "2026-07-27 15:56:15",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3240.5,
-          "cost": 3240.5,
-          "score": {
-            "last": 3240.5,
-            "mom_30m_pct": -0.006,
-            "intraday_pct": 1.532,
-            "rsi": 57.1,
-            "vol_factor": 2.0,
-            "score": 1.45
-          }
-        },
-        {
-          "time": "2026-07-27 16:19:47",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2941.0,
-          "cost": 5882.0,
-          "score": {
-            "last": 2941.0,
-            "mom_30m_pct": 0.228,
-            "intraday_pct": 1.01,
-            "rsi": 72.4,
-            "vol_factor": 2.0,
-            "score": 1.645
-          }
-        },
-        {
-          "time": "2026-07-27 16:26:11",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2941.0,
-          "cost": 5882.0,
-          "score": {
-            "last": 2941.0,
-            "mom_30m_pct": 0.228,
-            "intraday_pct": 1.01,
-            "rsi": 72.4,
-            "vol_factor": 2.0,
-            "score": 1.645
-          }
-        },
-        {
-          "time": "2026-07-27 17:12:09",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2941.0,
-          "cost": 2941.0,
-          "score": {
-            "last": 2941.0,
-            "mom_30m_pct": 0.228,
-            "intraday_pct": 1.01,
-            "rsi": 72.4,
-            "vol_factor": 2.0,
-            "score": 1.645
-          }
-        },
-        {
-          "time": "2026-07-27 17:12:09",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5230.0,
-          "cost": 5230.0,
-          "score": {
-            "last": 5230.0,
-            "mom_30m_pct": 0.384,
-            "intraday_pct": 1.672,
-            "rsi": 62.2,
-            "vol_factor": 1.51,
-            "score": 1.585
-          }
-        },
-        {
-          "time": "2026-07-27 17:12:09",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3240.5,
-          "cost": 3240.5,
-          "score": {
-            "last": 3240.5,
-            "mom_30m_pct": -0.006,
-            "intraday_pct": 1.532,
-            "rsi": 57.1,
-            "vol_factor": 2.0,
-            "score": 1.45
-          }
-        },
-        {
-          "time": "2026-07-27 17:30:48",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 3,
-          "price": 2941.0,
-          "cost": 8823.0,
-          "score": {
-            "last": 2941.0,
-            "mom_30m_pct": 0.228,
-            "intraday_pct": 1.01,
-            "rsi": 72.4,
-            "vol_factor": 2.0,
-            "score": 1.645
-          }
-        },
-        {
-          "time": "2026-07-27 17:30:48",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5230.0,
-          "cost": 5230.0,
-          "score": {
-            "last": 5230.0,
-            "mom_30m_pct": 0.384,
-            "intraday_pct": 1.672,
-            "rsi": 62.2,
-            "vol_factor": 1.51,
-            "score": 1.585
-          }
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HINDUNILVR",
-          "qty": 1,
-          "price": 2174.6,
-          "buy_price": 2176.7,
-          "pnl": -2.1,
-          "pnl_pct": -0.1,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BAJFINANCE",
-          "qty": 3,
-          "price": 1048.4,
-          "buy_price": 1044.4,
-          "pnl": 12.0,
-          "pnl_pct": 0.38,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 3,
-          "price": 2710.2,
-          "buy_price": 2710.3,
-          "pnl": -0.3,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5230.0,
-          "buy_price": 5215.5,
-          "pnl": 14.5,
-          "pnl_pct": 0.28,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HCLTECH",
-          "qty": 4,
-          "price": 1295.1,
-          "buy_price": 1296.7,
-          "pnl": -6.4,
-          "pnl_pct": -0.12,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BAJFINANCE",
-          "qty": 3,
-          "price": 1048.4,
-          "buy_price": 1043.4,
-          "pnl": 15.0,
-          "pnl_pct": 0.48,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATAPOWER",
-          "qty": 15,
-          "price": 379.0,
-          "buy_price": 376.25,
-          "pnl": 41.25,
-          "pnl_pct": 0.73,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BAJFINANCE",
-          "qty": 3,
-          "price": 1048.4,
-          "buy_price": 1047.8,
-          "pnl": 1.8,
-          "pnl_pct": 0.06,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BAJFINANCE",
-          "qty": 2,
-          "price": 1048.4,
-          "buy_price": 1045.8,
-          "pnl": 5.2,
-          "pnl_pct": 0.25,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1079.2,
-          "buy_price": 1080.3,
-          "pnl": -3.3,
-          "pnl_pct": -0.1,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3240.5,
-          "buy_price": 3238.1,
-          "pnl": 2.4,
-          "pnl_pct": 0.07,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2941.0,
-          "buy_price": 2941.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 9,
-          "price": 316.25,
-          "buy_price": 316.75,
-          "pnl": -4.5,
-          "pnl_pct": -0.16,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2941.0,
-          "buy_price": 2941.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3240.5,
-          "buy_price": 3240.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2941.0,
-          "buy_price": 2941.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2941.0,
-          "buy_price": 2941.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2941.0,
-          "buy_price": 2941.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5230.0,
-          "buy_price": 5230.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3240.5,
-          "buy_price": 3240.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 3,
-          "price": 2941.0,
-          "buy_price": 2941.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-07-27 18:16:07",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5230.0,
-          "buy_price": 5230.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 23,
-      "n_sells": 23,
-      "feedback": "Day P&L \u20b998 on \u20b999104 deployed (0.10%). Worst trade: HCLTECH (P&L \u20b9-6, -0.12%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
-      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 40,
-    "winning_days": 21,
+    "total_days": 39,
+    "winning_days": 20,
     "losing_days": 17,
-    "total_realized_pnl": -404.79,
+    "total_realized_pnl": -503.09,
     "best_day_pnl": 285.95,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-06-16",
+        "note": "Day P&L \u20b953 on \u20b999227 deployed (0.05%). Worst trade: HINDUNILVR (P&L \u20b9-5, -0.23%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
       {
         "date": "2026-06-16",
         "note": "Day P&L \u20b90 on \u20b97842 deployed (0.00%). Profitable day \u2014 keep current parameters."
@@ -31762,10 +31949,6 @@
       {
         "date": "2026-07-24",
         "note": "Day P&L \u20b9-136 on \u20b999540 deployed (-0.14%). Worst trade: ADANIPORTS (P&L \u20b9-35, -0.49%). Consider tighter stop on entries with weaker momentum scores. 30 EOD force-sells contributed \u20b9-136. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
-      },
-      {
-        "date": "2026-07-27",
-        "note": "Day P&L \u20b998 on \u20b999104 deployed (0.10%). Worst trade: HCLTECH (P&L \u20b9-6, -0.12%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
       }
     ]
   }
