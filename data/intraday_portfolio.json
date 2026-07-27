@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-27",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13440.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-27 13:28:48",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 21286.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 13440.800170898438,
+    "invested_today": 21286.550170898438,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,36 @@
           "rsi": 46.3,
           "vol_factor": 0.82,
           "score": 0.491
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "buy_price": 375.75,
+        "buy_time": "2026-07-27 13:28:48",
+        "iteration": 3,
+        "score_info": {
+          "last": 375.75,
+          "mom_30m_pct": 0.067,
+          "intraday_pct": 0.334,
+          "rsi": 67.3,
+          "vol_factor": 1.98,
+          "score": 1.18
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 5215.5,
+        "buy_time": "2026-07-27 13:28:48",
+        "iteration": 3,
+        "score_info": {
+          "last": 5215.5,
+          "mom_30m_pct": -0.01,
+          "intraday_pct": 5.823,
+          "rsi": 52.5,
+          "vol_factor": 0.43,
+          "score": 1.167
         }
       }
     ],
@@ -122,6 +161,40 @@
           "rsi": 46.3,
           "vol_factor": 0.82,
           "score": 0.491
+        }
+      },
+      {
+        "time": "2026-07-27 13:28:48",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 375.75,
+        "cost": 2630.25,
+        "score": {
+          "last": 375.75,
+          "mom_30m_pct": 0.067,
+          "intraday_pct": 0.334,
+          "rsi": 67.3,
+          "vol_factor": 1.98,
+          "score": 1.18
+        }
+      },
+      {
+        "time": "2026-07-27 13:28:48",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5215.5,
+        "cost": 5215.5,
+        "score": {
+          "last": 5215.5,
+          "mom_30m_pct": -0.01,
+          "intraday_pct": 5.823,
+          "rsi": 52.5,
+          "vol_factor": 0.43,
+          "score": 1.167
         }
       }
     ],
