@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-27",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,27 @@
         "invested_today_after": 85051.05,
         "realized_pnl_today_after": 22.75,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-07-27 17:30:48",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99104.05,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 22
+      },
+      {
+        "iteration": 13,
+        "time": "2026-07-27 18:09:00",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99104.05,
+        "realized_pnl_today_after": 22.75,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 85051.05053710938,
+    "invested_today": 99104.05053710938,
     "realized_pnl_today": 22.75,
     "open_positions": [
       {
@@ -405,6 +423,36 @@
           "rsi": 57.1,
           "vol_factor": 2.0,
           "score": 1.45
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 3,
+        "buy_price": 2941.0,
+        "buy_time": "2026-07-27 17:30:48",
+        "iteration": 12,
+        "score_info": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 5230.0,
+        "buy_time": "2026-07-27 17:30:48",
+        "iteration": 12,
+        "score_info": {
+          "last": 5230.0,
+          "mom_30m_pct": 0.384,
+          "intraday_pct": 1.672,
+          "rsi": 62.2,
+          "vol_factor": 1.51,
+          "score": 1.585
         }
       }
     ],
@@ -776,6 +824,40 @@
           "rsi": 57.1,
           "vol_factor": 2.0,
           "score": 1.45
+        }
+      },
+      {
+        "time": "2026-07-27 17:30:48",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 3,
+        "price": 2941.0,
+        "cost": 8823.0,
+        "score": {
+          "last": 2941.0,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.01,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.645
+        }
+      },
+      {
+        "time": "2026-07-27 17:30:48",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5230.0,
+        "cost": 5230.0,
+        "score": {
+          "last": 5230.0,
+          "mom_30m_pct": 0.384,
+          "intraday_pct": 1.672,
+          "rsi": 62.2,
+          "vol_factor": 1.51,
+          "score": 1.585
         }
       }
     ],
