@@ -1,5 +1,132 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-07-27",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-07-27 12:21:55",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 5309.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-27 13:06:21",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 13440.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 13440.800170898438,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2176.7,
+        "buy_time": "2026-07-27 12:21:55",
+        "iteration": 1,
+        "score_info": {
+          "last": 2176.7,
+          "mom_30m_pct": -0.032,
+          "intraday_pct": 1.346,
+          "rsi": 48.5,
+          "vol_factor": 1.4,
+          "score": 0.754
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1044.4,
+        "buy_time": "2026-07-27 12:21:55",
+        "iteration": 1,
+        "score_info": {
+          "last": 1044.4,
+          "mom_30m_pct": 0.086,
+          "intraday_pct": 3.171,
+          "rsi": 70.5,
+          "vol_factor": 0.25,
+          "score": 0.33
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 3,
+        "buy_price": 2710.3,
+        "buy_time": "2026-07-27 13:06:21",
+        "iteration": 2,
+        "score_info": {
+          "last": 2710.3,
+          "mom_30m_pct": 0.011,
+          "intraday_pct": 2.187,
+          "rsi": 46.3,
+          "vol_factor": 0.82,
+          "score": 0.491
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-07-27 12:21:55",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2176.7,
+        "cost": 2176.7,
+        "score": {
+          "last": 2176.7,
+          "mom_30m_pct": -0.032,
+          "intraday_pct": 1.346,
+          "rsi": 48.5,
+          "vol_factor": 1.4,
+          "score": 0.754
+        }
+      },
+      {
+        "time": "2026-07-27 12:21:55",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1044.4,
+        "cost": 3133.2,
+        "score": {
+          "last": 1044.4,
+          "mom_30m_pct": 0.086,
+          "intraday_pct": 3.171,
+          "rsi": 70.5,
+          "vol_factor": 0.25,
+          "score": 0.33
+        }
+      },
+      {
+        "time": "2026-07-27 13:06:21",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 3,
+        "price": 2710.3,
+        "cost": 8130.9,
+        "score": {
+          "last": 2710.3,
+          "mom_30m_pct": 0.011,
+          "intraday_pct": 2.187,
+          "rsi": 46.3,
+          "vol_factor": 0.82,
+          "score": 0.491
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
