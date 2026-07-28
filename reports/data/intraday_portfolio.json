@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-28",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 51806.45,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-28 14:47:31",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 61425.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 51806.449798583984,
+    "invested_today": 61425.04977416992,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -264,6 +273,51 @@
           "rsi": 58.9,
           "vol_factor": 0.24,
           "score": 0.813
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1770.0,
+        "buy_time": "2026-07-28 14:47:31",
+        "iteration": 8,
+        "score_info": {
+          "last": 1770.0,
+          "mom_30m_pct": -0.079,
+          "intraday_pct": 0.397,
+          "rsi": 48.4,
+          "vol_factor": 2.0,
+          "score": 1.001
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2401.8,
+        "buy_time": "2026-07-28 14:47:31",
+        "iteration": 8,
+        "score_info": {
+          "last": 2401.8,
+          "mom_30m_pct": -0.029,
+          "intraday_pct": 4.727,
+          "rsi": 55.4,
+          "vol_factor": 0.42,
+          "score": 0.799
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 30,
+        "buy_price": 181.56,
+        "buy_time": "2026-07-28 14:47:31",
+        "iteration": 8,
+        "score_info": {
+          "last": 181.56,
+          "mom_30m_pct": 0.099,
+          "intraday_pct": 1.8,
+          "rsi": 73.7,
+          "vol_factor": 1.07,
+          "score": 0.756
         }
       }
     ],
@@ -487,6 +541,57 @@
           "rsi": 58.9,
           "vol_factor": 0.24,
           "score": 0.813
+        }
+      },
+      {
+        "time": "2026-07-28 14:47:31",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1770.0,
+        "cost": 1770.0,
+        "score": {
+          "last": 1770.0,
+          "mom_30m_pct": -0.079,
+          "intraday_pct": 0.397,
+          "rsi": 48.4,
+          "vol_factor": 2.0,
+          "score": 1.001
+        }
+      },
+      {
+        "time": "2026-07-28 14:47:31",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2401.8,
+        "cost": 2401.8,
+        "score": {
+          "last": 2401.8,
+          "mom_30m_pct": -0.029,
+          "intraday_pct": 4.727,
+          "rsi": 55.4,
+          "vol_factor": 0.42,
+          "score": 0.799
+        }
+      },
+      {
+        "time": "2026-07-28 14:47:31",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 30,
+        "price": 181.56,
+        "cost": 5446.8,
+        "score": {
+          "last": 181.56,
+          "mom_30m_pct": 0.099,
+          "intraday_pct": 1.8,
+          "rsi": 73.7,
+          "vol_factor": 1.07,
+          "score": 0.756
         }
       }
     ],
