@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-28",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 61425.05,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-28 15:11:54",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 71051.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 61425.04977416992,
+    "invested_today": 71051.84967041016,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -318,6 +327,51 @@
           "rsi": 73.7,
           "vol_factor": 1.07,
           "score": 0.756
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2397.7,
+        "buy_time": "2026-07-28 15:11:54",
+        "iteration": 9,
+        "score_info": {
+          "last": 2397.7,
+          "mom_30m_pct": -0.212,
+          "intraday_pct": 4.452,
+          "rsi": 37.4,
+          "vol_factor": 1.6,
+          "score": 1.621
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 6,
+        "buy_price": 661.25,
+        "buy_time": "2026-07-28 15:11:54",
+        "iteration": 9,
+        "score_info": {
+          "last": 661.25,
+          "mom_30m_pct": 0.456,
+          "intraday_pct": 1.575,
+          "rsi": 60.9,
+          "vol_factor": 0.88,
+          "score": 1.031
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 18,
+        "buy_price": 181.2,
+        "buy_time": "2026-07-28 15:11:54",
+        "iteration": 9,
+        "score_info": {
+          "last": 181.2,
+          "mom_30m_pct": -0.116,
+          "intraday_pct": 1.45,
+          "rsi": 52.2,
+          "vol_factor": 1.64,
+          "score": 0.902
         }
       }
     ],
@@ -592,6 +646,57 @@
           "rsi": 73.7,
           "vol_factor": 1.07,
           "score": 0.756
+        }
+      },
+      {
+        "time": "2026-07-28 15:11:54",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2397.7,
+        "cost": 2397.7,
+        "score": {
+          "last": 2397.7,
+          "mom_30m_pct": -0.212,
+          "intraday_pct": 4.452,
+          "rsi": 37.4,
+          "vol_factor": 1.6,
+          "score": 1.621
+        }
+      },
+      {
+        "time": "2026-07-28 15:11:54",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 6,
+        "price": 661.25,
+        "cost": 3967.5,
+        "score": {
+          "last": 661.25,
+          "mom_30m_pct": 0.456,
+          "intraday_pct": 1.575,
+          "rsi": 60.9,
+          "vol_factor": 0.88,
+          "score": 1.031
+        }
+      },
+      {
+        "time": "2026-07-28 15:11:54",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 18,
+        "price": 181.2,
+        "cost": 3261.6,
+        "score": {
+          "last": 181.2,
+          "mom_30m_pct": -0.116,
+          "intraday_pct": 1.45,
+          "rsi": 52.2,
+          "vol_factor": 1.64,
+          "score": 0.902
         }
       }
     ],
