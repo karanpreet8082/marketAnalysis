@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-28",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,19 +84,10 @@
         "invested_today_after": 71051.85,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 19
-      },
-      {
-        "iteration": 10,
-        "time": "2026-07-28 15:44:23",
-        "n_bought": 1,
-        "n_sold": 1,
-        "invested_today_after": 77018.4,
-        "realized_pnl_today_after": 23.8,
-        "open_positions_after": 19
       }
     ],
-    "invested_today": 77018.39978027344,
-    "realized_pnl_today": 23.800000000000182,
+    "invested_today": 71051.84967041016,
+    "realized_pnl_today": 0.0,
     "open_positions": [
       {
         "symbol": "BPCL",
@@ -216,6 +207,21 @@
           "rsi": 52.3,
           "vol_factor": 1.0,
           "score": 0.569
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1435.1,
+        "buy_time": "2026-07-28 13:15:32",
+        "iteration": 5,
+        "score_info": {
+          "last": 1435.1,
+          "mom_30m_pct": -0.167,
+          "intraday_pct": 2.668,
+          "rsi": 50.0,
+          "vol_factor": 1.0,
+          "score": 0.55
         }
       },
       {
@@ -366,21 +372,6 @@
           "rsi": 52.2,
           "vol_factor": 1.64,
           "score": 0.902
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 9,
-        "buy_price": 662.95,
-        "buy_time": "2026-07-28 15:44:23",
-        "iteration": 10,
-        "score_info": {
-          "last": 662.95,
-          "mom_30m_pct": 0.272,
-          "intraday_pct": 1.547,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.872
         }
       }
     ],
@@ -706,35 +697,6 @@
           "rsi": 52.2,
           "vol_factor": 1.64,
           "score": 0.902
-        }
-      },
-      {
-        "time": "2026-07-28 15:44:23",
-        "iteration": 10,
-        "action": "SELL",
-        "symbol": "CIPLA",
-        "qty": 2,
-        "price": 1447.0,
-        "buy_price": 1435.1,
-        "pnl": 23.8,
-        "pnl_pct": 0.83,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-07-28 15:44:23",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 9,
-        "price": 662.95,
-        "cost": 5966.55,
-        "score": {
-          "last": 662.95,
-          "mom_30m_pct": 0.272,
-          "intraday_pct": 1.547,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.872
         }
       }
     ],

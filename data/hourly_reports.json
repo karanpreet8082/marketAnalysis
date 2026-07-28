@@ -1,43 +1,5 @@
 [
   {
-    "timestamp": "2026-06-19 18:30 IST",
-    "budget": 50000.0,
-    "allocated": 49010.560000000005,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 49010.56,
-      "cash_reserve": 989.44,
-      "avg_confidence": 0.51,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24641.85,
-          "percent": 49.3,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 16971.72,
-          "percent": 33.9,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7396.99,
-          "percent": 14.8,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 6.6,
-      "max_loss_percent": 4.6,
-      "sector_distribution": {
-        "Utilities": 1,
-        "Financial Services": 3,
-        "Unknown": 2,
-        "Basic Materials": 1,
-        "Consumer Cyclical": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-06-22 16:49 IST",
     "budget": 50000.0,
     "allocated": 48916.90000000001,
@@ -1850,6 +1812,41 @@
       "max_loss_percent": 3.5,
       "sector_distribution": {
         "Financial Services": 2,
+        "Unknown": 3
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-28 15:43 IST",
+    "budget": 50000.0,
+    "allocated": 49989.81,
+    "positions": 6,
+    "summary": {
+      "total_positions": 6,
+      "total_invested": 49989.81,
+      "cash_reserve": 10.19,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25027.45,
+          "percent": 50.1,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17548.559999999998,
+          "percent": 35.1,
+          "positions": 2
+        },
+        "aggressive": {
+          "amount": 7413.8,
+          "percent": 14.8,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 5.6,
+      "max_loss_percent": 4.0,
+      "sector_distribution": {
+        "Financial Services": 3,
         "Unknown": 3
       }
     }
