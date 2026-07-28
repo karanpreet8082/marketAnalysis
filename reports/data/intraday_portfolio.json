@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-28",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 44503.95,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-28 14:18:01",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 51806.45,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 44503.94967651367,
+    "invested_today": 51806.449798583984,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -225,6 +234,36 @@
           "rsi": 52.3,
           "vol_factor": 0.42,
           "score": 0.389
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 3,
+        "buy_price": 1633.4,
+        "buy_time": "2026-07-28 14:18:01",
+        "iteration": 7,
+        "score_info": {
+          "last": 1633.4,
+          "mom_30m_pct": 0.406,
+          "intraday_pct": 3.609,
+          "rsi": 65.8,
+          "vol_factor": 0.4,
+          "score": 1.091
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2402.3,
+        "buy_time": "2026-07-28 14:18:01",
+        "iteration": 7,
+        "score_info": {
+          "last": 2402.3,
+          "mom_30m_pct": 0.125,
+          "intraday_pct": 4.612,
+          "rsi": 58.9,
+          "vol_factor": 0.24,
+          "score": 0.813
         }
       }
     ],
@@ -414,6 +453,40 @@
           "rsi": 52.3,
           "vol_factor": 0.42,
           "score": 0.389
+        }
+      },
+      {
+        "time": "2026-07-28 14:18:01",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 3,
+        "price": 1633.4,
+        "cost": 4900.2,
+        "score": {
+          "last": 1633.4,
+          "mom_30m_pct": 0.406,
+          "intraday_pct": 3.609,
+          "rsi": 65.8,
+          "vol_factor": 0.4,
+          "score": 1.091
+        }
+      },
+      {
+        "time": "2026-07-28 14:18:01",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2402.3,
+        "cost": 2402.3,
+        "score": {
+          "last": 2402.3,
+          "mom_30m_pct": 0.125,
+          "intraday_pct": 4.612,
+          "rsi": 58.9,
+          "vol_factor": 0.24,
+          "score": 0.813
         }
       }
     ],
