@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-29",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 21900.15,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-29 13:00:56",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 26816.45,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-07-29 13:20:56",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 32580.45,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 21900.149658203125,
+    "invested_today": 32580.449829101562,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -123,6 +141,51 @@
           "rsi": 55.5,
           "vol_factor": 1.0,
           "score": 1.4
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1949.9,
+        "buy_time": "2026-07-29 13:00:56",
+        "iteration": 4,
+        "score_info": {
+          "last": 1949.9,
+          "mom_30m_pct": 0.51,
+          "intraday_pct": 2.562,
+          "rsi": 64.6,
+          "vol_factor": 1.0,
+          "score": 1.534
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1483.2,
+        "buy_time": "2026-07-29 13:00:56",
+        "iteration": 4,
+        "score_info": {
+          "last": 1483.2,
+          "mom_30m_pct": 0.013,
+          "intraday_pct": 3.301,
+          "rsi": 43.3,
+          "vol_factor": 1.0,
+          "score": 1.011
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 5,
+        "buy_price": 1152.8,
+        "buy_time": "2026-07-29 13:20:56",
+        "iteration": 5,
+        "score_info": {
+          "last": 1152.8,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": 3.968,
+          "rsi": 39.8,
+          "vol_factor": 1.0,
+          "score": 1.53
         }
       }
     ],
@@ -227,6 +290,57 @@
           "rsi": 55.5,
           "vol_factor": 1.0,
           "score": 1.4
+        }
+      },
+      {
+        "time": "2026-07-29 13:00:56",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1949.9,
+        "cost": 1949.9,
+        "score": {
+          "last": 1949.9,
+          "mom_30m_pct": 0.51,
+          "intraday_pct": 2.562,
+          "rsi": 64.6,
+          "vol_factor": 1.0,
+          "score": 1.534
+        }
+      },
+      {
+        "time": "2026-07-29 13:00:56",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1483.2,
+        "cost": 2966.4,
+        "score": {
+          "last": 1483.2,
+          "mom_30m_pct": 0.013,
+          "intraday_pct": 3.301,
+          "rsi": 43.3,
+          "vol_factor": 1.0,
+          "score": 1.011
+        }
+      },
+      {
+        "time": "2026-07-29 13:20:56",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 5,
+        "price": 1152.8,
+        "cost": 5764.0,
+        "score": {
+          "last": 1152.8,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": 3.968,
+          "rsi": 39.8,
+          "vol_factor": 1.0,
+          "score": 1.53
         }
       }
     ],
