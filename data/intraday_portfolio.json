@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-29",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 21900.15,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-07-29 13:00:56",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 26816.45,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 8
       }
     ],
-    "invested_today": 26816.449584960938,
+    "invested_today": 21900.149658203125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -132,36 +123,6 @@
           "rsi": 55.5,
           "vol_factor": 1.0,
           "score": 1.4
-        }
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "qty": 1,
-        "buy_price": 1949.9,
-        "buy_time": "2026-07-29 13:00:56",
-        "iteration": 4,
-        "score_info": {
-          "last": 1949.9,
-          "mom_30m_pct": 0.51,
-          "intraday_pct": 2.562,
-          "rsi": 64.6,
-          "vol_factor": 1.0,
-          "score": 1.534
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 2,
-        "buy_price": 1483.2,
-        "buy_time": "2026-07-29 13:00:56",
-        "iteration": 4,
-        "score_info": {
-          "last": 1483.2,
-          "mom_30m_pct": 0.013,
-          "intraday_pct": 3.301,
-          "rsi": 43.3,
-          "vol_factor": 1.0,
-          "score": 1.011
         }
       }
     ],
@@ -266,40 +227,6 @@
           "rsi": 55.5,
           "vol_factor": 1.0,
           "score": 1.4
-        }
-      },
-      {
-        "time": "2026-07-29 13:00:56",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "BHARTIARTL",
-        "qty": 1,
-        "price": 1949.9,
-        "cost": 1949.9,
-        "score": {
-          "last": 1949.9,
-          "mom_30m_pct": 0.51,
-          "intraday_pct": 2.562,
-          "rsi": 64.6,
-          "vol_factor": 1.0,
-          "score": 1.534
-        }
-      },
-      {
-        "time": "2026-07-29 13:00:56",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "CIPLA",
-        "qty": 2,
-        "price": 1483.2,
-        "cost": 2966.4,
-        "score": {
-          "last": 1483.2,
-          "mom_30m_pct": 0.013,
-          "intraday_pct": 3.301,
-          "rsi": 43.3,
-          "vol_factor": 1.0,
-          "score": 1.011
         }
       }
     ],
