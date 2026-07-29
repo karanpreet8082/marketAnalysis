@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-29",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,18 +102,9 @@
         "invested_today_after": 88471.17,
         "realized_pnl_today_after": -54.8,
         "open_positions_after": 22
-      },
-      {
-        "iteration": 12,
-        "time": "2026-07-29 16:41:26",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 99921.97,
-        "realized_pnl_today_after": -54.8,
-        "open_positions_after": 24
       }
     ],
-    "invested_today": 99921.97048950195,
+    "invested_today": 88471.17041015625,
     "realized_pnl_today": -54.79995117187491,
     "open_positions": [
       {
@@ -437,36 +428,6 @@
         "buy_price": 187.6,
         "buy_time": "2026-07-29 16:19:20",
         "iteration": 11,
-        "score_info": {
-          "last": 187.6,
-          "mom_30m_pct": 0.075,
-          "intraday_pct": 2.006,
-          "rsi": 58.9,
-          "vol_factor": 1.96,
-          "score": 1.677
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 2,
-        "buy_price": 3005.2,
-        "buy_time": "2026-07-29 16:41:26",
-        "iteration": 12,
-        "score_info": {
-          "last": 3005.2,
-          "mom_30m_pct": 0.063,
-          "intraday_pct": 2.609,
-          "rsi": 57.8,
-          "vol_factor": 2.0,
-          "score": 1.877
-        }
-      },
-      {
-        "symbol": "TATASTEEL",
-        "qty": 29,
-        "buy_price": 187.6,
-        "buy_time": "2026-07-29 16:41:26",
-        "iteration": 12,
         "score_info": {
           "last": 187.6,
           "mom_30m_pct": 0.075,
@@ -867,40 +828,6 @@
       {
         "time": "2026-07-29 16:19:20",
         "iteration": 11,
-        "action": "BUY",
-        "symbol": "TATASTEEL",
-        "qty": 29,
-        "price": 187.6,
-        "cost": 5440.4,
-        "score": {
-          "last": 187.6,
-          "mom_30m_pct": 0.075,
-          "intraday_pct": 2.006,
-          "rsi": 58.9,
-          "vol_factor": 1.96,
-          "score": 1.677
-        }
-      },
-      {
-        "time": "2026-07-29 16:41:26",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "TRENT",
-        "qty": 2,
-        "price": 3005.2,
-        "cost": 6010.4,
-        "score": {
-          "last": 3005.2,
-          "mom_30m_pct": 0.063,
-          "intraday_pct": 2.609,
-          "rsi": 57.8,
-          "vol_factor": 2.0,
-          "score": 1.877
-        }
-      },
-      {
-        "time": "2026-07-29 16:41:26",
-        "iteration": 12,
         "action": "BUY",
         "symbol": "TATASTEEL",
         "qty": 29,
