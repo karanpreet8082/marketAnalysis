@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-30",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,10 +84,28 @@
         "invested_today_after": 71324.85,
         "realized_pnl_today_after": -9.4,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 10,
+        "time": "2026-07-30 15:32:48",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 80611.05,
+        "realized_pnl_today_after": -51.7,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 11,
+        "time": "2026-07-30 16:05:03",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 88933.25,
+        "realized_pnl_today_after": -51.7,
+        "open_positions_after": 23
       }
     ],
-    "invested_today": 71324.85009765625,
-    "realized_pnl_today": -9.400097656250182,
+    "invested_today": 88933.25024414062,
+    "realized_pnl_today": -51.70002441406268,
     "open_positions": [
       {
         "symbol": "SUNPHARMA",
@@ -255,21 +273,6 @@
         }
       },
       {
-        "symbol": "HCLTECH",
-        "qty": 3,
-        "buy_price": 1364.0,
-        "buy_time": "2026-07-30 13:10:36",
-        "iteration": 5,
-        "score_info": {
-          "last": 1364.0,
-          "mom_30m_pct": 0.147,
-          "intraday_pct": 1.609,
-          "rsi": 64.2,
-          "vol_factor": 1.0,
-          "score": 0.703
-        }
-      },
-      {
         "symbol": "M&M",
         "qty": 2,
         "buy_price": 3270.0,
@@ -372,6 +375,81 @@
           "rsi": 66.9,
           "vol_factor": 1.85,
           "score": 1.301
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "buy_price": 2748.6,
+        "buy_time": "2026-07-30 15:32:48",
+        "iteration": 10,
+        "score_info": {
+          "last": 2748.6,
+          "mom_30m_pct": 0.597,
+          "intraday_pct": 2.209,
+          "rsi": 60.6,
+          "vol_factor": 1.35,
+          "score": 1.911
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1263.0,
+        "buy_time": "2026-07-30 15:32:48",
+        "iteration": 10,
+        "score_info": {
+          "last": 1263.0,
+          "mom_30m_pct": 0.23,
+          "intraday_pct": 1.855,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 1.902
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1263.0,
+        "buy_time": "2026-07-30 16:05:03",
+        "iteration": 11,
+        "score_info": {
+          "last": 1263.0,
+          "mom_30m_pct": 0.23,
+          "intraday_pct": 1.855,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 1.902
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2746.2,
+        "buy_time": "2026-07-30 16:05:03",
+        "iteration": 11,
+        "score_info": {
+          "last": 2746.2,
+          "mom_30m_pct": 0.509,
+          "intraday_pct": 2.12,
+          "rsi": 58.4,
+          "vol_factor": 1.48,
+          "score": 1.874
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3050.0,
+        "buy_time": "2026-07-30 16:05:03",
+        "iteration": 11,
+        "score_info": {
+          "last": 3050.0,
+          "mom_30m_pct": 0.359,
+          "intraday_pct": 1.01,
+          "rsi": 71.7,
+          "vol_factor": 1.96,
+          "score": 1.805
         }
       }
     ],
@@ -755,6 +833,103 @@
           "rsi": 66.9,
           "vol_factor": 1.85,
           "score": 1.301
+        }
+      },
+      {
+        "time": "2026-07-30 15:32:48",
+        "iteration": 10,
+        "action": "SELL",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1349.9,
+        "buy_price": 1364.0,
+        "pnl": -42.3,
+        "pnl_pct": -1.03,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-07-30 15:32:48",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "price": 2748.6,
+        "cost": 5497.2,
+        "score": {
+          "last": 2748.6,
+          "mom_30m_pct": 0.597,
+          "intraday_pct": 2.209,
+          "rsi": 60.6,
+          "vol_factor": 1.35,
+          "score": 1.911
+        }
+      },
+      {
+        "time": "2026-07-30 15:32:48",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1263.0,
+        "cost": 3789.0,
+        "score": {
+          "last": 1263.0,
+          "mom_30m_pct": 0.23,
+          "intraday_pct": 1.855,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 1.902
+        }
+      },
+      {
+        "time": "2026-07-30 16:05:03",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1263.0,
+        "cost": 2526.0,
+        "score": {
+          "last": 1263.0,
+          "mom_30m_pct": 0.23,
+          "intraday_pct": 1.855,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 1.902
+        }
+      },
+      {
+        "time": "2026-07-30 16:05:03",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2746.2,
+        "cost": 2746.2,
+        "score": {
+          "last": 2746.2,
+          "mom_30m_pct": 0.509,
+          "intraday_pct": 2.12,
+          "rsi": 58.4,
+          "vol_factor": 1.48,
+          "score": 1.874
+        }
+      },
+      {
+        "time": "2026-07-30 16:05:03",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3050.0,
+        "cost": 3050.0,
+        "score": {
+          "last": 3050.0,
+          "mom_30m_pct": 0.359,
+          "intraday_pct": 1.01,
+          "rsi": 71.7,
+          "vol_factor": 1.96,
+          "score": 1.805
         }
       }
     ],
