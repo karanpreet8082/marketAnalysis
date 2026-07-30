@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-30",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 88933.25,
         "realized_pnl_today_after": -51.7,
         "open_positions_after": 23
+      },
+      {
+        "iteration": 12,
+        "time": "2026-07-30 16:24:23",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 97994.45,
+        "realized_pnl_today_after": -51.7,
+        "open_positions_after": 25
       }
     ],
-    "invested_today": 88933.25024414062,
+    "invested_today": 97994.4501953125,
     "realized_pnl_today": -51.70002441406268,
     "open_positions": [
       {
@@ -450,6 +459,36 @@
           "rsi": 71.7,
           "vol_factor": 1.96,
           "score": 1.805
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "buy_price": 1263.0,
+        "buy_time": "2026-07-30 16:24:23",
+        "iteration": 12,
+        "score_info": {
+          "last": 1263.0,
+          "mom_30m_pct": 0.23,
+          "intraday_pct": 1.855,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 1.902
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2746.2,
+        "buy_time": "2026-07-30 16:24:23",
+        "iteration": 12,
+        "score_info": {
+          "last": 2746.2,
+          "mom_30m_pct": 0.509,
+          "intraday_pct": 2.12,
+          "rsi": 58.4,
+          "vol_factor": 1.48,
+          "score": 1.874
         }
       }
     ],
@@ -930,6 +969,40 @@
           "rsi": 71.7,
           "vol_factor": 1.96,
           "score": 1.805
+        }
+      },
+      {
+        "time": "2026-07-30 16:24:23",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "price": 1263.0,
+        "cost": 6315.0,
+        "score": {
+          "last": 1263.0,
+          "mom_30m_pct": 0.23,
+          "intraday_pct": 1.855,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 1.902
+        }
+      },
+      {
+        "time": "2026-07-30 16:24:23",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2746.2,
+        "cost": 2746.2,
+        "score": {
+          "last": 2746.2,
+          "mom_30m_pct": 0.509,
+          "intraday_pct": 2.12,
+          "rsi": 58.4,
+          "vol_factor": 1.48,
+          "score": 1.874
         }
       }
     ],
