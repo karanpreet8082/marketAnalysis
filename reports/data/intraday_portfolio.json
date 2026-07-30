@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-30",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 12748.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-07-30 12:36:43",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 21023.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 12748.099975585938,
+    "invested_today": 21023.10009765625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,51 @@
           "rsi": 68.8,
           "vol_factor": 0.11,
           "score": -0.192
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1176.5,
+        "buy_time": "2026-07-30 12:36:43",
+        "iteration": 3,
+        "score_info": {
+          "last": 1176.5,
+          "mom_30m_pct": 0.29,
+          "intraday_pct": 2.082,
+          "rsi": 60.0,
+          "vol_factor": 0.26,
+          "score": 0.321
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "buy_price": 286.35,
+        "buy_time": "2026-07-30 12:36:43",
+        "iteration": 3,
+        "score_info": {
+          "last": 286.35,
+          "mom_30m_pct": 0.421,
+          "intraday_pct": 1.741,
+          "rsi": 65.7,
+          "vol_factor": 0.11,
+          "score": 0.261
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1242.9,
+        "buy_time": "2026-07-30 12:36:43",
+        "iteration": 3,
+        "score_info": {
+          "last": 1242.9,
+          "mom_30m_pct": 0.599,
+          "intraday_pct": 0.485,
+          "rsi": 48.7,
+          "vol_factor": 0.18,
+          "score": 0.225
         }
       }
     ],
@@ -186,6 +240,57 @@
           "rsi": 68.8,
           "vol_factor": 0.11,
           "score": -0.192
+        }
+      },
+      {
+        "time": "2026-07-30 12:36:43",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1176.5,
+        "cost": 2353.0,
+        "score": {
+          "last": 1176.5,
+          "mom_30m_pct": 0.29,
+          "intraday_pct": 2.082,
+          "rsi": 60.0,
+          "vol_factor": 0.26,
+          "score": 0.321
+        }
+      },
+      {
+        "time": "2026-07-30 12:36:43",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "price": 286.35,
+        "cost": 3436.2,
+        "score": {
+          "last": 286.35,
+          "mom_30m_pct": 0.421,
+          "intraday_pct": 1.741,
+          "rsi": 65.7,
+          "vol_factor": 0.11,
+          "score": 0.261
+        }
+      },
+      {
+        "time": "2026-07-30 12:36:43",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1242.9,
+        "cost": 2485.8,
+        "score": {
+          "last": 1242.9,
+          "mom_30m_pct": 0.599,
+          "intraday_pct": 0.485,
+          "rsi": 48.7,
+          "vol_factor": 0.18,
+          "score": 0.225
         }
       }
     ],
