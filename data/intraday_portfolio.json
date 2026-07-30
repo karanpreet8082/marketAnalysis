@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-30",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,19 +30,10 @@
         "invested_today_after": 21023.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
-      },
-      {
-        "iteration": 4,
-        "time": "2026-07-30 12:49:49",
-        "n_bought": 3,
-        "n_sold": 1,
-        "invested_today_after": 29638.6,
-        "realized_pnl_today_after": 36.2,
-        "open_positions_after": 10
       }
     ],
-    "invested_today": 29638.60009765625,
-    "realized_pnl_today": 36.19999999999982,
+    "invested_today": 21023.10009765625,
+    "realized_pnl_today": 0.0,
     "open_positions": [
       {
         "symbol": "SUNPHARMA",
@@ -152,46 +143,16 @@
       {
         "symbol": "HAVELLS",
         "qty": 2,
-        "buy_price": 1261.0,
-        "buy_time": "2026-07-30 12:49:49",
-        "iteration": 4,
+        "buy_price": 1242.9,
+        "buy_time": "2026-07-30 12:36:43",
+        "iteration": 3,
         "score_info": {
-          "last": 1261.0,
-          "mom_30m_pct": 2.18,
-          "intraday_pct": 1.825,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 4.817
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 3,
-        "buy_price": 1026.5,
-        "buy_time": "2026-07-30 12:49:49",
-        "iteration": 4,
-        "score_info": {
-          "last": 1026.5,
-          "mom_30m_pct": 0.944,
-          "intraday_pct": 1.313,
-          "rsi": 95.6,
-          "vol_factor": 1.83,
-          "score": 1.142
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 8,
-        "buy_price": 376.75,
-        "buy_time": "2026-07-30 12:49:49",
-        "iteration": 4,
-        "score_info": {
-          "last": 376.75,
-          "mom_30m_pct": 0.239,
-          "intraday_pct": 0.681,
-          "rsi": 49.2,
-          "vol_factor": 1.26,
-          "score": 0.82
+          "last": 1242.9,
+          "mom_30m_pct": 0.599,
+          "intraday_pct": 0.485,
+          "rsi": 48.7,
+          "vol_factor": 0.18,
+          "score": 0.225
         }
       }
     ],
@@ -330,69 +291,6 @@
           "rsi": 48.7,
           "vol_factor": 0.18,
           "score": 0.225
-        }
-      },
-      {
-        "time": "2026-07-30 12:49:49",
-        "iteration": 4,
-        "action": "SELL",
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "price": 1261.0,
-        "buy_price": 1242.9,
-        "pnl": 36.2,
-        "pnl_pct": 1.46,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-07-30 12:49:49",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "price": 1261.0,
-        "cost": 2522.0,
-        "score": {
-          "last": 1261.0,
-          "mom_30m_pct": 2.18,
-          "intraday_pct": 1.825,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 4.817
-        }
-      },
-      {
-        "time": "2026-07-30 12:49:49",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "SBIN",
-        "qty": 3,
-        "price": 1026.5,
-        "cost": 3079.5,
-        "score": {
-          "last": 1026.5,
-          "mom_30m_pct": 0.944,
-          "intraday_pct": 1.313,
-          "rsi": 95.6,
-          "vol_factor": 1.83,
-          "score": 1.142
-        }
-      },
-      {
-        "time": "2026-07-30 12:49:49",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 8,
-        "price": 376.75,
-        "cost": 3014.0,
-        "score": {
-          "last": 376.75,
-          "mom_30m_pct": 0.239,
-          "intraday_pct": 0.681,
-          "rsi": 49.2,
-          "vol_factor": 1.26,
-          "score": 0.82
         }
       }
     ],
