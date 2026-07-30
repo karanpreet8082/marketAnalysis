@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-30",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 44461.3,
         "realized_pnl_today_after": 36.2,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-07-30 14:13:19",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 53684.5,
+        "realized_pnl_today_after": 36.2,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 44461.300048828125,
+    "invested_today": 53684.50030517578,
     "realized_pnl_today": 36.19999999999982,
     "open_positions": [
       {
@@ -270,6 +279,36 @@
           "rsi": 54.1,
           "vol_factor": 0.36,
           "score": 0.311
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 1006.2,
+        "buy_time": "2026-07-30 14:13:19",
+        "iteration": 7,
+        "score_info": {
+          "last": 1006.2,
+          "mom_30m_pct": -0.129,
+          "intraday_pct": -0.666,
+          "rsi": 39.2,
+          "vol_factor": 2.0,
+          "score": 0.607
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 18,
+        "buy_price": 344.7,
+        "buy_time": "2026-07-30 14:13:19",
+        "iteration": 7,
+        "score_info": {
+          "last": 344.7,
+          "mom_30m_pct": 0.174,
+          "intraday_pct": 0.379,
+          "rsi": 53.2,
+          "vol_factor": 1.04,
+          "score": 0.413
         }
       }
     ],
@@ -539,6 +578,40 @@
           "rsi": 54.1,
           "vol_factor": 0.36,
           "score": 0.311
+        }
+      },
+      {
+        "time": "2026-07-30 14:13:19",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1006.2,
+        "cost": 3018.6,
+        "score": {
+          "last": 1006.2,
+          "mom_30m_pct": -0.129,
+          "intraday_pct": -0.666,
+          "rsi": 39.2,
+          "vol_factor": 2.0,
+          "score": 0.607
+        }
+      },
+      {
+        "time": "2026-07-30 14:13:19",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 18,
+        "price": 344.7,
+        "cost": 6204.6,
+        "score": {
+          "last": 344.7,
+          "mom_30m_pct": 0.174,
+          "intraday_pct": 0.379,
+          "rsi": 53.2,
+          "vol_factor": 1.04,
+          "score": 0.413
         }
       }
     ],
