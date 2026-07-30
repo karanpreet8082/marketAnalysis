@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-30",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 62760.95,
         "realized_pnl_today_after": -9.4,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 9,
+        "time": "2026-07-30 15:06:35",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 71324.85,
+        "realized_pnl_today_after": -9.4,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 62760.950134277344,
+    "invested_today": 71324.85009765625,
     "realized_pnl_today": -9.400097656250182,
     "open_positions": [
       {
@@ -333,6 +342,36 @@
           "rsi": 59.4,
           "vol_factor": 1.65,
           "score": 0.892
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5528.5,
+        "buy_time": "2026-07-30 15:06:35",
+        "iteration": 9,
+        "score_info": {
+          "last": 5528.5,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 0.263,
+          "rsi": 50.5,
+          "vol_factor": 2.0,
+          "score": 1.392
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 1011.8,
+        "buy_time": "2026-07-30 15:06:35",
+        "iteration": 9,
+        "score_info": {
+          "last": 1011.8,
+          "mom_30m_pct": 0.312,
+          "intraday_pct": -0.069,
+          "rsi": 66.9,
+          "vol_factor": 1.85,
+          "score": 1.301
         }
       }
     ],
@@ -682,6 +721,40 @@
           "rsi": 59.4,
           "vol_factor": 1.65,
           "score": 0.892
+        }
+      },
+      {
+        "time": "2026-07-30 15:06:35",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5528.5,
+        "cost": 5528.5,
+        "score": {
+          "last": 5528.5,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 0.263,
+          "rsi": 50.5,
+          "vol_factor": 2.0,
+          "score": 1.392
+        }
+      },
+      {
+        "time": "2026-07-30 15:06:35",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1011.8,
+        "cost": 3035.4,
+        "score": {
+          "last": 1011.8,
+          "mom_30m_pct": 0.312,
+          "intraday_pct": -0.069,
+          "rsi": 66.9,
+          "vol_factor": 1.85,
+          "score": 1.301
         }
       }
     ],
