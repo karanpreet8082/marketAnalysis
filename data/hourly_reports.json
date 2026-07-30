@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-06-22 18:07 IST",
+    "budget": 50000.0,
+    "allocated": 48916.90000000001,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 48916.9,
+      "cash_reserve": 1083.1,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24546.250000000004,
+          "percent": 49.1,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17248.4,
+          "percent": 34.5,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7122.25,
+          "percent": 14.2,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 6.1,
+      "max_loss_percent": 4.3,
+      "sector_distribution": {
+        "Unknown": 2,
+        "Financial Services": 5,
+        "Technology": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-23 12:34 IST",
     "budget": 50000.0,
     "allocated": 50036.29,
@@ -1812,44 +1848,6 @@
         "Financial Services": 4,
         "Unknown": 2,
         "Consumer Defensive": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-30 13:26 IST",
-    "budget": 50000.0,
-    "allocated": 42066.049999999996,
-    "positions": 5,
-    "summary": {
-      "total_positions": 5,
-      "total_invested": 42066.05,
-      "cash_reserve": 7933.95,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24866.8,
-          "percent": 49.7,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 9979.05,
-          "percent": 20.0,
-          "positions": 1
-        },
-        "aggressive": {
-          "amount": 7220.2,
-          "percent": 14.4,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 6.4,
-      "max_loss_percent": 4.4,
-      "sector_distribution": {
-        "Financial Services": 1,
-        "Utilities": 1,
-        "Basic Materials": 1,
-        "Unknown": 1,
-        "Technology": 1
       }
     }
   }
