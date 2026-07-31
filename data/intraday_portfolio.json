@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-31",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 46724.4,
         "realized_pnl_today_after": 93.9,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-07-31 14:54:07",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 56082.9,
+        "realized_pnl_today_after": 93.9,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 46724.39990234375,
+    "invested_today": 56082.89978027344,
     "realized_pnl_today": 93.90004882812514,
     "open_positions": [
       {
@@ -264,6 +273,51 @@
           "rsi": 55.4,
           "vol_factor": 0.58,
           "score": 1.235
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1140.1,
+        "buy_time": "2026-07-31 14:54:07",
+        "iteration": 8,
+        "score_info": {
+          "last": 1140.1,
+          "mom_30m_pct": -0.645,
+          "intraday_pct": 8.861,
+          "rsi": 45.3,
+          "vol_factor": 0.79,
+          "score": 1.481
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 2022.9,
+        "buy_time": "2026-07-31 14:54:07",
+        "iteration": 8,
+        "score_info": {
+          "last": 2022.9,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 6.083,
+          "rsi": 70.0,
+          "vol_factor": 0.6,
+          "score": 1.424
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1305.1,
+        "buy_time": "2026-07-31 14:54:07",
+        "iteration": 8,
+        "score_info": {
+          "last": 1305.1,
+          "mom_30m_pct": 0.008,
+          "intraday_pct": 1.045,
+          "rsi": 62.5,
+          "vol_factor": 2.0,
+          "score": 1.325
         }
       }
     ],
@@ -574,6 +628,57 @@
           "rsi": 55.4,
           "vol_factor": 0.58,
           "score": 1.235
+        }
+      },
+      {
+        "time": "2026-07-31 14:54:07",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1140.1,
+        "cost": 3420.3,
+        "score": {
+          "last": 1140.1,
+          "mom_30m_pct": -0.645,
+          "intraday_pct": 8.861,
+          "rsi": 45.3,
+          "vol_factor": 0.79,
+          "score": 1.481
+        }
+      },
+      {
+        "time": "2026-07-31 14:54:07",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2022.9,
+        "cost": 2022.9,
+        "score": {
+          "last": 2022.9,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 6.083,
+          "rsi": 70.0,
+          "vol_factor": 0.6,
+          "score": 1.424
+        }
+      },
+      {
+        "time": "2026-07-31 14:54:07",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1305.1,
+        "cost": 3915.3,
+        "score": {
+          "last": 1305.1,
+          "mom_30m_pct": 0.008,
+          "intraday_pct": 1.045,
+          "rsi": 62.5,
+          "vol_factor": 2.0,
+          "score": 1.325
         }
       }
     ],
