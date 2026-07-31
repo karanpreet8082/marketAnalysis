@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-31",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 34297.1,
         "realized_pnl_today_after": 93.9,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-07-31 13:48:51",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 40399.2,
+        "realized_pnl_today_after": 93.9,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 34297.09997558594,
+    "invested_today": 40399.199951171875,
     "realized_pnl_today": 93.90004882812514,
     "open_positions": [
       {
@@ -186,6 +195,36 @@
           "rsi": 85.1,
           "vol_factor": 0.87,
           "score": 0.783
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "buy_price": 1143.2,
+        "buy_time": "2026-07-31 13:48:51",
+        "iteration": 6,
+        "score_info": {
+          "last": 1143.2,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 9.355,
+          "rsi": 62.4,
+          "vol_factor": 0.63,
+          "score": 2.723
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "buy_price": 1271.9,
+        "buy_time": "2026-07-31 13:48:51",
+        "iteration": 6,
+        "score_info": {
+          "last": 1271.9,
+          "mom_30m_pct": 0.173,
+          "intraday_pct": 0.482,
+          "rsi": 64.7,
+          "vol_factor": 2.0,
+          "score": 1.404
         }
       }
     ],
@@ -428,6 +467,40 @@
           "rsi": 85.1,
           "vol_factor": 0.87,
           "score": 0.783
+        }
+      },
+      {
+        "time": "2026-07-31 13:48:51",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "price": 1143.2,
+        "cost": 2286.4,
+        "score": {
+          "last": 1143.2,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 9.355,
+          "rsi": 62.4,
+          "vol_factor": 0.63,
+          "score": 2.723
+        }
+      },
+      {
+        "time": "2026-07-31 13:48:51",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "price": 1271.9,
+        "cost": 3815.7,
+        "score": {
+          "last": 1271.9,
+          "mom_30m_pct": 0.173,
+          "intraday_pct": 0.482,
+          "rsi": 64.7,
+          "vol_factor": 2.0,
+          "score": 1.404
         }
       }
     ],
