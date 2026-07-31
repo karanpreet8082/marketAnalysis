@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-31",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,26 +30,20 @@
         "invested_today_after": 15316.9,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-07-31 13:05:20",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 26580.3,
+        "realized_pnl_today_after": 18.1,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 15316.900024414062,
-    "realized_pnl_today": 0.0,
+    "invested_today": 26580.299926757812,
+    "realized_pnl_today": 18.100048828124955,
     "open_positions": [
-      {
-        "symbol": "BAJAJFINSV",
-        "qty": 1,
-        "buy_price": 2002.2,
-        "buy_time": "2026-07-31 12:04:04",
-        "iteration": 1,
-        "score_info": {
-          "last": 2002.2,
-          "mom_30m_pct": 0.21,
-          "intraday_pct": 5.523,
-          "rsi": 66.5,
-          "vol_factor": 2.0,
-          "score": 2.972
-        }
-      },
       {
         "symbol": "ADANIPORTS",
         "qty": 2,
@@ -123,6 +117,51 @@
           "rsi": 70.0,
           "vol_factor": 1.0,
           "score": 3.597
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1140.2,
+        "buy_time": "2026-07-31 13:05:20",
+        "iteration": 4,
+        "score_info": {
+          "last": 1140.2,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 9.173,
+          "rsi": 65.7,
+          "vol_factor": 1.0,
+          "score": 3.174
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "buy_price": 2020.3,
+        "buy_time": "2026-07-31 13:05:20",
+        "iteration": 4,
+        "score_info": {
+          "last": 2020.3,
+          "mom_30m_pct": 0.547,
+          "intraday_pct": 6.097,
+          "rsi": 73.9,
+          "vol_factor": 1.0,
+          "score": 2.65
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3802.2,
+        "buy_time": "2026-07-31 13:05:20",
+        "iteration": 4,
+        "score_info": {
+          "last": 3802.2,
+          "mom_30m_pct": 0.367,
+          "intraday_pct": 4.813,
+          "rsi": 62.9,
+          "vol_factor": 1.0,
+          "score": 1.994
         }
       }
     ],
@@ -227,6 +266,69 @@
           "rsi": 70.0,
           "vol_factor": 1.0,
           "score": 3.597
+        }
+      },
+      {
+        "time": "2026-07-31 13:05:20",
+        "iteration": 4,
+        "action": "SELL",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2020.3,
+        "buy_price": 2002.2,
+        "pnl": 18.1,
+        "pnl_pct": 0.9,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-07-31 13:05:20",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1140.2,
+        "cost": 3420.6,
+        "score": {
+          "last": 1140.2,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 9.173,
+          "rsi": 65.7,
+          "vol_factor": 1.0,
+          "score": 3.174
+        }
+      },
+      {
+        "time": "2026-07-31 13:05:20",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "price": 2020.3,
+        "cost": 4040.6,
+        "score": {
+          "last": 2020.3,
+          "mom_30m_pct": 0.547,
+          "intraday_pct": 6.097,
+          "rsi": 73.9,
+          "vol_factor": 1.0,
+          "score": 2.65
+        }
+      },
+      {
+        "time": "2026-07-31 13:05:20",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3802.2,
+        "cost": 3802.2,
+        "score": {
+          "last": 3802.2,
+          "mom_30m_pct": 0.367,
+          "intraday_pct": 4.813,
+          "rsi": 62.9,
+          "vol_factor": 1.0,
+          "score": 1.994
         }
       }
     ],
