@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-07-31",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7624.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-07-31 12:17:37",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 13036.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 7624.39990234375,
+    "invested_today": 13036.700073242188,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,36 @@
           "rsi": 61.7,
           "vol_factor": 0.21,
           "score": 1.514
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 2009.4,
+        "buy_time": "2026-07-31 12:17:37",
+        "iteration": 2,
+        "score_info": {
+          "last": 2009.4,
+          "mom_30m_pct": 1.173,
+          "intraday_pct": 5.591,
+          "rsi": 73.2,
+          "vol_factor": 0.27,
+          "score": 2.703
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1134.3,
+        "buy_time": "2026-07-31 12:17:37",
+        "iteration": 2,
+        "score_info": {
+          "last": 1134.3,
+          "mom_30m_pct": 0.505,
+          "intraday_pct": 8.235,
+          "rsi": 68.1,
+          "vol_factor": 0.19,
+          "score": 2.417
         }
       }
     ],
@@ -113,6 +152,40 @@
           "rsi": 61.7,
           "vol_factor": 0.21,
           "score": 1.514
+        }
+      },
+      {
+        "time": "2026-07-31 12:17:37",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2009.4,
+        "cost": 2009.4,
+        "score": {
+          "last": 2009.4,
+          "mom_30m_pct": 1.173,
+          "intraday_pct": 5.591,
+          "rsi": 73.2,
+          "vol_factor": 0.27,
+          "score": 2.703
+        }
+      },
+      {
+        "time": "2026-07-31 12:17:37",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1134.3,
+        "cost": 3402.9,
+        "score": {
+          "last": 1134.3,
+          "mom_30m_pct": 0.505,
+          "intraday_pct": 8.235,
+          "rsi": 68.1,
+          "vol_factor": 0.19,
+          "score": 2.417
         }
       }
     ],
