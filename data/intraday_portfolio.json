@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-03",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,18 +48,9 @@
         "invested_today_after": 38501.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 10
-      },
-      {
-        "iteration": 6,
-        "time": "2026-08-03 14:19:49",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 47031.7,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 12
       }
     ],
-    "invested_today": 47031.700134277344,
+    "invested_today": 38501.700256347656,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -210,36 +201,6 @@
           "rsi": 69.7,
           "vol_factor": 0.66,
           "score": 0.984
-        }
-      },
-      {
-        "symbol": "ASIANPAINT",
-        "qty": 2,
-        "buy_price": 2777.9,
-        "buy_time": "2026-08-03 14:19:49",
-        "iteration": 6,
-        "score_info": {
-          "last": 2777.9,
-          "mom_30m_pct": 0.3,
-          "intraday_pct": 0.934,
-          "rsi": 67.1,
-          "vol_factor": 2.0,
-          "score": 1.73
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "buy_price": 991.4,
-        "buy_time": "2026-08-03 14:19:49",
-        "iteration": 6,
-        "score_info": {
-          "last": 991.4,
-          "mom_30m_pct": 0.141,
-          "intraday_pct": 1.282,
-          "rsi": 68.8,
-          "vol_factor": 2.0,
-          "score": 1.597
         }
       }
     ],
@@ -412,40 +373,6 @@
           "rsi": 69.7,
           "vol_factor": 0.66,
           "score": 0.984
-        }
-      },
-      {
-        "time": "2026-08-03 14:19:49",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "ASIANPAINT",
-        "qty": 2,
-        "price": 2777.9,
-        "cost": 5555.8,
-        "score": {
-          "last": 2777.9,
-          "mom_30m_pct": 0.3,
-          "intraday_pct": 0.934,
-          "rsi": 67.1,
-          "vol_factor": 2.0,
-          "score": 1.73
-        }
-      },
-      {
-        "time": "2026-08-03 14:19:49",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "price": 991.4,
-        "cost": 2974.2,
-        "score": {
-          "last": 991.4,
-          "mom_30m_pct": 0.141,
-          "intraday_pct": 1.282,
-          "rsi": 68.8,
-          "vol_factor": 2.0,
-          "score": 1.597
         }
       }
     ],
