@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-03",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 30055.9,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-03 14:09:41",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 38501.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 30055.90020751953,
+    "invested_today": 38501.700256347656,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -162,6 +171,36 @@
           "rsi": 70.8,
           "vol_factor": 1.12,
           "score": 1.178
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2113.8,
+        "buy_time": "2026-08-03 14:09:41",
+        "iteration": 5,
+        "score_info": {
+          "last": 2113.8,
+          "mom_30m_pct": -0.028,
+          "intraday_pct": 0.585,
+          "rsi": 44.8,
+          "vol_factor": 2.0,
+          "score": 1.133
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 2,
+        "buy_price": 3166.0,
+        "buy_time": "2026-08-03 14:09:41",
+        "iteration": 5,
+        "score_info": {
+          "last": 3166.0,
+          "mom_30m_pct": 0.495,
+          "intraday_pct": 1.922,
+          "rsi": 69.7,
+          "vol_factor": 0.66,
+          "score": 0.984
         }
       }
     ],
@@ -300,6 +339,40 @@
           "rsi": 70.8,
           "vol_factor": 1.12,
           "score": 1.178
+        }
+      },
+      {
+        "time": "2026-08-03 14:09:41",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2113.8,
+        "cost": 2113.8,
+        "score": {
+          "last": 2113.8,
+          "mom_30m_pct": -0.028,
+          "intraday_pct": 0.585,
+          "rsi": 44.8,
+          "vol_factor": 2.0,
+          "score": 1.133
+        }
+      },
+      {
+        "time": "2026-08-03 14:09:41",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 2,
+        "price": 3166.0,
+        "cost": 6332.0,
+        "score": {
+          "last": 3166.0,
+          "mom_30m_pct": 0.495,
+          "intraday_pct": 1.922,
+          "rsi": 69.7,
+          "vol_factor": 0.66,
+          "score": 0.984
         }
       }
     ],
