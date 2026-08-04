@@ -1,5 +1,132 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-04",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-04 11:46:18",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7905.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-04 12:00:32",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 12932.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 12932.200073242188,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "LT",
+        "qty": 1,
+        "buy_price": 4033.1,
+        "buy_time": "2026-08-04 11:46:18",
+        "iteration": 1,
+        "score_info": {
+          "last": 4033.1,
+          "mom_30m_pct": 0.117,
+          "intraday_pct": 1.365,
+          "rsi": 65.2,
+          "vol_factor": 0.35,
+          "score": -0.062
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "buy_price": 1290.7,
+        "buy_time": "2026-08-04 11:46:18",
+        "iteration": 1,
+        "score_info": {
+          "last": 1290.7,
+          "mom_30m_pct": 0.202,
+          "intraday_pct": 1.39,
+          "rsi": 72.7,
+          "vol_factor": 0.06,
+          "score": -0.22
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 5,
+        "buy_price": 1005.4,
+        "buy_time": "2026-08-04 12:00:32",
+        "iteration": 2,
+        "score_info": {
+          "last": 1005.4,
+          "mom_30m_pct": -0.114,
+          "intraday_pct": 1.571,
+          "rsi": 58.1,
+          "vol_factor": 1.0,
+          "score": 0.3
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-04 11:46:18",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "LT",
+        "qty": 1,
+        "price": 4033.1,
+        "cost": 4033.1,
+        "score": {
+          "last": 4033.1,
+          "mom_30m_pct": 0.117,
+          "intraday_pct": 1.365,
+          "rsi": 65.2,
+          "vol_factor": 0.35,
+          "score": -0.062
+        }
+      },
+      {
+        "time": "2026-08-04 11:46:18",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "price": 1290.7,
+        "cost": 3872.1,
+        "score": {
+          "last": 1290.7,
+          "mom_30m_pct": 0.202,
+          "intraday_pct": 1.39,
+          "rsi": 72.7,
+          "vol_factor": 0.06,
+          "score": -0.22
+        }
+      },
+      {
+        "time": "2026-08-04 12:00:32",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 5,
+        "price": 1005.4,
+        "cost": 5027.0,
+        "score": {
+          "last": 1005.4,
+          "mom_30m_pct": -0.114,
+          "intraday_pct": 1.571,
+          "rsi": 58.1,
+          "vol_factor": 1.0,
+          "score": 0.3
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
