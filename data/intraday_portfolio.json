@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-04",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 60953.25,
         "realized_pnl_today_after": 25.75,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-04 15:14:27",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 70633.14,
+        "realized_pnl_today_after": 25.75,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 60953.25033569336,
+    "invested_today": 70633.14030456543,
     "realized_pnl_today": 25.74997558593759,
     "open_positions": [
       {
@@ -273,6 +282,36 @@
           "rsi": 55.2,
           "vol_factor": 1.0,
           "score": 0.448
+        }
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 5571.5,
+        "buy_time": "2026-08-04 15:14:27",
+        "iteration": 9,
+        "score_info": {
+          "last": 5571.5,
+          "mom_30m_pct": 0.279,
+          "intraday_pct": 2.767,
+          "rsi": 45.8,
+          "vol_factor": 1.46,
+          "score": 1.712
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 17,
+        "buy_price": 241.67,
+        "buy_time": "2026-08-04 15:14:27",
+        "iteration": 9,
+        "score_info": {
+          "last": 241.67,
+          "mom_30m_pct": 0.282,
+          "intraday_pct": 0.625,
+          "rsi": 64.1,
+          "vol_factor": 1.97,
+          "score": 1.583
         }
       }
     ],
@@ -583,6 +622,40 @@
           "rsi": 55.2,
           "vol_factor": 1.0,
           "score": 0.448
+        }
+      },
+      {
+        "time": "2026-08-04 15:14:27",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 5571.5,
+        "cost": 5571.5,
+        "score": {
+          "last": 5571.5,
+          "mom_30m_pct": 0.279,
+          "intraday_pct": 2.767,
+          "rsi": 45.8,
+          "vol_factor": 1.46,
+          "score": 1.712
+        }
+      },
+      {
+        "time": "2026-08-04 15:14:27",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 17,
+        "price": 241.67,
+        "cost": 4108.39,
+        "score": {
+          "last": 241.67,
+          "mom_30m_pct": 0.282,
+          "intraday_pct": 0.625,
+          "rsi": 64.1,
+          "vol_factor": 1.97,
+          "score": 1.583
         }
       }
     ],
