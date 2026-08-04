@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-04",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 12932.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-08-04 12:35:32",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 21614.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 12932.200073242188,
+    "invested_today": 21614.900024414062,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,51 @@
           "rsi": 58.1,
           "vol_factor": 1.0,
           "score": 0.3
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1284.6,
+        "buy_time": "2026-08-04 12:35:32",
+        "iteration": 3,
+        "score_info": {
+          "last": 1284.6,
+          "mom_30m_pct": 0.32,
+          "intraday_pct": 1.533,
+          "rsi": 43.1,
+          "vol_factor": 1.0,
+          "score": 0.94
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 2085.0,
+        "buy_time": "2026-08-04 12:35:32",
+        "iteration": 3,
+        "score_info": {
+          "last": 2085.0,
+          "mom_30m_pct": 0.443,
+          "intraday_pct": 0.535,
+          "rsi": 64.3,
+          "vol_factor": 1.0,
+          "score": 0.825
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 14,
+        "buy_price": 287.75,
+        "buy_time": "2026-08-04 12:35:32",
+        "iteration": 3,
+        "score_info": {
+          "last": 287.75,
+          "mom_30m_pct": 0.454,
+          "intraday_pct": -0.087,
+          "rsi": 57.3,
+          "vol_factor": 1.0,
+          "score": 0.655
         }
       }
     ],
@@ -122,6 +176,57 @@
           "rsi": 58.1,
           "vol_factor": 1.0,
           "score": 0.3
+        }
+      },
+      {
+        "time": "2026-08-04 12:35:32",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1284.6,
+        "cost": 2569.2,
+        "score": {
+          "last": 1284.6,
+          "mom_30m_pct": 0.32,
+          "intraday_pct": 1.533,
+          "rsi": 43.1,
+          "vol_factor": 1.0,
+          "score": 0.94
+        }
+      },
+      {
+        "time": "2026-08-04 12:35:32",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2085.0,
+        "cost": 2085.0,
+        "score": {
+          "last": 2085.0,
+          "mom_30m_pct": 0.443,
+          "intraday_pct": 0.535,
+          "rsi": 64.3,
+          "vol_factor": 1.0,
+          "score": 0.825
+        }
+      },
+      {
+        "time": "2026-08-04 12:35:32",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 14,
+        "price": 287.75,
+        "cost": 4028.5,
+        "score": {
+          "last": 287.75,
+          "mom_30m_pct": 0.454,
+          "intraday_pct": -0.087,
+          "rsi": 57.3,
+          "vol_factor": 1.0,
+          "score": 0.655
         }
       }
     ],
