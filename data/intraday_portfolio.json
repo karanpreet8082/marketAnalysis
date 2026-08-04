@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-04",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 21614.9,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-08-04 12:54:20",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 30321.2,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 8
       }
     ],
-    "invested_today": 30321.200134277344,
+    "invested_today": 21614.900024414062,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -132,36 +123,6 @@
           "rsi": 57.3,
           "vol_factor": 1.0,
           "score": 0.655
-        }
-      },
-      {
-        "symbol": "WIPRO",
-        "qty": 15,
-        "buy_price": 187.93,
-        "buy_time": "2026-08-04 12:54:20",
-        "iteration": 4,
-        "score_info": {
-          "last": 187.93,
-          "mom_30m_pct": 0.176,
-          "intraday_pct": 0.713,
-          "rsi": 49.2,
-          "vol_factor": 1.6,
-          "score": 1.075
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 9,
-        "buy_price": 654.15,
-        "buy_time": "2026-08-04 12:54:20",
-        "iteration": 4,
-        "score_info": {
-          "last": 654.15,
-          "mom_30m_pct": 0.561,
-          "intraday_pct": -1.846,
-          "rsi": 50.6,
-          "vol_factor": 1.22,
-          "score": 0.505
         }
       }
     ],
@@ -266,40 +227,6 @@
           "rsi": 57.3,
           "vol_factor": 1.0,
           "score": 0.655
-        }
-      },
-      {
-        "time": "2026-08-04 12:54:20",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "WIPRO",
-        "qty": 15,
-        "price": 187.93,
-        "cost": 2818.95,
-        "score": {
-          "last": 187.93,
-          "mom_30m_pct": 0.176,
-          "intraday_pct": 0.713,
-          "rsi": 49.2,
-          "vol_factor": 1.6,
-          "score": 1.075
-        }
-      },
-      {
-        "time": "2026-08-04 12:54:20",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 9,
-        "price": 654.15,
-        "cost": 5887.35,
-        "score": {
-          "last": 654.15,
-          "mom_30m_pct": 0.561,
-          "intraday_pct": -1.846,
-          "rsi": 50.6,
-          "vol_factor": 1.22,
-          "score": 0.505
         }
       }
     ],
