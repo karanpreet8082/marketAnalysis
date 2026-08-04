@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-04",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,10 +102,19 @@
         "invested_today_after": 87941.84,
         "realized_pnl_today_after": 83.0,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-04 16:41:53",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 99734.84,
+        "realized_pnl_today_after": 60.0,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 87941.8402557373,
-    "realized_pnl_today": 82.99992675781289,
+    "invested_today": 99734.84013366699,
+    "realized_pnl_today": 59.99992675781289,
     "open_positions": [
       {
         "symbol": "JSWSTEEL",
@@ -303,21 +312,6 @@
         }
       },
       {
-        "symbol": "BAJAJFINSV",
-        "qty": 1,
-        "buy_price": 2105.0,
-        "buy_time": "2026-08-04 16:28:05",
-        "iteration": 11,
-        "score_info": {
-          "last": 2105.0,
-          "mom_30m_pct": 1.095,
-          "intraday_pct": 1.182,
-          "rsi": 66.2,
-          "vol_factor": 2.0,
-          "score": 2.997
-        }
-      },
-      {
         "symbol": "ASIANPAINT",
         "qty": 1,
         "buy_price": 2775.0,
@@ -345,6 +339,51 @@
           "rsi": 66.0,
           "vol_factor": 1.72,
           "score": 2.669
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2775.0,
+        "buy_time": "2026-08-04 16:41:53",
+        "iteration": 12,
+        "score_info": {
+          "last": 2775.0,
+          "mom_30m_pct": 1.252,
+          "intraday_pct": -0.058,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 2.86
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3107.7,
+        "buy_time": "2026-08-04 16:41:53",
+        "iteration": 12,
+        "score_info": {
+          "last": 3107.7,
+          "mom_30m_pct": 0.854,
+          "intraday_pct": 2.227,
+          "rsi": 66.0,
+          "vol_factor": 1.72,
+          "score": 2.669
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 1970.1,
+        "buy_time": "2026-08-04 16:41:53",
+        "iteration": 12,
+        "score_info": {
+          "last": 1970.1,
+          "mom_30m_pct": 0.881,
+          "intraday_pct": 0.814,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 2.565
         }
       }
     ],
@@ -851,6 +890,69 @@
           "rsi": 66.0,
           "vol_factor": 1.72,
           "score": 2.669
+        }
+      },
+      {
+        "time": "2026-08-04 16:41:53",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2082.0,
+        "buy_price": 2105.0,
+        "pnl": -23.0,
+        "pnl_pct": -1.09,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-04 16:41:53",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2775.0,
+        "cost": 2775.0,
+        "score": {
+          "last": 2775.0,
+          "mom_30m_pct": 1.252,
+          "intraday_pct": -0.058,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 2.86
+        }
+      },
+      {
+        "time": "2026-08-04 16:41:53",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3107.7,
+        "cost": 3107.7,
+        "score": {
+          "last": 3107.7,
+          "mom_30m_pct": 0.854,
+          "intraday_pct": 2.227,
+          "rsi": 66.0,
+          "vol_factor": 1.72,
+          "score": 2.669
+        }
+      },
+      {
+        "time": "2026-08-04 16:41:53",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 1970.1,
+        "cost": 5910.3,
+        "score": {
+          "last": 1970.1,
+          "mom_30m_pct": 0.881,
+          "intraday_pct": 0.814,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 2.565
         }
       }
     ],
