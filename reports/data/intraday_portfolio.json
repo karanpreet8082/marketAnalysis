@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-04",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 70633.14,
         "realized_pnl_today_after": 25.75,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 10,
+        "time": "2026-08-04 15:48:18",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 79954.14,
+        "realized_pnl_today_after": 25.75,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 70633.14030456543,
+    "invested_today": 79954.14030456543,
     "realized_pnl_today": 25.74997558593759,
     "open_positions": [
       {
@@ -312,6 +321,51 @@
           "rsi": 64.1,
           "vol_factor": 1.97,
           "score": 1.583
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2775.0,
+        "buy_time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "score_info": {
+          "last": 2775.0,
+          "mom_30m_pct": 1.252,
+          "intraday_pct": -0.058,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 2.86
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 12,
+        "buy_price": 289.0,
+        "buy_time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "score_info": {
+          "last": 289.0,
+          "mom_30m_pct": 0.75,
+          "intraday_pct": 0.873,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 2.386
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 1026.0,
+        "buy_time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "score_info": {
+          "last": 1026.0,
+          "mom_30m_pct": 0.687,
+          "intraday_pct": 0.835,
+          "rsi": 69.9,
+          "vol_factor": 2.0,
+          "score": 2.281
         }
       }
     ],
@@ -656,6 +710,57 @@
           "rsi": 64.1,
           "vol_factor": 1.97,
           "score": 1.583
+        }
+      },
+      {
+        "time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2775.0,
+        "cost": 2775.0,
+        "score": {
+          "last": 2775.0,
+          "mom_30m_pct": 1.252,
+          "intraday_pct": -0.058,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 2.86
+        }
+      },
+      {
+        "time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 12,
+        "price": 289.0,
+        "cost": 3468.0,
+        "score": {
+          "last": 289.0,
+          "mom_30m_pct": 0.75,
+          "intraday_pct": 0.873,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 2.386
+        }
+      },
+      {
+        "time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1026.0,
+        "cost": 3078.0,
+        "score": {
+          "last": 1026.0,
+          "mom_30m_pct": 0.687,
+          "intraday_pct": 0.835,
+          "rsi": 69.9,
+          "vol_factor": 2.0,
+          "score": 2.281
         }
       }
     ],
