@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-04",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,26 +84,29 @@
         "invested_today_after": 70633.14,
         "realized_pnl_today_after": 25.75,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 10,
+        "time": "2026-08-04 15:48:18",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 79954.14,
+        "realized_pnl_today_after": 25.75,
+        "open_positions_after": 18
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-04 16:28:05",
+        "n_bought": 3,
+        "n_sold": 5,
+        "invested_today_after": 87941.84,
+        "realized_pnl_today_after": 83.0,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 70633.14030456543,
-    "realized_pnl_today": 25.74997558593759,
+    "invested_today": 87941.8402557373,
+    "realized_pnl_today": 82.99992675781289,
     "open_positions": [
-      {
-        "symbol": "LT",
-        "qty": 1,
-        "buy_price": 4033.1,
-        "buy_time": "2026-08-04 11:46:18",
-        "iteration": 1,
-        "score_info": {
-          "last": 4033.1,
-          "mom_30m_pct": 0.117,
-          "intraday_pct": 1.365,
-          "rsi": 65.2,
-          "vol_factor": 0.35,
-          "score": -0.062
-        }
-      },
       {
         "symbol": "JSWSTEEL",
         "qty": 3,
@@ -117,36 +120,6 @@
           "rsi": 72.7,
           "vol_factor": 0.06,
           "score": -0.22
-        }
-      },
-      {
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "buy_price": 1284.6,
-        "buy_time": "2026-08-04 12:35:32",
-        "iteration": 3,
-        "score_info": {
-          "last": 1284.6,
-          "mom_30m_pct": 0.32,
-          "intraday_pct": 1.533,
-          "rsi": 43.1,
-          "vol_factor": 1.0,
-          "score": 0.94
-        }
-      },
-      {
-        "symbol": "BAJAJFINSV",
-        "qty": 1,
-        "buy_price": 2085.0,
-        "buy_time": "2026-08-04 12:35:32",
-        "iteration": 3,
-        "score_info": {
-          "last": 2085.0,
-          "mom_30m_pct": 0.443,
-          "intraday_pct": 0.535,
-          "rsi": 64.3,
-          "vol_factor": 1.0,
-          "score": 0.825
         }
       },
       {
@@ -177,21 +150,6 @@
           "rsi": 49.2,
           "vol_factor": 1.6,
           "score": 1.075
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 7,
-        "buy_price": 393.35,
-        "buy_time": "2026-08-04 13:16:29",
-        "iteration": 5,
-        "score_info": {
-          "last": 393.35,
-          "mom_30m_pct": -0.266,
-          "intraday_pct": 0.319,
-          "rsi": 45.6,
-          "vol_factor": 2.0,
-          "score": 0.696
         }
       },
       {
@@ -270,21 +228,6 @@
         }
       },
       {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 3080.7,
-        "buy_time": "2026-08-04 14:50:45",
-        "iteration": 8,
-        "score_info": {
-          "last": 3080.7,
-          "mom_30m_pct": -0.065,
-          "intraday_pct": 1.818,
-          "rsi": 55.2,
-          "vol_factor": 1.0,
-          "score": 0.448
-        }
-      },
-      {
         "symbol": "HEROMOTOCO",
         "qty": 1,
         "buy_price": 5571.5,
@@ -312,6 +255,96 @@
           "rsi": 64.1,
           "vol_factor": 1.97,
           "score": 1.583
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2775.0,
+        "buy_time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "score_info": {
+          "last": 2775.0,
+          "mom_30m_pct": 1.252,
+          "intraday_pct": -0.058,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 2.86
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 12,
+        "buy_price": 289.0,
+        "buy_time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "score_info": {
+          "last": 289.0,
+          "mom_30m_pct": 0.75,
+          "intraday_pct": 0.873,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 2.386
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 1026.0,
+        "buy_time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "score_info": {
+          "last": 1026.0,
+          "mom_30m_pct": 0.687,
+          "intraday_pct": 0.835,
+          "rsi": 69.9,
+          "vol_factor": 2.0,
+          "score": 2.281
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 2105.0,
+        "buy_time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "score_info": {
+          "last": 2105.0,
+          "mom_30m_pct": 1.095,
+          "intraday_pct": 1.182,
+          "rsi": 66.2,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2775.0,
+        "buy_time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "score_info": {
+          "last": 2775.0,
+          "mom_30m_pct": 1.252,
+          "intraday_pct": -0.058,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 2.86
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3107.7,
+        "buy_time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "score_info": {
+          "last": 3107.7,
+          "mom_30m_pct": 0.854,
+          "intraday_pct": 2.227,
+          "rsi": 66.0,
+          "vol_factor": 1.72,
+          "score": 2.669
         }
       }
     ],
@@ -656,6 +689,168 @@
           "rsi": 64.1,
           "vol_factor": 1.97,
           "score": 1.583
+        }
+      },
+      {
+        "time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2775.0,
+        "cost": 2775.0,
+        "score": {
+          "last": 2775.0,
+          "mom_30m_pct": 1.252,
+          "intraday_pct": -0.058,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 2.86
+        }
+      },
+      {
+        "time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 12,
+        "price": 289.0,
+        "cost": 3468.0,
+        "score": {
+          "last": 289.0,
+          "mom_30m_pct": 0.75,
+          "intraday_pct": 0.873,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 2.386
+        }
+      },
+      {
+        "time": "2026-08-04 15:48:18",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1026.0,
+        "cost": 3078.0,
+        "score": {
+          "last": 1026.0,
+          "mom_30m_pct": 0.687,
+          "intraday_pct": 0.835,
+          "rsi": 69.9,
+          "vol_factor": 2.0,
+          "score": 2.281
+        }
+      },
+      {
+        "time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "LT",
+        "qty": 1,
+        "price": 3990.0,
+        "buy_price": 4033.1,
+        "pnl": -43.1,
+        "pnl_pct": -1.07,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1295.0,
+        "buy_price": 1284.6,
+        "pnl": 20.8,
+        "pnl_pct": 0.81,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2105.0,
+        "buy_price": 2085.0,
+        "pnl": 20.0,
+        "pnl_pct": 0.96,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 398.0,
+        "buy_price": 393.35,
+        "pnl": 32.55,
+        "pnl_pct": 1.18,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3107.7,
+        "buy_price": 3080.7,
+        "pnl": 27.0,
+        "pnl_pct": 0.88,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2105.0,
+        "cost": 2105.0,
+        "score": {
+          "last": 2105.0,
+          "mom_30m_pct": 1.095,
+          "intraday_pct": 1.182,
+          "rsi": 66.2,
+          "vol_factor": 2.0,
+          "score": 2.997
+        }
+      },
+      {
+        "time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2775.0,
+        "cost": 2775.0,
+        "score": {
+          "last": 2775.0,
+          "mom_30m_pct": 1.252,
+          "intraday_pct": -0.058,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 2.86
+        }
+      },
+      {
+        "time": "2026-08-04 16:28:05",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3107.7,
+        "cost": 3107.7,
+        "score": {
+          "last": 3107.7,
+          "mom_30m_pct": 0.854,
+          "intraday_pct": 2.227,
+          "rsi": 66.0,
+          "vol_factor": 1.72,
+          "score": 2.669
         }
       }
     ],
