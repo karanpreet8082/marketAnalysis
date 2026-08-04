@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-04",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,10 +66,19 @@
         "invested_today_after": 52727.35,
         "realized_pnl_today_after": -69.75,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-04 14:50:45",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 60953.25,
+        "realized_pnl_today_after": 25.75,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 52727.350189208984,
-    "realized_pnl_today": -69.7497802734373,
+    "invested_today": 60953.25033569336,
+    "realized_pnl_today": 25.74997558593759,
     "open_positions": [
       {
         "symbol": "LT",
@@ -99,21 +108,6 @@
           "rsi": 72.7,
           "vol_factor": 0.06,
           "score": -0.22
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 5,
-        "buy_price": 1005.4,
-        "buy_time": "2026-08-04 12:00:32",
-        "iteration": 2,
-        "score_info": {
-          "last": 1005.4,
-          "mom_30m_pct": -0.114,
-          "intraday_pct": 1.571,
-          "rsi": 58.1,
-          "vol_factor": 1.0,
-          "score": 0.3
         }
       },
       {
@@ -192,21 +186,6 @@
         }
       },
       {
-        "symbol": "HINDALCO",
-        "qty": 5,
-        "buy_price": 1003.7,
-        "buy_time": "2026-08-04 13:16:29",
-        "iteration": 5,
-        "score_info": {
-          "last": 1003.7,
-          "mom_30m_pct": 0.145,
-          "intraday_pct": 1.512,
-          "rsi": 59.9,
-          "vol_factor": 0.18,
-          "score": -0.151
-        }
-      },
-      {
         "symbol": "SIEMENS",
         "qty": 1,
         "buy_price": 4010.1,
@@ -264,6 +243,36 @@
           "rsi": 68.7,
           "vol_factor": 1.0,
           "score": 0.839
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 4,
+        "buy_price": 1286.3,
+        "buy_time": "2026-08-04 14:50:45",
+        "iteration": 8,
+        "score_info": {
+          "last": 1286.3,
+          "mom_30m_pct": 0.249,
+          "intraday_pct": 0.249,
+          "rsi": 72.7,
+          "vol_factor": 1.0,
+          "score": 0.449
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3080.7,
+        "buy_time": "2026-08-04 14:50:45",
+        "iteration": 8,
+        "score_info": {
+          "last": 3080.7,
+          "mom_30m_pct": -0.065,
+          "intraday_pct": 1.818,
+          "rsi": 55.2,
+          "vol_factor": 1.0,
+          "score": 0.448
         }
       }
     ],
@@ -516,6 +525,64 @@
           "rsi": 68.7,
           "vol_factor": 1.0,
           "score": 0.839
+        }
+      },
+      {
+        "time": "2026-08-04 14:50:45",
+        "iteration": 8,
+        "action": "SELL",
+        "symbol": "HINDALCO",
+        "qty": 5,
+        "price": 1014.1,
+        "buy_price": 1005.4,
+        "pnl": 43.5,
+        "pnl_pct": 0.87,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-04 14:50:45",
+        "iteration": 8,
+        "action": "SELL",
+        "symbol": "HINDALCO",
+        "qty": 5,
+        "price": 1014.1,
+        "buy_price": 1003.7,
+        "pnl": 52.0,
+        "pnl_pct": 1.04,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-04 14:50:45",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 4,
+        "price": 1286.3,
+        "cost": 5145.2,
+        "score": {
+          "last": 1286.3,
+          "mom_30m_pct": 0.249,
+          "intraday_pct": 0.249,
+          "rsi": 72.7,
+          "vol_factor": 1.0,
+          "score": 0.449
+        }
+      },
+      {
+        "time": "2026-08-04 14:50:45",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3080.7,
+        "cost": 3080.7,
+        "score": {
+          "last": 3080.7,
+          "mom_30m_pct": -0.065,
+          "intraday_pct": 1.818,
+          "rsi": 55.2,
+          "vol_factor": 1.0,
+          "score": 0.448
         }
       }
     ],
