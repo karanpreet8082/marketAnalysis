@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-05",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,10 +84,28 @@
         "invested_today_after": 59389.3,
         "realized_pnl_today_after": 93.2,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 10,
+        "time": "2026-08-05 15:45:28",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 72902.4,
+        "realized_pnl_today_after": 93.2,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-05 16:16:53",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 85677.4,
+        "realized_pnl_today_after": 143.6,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 59389.30065917969,
-    "realized_pnl_today": 93.2001953125,
+    "invested_today": 85677.40100097656,
+    "realized_pnl_today": 143.6003601074218,
     "open_positions": [
       {
         "symbol": "ADANIENT",
@@ -162,21 +180,6 @@
           "rsi": 51.9,
           "vol_factor": 1.0,
           "score": 0.379
-        }
-      },
-      {
-        "symbol": "TATASTEEL",
-        "qty": 30,
-        "buy_price": 191.31,
-        "buy_time": "2026-08-05 13:17:30",
-        "iteration": 5,
-        "score_info": {
-          "last": 191.31,
-          "mom_30m_pct": 0.562,
-          "intraday_pct": 0.668,
-          "rsi": 70.1,
-          "vol_factor": 1.22,
-          "score": 1.26
         }
       },
       {
@@ -282,6 +285,81 @@
           "rsi": 70.9,
           "vol_factor": 1.58,
           "score": 2.495
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 7,
+        "buy_price": 1158.8,
+        "buy_time": "2026-08-05 15:45:28",
+        "iteration": 10,
+        "score_info": {
+          "last": 1158.8,
+          "mom_30m_pct": 0.582,
+          "intraday_pct": 1.533,
+          "rsi": 71.9,
+          "vol_factor": 2.0,
+          "score": 2.332
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 13,
+        "buy_price": 415.5,
+        "buy_time": "2026-08-05 15:45:28",
+        "iteration": 10,
+        "score_info": {
+          "last": 415.5,
+          "mom_30m_pct": 0.739,
+          "intraday_pct": 0.193,
+          "rsi": 71.9,
+          "vol_factor": 2.0,
+          "score": 2.166
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3129.0,
+        "buy_time": "2026-08-05 16:16:53",
+        "iteration": 11,
+        "score_info": {
+          "last": 3129.0,
+          "mom_30m_pct": 1.066,
+          "intraday_pct": 2.125,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 3.236
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 1978.0,
+        "buy_time": "2026-08-05 16:16:53",
+        "iteration": 11,
+        "score_info": {
+          "last": 1978.0,
+          "mom_30m_pct": 1.063,
+          "intraday_pct": 1.327,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.992
+        }
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 5690.0,
+        "buy_time": "2026-08-05 16:16:53",
+        "iteration": 11,
+        "score_info": {
+          "last": 5690.0,
+          "mom_30m_pct": 0.717,
+          "intraday_pct": 2.191,
+          "rsi": 59.0,
+          "vol_factor": 2.0,
+          "score": 2.733
         }
       }
     ],
@@ -563,6 +641,103 @@
           "rsi": 70.9,
           "vol_factor": 1.58,
           "score": 2.495
+        }
+      },
+      {
+        "time": "2026-08-05 15:45:28",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 7,
+        "price": 1158.8,
+        "cost": 8111.6,
+        "score": {
+          "last": 1158.8,
+          "mom_30m_pct": 0.582,
+          "intraday_pct": 1.533,
+          "rsi": 71.9,
+          "vol_factor": 2.0,
+          "score": 2.332
+        }
+      },
+      {
+        "time": "2026-08-05 15:45:28",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 13,
+        "price": 415.5,
+        "cost": 5401.5,
+        "score": {
+          "last": 415.5,
+          "mom_30m_pct": 0.739,
+          "intraday_pct": 0.193,
+          "rsi": 71.9,
+          "vol_factor": 2.0,
+          "score": 2.166
+        }
+      },
+      {
+        "time": "2026-08-05 16:16:53",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "TATASTEEL",
+        "qty": 30,
+        "price": 192.99,
+        "buy_price": 191.31,
+        "pnl": 50.4,
+        "pnl_pct": 0.88,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-05 16:16:53",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3129.0,
+        "cost": 3129.0,
+        "score": {
+          "last": 3129.0,
+          "mom_30m_pct": 1.066,
+          "intraday_pct": 2.125,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 3.236
+        }
+      },
+      {
+        "time": "2026-08-05 16:16:53",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 1978.0,
+        "cost": 3956.0,
+        "score": {
+          "last": 1978.0,
+          "mom_30m_pct": 1.063,
+          "intraday_pct": 1.327,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.992
+        }
+      },
+      {
+        "time": "2026-08-05 16:16:53",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 5690.0,
+        "cost": 5690.0,
+        "score": {
+          "last": 5690.0,
+          "mom_30m_pct": 0.717,
+          "intraday_pct": 2.191,
+          "rsi": 59.0,
+          "vol_factor": 2.0,
+          "score": 2.733
         }
       }
     ],
