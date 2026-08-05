@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-05",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13736.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-08-05 12:37:27",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 20554.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 13736.10009765625,
+    "invested_today": 20554.300048828125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,36 @@
           "rsi": 69.0,
           "vol_factor": 1.0,
           "score": 0.242
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 8,
+        "buy_price": 345.35,
+        "buy_time": "2026-08-05 12:37:27",
+        "iteration": 3,
+        "score_info": {
+          "last": 345.35,
+          "mom_30m_pct": -0.13,
+          "intraday_pct": -0.087,
+          "rsi": 33.7,
+          "vol_factor": 1.52,
+          "score": 0.298
+        }
+      },
+      {
+        "symbol": "LT",
+        "qty": 1,
+        "buy_price": 4055.4,
+        "buy_time": "2026-08-05 12:37:27",
+        "iteration": 3,
+        "score_info": {
+          "last": 4055.4,
+          "mom_30m_pct": 0.141,
+          "intraday_pct": 0.493,
+          "rsi": 42.9,
+          "vol_factor": 0.35,
+          "score": -0.288
         }
       }
     ],
@@ -122,6 +161,40 @@
           "rsi": 69.0,
           "vol_factor": 1.0,
           "score": 0.242
+        }
+      },
+      {
+        "time": "2026-08-05 12:37:27",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 8,
+        "price": 345.35,
+        "cost": 2762.8,
+        "score": {
+          "last": 345.35,
+          "mom_30m_pct": -0.13,
+          "intraday_pct": -0.087,
+          "rsi": 33.7,
+          "vol_factor": 1.52,
+          "score": 0.298
+        }
+      },
+      {
+        "time": "2026-08-05 12:37:27",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "LT",
+        "qty": 1,
+        "price": 4055.4,
+        "cost": 4055.4,
+        "score": {
+          "last": 4055.4,
+          "mom_30m_pct": 0.141,
+          "intraday_pct": 0.493,
+          "rsi": 42.9,
+          "vol_factor": 0.35,
+          "score": -0.288
         }
       }
     ],
