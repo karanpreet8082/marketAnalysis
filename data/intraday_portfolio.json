@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-05",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,10 +75,19 @@
         "invested_today_after": 56735.1,
         "realized_pnl_today_after": 70.0,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-05 15:13:24",
+        "n_bought": 1,
+        "n_sold": 1,
+        "invested_today_after": 59389.3,
+        "realized_pnl_today_after": 93.2,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 56735.10070800781,
-    "realized_pnl_today": 70.00019531250018,
+    "invested_today": 59389.30065917969,
+    "realized_pnl_today": 93.2001953125,
     "open_positions": [
       {
         "symbol": "ADANIENT",
@@ -108,21 +117,6 @@
           "rsi": 69.0,
           "vol_factor": 1.0,
           "score": 0.242
-        }
-      },
-      {
-        "symbol": "NTPC",
-        "qty": 8,
-        "buy_price": 345.35,
-        "buy_time": "2026-08-05 12:37:27",
-        "iteration": 3,
-        "score_info": {
-          "last": 345.35,
-          "mom_30m_pct": -0.13,
-          "intraday_pct": -0.087,
-          "rsi": 33.7,
-          "vol_factor": 1.52,
-          "score": 0.298
         }
       },
       {
@@ -273,6 +267,21 @@
           "rsi": 36.7,
           "vol_factor": 2.0,
           "score": 1.401
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1327.1,
+        "buy_time": "2026-08-05 15:13:24",
+        "iteration": 9,
+        "score_info": {
+          "last": 1327.1,
+          "mom_30m_pct": 0.668,
+          "intraday_pct": 3.044,
+          "rsi": 70.9,
+          "vol_factor": 1.58,
+          "score": 2.495
         }
       }
     ],
@@ -525,6 +534,35 @@
           "rsi": 36.7,
           "vol_factor": 2.0,
           "score": 1.401
+        }
+      },
+      {
+        "time": "2026-08-05 15:13:24",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "NTPC",
+        "qty": 8,
+        "price": 348.25,
+        "buy_price": 345.35,
+        "pnl": 23.2,
+        "pnl_pct": 0.84,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-05 15:13:24",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1327.1,
+        "cost": 2654.2,
+        "score": {
+          "last": 1327.1,
+          "mom_30m_pct": 0.668,
+          "intraday_pct": 3.044,
+          "rsi": 70.9,
+          "vol_factor": 1.58,
+          "score": 2.495
         }
       }
     ],
