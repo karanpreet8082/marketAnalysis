@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-05",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 35071.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-05 13:35:41",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 38270.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 35071.00036621094,
+    "invested_today": 38270.60046386719,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -171,6 +180,21 @@
           "rsi": 70.1,
           "vol_factor": 1.22,
           "score": 1.26
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3199.6,
+        "buy_time": "2026-08-05 13:35:41",
+        "iteration": 6,
+        "score_info": {
+          "last": 3199.6,
+          "mom_30m_pct": -0.012,
+          "intraday_pct": 2.126,
+          "rsi": 31.3,
+          "vol_factor": 1.0,
+          "score": 0.619
         }
       }
     ],
@@ -309,6 +333,23 @@
           "rsi": 70.1,
           "vol_factor": 1.22,
           "score": 1.26
+        }
+      },
+      {
+        "time": "2026-08-05 13:35:41",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3199.6,
+        "cost": 3199.6,
+        "score": {
+          "last": 3199.6,
+          "mom_30m_pct": -0.012,
+          "intraday_pct": 2.126,
+          "rsi": 31.3,
+          "vol_factor": 1.0,
+          "score": 0.619
         }
       }
     ],
