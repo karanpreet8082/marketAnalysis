@@ -1,5 +1,43 @@
 [
   {
+    "timestamp": "2026-06-26 15:31 IST",
+    "budget": 50000.0,
+    "allocated": 49130.23,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 49130.23,
+      "cash_reserve": 869.77,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24543.43,
+          "percent": 49.1,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17213.0,
+          "percent": 34.4,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7373.8,
+          "percent": 14.7,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 6.2,
+      "max_loss_percent": 4.3,
+      "sector_distribution": {
+        "Utilities": 1,
+        "Unknown": 2,
+        "Financial Services": 3,
+        "Energy": 1,
+        "Consumer Cyclical": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-06-29 17:05 IST",
     "budget": 50000.0,
     "allocated": 49615.83,
@@ -1827,44 +1865,6 @@
         "Consumer Defensive": 1,
         "Energy": 1,
         "Basic Materials": 3
-      }
-    }
-  },
-  {
-    "timestamp": "2026-08-05 12:54 IST",
-    "budget": 50000.0,
-    "allocated": 49908.44,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49908.44,
-      "cash_reserve": 91.56,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 25161.76,
-          "percent": 50.3,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17362.1,
-          "percent": 34.7,
-          "positions": 2
-        },
-        "aggressive": {
-          "amount": 7384.58,
-          "percent": 14.8,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.8,
-      "max_loss_percent": 4.1,
-      "sector_distribution": {
-        "Unknown": 2,
-        "Financial Services": 2,
-        "Utilities": 1,
-        "Consumer Cyclical": 1,
-        "Basic Materials": 1
       }
     }
   }
