@@ -1,5 +1,132 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-05",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-05 11:43:08",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 8267.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-05 12:01:13",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 13736.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 13736.10009765625,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3058.4,
+        "buy_time": "2026-08-05 11:43:08",
+        "iteration": 1,
+        "score_info": {
+          "last": 3058.4,
+          "mom_30m_pct": 0.085,
+          "intraday_pct": 0.16,
+          "rsi": 56.0,
+          "vol_factor": 1.58,
+          "score": 0.754
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 4,
+        "buy_price": 1302.3,
+        "buy_time": "2026-08-05 11:43:08",
+        "iteration": 1,
+        "score_info": {
+          "last": 1302.3,
+          "mom_30m_pct": 0.393,
+          "intraday_pct": 0.766,
+          "rsi": 74.5,
+          "vol_factor": 0.93,
+          "score": 0.747
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5468.5,
+        "buy_time": "2026-08-05 12:01:13",
+        "iteration": 2,
+        "score_info": {
+          "last": 5468.5,
+          "mom_30m_pct": 0.156,
+          "intraday_pct": 0.027,
+          "rsi": 69.0,
+          "vol_factor": 1.0,
+          "score": 0.242
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-05 11:43:08",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3058.4,
+        "cost": 3058.4,
+        "score": {
+          "last": 3058.4,
+          "mom_30m_pct": 0.085,
+          "intraday_pct": 0.16,
+          "rsi": 56.0,
+          "vol_factor": 1.58,
+          "score": 0.754
+        }
+      },
+      {
+        "time": "2026-08-05 11:43:08",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 4,
+        "price": 1302.3,
+        "cost": 5209.2,
+        "score": {
+          "last": 1302.3,
+          "mom_30m_pct": 0.393,
+          "intraday_pct": 0.766,
+          "rsi": 74.5,
+          "vol_factor": 0.93,
+          "score": 0.747
+        }
+      },
+      {
+        "time": "2026-08-05 12:01:13",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5468.5,
+        "cost": 5468.5,
+        "score": {
+          "last": 5468.5,
+          "mom_30m_pct": 0.156,
+          "intraday_pct": 0.027,
+          "rsi": 69.0,
+          "vol_factor": 1.0,
+          "score": 0.242
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
