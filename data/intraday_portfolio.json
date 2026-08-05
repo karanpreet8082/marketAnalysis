@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-05",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 85677.4,
         "realized_pnl_today_after": 143.6,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-05 16:38:51",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 94740.4,
+        "realized_pnl_today_after": 143.6,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 85677.40100097656,
+    "invested_today": 94740.40100097656,
     "realized_pnl_today": 143.6003601074218,
     "open_positions": [
       {
@@ -360,6 +369,36 @@
           "rsi": 59.0,
           "vol_factor": 2.0,
           "score": 2.733
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3129.0,
+        "buy_time": "2026-08-05 16:38:51",
+        "iteration": 12,
+        "score_info": {
+          "last": 3129.0,
+          "mom_30m_pct": 1.066,
+          "intraday_pct": 2.125,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 3.236
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 1978.0,
+        "buy_time": "2026-08-05 16:38:51",
+        "iteration": 12,
+        "score_info": {
+          "last": 1978.0,
+          "mom_30m_pct": 1.063,
+          "intraday_pct": 1.327,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.992
         }
       }
     ],
@@ -738,6 +777,40 @@
           "rsi": 59.0,
           "vol_factor": 2.0,
           "score": 2.733
+        }
+      },
+      {
+        "time": "2026-08-05 16:38:51",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3129.0,
+        "cost": 3129.0,
+        "score": {
+          "last": 3129.0,
+          "mom_30m_pct": 1.066,
+          "intraday_pct": 2.125,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 3.236
+        }
+      },
+      {
+        "time": "2026-08-05 16:38:51",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 1978.0,
+        "cost": 5934.0,
+        "score": {
+          "last": 1978.0,
+          "mom_30m_pct": 1.063,
+          "intraday_pct": 1.327,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 2.992
         }
       }
     ],
