@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-05",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-05 11:43:08",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 8267.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 8267.60009765625,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3058.4,
+        "buy_time": "2026-08-05 11:43:08",
+        "iteration": 1,
+        "score_info": {
+          "last": 3058.4,
+          "mom_30m_pct": 0.085,
+          "intraday_pct": 0.16,
+          "rsi": 56.0,
+          "vol_factor": 1.58,
+          "score": 0.754
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 4,
+        "buy_price": 1302.3,
+        "buy_time": "2026-08-05 11:43:08",
+        "iteration": 1,
+        "score_info": {
+          "last": 1302.3,
+          "mom_30m_pct": 0.393,
+          "intraday_pct": 0.766,
+          "rsi": 74.5,
+          "vol_factor": 0.93,
+          "score": 0.747
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-05 11:43:08",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3058.4,
+        "cost": 3058.4,
+        "score": {
+          "last": 3058.4,
+          "mom_30m_pct": 0.085,
+          "intraday_pct": 0.16,
+          "rsi": 56.0,
+          "vol_factor": 1.58,
+          "score": 0.754
+        }
+      },
+      {
+        "time": "2026-08-05 11:43:08",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 4,
+        "price": 1302.3,
+        "cost": 5209.2,
+        "score": {
+          "last": 1302.3,
+          "mom_30m_pct": 0.393,
+          "intraday_pct": 0.766,
+          "rsi": 74.5,
+          "vol_factor": 0.93,
+          "score": 0.747
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
