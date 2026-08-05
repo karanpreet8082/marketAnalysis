@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-05",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 47343.8,
         "realized_pnl_today_after": 70.0,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-05 14:48:50",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 56735.1,
+        "realized_pnl_today_after": 70.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 47343.80065917969,
+    "invested_today": 56735.10070800781,
     "realized_pnl_today": 70.00019531250018,
     "open_positions": [
       {
@@ -219,6 +228,51 @@
           "rsi": 70.4,
           "vol_factor": 0.95,
           "score": 0.689
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3105.4,
+        "buy_time": "2026-08-05 14:48:50",
+        "iteration": 8,
+        "score_info": {
+          "last": 3105.4,
+          "mom_30m_pct": 0.469,
+          "intraday_pct": 0.989,
+          "rsi": 66.0,
+          "vol_factor": 2.0,
+          "score": 2.0
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2760.0,
+        "buy_time": "2026-08-05 14:48:50",
+        "iteration": 8,
+        "score_info": {
+          "last": 2760.0,
+          "mom_30m_pct": 0.145,
+          "intraday_pct": 0.862,
+          "rsi": 52.7,
+          "vol_factor": 2.0,
+          "score": 1.476
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 3,
+        "buy_price": 1175.3,
+        "buy_time": "2026-08-05 14:48:50",
+        "iteration": 8,
+        "score_info": {
+          "last": 1175.3,
+          "mom_30m_pct": -0.009,
+          "intraday_pct": 1.38,
+          "rsi": 36.7,
+          "vol_factor": 2.0,
+          "score": 1.401
         }
       }
     ],
@@ -420,6 +474,57 @@
           "rsi": 70.4,
           "vol_factor": 0.95,
           "score": 0.689
+        }
+      },
+      {
+        "time": "2026-08-05 14:48:50",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3105.4,
+        "cost": 3105.4,
+        "score": {
+          "last": 3105.4,
+          "mom_30m_pct": 0.469,
+          "intraday_pct": 0.989,
+          "rsi": 66.0,
+          "vol_factor": 2.0,
+          "score": 2.0
+        }
+      },
+      {
+        "time": "2026-08-05 14:48:50",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2760.0,
+        "cost": 2760.0,
+        "score": {
+          "last": 2760.0,
+          "mom_30m_pct": 0.145,
+          "intraday_pct": 0.862,
+          "rsi": 52.7,
+          "vol_factor": 2.0,
+          "score": 1.476
+        }
+      },
+      {
+        "time": "2026-08-05 14:48:50",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 3,
+        "price": 1175.3,
+        "cost": 3525.9,
+        "score": {
+          "last": 1175.3,
+          "mom_30m_pct": -0.009,
+          "intraday_pct": 1.38,
+          "rsi": 36.7,
+          "vol_factor": 2.0,
+          "score": 1.401
         }
       }
     ],
