@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-05",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,18 +84,9 @@
         "invested_today_after": 59389.3,
         "realized_pnl_today_after": 93.2,
         "open_positions_after": 13
-      },
-      {
-        "iteration": 10,
-        "time": "2026-08-05 15:45:28",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 72902.4,
-        "realized_pnl_today_after": 93.2,
-        "open_positions_after": 15
       }
     ],
-    "invested_today": 72902.40100097656,
+    "invested_today": 59389.30065917969,
     "realized_pnl_today": 93.2001953125,
     "open_positions": [
       {
@@ -291,36 +282,6 @@
           "rsi": 70.9,
           "vol_factor": 1.58,
           "score": 2.495
-        }
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "qty": 7,
-        "buy_price": 1158.8,
-        "buy_time": "2026-08-05 15:45:28",
-        "iteration": 10,
-        "score_info": {
-          "last": 1158.8,
-          "mom_30m_pct": 0.582,
-          "intraday_pct": 1.533,
-          "rsi": 71.9,
-          "vol_factor": 2.0,
-          "score": 2.332
-        }
-      },
-      {
-        "symbol": "COALINDIA",
-        "qty": 13,
-        "buy_price": 415.5,
-        "buy_time": "2026-08-05 15:45:28",
-        "iteration": 10,
-        "score_info": {
-          "last": 415.5,
-          "mom_30m_pct": 0.739,
-          "intraday_pct": 0.193,
-          "rsi": 71.9,
-          "vol_factor": 2.0,
-          "score": 2.166
         }
       }
     ],
@@ -602,40 +563,6 @@
           "rsi": 70.9,
           "vol_factor": 1.58,
           "score": 2.495
-        }
-      },
-      {
-        "time": "2026-08-05 15:45:28",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "BAJFINANCE",
-        "qty": 7,
-        "price": 1158.8,
-        "cost": 8111.6,
-        "score": {
-          "last": 1158.8,
-          "mom_30m_pct": 0.582,
-          "intraday_pct": 1.533,
-          "rsi": 71.9,
-          "vol_factor": 2.0,
-          "score": 2.332
-        }
-      },
-      {
-        "time": "2026-08-05 15:45:28",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "COALINDIA",
-        "qty": 13,
-        "price": 415.5,
-        "cost": 5401.5,
-        "score": {
-          "last": 415.5,
-          "mom_30m_pct": 0.739,
-          "intraday_pct": 0.193,
-          "rsi": 71.9,
-          "vol_factor": 2.0,
-          "score": 2.166
         }
       }
     ],
