@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-06",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,10 +48,19 @@
         "invested_today_after": 36529.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-06 13:34:10",
+        "n_bought": 3,
+        "n_sold": 2,
+        "invested_today_after": 45075.1,
+        "realized_pnl_today_after": -53.8,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 36529.79992675781,
-    "realized_pnl_today": 0.0,
+    "invested_today": 45075.09973144531,
+    "realized_pnl_today": -53.799938964843705,
     "open_positions": [
       {
         "symbol": "BRITANNIA",
@@ -69,21 +78,6 @@
         }
       },
       {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 1031.6,
-        "buy_time": "2026-08-06 11:46:29",
-        "iteration": 1,
-        "score_info": {
-          "last": 1031.6,
-          "mom_30m_pct": 0.223,
-          "intraday_pct": 0.389,
-          "rsi": 60.8,
-          "vol_factor": 0.31,
-          "score": -0.241
-        }
-      },
-      {
         "symbol": "RELIANCE",
         "qty": 4,
         "buy_price": 1317.5,
@@ -96,21 +90,6 @@
           "rsi": 75.2,
           "vol_factor": 2.0,
           "score": 0.928
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1032.2,
-        "buy_time": "2026-08-06 12:04:28",
-        "iteration": 2,
-        "score_info": {
-          "last": 1032.2,
-          "mom_30m_pct": 0.155,
-          "intraday_pct": 0.919,
-          "rsi": 60.7,
-          "vol_factor": 1.17,
-          "score": 0.681
         }
       },
       {
@@ -216,6 +195,51 @@
           "rsi": 60.8,
           "vol_factor": 0.89,
           "score": -0.235
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 1077.7,
+        "buy_time": "2026-08-06 13:34:10",
+        "iteration": 6,
+        "score_info": {
+          "last": 1077.7,
+          "mom_30m_pct": 1.708,
+          "intraday_pct": 2.443,
+          "rsi": 88.9,
+          "vol_factor": 2.0,
+          "score": 2.795
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1956.8,
+        "buy_time": "2026-08-06 13:34:10",
+        "iteration": 6,
+        "score_info": {
+          "last": 1956.8,
+          "mom_30m_pct": 0.189,
+          "intraday_pct": 0.923,
+          "rsi": 55.8,
+          "vol_factor": 0.74,
+          "score": 0.299
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 3,
+        "buy_price": 1477.7,
+        "buy_time": "2026-08-06 13:34:10",
+        "iteration": 6,
+        "score_info": {
+          "last": 1477.7,
+          "mom_30m_pct": -0.02,
+          "intraday_pct": 1.63,
+          "rsi": 53.9,
+          "vol_factor": 0.72,
+          "score": 0.174
         }
       }
     ],
@@ -405,6 +429,81 @@
           "rsi": 60.8,
           "vol_factor": 0.89,
           "score": -0.235
+        }
+      },
+      {
+        "time": "2026-08-06 13:34:10",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1021.2,
+        "buy_price": 1031.6,
+        "pnl": -20.8,
+        "pnl_pct": -1.01,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-06 13:34:10",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1021.2,
+        "buy_price": 1032.2,
+        "pnl": -33.0,
+        "pnl_pct": -1.07,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-06 13:34:10",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1077.7,
+        "cost": 2155.4,
+        "score": {
+          "last": 1077.7,
+          "mom_30m_pct": 1.708,
+          "intraday_pct": 2.443,
+          "rsi": 88.9,
+          "vol_factor": 2.0,
+          "score": 2.795
+        }
+      },
+      {
+        "time": "2026-08-06 13:34:10",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1956.8,
+        "cost": 1956.8,
+        "score": {
+          "last": 1956.8,
+          "mom_30m_pct": 0.189,
+          "intraday_pct": 0.923,
+          "rsi": 55.8,
+          "vol_factor": 0.74,
+          "score": 0.299
+        }
+      },
+      {
+        "time": "2026-08-06 13:34:10",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 3,
+        "price": 1477.7,
+        "cost": 4433.1,
+        "score": {
+          "last": 1477.7,
+          "mom_30m_pct": -0.02,
+          "intraday_pct": 1.63,
+          "rsi": 53.9,
+          "vol_factor": 0.72,
+          "score": 0.174
         }
       }
     ],
