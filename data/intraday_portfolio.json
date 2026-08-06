@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-06",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,10 +102,28 @@
         "invested_today_after": 85179.8,
         "realized_pnl_today_after": -138.0,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-06 16:39:49",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 97884.8,
+        "realized_pnl_today_after": -138.0,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-06 17:06:22",
+        "n_bought": 1,
+        "n_sold": 1,
+        "invested_today_after": 99052.4,
+        "realized_pnl_today_after": -185.7,
+        "open_positions_after": 23
       }
     ],
-    "invested_today": 85179.79956054688,
-    "realized_pnl_today": -137.9999877929688,
+    "invested_today": 99052.39953613281,
+    "realized_pnl_today": -185.70013427734352,
     "open_positions": [
       {
         "symbol": "BRITANNIA",
@@ -333,21 +351,6 @@
         }
       },
       {
-        "symbol": "SBIN",
-        "qty": 3,
-        "buy_price": 1085.6,
-        "buy_time": "2026-08-06 15:47:06",
-        "iteration": 10,
-        "score_info": {
-          "last": 1085.6,
-          "mom_30m_pct": 0.018,
-          "intraday_pct": 3.037,
-          "rsi": 73.0,
-          "vol_factor": 1.73,
-          "score": 1.667
-        }
-      },
-      {
         "symbol": "ASIANPAINT",
         "qty": 1,
         "buy_price": 2755.0,
@@ -405,6 +408,66 @@
           "rsi": 72.5,
           "vol_factor": 2.0,
           "score": 1.462
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1325.0,
+        "buy_time": "2026-08-06 16:39:49",
+        "iteration": 12,
+        "score_info": {
+          "last": 1325.0,
+          "mom_30m_pct": 0.204,
+          "intraday_pct": 3.516,
+          "rsi": 65.1,
+          "vol_factor": 2.0,
+          "score": 2.361
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "buy_price": 2755.0,
+        "buy_time": "2026-08-06 16:39:49",
+        "iteration": 12,
+        "score_info": {
+          "last": 2755.0,
+          "mom_30m_pct": 0.372,
+          "intraday_pct": -0.073,
+          "rsi": 64.4,
+          "vol_factor": 2.0,
+          "score": 1.536
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3220.0,
+        "buy_time": "2026-08-06 16:39:49",
+        "iteration": 12,
+        "score_info": {
+          "last": 3220.0,
+          "mom_30m_pct": 0.277,
+          "intraday_pct": 0.156,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 1.462
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 1,
+        "buy_price": 1167.6,
+        "buy_time": "2026-08-06 17:06:22",
+        "iteration": 13,
+        "score_info": {
+          "last": 1167.6,
+          "mom_30m_pct": 0.223,
+          "intraday_pct": -0.571,
+          "rsi": 57.0,
+          "vol_factor": 1.49,
+          "score": 0.651
         }
       }
     ],
@@ -892,6 +955,86 @@
           "rsi": 72.5,
           "vol_factor": 2.0,
           "score": 1.462
+        }
+      },
+      {
+        "time": "2026-08-06 16:39:49",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1325.0,
+        "cost": 3975.0,
+        "score": {
+          "last": 1325.0,
+          "mom_30m_pct": 0.204,
+          "intraday_pct": 3.516,
+          "rsi": 65.1,
+          "vol_factor": 2.0,
+          "score": 2.361
+        }
+      },
+      {
+        "time": "2026-08-06 16:39:49",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "price": 2755.0,
+        "cost": 5510.0,
+        "score": {
+          "last": 2755.0,
+          "mom_30m_pct": 0.372,
+          "intraday_pct": -0.073,
+          "rsi": 64.4,
+          "vol_factor": 2.0,
+          "score": 1.536
+        }
+      },
+      {
+        "time": "2026-08-06 16:39:49",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3220.0,
+        "cost": 3220.0,
+        "score": {
+          "last": 3220.0,
+          "mom_30m_pct": 0.277,
+          "intraday_pct": 0.156,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 1.462
+        }
+      },
+      {
+        "time": "2026-08-06 17:06:22",
+        "iteration": 13,
+        "action": "SELL",
+        "symbol": "SBIN",
+        "qty": 3,
+        "price": 1069.7,
+        "buy_price": 1085.6,
+        "pnl": -47.7,
+        "pnl_pct": -1.46,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-06 17:06:22",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 1,
+        "price": 1167.6,
+        "cost": 1167.6,
+        "score": {
+          "last": 1167.6,
+          "mom_30m_pct": 0.223,
+          "intraday_pct": -0.571,
+          "rsi": 57.0,
+          "vol_factor": 1.49,
+          "score": 0.651
         }
       }
     ],
