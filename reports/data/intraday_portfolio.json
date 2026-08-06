@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-06",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,10 +75,19 @@
         "invested_today_after": 61003.2,
         "realized_pnl_today_after": -35.2,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-06 15:16:08",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 70654.2,
+        "realized_pnl_today_after": -138.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 61003.19982910156,
-    "realized_pnl_today": -35.199938964843795,
+    "invested_today": 70654.19958496094,
+    "realized_pnl_today": -137.9999877929688,
     "open_positions": [
       {
         "symbol": "BRITANNIA",
@@ -276,33 +285,33 @@
         }
       },
       {
-        "symbol": "SBIN",
+        "symbol": "RELIANCE",
         "qty": 2,
-        "buy_price": 1087.0,
-        "buy_time": "2026-08-06 14:51:26",
-        "iteration": 8,
+        "buy_price": 1322.4,
+        "buy_time": "2026-08-06 15:16:08",
+        "iteration": 9,
         "score_info": {
-          "last": 1087.0,
-          "mom_30m_pct": 0.425,
-          "intraday_pct": 3.298,
-          "rsi": 68.6,
-          "vol_factor": 0.27,
-          "score": 0.899
+          "last": 1322.4,
+          "mom_30m_pct": 0.136,
+          "intraday_pct": 2.919,
+          "rsi": 73.3,
+          "vol_factor": 1.0,
+          "score": 1.08
         }
       },
       {
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "buy_price": 5429.5,
-        "buy_time": "2026-08-06 14:51:26",
-        "iteration": 8,
+        "symbol": "DRREDDY",
+        "qty": 6,
+        "buy_price": 1167.7,
+        "buy_time": "2026-08-06 15:16:08",
+        "iteration": 9,
         "score_info": {
-          "last": 5429.5,
-          "mom_30m_pct": 0.111,
-          "intraday_pct": -0.156,
-          "rsi": 63.9,
-          "vol_factor": 1.52,
-          "score": 0.635
+          "last": 1167.7,
+          "mom_30m_pct": 0.223,
+          "intraday_pct": -0.68,
+          "rsi": 58.0,
+          "vol_factor": 1.0,
+          "score": 0.131
         }
       }
     ],
@@ -647,6 +656,64 @@
           "rsi": 63.9,
           "vol_factor": 1.52,
           "score": 0.635
+        }
+      },
+      {
+        "time": "2026-08-06 15:16:08",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1063.1,
+        "buy_price": 1087.0,
+        "pnl": -47.8,
+        "pnl_pct": -2.2,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-06 15:16:08",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5374.5,
+        "buy_price": 5429.5,
+        "pnl": -55.0,
+        "pnl_pct": -1.01,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-06 15:16:08",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1322.4,
+        "cost": 2644.8,
+        "score": {
+          "last": 1322.4,
+          "mom_30m_pct": 0.136,
+          "intraday_pct": 2.919,
+          "rsi": 73.3,
+          "vol_factor": 1.0,
+          "score": 1.08
+        }
+      },
+      {
+        "time": "2026-08-06 15:16:08",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 6,
+        "price": 1167.7,
+        "cost": 7006.2,
+        "score": {
+          "last": 1167.7,
+          "mom_30m_pct": 0.223,
+          "intraday_pct": -0.68,
+          "rsi": 58.0,
+          "vol_factor": 1.0,
+          "score": 0.131
         }
       }
     ],
