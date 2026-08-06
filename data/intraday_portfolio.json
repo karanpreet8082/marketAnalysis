@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-06",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 21008.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-08-06 12:55:51",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 28693.8,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 9
       }
     ],
-    "invested_today": 28693.7998046875,
+    "invested_today": 21008.599853515625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -132,51 +123,6 @@
           "rsi": 58.3,
           "vol_factor": 0.92,
           "score": 0.475
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "buy_price": 1320.1,
-        "buy_time": "2026-08-06 12:55:51",
-        "iteration": 4,
-        "score_info": {
-          "last": 1320.1,
-          "mom_30m_pct": 0.281,
-          "intraday_pct": 2.82,
-          "rsi": 62.5,
-          "vol_factor": 1.0,
-          "score": 1.267
-        }
-      },
-      {
-        "symbol": "HINDUNILVR",
-        "qty": 1,
-        "buy_price": 2091.2,
-        "buy_time": "2026-08-06 12:55:51",
-        "iteration": 4,
-        "score_info": {
-          "last": 2091.2,
-          "mom_30m_pct": 0.105,
-          "intraday_pct": 0.684,
-          "rsi": 59.5,
-          "vol_factor": 1.0,
-          "score": 0.363
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 2,
-        "buy_price": 1476.9,
-        "buy_time": "2026-08-06 12:55:51",
-        "iteration": 4,
-        "score_info": {
-          "last": 1476.9,
-          "mom_30m_pct": -0.095,
-          "intraday_pct": 1.645,
-          "rsi": 42.4,
-          "vol_factor": 1.0,
-          "score": 0.351
         }
       }
     ],
@@ -281,57 +227,6 @@
           "rsi": 58.3,
           "vol_factor": 0.92,
           "score": 0.475
-        }
-      },
-      {
-        "time": "2026-08-06 12:55:51",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "price": 1320.1,
-        "cost": 2640.2,
-        "score": {
-          "last": 1320.1,
-          "mom_30m_pct": 0.281,
-          "intraday_pct": 2.82,
-          "rsi": 62.5,
-          "vol_factor": 1.0,
-          "score": 1.267
-        }
-      },
-      {
-        "time": "2026-08-06 12:55:51",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HINDUNILVR",
-        "qty": 1,
-        "price": 2091.2,
-        "cost": 2091.2,
-        "score": {
-          "last": 2091.2,
-          "mom_30m_pct": 0.105,
-          "intraday_pct": 0.684,
-          "rsi": 59.5,
-          "vol_factor": 1.0,
-          "score": 0.363
-        }
-      },
-      {
-        "time": "2026-08-06 12:55:51",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "CIPLA",
-        "qty": 2,
-        "price": 1476.9,
-        "cost": 2953.8,
-        "score": {
-          "last": 1476.9,
-          "mom_30m_pct": -0.095,
-          "intraday_pct": 1.645,
-          "rsi": 42.4,
-          "vol_factor": 1.0,
-          "score": 0.351
         }
       }
     ],
