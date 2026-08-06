@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-06",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,10 +66,19 @@
         "invested_today_after": 53399.7,
         "realized_pnl_today_after": -53.8,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-06 14:51:26",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 61003.2,
+        "realized_pnl_today_after": -35.2,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 53399.69982910156,
-    "realized_pnl_today": -53.799938964843705,
+    "invested_today": 61003.19982910156,
+    "realized_pnl_today": -35.199938964843795,
     "open_positions": [
       {
         "symbol": "BRITANNIA",
@@ -207,21 +216,6 @@
         }
       },
       {
-        "symbol": "SBIN",
-        "qty": 2,
-        "buy_price": 1077.7,
-        "buy_time": "2026-08-06 13:34:10",
-        "iteration": 6,
-        "score_info": {
-          "last": 1077.7,
-          "mom_30m_pct": 1.708,
-          "intraday_pct": 2.443,
-          "rsi": 88.9,
-          "vol_factor": 2.0,
-          "score": 2.795
-        }
-      },
-      {
         "symbol": "SUNPHARMA",
         "qty": 1,
         "buy_price": 1956.8,
@@ -279,6 +273,36 @@
           "rsi": 39.7,
           "vol_factor": 2.0,
           "score": 0.823
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 1087.0,
+        "buy_time": "2026-08-06 14:51:26",
+        "iteration": 8,
+        "score_info": {
+          "last": 1087.0,
+          "mom_30m_pct": 0.425,
+          "intraday_pct": 3.298,
+          "rsi": 68.6,
+          "vol_factor": 0.27,
+          "score": 0.899
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5429.5,
+        "buy_time": "2026-08-06 14:51:26",
+        "iteration": 8,
+        "score_info": {
+          "last": 5429.5,
+          "mom_30m_pct": 0.111,
+          "intraday_pct": -0.156,
+          "rsi": 63.9,
+          "vol_factor": 1.52,
+          "score": 0.635
         }
       }
     ],
@@ -577,6 +601,52 @@
           "rsi": 39.7,
           "vol_factor": 2.0,
           "score": 0.823
+        }
+      },
+      {
+        "time": "2026-08-06 14:51:26",
+        "iteration": 8,
+        "action": "SELL",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1087.0,
+        "buy_price": 1077.7,
+        "pnl": 18.6,
+        "pnl_pct": 0.86,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-06 14:51:26",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1087.0,
+        "cost": 2174.0,
+        "score": {
+          "last": 1087.0,
+          "mom_30m_pct": 0.425,
+          "intraday_pct": 3.298,
+          "rsi": 68.6,
+          "vol_factor": 0.27,
+          "score": 0.899
+        }
+      },
+      {
+        "time": "2026-08-06 14:51:26",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5429.5,
+        "cost": 5429.5,
+        "score": {
+          "last": 5429.5,
+          "mom_30m_pct": 0.111,
+          "intraday_pct": -0.156,
+          "rsi": 63.9,
+          "vol_factor": 1.52,
+          "score": 0.635
         }
       }
     ],
