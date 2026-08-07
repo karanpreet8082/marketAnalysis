@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-07",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 31817.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-07 11:44:04",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 40217.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 31817.599487304688,
+    "invested_today": 40217.299377441406,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -177,6 +186,36 @@
           "rsi": 31.5,
           "vol_factor": 1.0,
           "score": 1.076
+        }
+      },
+      {
+        "symbol": "TITAN",
+        "qty": 1,
+        "buy_price": 4981.5,
+        "buy_time": "2026-08-07 11:44:04",
+        "iteration": 5,
+        "score_info": {
+          "last": 4981.5,
+          "mom_30m_pct": 0.008,
+          "intraday_pct": 0.084,
+          "rsi": 50.0,
+          "vol_factor": 1.8,
+          "score": 0.833
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 9,
+        "buy_price": 379.8,
+        "buy_time": "2026-08-07 11:44:04",
+        "iteration": 5,
+        "score_info": {
+          "last": 379.8,
+          "mom_30m_pct": 0.132,
+          "intraday_pct": 0.596,
+          "rsi": 65.9,
+          "vol_factor": 1.44,
+          "score": 0.812
         }
       }
     ],
@@ -332,6 +371,40 @@
           "rsi": 31.5,
           "vol_factor": 1.0,
           "score": 1.076
+        }
+      },
+      {
+        "time": "2026-08-07 11:44:04",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TITAN",
+        "qty": 1,
+        "price": 4981.5,
+        "cost": 4981.5,
+        "score": {
+          "last": 4981.5,
+          "mom_30m_pct": 0.008,
+          "intraday_pct": 0.084,
+          "rsi": 50.0,
+          "vol_factor": 1.8,
+          "score": 0.833
+        }
+      },
+      {
+        "time": "2026-08-07 11:44:04",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 9,
+        "price": 379.8,
+        "cost": 3418.2,
+        "score": {
+          "last": 379.8,
+          "mom_30m_pct": 0.132,
+          "intraday_pct": 0.596,
+          "rsi": 65.9,
+          "vol_factor": 1.44,
+          "score": 0.812
         }
       }
     ],
