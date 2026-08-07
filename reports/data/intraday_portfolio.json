@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-07",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,10 +84,19 @@
         "invested_today_after": 69226.7,
         "realized_pnl_today_after": -17.1,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 10,
+        "time": "2026-08-07 14:08:24",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 75578.6,
+        "realized_pnl_today_after": 9.7,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 69226.6987915039,
-    "realized_pnl_today": -17.100250244140625,
+    "invested_today": 75578.59869384766,
+    "realized_pnl_today": 9.699700927734284,
     "open_positions": [
       {
         "symbol": "DRREDDY",
@@ -240,21 +249,6 @@
         }
       },
       {
-        "symbol": "GRASIM",
-        "qty": 1,
-        "buy_price": 3267.9,
-        "buy_time": "2026-08-07 13:06:58",
-        "iteration": 7,
-        "score_info": {
-          "last": 3267.9,
-          "mom_30m_pct": 1.173,
-          "intraday_pct": 1.94,
-          "rsi": 97.6,
-          "vol_factor": 0.2,
-          "score": 0.045
-        }
-      },
-      {
         "symbol": "JSWSTEEL",
         "qty": 4,
         "buy_price": 1295.6,
@@ -312,6 +306,36 @@
           "rsi": 66.0,
           "vol_factor": 2.0,
           "score": 1.519
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 3,
+        "buy_price": 1113.2,
+        "buy_time": "2026-08-07 14:08:24",
+        "iteration": 10,
+        "score_info": {
+          "last": 1113.2,
+          "mom_30m_pct": 2.533,
+          "intraday_pct": 2.931,
+          "rsi": 87.8,
+          "vol_factor": 1.01,
+          "score": 3.191
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3012.3,
+        "buy_time": "2026-08-07 14:08:24",
+        "iteration": 10,
+        "score_info": {
+          "last": 3012.3,
+          "mom_30m_pct": 0.766,
+          "intraday_pct": -2.518,
+          "rsi": 43.3,
+          "vol_factor": 1.88,
+          "score": 1.277
         }
       }
     ],
@@ -743,6 +767,52 @@
           "rsi": 66.0,
           "vol_factor": 2.0,
           "score": 1.519
+        }
+      },
+      {
+        "time": "2026-08-07 14:08:24",
+        "iteration": 10,
+        "action": "SELL",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3294.7,
+        "buy_price": 3267.9,
+        "pnl": 26.8,
+        "pnl_pct": 0.82,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-07 14:08:24",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 3,
+        "price": 1113.2,
+        "cost": 3339.6,
+        "score": {
+          "last": 1113.2,
+          "mom_30m_pct": 2.533,
+          "intraday_pct": 2.931,
+          "rsi": 87.8,
+          "vol_factor": 1.01,
+          "score": 3.191
+        }
+      },
+      {
+        "time": "2026-08-07 14:08:24",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3012.3,
+        "cost": 3012.3,
+        "score": {
+          "last": 3012.3,
+          "mom_30m_pct": 0.766,
+          "intraday_pct": -2.518,
+          "rsi": 43.3,
+          "vol_factor": 1.88,
+          "score": 1.277
         }
       }
     ],
