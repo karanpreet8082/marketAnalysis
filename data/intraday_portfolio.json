@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-07",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,10 +102,19 @@
         "invested_today_after": 87742.8,
         "realized_pnl_today_after": 9.7,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-07 15:15:29",
+        "n_bought": 3,
+        "n_sold": 4,
+        "invested_today_after": 99707.9,
+        "realized_pnl_today_after": -6.6,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 87742.79876708984,
-    "realized_pnl_today": 9.699700927734284,
+    "invested_today": 99707.89862060547,
+    "realized_pnl_today": -6.600274658203489,
     "open_positions": [
       {
         "symbol": "DRREDDY",
@@ -228,21 +237,6 @@
         }
       },
       {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 1008.6,
-        "buy_time": "2026-08-07 13:06:58",
-        "iteration": 7,
-        "score_info": {
-          "last": 1008.6,
-          "mom_30m_pct": 0.219,
-          "intraday_pct": -1.763,
-          "rsi": 68.8,
-          "vol_factor": 2.0,
-          "score": 0.799
-        }
-      },
-      {
         "symbol": "HINDUNILVR",
         "qty": 1,
         "buy_price": 2094.4,
@@ -288,21 +282,6 @@
         }
       },
       {
-        "symbol": "SBIN",
-        "qty": 2,
-        "buy_price": 1112.1,
-        "buy_time": "2026-08-07 13:49:19",
-        "iteration": 9,
-        "score_info": {
-          "last": 1112.1,
-          "mom_30m_pct": 2.413,
-          "intraday_pct": 2.972,
-          "rsi": 86.7,
-          "vol_factor": 2.0,
-          "score": 4.011
-        }
-      },
-      {
         "symbol": "TATAPOWER",
         "qty": 10,
         "buy_price": 379.75,
@@ -318,21 +297,6 @@
         }
       },
       {
-        "symbol": "SBIN",
-        "qty": 3,
-        "buy_price": 1113.2,
-        "buy_time": "2026-08-07 14:08:24",
-        "iteration": 10,
-        "score_info": {
-          "last": 1113.2,
-          "mom_30m_pct": 2.533,
-          "intraday_pct": 2.931,
-          "rsi": 87.8,
-          "vol_factor": 1.01,
-          "score": 3.191
-        }
-      },
-      {
         "symbol": "TRENT",
         "qty": 1,
         "buy_price": 3012.3,
@@ -345,21 +309,6 @@
           "rsi": 43.3,
           "vol_factor": 1.88,
           "score": 1.277
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "buy_price": 1040.4,
-        "buy_time": "2026-08-07 14:46:42",
-        "iteration": 11,
-        "score_info": {
-          "last": 1040.4,
-          "mom_30m_pct": 0.473,
-          "intraday_pct": 1.815,
-          "rsi": 57.1,
-          "vol_factor": 1.68,
-          "score": 1.936
         }
       },
       {
@@ -390,6 +339,51 @@
           "rsi": 46.2,
           "vol_factor": 0.48,
           "score": 0.523
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "buy_price": 1053.5,
+        "buy_time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "score_info": {
+          "last": 1053.5,
+          "mom_30m_pct": 0.722,
+          "intraday_pct": 2.78,
+          "rsi": 71.0,
+          "vol_factor": 1.0,
+          "score": 1.917
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "buy_price": 1298.2,
+        "buy_time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "score_info": {
+          "last": 1298.2,
+          "mom_30m_pct": 0.597,
+          "intraday_pct": -0.704,
+          "rsi": 68.3,
+          "vol_factor": 2.0,
+          "score": 1.684
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 2,
+        "buy_price": 2455.0,
+        "buy_time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "score_info": {
+          "last": 2455.0,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 3.412,
+          "rsi": 65.5,
+          "vol_factor": 1.0,
+          "score": 1.532
         }
       }
     ],
@@ -918,6 +912,105 @@
           "rsi": 46.2,
           "vol_factor": 0.48,
           "score": 0.523
+        }
+      },
+      {
+        "time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1020.2,
+        "buy_price": 1008.6,
+        "pnl": 23.2,
+        "pnl_pct": 1.15,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1097.0,
+        "buy_price": 1112.1,
+        "pnl": -30.2,
+        "pnl_pct": -1.36,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "SBIN",
+        "qty": 3,
+        "price": 1097.0,
+        "buy_price": 1113.2,
+        "pnl": -48.6,
+        "pnl_pct": -1.46,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 1053.5,
+        "buy_price": 1040.4,
+        "pnl": 39.3,
+        "pnl_pct": 1.26,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 1053.5,
+        "cost": 3160.5,
+        "score": {
+          "last": 1053.5,
+          "mom_30m_pct": 0.722,
+          "intraday_pct": 2.78,
+          "rsi": 71.0,
+          "vol_factor": 1.0,
+          "score": 1.917
+        }
+      },
+      {
+        "time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "price": 1298.2,
+        "cost": 3894.6,
+        "score": {
+          "last": 1298.2,
+          "mom_30m_pct": 0.597,
+          "intraday_pct": -0.704,
+          "rsi": 68.3,
+          "vol_factor": 2.0,
+          "score": 1.684
+        }
+      },
+      {
+        "time": "2026-08-07 15:15:29",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 2,
+        "price": 2455.0,
+        "cost": 4910.0,
+        "score": {
+          "last": 2455.0,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 3.412,
+          "rsi": 65.5,
+          "vol_factor": 1.0,
+          "score": 1.532
         }
       }
     ],
