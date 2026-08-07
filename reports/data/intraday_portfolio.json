@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-07",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,10 +75,19 @@
         "invested_today_after": 63205.0,
         "realized_pnl_today_after": -135.7,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-07 13:49:19",
+        "n_bought": 2,
+        "n_sold": 3,
+        "invested_today_after": 69226.7,
+        "realized_pnl_today_after": -17.1,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 63204.99884033203,
-    "realized_pnl_today": -135.70010375976562,
+    "invested_today": 69226.6987915039,
+    "realized_pnl_today": -17.100250244140625,
     "open_positions": [
       {
         "symbol": "DRREDDY",
@@ -93,21 +102,6 @@
           "rsi": 42.1,
           "vol_factor": 2.0,
           "score": 1.389
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 2,
-        "buy_price": 1091.3,
-        "buy_time": "2026-08-07 11:12:44",
-        "iteration": 2,
-        "score_info": {
-          "last": 1091.3,
-          "mom_30m_pct": 0.618,
-          "intraday_pct": 3.05,
-          "rsi": 56.1,
-          "vol_factor": 0.37,
-          "score": 1.208
         }
       },
       {
@@ -126,21 +120,6 @@
         }
       },
       {
-        "symbol": "SBIN",
-        "qty": 2,
-        "buy_price": 1093.0,
-        "buy_time": "2026-08-07 11:24:52",
-        "iteration": 3,
-        "score_info": {
-          "last": 1093.0,
-          "mom_30m_pct": 0.57,
-          "intraday_pct": 3.337,
-          "rsi": 62.9,
-          "vol_factor": 0.89,
-          "score": 1.751
-        }
-      },
-      {
         "symbol": "NTPC",
         "qty": 18,
         "buy_price": 344.8,
@@ -153,21 +132,6 @@
           "rsi": 46.6,
           "vol_factor": 2.0,
           "score": 1.0
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 2,
-        "buy_price": 1092.7,
-        "buy_time": "2026-08-07 11:30:23",
-        "iteration": 4,
-        "score_info": {
-          "last": 1092.7,
-          "mom_30m_pct": 0.58,
-          "intraday_pct": 3.368,
-          "rsi": 68.3,
-          "vol_factor": 1.0,
-          "score": 1.88
         }
       },
       {
@@ -318,6 +282,36 @@
           "rsi": 52.1,
           "vol_factor": 0.4,
           "score": 0.086
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 1112.1,
+        "buy_time": "2026-08-07 13:49:19",
+        "iteration": 9,
+        "score_info": {
+          "last": 1112.1,
+          "mom_30m_pct": 2.413,
+          "intraday_pct": 2.972,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.011
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 10,
+        "buy_price": 379.75,
+        "buy_time": "2026-08-07 13:49:19",
+        "iteration": 9,
+        "score_info": {
+          "last": 379.75,
+          "mom_30m_pct": 0.251,
+          "intraday_pct": 0.476,
+          "rsi": 66.0,
+          "vol_factor": 2.0,
+          "score": 1.519
         }
       }
     ],
@@ -679,6 +673,76 @@
           "rsi": 52.1,
           "vol_factor": 0.4,
           "score": 0.086
+        }
+      },
+      {
+        "time": "2026-08-07 13:49:19",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1112.1,
+        "buy_price": 1091.3,
+        "pnl": 41.6,
+        "pnl_pct": 1.91,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-07 13:49:19",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1112.1,
+        "buy_price": 1093.0,
+        "pnl": 38.2,
+        "pnl_pct": 1.75,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-07 13:49:19",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1112.1,
+        "buy_price": 1092.7,
+        "pnl": 38.8,
+        "pnl_pct": 1.78,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-07 13:49:19",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1112.1,
+        "cost": 2224.2,
+        "score": {
+          "last": 1112.1,
+          "mom_30m_pct": 2.413,
+          "intraday_pct": 2.972,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.011
+        }
+      },
+      {
+        "time": "2026-08-07 13:49:19",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 10,
+        "price": 379.75,
+        "cost": 3797.5,
+        "score": {
+          "last": 379.75,
+          "mom_30m_pct": 0.251,
+          "intraday_pct": 0.476,
+          "rsi": 66.0,
+          "vol_factor": 2.0,
+          "score": 1.519
         }
       }
     ],
