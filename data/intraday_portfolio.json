@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-07",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,26 +57,20 @@
         "invested_today_after": 48207.2,
         "realized_pnl_today_after": -66.0,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-07 13:06:58",
+        "n_bought": 3,
+        "n_sold": 2,
+        "invested_today_after": 55586.7,
+        "realized_pnl_today_after": -135.7,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 48207.199279785156,
-    "realized_pnl_today": -66.0,
+    "invested_today": 55586.69903564453,
+    "realized_pnl_today": -135.70010375976562,
     "open_positions": [
-      {
-        "symbol": "BPCL",
-        "qty": 8,
-        "buy_price": 323.0,
-        "buy_time": "2026-08-07 10:54:22",
-        "iteration": 1,
-        "score_info": {
-          "last": 323.0,
-          "mom_30m_pct": 0.67,
-          "intraday_pct": -0.077,
-          "rsi": 64.6,
-          "vol_factor": 2.0,
-          "score": 1.982
-        }
-      },
       {
         "symbol": "DRREDDY",
         "qty": 4,
@@ -120,21 +114,6 @@
           "rsi": 50.0,
           "vol_factor": 2.0,
           "score": 1.04
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 9,
-        "buy_price": 323.0,
-        "buy_time": "2026-08-07 11:12:44",
-        "iteration": 2,
-        "score_info": {
-          "last": 323.0,
-          "mom_30m_pct": 0.56,
-          "intraday_pct": -0.401,
-          "rsi": 62.7,
-          "vol_factor": 0.8,
-          "score": 0.524
         }
       },
       {
@@ -255,6 +234,51 @@
           "rsi": 37.3,
           "vol_factor": 0.46,
           "score": -0.317
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "buy_price": 1008.6,
+        "buy_time": "2026-08-07 13:06:58",
+        "iteration": 7,
+        "score_info": {
+          "last": 1008.6,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": -1.763,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 0.799
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2094.4,
+        "buy_time": "2026-08-07 13:06:58",
+        "iteration": 7,
+        "score_info": {
+          "last": 2094.4,
+          "mom_30m_pct": 0.167,
+          "intraday_pct": 0.451,
+          "rsi": 53.4,
+          "vol_factor": 0.86,
+          "score": 0.248
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3267.9,
+        "buy_time": "2026-08-07 13:06:58",
+        "iteration": 7,
+        "score_info": {
+          "last": 3267.9,
+          "mom_30m_pct": 1.173,
+          "intraday_pct": 1.94,
+          "rsi": 97.6,
+          "vol_factor": 0.2,
+          "score": 0.045
         }
       }
     ],
@@ -507,6 +531,81 @@
           "rsi": 37.3,
           "vol_factor": 0.46,
           "score": -0.317
+        }
+      },
+      {
+        "time": "2026-08-07 13:06:58",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "BPCL",
+        "qty": 8,
+        "price": 318.9,
+        "buy_price": 323.0,
+        "pnl": -32.8,
+        "pnl_pct": -1.27,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-07 13:06:58",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 318.9,
+        "buy_price": 323.0,
+        "pnl": -36.9,
+        "pnl_pct": -1.27,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-07 13:06:58",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1008.6,
+        "cost": 2017.2,
+        "score": {
+          "last": 1008.6,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": -1.763,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 0.799
+        }
+      },
+      {
+        "time": "2026-08-07 13:06:58",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2094.4,
+        "cost": 2094.4,
+        "score": {
+          "last": 2094.4,
+          "mom_30m_pct": 0.167,
+          "intraday_pct": 0.451,
+          "rsi": 53.4,
+          "vol_factor": 0.86,
+          "score": 0.248
+        }
+      },
+      {
+        "time": "2026-08-07 13:06:58",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3267.9,
+        "cost": 3267.9,
+        "score": {
+          "last": 3267.9,
+          "mom_30m_pct": 1.173,
+          "intraday_pct": 1.94,
+          "rsi": 97.6,
+          "vol_factor": 0.2,
+          "score": 0.045
         }
       }
     ],
