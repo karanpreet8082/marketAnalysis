@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-07",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-07 10:54:22",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7248.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-07 11:12:44",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 15648.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 15648.7998046875,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "BPCL",
+        "qty": 8,
+        "buy_price": 323.0,
+        "buy_time": "2026-08-07 10:54:22",
+        "iteration": 1,
+        "score_info": {
+          "last": 323.0,
+          "mom_30m_pct": 0.67,
+          "intraday_pct": -0.077,
+          "rsi": 64.6,
+          "vol_factor": 2.0,
+          "score": 1.982
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "buy_price": 1166.2,
+        "buy_time": "2026-08-07 10:54:22",
+        "iteration": 1,
+        "score_info": {
+          "last": 1166.2,
+          "mom_30m_pct": 0.249,
+          "intraday_pct": 0.051,
+          "rsi": 42.1,
+          "vol_factor": 2.0,
+          "score": 1.389
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 1091.3,
+        "buy_time": "2026-08-07 11:12:44",
+        "iteration": 2,
+        "score_info": {
+          "last": 1091.3,
+          "mom_30m_pct": 0.618,
+          "intraday_pct": 3.05,
+          "rsi": 56.1,
+          "vol_factor": 0.37,
+          "score": 1.208
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "buy_price": 413.8,
+        "buy_time": "2026-08-07 11:12:44",
+        "iteration": 2,
+        "score_info": {
+          "last": 413.8,
+          "mom_30m_pct": 0.048,
+          "intraday_pct": -0.109,
+          "rsi": 50.0,
+          "vol_factor": 2.0,
+          "score": 1.04
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 323.0,
+        "buy_time": "2026-08-07 11:12:44",
+        "iteration": 2,
+        "score_info": {
+          "last": 323.0,
+          "mom_30m_pct": 0.56,
+          "intraday_pct": -0.401,
+          "rsi": 62.7,
+          "vol_factor": 0.8,
+          "score": 0.524
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-07 10:54:22",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 8,
+        "price": 323.0,
+        "cost": 2584.0,
+        "score": {
+          "last": 323.0,
+          "mom_30m_pct": 0.67,
+          "intraday_pct": -0.077,
+          "rsi": 64.6,
+          "vol_factor": 2.0,
+          "score": 1.982
+        }
+      },
+      {
+        "time": "2026-08-07 10:54:22",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "price": 1166.2,
+        "cost": 4664.8,
+        "score": {
+          "last": 1166.2,
+          "mom_30m_pct": 0.249,
+          "intraday_pct": 0.051,
+          "rsi": 42.1,
+          "vol_factor": 2.0,
+          "score": 1.389
+        }
+      },
+      {
+        "time": "2026-08-07 11:12:44",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1091.3,
+        "cost": 2182.6,
+        "score": {
+          "last": 1091.3,
+          "mom_30m_pct": 0.618,
+          "intraday_pct": 3.05,
+          "rsi": 56.1,
+          "vol_factor": 0.37,
+          "score": 1.208
+        }
+      },
+      {
+        "time": "2026-08-07 11:12:44",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "price": 413.8,
+        "cost": 3310.4,
+        "score": {
+          "last": 413.8,
+          "mom_30m_pct": 0.048,
+          "intraday_pct": -0.109,
+          "rsi": 50.0,
+          "vol_factor": 2.0,
+          "score": 1.04
+        }
+      },
+      {
+        "time": "2026-08-07 11:12:44",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 323.0,
+        "cost": 2907.0,
+        "score": {
+          "last": 323.0,
+          "mom_30m_pct": 0.56,
+          "intraday_pct": -0.401,
+          "rsi": 62.7,
+          "vol_factor": 0.8,
+          "score": 0.524
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
