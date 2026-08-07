@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-07",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 75578.6,
         "realized_pnl_today_after": 9.7,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-07 14:46:42",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 87742.8,
+        "realized_pnl_today_after": 9.7,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 75578.59869384766,
+    "invested_today": 87742.79876708984,
     "realized_pnl_today": 9.699700927734284,
     "open_positions": [
       {
@@ -336,6 +345,51 @@
           "rsi": 43.3,
           "vol_factor": 1.88,
           "score": 1.277
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "buy_price": 1040.4,
+        "buy_time": "2026-08-07 14:46:42",
+        "iteration": 11,
+        "score_info": {
+          "last": 1040.4,
+          "mom_30m_pct": 0.473,
+          "intraday_pct": 1.815,
+          "rsi": 57.1,
+          "vol_factor": 1.68,
+          "score": 1.936
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3310.5,
+        "buy_time": "2026-08-07 14:46:42",
+        "iteration": 11,
+        "score_info": {
+          "last": 3310.5,
+          "mom_30m_pct": 0.899,
+          "intraday_pct": 3.131,
+          "rsi": 66.1,
+          "vol_factor": 0.42,
+          "score": 1.711
+        }
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "buy_price": 5732.5,
+        "buy_time": "2026-08-07 14:46:42",
+        "iteration": 11,
+        "score_info": {
+          "last": 5732.5,
+          "mom_30m_pct": 0.157,
+          "intraday_pct": 2.696,
+          "rsi": 46.2,
+          "vol_factor": 0.48,
+          "score": 0.523
         }
       }
     ],
@@ -813,6 +867,57 @@
           "rsi": 43.3,
           "vol_factor": 1.88,
           "score": 1.277
+        }
+      },
+      {
+        "time": "2026-08-07 14:46:42",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 1040.4,
+        "cost": 3121.2,
+        "score": {
+          "last": 1040.4,
+          "mom_30m_pct": 0.473,
+          "intraday_pct": 1.815,
+          "rsi": 57.1,
+          "vol_factor": 1.68,
+          "score": 1.936
+        }
+      },
+      {
+        "time": "2026-08-07 14:46:42",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3310.5,
+        "cost": 3310.5,
+        "score": {
+          "last": 3310.5,
+          "mom_30m_pct": 0.899,
+          "intraday_pct": 3.131,
+          "rsi": 66.1,
+          "vol_factor": 0.42,
+          "score": 1.711
+        }
+      },
+      {
+        "time": "2026-08-07 14:46:42",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HEROMOTOCO",
+        "qty": 1,
+        "price": 5732.5,
+        "cost": 5732.5,
+        "score": {
+          "last": 5732.5,
+          "mom_30m_pct": 0.157,
+          "intraday_pct": 2.696,
+          "rsi": 46.2,
+          "vol_factor": 0.48,
+          "score": 0.523
         }
       }
     ],
