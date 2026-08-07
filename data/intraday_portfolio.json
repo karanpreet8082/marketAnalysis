@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-07",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,19 +48,10 @@
         "invested_today_after": 40217.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
-      },
-      {
-        "iteration": 6,
-        "time": "2026-08-07 12:21:17",
-        "n_bought": 3,
-        "n_sold": 1,
-        "invested_today_after": 48207.2,
-        "realized_pnl_today_after": -66.0,
-        "open_positions_after": 13
       }
     ],
-    "invested_today": 48207.199279785156,
-    "realized_pnl_today": -66.0,
+    "invested_today": 40217.299377441406,
+    "realized_pnl_today": 0.0,
     "open_positions": [
       {
         "symbol": "BPCL",
@@ -183,6 +174,21 @@
         }
       },
       {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5591.0,
+        "buy_time": "2026-08-07 11:30:23",
+        "iteration": 4,
+        "score_info": {
+          "last": 5591.0,
+          "mom_30m_pct": 0.107,
+          "intraday_pct": 3.05,
+          "rsi": 31.5,
+          "vol_factor": 1.0,
+          "score": 1.076
+        }
+      },
+      {
         "symbol": "TITAN",
         "qty": 1,
         "buy_price": 4981.5,
@@ -210,51 +216,6 @@
           "rsi": 65.9,
           "vol_factor": 1.44,
           "score": 0.812
-        }
-      },
-      {
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "buy_price": 2719.3,
-        "buy_time": "2026-08-07 12:21:17",
-        "iteration": 6,
-        "score_info": {
-          "last": 2719.3,
-          "mom_30m_pct": 0.195,
-          "intraday_pct": -1.242,
-          "rsi": 59.5,
-          "vol_factor": 0.97,
-          "score": -0.105
-        }
-      },
-      {
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "buy_price": 1347.7,
-        "buy_time": "2026-08-07 12:21:17",
-        "iteration": 6,
-        "score_info": {
-          "last": 1347.7,
-          "mom_30m_pct": 0.052,
-          "intraday_pct": 1.019,
-          "rsi": 41.9,
-          "vol_factor": 0.4,
-          "score": -0.213
-        }
-      },
-      {
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "buy_price": 1287.6,
-        "buy_time": "2026-08-07 12:21:17",
-        "iteration": 6,
-        "score_info": {
-          "last": 1287.6,
-          "mom_30m_pct": 0.008,
-          "intraday_pct": 0.704,
-          "rsi": 37.3,
-          "vol_factor": 0.46,
-          "score": -0.317
         }
       }
     ],
@@ -444,69 +405,6 @@
           "rsi": 65.9,
           "vol_factor": 1.44,
           "score": 0.812
-        }
-      },
-      {
-        "time": "2026-08-07 12:21:17",
-        "iteration": 6,
-        "action": "SELL",
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "price": 5525.0,
-        "buy_price": 5591.0,
-        "pnl": -66.0,
-        "pnl_pct": -1.18,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-07 12:21:17",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "price": 2719.3,
-        "cost": 2719.3,
-        "score": {
-          "last": 2719.3,
-          "mom_30m_pct": 0.195,
-          "intraday_pct": -1.242,
-          "rsi": 59.5,
-          "vol_factor": 0.97,
-          "score": -0.105
-        }
-      },
-      {
-        "time": "2026-08-07 12:21:17",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "price": 1347.7,
-        "cost": 2695.4,
-        "score": {
-          "last": 1347.7,
-          "mom_30m_pct": 0.052,
-          "intraday_pct": 1.019,
-          "rsi": 41.9,
-          "vol_factor": 0.4,
-          "score": -0.213
-        }
-      },
-      {
-        "time": "2026-08-07 12:21:17",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "price": 1287.6,
-        "cost": 2575.2,
-        "score": {
-          "last": 1287.6,
-          "mom_30m_pct": 0.008,
-          "intraday_pct": 0.704,
-          "rsi": 37.3,
-          "vol_factor": 0.46,
-          "score": -0.317
         }
       }
     ],
