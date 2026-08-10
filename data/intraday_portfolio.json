@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-10",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,10 +102,28 @@
         "invested_today_after": 82785.75,
         "realized_pnl_today_after": -63.7,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-10 15:34:53",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99458.75,
+        "realized_pnl_today_after": -63.7,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-10 16:09:33",
+        "n_bought": 0,
+        "n_sold": 1,
+        "invested_today_after": 99458.75,
+        "realized_pnl_today_after": -33.55,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 82785.75018310547,
-    "realized_pnl_today": -63.699951171875455,
+    "invested_today": 99458.75018310547,
+    "realized_pnl_today": -33.54995117187525,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -180,21 +198,6 @@
           "rsi": 74.3,
           "vol_factor": 2.0,
           "score": 1.19
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 9,
-        "buy_price": 390.15,
-        "buy_time": "2026-08-10 11:49:07",
-        "iteration": 5,
-        "score_info": {
-          "last": 390.15,
-          "mom_30m_pct": 0.296,
-          "intraday_pct": 0.103,
-          "rsi": 52.2,
-          "vol_factor": 1.46,
-          "score": 0.931
         }
       },
       {
@@ -360,6 +363,51 @@
           "rsi": 50.5,
           "vol_factor": 2.0,
           "score": 1.54
+        }
+      },
+      {
+        "symbol": "TITAN",
+        "qty": 1,
+        "buy_price": 5100.0,
+        "buy_time": "2026-08-10 15:34:53",
+        "iteration": 12,
+        "score_info": {
+          "last": 5100.0,
+          "mom_30m_pct": 0.592,
+          "intraday_pct": 3.059,
+          "rsi": 64.1,
+          "vol_factor": 1.71,
+          "score": 2.518
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5633.0,
+        "buy_time": "2026-08-10 15:34:53",
+        "iteration": 12,
+        "score_info": {
+          "last": 5633.0,
+          "mom_30m_pct": 0.178,
+          "intraday_pct": 2.103,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 1.898
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 9,
+        "buy_price": 660.0,
+        "buy_time": "2026-08-10 15:34:53",
+        "iteration": 12,
+        "score_info": {
+          "last": 660.0,
+          "mom_30m_pct": 0.015,
+          "intraday_pct": 2.636,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.813
         }
       }
     ],
@@ -739,6 +787,69 @@
           "vol_factor": 2.0,
           "score": 1.54
         }
+      },
+      {
+        "time": "2026-08-10 15:34:53",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TITAN",
+        "qty": 1,
+        "price": 5100.0,
+        "cost": 5100.0,
+        "score": {
+          "last": 5100.0,
+          "mom_30m_pct": 0.592,
+          "intraday_pct": 3.059,
+          "rsi": 64.1,
+          "vol_factor": 1.71,
+          "score": 2.518
+        }
+      },
+      {
+        "time": "2026-08-10 15:34:53",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5633.0,
+        "cost": 5633.0,
+        "score": {
+          "last": 5633.0,
+          "mom_30m_pct": 0.178,
+          "intraday_pct": 2.103,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 1.898
+        }
+      },
+      {
+        "time": "2026-08-10 15:34:53",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 9,
+        "price": 660.0,
+        "cost": 5940.0,
+        "score": {
+          "last": 660.0,
+          "mom_30m_pct": 0.015,
+          "intraday_pct": 2.636,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.813
+        }
+      },
+      {
+        "time": "2026-08-10 16:09:33",
+        "iteration": 13,
+        "action": "SELL",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 393.5,
+        "buy_price": 390.15,
+        "pnl": 30.15,
+        "pnl_pct": 0.86,
+        "reason": "TAKE_PROFIT"
       }
     ],
     "closed": false
