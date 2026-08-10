@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-10",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 27073.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-10 11:49:07",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 36053.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 27073.400451660156,
+    "invested_today": 36053.85025024414,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -132,6 +141,51 @@
           "rsi": 70.4,
           "vol_factor": 0.08,
           "score": 0.698
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2091.7,
+        "buy_time": "2026-08-10 11:49:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 2091.7,
+          "mom_30m_pct": 0.163,
+          "intraday_pct": -0.181,
+          "rsi": 74.3,
+          "vol_factor": 2.0,
+          "score": 1.19
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3377.4,
+        "buy_time": "2026-08-10 11:49:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 3377.4,
+          "mom_30m_pct": 0.056,
+          "intraday_pct": 4.677,
+          "rsi": 57.3,
+          "vol_factor": 0.48,
+          "score": 0.968
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 390.15,
+        "buy_time": "2026-08-10 11:49:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 390.15,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": 0.103,
+          "rsi": 52.2,
+          "vol_factor": 1.46,
+          "score": 0.931
         }
       }
     ],
@@ -236,6 +290,57 @@
           "rsi": 70.4,
           "vol_factor": 0.08,
           "score": 0.698
+        }
+      },
+      {
+        "time": "2026-08-10 11:49:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2091.7,
+        "cost": 2091.7,
+        "score": {
+          "last": 2091.7,
+          "mom_30m_pct": 0.163,
+          "intraday_pct": -0.181,
+          "rsi": 74.3,
+          "vol_factor": 2.0,
+          "score": 1.19
+        }
+      },
+      {
+        "time": "2026-08-10 11:49:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3377.4,
+        "cost": 3377.4,
+        "score": {
+          "last": 3377.4,
+          "mom_30m_pct": 0.056,
+          "intraday_pct": 4.677,
+          "rsi": 57.3,
+          "vol_factor": 0.48,
+          "score": 0.968
+        }
+      },
+      {
+        "time": "2026-08-10 11:49:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 390.15,
+        "cost": 3511.35,
+        "score": {
+          "last": 390.15,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": 0.103,
+          "rsi": 52.2,
+          "vol_factor": 1.46,
+          "score": 0.931
         }
       }
     ],
