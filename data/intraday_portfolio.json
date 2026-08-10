@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-10",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 59829.6,
         "realized_pnl_today_after": -22.6,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-10 14:16:44",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 68863.05,
+        "realized_pnl_today_after": -22.6,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 59829.600158691406,
+    "invested_today": 68863.0502319336,
     "realized_pnl_today": -22.599853515625455,
     "open_positions": [
       {
@@ -273,6 +282,36 @@
           "rsi": 61.3,
           "vol_factor": 1.58,
           "score": 1.396
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "buy_price": 1056.75,
+        "buy_time": "2026-08-10 14:16:44",
+        "iteration": 9,
+        "score_info": {
+          "last": 1056.75,
+          "mom_30m_pct": 0.739,
+          "intraday_pct": 1.993,
+          "rsi": 68.6,
+          "vol_factor": 0.3,
+          "score": 1.003
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "buy_price": 1954.4,
+        "buy_time": "2026-08-10 14:16:44",
+        "iteration": 9,
+        "score_info": {
+          "last": 1954.4,
+          "mom_30m_pct": 0.535,
+          "intraday_pct": 0.82,
+          "rsi": 73.7,
+          "vol_factor": 0.36,
+          "score": 0.406
         }
       }
     ],
@@ -554,6 +593,40 @@
           "rsi": 61.3,
           "vol_factor": 1.58,
           "score": 1.396
+        }
+      },
+      {
+        "time": "2026-08-10 14:16:44",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 1056.75,
+        "cost": 3170.25,
+        "score": {
+          "last": 1056.75,
+          "mom_30m_pct": 0.739,
+          "intraday_pct": 1.993,
+          "rsi": 68.6,
+          "vol_factor": 0.3,
+          "score": 1.003
+        }
+      },
+      {
+        "time": "2026-08-10 14:16:44",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "price": 1954.4,
+        "cost": 5863.2,
+        "score": {
+          "last": 1954.4,
+          "mom_30m_pct": 0.535,
+          "intraday_pct": 0.82,
+          "rsi": 73.7,
+          "vol_factor": 0.36,
+          "score": 0.406
         }
       }
     ],
