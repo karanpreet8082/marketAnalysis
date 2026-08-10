@@ -1,5 +1,59 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-10",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-10 10:40:10",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 4933.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      }
+    ],
+    "invested_today": 4933.60009765625,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "TCS",
+        "qty": 2,
+        "buy_price": 2466.8,
+        "buy_time": "2026-08-10 10:40:10",
+        "iteration": 1,
+        "score_info": {
+          "last": 2466.8,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 1.573,
+          "rsi": 67.1,
+          "vol_factor": 1.0,
+          "score": 0.923
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-10 10:40:10",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 2,
+        "price": 2466.8,
+        "cost": 4933.6,
+        "score": {
+          "last": 2466.8,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 1.573,
+          "rsi": 67.1,
+          "vol_factor": 1.0,
+          "score": 0.923
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
