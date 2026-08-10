@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-10",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,20 +84,26 @@
         "invested_today_after": 68863.05,
         "realized_pnl_today_after": -22.6,
         "open_positions_after": 15
-      },
-      {
-        "iteration": 10,
-        "time": "2026-08-10 14:31:15",
-        "n_bought": 2,
-        "n_sold": 1,
-        "invested_today_after": 74877.75,
-        "realized_pnl_today_after": -63.7,
-        "open_positions_after": 16
       }
     ],
-    "invested_today": 74877.75018310547,
-    "realized_pnl_today": -63.699951171875455,
+    "invested_today": 68863.0502319336,
+    "realized_pnl_today": -22.599853515625455,
     "open_positions": [
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3980.5,
+        "buy_time": "2026-08-10 11:06:13",
+        "iteration": 2,
+        "score_info": {
+          "last": 3980.5,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": 1.125,
+          "rsi": 73.0,
+          "vol_factor": 1.0,
+          "score": 0.841
+        }
+      },
       {
         "symbol": "DLF",
         "qty": 7,
@@ -306,36 +312,6 @@
           "rsi": 73.7,
           "vol_factor": 0.36,
           "score": 0.406
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "buy_price": 1426.8,
-        "buy_time": "2026-08-10 14:31:15",
-        "iteration": 10,
-        "score_info": {
-          "last": 1426.8,
-          "mom_30m_pct": 0.183,
-          "intraday_pct": 0.077,
-          "rsi": 50.8,
-          "vol_factor": 2.0,
-          "score": 1.297
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "buy_price": 1053.7,
-        "buy_time": "2026-08-10 14:31:15",
-        "iteration": 10,
-        "score_info": {
-          "last": 1053.7,
-          "mom_30m_pct": 0.41,
-          "intraday_pct": 1.615,
-          "rsi": 59.5,
-          "vol_factor": 0.18,
-          "score": 0.281
         }
       }
     ],
@@ -651,52 +627,6 @@
           "rsi": 73.7,
           "vol_factor": 0.36,
           "score": 0.406
-        }
-      },
-      {
-        "time": "2026-08-10 14:31:15",
-        "iteration": 10,
-        "action": "SELL",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 3939.4,
-        "buy_price": 3980.5,
-        "pnl": -41.1,
-        "pnl_pct": -1.03,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-10 14:31:15",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "price": 1426.8,
-        "cost": 2853.6,
-        "score": {
-          "last": 1426.8,
-          "mom_30m_pct": 0.183,
-          "intraday_pct": 0.077,
-          "rsi": 50.8,
-          "vol_factor": 2.0,
-          "score": 1.297
-        }
-      },
-      {
-        "time": "2026-08-10 14:31:15",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "price": 1053.7,
-        "cost": 3161.1,
-        "score": {
-          "last": 1053.7,
-          "mom_30m_pct": 0.41,
-          "intraday_pct": 1.615,
-          "rsi": 59.5,
-          "vol_factor": 0.18,
-          "score": 0.281
         }
       }
     ],
