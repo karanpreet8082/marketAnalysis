@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-10",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 42067.65,
         "realized_pnl_today_after": -51.4,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-10 13:28:04",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 50608.35,
+        "realized_pnl_today_after": -22.6,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 42067.65005493164,
-    "realized_pnl_today": -51.399804687500364,
+    "invested_today": 50608.350006103516,
+    "realized_pnl_today": -22.599853515625455,
     "open_positions": [
       {
         "symbol": "SIEMENS",
@@ -153,21 +162,6 @@
         }
       },
       {
-        "symbol": "GRASIM",
-        "qty": 1,
-        "buy_price": 3377.4,
-        "buy_time": "2026-08-10 11:49:07",
-        "iteration": 5,
-        "score_info": {
-          "last": 3377.4,
-          "mom_30m_pct": 0.056,
-          "intraday_pct": 4.677,
-          "rsi": 57.3,
-          "vol_factor": 0.48,
-          "score": 0.968
-        }
-      },
-      {
         "symbol": "KOTAKBANK",
         "qty": 9,
         "buy_price": 390.15,
@@ -195,6 +189,36 @@
           "rsi": 62.9,
           "vol_factor": 1.41,
           "score": 0.873
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 9,
+        "buy_price": 659.5,
+        "buy_time": "2026-08-10 13:28:04",
+        "iteration": 7,
+        "score_info": {
+          "last": 659.5,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.979,
+          "rsi": 48.5,
+          "vol_factor": 1.37,
+          "score": 1.303
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1302.6,
+        "buy_time": "2026-08-10 13:28:04",
+        "iteration": 7,
+        "score_info": {
+          "last": 1302.6,
+          "mom_30m_pct": -0.038,
+          "intraday_pct": 0.385,
+          "rsi": 41.2,
+          "vol_factor": 2.0,
+          "score": 1.058
         }
       }
     ],
@@ -379,6 +403,52 @@
           "rsi": 62.9,
           "vol_factor": 1.41,
           "score": 0.873
+        }
+      },
+      {
+        "time": "2026-08-10 13:28:04",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3406.2,
+        "buy_price": 3377.4,
+        "pnl": 28.8,
+        "pnl_pct": 0.85,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-10 13:28:04",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 9,
+        "price": 659.5,
+        "cost": 5935.5,
+        "score": {
+          "last": 659.5,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 1.979,
+          "rsi": 48.5,
+          "vol_factor": 1.37,
+          "score": 1.303
+        }
+      },
+      {
+        "time": "2026-08-10 13:28:04",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1302.6,
+        "cost": 2605.2,
+        "score": {
+          "last": 1302.6,
+          "mom_30m_pct": -0.038,
+          "intraday_pct": 0.385,
+          "rsi": 41.2,
+          "vol_factor": 2.0,
+          "score": 1.058
         }
       }
     ],
