@@ -1,5 +1,132 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-10",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-10 10:40:10",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 4933.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-10 11:06:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 13525.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 13525.000183105469,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "TCS",
+        "qty": 2,
+        "buy_price": 2466.8,
+        "buy_time": "2026-08-10 10:40:10",
+        "iteration": 1,
+        "score_info": {
+          "last": 2466.8,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 1.573,
+          "rsi": 67.1,
+          "vol_factor": 1.0,
+          "score": 0.923
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3980.5,
+        "buy_time": "2026-08-10 11:06:13",
+        "iteration": 2,
+        "score_info": {
+          "last": 3980.5,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": 1.125,
+          "rsi": 73.0,
+          "vol_factor": 1.0,
+          "score": 0.841
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 7,
+        "buy_price": 658.7,
+        "buy_time": "2026-08-10 11:06:13",
+        "iteration": 2,
+        "score_info": {
+          "last": 658.7,
+          "mom_30m_pct": 1.051,
+          "intraday_pct": 2.505,
+          "rsi": 89.8,
+          "vol_factor": 0.39,
+          "score": 0.218
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-10 10:40:10",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 2,
+        "price": 2466.8,
+        "cost": 4933.6,
+        "score": {
+          "last": 2466.8,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 1.573,
+          "rsi": 67.1,
+          "vol_factor": 1.0,
+          "score": 0.923
+        }
+      },
+      {
+        "time": "2026-08-10 11:06:13",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3980.5,
+        "cost": 3980.5,
+        "score": {
+          "last": 3980.5,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": 1.125,
+          "rsi": 73.0,
+          "vol_factor": 1.0,
+          "score": 0.841
+        }
+      },
+      {
+        "time": "2026-08-10 11:06:13",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 7,
+        "price": 658.7,
+        "cost": 4610.9,
+        "score": {
+          "last": 658.7,
+          "mom_30m_pct": 1.051,
+          "intraday_pct": 2.505,
+          "rsi": 89.8,
+          "vol_factor": 0.39,
+          "score": 0.218
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
