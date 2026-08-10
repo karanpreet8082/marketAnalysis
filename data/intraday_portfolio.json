@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-10",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13525.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-08-10 11:21:23",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 21583.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 13525.000183105469,
+    "invested_today": 21583.200256347656,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,36 @@
           "rsi": 89.8,
           "vol_factor": 0.39,
           "score": 0.218
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 4,
+        "buy_price": 1191.3,
+        "buy_time": "2026-08-10 11:21:23",
+        "iteration": 3,
+        "score_info": {
+          "last": 1191.3,
+          "mom_30m_pct": 0.286,
+          "intraday_pct": 1.413,
+          "rsi": 59.4,
+          "vol_factor": 0.27,
+          "score": 0.119
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 658.6,
+        "buy_time": "2026-08-10 11:21:23",
+        "iteration": 3,
+        "score_info": {
+          "last": 658.6,
+          "mom_30m_pct": 1.121,
+          "intraday_pct": 2.227,
+          "rsi": 84.5,
+          "vol_factor": 0.12,
+          "score": -0.033
         }
       }
     ],
@@ -122,6 +161,40 @@
           "rsi": 89.8,
           "vol_factor": 0.39,
           "score": 0.218
+        }
+      },
+      {
+        "time": "2026-08-10 11:21:23",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 4,
+        "price": 1191.3,
+        "cost": 4765.2,
+        "score": {
+          "last": 1191.3,
+          "mom_30m_pct": 0.286,
+          "intraday_pct": 1.413,
+          "rsi": 59.4,
+          "vol_factor": 0.27,
+          "score": 0.119
+        }
+      },
+      {
+        "time": "2026-08-10 11:21:23",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 658.6,
+        "cost": 3293.0,
+        "score": {
+          "last": 658.6,
+          "mom_30m_pct": 1.121,
+          "intraday_pct": 2.227,
+          "rsi": 84.5,
+          "vol_factor": 0.12,
+          "score": -0.033
         }
       }
     ],
