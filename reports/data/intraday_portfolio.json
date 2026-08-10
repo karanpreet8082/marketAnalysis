@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-10",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,10 +111,19 @@
         "invested_today_after": 99458.75,
         "realized_pnl_today_after": -63.7,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-10 16:09:33",
+        "n_bought": 0,
+        "n_sold": 1,
+        "invested_today_after": 99458.75,
+        "realized_pnl_today_after": -33.55,
+        "open_positions_after": 19
       }
     ],
     "invested_today": 99458.75018310547,
-    "realized_pnl_today": -63.699951171875455,
+    "realized_pnl_today": -33.54995117187525,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -189,21 +198,6 @@
           "rsi": 74.3,
           "vol_factor": 2.0,
           "score": 1.19
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 9,
-        "buy_price": 390.15,
-        "buy_time": "2026-08-10 11:49:07",
-        "iteration": 5,
-        "score_info": {
-          "last": 390.15,
-          "mom_30m_pct": 0.296,
-          "intraday_pct": 0.103,
-          "rsi": 52.2,
-          "vol_factor": 1.46,
-          "score": 0.931
         }
       },
       {
@@ -844,6 +838,18 @@
           "vol_factor": 2.0,
           "score": 1.813
         }
+      },
+      {
+        "time": "2026-08-10 16:09:33",
+        "iteration": 13,
+        "action": "SELL",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 393.5,
+        "buy_price": 390.15,
+        "pnl": 30.15,
+        "pnl_pct": 0.86,
+        "reason": "TAKE_PROFIT"
       }
     ],
     "closed": false
