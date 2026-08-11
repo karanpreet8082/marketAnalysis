@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-11",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 14571.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-08-11 11:02:33",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 22775.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 14571.199951171875,
+    "invested_today": 22775.400024414062,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,51 @@
           "rsi": 47.7,
           "vol_factor": 0.6,
           "score": 0.007
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1422.9,
+        "buy_time": "2026-08-11 11:02:33",
+        "iteration": 3,
+        "score_info": {
+          "last": 1422.9,
+          "mom_30m_pct": -0.056,
+          "intraday_pct": 0.049,
+          "rsi": 51.7,
+          "vol_factor": 1.93,
+          "score": 0.86
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2071.6,
+        "buy_time": "2026-08-11 11:02:33",
+        "iteration": 3,
+        "score_info": {
+          "last": 2071.6,
+          "mom_30m_pct": -0.289,
+          "intraday_pct": -0.571,
+          "rsi": 37.9,
+          "vol_factor": 2.0,
+          "score": 0.395
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1095.6,
+        "buy_time": "2026-08-11 11:02:33",
+        "iteration": 3,
+        "score_info": {
+          "last": 1095.6,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 1.36,
+          "rsi": 72.3,
+          "vol_factor": 0.1,
+          "score": 0.018
         }
       }
     ],
@@ -122,6 +176,57 @@
           "rsi": 47.7,
           "vol_factor": 0.6,
           "score": 0.007
+        }
+      },
+      {
+        "time": "2026-08-11 11:02:33",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1422.9,
+        "cost": 2845.8,
+        "score": {
+          "last": 1422.9,
+          "mom_30m_pct": -0.056,
+          "intraday_pct": 0.049,
+          "rsi": 51.7,
+          "vol_factor": 1.93,
+          "score": 0.86
+        }
+      },
+      {
+        "time": "2026-08-11 11:02:33",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2071.6,
+        "cost": 2071.6,
+        "score": {
+          "last": 2071.6,
+          "mom_30m_pct": -0.289,
+          "intraday_pct": -0.571,
+          "rsi": 37.9,
+          "vol_factor": 2.0,
+          "score": 0.395
+        }
+      },
+      {
+        "time": "2026-08-11 11:02:33",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1095.6,
+        "cost": 3286.8,
+        "score": {
+          "last": 1095.6,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 1.36,
+          "rsi": 72.3,
+          "vol_factor": 0.1,
+          "score": 0.018
         }
       }
     ],
