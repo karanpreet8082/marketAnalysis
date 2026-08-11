@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-11",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 43545.1,
         "realized_pnl_today_after": -41.4,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-11 12:51:22",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 52048.9,
+        "realized_pnl_today_after": -41.4,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 43545.10021972656,
+    "invested_today": 52048.90002441406,
     "realized_pnl_today": -41.40000000000009,
     "open_positions": [
       {
@@ -210,6 +219,51 @@
           "rsi": 83.6,
           "vol_factor": 0.32,
           "score": 0.349
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1190.4,
+        "buy_time": "2026-08-11 12:51:22",
+        "iteration": 7,
+        "score_info": {
+          "last": 1190.4,
+          "mom_30m_pct": 0.32,
+          "intraday_pct": 1.979,
+          "rsi": 69.8,
+          "vol_factor": 0.04,
+          "score": 0.113
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1094.2,
+        "buy_time": "2026-08-11 12:51:22",
+        "iteration": 7,
+        "score_info": {
+          "last": 1094.2,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 0.579,
+          "rsi": 49.1,
+          "vol_factor": 0.22,
+          "score": -0.098
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1420.2,
+        "buy_time": "2026-08-11 12:51:22",
+        "iteration": 7,
+        "score_info": {
+          "last": 1420.2,
+          "mom_30m_pct": 0.318,
+          "intraday_pct": -0.504,
+          "rsi": 41.7,
+          "vol_factor": 0.58,
+          "score": -0.098
         }
       }
     ],
@@ -440,6 +494,57 @@
           "rsi": 83.6,
           "vol_factor": 0.32,
           "score": 0.349
+        }
+      },
+      {
+        "time": "2026-08-11 12:51:22",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1190.4,
+        "cost": 2380.8,
+        "score": {
+          "last": 1190.4,
+          "mom_30m_pct": 0.32,
+          "intraday_pct": 1.979,
+          "rsi": 69.8,
+          "vol_factor": 0.04,
+          "score": 0.113
+        }
+      },
+      {
+        "time": "2026-08-11 12:51:22",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1094.2,
+        "cost": 3282.6,
+        "score": {
+          "last": 1094.2,
+          "mom_30m_pct": 0.339,
+          "intraday_pct": 0.579,
+          "rsi": 49.1,
+          "vol_factor": 0.22,
+          "score": -0.098
+        }
+      },
+      {
+        "time": "2026-08-11 12:51:22",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1420.2,
+        "cost": 2840.4,
+        "score": {
+          "last": 1420.2,
+          "mom_30m_pct": 0.318,
+          "intraday_pct": -0.504,
+          "rsi": 41.7,
+          "vol_factor": 0.58,
+          "score": -0.098
         }
       }
     ],
