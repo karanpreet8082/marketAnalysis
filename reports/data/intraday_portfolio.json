@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-11",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,10 +75,19 @@
         "invested_today_after": 61323.6,
         "realized_pnl_today_after": 1.4,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-11 13:43:25",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 67766.2,
+        "realized_pnl_today_after": 24.4,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 61323.600006103516,
-    "realized_pnl_today": 1.400000000000091,
+    "invested_today": 67766.20010375977,
+    "realized_pnl_today": 24.40004882812491,
     "open_positions": [
       {
         "symbol": "HINDALCO",
@@ -216,21 +225,6 @@
         }
       },
       {
-        "symbol": "DRREDDY",
-        "qty": 2,
-        "buy_price": 1190.4,
-        "buy_time": "2026-08-11 12:51:22",
-        "iteration": 7,
-        "score_info": {
-          "last": 1190.4,
-          "mom_30m_pct": 0.32,
-          "intraday_pct": 1.979,
-          "rsi": 69.8,
-          "vol_factor": 0.04,
-          "score": 0.113
-        }
-      },
-      {
         "symbol": "BAJFINANCE",
         "qty": 3,
         "buy_price": 1094.2,
@@ -303,6 +297,36 @@
           "rsi": 54.1,
           "vol_factor": 1.0,
           "score": 0.327
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1201.9,
+        "buy_time": "2026-08-11 13:43:25",
+        "iteration": 9,
+        "score_info": {
+          "last": 1201.9,
+          "mom_30m_pct": 0.577,
+          "intraday_pct": 3.044,
+          "rsi": 80.9,
+          "vol_factor": 1.52,
+          "score": 0.797
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 4,
+        "buy_price": 1009.7,
+        "buy_time": "2026-08-11 13:43:25",
+        "iteration": 9,
+        "score_info": {
+          "last": 1009.7,
+          "mom_30m_pct": 0.169,
+          "intraday_pct": -0.952,
+          "rsi": 49.2,
+          "vol_factor": 1.0,
+          "score": -0.03
         }
       }
     ],
@@ -647,6 +671,52 @@
           "rsi": 54.1,
           "vol_factor": 1.0,
           "score": 0.327
+        }
+      },
+      {
+        "time": "2026-08-11 13:43:25",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1201.9,
+        "buy_price": 1190.4,
+        "pnl": 23.0,
+        "pnl_pct": 0.97,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-11 13:43:25",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1201.9,
+        "cost": 2403.8,
+        "score": {
+          "last": 1201.9,
+          "mom_30m_pct": 0.577,
+          "intraday_pct": 3.044,
+          "rsi": 80.9,
+          "vol_factor": 1.52,
+          "score": 0.797
+        }
+      },
+      {
+        "time": "2026-08-11 13:43:25",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 4,
+        "price": 1009.7,
+        "cost": 4038.8,
+        "score": {
+          "last": 1009.7,
+          "mom_30m_pct": 0.169,
+          "intraday_pct": -0.952,
+          "rsi": 49.2,
+          "vol_factor": 1.0,
+          "score": -0.03
         }
       }
     ],
