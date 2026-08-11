@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-11",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,10 +66,19 @@
         "invested_today_after": 52048.9,
         "realized_pnl_today_after": -41.4,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-11 13:15:43",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 61323.6,
+        "realized_pnl_today_after": 1.4,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 52048.90002441406,
-    "realized_pnl_today": -41.40000000000009,
+    "invested_today": 61323.600006103516,
+    "realized_pnl_today": 1.400000000000091,
     "open_positions": [
       {
         "symbol": "HINDALCO",
@@ -208,21 +217,6 @@
       },
       {
         "symbol": "DRREDDY",
-        "qty": 4,
-        "buy_price": 1184.3,
-        "buy_time": "2026-08-11 12:01:28",
-        "iteration": 6,
-        "score_info": {
-          "last": 1184.3,
-          "mom_30m_pct": 1.361,
-          "intraday_pct": 1.622,
-          "rsi": 83.6,
-          "vol_factor": 0.32,
-          "score": 0.349
-        }
-      },
-      {
-        "symbol": "DRREDDY",
         "qty": 2,
         "buy_price": 1190.4,
         "buy_time": "2026-08-11 12:51:22",
@@ -264,6 +258,51 @@
           "rsi": 41.7,
           "vol_factor": 0.58,
           "score": -0.098
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1195.0,
+        "buy_time": "2026-08-11 13:15:43",
+        "iteration": 8,
+        "score_info": {
+          "last": 1195.0,
+          "mom_30m_pct": 0.395,
+          "intraday_pct": 2.408,
+          "rsi": 54.9,
+          "vol_factor": 1.0,
+          "score": 1.315
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 9,
+        "buy_price": 412.6,
+        "buy_time": "2026-08-11 13:15:43",
+        "iteration": 8,
+        "score_info": {
+          "last": 412.6,
+          "mom_30m_pct": 0.34,
+          "intraday_pct": 0.146,
+          "rsi": 65.8,
+          "vol_factor": 1.0,
+          "score": 0.554
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "buy_price": 1057.1,
+        "buy_time": "2026-08-11 13:15:43",
+        "iteration": 8,
+        "score_info": {
+          "last": 1057.1,
+          "mom_30m_pct": 0.047,
+          "intraday_pct": 0.854,
+          "rsi": 54.1,
+          "vol_factor": 1.0,
+          "score": 0.327
         }
       }
     ],
@@ -545,6 +584,69 @@
           "rsi": 41.7,
           "vol_factor": 0.58,
           "score": -0.098
+        }
+      },
+      {
+        "time": "2026-08-11 13:15:42",
+        "iteration": 8,
+        "action": "SELL",
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "price": 1195.0,
+        "buy_price": 1184.3,
+        "pnl": 42.8,
+        "pnl_pct": 0.9,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-11 13:15:43",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1195.0,
+        "cost": 2390.0,
+        "score": {
+          "last": 1195.0,
+          "mom_30m_pct": 0.395,
+          "intraday_pct": 2.408,
+          "rsi": 54.9,
+          "vol_factor": 1.0,
+          "score": 1.315
+        }
+      },
+      {
+        "time": "2026-08-11 13:15:43",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 9,
+        "price": 412.6,
+        "cost": 3713.4,
+        "score": {
+          "last": 412.6,
+          "mom_30m_pct": 0.34,
+          "intraday_pct": 0.146,
+          "rsi": 65.8,
+          "vol_factor": 1.0,
+          "score": 0.554
+        }
+      },
+      {
+        "time": "2026-08-11 13:15:43",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 1057.1,
+        "cost": 3171.3,
+        "score": {
+          "last": 1057.1,
+          "mom_30m_pct": 0.047,
+          "intraday_pct": 0.854,
+          "rsi": 54.1,
+          "vol_factor": 1.0,
+          "score": 0.327
         }
       }
     ],
