@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-11",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 78491.4,
         "realized_pnl_today_after": 24.4,
         "open_positions_after": 18
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-11 14:45:37",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 88308.8,
+        "realized_pnl_today_after": 24.4,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 78491.40029907227,
+    "invested_today": 88308.8000793457,
     "realized_pnl_today": 24.40004882812491,
     "open_positions": [
       {
@@ -366,6 +375,36 @@
           "rsi": 37.2,
           "vol_factor": 1.71,
           "score": -0.103
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1203.6,
+        "buy_time": "2026-08-11 14:45:37",
+        "iteration": 11,
+        "score_info": {
+          "last": 1203.6,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 3.571,
+          "rsi": 69.1,
+          "vol_factor": 1.0,
+          "score": 1.384
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 7,
+        "buy_price": 1058.6,
+        "buy_time": "2026-08-11 14:45:37",
+        "iteration": 11,
+        "score_info": {
+          "last": 1058.6,
+          "mom_30m_pct": 0.237,
+          "intraday_pct": 0.47,
+          "rsi": 69.3,
+          "vol_factor": 1.0,
+          "score": 0.496
         }
       }
     ],
@@ -790,6 +829,40 @@
           "rsi": 37.2,
           "vol_factor": 1.71,
           "score": -0.103
+        }
+      },
+      {
+        "time": "2026-08-11 14:45:37",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1203.6,
+        "cost": 2407.2,
+        "score": {
+          "last": 1203.6,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 3.571,
+          "rsi": 69.1,
+          "vol_factor": 1.0,
+          "score": 1.384
+        }
+      },
+      {
+        "time": "2026-08-11 14:45:37",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 7,
+        "price": 1058.6,
+        "cost": 7410.2,
+        "score": {
+          "last": 1058.6,
+          "mom_30m_pct": 0.237,
+          "intraday_pct": 0.47,
+          "rsi": 69.3,
+          "vol_factor": 1.0,
+          "score": 0.496
         }
       }
     ],
