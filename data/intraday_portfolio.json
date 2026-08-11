@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-11",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 22775.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-08-11 11:11:48",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 30904.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 22775.400024414062,
+    "invested_today": 30904.400024414062,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -123,6 +132,36 @@
           "rsi": 72.3,
           "vol_factor": 0.1,
           "score": 0.018
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 1061.2,
+        "buy_time": "2026-08-11 11:11:48",
+        "iteration": 4,
+        "score_info": {
+          "last": 1061.2,
+          "mom_30m_pct": 0.108,
+          "intraday_pct": 0.827,
+          "rsi": 53.1,
+          "vol_factor": 0.24,
+          "score": -0.346
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 2,
+        "buy_price": 3003.3,
+        "buy_time": "2026-08-11 11:11:48",
+        "iteration": 4,
+        "score_info": {
+          "last": 3003.3,
+          "mom_30m_pct": -0.1,
+          "intraday_pct": -0.773,
+          "rsi": 48.2,
+          "vol_factor": 0.78,
+          "score": -0.6
         }
       }
     ],
@@ -227,6 +266,40 @@
           "rsi": 72.3,
           "vol_factor": 0.1,
           "score": 0.018
+        }
+      },
+      {
+        "time": "2026-08-11 11:11:48",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 1061.2,
+        "cost": 2122.4,
+        "score": {
+          "last": 1061.2,
+          "mom_30m_pct": 0.108,
+          "intraday_pct": 0.827,
+          "rsi": 53.1,
+          "vol_factor": 0.24,
+          "score": -0.346
+        }
+      },
+      {
+        "time": "2026-08-11 11:11:48",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 2,
+        "price": 3003.3,
+        "cost": 6006.6,
+        "score": {
+          "last": 3003.3,
+          "mom_30m_pct": -0.1,
+          "intraday_pct": -0.773,
+          "rsi": 48.2,
+          "vol_factor": 0.78,
+          "score": -0.6
         }
       }
     ],
