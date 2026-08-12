@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-07-07 14:22 IST",
+    "budget": 50000.0,
+    "allocated": 49155.07,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49155.07,
+      "cash_reserve": 844.93,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24837.57,
+          "percent": 49.7,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17249.3,
+          "percent": 34.5,
+          "positions": 2
+        },
+        "aggressive": {
+          "amount": 7068.2,
+          "percent": 14.1,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.3,
+      "max_loss_percent": 3.8,
+      "sector_distribution": {
+        "Unknown": 2,
+        "Financial Services": 3,
+        "Energy": 1,
+        "Communication Services": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-07-07 15:44 IST",
     "budget": 50000.0,
     "allocated": 49003.47,
@@ -1841,43 +1878,6 @@
         "Unknown": 3,
         "Consumer Cyclical": 1,
         "Consumer Defensive": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-08-12 11:34 IST",
-    "budget": 50000.0,
-    "allocated": 49089.48,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 49089.48,
-      "cash_reserve": 910.52,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24651.63,
-          "percent": 49.3,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17066.25,
-          "percent": 34.1,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7371.6,
-          "percent": 14.7,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 6.4,
-      "max_loss_percent": 4.5,
-      "sector_distribution": {
-        "Unknown": 4,
-        "Financial Services": 2,
-        "Consumer Defensive": 1,
-        "Consumer Cyclical": 1
       }
     }
   }
