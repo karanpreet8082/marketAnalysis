@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-12",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-12 10:49:03",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 8305.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-12 11:09:38",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 15826.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 15825.999893188477,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "buy_price": 1200.0,
+        "buy_time": "2026-08-12 10:49:03",
+        "iteration": 1,
+        "score_info": {
+          "last": 1200.0,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 3.761,
+          "rsi": 67.9,
+          "vol_factor": 0.27,
+          "score": 0.4
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 389.5,
+        "buy_time": "2026-08-12 10:49:03",
+        "iteration": 1,
+        "score_info": {
+          "last": 389.5,
+          "mom_30m_pct": -0.115,
+          "intraday_pct": -0.345,
+          "rsi": 45.3,
+          "vol_factor": 1.64,
+          "score": 0.361
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 11,
+        "buy_price": 239.8,
+        "buy_time": "2026-08-12 11:09:38",
+        "iteration": 2,
+        "score_info": {
+          "last": 239.8,
+          "mom_30m_pct": 0.331,
+          "intraday_pct": -0.171,
+          "rsi": 54.8,
+          "vol_factor": 2.0,
+          "score": 1.445
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "buy_price": 388.9,
+        "buy_time": "2026-08-12 11:09:38",
+        "iteration": 2,
+        "score_info": {
+          "last": 388.9,
+          "mom_30m_pct": -0.346,
+          "intraday_pct": -0.295,
+          "rsi": 48.5,
+          "vol_factor": 2.0,
+          "score": 0.393
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 1080.2,
+        "buy_time": "2026-08-12 11:09:38",
+        "iteration": 2,
+        "score_info": {
+          "last": 1080.2,
+          "mom_30m_pct": 0.056,
+          "intraday_pct": 1.209,
+          "rsi": 58.2,
+          "vol_factor": 0.62,
+          "score": 0.068
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-12 10:49:03",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "price": 1200.0,
+        "cost": 4800.0,
+        "score": {
+          "last": 1200.0,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 3.761,
+          "rsi": 67.9,
+          "vol_factor": 0.27,
+          "score": 0.4
+        }
+      },
+      {
+        "time": "2026-08-12 10:49:03",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 389.5,
+        "cost": 3505.5,
+        "score": {
+          "last": 389.5,
+          "mom_30m_pct": -0.115,
+          "intraday_pct": -0.345,
+          "rsi": 45.3,
+          "vol_factor": 1.64,
+          "score": 0.361
+        }
+      },
+      {
+        "time": "2026-08-12 11:09:38",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 11,
+        "price": 239.8,
+        "cost": 2637.8,
+        "score": {
+          "last": 239.8,
+          "mom_30m_pct": 0.331,
+          "intraday_pct": -0.171,
+          "rsi": 54.8,
+          "vol_factor": 2.0,
+          "score": 1.445
+        }
+      },
+      {
+        "time": "2026-08-12 11:09:38",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 388.9,
+        "cost": 2722.3,
+        "score": {
+          "last": 388.9,
+          "mom_30m_pct": -0.346,
+          "intraday_pct": -0.295,
+          "rsi": 48.5,
+          "vol_factor": 2.0,
+          "score": 0.393
+        }
+      },
+      {
+        "time": "2026-08-12 11:09:38",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1080.2,
+        "cost": 2160.4,
+        "score": {
+          "last": 1080.2,
+          "mom_30m_pct": 0.056,
+          "intraday_pct": 1.209,
+          "rsi": 58.2,
+          "vol_factor": 0.62,
+          "score": 0.068
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
