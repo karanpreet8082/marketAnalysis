@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-12",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 41288.14,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-12 13:14:52",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 47768.88,
+        "realized_pnl_today_after": 22.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 41288.14027404785,
-    "realized_pnl_today": 0.0,
+    "invested_today": 47768.88035583496,
+    "realized_pnl_today": 22.0,
     "open_positions": [
       {
         "symbol": "DRREDDY",
@@ -153,21 +162,6 @@
         }
       },
       {
-        "symbol": "NTPC",
-        "qty": 8,
-        "buy_price": 336.25,
-        "buy_time": "2026-08-12 11:34:44",
-        "iteration": 4,
-        "score_info": {
-          "last": 336.25,
-          "mom_30m_pct": -0.03,
-          "intraday_pct": -0.148,
-          "rsi": 43.6,
-          "vol_factor": 2.0,
-          "score": 0.911
-        }
-      },
-      {
         "symbol": "HCLTECH",
         "qty": 4,
         "buy_price": 1350.6,
@@ -225,6 +219,36 @@
           "rsi": 68.3,
           "vol_factor": 0.32,
           "score": 0.132
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 13,
+        "buy_price": 239.78,
+        "buy_time": "2026-08-12 13:14:52",
+        "iteration": 7,
+        "score_info": {
+          "last": 239.78,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": -0.436,
+          "rsi": 56.6,
+          "vol_factor": 1.84,
+          "score": 1.265
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3363.6,
+        "buy_time": "2026-08-12 13:14:52",
+        "iteration": 7,
+        "score_info": {
+          "last": 3363.6,
+          "mom_30m_pct": 0.448,
+          "intraday_pct": 0.649,
+          "rsi": 65.6,
+          "vol_factor": 0.3,
+          "score": 0.166
         }
       }
     ],
@@ -414,6 +438,52 @@
           "rsi": 68.3,
           "vol_factor": 0.32,
           "score": 0.132
+        }
+      },
+      {
+        "time": "2026-08-12 13:14:51",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "NTPC",
+        "qty": 8,
+        "price": 339.0,
+        "buy_price": 336.25,
+        "pnl": 22.0,
+        "pnl_pct": 0.82,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-12 13:14:52",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 13,
+        "price": 239.78,
+        "cost": 3117.14,
+        "score": {
+          "last": 239.78,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": -0.436,
+          "rsi": 56.6,
+          "vol_factor": 1.84,
+          "score": 1.265
+        }
+      },
+      {
+        "time": "2026-08-12 13:14:52",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3363.6,
+        "cost": 3363.6,
+        "score": {
+          "last": 3363.6,
+          "mom_30m_pct": 0.448,
+          "intraday_pct": 0.649,
+          "rsi": 65.6,
+          "vol_factor": 0.3,
+          "score": 0.166
         }
       }
     ],
