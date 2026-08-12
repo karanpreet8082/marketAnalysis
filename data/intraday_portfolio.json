@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-12",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 47768.88,
         "realized_pnl_today_after": 22.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-12 13:29:27",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 57781.73,
+        "realized_pnl_today_after": 22.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 47768.88035583496,
+    "invested_today": 57781.73036193848,
     "realized_pnl_today": 22.0,
     "open_positions": [
       {
@@ -249,6 +258,36 @@
           "rsi": 65.6,
           "vol_factor": 0.3,
           "score": 0.166
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 17,
+        "buy_price": 390.85,
+        "buy_time": "2026-08-12 13:29:27",
+        "iteration": 8,
+        "score_info": {
+          "last": 390.85,
+          "mom_30m_pct": 0.192,
+          "intraday_pct": 0.141,
+          "rsi": 65.3,
+          "vol_factor": 2.0,
+          "score": 1.331
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3368.4,
+        "buy_time": "2026-08-12 13:29:27",
+        "iteration": 8,
+        "score_info": {
+          "last": 3368.4,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": 1.165,
+          "rsi": 62.7,
+          "vol_factor": 1.47,
+          "score": 1.179
         }
       }
     ],
@@ -484,6 +523,40 @@
           "rsi": 65.6,
           "vol_factor": 0.3,
           "score": 0.166
+        }
+      },
+      {
+        "time": "2026-08-12 13:29:27",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 17,
+        "price": 390.85,
+        "cost": 6644.45,
+        "score": {
+          "last": 390.85,
+          "mom_30m_pct": 0.192,
+          "intraday_pct": 0.141,
+          "rsi": 65.3,
+          "vol_factor": 2.0,
+          "score": 1.331
+        }
+      },
+      {
+        "time": "2026-08-12 13:29:27",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3368.4,
+        "cost": 3368.4,
+        "score": {
+          "last": 3368.4,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": 1.165,
+          "rsi": 62.7,
+          "vol_factor": 1.47,
+          "score": 1.179
         }
       }
     ],
