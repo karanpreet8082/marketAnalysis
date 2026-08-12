@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-12",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 31645.84,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-12 12:26:16",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 41288.14,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 31645.8399810791,
+    "invested_today": 41288.14027404785,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -186,6 +195,36 @@
           "rsi": 34.3,
           "vol_factor": 2.0,
           "score": 0.387
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 6,
+        "buy_price": 1063.3,
+        "buy_time": "2026-08-12 12:26:16",
+        "iteration": 6,
+        "score_info": {
+          "last": 1063.3,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": -1.71,
+          "rsi": 60.8,
+          "vol_factor": 1.28,
+          "score": 0.167
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 652.5,
+        "buy_time": "2026-08-12 12:26:16",
+        "iteration": 6,
+        "score_info": {
+          "last": 652.5,
+          "mom_30m_pct": 0.594,
+          "intraday_pct": -0.275,
+          "rsi": 68.3,
+          "vol_factor": 0.32,
+          "score": 0.132
         }
       }
     ],
@@ -341,6 +380,40 @@
           "rsi": 34.3,
           "vol_factor": 2.0,
           "score": 0.387
+        }
+      },
+      {
+        "time": "2026-08-12 12:26:16",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 6,
+        "price": 1063.3,
+        "cost": 6379.8,
+        "score": {
+          "last": 1063.3,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": -1.71,
+          "rsi": 60.8,
+          "vol_factor": 1.28,
+          "score": 0.167
+        }
+      },
+      {
+        "time": "2026-08-12 12:26:16",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 652.5,
+        "cost": 3262.5,
+        "score": {
+          "last": 652.5,
+          "mom_30m_pct": 0.594,
+          "intraday_pct": -0.275,
+          "rsi": 68.3,
+          "vol_factor": 0.32,
+          "score": 0.132
         }
       }
     ],
