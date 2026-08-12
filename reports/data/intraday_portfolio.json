@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-12",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,10 +93,19 @@
         "invested_today_after": 71809.53,
         "realized_pnl_today_after": 22.0,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-12 15:03:02",
+        "n_bought": 3,
+        "n_sold": 5,
+        "invested_today_after": 85806.93,
+        "realized_pnl_today_after": -19.5,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 71809.53053283691,
-    "realized_pnl_today": 22.0,
+    "invested_today": 85806.93067932129,
+    "realized_pnl_today": -19.50019531249984,
     "open_positions": [
       {
         "symbol": "DRREDDY",
@@ -114,21 +123,6 @@
         }
       },
       {
-        "symbol": "KOTAKBANK",
-        "qty": 9,
-        "buy_price": 389.5,
-        "buy_time": "2026-08-12 10:49:03",
-        "iteration": 1,
-        "score_info": {
-          "last": 389.5,
-          "mom_30m_pct": -0.115,
-          "intraday_pct": -0.345,
-          "rsi": 45.3,
-          "vol_factor": 1.64,
-          "score": 0.361
-        }
-      },
-      {
         "symbol": "ONGC",
         "qty": 11,
         "buy_price": 239.8,
@@ -141,21 +135,6 @@
           "rsi": 54.8,
           "vol_factor": 2.0,
           "score": 1.445
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 7,
-        "buy_price": 388.9,
-        "buy_time": "2026-08-12 11:09:38",
-        "iteration": 2,
-        "score_info": {
-          "last": 388.9,
-          "mom_30m_pct": -0.346,
-          "intraday_pct": -0.295,
-          "rsi": 48.5,
-          "vol_factor": 2.0,
-          "score": 0.393
         }
       },
       {
@@ -234,21 +213,6 @@
         }
       },
       {
-        "symbol": "DLF",
-        "qty": 5,
-        "buy_price": 652.5,
-        "buy_time": "2026-08-12 12:26:16",
-        "iteration": 6,
-        "score_info": {
-          "last": 652.5,
-          "mom_30m_pct": 0.594,
-          "intraday_pct": -0.275,
-          "rsi": 68.3,
-          "vol_factor": 0.32,
-          "score": 0.132
-        }
-      },
-      {
         "symbol": "ONGC",
         "qty": 13,
         "buy_price": 239.78,
@@ -264,21 +228,6 @@
         }
       },
       {
-        "symbol": "GRASIM",
-        "qty": 1,
-        "buy_price": 3363.6,
-        "buy_time": "2026-08-12 13:14:52",
-        "iteration": 7,
-        "score_info": {
-          "last": 3363.6,
-          "mom_30m_pct": 0.448,
-          "intraday_pct": 0.649,
-          "rsi": 65.6,
-          "vol_factor": 0.3,
-          "score": 0.166
-        }
-      },
-      {
         "symbol": "KOTAKBANK",
         "qty": 17,
         "buy_price": 390.85,
@@ -291,21 +240,6 @@
           "rsi": 65.3,
           "vol_factor": 2.0,
           "score": 1.331
-        }
-      },
-      {
-        "symbol": "GRASIM",
-        "qty": 1,
-        "buy_price": 3368.4,
-        "buy_time": "2026-08-12 13:29:27",
-        "iteration": 8,
-        "score_info": {
-          "last": 3368.4,
-          "mom_30m_pct": 0.241,
-          "intraday_pct": 1.165,
-          "rsi": 62.7,
-          "vol_factor": 1.47,
-          "score": 1.179
         }
       },
       {
@@ -336,6 +270,51 @@
           "rsi": 34.6,
           "vol_factor": 1.0,
           "score": 0.613
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 7,
+        "buy_price": 658.0,
+        "buy_time": "2026-08-12 15:03:02",
+        "iteration": 11,
+        "score_info": {
+          "last": 658.0,
+          "mom_30m_pct": 0.535,
+          "intraday_pct": 0.874,
+          "rsi": 65.9,
+          "vol_factor": 1.52,
+          "score": 1.586
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "buy_price": 1428.8,
+        "buy_time": "2026-08-12 15:03:02",
+        "iteration": 11,
+        "score_info": {
+          "last": 1428.8,
+          "mom_30m_pct": 0.379,
+          "intraday_pct": 0.591,
+          "rsi": 73.9,
+          "vol_factor": 0.89,
+          "score": 0.637
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 5,
+        "buy_price": 1021.0,
+        "buy_time": "2026-08-12 15:03:02",
+        "iteration": 11,
+        "score_info": {
+          "last": 1021.0,
+          "mom_30m_pct": 0.236,
+          "intraday_pct": 1.461,
+          "rsi": 74.7,
+          "vol_factor": 0.76,
+          "score": 0.553
         }
       }
     ],
@@ -639,6 +618,117 @@
           "rsi": 34.6,
           "vol_factor": 1.0,
           "score": 0.613
+        }
+      },
+      {
+        "time": "2026-08-12 15:03:01",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 393.9,
+        "buy_price": 389.5,
+        "pnl": 39.6,
+        "pnl_pct": 1.13,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-12 15:03:01",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 393.9,
+        "buy_price": 388.9,
+        "pnl": 35.0,
+        "pnl_pct": 1.29,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-12 15:03:01",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 658.0,
+        "buy_price": 652.5,
+        "pnl": 27.5,
+        "pnl_pct": 0.84,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-12 15:03:01",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3294.2,
+        "buy_price": 3363.6,
+        "pnl": -69.4,
+        "pnl_pct": -2.06,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-12 15:03:01",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3294.2,
+        "buy_price": 3368.4,
+        "pnl": -74.2,
+        "pnl_pct": -2.2,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-12 15:03:02",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 7,
+        "price": 658.0,
+        "cost": 4606.0,
+        "score": {
+          "last": 658.0,
+          "mom_30m_pct": 0.535,
+          "intraday_pct": 0.874,
+          "rsi": 65.9,
+          "vol_factor": 1.52,
+          "score": 1.586
+        }
+      },
+      {
+        "time": "2026-08-12 15:03:02",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1428.8,
+        "cost": 4286.4,
+        "score": {
+          "last": 1428.8,
+          "mom_30m_pct": 0.379,
+          "intraday_pct": 0.591,
+          "rsi": 73.9,
+          "vol_factor": 0.89,
+          "score": 0.637
+        }
+      },
+      {
+        "time": "2026-08-12 15:03:02",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 5,
+        "price": 1021.0,
+        "cost": 5105.0,
+        "score": {
+          "last": 1021.0,
+          "mom_30m_pct": 0.236,
+          "intraday_pct": 1.461,
+          "rsi": 74.7,
+          "vol_factor": 0.76,
+          "score": 0.553
         }
       }
     ],
