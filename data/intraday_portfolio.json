@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-12",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,18 +102,9 @@
         "invested_today_after": 85806.93,
         "realized_pnl_today_after": -19.5,
         "open_positions_after": 14
-      },
-      {
-        "iteration": 12,
-        "time": "2026-08-12 15:20:22",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 99719.43,
-        "realized_pnl_today_after": -19.5,
-        "open_positions_after": 16
       }
     ],
-    "invested_today": 99719.43067932129,
+    "invested_today": 85806.93067932129,
     "realized_pnl_today": -19.50019531249984,
     "open_positions": [
       {
@@ -324,36 +315,6 @@
           "rsi": 74.7,
           "vol_factor": 0.76,
           "score": 0.553
-        }
-      },
-      {
-        "symbol": "HCLTECH",
-        "qty": 6,
-        "buy_price": 1360.0,
-        "buy_time": "2026-08-12 15:20:22",
-        "iteration": 12,
-        "score_info": {
-          "last": 1360.0,
-          "mom_30m_pct": 0.14,
-          "intraday_pct": -0.205,
-          "rsi": 71.8,
-          "vol_factor": 2.0,
-          "score": 1.148
-        }
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "qty": 3,
-        "buy_price": 1917.5,
-        "buy_time": "2026-08-12 15:20:22",
-        "iteration": 12,
-        "score_info": {
-          "last": 1917.5,
-          "mom_30m_pct": 0.656,
-          "intraday_pct": -0.016,
-          "rsi": 71.3,
-          "vol_factor": 1.0,
-          "score": 0.98
         }
       }
     ],
@@ -768,40 +729,6 @@
           "rsi": 74.7,
           "vol_factor": 0.76,
           "score": 0.553
-        }
-      },
-      {
-        "time": "2026-08-12 15:20:22",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "HCLTECH",
-        "qty": 6,
-        "price": 1360.0,
-        "cost": 8160.0,
-        "score": {
-          "last": 1360.0,
-          "mom_30m_pct": 0.14,
-          "intraday_pct": -0.205,
-          "rsi": 71.8,
-          "vol_factor": 2.0,
-          "score": 1.148
-        }
-      },
-      {
-        "time": "2026-08-12 15:20:22",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "BHARTIARTL",
-        "qty": 3,
-        "price": 1917.5,
-        "cost": 5752.5,
-        "score": {
-          "last": 1917.5,
-          "mom_30m_pct": 0.656,
-          "intraday_pct": -0.016,
-          "rsi": 71.3,
-          "vol_factor": 1.0,
-          "score": 0.98
         }
       }
     ],
