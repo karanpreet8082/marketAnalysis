@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-13",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,10 +75,19 @@
         "invested_today_after": 52490.35,
         "realized_pnl_today_after": 20.4,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-13 14:08:32",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 63740.35,
+        "realized_pnl_today_after": 84.9,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 52490.35025024414,
-    "realized_pnl_today": 20.40004882812491,
+    "invested_today": 63740.35037231445,
+    "realized_pnl_today": 84.90029296874945,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -168,21 +177,6 @@
           "rsi": 59.3,
           "vol_factor": 2.0,
           "score": 1.478
-        }
-      },
-      {
-        "symbol": "TATACONSUM",
-        "qty": 5,
-        "buy_price": 1076.9,
-        "buy_time": "2026-08-13 11:35:59",
-        "iteration": 4,
-        "score_info": {
-          "last": 1076.9,
-          "mom_30m_pct": 0.373,
-          "intraday_pct": 1.719,
-          "rsi": 55.6,
-          "vol_factor": 1.0,
-          "score": 1.075
         }
       },
       {
@@ -303,6 +297,36 @@
           "rsi": 63.5,
           "vol_factor": 1.0,
           "score": 0.752
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2998.0,
+        "buy_time": "2026-08-13 14:08:32",
+        "iteration": 9,
+        "score_info": {
+          "last": 2998.0,
+          "mom_30m_pct": 0.104,
+          "intraday_pct": 0.685,
+          "rsi": 63.9,
+          "vol_factor": 1.96,
+          "score": 1.317
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 5,
+        "buy_price": 1650.4,
+        "buy_time": "2026-08-13 14:08:32",
+        "iteration": 9,
+        "score_info": {
+          "last": 1650.4,
+          "mom_30m_pct": 0.152,
+          "intraday_pct": 1.569,
+          "rsi": 52.2,
+          "vol_factor": 0.75,
+          "score": 0.453
         }
       }
     ],
@@ -589,6 +613,52 @@
           "rsi": 63.5,
           "vol_factor": 1.0,
           "score": 0.752
+        }
+      },
+      {
+        "time": "2026-08-13 14:08:32",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "TATACONSUM",
+        "qty": 5,
+        "price": 1089.8,
+        "buy_price": 1076.9,
+        "pnl": 64.5,
+        "pnl_pct": 1.2,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-13 14:08:32",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2998.0,
+        "cost": 2998.0,
+        "score": {
+          "last": 2998.0,
+          "mom_30m_pct": 0.104,
+          "intraday_pct": 0.685,
+          "rsi": 63.9,
+          "vol_factor": 1.96,
+          "score": 1.317
+        }
+      },
+      {
+        "time": "2026-08-13 14:08:32",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 5,
+        "price": 1650.4,
+        "cost": 8252.0,
+        "score": {
+          "last": 1650.4,
+          "mom_30m_pct": 0.152,
+          "intraday_pct": 1.569,
+          "rsi": 52.2,
+          "vol_factor": 0.75,
+          "score": 0.453
         }
       }
     ],
