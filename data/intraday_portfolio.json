@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-13",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,19 +84,10 @@
         "invested_today_after": 63740.35,
         "realized_pnl_today_after": 84.9,
         "open_positions_after": 16
-      },
-      {
-        "iteration": 10,
-        "time": "2026-08-13 14:23:55",
-        "n_bought": 2,
-        "n_sold": 1,
-        "invested_today_after": 75671.95,
-        "realized_pnl_today_after": 120.6,
-        "open_positions_after": 17
       }
     ],
-    "invested_today": 75671.95059204102,
-    "realized_pnl_today": 120.60014648437459,
+    "invested_today": 63740.35037231445,
+    "realized_pnl_today": 84.90029296874945,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -264,6 +255,21 @@
         }
       },
       {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1081.8,
+        "buy_time": "2026-08-13 13:16:33",
+        "iteration": 7,
+        "score_info": {
+          "last": 1081.8,
+          "mom_30m_pct": 0.371,
+          "intraday_pct": 2.395,
+          "rsi": 70.8,
+          "vol_factor": 0.22,
+          "score": 0.497
+        }
+      },
+      {
         "symbol": "TCS",
         "qty": 1,
         "buy_price": 2366.9,
@@ -321,36 +327,6 @@
           "rsi": 52.2,
           "vol_factor": 0.75,
           "score": 0.453
-        }
-      },
-      {
-        "symbol": "BAJAJFINSV",
-        "qty": 3,
-        "buy_price": 2025.8,
-        "buy_time": "2026-08-13 14:23:55",
-        "iteration": 10,
-        "score_info": {
-          "last": 2025.8,
-          "mom_30m_pct": -0.074,
-          "intraday_pct": 0.671,
-          "rsi": 57.0,
-          "vol_factor": 2.0,
-          "score": 1.09
-        }
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "qty": 3,
-        "buy_price": 1951.4,
-        "buy_time": "2026-08-13 14:23:55",
-        "iteration": 10,
-        "score_info": {
-          "last": 1951.4,
-          "mom_30m_pct": -0.01,
-          "intraday_pct": 2.409,
-          "rsi": 52.7,
-          "vol_factor": 1.12,
-          "score": 0.825
         }
       }
     ],
@@ -683,52 +659,6 @@
           "rsi": 52.2,
           "vol_factor": 0.75,
           "score": 0.453
-        }
-      },
-      {
-        "time": "2026-08-13 14:23:55",
-        "iteration": 10,
-        "action": "SELL",
-        "symbol": "TATACONSUM",
-        "qty": 3,
-        "price": 1093.7,
-        "buy_price": 1081.8,
-        "pnl": 35.7,
-        "pnl_pct": 1.1,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-08-13 14:23:55",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "BAJAJFINSV",
-        "qty": 3,
-        "price": 2025.8,
-        "cost": 6077.4,
-        "score": {
-          "last": 2025.8,
-          "mom_30m_pct": -0.074,
-          "intraday_pct": 0.671,
-          "rsi": 57.0,
-          "vol_factor": 2.0,
-          "score": 1.09
-        }
-      },
-      {
-        "time": "2026-08-13 14:23:55",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "BHARTIARTL",
-        "qty": 3,
-        "price": 1951.4,
-        "cost": 5854.2,
-        "score": {
-          "last": 1951.4,
-          "mom_30m_pct": -0.01,
-          "intraday_pct": 2.409,
-          "rsi": 52.7,
-          "vol_factor": 1.12,
-          "score": 0.825
         }
       }
     ],
