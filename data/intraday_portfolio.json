@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-13",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7973.65,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-13 11:12:02",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 14734.65,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 7973.649993896484,
+    "invested_today": 14734.649993896484,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,51 @@
           "rsi": 45.3,
           "vol_factor": 2.0,
           "score": 0.577
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 663.4,
+        "buy_time": "2026-08-13 11:12:02",
+        "iteration": 2,
+        "score_info": {
+          "last": 663.4,
+          "mom_30m_pct": 0.378,
+          "intraday_pct": 2.337,
+          "rsi": 67.2,
+          "vol_factor": 0.3,
+          "score": 0.572
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "buy_price": 1074.2,
+        "buy_time": "2026-08-13 11:12:02",
+        "iteration": 2,
+        "score_info": {
+          "last": 1074.2,
+          "mom_30m_pct": -0.139,
+          "intraday_pct": 1.321,
+          "rsi": 68.3,
+          "vol_factor": 0.91,
+          "score": 0.098
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1959.0,
+        "buy_time": "2026-08-13 11:12:02",
+        "iteration": 2,
+        "score_info": {
+          "last": 1959.0,
+          "mom_30m_pct": -0.097,
+          "intraday_pct": 2.721,
+          "rsi": 46.4,
+          "vol_factor": 0.09,
+          "score": -0.235
         }
       }
     ],
@@ -113,6 +167,57 @@
           "rsi": 45.3,
           "vol_factor": 2.0,
           "score": 0.577
+        }
+      },
+      {
+        "time": "2026-08-13 11:12:02",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 663.4,
+        "cost": 2653.6,
+        "score": {
+          "last": 663.4,
+          "mom_30m_pct": 0.378,
+          "intraday_pct": 2.337,
+          "rsi": 67.2,
+          "vol_factor": 0.3,
+          "score": 0.572
+        }
+      },
+      {
+        "time": "2026-08-13 11:12:02",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 1074.2,
+        "cost": 2148.4,
+        "score": {
+          "last": 1074.2,
+          "mom_30m_pct": -0.139,
+          "intraday_pct": 1.321,
+          "rsi": 68.3,
+          "vol_factor": 0.91,
+          "score": 0.098
+        }
+      },
+      {
+        "time": "2026-08-13 11:12:02",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1959.0,
+        "cost": 1959.0,
+        "score": {
+          "last": 1959.0,
+          "mom_30m_pct": -0.097,
+          "intraday_pct": 2.721,
+          "rsi": 46.4,
+          "vol_factor": 0.09,
+          "score": -0.235
         }
       }
     ],
