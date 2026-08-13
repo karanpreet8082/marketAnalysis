@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-13",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,10 +66,19 @@
         "invested_today_after": 45537.05,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-13 13:30:49",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 52490.35,
+        "realized_pnl_today_after": 20.4,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 45537.050201416016,
-    "realized_pnl_today": 0.0,
+    "invested_today": 52490.35025024414,
+    "realized_pnl_today": 20.40004882812491,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -129,21 +138,6 @@
           "rsi": 67.2,
           "vol_factor": 0.3,
           "score": 0.572
-        }
-      },
-      {
-        "symbol": "TATACONSUM",
-        "qty": 2,
-        "buy_price": 1074.2,
-        "buy_time": "2026-08-13 11:12:02",
-        "iteration": 2,
-        "score_info": {
-          "last": 1074.2,
-          "mom_30m_pct": -0.139,
-          "intraday_pct": 1.321,
-          "rsi": 68.3,
-          "vol_factor": 0.91,
-          "score": 0.098
         }
       },
       {
@@ -279,6 +273,36 @@
           "rsi": 70.8,
           "vol_factor": 0.22,
           "score": 0.497
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2366.9,
+        "buy_time": "2026-08-13 13:30:49",
+        "iteration": 8,
+        "score_info": {
+          "last": 2366.9,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": 1.855,
+          "rsi": 59.1,
+          "vol_factor": 1.0,
+          "score": 0.919
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 12,
+        "buy_price": 382.2,
+        "buy_time": "2026-08-13 13:30:49",
+        "iteration": 8,
+        "score_info": {
+          "last": 382.2,
+          "mom_30m_pct": 0.131,
+          "intraday_pct": 1.852,
+          "rsi": 63.5,
+          "vol_factor": 1.0,
+          "score": 0.752
         }
       }
     ],
@@ -519,6 +543,52 @@
           "rsi": 70.8,
           "vol_factor": 0.22,
           "score": 0.497
+        }
+      },
+      {
+        "time": "2026-08-13 13:30:49",
+        "iteration": 8,
+        "action": "SELL",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 1084.4,
+        "buy_price": 1074.2,
+        "pnl": 20.4,
+        "pnl_pct": 0.95,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-13 13:30:49",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2366.9,
+        "cost": 2366.9,
+        "score": {
+          "last": 2366.9,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": 1.855,
+          "rsi": 59.1,
+          "vol_factor": 1.0,
+          "score": 0.919
+        }
+      },
+      {
+        "time": "2026-08-13 13:30:49",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 12,
+        "price": 382.2,
+        "cost": 4586.4,
+        "score": {
+          "last": 382.2,
+          "mom_30m_pct": 0.131,
+          "intraday_pct": 1.852,
+          "rsi": 63.5,
+          "vol_factor": 1.0,
+          "score": 0.752
         }
       }
     ],
