@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-13",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,19 +102,10 @@
         "invested_today_after": 86105.75,
         "realized_pnl_today_after": 120.6,
         "open_positions_after": 20
-      },
-      {
-        "iteration": 12,
-        "time": "2026-08-13 15:20:12",
-        "n_bought": 3,
-        "n_sold": 1,
-        "invested_today_after": 97273.65,
-        "realized_pnl_today_after": 99.6,
-        "open_positions_after": 22
       }
     ],
-    "invested_today": 97273.65036010742,
-    "realized_pnl_today": 99.60014648437459,
+    "invested_today": 86105.75045776367,
+    "realized_pnl_today": 120.60014648437459,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -174,6 +165,21 @@
           "rsi": 67.2,
           "vol_factor": 0.3,
           "score": 0.572
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1959.0,
+        "buy_time": "2026-08-13 11:12:02",
+        "iteration": 2,
+        "score_info": {
+          "last": 1959.0,
+          "mom_30m_pct": -0.097,
+          "intraday_pct": 2.721,
+          "rsi": 46.4,
+          "vol_factor": 0.09,
+          "score": -0.235
         }
       },
       {
@@ -399,51 +405,6 @@
           "rsi": 44.6,
           "vol_factor": 1.52,
           "score": 1.13
-        }
-      },
-      {
-        "symbol": "TATACONSUM",
-        "qty": 4,
-        "buy_price": 1094.0,
-        "buy_time": "2026-08-13 15:20:12",
-        "iteration": 12,
-        "score_info": {
-          "last": 1094.0,
-          "mom_30m_pct": 0.312,
-          "intraday_pct": 3.081,
-          "rsi": 64.8,
-          "vol_factor": 1.59,
-          "score": 1.984
-        }
-      },
-      {
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "buy_price": 2740.7,
-        "buy_time": "2026-08-13 15:20:12",
-        "iteration": 12,
-        "score_info": {
-          "last": 2740.7,
-          "mom_30m_pct": 0.249,
-          "intraday_pct": 0.917,
-          "rsi": 55.2,
-          "vol_factor": 2.0,
-          "score": 1.648
-        }
-      },
-      {
-        "symbol": "LT",
-        "qty": 1,
-        "buy_price": 4051.2,
-        "buy_time": "2026-08-13 15:20:12",
-        "iteration": 12,
-        "score_info": {
-          "last": 4051.2,
-          "mom_30m_pct": 0.25,
-          "intraday_pct": 1.017,
-          "rsi": 57.3,
-          "vol_factor": 1.71,
-          "score": 1.387
         }
       }
     ],
@@ -873,69 +834,6 @@
           "rsi": 44.6,
           "vol_factor": 1.52,
           "score": 1.13
-        }
-      },
-      {
-        "time": "2026-08-13 15:20:12",
-        "iteration": 12,
-        "action": "SELL",
-        "symbol": "BHARTIARTL",
-        "qty": 1,
-        "price": 1938.0,
-        "buy_price": 1959.0,
-        "pnl": -21.0,
-        "pnl_pct": -1.07,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-13 15:20:12",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "TATACONSUM",
-        "qty": 4,
-        "price": 1094.0,
-        "cost": 4376.0,
-        "score": {
-          "last": 1094.0,
-          "mom_30m_pct": 0.312,
-          "intraday_pct": 3.081,
-          "rsi": 64.8,
-          "vol_factor": 1.59,
-          "score": 1.984
-        }
-      },
-      {
-        "time": "2026-08-13 15:20:12",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "price": 2740.7,
-        "cost": 2740.7,
-        "score": {
-          "last": 2740.7,
-          "mom_30m_pct": 0.249,
-          "intraday_pct": 0.917,
-          "rsi": 55.2,
-          "vol_factor": 2.0,
-          "score": 1.648
-        }
-      },
-      {
-        "time": "2026-08-13 15:20:12",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "LT",
-        "qty": 1,
-        "price": 4051.2,
-        "cost": 4051.2,
-        "score": {
-          "last": 4051.2,
-          "mom_30m_pct": 0.25,
-          "intraday_pct": 1.017,
-          "rsi": 57.3,
-          "vol_factor": 1.71,
-          "score": 1.387
         }
       }
     ],
