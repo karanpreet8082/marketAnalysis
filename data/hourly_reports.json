@@ -1,5 +1,43 @@
 [
   {
+    "timestamp": "2026-07-08 13:27 IST",
+    "budget": 50000.0,
+    "allocated": 48737.62,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 48737.62,
+      "cash_reserve": 1262.38,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24609.22,
+          "percent": 49.2,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17089.0,
+          "percent": 34.2,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7039.4,
+          "percent": 14.1,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.1,
+      "max_loss_percent": 3.6,
+      "sector_distribution": {
+        "Financial Services": 3,
+        "Energy": 1,
+        "Technology": 1,
+        "Unknown": 1,
+        "Communication Services": 2
+      }
+    }
+  },
+  {
     "timestamp": "2026-07-08 14:44 IST",
     "budget": 50000.0,
     "allocated": 49451.4,
@@ -1838,42 +1876,6 @@
         "Unknown": 3,
         "Financial Services": 2,
         "Consumer Defensive": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-08-13 12:31 IST",
-    "budget": 50000.0,
-    "allocated": 42222.329999999994,
-    "positions": 5,
-    "summary": {
-      "total_positions": 5,
-      "total_invested": 42222.33,
-      "cash_reserve": 7777.67,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24819.579999999994,
-          "percent": 49.6,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17402.75,
-          "percent": 34.8,
-          "positions": 2
-        },
-        "aggressive": {
-          "amount": 0,
-          "percent": 0.0,
-          "positions": 0
-        }
-      },
-      "expected_gain_percent": 4.4,
-      "max_loss_percent": 3.1,
-      "sector_distribution": {
-        "Unknown": 3,
-        "Consumer Defensive": 1,
-        "Financial Services": 1
       }
     }
   }

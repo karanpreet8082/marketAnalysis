@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-13",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,27 @@
         "invested_today_after": 34168.65,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-13 12:31:06",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 39238.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-13 13:16:33",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 45537.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 34168.65005493164,
+    "invested_today": 45537.050201416016,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -201,6 +219,66 @@
           "rsi": 73.5,
           "vol_factor": 2.0,
           "score": 2.175
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 664.0,
+        "buy_time": "2026-08-13 12:31:06",
+        "iteration": 6,
+        "score_info": {
+          "last": 664.0,
+          "mom_30m_pct": 0.151,
+          "intraday_pct": 1.591,
+          "rsi": 54.0,
+          "vol_factor": 1.0,
+          "score": 0.704
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1206.7,
+        "buy_time": "2026-08-13 12:31:06",
+        "iteration": 6,
+        "score_info": {
+          "last": 1206.7,
+          "mom_30m_pct": 0.266,
+          "intraday_pct": 0.794,
+          "rsi": 54.5,
+          "vol_factor": 1.0,
+          "score": 0.637
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "buy_price": 381.7,
+        "buy_time": "2026-08-13 13:16:33",
+        "iteration": 7,
+        "score_info": {
+          "last": 381.7,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 1.814,
+          "rsi": 51.4,
+          "vol_factor": 1.23,
+          "score": 1.189
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1081.8,
+        "buy_time": "2026-08-13 13:16:33",
+        "iteration": 7,
+        "score_info": {
+          "last": 1081.8,
+          "mom_30m_pct": 0.371,
+          "intraday_pct": 2.395,
+          "rsi": 70.8,
+          "vol_factor": 0.22,
+          "score": 0.497
         }
       }
     ],
@@ -373,6 +451,74 @@
           "rsi": 73.5,
           "vol_factor": 2.0,
           "score": 2.175
+        }
+      },
+      {
+        "time": "2026-08-13 12:31:06",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 664.0,
+        "cost": 2656.0,
+        "score": {
+          "last": 664.0,
+          "mom_30m_pct": 0.151,
+          "intraday_pct": 1.591,
+          "rsi": 54.0,
+          "vol_factor": 1.0,
+          "score": 0.704
+        }
+      },
+      {
+        "time": "2026-08-13 12:31:06",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1206.7,
+        "cost": 2413.4,
+        "score": {
+          "last": 1206.7,
+          "mom_30m_pct": 0.266,
+          "intraday_pct": 0.794,
+          "rsi": 54.5,
+          "vol_factor": 1.0,
+          "score": 0.637
+        }
+      },
+      {
+        "time": "2026-08-13 13:16:33",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "price": 381.7,
+        "cost": 3053.6,
+        "score": {
+          "last": 381.7,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 1.814,
+          "rsi": 51.4,
+          "vol_factor": 1.23,
+          "score": 1.189
+        }
+      },
+      {
+        "time": "2026-08-13 13:16:33",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1081.8,
+        "cost": 3245.4,
+        "score": {
+          "last": 1081.8,
+          "mom_30m_pct": 0.371,
+          "intraday_pct": 2.395,
+          "rsi": 70.8,
+          "vol_factor": 0.22,
+          "score": 0.497
         }
       }
     ],
