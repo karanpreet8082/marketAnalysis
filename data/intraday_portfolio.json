@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-14",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 44816.05,
         "realized_pnl_today_after": 58.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-14 13:14:33",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 49522.35,
+        "realized_pnl_today_after": 106.6,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 44816.04995727539,
-    "realized_pnl_today": 58.000097656249636,
+    "invested_today": 49522.3498840332,
+    "realized_pnl_today": 106.60009765624977,
     "open_positions": [
       {
         "symbol": "BHARTIARTL",
@@ -213,21 +222,6 @@
         }
       },
       {
-        "symbol": "HAVELLS",
-        "qty": 3,
-        "buy_price": 1280.3,
-        "buy_time": "2026-08-14 12:26:55",
-        "iteration": 6,
-        "score_info": {
-          "last": 1280.3,
-          "mom_30m_pct": 0.479,
-          "intraday_pct": 1.066,
-          "rsi": 79.8,
-          "vol_factor": 1.33,
-          "score": -0.134
-        }
-      },
-      {
         "symbol": "KOTAKBANK",
         "qty": 8,
         "buy_price": 392.45,
@@ -240,6 +234,36 @@
           "rsi": 64.4,
           "vol_factor": 0.06,
           "score": -0.171
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1688.4,
+        "buy_time": "2026-08-14 13:14:33",
+        "iteration": 7,
+        "score_info": {
+          "last": 1688.4,
+          "mom_30m_pct": 0.19,
+          "intraday_pct": 2.601,
+          "rsi": 64.0,
+          "vol_factor": 2.0,
+          "score": 2.065
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3017.9,
+        "buy_time": "2026-08-14 13:14:33",
+        "iteration": 7,
+        "score_info": {
+          "last": 3017.9,
+          "mom_30m_pct": 0.186,
+          "intraday_pct": 2.146,
+          "rsi": 44.9,
+          "vol_factor": 1.88,
+          "score": 1.801
         }
       }
     ],
@@ -504,6 +528,52 @@
           "rsi": 64.4,
           "vol_factor": 0.06,
           "score": -0.171
+        }
+      },
+      {
+        "time": "2026-08-14 13:14:32",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1296.5,
+        "buy_price": 1280.3,
+        "pnl": 48.6,
+        "pnl_pct": 1.27,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-14 13:14:33",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1688.4,
+        "cost": 1688.4,
+        "score": {
+          "last": 1688.4,
+          "mom_30m_pct": 0.19,
+          "intraday_pct": 2.601,
+          "rsi": 64.0,
+          "vol_factor": 2.0,
+          "score": 2.065
+        }
+      },
+      {
+        "time": "2026-08-14 13:14:33",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3017.9,
+        "cost": 3017.9,
+        "score": {
+          "last": 3017.9,
+          "mom_30m_pct": 0.186,
+          "intraday_pct": 2.146,
+          "rsi": 44.9,
+          "vol_factor": 1.88,
+          "score": 1.801
         }
       }
     ],
