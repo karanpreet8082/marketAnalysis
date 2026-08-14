@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-07-08 14:44 IST",
+    "budget": 50000.0,
+    "allocated": 49451.4,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49451.4,
+      "cash_reserve": 548.6,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24827.54,
+          "percent": 49.7,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17158.36,
+          "percent": 34.3,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7465.5,
+          "percent": 14.9,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 5.6,
+      "max_loss_percent": 3.9,
+      "sector_distribution": {
+        "Energy": 1,
+        "Financial Services": 2,
+        "Unknown": 3,
+        "Communication Services": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-07-08 16:58 IST",
     "budget": 50000.0,
     "allocated": 49471.969999999994,
@@ -1837,46 +1874,6 @@
         "Unknown": 3,
         "Consumer Defensive": 1,
         "Financial Services": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-08-14 11:34 IST",
-    "budget": 50000.0,
-    "allocated": 49095.590000000004,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 49095.59,
-      "cash_reserve": 904.41,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24730.65,
-          "percent": 49.5,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17174.14,
-          "percent": 34.3,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7190.8,
-          "percent": 14.4,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.2,
-      "max_loss_percent": 3.7,
-      "sector_distribution": {
-        "Unknown": 2,
-        "Financial Services": 1,
-        "Basic Materials": 1,
-        "Consumer Defensive": 1,
-        "Energy": 1,
-        "Consumer Cyclical": 1,
-        "Industrials": 1
       }
     }
   }
