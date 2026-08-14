@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-14",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,10 +48,19 @@
         "invested_today_after": 35817.35,
         "realized_pnl_today_after": 34.2,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-14 12:26:55",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 44816.05,
+        "realized_pnl_today_after": 58.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 35817.34976196289,
-    "realized_pnl_today": 34.19999999999982,
+    "invested_today": 44816.04995727539,
+    "realized_pnl_today": 58.000097656249636,
     "open_positions": [
       {
         "symbol": "BHARTIARTL",
@@ -144,21 +153,6 @@
         }
       },
       {
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "buy_price": 1268.4,
-        "buy_time": "2026-08-14 11:34:42",
-        "iteration": 4,
-        "score_info": {
-          "last": 1268.4,
-          "mom_30m_pct": 0.142,
-          "intraday_pct": 0.883,
-          "rsi": 57.6,
-          "vol_factor": 1.99,
-          "score": 1.467
-        }
-      },
-      {
         "symbol": "BPCL",
         "qty": 11,
         "buy_price": 318.0,
@@ -201,6 +195,51 @@
           "rsi": 60.6,
           "vol_factor": 2.0,
           "score": 1.435
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 2018.2,
+        "buy_time": "2026-08-14 12:26:55",
+        "iteration": 6,
+        "score_info": {
+          "last": 2018.2,
+          "mom_30m_pct": -0.094,
+          "intraday_pct": -0.596,
+          "rsi": 32.1,
+          "vol_factor": 1.66,
+          "score": 0.343
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1280.3,
+        "buy_time": "2026-08-14 12:26:55",
+        "iteration": 6,
+        "score_info": {
+          "last": 1280.3,
+          "mom_30m_pct": 0.479,
+          "intraday_pct": 1.066,
+          "rsi": 79.8,
+          "vol_factor": 1.33,
+          "score": -0.134
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "buy_price": 392.45,
+        "buy_time": "2026-08-14 12:26:55",
+        "iteration": 6,
+        "score_info": {
+          "last": 392.45,
+          "mom_30m_pct": 0.474,
+          "intraday_pct": 0.179,
+          "rsi": 64.4,
+          "vol_factor": 0.06,
+          "score": -0.171
         }
       }
     ],
@@ -402,6 +441,69 @@
           "rsi": 60.6,
           "vol_factor": 2.0,
           "score": 1.435
+        }
+      },
+      {
+        "time": "2026-08-14 12:26:55",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1280.3,
+        "buy_price": 1268.4,
+        "pnl": 23.8,
+        "pnl_pct": 0.94,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-14 12:26:55",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2018.2,
+        "cost": 2018.2,
+        "score": {
+          "last": 2018.2,
+          "mom_30m_pct": -0.094,
+          "intraday_pct": -0.596,
+          "rsi": 32.1,
+          "vol_factor": 1.66,
+          "score": 0.343
+        }
+      },
+      {
+        "time": "2026-08-14 12:26:55",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1280.3,
+        "cost": 3840.9,
+        "score": {
+          "last": 1280.3,
+          "mom_30m_pct": 0.479,
+          "intraday_pct": 1.066,
+          "rsi": 79.8,
+          "vol_factor": 1.33,
+          "score": -0.134
+        }
+      },
+      {
+        "time": "2026-08-14 12:26:55",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 8,
+        "price": 392.45,
+        "cost": 3139.6,
+        "score": {
+          "last": 392.45,
+          "mom_30m_pct": 0.474,
+          "intraday_pct": 0.179,
+          "rsi": 64.4,
+          "vol_factor": 0.06,
+          "score": -0.171
         }
       }
     ],
