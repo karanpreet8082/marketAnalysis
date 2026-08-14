@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-14",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,19 +102,10 @@
         "invested_today_after": 87799.55,
         "realized_pnl_today_after": 118.4,
         "open_positions_after": 19
-      },
-      {
-        "iteration": 12,
-        "time": "2026-08-14 15:16:19",
-        "n_bought": 3,
-        "n_sold": 1,
-        "invested_today_after": 99303.95,
-        "realized_pnl_today_after": 145.8,
-        "open_positions_after": 21
       }
     ],
-    "invested_today": 99303.94985961914,
-    "realized_pnl_today": 145.79999389648407,
+    "invested_today": 87799.54995727539,
+    "realized_pnl_today": 118.39999389648398,
     "open_positions": [
       {
         "symbol": "POWERGRID",
@@ -159,6 +150,21 @@
           "rsi": 96.7,
           "vol_factor": 0.21,
           "score": -0.152
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "buy_price": 1684.3,
+        "buy_time": "2026-08-14 11:21:09",
+        "iteration": 3,
+        "score_info": {
+          "last": 1684.3,
+          "mom_30m_pct": 0.018,
+          "intraday_pct": 2.283,
+          "rsi": 51.8,
+          "vol_factor": 0.05,
+          "score": -0.241
         }
       },
       {
@@ -384,51 +390,6 @@
           "rsi": 60.5,
           "vol_factor": 2.0,
           "score": 1.526
-        }
-      },
-      {
-        "symbol": "ADANIENT",
-        "qty": 1,
-        "buy_price": 3040.0,
-        "buy_time": "2026-08-14 15:16:19",
-        "iteration": 12,
-        "score_info": {
-          "last": 3040.0,
-          "mom_30m_pct": 0.132,
-          "intraday_pct": 2.713,
-          "rsi": 51.7,
-          "vol_factor": 1.84,
-          "score": 1.854
-        }
-      },
-      {
-        "symbol": "ADANIPORTS",
-        "qty": 2,
-        "buy_price": 1698.0,
-        "buy_time": "2026-08-14 15:16:19",
-        "iteration": 12,
-        "score_info": {
-          "last": 1698.0,
-          "mom_30m_pct": 0.242,
-          "intraday_pct": 2.89,
-          "rsi": 63.8,
-          "vol_factor": 1.0,
-          "score": 1.23
-        }
-      },
-      {
-        "symbol": "TITAN",
-        "qty": 1,
-        "buy_price": 5068.4,
-        "buy_time": "2026-08-14 15:16:19",
-        "iteration": 12,
-        "score_info": {
-          "last": 5068.4,
-          "mom_30m_pct": 0.006,
-          "intraday_pct": 0.538,
-          "rsi": 58.4,
-          "vol_factor": 1.96,
-          "score": 1.13
         }
       }
     ],
@@ -928,69 +889,6 @@
           "rsi": 60.5,
           "vol_factor": 2.0,
           "score": 1.526
-        }
-      },
-      {
-        "time": "2026-08-14 15:16:19",
-        "iteration": 12,
-        "action": "SELL",
-        "symbol": "ADANIPORTS",
-        "qty": 2,
-        "price": 1698.0,
-        "buy_price": 1684.3,
-        "pnl": 27.4,
-        "pnl_pct": 0.81,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-08-14 15:16:19",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 1,
-        "price": 3040.0,
-        "cost": 3040.0,
-        "score": {
-          "last": 3040.0,
-          "mom_30m_pct": 0.132,
-          "intraday_pct": 2.713,
-          "rsi": 51.7,
-          "vol_factor": 1.84,
-          "score": 1.854
-        }
-      },
-      {
-        "time": "2026-08-14 15:16:19",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "ADANIPORTS",
-        "qty": 2,
-        "price": 1698.0,
-        "cost": 3396.0,
-        "score": {
-          "last": 1698.0,
-          "mom_30m_pct": 0.242,
-          "intraday_pct": 2.89,
-          "rsi": 63.8,
-          "vol_factor": 1.0,
-          "score": 1.23
-        }
-      },
-      {
-        "time": "2026-08-14 15:16:19",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "TITAN",
-        "qty": 1,
-        "price": 5068.4,
-        "cost": 5068.4,
-        "score": {
-          "last": 5068.4,
-          "mom_30m_pct": 0.006,
-          "intraday_pct": 0.538,
-          "rsi": 58.4,
-          "vol_factor": 1.96,
-          "score": 1.13
         }
       }
     ],
