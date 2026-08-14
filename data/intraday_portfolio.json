@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-14",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,24 +12,63 @@
         "invested_today_after": 3943.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-14 11:09:56",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 13476.75,
+        "realized_pnl_today_after": 34.2,
+        "open_positions_after": 3
       }
     ],
-    "invested_today": 3943.800048828125,
-    "realized_pnl_today": 0.0,
+    "invested_today": 13476.74984741211,
+    "realized_pnl_today": 34.19999999999982,
     "open_positions": [
       {
         "symbol": "BHARTIARTL",
-        "qty": 2,
-        "buy_price": 1971.9,
-        "buy_time": "2026-08-14 10:49:57",
-        "iteration": 1,
+        "qty": 1,
+        "buy_price": 1989.0,
+        "buy_time": "2026-08-14 11:09:56",
+        "iteration": 2,
         "score_info": {
-          "last": 1971.9,
-          "mom_30m_pct": 1.347,
-          "intraday_pct": 0.561,
-          "rsi": 84.9,
-          "vol_factor": 2.0,
-          "score": 1.688
+          "last": 1989.0,
+          "mom_30m_pct": 1.635,
+          "intraday_pct": 1.35,
+          "rsi": 92.6,
+          "vol_factor": 1.61,
+          "score": 1.971
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 17,
+        "buy_price": 267.15,
+        "buy_time": "2026-08-14 11:09:56",
+        "iteration": 2,
+        "score_info": {
+          "last": 267.15,
+          "mom_30m_pct": 0.263,
+          "intraday_pct": 0.244,
+          "rsi": 57.9,
+          "vol_factor": 1.66,
+          "score": 1.127
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3002.4,
+        "buy_time": "2026-08-14 11:09:56",
+        "iteration": 2,
+        "score_info": {
+          "last": 3002.4,
+          "mom_30m_pct": 0.462,
+          "intraday_pct": 1.053,
+          "rsi": 44.2,
+          "vol_factor": 0.57,
+          "score": 0.576
         }
       }
     ],
@@ -49,6 +88,69 @@
           "rsi": 84.9,
           "vol_factor": 2.0,
           "score": 1.688
+        }
+      },
+      {
+        "time": "2026-08-14 11:09:56",
+        "iteration": 2,
+        "action": "SELL",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 1989.0,
+        "buy_price": 1971.9,
+        "pnl": 34.2,
+        "pnl_pct": 0.87,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-14 11:09:56",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1989.0,
+        "cost": 1989.0,
+        "score": {
+          "last": 1989.0,
+          "mom_30m_pct": 1.635,
+          "intraday_pct": 1.35,
+          "rsi": 92.6,
+          "vol_factor": 1.61,
+          "score": 1.971
+        }
+      },
+      {
+        "time": "2026-08-14 11:09:56",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 17,
+        "price": 267.15,
+        "cost": 4541.55,
+        "score": {
+          "last": 267.15,
+          "mom_30m_pct": 0.263,
+          "intraday_pct": 0.244,
+          "rsi": 57.9,
+          "vol_factor": 1.66,
+          "score": 1.127
+        }
+      },
+      {
+        "time": "2026-08-14 11:09:56",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3002.4,
+        "cost": 3002.4,
+        "score": {
+          "last": 3002.4,
+          "mom_30m_pct": 0.462,
+          "intraday_pct": 1.053,
+          "rsi": 44.2,
+          "vol_factor": 0.57,
+          "score": 0.576
         }
       }
     ],
