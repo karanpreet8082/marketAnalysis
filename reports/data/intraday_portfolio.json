@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-14",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 58111.45,
         "realized_pnl_today_after": 77.2,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-14 13:53:19",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 67648.15,
+        "realized_pnl_today_after": 77.2,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 58111.44998168945,
+    "invested_today": 67648.14993286133,
     "realized_pnl_today": 77.20014038085907,
     "open_positions": [
       {
@@ -303,6 +312,51 @@
           "rsi": 61.8,
           "vol_factor": 1.25,
           "score": 0.273
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 2024.8,
+        "buy_time": "2026-08-14 13:53:19",
+        "iteration": 9,
+        "score_info": {
+          "last": 2024.8,
+          "mom_30m_pct": 0.267,
+          "intraday_pct": -0.133,
+          "rsi": 65.8,
+          "vol_factor": 2.0,
+          "score": 1.361
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 18,
+        "buy_price": 267.0,
+        "buy_time": "2026-08-14 13:53:19",
+        "iteration": 9,
+        "score_info": {
+          "last": 267.0,
+          "mom_30m_pct": 0.169,
+          "intraday_pct": -0.037,
+          "rsi": 57.5,
+          "vol_factor": 2.0,
+          "score": 1.242
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2705.9,
+        "buy_time": "2026-08-14 13:53:19",
+        "iteration": 9,
+        "score_info": {
+          "last": 2705.9,
+          "mom_30m_pct": 0.445,
+          "intraday_pct": -1.482,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 1.224
         }
       }
     ],
@@ -676,6 +730,57 @@
           "rsi": 61.8,
           "vol_factor": 1.25,
           "score": 0.273
+        }
+      },
+      {
+        "time": "2026-08-14 13:53:19",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2024.8,
+        "cost": 2024.8,
+        "score": {
+          "last": 2024.8,
+          "mom_30m_pct": 0.267,
+          "intraday_pct": -0.133,
+          "rsi": 65.8,
+          "vol_factor": 2.0,
+          "score": 1.361
+        }
+      },
+      {
+        "time": "2026-08-14 13:53:19",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 18,
+        "price": 267.0,
+        "cost": 4806.0,
+        "score": {
+          "last": 267.0,
+          "mom_30m_pct": 0.169,
+          "intraday_pct": -0.037,
+          "rsi": 57.5,
+          "vol_factor": 2.0,
+          "score": 1.242
+        }
+      },
+      {
+        "time": "2026-08-14 13:53:19",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2705.9,
+        "cost": 2705.9,
+        "score": {
+          "last": 2705.9,
+          "mom_30m_pct": 0.445,
+          "intraday_pct": -1.482,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 1.224
         }
       }
     ],
