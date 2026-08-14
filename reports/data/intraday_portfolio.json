@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-14",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,10 +93,19 @@
         "invested_today_after": 76995.95,
         "realized_pnl_today_after": 93.4,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-14 14:59:15",
+        "n_bought": 1,
+        "n_sold": 1,
+        "invested_today_after": 87799.55,
+        "realized_pnl_today_after": 118.4,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 76995.94973754883,
-    "realized_pnl_today": 93.40009155273407,
+    "invested_today": 87799.54995727539,
+    "realized_pnl_today": 118.39999389648398,
     "open_positions": [
       {
         "symbol": "POWERGRID",
@@ -249,21 +258,6 @@
         }
       },
       {
-        "symbol": "ADANIENT",
-        "qty": 1,
-        "buy_price": 3017.9,
-        "buy_time": "2026-08-14 13:14:33",
-        "iteration": 7,
-        "score_info": {
-          "last": 3017.9,
-          "mom_30m_pct": 0.186,
-          "intraday_pct": 2.146,
-          "rsi": 44.9,
-          "vol_factor": 1.88,
-          "score": 1.801
-        }
-      },
-      {
         "symbol": "ADANIPORTS",
         "qty": 1,
         "buy_price": 1691.8,
@@ -381,6 +375,21 @@
           "rsi": 73.0,
           "vol_factor": 0.1,
           "score": 0.723
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 9,
+        "buy_price": 1200.4,
+        "buy_time": "2026-08-14 14:59:15",
+        "iteration": 11,
+        "score_info": {
+          "last": 1200.4,
+          "mom_30m_pct": 0.452,
+          "intraday_pct": -0.506,
+          "rsi": 60.5,
+          "vol_factor": 2.0,
+          "score": 1.526
         }
       }
     ],
@@ -851,6 +860,35 @@
           "rsi": 73.0,
           "vol_factor": 0.1,
           "score": 0.723
+        }
+      },
+      {
+        "time": "2026-08-14 14:59:15",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3042.9,
+        "buy_price": 3017.9,
+        "pnl": 25.0,
+        "pnl_pct": 0.83,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-14 14:59:15",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 9,
+        "price": 1200.4,
+        "cost": 10803.6,
+        "score": {
+          "last": 1200.4,
+          "mom_30m_pct": 0.452,
+          "intraday_pct": -0.506,
+          "rsi": 60.5,
+          "vol_factor": 2.0,
+          "score": 1.526
         }
       }
     ],
