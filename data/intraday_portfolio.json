@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-14",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,10 +66,19 @@
         "invested_today_after": 49522.35,
         "realized_pnl_today_after": 106.6,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-14 13:27:39",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 58111.45,
+        "realized_pnl_today_after": 77.2,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 49522.3498840332,
-    "realized_pnl_today": 106.60009765624977,
+    "invested_today": 58111.44998168945,
+    "realized_pnl_today": 77.20014038085907,
     "open_positions": [
       {
         "symbol": "BHARTIARTL",
@@ -144,21 +153,6 @@
           "rsi": 51.8,
           "vol_factor": 0.05,
           "score": -0.241
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 7,
-        "buy_price": 388.8,
-        "buy_time": "2026-08-14 11:34:42",
-        "iteration": 4,
-        "score_info": {
-          "last": 388.8,
-          "mom_30m_pct": 0.569,
-          "intraday_pct": 2.397,
-          "rsi": 69.7,
-          "vol_factor": 1.17,
-          "score": 1.744
         }
       },
       {
@@ -264,6 +258,51 @@
           "rsi": 44.9,
           "vol_factor": 1.88,
           "score": 1.801
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1691.8,
+        "buy_time": "2026-08-14 13:27:39",
+        "iteration": 8,
+        "score_info": {
+          "last": 1691.8,
+          "mom_30m_pct": 0.356,
+          "intraday_pct": 2.77,
+          "rsi": 67.1,
+          "vol_factor": 0.83,
+          "score": 1.197
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 12,
+        "buy_price": 406.35,
+        "buy_time": "2026-08-14 13:27:39",
+        "iteration": 8,
+        "score_info": {
+          "last": 406.35,
+          "mom_30m_pct": -0.086,
+          "intraday_pct": -0.356,
+          "rsi": 31.2,
+          "vol_factor": 2.0,
+          "score": 0.764
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 2021.1,
+        "buy_time": "2026-08-14 13:27:39",
+        "iteration": 8,
+        "score_info": {
+          "last": 2021.1,
+          "mom_30m_pct": 0.054,
+          "intraday_pct": -0.193,
+          "rsi": 61.8,
+          "vol_factor": 1.25,
+          "score": 0.273
         }
       }
     ],
@@ -574,6 +613,69 @@
           "rsi": 44.9,
           "vol_factor": 1.88,
           "score": 1.801
+        }
+      },
+      {
+        "time": "2026-08-14 13:27:39",
+        "iteration": 8,
+        "action": "SELL",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 384.6,
+        "buy_price": 388.8,
+        "pnl": -29.4,
+        "pnl_pct": -1.08,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-14 13:27:39",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1691.8,
+        "cost": 1691.8,
+        "score": {
+          "last": 1691.8,
+          "mom_30m_pct": 0.356,
+          "intraday_pct": 2.77,
+          "rsi": 67.1,
+          "vol_factor": 0.83,
+          "score": 1.197
+        }
+      },
+      {
+        "time": "2026-08-14 13:27:39",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 12,
+        "price": 406.35,
+        "cost": 4876.2,
+        "score": {
+          "last": 406.35,
+          "mom_30m_pct": -0.086,
+          "intraday_pct": -0.356,
+          "rsi": 31.2,
+          "vol_factor": 2.0,
+          "score": 0.764
+        }
+      },
+      {
+        "time": "2026-08-14 13:27:39",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2021.1,
+        "cost": 2021.1,
+        "score": {
+          "last": 2021.1,
+          "mom_30m_pct": 0.054,
+          "intraday_pct": -0.193,
+          "rsi": 61.8,
+          "vol_factor": 1.25,
+          "score": 0.273
         }
       }
     ],
