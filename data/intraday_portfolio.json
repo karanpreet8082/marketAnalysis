@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-14",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13476.75,
         "realized_pnl_today_after": 34.2,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-08-14 11:21:09",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 20839.55,
+        "realized_pnl_today_after": 34.2,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 13476.74984741211,
+    "invested_today": 20839.549896240234,
     "realized_pnl_today": 34.19999999999982,
     "open_positions": [
       {
@@ -69,6 +78,36 @@
           "rsi": 44.2,
           "vol_factor": 0.57,
           "score": 0.576
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 1997.1,
+        "buy_time": "2026-08-14 11:21:09",
+        "iteration": 3,
+        "score_info": {
+          "last": 1997.1,
+          "mom_30m_pct": 1.047,
+          "intraday_pct": 1.898,
+          "rsi": 96.7,
+          "vol_factor": 0.21,
+          "score": -0.152
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "buy_price": 1684.3,
+        "buy_time": "2026-08-14 11:21:09",
+        "iteration": 3,
+        "score_info": {
+          "last": 1684.3,
+          "mom_30m_pct": 0.018,
+          "intraday_pct": 2.283,
+          "rsi": 51.8,
+          "vol_factor": 0.05,
+          "score": -0.241
         }
       }
     ],
@@ -151,6 +190,40 @@
           "rsi": 44.2,
           "vol_factor": 0.57,
           "score": 0.576
+        }
+      },
+      {
+        "time": "2026-08-14 11:21:09",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 1997.1,
+        "cost": 3994.2,
+        "score": {
+          "last": 1997.1,
+          "mom_30m_pct": 1.047,
+          "intraday_pct": 1.898,
+          "rsi": 96.7,
+          "vol_factor": 0.21,
+          "score": -0.152
+        }
+      },
+      {
+        "time": "2026-08-14 11:21:09",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "price": 1684.3,
+        "cost": 3368.6,
+        "score": {
+          "last": 1684.3,
+          "mom_30m_pct": 0.018,
+          "intraday_pct": 2.283,
+          "rsi": 51.8,
+          "vol_factor": 0.05,
+          "score": -0.241
         }
       }
     ],
