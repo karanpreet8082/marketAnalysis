@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-17",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 39418.46,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-17 11:33:17",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 47846.26,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 39418.45974731445,
+    "invested_today": 47846.259857177734,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -231,6 +240,51 @@
           "rsi": 50.0,
           "vol_factor": 1.0,
           "score": 0.546
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 1039.5,
+        "buy_time": "2026-08-17 11:33:17",
+        "iteration": 6,
+        "score_info": {
+          "last": 1039.5,
+          "mom_30m_pct": 0.483,
+          "intraday_pct": 1.217,
+          "rsi": 62.5,
+          "vol_factor": 1.08,
+          "score": 1.175
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1409.5,
+        "buy_time": "2026-08-17 11:33:17",
+        "iteration": 6,
+        "score_info": {
+          "last": 1409.5,
+          "mom_30m_pct": 0.092,
+          "intraday_pct": 0.043,
+          "rsi": 40.7,
+          "vol_factor": 2.0,
+          "score": 1.151
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 392.2,
+        "buy_time": "2026-08-17 11:33:17",
+        "iteration": 6,
+        "score_info": {
+          "last": 392.2,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 0.294,
+          "rsi": 69.1,
+          "vol_factor": 2.0,
+          "score": 1.088
         }
       }
     ],
@@ -437,6 +491,57 @@
           "rsi": 50.0,
           "vol_factor": 1.0,
           "score": 0.546
+        }
+      },
+      {
+        "time": "2026-08-17 11:33:17",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 1039.5,
+        "cost": 2079.0,
+        "score": {
+          "last": 1039.5,
+          "mom_30m_pct": 0.483,
+          "intraday_pct": 1.217,
+          "rsi": 62.5,
+          "vol_factor": 1.08,
+          "score": 1.175
+        }
+      },
+      {
+        "time": "2026-08-17 11:33:17",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1409.5,
+        "cost": 2819.0,
+        "score": {
+          "last": 1409.5,
+          "mom_30m_pct": 0.092,
+          "intraday_pct": 0.043,
+          "rsi": 40.7,
+          "vol_factor": 2.0,
+          "score": 1.151
+        }
+      },
+      {
+        "time": "2026-08-17 11:33:17",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 392.2,
+        "cost": 3529.8,
+        "score": {
+          "last": 392.2,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 0.294,
+          "rsi": 69.1,
+          "vol_factor": 2.0,
+          "score": 1.088
         }
       }
     ],
