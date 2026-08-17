@@ -1,5 +1,228 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-17",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-17 09:56:14",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8288.66,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-17 10:15:45",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16469.66,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
+      }
+    ],
+    "invested_today": 16469.659912109375,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1299.0,
+        "buy_time": "2026-08-17 09:56:14",
+        "iteration": 1,
+        "score_info": {
+          "last": 1299.0,
+          "mom_30m_pct": 1.231,
+          "intraday_pct": 2.639,
+          "rsi": 53.9,
+          "vol_factor": 0.13,
+          "score": 1.77
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1195.0,
+        "buy_time": "2026-08-17 09:56:14",
+        "iteration": 1,
+        "score_info": {
+          "last": 1195.0,
+          "mom_30m_pct": 1.271,
+          "intraday_pct": 0.05,
+          "rsi": 46.1,
+          "vol_factor": 0.26,
+          "score": 1.181
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 18,
+        "buy_price": 183.37,
+        "buy_time": "2026-08-17 09:56:14",
+        "iteration": 1,
+        "score_info": {
+          "last": 183.37,
+          "mom_30m_pct": 0.515,
+          "intraday_pct": 0.991,
+          "rsi": 46.7,
+          "vol_factor": 0.1,
+          "score": 0.169
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1302.9,
+        "buy_time": "2026-08-17 10:15:45",
+        "iteration": 2,
+        "score_info": {
+          "last": 1302.9,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 2.85,
+          "rsi": 56.1,
+          "vol_factor": 1.0,
+          "score": 1.166
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1986.9,
+        "buy_time": "2026-08-17 10:15:45",
+        "iteration": 2,
+        "score_info": {
+          "last": 1986.9,
+          "mom_30m_pct": 0.081,
+          "intraday_pct": 1.997,
+          "rsi": 42.5,
+          "vol_factor": 1.0,
+          "score": 0.72
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 3,
+        "buy_price": 1196.1,
+        "buy_time": "2026-08-17 10:15:45",
+        "iteration": 2,
+        "score_info": {
+          "last": 1196.1,
+          "mom_30m_pct": 0.496,
+          "intraday_pct": -0.192,
+          "rsi": 45.0,
+          "vol_factor": 1.0,
+          "score": 0.686
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-17 09:56:14",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1299.0,
+        "cost": 2598.0,
+        "score": {
+          "last": 1299.0,
+          "mom_30m_pct": 1.231,
+          "intraday_pct": 2.639,
+          "rsi": 53.9,
+          "vol_factor": 0.13,
+          "score": 1.77
+        }
+      },
+      {
+        "time": "2026-08-17 09:56:14",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1195.0,
+        "cost": 2390.0,
+        "score": {
+          "last": 1195.0,
+          "mom_30m_pct": 1.271,
+          "intraday_pct": 0.05,
+          "rsi": 46.1,
+          "vol_factor": 0.26,
+          "score": 1.181
+        }
+      },
+      {
+        "time": "2026-08-17 09:56:14",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 18,
+        "price": 183.37,
+        "cost": 3300.66,
+        "score": {
+          "last": 183.37,
+          "mom_30m_pct": 0.515,
+          "intraday_pct": 0.991,
+          "rsi": 46.7,
+          "vol_factor": 0.1,
+          "score": 0.169
+        }
+      },
+      {
+        "time": "2026-08-17 10:15:45",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1302.9,
+        "cost": 2605.8,
+        "score": {
+          "last": 1302.9,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 2.85,
+          "rsi": 56.1,
+          "vol_factor": 1.0,
+          "score": 1.166
+        }
+      },
+      {
+        "time": "2026-08-17 10:15:45",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1986.9,
+        "cost": 1986.9,
+        "score": {
+          "last": 1986.9,
+          "mom_30m_pct": 0.081,
+          "intraday_pct": 1.997,
+          "rsi": 42.5,
+          "vol_factor": 1.0,
+          "score": 0.72
+        }
+      },
+      {
+        "time": "2026-08-17 10:15:45",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 3,
+        "price": 1196.1,
+        "cost": 3588.3,
+        "score": {
+          "last": 1196.1,
+          "mom_30m_pct": 0.496,
+          "intraday_pct": -0.192,
+          "rsi": 45.0,
+          "vol_factor": 1.0,
+          "score": 0.686
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
