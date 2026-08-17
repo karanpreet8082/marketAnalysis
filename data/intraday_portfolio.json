@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-17",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 56512.46,
         "realized_pnl_today_after": 57.6,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-17 13:02:26",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 62231.36,
+        "realized_pnl_today_after": 57.6,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 56512.460052490234,
+    "invested_today": 62231.36016845703,
     "realized_pnl_today": 57.59999999999991,
     "open_positions": [
       {
@@ -294,6 +303,36 @@
           "rsi": 65.6,
           "vol_factor": 1.0,
           "score": 0.649
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 407.1,
+        "buy_time": "2026-08-17 13:02:26",
+        "iteration": 8,
+        "score_info": {
+          "last": 407.1,
+          "mom_30m_pct": 0.172,
+          "intraday_pct": 0.098,
+          "rsi": 71.9,
+          "vol_factor": 2.0,
+          "score": 1.288
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 12,
+        "buy_price": 239.1,
+        "buy_time": "2026-08-17 13:02:26",
+        "iteration": 8,
+        "score_info": {
+          "last": 239.1,
+          "mom_30m_pct": 0.669,
+          "intraday_pct": 1.309,
+          "rsi": 73.0,
+          "vol_factor": 0.15,
+          "score": 0.546
         }
       }
     ],
@@ -609,6 +648,40 @@
           "rsi": 65.6,
           "vol_factor": 1.0,
           "score": 0.649
+        }
+      },
+      {
+        "time": "2026-08-17 13:02:26",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 407.1,
+        "cost": 2849.7,
+        "score": {
+          "last": 407.1,
+          "mom_30m_pct": 0.172,
+          "intraday_pct": 0.098,
+          "rsi": 71.9,
+          "vol_factor": 2.0,
+          "score": 1.288
+        }
+      },
+      {
+        "time": "2026-08-17 13:02:26",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 12,
+        "price": 239.1,
+        "cost": 2869.2,
+        "score": {
+          "last": 239.1,
+          "mom_30m_pct": 0.669,
+          "intraday_pct": 1.309,
+          "rsi": 73.0,
+          "vol_factor": 0.15,
+          "score": 0.546
         }
       }
     ],
