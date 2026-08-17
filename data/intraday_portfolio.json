@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-17",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,10 +111,19 @@
         "invested_today_after": 99805.76,
         "realized_pnl_today_after": 205.3,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-17 15:30:53",
+        "n_bought": 0,
+        "n_sold": 1,
+        "invested_today_after": 99805.76,
+        "realized_pnl_today_after": 228.3,
+        "open_positions_after": 20
       }
     ],
     "invested_today": 99805.75970458984,
-    "realized_pnl_today": 205.3000097656249,
+    "realized_pnl_today": 228.3000097656249,
     "open_positions": [
       {
         "symbol": "DRREDDY",
@@ -219,21 +228,6 @@
           "rsi": 50.0,
           "vol_factor": 1.0,
           "score": 0.546
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "buy_price": 1409.5,
-        "buy_time": "2026-08-17 11:33:17",
-        "iteration": 6,
-        "score_info": {
-          "last": 1409.5,
-          "mom_30m_pct": 0.092,
-          "intraday_pct": 0.043,
-          "rsi": 40.7,
-          "vol_factor": 2.0,
-          "score": 1.151
         }
       },
       {
@@ -992,6 +986,18 @@
           "vol_factor": 1.0,
           "score": 0.76
         }
+      },
+      {
+        "time": "2026-08-17 15:30:53",
+        "iteration": 13,
+        "action": "SELL",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1421.0,
+        "buy_price": 1409.5,
+        "pnl": 23.0,
+        "pnl_pct": 0.82,
+        "reason": "TAKE_PROFIT"
       }
     ],
     "closed": false
