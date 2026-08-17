@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-17",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,10 +102,19 @@
         "invested_today_after": 88531.46,
         "realized_pnl_today_after": 146.8,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-17 14:55:35",
+        "n_bought": 3,
+        "n_sold": 2,
+        "invested_today_after": 99805.76,
+        "realized_pnl_today_after": 205.3,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 88531.45989990234,
-    "realized_pnl_today": 146.80011962890626,
+    "invested_today": 99805.75970458984,
+    "realized_pnl_today": 205.3000097656249,
     "open_positions": [
       {
         "symbol": "DRREDDY",
@@ -198,21 +207,6 @@
         }
       },
       {
-        "symbol": "KOTAKBANK",
-        "qty": 9,
-        "buy_price": 392.1,
-        "buy_time": "2026-08-17 10:51:25",
-        "iteration": 4,
-        "score_info": {
-          "last": 392.1,
-          "mom_30m_pct": 0.243,
-          "intraday_pct": 0.166,
-          "rsi": 45.7,
-          "vol_factor": 0.12,
-          "score": -0.471
-        }
-      },
-      {
         "symbol": "M&M",
         "qty": 2,
         "buy_price": 3405.0,
@@ -240,21 +234,6 @@
           "rsi": 40.7,
           "vol_factor": 2.0,
           "score": 1.151
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 9,
-        "buy_price": 392.2,
-        "buy_time": "2026-08-17 11:33:17",
-        "iteration": 6,
-        "score_info": {
-          "last": 392.2,
-          "mom_30m_pct": 0.0,
-          "intraday_pct": 0.294,
-          "rsi": 69.1,
-          "vol_factor": 2.0,
-          "score": 1.088
         }
       },
       {
@@ -405,6 +384,51 @@
           "rsi": 72.0,
           "vol_factor": 0.37,
           "score": 0.063
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 673.0,
+        "buy_time": "2026-08-17 14:55:35",
+        "iteration": 12,
+        "score_info": {
+          "last": 673.0,
+          "mom_30m_pct": 0.448,
+          "intraday_pct": 0.93,
+          "rsi": 63.5,
+          "vol_factor": 1.0,
+          "score": 0.951
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 3,
+        "buy_price": 1234.5,
+        "buy_time": "2026-08-17 14:55:35",
+        "iteration": 12,
+        "score_info": {
+          "last": 1234.5,
+          "mom_30m_pct": 0.317,
+          "intraday_pct": 1.496,
+          "rsi": 70.9,
+          "vol_factor": 1.0,
+          "score": 0.924
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 4,
+        "buy_price": 1051.45,
+        "buy_time": "2026-08-17 14:55:35",
+        "iteration": 12,
+        "score_info": {
+          "last": 1051.45,
+          "mom_30m_pct": 0.162,
+          "intraday_pct": 1.722,
+          "rsi": 45.5,
+          "vol_factor": 1.0,
+          "score": 0.76
         }
       }
     ],
@@ -892,6 +916,81 @@
           "rsi": 72.0,
           "vol_factor": 0.37,
           "score": 0.063
+        }
+      },
+      {
+        "time": "2026-08-17 14:55:35",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 395.4,
+        "buy_price": 392.1,
+        "pnl": 29.7,
+        "pnl_pct": 0.84,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-17 14:55:35",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 395.4,
+        "buy_price": 392.2,
+        "pnl": 28.8,
+        "pnl_pct": 0.82,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-17 14:55:35",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 673.0,
+        "cost": 3365.0,
+        "score": {
+          "last": 673.0,
+          "mom_30m_pct": 0.448,
+          "intraday_pct": 0.93,
+          "rsi": 63.5,
+          "vol_factor": 1.0,
+          "score": 0.951
+        }
+      },
+      {
+        "time": "2026-08-17 14:55:35",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 3,
+        "price": 1234.5,
+        "cost": 3703.5,
+        "score": {
+          "last": 1234.5,
+          "mom_30m_pct": 0.317,
+          "intraday_pct": 1.496,
+          "rsi": 70.9,
+          "vol_factor": 1.0,
+          "score": 0.924
+        }
+      },
+      {
+        "time": "2026-08-17 14:55:35",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 4,
+        "price": 1051.45,
+        "cost": 4205.8,
+        "score": {
+          "last": 1051.45,
+          "mom_30m_pct": 0.162,
+          "intraday_pct": 1.722,
+          "rsi": 45.5,
+          "vol_factor": 1.0,
+          "score": 0.76
         }
       }
     ],
