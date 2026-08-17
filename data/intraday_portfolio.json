@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-17",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 16469.66,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 3,
+        "time": "2026-08-17 10:33:47",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 24409.96,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 16469.659912109375,
+    "invested_today": 24409.959838867188,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -114,6 +123,36 @@
           "rsi": 45.0,
           "vol_factor": 1.0,
           "score": 0.686
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1984.9,
+        "buy_time": "2026-08-17 10:33:47",
+        "iteration": 3,
+        "score_info": {
+          "last": 1984.9,
+          "mom_30m_pct": -0.151,
+          "intraday_pct": 1.999,
+          "rsi": 42.2,
+          "vol_factor": 0.5,
+          "score": -0.126
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 2,
+        "buy_price": 2977.7,
+        "buy_time": "2026-08-17 10:33:47",
+        "iteration": 3,
+        "score_info": {
+          "last": 2977.7,
+          "mom_30m_pct": 0.415,
+          "intraday_pct": -0.826,
+          "rsi": 54.6,
+          "vol_factor": 0.12,
+          "score": -0.504
         }
       }
     ],
@@ -218,6 +257,40 @@
           "rsi": 45.0,
           "vol_factor": 1.0,
           "score": 0.686
+        }
+      },
+      {
+        "time": "2026-08-17 10:33:47",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1984.9,
+        "cost": 1984.9,
+        "score": {
+          "last": 1984.9,
+          "mom_30m_pct": -0.151,
+          "intraday_pct": 1.999,
+          "rsi": 42.2,
+          "vol_factor": 0.5,
+          "score": -0.126
+        }
+      },
+      {
+        "time": "2026-08-17 10:33:47",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 2,
+        "price": 2977.7,
+        "cost": 5955.4,
+        "score": {
+          "last": 2977.7,
+          "mom_30m_pct": 0.415,
+          "intraday_pct": -0.826,
+          "rsi": 54.6,
+          "vol_factor": 0.12,
+          "score": -0.504
         }
       }
     ],
