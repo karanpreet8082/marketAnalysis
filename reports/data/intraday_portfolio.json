@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-17",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 32608.46,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-17 11:15:15",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 39418.46,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 32608.459747314453,
+    "invested_today": 39418.45974731445,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -207,6 +216,21 @@
           "rsi": 45.7,
           "vol_factor": 0.12,
           "score": -0.471
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 2,
+        "buy_price": 3405.0,
+        "buy_time": "2026-08-17 11:15:15",
+        "iteration": 5,
+        "score_info": {
+          "last": 3405.0,
+          "mom_30m_pct": 0.336,
+          "intraday_pct": 0.141,
+          "rsi": 50.0,
+          "vol_factor": 1.0,
+          "score": 0.546
         }
       }
     ],
@@ -396,6 +420,23 @@
           "rsi": 45.7,
           "vol_factor": 0.12,
           "score": -0.471
+        }
+      },
+      {
+        "time": "2026-08-17 11:15:15",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 2,
+        "price": 3405.0,
+        "cost": 6810.0,
+        "score": {
+          "last": 3405.0,
+          "mom_30m_pct": 0.336,
+          "intraday_pct": 0.141,
+          "rsi": 50.0,
+          "vol_factor": 1.0,
+          "score": 0.546
         }
       }
     ],
