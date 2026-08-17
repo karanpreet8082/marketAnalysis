@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-17",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 24409.96,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 4,
+        "time": "2026-08-17 10:51:25",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 32608.46,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-17 11:15:15",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 39418.46,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 24409.959838867188,
+    "invested_today": 39418.45974731445,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -153,6 +171,66 @@
           "rsi": 54.6,
           "vol_factor": 0.12,
           "score": -0.504
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1297.2,
+        "buy_time": "2026-08-17 10:51:25",
+        "iteration": 4,
+        "score_info": {
+          "last": 1297.2,
+          "mom_30m_pct": -0.131,
+          "intraday_pct": 2.505,
+          "rsi": 58.2,
+          "vol_factor": 0.02,
+          "score": -0.422
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 1037.6,
+        "buy_time": "2026-08-17 10:51:25",
+        "iteration": 4,
+        "score_info": {
+          "last": 1037.6,
+          "mom_30m_pct": 0.087,
+          "intraday_pct": 1.229,
+          "rsi": 43.7,
+          "vol_factor": 0.06,
+          "score": -0.439
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 392.1,
+        "buy_time": "2026-08-17 10:51:25",
+        "iteration": 4,
+        "score_info": {
+          "last": 392.1,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 0.166,
+          "rsi": 45.7,
+          "vol_factor": 0.12,
+          "score": -0.471
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 2,
+        "buy_price": 3405.0,
+        "buy_time": "2026-08-17 11:15:15",
+        "iteration": 5,
+        "score_info": {
+          "last": 3405.0,
+          "mom_30m_pct": 0.336,
+          "intraday_pct": 0.141,
+          "rsi": 50.0,
+          "vol_factor": 1.0,
+          "score": 0.546
         }
       }
     ],
@@ -291,6 +369,74 @@
           "rsi": 54.6,
           "vol_factor": 0.12,
           "score": -0.504
+        }
+      },
+      {
+        "time": "2026-08-17 10:51:25",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1297.2,
+        "cost": 2594.4,
+        "score": {
+          "last": 1297.2,
+          "mom_30m_pct": -0.131,
+          "intraday_pct": 2.505,
+          "rsi": 58.2,
+          "vol_factor": 0.02,
+          "score": -0.422
+        }
+      },
+      {
+        "time": "2026-08-17 10:51:25",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 1037.6,
+        "cost": 2075.2,
+        "score": {
+          "last": 1037.6,
+          "mom_30m_pct": 0.087,
+          "intraday_pct": 1.229,
+          "rsi": 43.7,
+          "vol_factor": 0.06,
+          "score": -0.439
+        }
+      },
+      {
+        "time": "2026-08-17 10:51:25",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 392.1,
+        "cost": 3528.9,
+        "score": {
+          "last": 392.1,
+          "mom_30m_pct": 0.243,
+          "intraday_pct": 0.166,
+          "rsi": 45.7,
+          "vol_factor": 0.12,
+          "score": -0.471
+        }
+      },
+      {
+        "time": "2026-08-17 11:15:15",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 2,
+        "price": 3405.0,
+        "cost": 6810.0,
+        "score": {
+          "last": 3405.0,
+          "mom_30m_pct": 0.336,
+          "intraday_pct": 0.141,
+          "rsi": 50.0,
+          "vol_factor": 1.0,
+          "score": 0.546
         }
       }
     ],
