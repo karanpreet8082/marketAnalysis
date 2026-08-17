@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-17",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,26 +57,20 @@
         "invested_today_after": 47846.26,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-17 12:40:53",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 56512.46,
+        "realized_pnl_today_after": 57.6,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 47846.259857177734,
-    "realized_pnl_today": 0.0,
+    "invested_today": 56512.460052490234,
+    "realized_pnl_today": 57.59999999999991,
     "open_positions": [
-      {
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "buy_price": 1299.0,
-        "buy_time": "2026-08-17 09:56:14",
-        "iteration": 1,
-        "score_info": {
-          "last": 1299.0,
-          "mom_30m_pct": 1.231,
-          "intraday_pct": 2.639,
-          "rsi": 53.9,
-          "vol_factor": 0.13,
-          "score": 1.77
-        }
-      },
       {
         "symbol": "DRREDDY",
         "qty": 2,
@@ -183,21 +177,6 @@
         }
       },
       {
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "buy_price": 1297.2,
-        "buy_time": "2026-08-17 10:51:25",
-        "iteration": 4,
-        "score_info": {
-          "last": 1297.2,
-          "mom_30m_pct": -0.131,
-          "intraday_pct": 2.505,
-          "rsi": 58.2,
-          "vol_factor": 0.02,
-          "score": -0.422
-        }
-      },
-      {
         "symbol": "HINDALCO",
         "qty": 2,
         "buy_price": 1037.6,
@@ -285,6 +264,36 @@
           "rsi": 69.1,
           "vol_factor": 2.0,
           "score": 1.088
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 1044.2,
+        "buy_time": "2026-08-17 12:40:53",
+        "iteration": 7,
+        "score_info": {
+          "last": 1044.2,
+          "mom_30m_pct": 0.365,
+          "intraday_pct": 1.143,
+          "rsi": 66.8,
+          "vol_factor": 1.0,
+          "score": 0.891
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 6,
+        "buy_price": 1096.3,
+        "buy_time": "2026-08-17 12:40:53",
+        "iteration": 7,
+        "score_info": {
+          "last": 1096.3,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": 0.698,
+          "rsi": 65.6,
+          "vol_factor": 1.0,
+          "score": 0.649
         }
       }
     ],
@@ -542,6 +551,64 @@
           "rsi": 69.1,
           "vol_factor": 2.0,
           "score": 1.088
+        }
+      },
+      {
+        "time": "2026-08-17 12:40:53",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1312.5,
+        "buy_price": 1299.0,
+        "pnl": 27.0,
+        "pnl_pct": 1.04,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-17 12:40:53",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1312.5,
+        "buy_price": 1297.2,
+        "pnl": 30.6,
+        "pnl_pct": 1.18,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-17 12:40:53",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 1044.2,
+        "cost": 2088.4,
+        "score": {
+          "last": 1044.2,
+          "mom_30m_pct": 0.365,
+          "intraday_pct": 1.143,
+          "rsi": 66.8,
+          "vol_factor": 1.0,
+          "score": 0.891
+        }
+      },
+      {
+        "time": "2026-08-17 12:40:53",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 6,
+        "price": 1096.3,
+        "cost": 6577.8,
+        "score": {
+          "last": 1096.3,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": 0.698,
+          "rsi": 65.6,
+          "vol_factor": 1.0,
+          "score": 0.649
         }
       }
     ],
