@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-18",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,10 +48,28 @@
         "invested_today_after": 35296.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-18 11:28:55",
+        "n_bought": 3,
+        "n_sold": 2,
+        "invested_today_after": 43874.5,
+        "realized_pnl_today_after": 65.2,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-18 12:28:02",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 53222.7,
+        "realized_pnl_today_after": 105.2,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 35296.30017089844,
-    "realized_pnl_today": 0.0,
+    "invested_today": 53222.700286865234,
+    "realized_pnl_today": 105.19965820312518,
     "open_positions": [
       {
         "symbol": "RELIANCE",
@@ -129,21 +147,6 @@
         }
       },
       {
-        "symbol": "DLF",
-        "qty": 6,
-        "buy_price": 664.3,
-        "buy_time": "2026-08-18 10:27:48",
-        "iteration": 3,
-        "score_info": {
-          "last": 664.3,
-          "mom_30m_pct": 0.181,
-          "intraday_pct": 0.423,
-          "rsi": 39.3,
-          "vol_factor": 0.52,
-          "score": -0.085
-        }
-      },
-      {
         "symbol": "BAJFINANCE",
         "qty": 2,
         "buy_price": 1097.0,
@@ -174,21 +177,6 @@
         }
       },
       {
-        "symbol": "DLF",
-        "qty": 4,
-        "buy_price": 665.0,
-        "buy_time": "2026-08-18 10:43:22",
-        "iteration": 4,
-        "score_info": {
-          "last": 665.0,
-          "mom_30m_pct": 0.514,
-          "intraday_pct": 0.522,
-          "rsi": 71.6,
-          "vol_factor": 0.28,
-          "score": 0.203
-        }
-      },
-      {
         "symbol": "ICICIBANK",
         "qty": 4,
         "buy_price": 1409.8,
@@ -201,6 +189,81 @@
           "rsi": 34.1,
           "vol_factor": 2.0,
           "score": 0.907
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "buy_price": 381.0,
+        "buy_time": "2026-08-18 11:28:55",
+        "iteration": 6,
+        "score_info": {
+          "last": 381.0,
+          "mom_30m_pct": 0.263,
+          "intraday_pct": 0.754,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 1.621
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 316.2,
+        "buy_time": "2026-08-18 11:28:55",
+        "iteration": 6,
+        "score_info": {
+          "last": 316.2,
+          "mom_30m_pct": 0.222,
+          "intraday_pct": 0.461,
+          "rsi": 57.5,
+          "vol_factor": 2.0,
+          "score": 1.471
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3032.8,
+        "buy_time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "score_info": {
+          "last": 3032.8,
+          "mom_30m_pct": 0.258,
+          "intraday_pct": 0.771,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 1.618
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 9,
+        "buy_price": 338.6,
+        "buy_time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "score_info": {
+          "last": 338.6,
+          "mom_30m_pct": 0.222,
+          "intraday_pct": 0.699,
+          "rsi": 54.2,
+          "vol_factor": 2.0,
+          "score": 1.543
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "buy_price": 408.5,
+        "buy_time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "score_info": {
+          "last": 408.5,
+          "mom_30m_pct": -0.134,
+          "intraday_pct": 0.504,
+          "rsi": 47.5,
+          "vol_factor": 1.87,
+          "score": 0.816
         }
       }
     ],
@@ -373,6 +436,144 @@
           "rsi": 34.1,
           "vol_factor": 2.0,
           "score": 0.907
+        }
+      },
+      {
+        "time": "2026-08-18 11:28:55",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 6,
+        "price": 671.1,
+        "buy_price": 664.3,
+        "pnl": 40.8,
+        "pnl_pct": 1.02,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-18 11:28:55",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 671.1,
+        "buy_price": 665.0,
+        "pnl": 24.4,
+        "pnl_pct": 0.92,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-18 11:28:55",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "price": 381.0,
+        "cost": 3048.0,
+        "score": {
+          "last": 381.0,
+          "mom_30m_pct": 0.263,
+          "intraday_pct": 0.754,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 1.621
+        }
+      },
+      {
+        "time": "2026-08-18 11:28:55",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 316.2,
+        "cost": 2845.8,
+        "score": {
+          "last": 316.2,
+          "mom_30m_pct": 0.222,
+          "intraday_pct": 0.461,
+          "rsi": 57.5,
+          "vol_factor": 2.0,
+          "score": 1.471
+        }
+      },
+      {
+        "time": "2026-08-18 11:28:55",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 671.1,
+        "cost": 2684.4,
+        "score": {
+          "last": 671.1,
+          "mom_30m_pct": 0.751,
+          "intraday_pct": 1.651,
+          "rsi": 96.4,
+          "vol_factor": 2.0,
+          "score": 1.121
+        }
+      },
+      {
+        "time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 681.1,
+        "buy_price": 671.1,
+        "pnl": 40.0,
+        "pnl_pct": 1.49,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3032.8,
+        "cost": 3032.8,
+        "score": {
+          "last": 3032.8,
+          "mom_30m_pct": 0.258,
+          "intraday_pct": 0.771,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 1.618
+        }
+      },
+      {
+        "time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 9,
+        "price": 338.6,
+        "cost": 3047.4,
+        "score": {
+          "last": 338.6,
+          "mom_30m_pct": 0.222,
+          "intraday_pct": 0.699,
+          "rsi": 54.2,
+          "vol_factor": 2.0,
+          "score": 1.543
+        }
+      },
+      {
+        "time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "price": 408.5,
+        "cost": 3268.0,
+        "score": {
+          "last": 408.5,
+          "mom_30m_pct": -0.134,
+          "intraday_pct": 0.504,
+          "rsi": 47.5,
+          "vol_factor": 1.87,
+          "score": 0.816
         }
       }
     ],
