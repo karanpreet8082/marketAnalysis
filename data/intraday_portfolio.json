@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-18",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,10 +102,28 @@
         "invested_today_after": 89078.42,
         "realized_pnl_today_after": 75.05,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-18 14:48:02",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 96326.4,
+        "realized_pnl_today_after": 74.25,
+        "open_positions_after": 21
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-18 15:22:52",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 98692.4,
+        "realized_pnl_today_after": 74.25,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 89078.42037963867,
-    "realized_pnl_today": 75.04971313476591,
+    "invested_today": 98692.40026855469,
+    "realized_pnl_today": 74.24990844726591,
     "open_positions": [
       {
         "symbol": "RELIANCE",
@@ -138,21 +156,6 @@
         }
       },
       {
-        "symbol": "TATACONSUM",
-        "qty": 2,
-        "buy_price": 1074.5,
-        "buy_time": "2026-08-18 10:08:10",
-        "iteration": 2,
-        "score_info": {
-          "last": 1074.5,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": -0.408,
-          "rsi": 40.4,
-          "vol_factor": 0.55,
-          "score": -0.28
-        }
-      },
-      {
         "symbol": "BAJFINANCE",
         "qty": 2,
         "buy_price": 1096.4,
@@ -165,21 +168,6 @@
           "rsi": 63.4,
           "vol_factor": 0.99,
           "score": 1.098
-        }
-      },
-      {
-        "symbol": "AXISBANK",
-        "qty": 2,
-        "buy_price": 1236.5,
-        "buy_time": "2026-08-18 10:27:48",
-        "iteration": 3,
-        "score_info": {
-          "last": 1236.5,
-          "mom_30m_pct": 0.268,
-          "intraday_pct": 1.77,
-          "rsi": 69.1,
-          "vol_factor": 0.23,
-          "score": 0.164
         }
       },
       {
@@ -420,6 +408,51 @@
           "rsi": 40.0,
           "vol_factor": 2.0,
           "score": 0.978
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1294.0,
+        "buy_time": "2026-08-18 14:48:02",
+        "iteration": 12,
+        "score_info": {
+          "last": 1294.0,
+          "mom_30m_pct": 0.217,
+          "intraday_pct": -1.025,
+          "rsi": 51.6,
+          "vol_factor": 2.0,
+          "score": 1.018
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 26,
+        "buy_price": 179.23,
+        "buy_time": "2026-08-18 14:48:02",
+        "iteration": 12,
+        "score_info": {
+          "last": 179.23,
+          "mom_30m_pct": 0.269,
+          "intraday_pct": -1.619,
+          "rsi": 53.3,
+          "vol_factor": 1.59,
+          "score": 0.512
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1183.0,
+        "buy_time": "2026-08-18 15:22:52",
+        "iteration": 13,
+        "score_info": {
+          "last": 1183.0,
+          "mom_30m_pct": -0.202,
+          "intraday_pct": -0.329,
+          "rsi": 40.9,
+          "vol_factor": 2.0,
+          "score": 0.598
         }
       }
     ],
@@ -895,6 +928,81 @@
           "rsi": 40.0,
           "vol_factor": 2.0,
           "score": 0.978
+        }
+      },
+      {
+        "time": "2026-08-18 14:48:02",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 1063.3,
+        "buy_price": 1074.5,
+        "pnl": -22.4,
+        "pnl_pct": -1.04,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-18 14:48:02",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1247.3,
+        "buy_price": 1236.5,
+        "pnl": 21.6,
+        "pnl_pct": 0.87,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-18 14:48:02",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1294.0,
+        "cost": 2588.0,
+        "score": {
+          "last": 1294.0,
+          "mom_30m_pct": 0.217,
+          "intraday_pct": -1.025,
+          "rsi": 51.6,
+          "vol_factor": 2.0,
+          "score": 1.018
+        }
+      },
+      {
+        "time": "2026-08-18 14:48:02",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 26,
+        "price": 179.23,
+        "cost": 4659.98,
+        "score": {
+          "last": 179.23,
+          "mom_30m_pct": 0.269,
+          "intraday_pct": -1.619,
+          "rsi": 53.3,
+          "vol_factor": 1.59,
+          "score": 0.512
+        }
+      },
+      {
+        "time": "2026-08-18 15:22:52",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1183.0,
+        "cost": 2366.0,
+        "score": {
+          "last": 1183.0,
+          "mom_30m_pct": -0.202,
+          "intraday_pct": -0.329,
+          "rsi": 40.9,
+          "vol_factor": 2.0,
+          "score": 0.598
         }
       }
     ],
