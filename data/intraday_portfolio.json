@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-18",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 12861.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-08-18 10:27:48",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 21513.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 12861.39990234375,
+    "invested_today": 21512.999877929688,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,51 @@
           "rsi": 40.4,
           "vol_factor": 0.55,
           "score": -0.28
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "buy_price": 1096.4,
+        "buy_time": "2026-08-18 10:27:48",
+        "iteration": 3,
+        "score_info": {
+          "last": 1096.4,
+          "mom_30m_pct": 0.495,
+          "intraday_pct": 1.219,
+          "rsi": 63.4,
+          "vol_factor": 0.99,
+          "score": 1.098
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1236.5,
+        "buy_time": "2026-08-18 10:27:48",
+        "iteration": 3,
+        "score_info": {
+          "last": 1236.5,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 1.77,
+          "rsi": 69.1,
+          "vol_factor": 0.23,
+          "score": 0.164
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 6,
+        "buy_price": 664.3,
+        "buy_time": "2026-08-18 10:27:48",
+        "iteration": 3,
+        "score_info": {
+          "last": 664.3,
+          "mom_30m_pct": 0.181,
+          "intraday_pct": 0.423,
+          "rsi": 39.3,
+          "vol_factor": 0.52,
+          "score": -0.085
         }
       }
     ],
@@ -122,6 +176,57 @@
           "rsi": 40.4,
           "vol_factor": 0.55,
           "score": -0.28
+        }
+      },
+      {
+        "time": "2026-08-18 10:27:48",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "price": 1096.4,
+        "cost": 2192.8,
+        "score": {
+          "last": 1096.4,
+          "mom_30m_pct": 0.495,
+          "intraday_pct": 1.219,
+          "rsi": 63.4,
+          "vol_factor": 0.99,
+          "score": 1.098
+        }
+      },
+      {
+        "time": "2026-08-18 10:27:48",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1236.5,
+        "cost": 2473.0,
+        "score": {
+          "last": 1236.5,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 1.77,
+          "rsi": 69.1,
+          "vol_factor": 0.23,
+          "score": 0.164
+        }
+      },
+      {
+        "time": "2026-08-18 10:27:48",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 6,
+        "price": 664.3,
+        "cost": 3985.8,
+        "score": {
+          "last": 664.3,
+          "mom_30m_pct": 0.181,
+          "intraday_pct": 0.423,
+          "rsi": 39.3,
+          "vol_factor": 0.52,
+          "score": -0.085
         }
       }
     ],
