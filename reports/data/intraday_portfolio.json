@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-18",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 43874.5,
         "realized_pnl_today_after": 65.2,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-18 12:28:02",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 53222.7,
+        "realized_pnl_today_after": 105.2,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 43874.50018310547,
-    "realized_pnl_today": 65.19975585937527,
+    "invested_today": 53222.700286865234,
+    "realized_pnl_today": 105.19965820312518,
     "open_positions": [
       {
         "symbol": "RELIANCE",
@@ -213,18 +222,48 @@
         }
       },
       {
-        "symbol": "DLF",
-        "qty": 4,
-        "buy_price": 671.1,
-        "buy_time": "2026-08-18 11:28:55",
-        "iteration": 6,
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3032.8,
+        "buy_time": "2026-08-18 12:28:02",
+        "iteration": 7,
         "score_info": {
-          "last": 671.1,
-          "mom_30m_pct": 0.751,
-          "intraday_pct": 1.651,
-          "rsi": 96.4,
+          "last": 3032.8,
+          "mom_30m_pct": 0.258,
+          "intraday_pct": 0.771,
+          "rsi": 63.9,
           "vol_factor": 2.0,
-          "score": 1.121
+          "score": 1.618
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 9,
+        "buy_price": 338.6,
+        "buy_time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "score_info": {
+          "last": 338.6,
+          "mom_30m_pct": 0.222,
+          "intraday_pct": 0.699,
+          "rsi": 54.2,
+          "vol_factor": 2.0,
+          "score": 1.543
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "buy_price": 408.5,
+        "buy_time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "score_info": {
+          "last": 408.5,
+          "mom_30m_pct": -0.134,
+          "intraday_pct": 0.504,
+          "rsi": 47.5,
+          "vol_factor": 1.87,
+          "score": 0.816
         }
       }
     ],
@@ -472,6 +511,69 @@
           "rsi": 96.4,
           "vol_factor": 2.0,
           "score": 1.121
+        }
+      },
+      {
+        "time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 681.1,
+        "buy_price": 671.1,
+        "pnl": 40.0,
+        "pnl_pct": 1.49,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3032.8,
+        "cost": 3032.8,
+        "score": {
+          "last": 3032.8,
+          "mom_30m_pct": 0.258,
+          "intraday_pct": 0.771,
+          "rsi": 63.9,
+          "vol_factor": 2.0,
+          "score": 1.618
+        }
+      },
+      {
+        "time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 9,
+        "price": 338.6,
+        "cost": 3047.4,
+        "score": {
+          "last": 338.6,
+          "mom_30m_pct": 0.222,
+          "intraday_pct": 0.699,
+          "rsi": 54.2,
+          "vol_factor": 2.0,
+          "score": 1.543
+        }
+      },
+      {
+        "time": "2026-08-18 12:28:02",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "price": 408.5,
+        "cost": 3268.0,
+        "score": {
+          "last": 408.5,
+          "mom_30m_pct": -0.134,
+          "intraday_pct": 0.504,
+          "rsi": 47.5,
+          "vol_factor": 1.87,
+          "score": 0.816
         }
       }
     ],
