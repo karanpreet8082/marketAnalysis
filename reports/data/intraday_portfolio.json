@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-18",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,10 +75,19 @@
         "invested_today_after": 62288.52,
         "realized_pnl_today_after": 105.2,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-18 13:17:44",
+        "n_bought": 1,
+        "n_sold": 1,
+        "invested_today_after": 68410.92,
+        "realized_pnl_today_after": 75.05,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 62288.52017211914,
-    "realized_pnl_today": 105.19965820312518,
+    "invested_today": 68410.92031860352,
+    "realized_pnl_today": 75.04971313476591,
     "open_positions": [
       {
         "symbol": "RELIANCE",
@@ -216,21 +225,6 @@
         }
       },
       {
-        "symbol": "BPCL",
-        "qty": 9,
-        "buy_price": 316.2,
-        "buy_time": "2026-08-18 11:28:55",
-        "iteration": 6,
-        "score_info": {
-          "last": 316.2,
-          "mom_30m_pct": 0.222,
-          "intraday_pct": 0.461,
-          "rsi": 57.5,
-          "vol_factor": 2.0,
-          "score": 1.471
-        }
-      },
-      {
         "symbol": "ADANIENT",
         "qty": 1,
         "buy_price": 3032.8,
@@ -318,6 +312,21 @@
           "rsi": 60.4,
           "vol_factor": 2.0,
           "score": 1.307
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 3,
+        "buy_price": 2040.8,
+        "buy_time": "2026-08-18 13:17:44",
+        "iteration": 9,
+        "score_info": {
+          "last": 2040.8,
+          "mom_30m_pct": 0.074,
+          "intraday_pct": -1.148,
+          "rsi": 50.3,
+          "vol_factor": 1.27,
+          "score": 0.04
         }
       }
     ],
@@ -679,6 +688,35 @@
           "rsi": 60.4,
           "vol_factor": 2.0,
           "score": 1.307
+        }
+      },
+      {
+        "time": "2026-08-18 13:17:44",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 312.85,
+        "buy_price": 316.2,
+        "pnl": -30.15,
+        "pnl_pct": -1.06,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-18 13:17:44",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 3,
+        "price": 2040.8,
+        "cost": 6122.4,
+        "score": {
+          "last": 2040.8,
+          "mom_30m_pct": 0.074,
+          "intraday_pct": -1.148,
+          "rsi": 50.3,
+          "vol_factor": 1.27,
+          "score": 0.04
         }
       }
     ],
