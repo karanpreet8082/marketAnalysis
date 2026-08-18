@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-18",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 78467.92,
         "realized_pnl_today_after": 75.05,
         "open_positions_after": 18
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-18 14:25:01",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 89078.42,
+        "realized_pnl_today_after": 75.05,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 78467.92007446289,
+    "invested_today": 89078.42037963867,
     "realized_pnl_today": 75.04971313476591,
     "open_positions": [
       {
@@ -366,6 +375,51 @@
           "rsi": 40.9,
           "vol_factor": 0.03,
           "score": -0.051
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 3,
+        "buy_price": 1188.3,
+        "buy_time": "2026-08-18 14:25:01",
+        "iteration": 11,
+        "score_info": {
+          "last": 1188.3,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": -0.394,
+          "rsi": 67.3,
+          "vol_factor": 2.0,
+          "score": 1.211
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1324.5,
+        "buy_time": "2026-08-18 14:25:01",
+        "iteration": 11,
+        "score_info": {
+          "last": 1324.5,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 0.699,
+          "rsi": 61.8,
+          "vol_factor": 2.0,
+          "score": 1.21
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 13,
+        "buy_price": 338.2,
+        "buy_time": "2026-08-18 14:25:01",
+        "iteration": 11,
+        "score_info": {
+          "last": 338.2,
+          "mom_30m_pct": -0.059,
+          "intraday_pct": 0.222,
+          "rsi": 40.0,
+          "vol_factor": 2.0,
+          "score": 0.978
         }
       }
     ],
@@ -790,6 +844,57 @@
           "rsi": 40.9,
           "vol_factor": 0.03,
           "score": -0.051
+        }
+      },
+      {
+        "time": "2026-08-18 14:25:01",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 3,
+        "price": 1188.3,
+        "cost": 3564.9,
+        "score": {
+          "last": 1188.3,
+          "mom_30m_pct": 0.219,
+          "intraday_pct": -0.394,
+          "rsi": 67.3,
+          "vol_factor": 2.0,
+          "score": 1.211
+        }
+      },
+      {
+        "time": "2026-08-18 14:25:01",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1324.5,
+        "cost": 2649.0,
+        "score": {
+          "last": 1324.5,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 0.699,
+          "rsi": 61.8,
+          "vol_factor": 2.0,
+          "score": 1.21
+        }
+      },
+      {
+        "time": "2026-08-18 14:25:01",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 13,
+        "price": 338.2,
+        "cost": 4396.6,
+        "score": {
+          "last": 338.2,
+          "mom_30m_pct": -0.059,
+          "intraday_pct": 0.222,
+          "rsi": 40.0,
+          "vol_factor": 2.0,
+          "score": 0.978
         }
       }
     ],
