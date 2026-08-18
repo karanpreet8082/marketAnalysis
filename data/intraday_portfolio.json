@@ -1,5 +1,132 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-18",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-18 09:50:19",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 5296.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-18 10:08:10",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 12861.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 12861.39990234375,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "RELIANCE",
+        "qty": 4,
+        "buy_price": 1324.1,
+        "buy_time": "2026-08-18 09:50:19",
+        "iteration": 1,
+        "score_info": {
+          "last": 1324.1,
+          "mom_30m_pct": 0.341,
+          "intraday_pct": 1.456,
+          "rsi": 63.7,
+          "vol_factor": 1.0,
+          "score": 0.948
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 16,
+        "buy_price": 338.5,
+        "buy_time": "2026-08-18 10:08:10",
+        "iteration": 2,
+        "score_info": {
+          "last": 338.5,
+          "mom_30m_pct": 0.163,
+          "intraday_pct": 0.267,
+          "rsi": 71.1,
+          "vol_factor": 0.54,
+          "score": -0.137
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "buy_price": 1074.5,
+        "buy_time": "2026-08-18 10:08:10",
+        "iteration": 2,
+        "score_info": {
+          "last": 1074.5,
+          "mom_30m_pct": 0.196,
+          "intraday_pct": -0.408,
+          "rsi": 40.4,
+          "vol_factor": 0.55,
+          "score": -0.28
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-18 09:50:19",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 4,
+        "price": 1324.1,
+        "cost": 5296.4,
+        "score": {
+          "last": 1324.1,
+          "mom_30m_pct": 0.341,
+          "intraday_pct": 1.456,
+          "rsi": 63.7,
+          "vol_factor": 1.0,
+          "score": 0.948
+        }
+      },
+      {
+        "time": "2026-08-18 10:08:10",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 16,
+        "price": 338.5,
+        "cost": 5416.0,
+        "score": {
+          "last": 338.5,
+          "mom_30m_pct": 0.163,
+          "intraday_pct": 0.267,
+          "rsi": 71.1,
+          "vol_factor": 0.54,
+          "score": -0.137
+        }
+      },
+      {
+        "time": "2026-08-18 10:08:10",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 1074.5,
+        "cost": 2149.0,
+        "score": {
+          "last": 1074.5,
+          "mom_30m_pct": 0.196,
+          "intraday_pct": -0.408,
+          "rsi": 40.4,
+          "vol_factor": 0.55,
+          "score": -0.28
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
