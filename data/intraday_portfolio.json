@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-18",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,9 +111,18 @@
         "invested_today_after": 96326.4,
         "realized_pnl_today_after": 74.25,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-18 15:22:52",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 98692.4,
+        "realized_pnl_today_after": 74.25,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 96326.40026855469,
+    "invested_today": 98692.40026855469,
     "realized_pnl_today": 74.24990844726591,
     "open_positions": [
       {
@@ -429,6 +438,21 @@
           "rsi": 53.3,
           "vol_factor": 1.59,
           "score": 0.512
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1183.0,
+        "buy_time": "2026-08-18 15:22:52",
+        "iteration": 13,
+        "score_info": {
+          "last": 1183.0,
+          "mom_30m_pct": -0.202,
+          "intraday_pct": -0.329,
+          "rsi": 40.9,
+          "vol_factor": 2.0,
+          "score": 0.598
         }
       }
     ],
@@ -962,6 +986,23 @@
           "rsi": 53.3,
           "vol_factor": 1.59,
           "score": 0.512
+        }
+      },
+      {
+        "time": "2026-08-18 15:22:52",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1183.0,
+        "cost": 2366.0,
+        "score": {
+          "last": 1183.0,
+          "mom_30m_pct": -0.202,
+          "intraday_pct": -0.329,
+          "rsi": 40.9,
+          "vol_factor": 2.0,
+          "score": 0.598
         }
       }
     ],
