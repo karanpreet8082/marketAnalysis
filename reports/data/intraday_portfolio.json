@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-18",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 53222.7,
         "realized_pnl_today_after": 105.2,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-18 12:49:46",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 62288.52,
+        "realized_pnl_today_after": 105.2,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 53222.700286865234,
+    "invested_today": 62288.52017211914,
     "realized_pnl_today": 105.19965820312518,
     "open_positions": [
       {
@@ -264,6 +273,51 @@
           "rsi": 47.5,
           "vol_factor": 1.87,
           "score": 0.816
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 12,
+        "buy_price": 240.01,
+        "buy_time": "2026-08-18 12:49:46",
+        "iteration": 8,
+        "score_info": {
+          "last": 240.01,
+          "mom_30m_pct": 0.381,
+          "intraday_pct": 0.591,
+          "rsi": 64.3,
+          "vol_factor": 1.9,
+          "score": 1.652
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "buy_price": 267.55,
+        "buy_time": "2026-08-18 12:49:46",
+        "iteration": 8,
+        "score_info": {
+          "last": 267.55,
+          "mom_30m_pct": 0.168,
+          "intraday_pct": 0.319,
+          "rsi": 62.8,
+          "vol_factor": 2.0,
+          "score": 1.348
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2975.1,
+        "buy_time": "2026-08-18 12:49:46",
+        "iteration": 8,
+        "score_info": {
+          "last": 2975.1,
+          "mom_30m_pct": 0.138,
+          "intraday_pct": 0.334,
+          "rsi": 60.4,
+          "vol_factor": 2.0,
+          "score": 1.307
         }
       }
     ],
@@ -574,6 +628,57 @@
           "rsi": 47.5,
           "vol_factor": 1.87,
           "score": 0.816
+        }
+      },
+      {
+        "time": "2026-08-18 12:49:46",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 12,
+        "price": 240.01,
+        "cost": 2880.12,
+        "score": {
+          "last": 240.01,
+          "mom_30m_pct": 0.381,
+          "intraday_pct": 0.591,
+          "rsi": 64.3,
+          "vol_factor": 1.9,
+          "score": 1.652
+        }
+      },
+      {
+        "time": "2026-08-18 12:49:46",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "price": 267.55,
+        "cost": 3210.6,
+        "score": {
+          "last": 267.55,
+          "mom_30m_pct": 0.168,
+          "intraday_pct": 0.319,
+          "rsi": 62.8,
+          "vol_factor": 2.0,
+          "score": 1.348
+        }
+      },
+      {
+        "time": "2026-08-18 12:49:46",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2975.1,
+        "cost": 2975.1,
+        "score": {
+          "last": 2975.1,
+          "mom_30m_pct": 0.138,
+          "intraday_pct": 0.334,
+          "rsi": 60.4,
+          "vol_factor": 2.0,
+          "score": 1.307
         }
       }
     ],
