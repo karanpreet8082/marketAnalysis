@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-18",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 21513.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-08-18 10:43:22",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 29657.1,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 9
       }
     ],
-    "invested_today": 29657.099975585938,
+    "invested_today": 21512.999877929688,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -132,51 +123,6 @@
           "rsi": 39.3,
           "vol_factor": 0.52,
           "score": -0.085
-        }
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "qty": 2,
-        "buy_price": 1097.0,
-        "buy_time": "2026-08-18 10:43:22",
-        "iteration": 4,
-        "score_info": {
-          "last": 1097.0,
-          "mom_30m_pct": 0.412,
-          "intraday_pct": 1.153,
-          "rsi": 69.9,
-          "vol_factor": 0.87,
-          "score": 0.833
-        }
-      },
-      {
-        "symbol": "GRASIM",
-        "qty": 1,
-        "buy_price": 3290.1,
-        "buy_time": "2026-08-18 10:43:22",
-        "iteration": 4,
-        "score_info": {
-          "last": 3290.1,
-          "mom_30m_pct": 0.064,
-          "intraday_pct": 1.343,
-          "rsi": 68.8,
-          "vol_factor": 0.87,
-          "score": 0.369
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 4,
-        "buy_price": 665.0,
-        "buy_time": "2026-08-18 10:43:22",
-        "iteration": 4,
-        "score_info": {
-          "last": 665.0,
-          "mom_30m_pct": 0.514,
-          "intraday_pct": 0.522,
-          "rsi": 71.6,
-          "vol_factor": 0.28,
-          "score": 0.203
         }
       }
     ],
@@ -281,57 +227,6 @@
           "rsi": 39.3,
           "vol_factor": 0.52,
           "score": -0.085
-        }
-      },
-      {
-        "time": "2026-08-18 10:43:22",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "BAJFINANCE",
-        "qty": 2,
-        "price": 1097.0,
-        "cost": 2194.0,
-        "score": {
-          "last": 1097.0,
-          "mom_30m_pct": 0.412,
-          "intraday_pct": 1.153,
-          "rsi": 69.9,
-          "vol_factor": 0.87,
-          "score": 0.833
-        }
-      },
-      {
-        "time": "2026-08-18 10:43:22",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "GRASIM",
-        "qty": 1,
-        "price": 3290.1,
-        "cost": 3290.1,
-        "score": {
-          "last": 3290.1,
-          "mom_30m_pct": 0.064,
-          "intraday_pct": 1.343,
-          "rsi": 68.8,
-          "vol_factor": 0.87,
-          "score": 0.369
-        }
-      },
-      {
-        "time": "2026-08-18 10:43:22",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 4,
-        "price": 665.0,
-        "cost": 2660.0,
-        "score": {
-          "last": 665.0,
-          "mom_30m_pct": 0.514,
-          "intraday_pct": 0.522,
-          "rsi": 71.6,
-          "vol_factor": 0.28,
-          "score": 0.203
         }
       }
     ],
