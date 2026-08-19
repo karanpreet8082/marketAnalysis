@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-19",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 24463.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-19 11:10:16",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 34427.32,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 24463.20001220703,
+    "invested_today": 34427.319915771484,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -177,6 +186,51 @@
           "rsi": 47.1,
           "vol_factor": 2.0,
           "score": 0.237
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3248.0,
+        "buy_time": "2026-08-19 11:10:16",
+        "iteration": 5,
+        "score_info": {
+          "last": 3248.0,
+          "mom_30m_pct": 0.666,
+          "intraday_pct": -1.205,
+          "rsi": 35.9,
+          "vol_factor": 1.0,
+          "score": 0.638
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 669.6,
+        "buy_time": "2026-08-19 11:10:16",
+        "iteration": 5,
+        "score_info": {
+          "last": 669.6,
+          "mom_30m_pct": 0.18,
+          "intraday_pct": 0.45,
+          "rsi": 57.3,
+          "vol_factor": 1.0,
+          "score": 0.404
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 240.58,
+        "buy_time": "2026-08-19 11:10:16",
+        "iteration": 5,
+        "score_info": {
+          "last": 240.58,
+          "mom_30m_pct": 0.183,
+          "intraday_pct": 0.363,
+          "rsi": 56.7,
+          "vol_factor": 1.0,
+          "score": 0.384
         }
       }
     ],
@@ -332,6 +386,57 @@
           "rsi": 47.1,
           "vol_factor": 2.0,
           "score": 0.237
+        }
+      },
+      {
+        "time": "2026-08-19 11:10:16",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3248.0,
+        "cost": 3248.0,
+        "score": {
+          "last": 3248.0,
+          "mom_30m_pct": 0.666,
+          "intraday_pct": -1.205,
+          "rsi": 35.9,
+          "vol_factor": 1.0,
+          "score": 0.638
+        }
+      },
+      {
+        "time": "2026-08-19 11:10:16",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 669.6,
+        "cost": 3348.0,
+        "score": {
+          "last": 669.6,
+          "mom_30m_pct": 0.18,
+          "intraday_pct": 0.45,
+          "rsi": 57.3,
+          "vol_factor": 1.0,
+          "score": 0.404
+        }
+      },
+      {
+        "time": "2026-08-19 11:10:16",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 240.58,
+        "cost": 3368.12,
+        "score": {
+          "last": 240.58,
+          "mom_30m_pct": 0.183,
+          "intraday_pct": 0.363,
+          "rsi": 56.7,
+          "vol_factor": 1.0,
+          "score": 0.384
         }
       }
     ],
