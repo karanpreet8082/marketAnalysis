@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-19",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 42730.72,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-19 12:28:46",
+        "n_bought": 1,
+        "n_sold": 1,
+        "invested_today_after": 48261.22,
+        "realized_pnl_today_after": -31.08,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 42730.71969604492,
-    "realized_pnl_today": 0.0,
+    "invested_today": 48261.21969604492,
+    "realized_pnl_today": -31.080029296875068,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -243,21 +252,6 @@
         }
       },
       {
-        "symbol": "ONGC",
-        "qty": 12,
-        "buy_price": 241.4,
-        "buy_time": "2026-08-19 11:29:37",
-        "iteration": 6,
-        "score_info": {
-          "last": 241.4,
-          "mom_30m_pct": 0.567,
-          "intraday_pct": 0.768,
-          "rsi": 70.2,
-          "vol_factor": 1.12,
-          "score": 1.198
-        }
-      },
-      {
         "symbol": "TECHM",
         "qty": 2,
         "buy_price": 1582.2,
@@ -285,6 +279,21 @@
           "rsi": 57.6,
           "vol_factor": 0.76,
           "score": 0.508
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5530.5,
+        "buy_time": "2026-08-19 12:28:46",
+        "iteration": 7,
+        "score_info": {
+          "last": 5530.5,
+          "mom_30m_pct": -0.036,
+          "intraday_pct": -0.261,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 0.867
         }
       }
     ],
@@ -542,6 +551,35 @@
           "rsi": 57.6,
           "vol_factor": 0.76,
           "score": 0.508
+        }
+      },
+      {
+        "time": "2026-08-19 12:28:45",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "ONGC",
+        "qty": 12,
+        "price": 238.81,
+        "buy_price": 241.4,
+        "pnl": -31.08,
+        "pnl_pct": -1.07,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-19 12:28:46",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5530.5,
+        "cost": 5530.5,
+        "score": {
+          "last": 5530.5,
+          "mom_30m_pct": -0.036,
+          "intraday_pct": -0.261,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 0.867
         }
       }
     ],
