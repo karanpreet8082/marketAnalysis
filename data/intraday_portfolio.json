@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-19",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-19 09:52:02",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7404.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-19 10:09:59",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 12623.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 12623.599853515625,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 667.35,
+        "buy_time": "2026-08-19 09:52:02",
+        "iteration": 1,
+        "score_info": {
+          "last": 667.35,
+          "mom_30m_pct": 0.323,
+          "intraday_pct": 0.938,
+          "rsi": 41.7,
+          "vol_factor": 0.78,
+          "score": 0.547
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 1053.0,
+        "buy_time": "2026-08-19 09:52:02",
+        "iteration": 1,
+        "score_info": {
+          "last": 1053.0,
+          "mom_30m_pct": 0.41,
+          "intraday_pct": -0.763,
+          "rsi": 42.5,
+          "vol_factor": 0.58,
+          "score": -0.032
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2629.0,
+        "buy_time": "2026-08-19 09:52:02",
+        "iteration": 1,
+        "score_info": {
+          "last": 2629.0,
+          "mom_30m_pct": 0.397,
+          "intraday_pct": -0.822,
+          "rsi": 45.6,
+          "vol_factor": 0.53,
+          "score": -0.119
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1274.4,
+        "buy_time": "2026-08-19 10:09:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 1274.4,
+          "mom_30m_pct": 0.887,
+          "intraday_pct": -0.601,
+          "rsi": 56.2,
+          "vol_factor": 1.34,
+          "score": 1.487
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 667.6,
+        "buy_time": "2026-08-19 10:09:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 667.6,
+          "mom_30m_pct": 1.129,
+          "intraday_pct": 0.838,
+          "rsi": 42.8,
+          "vol_factor": 0.2,
+          "score": 1.148
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-19 09:52:02",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 667.35,
+        "cost": 2669.4,
+        "score": {
+          "last": 667.35,
+          "mom_30m_pct": 0.323,
+          "intraday_pct": 0.938,
+          "rsi": 41.7,
+          "vol_factor": 0.78,
+          "score": 0.547
+        }
+      },
+      {
+        "time": "2026-08-19 09:52:02",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1053.0,
+        "cost": 2106.0,
+        "score": {
+          "last": 1053.0,
+          "mom_30m_pct": 0.41,
+          "intraday_pct": -0.763,
+          "rsi": 42.5,
+          "vol_factor": 0.58,
+          "score": -0.032
+        }
+      },
+      {
+        "time": "2026-08-19 09:52:02",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2629.0,
+        "cost": 2629.0,
+        "score": {
+          "last": 2629.0,
+          "mom_30m_pct": 0.397,
+          "intraday_pct": -0.822,
+          "rsi": 45.6,
+          "vol_factor": 0.53,
+          "score": -0.119
+        }
+      },
+      {
+        "time": "2026-08-19 10:09:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1274.4,
+        "cost": 2548.8,
+        "score": {
+          "last": 1274.4,
+          "mom_30m_pct": 0.887,
+          "intraday_pct": -0.601,
+          "rsi": 56.2,
+          "vol_factor": 1.34,
+          "score": 1.487
+        }
+      },
+      {
+        "time": "2026-08-19 10:09:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 667.6,
+        "cost": 2670.4,
+        "score": {
+          "last": 667.6,
+          "mom_30m_pct": 1.129,
+          "intraday_pct": 0.838,
+          "rsi": 42.8,
+          "vol_factor": 0.2,
+          "score": 1.148
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
