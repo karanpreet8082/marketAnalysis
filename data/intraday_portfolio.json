@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-19",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,19 +84,10 @@
         "invested_today_after": 67862.92,
         "realized_pnl_today_after": -22.34,
         "open_positions_after": 17
-      },
-      {
-        "iteration": 10,
-        "time": "2026-08-19 13:37:43",
-        "n_bought": 2,
-        "n_sold": 2,
-        "invested_today_after": 77443.32,
-        "realized_pnl_today_after": -17.14,
-        "open_positions_after": 17
       }
     ],
-    "invested_today": 77443.31967163086,
-    "realized_pnl_today": -17.140196533203778,
+    "invested_today": 67862.91976928711,
+    "realized_pnl_today": -22.34014770507855,
     "open_positions": [
       {
         "symbol": "SBIN",
@@ -111,6 +102,21 @@
           "rsi": 42.5,
           "vol_factor": 0.58,
           "score": -0.032
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2629.0,
+        "buy_time": "2026-08-19 09:52:02",
+        "iteration": 1,
+        "score_info": {
+          "last": 2629.0,
+          "mom_30m_pct": 0.397,
+          "intraday_pct": -0.822,
+          "rsi": 45.6,
+          "vol_factor": 0.53,
+          "score": -0.119
         }
       },
       {
@@ -171,6 +177,21 @@
           "rsi": 62.8,
           "vol_factor": 2.0,
           "score": 0.739
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 10,
+        "buy_price": 387.6,
+        "buy_time": "2026-08-19 10:43:51",
+        "iteration": 4,
+        "score_info": {
+          "last": 387.6,
+          "mom_30m_pct": -0.36,
+          "intraday_pct": -0.743,
+          "rsi": 47.1,
+          "vol_factor": 2.0,
+          "score": 0.237
         }
       },
       {
@@ -321,36 +342,6 @@
           "rsi": 74.1,
           "vol_factor": 0.53,
           "score": -0.211
-        }
-      },
-      {
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "buy_price": 1890.8,
-        "buy_time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "score_info": {
-          "last": 1890.8,
-          "mom_30m_pct": 0.026,
-          "intraday_pct": 0.628,
-          "rsi": 40.9,
-          "vol_factor": 1.0,
-          "score": 0.228
-        }
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "qty": 6,
-        "buy_price": 1281.6,
-        "buy_time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "score_info": {
-          "last": 1281.6,
-          "mom_30m_pct": -0.07,
-          "intraday_pct": 0.66,
-          "rsi": 67.0,
-          "vol_factor": 1.0,
-          "score": 0.093
         }
       }
     ],
@@ -758,64 +749,6 @@
           "rsi": 74.1,
           "vol_factor": 0.53,
           "score": -0.211
-        }
-      },
-      {
-        "time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "action": "SELL",
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "price": 2602.7,
-        "buy_price": 2629.0,
-        "pnl": -26.3,
-        "pnl_pct": -1.0,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "action": "SELL",
-        "symbol": "KOTAKBANK",
-        "qty": 10,
-        "price": 390.75,
-        "buy_price": 387.6,
-        "pnl": 31.5,
-        "pnl_pct": 0.81,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "price": 1890.8,
-        "cost": 1890.8,
-        "score": {
-          "last": 1890.8,
-          "mom_30m_pct": 0.026,
-          "intraday_pct": 0.628,
-          "rsi": 40.9,
-          "vol_factor": 1.0,
-          "score": 0.228
-        }
-      },
-      {
-        "time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "JSWSTEEL",
-        "qty": 6,
-        "price": 1281.6,
-        "cost": 7689.6,
-        "score": {
-          "last": 1281.6,
-          "mom_30m_pct": -0.07,
-          "intraday_pct": 0.66,
-          "rsi": 67.0,
-          "vol_factor": 1.0,
-          "score": 0.093
         }
       }
     ],
