@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-19",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,10 +93,19 @@
         "invested_today_after": 77443.32,
         "realized_pnl_today_after": -17.14,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-19 14:25:53",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 87053.92,
+        "realized_pnl_today_after": -46.54,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 77443.31967163086,
-    "realized_pnl_today": -17.140196533203778,
+    "invested_today": 87053.91976928711,
+    "realized_pnl_today": -46.54024536132869,
     "open_positions": [
       {
         "symbol": "SBIN",
@@ -156,21 +165,6 @@
           "rsi": 73.9,
           "vol_factor": 0.36,
           "score": 0.111
-        }
-      },
-      {
-        "symbol": "DRREDDY",
-        "qty": 2,
-        "buy_price": 1183.8,
-        "buy_time": "2026-08-19 10:43:51",
-        "iteration": 4,
-        "score_info": {
-          "last": 1183.8,
-          "mom_30m_pct": -0.152,
-          "intraday_pct": -0.11,
-          "rsi": 62.8,
-          "vol_factor": 2.0,
-          "score": 0.739
         }
       },
       {
@@ -351,6 +345,51 @@
           "rsi": 67.0,
           "vol_factor": 1.0,
           "score": 0.093
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1317.9,
+        "buy_time": "2026-08-19 14:25:53",
+        "iteration": 11,
+        "score_info": {
+          "last": 1317.9,
+          "mom_30m_pct": 0.03,
+          "intraday_pct": 1.878,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": 0.609
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 12,
+        "buy_price": 391.0,
+        "buy_time": "2026-08-19 14:25:53",
+        "iteration": 11,
+        "score_info": {
+          "last": 391.0,
+          "mom_30m_pct": 0.077,
+          "intraday_pct": 0.372,
+          "rsi": 62.3,
+          "vol_factor": 1.0,
+          "score": 0.227
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2282.8,
+        "buy_time": "2026-08-19 14:25:53",
+        "iteration": 11,
+        "score_info": {
+          "last": 2282.8,
+          "mom_30m_pct": 0.154,
+          "intraday_pct": -0.048,
+          "rsi": 49.6,
+          "vol_factor": 1.0,
+          "score": 0.216
         }
       }
     ],
@@ -816,6 +855,69 @@
           "rsi": 67.0,
           "vol_factor": 1.0,
           "score": 0.093
+        }
+      },
+      {
+        "time": "2026-08-19 14:25:53",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1169.1,
+        "buy_price": 1183.8,
+        "pnl": -29.4,
+        "pnl_pct": -1.24,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-19 14:25:53",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1317.9,
+        "cost": 2635.8,
+        "score": {
+          "last": 1317.9,
+          "mom_30m_pct": 0.03,
+          "intraday_pct": 1.878,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": 0.609
+        }
+      },
+      {
+        "time": "2026-08-19 14:25:53",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 12,
+        "price": 391.0,
+        "cost": 4692.0,
+        "score": {
+          "last": 391.0,
+          "mom_30m_pct": 0.077,
+          "intraday_pct": 0.372,
+          "rsi": 62.3,
+          "vol_factor": 1.0,
+          "score": 0.227
+        }
+      },
+      {
+        "time": "2026-08-19 14:25:53",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2282.8,
+        "cost": 2282.8,
+        "score": {
+          "last": 2282.8,
+          "mom_30m_pct": 0.154,
+          "intraday_pct": -0.048,
+          "rsi": 49.6,
+          "vol_factor": 1.0,
+          "score": 0.216
         }
       }
     ],
