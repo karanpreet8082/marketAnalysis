@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-19",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,10 +75,19 @@
         "invested_today_after": 57830.92,
         "realized_pnl_today_after": 13.92,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-19 13:17:38",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 67862.92,
+        "realized_pnl_today_after": -22.34,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 57830.920013427734,
-    "realized_pnl_today": 13.91977539062475,
+    "invested_today": 67862.91976928711,
+    "realized_pnl_today": -22.34014770507855,
     "open_positions": [
       {
         "symbol": "SBIN",
@@ -216,21 +225,6 @@
         }
       },
       {
-        "symbol": "ONGC",
-        "qty": 14,
-        "buy_price": 240.58,
-        "buy_time": "2026-08-19 11:10:16",
-        "iteration": 5,
-        "score_info": {
-          "last": 240.58,
-          "mom_30m_pct": 0.183,
-          "intraday_pct": 0.363,
-          "rsi": 56.7,
-          "vol_factor": 1.0,
-          "score": 0.384
-        }
-      },
-      {
         "symbol": "TECHM",
         "qty": 2,
         "buy_price": 1582.2,
@@ -303,6 +297,51 @@
           "rsi": 70.1,
           "vol_factor": 0.43,
           "score": 0.441
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2283.4,
+        "buy_time": "2026-08-19 13:17:38",
+        "iteration": 9,
+        "score_info": {
+          "last": 2283.4,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": -0.201,
+          "rsi": 66.3,
+          "vol_factor": 1.1,
+          "score": 0.404
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3905.0,
+        "buy_time": "2026-08-19 13:17:38",
+        "iteration": 9,
+        "score_info": {
+          "last": 3905.0,
+          "mom_30m_pct": -0.018,
+          "intraday_pct": -1.289,
+          "rsi": 46.7,
+          "vol_factor": 1.44,
+          "score": 0.024
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "buy_price": 1281.2,
+        "buy_time": "2026-08-19 13:17:38",
+        "iteration": 9,
+        "score_info": {
+          "last": 1281.2,
+          "mom_30m_pct": 0.094,
+          "intraday_pct": 0.384,
+          "rsi": 74.1,
+          "vol_factor": 0.53,
+          "score": -0.211
         }
       }
     ],
@@ -647,6 +686,69 @@
           "rsi": 70.1,
           "vol_factor": 0.43,
           "score": 0.441
+        }
+      },
+      {
+        "time": "2026-08-19 13:17:38",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 237.99,
+        "buy_price": 240.58,
+        "pnl": -36.26,
+        "pnl_pct": -1.08,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-19 13:17:38",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2283.4,
+        "cost": 2283.4,
+        "score": {
+          "last": 2283.4,
+          "mom_30m_pct": 0.241,
+          "intraday_pct": -0.201,
+          "rsi": 66.3,
+          "vol_factor": 1.1,
+          "score": 0.404
+        }
+      },
+      {
+        "time": "2026-08-19 13:17:38",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3905.0,
+        "cost": 3905.0,
+        "score": {
+          "last": 3905.0,
+          "mom_30m_pct": -0.018,
+          "intraday_pct": -1.289,
+          "rsi": 46.7,
+          "vol_factor": 1.44,
+          "score": 0.024
+        }
+      },
+      {
+        "time": "2026-08-19 13:17:38",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "price": 1281.2,
+        "cost": 3843.6,
+        "score": {
+          "last": 1281.2,
+          "mom_30m_pct": 0.094,
+          "intraday_pct": 0.384,
+          "rsi": 74.1,
+          "vol_factor": 0.53,
+          "score": -0.211
         }
       }
     ],
