@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-19",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,10 +102,28 @@
         "invested_today_after": 87053.92,
         "realized_pnl_today_after": -46.54,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-19 14:48:27",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 99669.77,
+        "realized_pnl_today_after": -104.54,
+        "open_positions_after": 21
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-19 15:23:05",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99669.77,
+        "realized_pnl_today_after": -104.54,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 87053.91976928711,
-    "realized_pnl_today": -46.54024536132869,
+    "invested_today": 99669.7702331543,
+    "realized_pnl_today": -104.54024536132869,
     "open_positions": [
       {
         "symbol": "SBIN",
@@ -225,21 +243,6 @@
           "rsi": 57.6,
           "vol_factor": 0.76,
           "score": 0.508
-        }
-      },
-      {
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "buy_price": 5530.5,
-        "buy_time": "2026-08-19 12:28:46",
-        "iteration": 7,
-        "score_info": {
-          "last": 5530.5,
-          "mom_30m_pct": -0.036,
-          "intraday_pct": -0.261,
-          "rsi": 74.6,
-          "vol_factor": 2.0,
-          "score": 0.867
         }
       },
       {
@@ -390,6 +393,51 @@
           "rsi": 49.6,
           "vol_factor": 1.0,
           "score": 0.216
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 11,
+        "buy_price": 378.2,
+        "buy_time": "2026-08-19 14:48:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 378.2,
+          "mom_30m_pct": -0.04,
+          "intraday_pct": -0.5,
+          "rsi": 60.0,
+          "vol_factor": 2.0,
+          "score": 0.791
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 4,
+        "buy_price": 1036.05,
+        "buy_time": "2026-08-19 14:48:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 1036.05,
+          "mom_30m_pct": 0.305,
+          "intraday_pct": -0.652,
+          "rsi": 66.0,
+          "vol_factor": 1.33,
+          "score": 0.589
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 11,
+        "buy_price": 391.95,
+        "buy_time": "2026-08-19 14:48:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 391.95,
+          "mom_30m_pct": 0.217,
+          "intraday_pct": 0.59,
+          "rsi": 72.9,
+          "vol_factor": 0.92,
+          "score": 0.419
         }
       }
     ],
@@ -918,6 +966,69 @@
           "rsi": 49.6,
           "vol_factor": 1.0,
           "score": 0.216
+        }
+      },
+      {
+        "time": "2026-08-19 14:48:27",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5472.5,
+        "buy_price": 5530.5,
+        "pnl": -58.0,
+        "pnl_pct": -1.05,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-19 14:48:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 11,
+        "price": 378.2,
+        "cost": 4160.2,
+        "score": {
+          "last": 378.2,
+          "mom_30m_pct": -0.04,
+          "intraday_pct": -0.5,
+          "rsi": 60.0,
+          "vol_factor": 2.0,
+          "score": 0.791
+        }
+      },
+      {
+        "time": "2026-08-19 14:48:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 4,
+        "price": 1036.05,
+        "cost": 4144.2,
+        "score": {
+          "last": 1036.05,
+          "mom_30m_pct": 0.305,
+          "intraday_pct": -0.652,
+          "rsi": 66.0,
+          "vol_factor": 1.33,
+          "score": 0.589
+        }
+      },
+      {
+        "time": "2026-08-19 14:48:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 11,
+        "price": 391.95,
+        "cost": 4311.45,
+        "score": {
+          "last": 391.95,
+          "mom_30m_pct": 0.217,
+          "intraday_pct": 0.59,
+          "rsi": 72.9,
+          "vol_factor": 0.92,
+          "score": 0.419
         }
       }
     ],
