@@ -1,1039 +1,5 @@
 {
-  "current_day": {
-    "date": "2026-08-19",
-    "total_iterations": 14,
-    "iterations_run": 13,
-    "iteration_log": [
-      {
-        "iteration": 1,
-        "time": "2026-08-19 09:52:02",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 7404.4,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 3
-      },
-      {
-        "iteration": 2,
-        "time": "2026-08-19 10:09:59",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 12623.6,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 5
-      },
-      {
-        "iteration": 3,
-        "time": "2026-08-19 10:27:44",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 18219.6,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 7
-      },
-      {
-        "iteration": 4,
-        "time": "2026-08-19 10:43:51",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 24463.2,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 9
-      },
-      {
-        "iteration": 5,
-        "time": "2026-08-19 11:10:16",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 34427.32,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 12
-      },
-      {
-        "iteration": 6,
-        "time": "2026-08-19 11:29:37",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 42730.72,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 15
-      },
-      {
-        "iteration": 7,
-        "time": "2026-08-19 12:28:46",
-        "n_bought": 1,
-        "n_sold": 1,
-        "invested_today_after": 48261.22,
-        "realized_pnl_today_after": -31.08,
-        "open_positions_after": 15
-      },
-      {
-        "iteration": 8,
-        "time": "2026-08-19 12:50:17",
-        "n_bought": 2,
-        "n_sold": 2,
-        "invested_today_after": 57830.92,
-        "realized_pnl_today_after": 13.92,
-        "open_positions_after": 15
-      },
-      {
-        "iteration": 9,
-        "time": "2026-08-19 13:17:38",
-        "n_bought": 3,
-        "n_sold": 1,
-        "invested_today_after": 67862.92,
-        "realized_pnl_today_after": -22.34,
-        "open_positions_after": 17
-      },
-      {
-        "iteration": 10,
-        "time": "2026-08-19 13:37:43",
-        "n_bought": 2,
-        "n_sold": 2,
-        "invested_today_after": 77443.32,
-        "realized_pnl_today_after": -17.14,
-        "open_positions_after": 17
-      },
-      {
-        "iteration": 11,
-        "time": "2026-08-19 14:25:53",
-        "n_bought": 3,
-        "n_sold": 1,
-        "invested_today_after": 87053.92,
-        "realized_pnl_today_after": -46.54,
-        "open_positions_after": 19
-      },
-      {
-        "iteration": 12,
-        "time": "2026-08-19 14:48:27",
-        "n_bought": 3,
-        "n_sold": 1,
-        "invested_today_after": 99669.77,
-        "realized_pnl_today_after": -104.54,
-        "open_positions_after": 21
-      },
-      {
-        "iteration": 13,
-        "time": "2026-08-19 15:23:05",
-        "n_bought": 0,
-        "n_sold": 0,
-        "invested_today_after": 99669.77,
-        "realized_pnl_today_after": -104.54,
-        "open_positions_after": 21
-      }
-    ],
-    "invested_today": 99669.7702331543,
-    "realized_pnl_today": -104.54024536132869,
-    "open_positions": [
-      {
-        "symbol": "SBIN",
-        "qty": 2,
-        "buy_price": 1053.0,
-        "buy_time": "2026-08-19 09:52:02",
-        "iteration": 1,
-        "score_info": {
-          "last": 1053.0,
-          "mom_30m_pct": 0.41,
-          "intraday_pct": -0.763,
-          "rsi": 42.5,
-          "vol_factor": 0.58,
-          "score": -0.032
-        }
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "qty": 2,
-        "buy_price": 1274.4,
-        "buy_time": "2026-08-19 10:09:59",
-        "iteration": 2,
-        "score_info": {
-          "last": 1274.4,
-          "mom_30m_pct": 0.887,
-          "intraday_pct": -0.601,
-          "rsi": 56.2,
-          "vol_factor": 1.34,
-          "score": 1.487
-        }
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "qty": 2,
-        "buy_price": 1087.5,
-        "buy_time": "2026-08-19 10:27:44",
-        "iteration": 3,
-        "score_info": {
-          "last": 1087.5,
-          "mom_30m_pct": 0.406,
-          "intraday_pct": -0.54,
-          "rsi": 70.4,
-          "vol_factor": 1.57,
-          "score": 1.016
-        }
-      },
-      {
-        "symbol": "M&M",
-        "qty": 1,
-        "buy_price": 3421.0,
-        "buy_time": "2026-08-19 10:27:44",
-        "iteration": 3,
-        "score_info": {
-          "last": 3421.0,
-          "mom_30m_pct": 0.47,
-          "intraday_pct": 0.143,
-          "rsi": 73.9,
-          "vol_factor": 0.36,
-          "score": 0.111
-        }
-      },
-      {
-        "symbol": "GRASIM",
-        "qty": 1,
-        "buy_price": 3248.0,
-        "buy_time": "2026-08-19 11:10:16",
-        "iteration": 5,
-        "score_info": {
-          "last": 3248.0,
-          "mom_30m_pct": 0.666,
-          "intraday_pct": -1.205,
-          "rsi": 35.9,
-          "vol_factor": 1.0,
-          "score": 0.638
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 5,
-        "buy_price": 669.6,
-        "buy_time": "2026-08-19 11:10:16",
-        "iteration": 5,
-        "score_info": {
-          "last": 669.6,
-          "mom_30m_pct": 0.18,
-          "intraday_pct": 0.45,
-          "rsi": 57.3,
-          "vol_factor": 1.0,
-          "score": 0.404
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 2,
-        "buy_price": 1582.2,
-        "buy_time": "2026-08-19 11:29:37",
-        "iteration": 6,
-        "score_info": {
-          "last": 1582.2,
-          "mom_30m_pct": -0.051,
-          "intraday_pct": -0.24,
-          "rsi": 41.0,
-          "vol_factor": 2.0,
-          "score": 0.852
-        }
-      },
-      {
-        "symbol": "INFY",
-        "qty": 2,
-        "buy_price": 1121.1,
-        "buy_time": "2026-08-19 11:29:37",
-        "iteration": 6,
-        "score_info": {
-          "last": 1121.1,
-          "mom_30m_pct": 0.403,
-          "intraday_pct": 0.484,
-          "rsi": 57.6,
-          "vol_factor": 0.76,
-          "score": 0.508
-        }
-      },
-      {
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "buy_price": 1887.9,
-        "buy_time": "2026-08-19 12:50:17",
-        "iteration": 8,
-        "score_info": {
-          "last": 1887.9,
-          "mom_30m_pct": -0.238,
-          "intraday_pct": 0.796,
-          "rsi": 35.7,
-          "vol_factor": 2.0,
-          "score": 0.882
-        }
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "qty": 6,
-        "buy_price": 1280.3,
-        "buy_time": "2026-08-19 12:50:17",
-        "iteration": 8,
-        "score_info": {
-          "last": 1280.3,
-          "mom_30m_pct": 0.613,
-          "intraday_pct": 0.29,
-          "rsi": 70.1,
-          "vol_factor": 0.43,
-          "score": 0.441
-        }
-      },
-      {
-        "symbol": "TCS",
-        "qty": 1,
-        "buy_price": 2283.4,
-        "buy_time": "2026-08-19 13:17:38",
-        "iteration": 9,
-        "score_info": {
-          "last": 2283.4,
-          "mom_30m_pct": 0.241,
-          "intraday_pct": -0.201,
-          "rsi": 66.3,
-          "vol_factor": 1.1,
-          "score": 0.404
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 3905.0,
-        "buy_time": "2026-08-19 13:17:38",
-        "iteration": 9,
-        "score_info": {
-          "last": 3905.0,
-          "mom_30m_pct": -0.018,
-          "intraday_pct": -1.289,
-          "rsi": 46.7,
-          "vol_factor": 1.44,
-          "score": 0.024
-        }
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "qty": 3,
-        "buy_price": 1281.2,
-        "buy_time": "2026-08-19 13:17:38",
-        "iteration": 9,
-        "score_info": {
-          "last": 1281.2,
-          "mom_30m_pct": 0.094,
-          "intraday_pct": 0.384,
-          "rsi": 74.1,
-          "vol_factor": 0.53,
-          "score": -0.211
-        }
-      },
-      {
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "buy_price": 1890.8,
-        "buy_time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "score_info": {
-          "last": 1890.8,
-          "mom_30m_pct": 0.026,
-          "intraday_pct": 0.628,
-          "rsi": 40.9,
-          "vol_factor": 1.0,
-          "score": 0.228
-        }
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "qty": 6,
-        "buy_price": 1281.6,
-        "buy_time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "score_info": {
-          "last": 1281.6,
-          "mom_30m_pct": -0.07,
-          "intraday_pct": 0.66,
-          "rsi": 67.0,
-          "vol_factor": 1.0,
-          "score": 0.093
-        }
-      },
-      {
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "buy_price": 1317.9,
-        "buy_time": "2026-08-19 14:25:53",
-        "iteration": 11,
-        "score_info": {
-          "last": 1317.9,
-          "mom_30m_pct": 0.03,
-          "intraday_pct": 1.878,
-          "rsi": 45.2,
-          "vol_factor": 1.0,
-          "score": 0.609
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 12,
-        "buy_price": 391.0,
-        "buy_time": "2026-08-19 14:25:53",
-        "iteration": 11,
-        "score_info": {
-          "last": 391.0,
-          "mom_30m_pct": 0.077,
-          "intraday_pct": 0.372,
-          "rsi": 62.3,
-          "vol_factor": 1.0,
-          "score": 0.227
-        }
-      },
-      {
-        "symbol": "TCS",
-        "qty": 1,
-        "buy_price": 2282.8,
-        "buy_time": "2026-08-19 14:25:53",
-        "iteration": 11,
-        "score_info": {
-          "last": 2282.8,
-          "mom_30m_pct": 0.154,
-          "intraday_pct": -0.048,
-          "rsi": 49.6,
-          "vol_factor": 1.0,
-          "score": 0.216
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 11,
-        "buy_price": 378.2,
-        "buy_time": "2026-08-19 14:48:27",
-        "iteration": 12,
-        "score_info": {
-          "last": 378.2,
-          "mom_30m_pct": -0.04,
-          "intraday_pct": -0.5,
-          "rsi": 60.0,
-          "vol_factor": 2.0,
-          "score": 0.791
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 4,
-        "buy_price": 1036.05,
-        "buy_time": "2026-08-19 14:48:27",
-        "iteration": 12,
-        "score_info": {
-          "last": 1036.05,
-          "mom_30m_pct": 0.305,
-          "intraday_pct": -0.652,
-          "rsi": 66.0,
-          "vol_factor": 1.33,
-          "score": 0.589
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 11,
-        "buy_price": 391.95,
-        "buy_time": "2026-08-19 14:48:27",
-        "iteration": 12,
-        "score_info": {
-          "last": 391.95,
-          "mom_30m_pct": 0.217,
-          "intraday_pct": 0.59,
-          "rsi": 72.9,
-          "vol_factor": 0.92,
-          "score": 0.419
-        }
-      }
-    ],
-    "trades": [
-      {
-        "time": "2026-08-19 09:52:02",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 4,
-        "price": 667.35,
-        "cost": 2669.4,
-        "score": {
-          "last": 667.35,
-          "mom_30m_pct": 0.323,
-          "intraday_pct": 0.938,
-          "rsi": 41.7,
-          "vol_factor": 0.78,
-          "score": 0.547
-        }
-      },
-      {
-        "time": "2026-08-19 09:52:02",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "SBIN",
-        "qty": 2,
-        "price": 1053.0,
-        "cost": 2106.0,
-        "score": {
-          "last": 1053.0,
-          "mom_30m_pct": 0.41,
-          "intraday_pct": -0.763,
-          "rsi": 42.5,
-          "vol_factor": 0.58,
-          "score": -0.032
-        }
-      },
-      {
-        "time": "2026-08-19 09:52:02",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "price": 2629.0,
-        "cost": 2629.0,
-        "score": {
-          "last": 2629.0,
-          "mom_30m_pct": 0.397,
-          "intraday_pct": -0.822,
-          "rsi": 45.6,
-          "vol_factor": 0.53,
-          "score": -0.119
-        }
-      },
-      {
-        "time": "2026-08-19 10:09:59",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "JSWSTEEL",
-        "qty": 2,
-        "price": 1274.4,
-        "cost": 2548.8,
-        "score": {
-          "last": 1274.4,
-          "mom_30m_pct": 0.887,
-          "intraday_pct": -0.601,
-          "rsi": 56.2,
-          "vol_factor": 1.34,
-          "score": 1.487
-        }
-      },
-      {
-        "time": "2026-08-19 10:09:59",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 4,
-        "price": 667.6,
-        "cost": 2670.4,
-        "score": {
-          "last": 667.6,
-          "mom_30m_pct": 1.129,
-          "intraday_pct": 0.838,
-          "rsi": 42.8,
-          "vol_factor": 0.2,
-          "score": 1.148
-        }
-      },
-      {
-        "time": "2026-08-19 10:27:44",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "BAJFINANCE",
-        "qty": 2,
-        "price": 1087.5,
-        "cost": 2175.0,
-        "score": {
-          "last": 1087.5,
-          "mom_30m_pct": 0.406,
-          "intraday_pct": -0.54,
-          "rsi": 70.4,
-          "vol_factor": 1.57,
-          "score": 1.016
-        }
-      },
-      {
-        "time": "2026-08-19 10:27:44",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "M&M",
-        "qty": 1,
-        "price": 3421.0,
-        "cost": 3421.0,
-        "score": {
-          "last": 3421.0,
-          "mom_30m_pct": 0.47,
-          "intraday_pct": 0.143,
-          "rsi": 73.9,
-          "vol_factor": 0.36,
-          "score": 0.111
-        }
-      },
-      {
-        "time": "2026-08-19 10:43:51",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "DRREDDY",
-        "qty": 2,
-        "price": 1183.8,
-        "cost": 2367.6,
-        "score": {
-          "last": 1183.8,
-          "mom_30m_pct": -0.152,
-          "intraday_pct": -0.11,
-          "rsi": 62.8,
-          "vol_factor": 2.0,
-          "score": 0.739
-        }
-      },
-      {
-        "time": "2026-08-19 10:43:51",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "KOTAKBANK",
-        "qty": 10,
-        "price": 387.6,
-        "cost": 3876.0,
-        "score": {
-          "last": 387.6,
-          "mom_30m_pct": -0.36,
-          "intraday_pct": -0.743,
-          "rsi": 47.1,
-          "vol_factor": 2.0,
-          "score": 0.237
-        }
-      },
-      {
-        "time": "2026-08-19 11:10:16",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "GRASIM",
-        "qty": 1,
-        "price": 3248.0,
-        "cost": 3248.0,
-        "score": {
-          "last": 3248.0,
-          "mom_30m_pct": 0.666,
-          "intraday_pct": -1.205,
-          "rsi": 35.9,
-          "vol_factor": 1.0,
-          "score": 0.638
-        }
-      },
-      {
-        "time": "2026-08-19 11:10:16",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 5,
-        "price": 669.6,
-        "cost": 3348.0,
-        "score": {
-          "last": 669.6,
-          "mom_30m_pct": 0.18,
-          "intraday_pct": 0.45,
-          "rsi": 57.3,
-          "vol_factor": 1.0,
-          "score": 0.404
-        }
-      },
-      {
-        "time": "2026-08-19 11:10:16",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "ONGC",
-        "qty": 14,
-        "price": 240.58,
-        "cost": 3368.12,
-        "score": {
-          "last": 240.58,
-          "mom_30m_pct": 0.183,
-          "intraday_pct": 0.363,
-          "rsi": 56.7,
-          "vol_factor": 1.0,
-          "score": 0.384
-        }
-      },
-      {
-        "time": "2026-08-19 11:29:37",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "ONGC",
-        "qty": 12,
-        "price": 241.4,
-        "cost": 2896.8,
-        "score": {
-          "last": 241.4,
-          "mom_30m_pct": 0.567,
-          "intraday_pct": 0.768,
-          "rsi": 70.2,
-          "vol_factor": 1.12,
-          "score": 1.198
-        }
-      },
-      {
-        "time": "2026-08-19 11:29:37",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 2,
-        "price": 1582.2,
-        "cost": 3164.4,
-        "score": {
-          "last": 1582.2,
-          "mom_30m_pct": -0.051,
-          "intraday_pct": -0.24,
-          "rsi": 41.0,
-          "vol_factor": 2.0,
-          "score": 0.852
-        }
-      },
-      {
-        "time": "2026-08-19 11:29:37",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "INFY",
-        "qty": 2,
-        "price": 1121.1,
-        "cost": 2242.2,
-        "score": {
-          "last": 1121.1,
-          "mom_30m_pct": 0.403,
-          "intraday_pct": 0.484,
-          "rsi": 57.6,
-          "vol_factor": 0.76,
-          "score": 0.508
-        }
-      },
-      {
-        "time": "2026-08-19 12:28:45",
-        "iteration": 7,
-        "action": "SELL",
-        "symbol": "ONGC",
-        "qty": 12,
-        "price": 238.81,
-        "buy_price": 241.4,
-        "pnl": -31.08,
-        "pnl_pct": -1.07,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-19 12:28:46",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "price": 5530.5,
-        "cost": 5530.5,
-        "score": {
-          "last": 5530.5,
-          "mom_30m_pct": -0.036,
-          "intraday_pct": -0.261,
-          "rsi": 74.6,
-          "vol_factor": 2.0,
-          "score": 0.867
-        }
-      },
-      {
-        "time": "2026-08-19 12:50:17",
-        "iteration": 8,
-        "action": "SELL",
-        "symbol": "DLF",
-        "qty": 4,
-        "price": 673.1,
-        "buy_price": 667.35,
-        "pnl": 23.0,
-        "pnl_pct": 0.86,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-08-19 12:50:17",
-        "iteration": 8,
-        "action": "SELL",
-        "symbol": "DLF",
-        "qty": 4,
-        "price": 673.1,
-        "buy_price": 667.6,
-        "pnl": 22.0,
-        "pnl_pct": 0.82,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-08-19 12:50:17",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "price": 1887.9,
-        "cost": 1887.9,
-        "score": {
-          "last": 1887.9,
-          "mom_30m_pct": -0.238,
-          "intraday_pct": 0.796,
-          "rsi": 35.7,
-          "vol_factor": 2.0,
-          "score": 0.882
-        }
-      },
-      {
-        "time": "2026-08-19 12:50:17",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "JSWSTEEL",
-        "qty": 6,
-        "price": 1280.3,
-        "cost": 7681.8,
-        "score": {
-          "last": 1280.3,
-          "mom_30m_pct": 0.613,
-          "intraday_pct": 0.29,
-          "rsi": 70.1,
-          "vol_factor": 0.43,
-          "score": 0.441
-        }
-      },
-      {
-        "time": "2026-08-19 13:17:38",
-        "iteration": 9,
-        "action": "SELL",
-        "symbol": "ONGC",
-        "qty": 14,
-        "price": 237.99,
-        "buy_price": 240.58,
-        "pnl": -36.26,
-        "pnl_pct": -1.08,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-19 13:17:38",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "TCS",
-        "qty": 1,
-        "price": 2283.4,
-        "cost": 2283.4,
-        "score": {
-          "last": 2283.4,
-          "mom_30m_pct": 0.241,
-          "intraday_pct": -0.201,
-          "rsi": 66.3,
-          "vol_factor": 1.1,
-          "score": 0.404
-        }
-      },
-      {
-        "time": "2026-08-19 13:17:38",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 3905.0,
-        "cost": 3905.0,
-        "score": {
-          "last": 3905.0,
-          "mom_30m_pct": -0.018,
-          "intraday_pct": -1.289,
-          "rsi": 46.7,
-          "vol_factor": 1.44,
-          "score": 0.024
-        }
-      },
-      {
-        "time": "2026-08-19 13:17:38",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "JSWSTEEL",
-        "qty": 3,
-        "price": 1281.2,
-        "cost": 3843.6,
-        "score": {
-          "last": 1281.2,
-          "mom_30m_pct": 0.094,
-          "intraday_pct": 0.384,
-          "rsi": 74.1,
-          "vol_factor": 0.53,
-          "score": -0.211
-        }
-      },
-      {
-        "time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "action": "SELL",
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "price": 2602.7,
-        "buy_price": 2629.0,
-        "pnl": -26.3,
-        "pnl_pct": -1.0,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "action": "SELL",
-        "symbol": "KOTAKBANK",
-        "qty": 10,
-        "price": 390.75,
-        "buy_price": 387.6,
-        "pnl": 31.5,
-        "pnl_pct": 0.81,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "price": 1890.8,
-        "cost": 1890.8,
-        "score": {
-          "last": 1890.8,
-          "mom_30m_pct": 0.026,
-          "intraday_pct": 0.628,
-          "rsi": 40.9,
-          "vol_factor": 1.0,
-          "score": 0.228
-        }
-      },
-      {
-        "time": "2026-08-19 13:37:43",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "JSWSTEEL",
-        "qty": 6,
-        "price": 1281.6,
-        "cost": 7689.6,
-        "score": {
-          "last": 1281.6,
-          "mom_30m_pct": -0.07,
-          "intraday_pct": 0.66,
-          "rsi": 67.0,
-          "vol_factor": 1.0,
-          "score": 0.093
-        }
-      },
-      {
-        "time": "2026-08-19 14:25:53",
-        "iteration": 11,
-        "action": "SELL",
-        "symbol": "DRREDDY",
-        "qty": 2,
-        "price": 1169.1,
-        "buy_price": 1183.8,
-        "pnl": -29.4,
-        "pnl_pct": -1.24,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-19 14:25:53",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "price": 1317.9,
-        "cost": 2635.8,
-        "score": {
-          "last": 1317.9,
-          "mom_30m_pct": 0.03,
-          "intraday_pct": 1.878,
-          "rsi": 45.2,
-          "vol_factor": 1.0,
-          "score": 0.609
-        }
-      },
-      {
-        "time": "2026-08-19 14:25:53",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "KOTAKBANK",
-        "qty": 12,
-        "price": 391.0,
-        "cost": 4692.0,
-        "score": {
-          "last": 391.0,
-          "mom_30m_pct": 0.077,
-          "intraday_pct": 0.372,
-          "rsi": 62.3,
-          "vol_factor": 1.0,
-          "score": 0.227
-        }
-      },
-      {
-        "time": "2026-08-19 14:25:53",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "TCS",
-        "qty": 1,
-        "price": 2282.8,
-        "cost": 2282.8,
-        "score": {
-          "last": 2282.8,
-          "mom_30m_pct": 0.154,
-          "intraday_pct": -0.048,
-          "rsi": 49.6,
-          "vol_factor": 1.0,
-          "score": 0.216
-        }
-      },
-      {
-        "time": "2026-08-19 14:48:27",
-        "iteration": 12,
-        "action": "SELL",
-        "symbol": "BRITANNIA",
-        "qty": 1,
-        "price": 5472.5,
-        "buy_price": 5530.5,
-        "pnl": -58.0,
-        "pnl_pct": -1.05,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-19 14:48:27",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 11,
-        "price": 378.2,
-        "cost": 4160.2,
-        "score": {
-          "last": 378.2,
-          "mom_30m_pct": -0.04,
-          "intraday_pct": -0.5,
-          "rsi": 60.0,
-          "vol_factor": 2.0,
-          "score": 0.791
-        }
-      },
-      {
-        "time": "2026-08-19 14:48:27",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "HINDALCO",
-        "qty": 4,
-        "price": 1036.05,
-        "cost": 4144.2,
-        "score": {
-          "last": 1036.05,
-          "mom_30m_pct": 0.305,
-          "intraday_pct": -0.652,
-          "rsi": 66.0,
-          "vol_factor": 1.33,
-          "score": 0.589
-        }
-      },
-      {
-        "time": "2026-08-19 14:48:27",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "KOTAKBANK",
-        "qty": 11,
-        "price": 391.95,
-        "cost": 4311.45,
-        "score": {
-          "last": 391.95,
-          "mom_30m_pct": 0.217,
-          "intraday_pct": 0.59,
-          "rsi": 72.9,
-          "vol_factor": 0.92,
-          "score": 0.419
-        }
-      }
-    ],
-    "closed": false
-  },
+  "current_day": null,
   "history": [
     {
       "date": "2026-06-03",
@@ -45059,20 +44025,870 @@
       "n_sells": 28,
       "feedback": "Day P&L \u20b9-85 on \u20b998692 deployed (-0.09%). Worst trade: BPCL (P&L \u20b9-30, -1.06%). Consider tighter stop on entries with weaker momentum scores. 22 EOD force-sells contributed \u20b9-159. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
+    },
+    {
+      "date": "2026-08-19",
+      "iterations_run": 14,
+      "invested": 99669.77,
+      "realized_pnl": 14.71,
+      "pnl_pct": 0.015,
+      "trades": [
+        {
+          "time": "2026-08-19 09:52:02",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "DLF",
+          "qty": 4,
+          "price": 667.35,
+          "cost": 2669.4,
+          "score": {
+            "last": 667.35,
+            "mom_30m_pct": 0.323,
+            "intraday_pct": 0.938,
+            "rsi": 41.7,
+            "vol_factor": 0.78,
+            "score": 0.547
+          }
+        },
+        {
+          "time": "2026-08-19 09:52:02",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "SBIN",
+          "qty": 2,
+          "price": 1053.0,
+          "cost": 2106.0,
+          "score": {
+            "last": 1053.0,
+            "mom_30m_pct": 0.41,
+            "intraday_pct": -0.763,
+            "rsi": 42.5,
+            "vol_factor": 0.58,
+            "score": -0.032
+          }
+        },
+        {
+          "time": "2026-08-19 09:52:02",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "ASIANPAINT",
+          "qty": 1,
+          "price": 2629.0,
+          "cost": 2629.0,
+          "score": {
+            "last": 2629.0,
+            "mom_30m_pct": 0.397,
+            "intraday_pct": -0.822,
+            "rsi": 45.6,
+            "vol_factor": 0.53,
+            "score": -0.119
+          }
+        },
+        {
+          "time": "2026-08-19 10:09:59",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "JSWSTEEL",
+          "qty": 2,
+          "price": 1274.4,
+          "cost": 2548.8,
+          "score": {
+            "last": 1274.4,
+            "mom_30m_pct": 0.887,
+            "intraday_pct": -0.601,
+            "rsi": 56.2,
+            "vol_factor": 1.34,
+            "score": 1.487
+          }
+        },
+        {
+          "time": "2026-08-19 10:09:59",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "DLF",
+          "qty": 4,
+          "price": 667.6,
+          "cost": 2670.4,
+          "score": {
+            "last": 667.6,
+            "mom_30m_pct": 1.129,
+            "intraday_pct": 0.838,
+            "rsi": 42.8,
+            "vol_factor": 0.2,
+            "score": 1.148
+          }
+        },
+        {
+          "time": "2026-08-19 10:27:44",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "BAJFINANCE",
+          "qty": 2,
+          "price": 1087.5,
+          "cost": 2175.0,
+          "score": {
+            "last": 1087.5,
+            "mom_30m_pct": 0.406,
+            "intraday_pct": -0.54,
+            "rsi": 70.4,
+            "vol_factor": 1.57,
+            "score": 1.016
+          }
+        },
+        {
+          "time": "2026-08-19 10:27:44",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "M&M",
+          "qty": 1,
+          "price": 3421.0,
+          "cost": 3421.0,
+          "score": {
+            "last": 3421.0,
+            "mom_30m_pct": 0.47,
+            "intraday_pct": 0.143,
+            "rsi": 73.9,
+            "vol_factor": 0.36,
+            "score": 0.111
+          }
+        },
+        {
+          "time": "2026-08-19 10:43:51",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "DRREDDY",
+          "qty": 2,
+          "price": 1183.8,
+          "cost": 2367.6,
+          "score": {
+            "last": 1183.8,
+            "mom_30m_pct": -0.152,
+            "intraday_pct": -0.11,
+            "rsi": 62.8,
+            "vol_factor": 2.0,
+            "score": 0.739
+          }
+        },
+        {
+          "time": "2026-08-19 10:43:51",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "KOTAKBANK",
+          "qty": 10,
+          "price": 387.6,
+          "cost": 3876.0,
+          "score": {
+            "last": 387.6,
+            "mom_30m_pct": -0.36,
+            "intraday_pct": -0.743,
+            "rsi": 47.1,
+            "vol_factor": 2.0,
+            "score": 0.237
+          }
+        },
+        {
+          "time": "2026-08-19 11:10:16",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "GRASIM",
+          "qty": 1,
+          "price": 3248.0,
+          "cost": 3248.0,
+          "score": {
+            "last": 3248.0,
+            "mom_30m_pct": 0.666,
+            "intraday_pct": -1.205,
+            "rsi": 35.9,
+            "vol_factor": 1.0,
+            "score": 0.638
+          }
+        },
+        {
+          "time": "2026-08-19 11:10:16",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "DLF",
+          "qty": 5,
+          "price": 669.6,
+          "cost": 3348.0,
+          "score": {
+            "last": 669.6,
+            "mom_30m_pct": 0.18,
+            "intraday_pct": 0.45,
+            "rsi": 57.3,
+            "vol_factor": 1.0,
+            "score": 0.404
+          }
+        },
+        {
+          "time": "2026-08-19 11:10:16",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "ONGC",
+          "qty": 14,
+          "price": 240.58,
+          "cost": 3368.12,
+          "score": {
+            "last": 240.58,
+            "mom_30m_pct": 0.183,
+            "intraday_pct": 0.363,
+            "rsi": 56.7,
+            "vol_factor": 1.0,
+            "score": 0.384
+          }
+        },
+        {
+          "time": "2026-08-19 11:29:37",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "ONGC",
+          "qty": 12,
+          "price": 241.4,
+          "cost": 2896.8,
+          "score": {
+            "last": 241.4,
+            "mom_30m_pct": 0.567,
+            "intraday_pct": 0.768,
+            "rsi": 70.2,
+            "vol_factor": 1.12,
+            "score": 1.198
+          }
+        },
+        {
+          "time": "2026-08-19 11:29:37",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1582.2,
+          "cost": 3164.4,
+          "score": {
+            "last": 1582.2,
+            "mom_30m_pct": -0.051,
+            "intraday_pct": -0.24,
+            "rsi": 41.0,
+            "vol_factor": 2.0,
+            "score": 0.852
+          }
+        },
+        {
+          "time": "2026-08-19 11:29:37",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "INFY",
+          "qty": 2,
+          "price": 1121.1,
+          "cost": 2242.2,
+          "score": {
+            "last": 1121.1,
+            "mom_30m_pct": 0.403,
+            "intraday_pct": 0.484,
+            "rsi": 57.6,
+            "vol_factor": 0.76,
+            "score": 0.508
+          }
+        },
+        {
+          "time": "2026-08-19 12:28:45",
+          "iteration": 7,
+          "action": "SELL",
+          "symbol": "ONGC",
+          "qty": 12,
+          "price": 238.81,
+          "buy_price": 241.4,
+          "pnl": -31.08,
+          "pnl_pct": -1.07,
+          "reason": "STOP_LOSS"
+        },
+        {
+          "time": "2026-08-19 12:28:46",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5530.5,
+          "cost": 5530.5,
+          "score": {
+            "last": 5530.5,
+            "mom_30m_pct": -0.036,
+            "intraday_pct": -0.261,
+            "rsi": 74.6,
+            "vol_factor": 2.0,
+            "score": 0.867
+          }
+        },
+        {
+          "time": "2026-08-19 12:50:17",
+          "iteration": 8,
+          "action": "SELL",
+          "symbol": "DLF",
+          "qty": 4,
+          "price": 673.1,
+          "buy_price": 667.35,
+          "pnl": 23.0,
+          "pnl_pct": 0.86,
+          "reason": "TAKE_PROFIT"
+        },
+        {
+          "time": "2026-08-19 12:50:17",
+          "iteration": 8,
+          "action": "SELL",
+          "symbol": "DLF",
+          "qty": 4,
+          "price": 673.1,
+          "buy_price": 667.6,
+          "pnl": 22.0,
+          "pnl_pct": 0.82,
+          "reason": "TAKE_PROFIT"
+        },
+        {
+          "time": "2026-08-19 12:50:17",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "SUNPHARMA",
+          "qty": 1,
+          "price": 1887.9,
+          "cost": 1887.9,
+          "score": {
+            "last": 1887.9,
+            "mom_30m_pct": -0.238,
+            "intraday_pct": 0.796,
+            "rsi": 35.7,
+            "vol_factor": 2.0,
+            "score": 0.882
+          }
+        },
+        {
+          "time": "2026-08-19 12:50:17",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "JSWSTEEL",
+          "qty": 6,
+          "price": 1280.3,
+          "cost": 7681.8,
+          "score": {
+            "last": 1280.3,
+            "mom_30m_pct": 0.613,
+            "intraday_pct": 0.29,
+            "rsi": 70.1,
+            "vol_factor": 0.43,
+            "score": 0.441
+          }
+        },
+        {
+          "time": "2026-08-19 13:17:38",
+          "iteration": 9,
+          "action": "SELL",
+          "symbol": "ONGC",
+          "qty": 14,
+          "price": 237.99,
+          "buy_price": 240.58,
+          "pnl": -36.26,
+          "pnl_pct": -1.08,
+          "reason": "STOP_LOSS"
+        },
+        {
+          "time": "2026-08-19 13:17:38",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "TCS",
+          "qty": 1,
+          "price": 2283.4,
+          "cost": 2283.4,
+          "score": {
+            "last": 2283.4,
+            "mom_30m_pct": 0.241,
+            "intraday_pct": -0.201,
+            "rsi": 66.3,
+            "vol_factor": 1.1,
+            "score": 0.404
+          }
+        },
+        {
+          "time": "2026-08-19 13:17:38",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 3905.0,
+          "cost": 3905.0,
+          "score": {
+            "last": 3905.0,
+            "mom_30m_pct": -0.018,
+            "intraday_pct": -1.289,
+            "rsi": 46.7,
+            "vol_factor": 1.44,
+            "score": 0.024
+          }
+        },
+        {
+          "time": "2026-08-19 13:17:38",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "JSWSTEEL",
+          "qty": 3,
+          "price": 1281.2,
+          "cost": 3843.6,
+          "score": {
+            "last": 1281.2,
+            "mom_30m_pct": 0.094,
+            "intraday_pct": 0.384,
+            "rsi": 74.1,
+            "vol_factor": 0.53,
+            "score": -0.211
+          }
+        },
+        {
+          "time": "2026-08-19 13:37:43",
+          "iteration": 10,
+          "action": "SELL",
+          "symbol": "ASIANPAINT",
+          "qty": 1,
+          "price": 2602.7,
+          "buy_price": 2629.0,
+          "pnl": -26.3,
+          "pnl_pct": -1.0,
+          "reason": "STOP_LOSS"
+        },
+        {
+          "time": "2026-08-19 13:37:43",
+          "iteration": 10,
+          "action": "SELL",
+          "symbol": "KOTAKBANK",
+          "qty": 10,
+          "price": 390.75,
+          "buy_price": 387.6,
+          "pnl": 31.5,
+          "pnl_pct": 0.81,
+          "reason": "TAKE_PROFIT"
+        },
+        {
+          "time": "2026-08-19 13:37:43",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "SUNPHARMA",
+          "qty": 1,
+          "price": 1890.8,
+          "cost": 1890.8,
+          "score": {
+            "last": 1890.8,
+            "mom_30m_pct": 0.026,
+            "intraday_pct": 0.628,
+            "rsi": 40.9,
+            "vol_factor": 1.0,
+            "score": 0.228
+          }
+        },
+        {
+          "time": "2026-08-19 13:37:43",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "JSWSTEEL",
+          "qty": 6,
+          "price": 1281.6,
+          "cost": 7689.6,
+          "score": {
+            "last": 1281.6,
+            "mom_30m_pct": -0.07,
+            "intraday_pct": 0.66,
+            "rsi": 67.0,
+            "vol_factor": 1.0,
+            "score": 0.093
+          }
+        },
+        {
+          "time": "2026-08-19 14:25:53",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "DRREDDY",
+          "qty": 2,
+          "price": 1169.1,
+          "buy_price": 1183.8,
+          "pnl": -29.4,
+          "pnl_pct": -1.24,
+          "reason": "STOP_LOSS"
+        },
+        {
+          "time": "2026-08-19 14:25:53",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "HCLTECH",
+          "qty": 2,
+          "price": 1317.9,
+          "cost": 2635.8,
+          "score": {
+            "last": 1317.9,
+            "mom_30m_pct": 0.03,
+            "intraday_pct": 1.878,
+            "rsi": 45.2,
+            "vol_factor": 1.0,
+            "score": 0.609
+          }
+        },
+        {
+          "time": "2026-08-19 14:25:53",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "KOTAKBANK",
+          "qty": 12,
+          "price": 391.0,
+          "cost": 4692.0,
+          "score": {
+            "last": 391.0,
+            "mom_30m_pct": 0.077,
+            "intraday_pct": 0.372,
+            "rsi": 62.3,
+            "vol_factor": 1.0,
+            "score": 0.227
+          }
+        },
+        {
+          "time": "2026-08-19 14:25:53",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "TCS",
+          "qty": 1,
+          "price": 2282.8,
+          "cost": 2282.8,
+          "score": {
+            "last": 2282.8,
+            "mom_30m_pct": 0.154,
+            "intraday_pct": -0.048,
+            "rsi": 49.6,
+            "vol_factor": 1.0,
+            "score": 0.216
+          }
+        },
+        {
+          "time": "2026-08-19 14:48:27",
+          "iteration": 12,
+          "action": "SELL",
+          "symbol": "BRITANNIA",
+          "qty": 1,
+          "price": 5472.5,
+          "buy_price": 5530.5,
+          "pnl": -58.0,
+          "pnl_pct": -1.05,
+          "reason": "STOP_LOSS"
+        },
+        {
+          "time": "2026-08-19 14:48:27",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 11,
+          "price": 378.2,
+          "cost": 4160.2,
+          "score": {
+            "last": 378.2,
+            "mom_30m_pct": -0.04,
+            "intraday_pct": -0.5,
+            "rsi": 60.0,
+            "vol_factor": 2.0,
+            "score": 0.791
+          }
+        },
+        {
+          "time": "2026-08-19 14:48:27",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "HINDALCO",
+          "qty": 4,
+          "price": 1036.05,
+          "cost": 4144.2,
+          "score": {
+            "last": 1036.05,
+            "mom_30m_pct": 0.305,
+            "intraday_pct": -0.652,
+            "rsi": 66.0,
+            "vol_factor": 1.33,
+            "score": 0.589
+          }
+        },
+        {
+          "time": "2026-08-19 14:48:27",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "KOTAKBANK",
+          "qty": 11,
+          "price": 391.95,
+          "cost": 4311.45,
+          "score": {
+            "last": 391.95,
+            "mom_30m_pct": 0.217,
+            "intraday_pct": 0.59,
+            "rsi": 72.9,
+            "vol_factor": 0.92,
+            "score": 0.419
+          }
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SBIN",
+          "qty": 2,
+          "price": 1044.8,
+          "buy_price": 1053.0,
+          "pnl": -16.4,
+          "pnl_pct": -0.78,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "JSWSTEEL",
+          "qty": 2,
+          "price": 1285.8,
+          "buy_price": 1274.4,
+          "pnl": 22.8,
+          "pnl_pct": 0.89,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BAJFINANCE",
+          "qty": 2,
+          "price": 1080.6,
+          "buy_price": 1087.5,
+          "pnl": -13.8,
+          "pnl_pct": -0.63,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "M&M",
+          "qty": 1,
+          "price": 3415.0,
+          "buy_price": 3421.0,
+          "pnl": -6.0,
+          "pnl_pct": -0.18,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "GRASIM",
+          "qty": 1,
+          "price": 3269.8,
+          "buy_price": 3248.0,
+          "pnl": 21.8,
+          "pnl_pct": 0.67,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "DLF",
+          "qty": 5,
+          "price": 668.0,
+          "buy_price": 669.6,
+          "pnl": -8.0,
+          "pnl_pct": -0.24,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1589.8,
+          "buy_price": 1582.2,
+          "pnl": 15.2,
+          "pnl_pct": 0.48,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "INFY",
+          "qty": 2,
+          "price": 1119.9,
+          "buy_price": 1121.1,
+          "pnl": -2.4,
+          "pnl_pct": -0.11,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SUNPHARMA",
+          "qty": 1,
+          "price": 1896.6,
+          "buy_price": 1887.9,
+          "pnl": 8.7,
+          "pnl_pct": 0.46,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "JSWSTEEL",
+          "qty": 6,
+          "price": 1285.8,
+          "buy_price": 1280.3,
+          "pnl": 33.0,
+          "pnl_pct": 0.43,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TCS",
+          "qty": 1,
+          "price": 2289.0,
+          "buy_price": 2283.4,
+          "pnl": 5.6,
+          "pnl_pct": 0.25,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 3898.9,
+          "buy_price": 3905.0,
+          "pnl": -6.1,
+          "pnl_pct": -0.16,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "JSWSTEEL",
+          "qty": 3,
+          "price": 1285.8,
+          "buy_price": 1281.2,
+          "pnl": 13.8,
+          "pnl_pct": 0.36,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "SUNPHARMA",
+          "qty": 1,
+          "price": 1896.6,
+          "buy_price": 1890.8,
+          "pnl": 5.8,
+          "pnl_pct": 0.31,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "JSWSTEEL",
+          "qty": 6,
+          "price": 1285.8,
+          "buy_price": 1281.6,
+          "pnl": 25.2,
+          "pnl_pct": 0.33,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HCLTECH",
+          "qty": 2,
+          "price": 1320.1,
+          "buy_price": 1317.9,
+          "pnl": 4.4,
+          "pnl_pct": 0.17,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "KOTAKBANK",
+          "qty": 12,
+          "price": 391.95,
+          "buy_price": 391.0,
+          "pnl": 11.4,
+          "pnl_pct": 0.24,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TCS",
+          "qty": 1,
+          "price": 2289.0,
+          "buy_price": 2282.8,
+          "pnl": 6.2,
+          "pnl_pct": 0.27,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 11,
+          "price": 378.15,
+          "buy_price": 378.2,
+          "pnl": -0.55,
+          "pnl_pct": -0.01,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HINDALCO",
+          "qty": 4,
+          "price": 1035.7,
+          "buy_price": 1036.05,
+          "pnl": -1.4,
+          "pnl_pct": -0.03,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-19 15:44:13",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "KOTAKBANK",
+          "qty": 11,
+          "price": 391.95,
+          "buy_price": 391.95,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        }
+      ],
+      "n_buys": 29,
+      "n_sells": 29,
+      "feedback": "Day P&L \u20b915 on \u20b999670 deployed (0.01%). Worst trade: BRITANNIA (P&L \u20b9-58, -1.05%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
+      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 56,
-    "winning_days": 31,
+    "total_days": 57,
+    "winning_days": 32,
     "losing_days": 23,
-    "total_realized_pnl": 537.25,
+    "total_realized_pnl": 551.96,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-07-08",
-        "note": "Day P&L \u20b9-765 on \u20b999501 deployed (-0.77%). Worst trade: BAJFINANCE (P&L \u20b9-183, -2.22%). Consider tighter stop on entries with weaker momentum scores. 17 EOD force-sells contributed \u20b914. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
-      },
       {
         "date": "2026-07-09",
         "note": "Day P&L \u20b925 on \u20b998022 deployed (0.03%). Worst trade: TRENT (P&L \u20b9-33, -1.13%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -45188,6 +45004,10 @@
       {
         "date": "2026-08-18",
         "note": "Day P&L \u20b9-85 on \u20b998692 deployed (-0.09%). Worst trade: BPCL (P&L \u20b9-30, -1.06%). Consider tighter stop on entries with weaker momentum scores. 22 EOD force-sells contributed \u20b9-159. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
+      {
+        "date": "2026-08-19",
+        "note": "Day P&L \u20b915 on \u20b999670 deployed (0.01%). Worst trade: BRITANNIA (P&L \u20b9-58, -1.05%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
       }
     ]
   }
