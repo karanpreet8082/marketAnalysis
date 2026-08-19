@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-19",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 34427.32,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-19 11:29:37",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 42730.72,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 34427.319915771484,
+    "invested_today": 42730.71969604492,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -231,6 +240,51 @@
           "rsi": 56.7,
           "vol_factor": 1.0,
           "score": 0.384
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 12,
+        "buy_price": 241.4,
+        "buy_time": "2026-08-19 11:29:37",
+        "iteration": 6,
+        "score_info": {
+          "last": 241.4,
+          "mom_30m_pct": 0.567,
+          "intraday_pct": 0.768,
+          "rsi": 70.2,
+          "vol_factor": 1.12,
+          "score": 1.198
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1582.2,
+        "buy_time": "2026-08-19 11:29:37",
+        "iteration": 6,
+        "score_info": {
+          "last": 1582.2,
+          "mom_30m_pct": -0.051,
+          "intraday_pct": -0.24,
+          "rsi": 41.0,
+          "vol_factor": 2.0,
+          "score": 0.852
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1121.1,
+        "buy_time": "2026-08-19 11:29:37",
+        "iteration": 6,
+        "score_info": {
+          "last": 1121.1,
+          "mom_30m_pct": 0.403,
+          "intraday_pct": 0.484,
+          "rsi": 57.6,
+          "vol_factor": 0.76,
+          "score": 0.508
         }
       }
     ],
@@ -437,6 +491,57 @@
           "rsi": 56.7,
           "vol_factor": 1.0,
           "score": 0.384
+        }
+      },
+      {
+        "time": "2026-08-19 11:29:37",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 12,
+        "price": 241.4,
+        "cost": 2896.8,
+        "score": {
+          "last": 241.4,
+          "mom_30m_pct": 0.567,
+          "intraday_pct": 0.768,
+          "rsi": 70.2,
+          "vol_factor": 1.12,
+          "score": 1.198
+        }
+      },
+      {
+        "time": "2026-08-19 11:29:37",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1582.2,
+        "cost": 3164.4,
+        "score": {
+          "last": 1582.2,
+          "mom_30m_pct": -0.051,
+          "intraday_pct": -0.24,
+          "rsi": 41.0,
+          "vol_factor": 2.0,
+          "score": 0.852
+        }
+      },
+      {
+        "time": "2026-08-19 11:29:37",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1121.1,
+        "cost": 2242.2,
+        "score": {
+          "last": 1121.1,
+          "mom_30m_pct": 0.403,
+          "intraday_pct": 0.484,
+          "rsi": 57.6,
+          "vol_factor": 0.76,
+          "score": 0.508
         }
       }
     ],
