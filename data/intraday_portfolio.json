@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-20",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,19 +84,10 @@
         "invested_today_after": 69287.42,
         "realized_pnl_today_after": 141.6,
         "open_positions_after": 18
-      },
-      {
-        "iteration": 10,
-        "time": "2026-08-20 13:47:34",
-        "n_bought": 3,
-        "n_sold": 1,
-        "invested_today_after": 79210.82,
-        "realized_pnl_today_after": 110.8,
-        "open_positions_after": 20
       }
     ],
-    "invested_today": 79210.8200378418,
-    "realized_pnl_today": 110.80018310546893,
+    "invested_today": 69287.42001342773,
+    "realized_pnl_today": 141.6001831054691,
     "open_positions": [
       {
         "symbol": "JSWSTEEL",
@@ -141,6 +132,21 @@
           "rsi": 62.5,
           "vol_factor": 0.37,
           "score": 0.292
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1306.9,
+        "buy_time": "2026-08-20 10:45:17",
+        "iteration": 4,
+        "score_info": {
+          "last": 1306.9,
+          "mom_30m_pct": 1.122,
+          "intraday_pct": 2.542,
+          "rsi": 73.7,
+          "vol_factor": 1.0,
+          "score": 2.446
         }
       },
       {
@@ -351,51 +357,6 @@
           "rsi": 71.1,
           "vol_factor": 0.26,
           "score": 0.619
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 2,
-        "buy_price": 1596.0,
-        "buy_time": "2026-08-20 13:47:34",
-        "iteration": 10,
-        "score_info": {
-          "last": 1596.0,
-          "mom_30m_pct": 0.107,
-          "intraday_pct": 1.0,
-          "rsi": 49.1,
-          "vol_factor": 1.19,
-          "score": 0.65
-        }
-      },
-      {
-        "symbol": "M&M",
-        "qty": 1,
-        "buy_price": 3448.2,
-        "buy_time": "2026-08-20 13:47:34",
-        "iteration": 10,
-        "score_info": {
-          "last": 3448.2,
-          "mom_30m_pct": 0.189,
-          "intraday_pct": 0.857,
-          "rsi": 53.1,
-          "vol_factor": 0.71,
-          "score": 0.25
-        }
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "qty": 3,
-        "buy_price": 1094.4,
-        "buy_time": "2026-08-20 13:47:34",
-        "iteration": 10,
-        "score_info": {
-          "last": 1094.4,
-          "mom_30m_pct": -0.137,
-          "intraday_pct": 1.315,
-          "rsi": 30.1,
-          "vol_factor": 0.79,
-          "score": -0.023
         }
       }
     ],
@@ -791,69 +752,6 @@
           "rsi": 71.1,
           "vol_factor": 0.26,
           "score": 0.619
-        }
-      },
-      {
-        "time": "2026-08-20 13:47:34",
-        "iteration": 10,
-        "action": "SELL",
-        "symbol": "JSWSTEEL",
-        "qty": 2,
-        "price": 1291.5,
-        "buy_price": 1306.9,
-        "pnl": -30.8,
-        "pnl_pct": -1.18,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-20 13:47:34",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 2,
-        "price": 1596.0,
-        "cost": 3192.0,
-        "score": {
-          "last": 1596.0,
-          "mom_30m_pct": 0.107,
-          "intraday_pct": 1.0,
-          "rsi": 49.1,
-          "vol_factor": 1.19,
-          "score": 0.65
-        }
-      },
-      {
-        "time": "2026-08-20 13:47:34",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "M&M",
-        "qty": 1,
-        "price": 3448.2,
-        "cost": 3448.2,
-        "score": {
-          "last": 3448.2,
-          "mom_30m_pct": 0.189,
-          "intraday_pct": 0.857,
-          "rsi": 53.1,
-          "vol_factor": 0.71,
-          "score": 0.25
-        }
-      },
-      {
-        "time": "2026-08-20 13:47:34",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "BAJFINANCE",
-        "qty": 3,
-        "price": 1094.4,
-        "cost": 3283.2,
-        "score": {
-          "last": 1094.4,
-          "mom_30m_pct": -0.137,
-          "intraday_pct": 1.315,
-          "rsi": 30.1,
-          "vol_factor": 0.79,
-          "score": -0.023
         }
       }
     ],
