@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-20",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,10 +30,28 @@
         "invested_today_after": 21872.36,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-08-20 10:45:17",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 30542.72,
+        "realized_pnl_today_after": 65.2,
+        "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-20 11:10:20",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 35962.82,
+        "realized_pnl_today_after": 65.2,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 21872.359832763672,
-    "realized_pnl_today": 0.0,
+    "invested_today": 35962.81985473633,
+    "realized_pnl_today": 65.20009765625036,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -63,21 +81,6 @@
           "rsi": 48.6,
           "vol_factor": 1.0,
           "score": 0.703
-        }
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "qty": 4,
-        "buy_price": 1290.6,
-        "buy_time": "2026-08-20 10:10:07",
-        "iteration": 2,
-        "score_info": {
-          "last": 1290.6,
-          "mom_30m_pct": 0.147,
-          "intraday_pct": 0.797,
-          "rsi": 63.7,
-          "vol_factor": 1.0,
-          "score": 0.46
         }
       },
       {
@@ -123,6 +126,81 @@
           "rsi": 62.5,
           "vol_factor": 0.37,
           "score": 0.292
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1306.9,
+        "buy_time": "2026-08-20 10:45:17",
+        "iteration": 4,
+        "score_info": {
+          "last": 1306.9,
+          "mom_30m_pct": 1.122,
+          "intraday_pct": 2.542,
+          "rsi": 73.7,
+          "vol_factor": 1.0,
+          "score": 2.446
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "buy_price": 1030.8,
+        "buy_time": "2026-08-20 10:45:17",
+        "iteration": 4,
+        "score_info": {
+          "last": 1030.8,
+          "mom_30m_pct": 0.97,
+          "intraday_pct": 0.19,
+          "rsi": 69.5,
+          "vol_factor": 1.0,
+          "score": 1.511
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 16,
+        "buy_price": 185.26,
+        "buy_time": "2026-08-20 10:45:17",
+        "iteration": 4,
+        "score_info": {
+          "last": 185.26,
+          "mom_30m_pct": 0.396,
+          "intraday_pct": 0.778,
+          "rsi": 62.3,
+          "vol_factor": 1.0,
+          "score": 0.827
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "buy_price": 378.3,
+        "buy_time": "2026-08-20 11:10:20",
+        "iteration": 5,
+        "score_info": {
+          "last": 378.3,
+          "mom_30m_pct": 0.451,
+          "intraday_pct": 0.612,
+          "rsi": 71.0,
+          "vol_factor": 1.0,
+          "score": 0.861
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "buy_price": 396.0,
+        "buy_time": "2026-08-20 11:10:20",
+        "iteration": 5,
+        "score_info": {
+          "last": 396.0,
+          "mom_30m_pct": 0.126,
+          "intraday_pct": 1.878,
+          "rsi": 57.8,
+          "vol_factor": 1.0,
+          "score": 0.753
         }
       }
     ],
@@ -227,6 +305,103 @@
           "rsi": 62.5,
           "vol_factor": 0.37,
           "score": 0.292
+        }
+      },
+      {
+        "time": "2026-08-20 10:45:17",
+        "iteration": 4,
+        "action": "SELL",
+        "symbol": "JSWSTEEL",
+        "qty": 4,
+        "price": 1306.9,
+        "buy_price": 1290.6,
+        "pnl": 65.2,
+        "pnl_pct": 1.26,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-20 10:45:17",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1306.9,
+        "cost": 2613.8,
+        "score": {
+          "last": 1306.9,
+          "mom_30m_pct": 1.122,
+          "intraday_pct": 2.542,
+          "rsi": 73.7,
+          "vol_factor": 1.0,
+          "score": 2.446
+        }
+      },
+      {
+        "time": "2026-08-20 10:45:17",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 1030.8,
+        "cost": 3092.4,
+        "score": {
+          "last": 1030.8,
+          "mom_30m_pct": 0.97,
+          "intraday_pct": 0.19,
+          "rsi": 69.5,
+          "vol_factor": 1.0,
+          "score": 1.511
+        }
+      },
+      {
+        "time": "2026-08-20 10:45:17",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 16,
+        "price": 185.26,
+        "cost": 2964.16,
+        "score": {
+          "last": 185.26,
+          "mom_30m_pct": 0.396,
+          "intraday_pct": 0.778,
+          "rsi": 62.3,
+          "vol_factor": 1.0,
+          "score": 0.827
+        }
+      },
+      {
+        "time": "2026-08-20 11:10:20",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 378.3,
+        "cost": 2648.1,
+        "score": {
+          "last": 378.3,
+          "mom_30m_pct": 0.451,
+          "intraday_pct": 0.612,
+          "rsi": 71.0,
+          "vol_factor": 1.0,
+          "score": 0.861
+        }
+      },
+      {
+        "time": "2026-08-20 11:10:20",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 396.0,
+        "cost": 2772.0,
+        "score": {
+          "last": 396.0,
+          "mom_30m_pct": 0.126,
+          "intraday_pct": 1.878,
+          "rsi": 57.8,
+          "vol_factor": 1.0,
+          "score": 0.753
         }
       }
     ],
