@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-20",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 30542.72,
         "realized_pnl_today_after": 65.2,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-20 11:10:20",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 35962.82,
+        "realized_pnl_today_after": 65.2,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 30542.719940185547,
+    "invested_today": 35962.81985473633,
     "realized_pnl_today": 65.20009765625036,
     "open_positions": [
       {
@@ -162,6 +171,36 @@
           "rsi": 62.3,
           "vol_factor": 1.0,
           "score": 0.827
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "buy_price": 378.3,
+        "buy_time": "2026-08-20 11:10:20",
+        "iteration": 5,
+        "score_info": {
+          "last": 378.3,
+          "mom_30m_pct": 0.451,
+          "intraday_pct": 0.612,
+          "rsi": 71.0,
+          "vol_factor": 1.0,
+          "score": 0.861
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "buy_price": 396.0,
+        "buy_time": "2026-08-20 11:10:20",
+        "iteration": 5,
+        "score_info": {
+          "last": 396.0,
+          "mom_30m_pct": 0.126,
+          "intraday_pct": 1.878,
+          "rsi": 57.8,
+          "vol_factor": 1.0,
+          "score": 0.753
         }
       }
     ],
@@ -329,6 +368,40 @@
           "rsi": 62.3,
           "vol_factor": 1.0,
           "score": 0.827
+        }
+      },
+      {
+        "time": "2026-08-20 11:10:20",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 378.3,
+        "cost": 2648.1,
+        "score": {
+          "last": 378.3,
+          "mom_30m_pct": 0.451,
+          "intraday_pct": 0.612,
+          "rsi": 71.0,
+          "vol_factor": 1.0,
+          "score": 0.861
+        }
+      },
+      {
+        "time": "2026-08-20 11:10:20",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 396.0,
+        "cost": 2772.0,
+        "score": {
+          "last": 396.0,
+          "mom_30m_pct": 0.126,
+          "intraday_pct": 1.878,
+          "rsi": 57.8,
+          "vol_factor": 1.0,
+          "score": 0.753
         }
       }
     ],
