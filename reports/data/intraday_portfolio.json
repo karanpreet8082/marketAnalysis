@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-20",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,10 +93,19 @@
         "invested_today_after": 79210.82,
         "realized_pnl_today_after": 110.8,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-20 14:27:39",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 89302.92,
+        "realized_pnl_today_after": 80.88,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 79210.8200378418,
-    "realized_pnl_today": 110.80018310546893,
+    "invested_today": 89302.92007446289,
+    "realized_pnl_today": 80.88017333984408,
     "open_positions": [
       {
         "symbol": "JSWSTEEL",
@@ -156,21 +165,6 @@
           "rsi": 69.5,
           "vol_factor": 1.0,
           "score": 1.511
-        }
-      },
-      {
-        "symbol": "TATASTEEL",
-        "qty": 16,
-        "buy_price": 185.26,
-        "buy_time": "2026-08-20 10:45:17",
-        "iteration": 4,
-        "score_info": {
-          "last": 185.26,
-          "mom_30m_pct": 0.396,
-          "intraday_pct": 0.778,
-          "rsi": 62.3,
-          "vol_factor": 1.0,
-          "score": 0.827
         }
       },
       {
@@ -396,6 +390,51 @@
           "rsi": 30.1,
           "vol_factor": 0.79,
           "score": -0.023
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1595.7,
+        "buy_time": "2026-08-20 14:27:39",
+        "iteration": 11,
+        "score_info": {
+          "last": 1595.7,
+          "mom_30m_pct": 0.132,
+          "intraday_pct": 1.109,
+          "rsi": 55.2,
+          "vol_factor": 2.0,
+          "score": 1.53
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 20,
+        "buy_price": 180.96,
+        "buy_time": "2026-08-20 14:27:39",
+        "iteration": 11,
+        "score_info": {
+          "last": 180.96,
+          "mom_30m_pct": 0.061,
+          "intraday_pct": 1.005,
+          "rsi": 54.1,
+          "vol_factor": 2.0,
+          "score": 1.393
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3281.5,
+        "buy_time": "2026-08-20 14:27:39",
+        "iteration": 11,
+        "score_info": {
+          "last": 3281.5,
+          "mom_30m_pct": 0.076,
+          "intraday_pct": 0.916,
+          "rsi": 64.1,
+          "vol_factor": 2.0,
+          "score": 1.389
         }
       }
     ],
@@ -854,6 +893,69 @@
           "rsi": 30.1,
           "vol_factor": 0.79,
           "score": -0.023
+        }
+      },
+      {
+        "time": "2026-08-20 14:27:39",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "TATASTEEL",
+        "qty": 16,
+        "price": 183.39,
+        "buy_price": 185.26,
+        "pnl": -29.92,
+        "pnl_pct": -1.01,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-20 14:27:39",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1595.7,
+        "cost": 3191.4,
+        "score": {
+          "last": 1595.7,
+          "mom_30m_pct": 0.132,
+          "intraday_pct": 1.109,
+          "rsi": 55.2,
+          "vol_factor": 2.0,
+          "score": 1.53
+        }
+      },
+      {
+        "time": "2026-08-20 14:27:39",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 20,
+        "price": 180.96,
+        "cost": 3619.2,
+        "score": {
+          "last": 180.96,
+          "mom_30m_pct": 0.061,
+          "intraday_pct": 1.005,
+          "rsi": 54.1,
+          "vol_factor": 2.0,
+          "score": 1.393
+        }
+      },
+      {
+        "time": "2026-08-20 14:27:39",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3281.5,
+        "cost": 3281.5,
+        "score": {
+          "last": 3281.5,
+          "mom_30m_pct": 0.076,
+          "intraday_pct": 0.916,
+          "rsi": 64.1,
+          "vol_factor": 2.0,
+          "score": 1.389
         }
       }
     ],
