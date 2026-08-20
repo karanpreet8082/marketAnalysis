@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-20",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 41346.32,
         "realized_pnl_today_after": 65.2,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-20 12:29:16",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 50842.27,
+        "realized_pnl_today_after": 65.2,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 41346.3200378418,
+    "invested_today": 50842.269927978516,
     "realized_pnl_today": 65.20009765625036,
     "open_positions": [
       {
@@ -240,6 +249,51 @@
           "rsi": 59.5,
           "vol_factor": 1.0,
           "score": 0.826
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 678.75,
+        "buy_time": "2026-08-20 12:29:16",
+        "iteration": 7,
+        "score_info": {
+          "last": 678.75,
+          "mom_30m_pct": 0.288,
+          "intraday_pct": 0.989,
+          "rsi": 71.4,
+          "vol_factor": 2.0,
+          "score": 1.729
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 396.55,
+        "buy_time": "2026-08-20 12:29:16",
+        "iteration": 7,
+        "score_info": {
+          "last": 396.55,
+          "mom_30m_pct": -0.277,
+          "intraday_pct": 1.588,
+          "rsi": 50.8,
+          "vol_factor": 2.0,
+          "score": 1.062
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "buy_price": 401.5,
+        "buy_time": "2026-08-20 12:29:16",
+        "iteration": 7,
+        "score_info": {
+          "last": 401.5,
+          "mom_30m_pct": 0.175,
+          "intraday_pct": 0.564,
+          "rsi": 59.4,
+          "vol_factor": 0.77,
+          "score": 0.197
         }
       }
     ],
@@ -475,6 +529,57 @@
           "rsi": 59.5,
           "vol_factor": 1.0,
           "score": 0.826
+        }
+      },
+      {
+        "time": "2026-08-20 12:29:16",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 678.75,
+        "cost": 2715.0,
+        "score": {
+          "last": 678.75,
+          "mom_30m_pct": 0.288,
+          "intraday_pct": 0.989,
+          "rsi": 71.4,
+          "vol_factor": 2.0,
+          "score": 1.729
+        }
+      },
+      {
+        "time": "2026-08-20 12:29:16",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 396.55,
+        "cost": 3568.95,
+        "score": {
+          "last": 396.55,
+          "mom_30m_pct": -0.277,
+          "intraday_pct": 1.588,
+          "rsi": 50.8,
+          "vol_factor": 2.0,
+          "score": 1.062
+        }
+      },
+      {
+        "time": "2026-08-20 12:29:16",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "price": 401.5,
+        "cost": 3212.0,
+        "score": {
+          "last": 401.5,
+          "mom_30m_pct": 0.175,
+          "intraday_pct": 0.564,
+          "rsi": 59.4,
+          "vol_factor": 0.77,
+          "score": 0.197
         }
       }
     ],
