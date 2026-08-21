@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-21",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 79194.68,
         "realized_pnl_today_after": 120.8,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-21 14:29:38",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 89366.18,
+        "realized_pnl_today_after": 120.8,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 79194.6798248291,
+    "invested_today": 89366.17945861816,
     "realized_pnl_today": 120.80009765625016,
     "open_positions": [
       {
@@ -396,6 +405,21 @@
           "rsi": 51.9,
           "vol_factor": 1.45,
           "score": 0.45
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 30,
+        "buy_price": 339.05,
+        "buy_time": "2026-08-21 14:29:38",
+        "iteration": 11,
+        "score_info": {
+          "last": 339.05,
+          "mom_30m_pct": 0.177,
+          "intraday_pct": 0.34,
+          "rsi": 38.2,
+          "vol_factor": 1.43,
+          "score": 0.795
         }
       }
     ],
@@ -854,6 +878,23 @@
           "rsi": 51.9,
           "vol_factor": 1.45,
           "score": 0.45
+        }
+      },
+      {
+        "time": "2026-08-21 14:29:38",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 30,
+        "price": 339.05,
+        "cost": 10171.5,
+        "score": {
+          "last": 339.05,
+          "mom_30m_pct": 0.177,
+          "intraday_pct": 0.34,
+          "rsi": 38.2,
+          "vol_factor": 1.43,
+          "score": 0.795
         }
       }
     ],
