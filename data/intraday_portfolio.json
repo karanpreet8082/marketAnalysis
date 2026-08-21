@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-21",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,10 +30,19 @@
         "invested_today_after": 21403.65,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-08-21 10:46:14",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 30136.45,
+        "realized_pnl_today_after": 39.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 21403.649490356445,
-    "realized_pnl_today": 0.0,
+    "invested_today": 30136.449661254883,
+    "realized_pnl_today": 39.000122070312386,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -81,21 +90,6 @@
         }
       },
       {
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "buy_price": 267.3,
-        "buy_time": "2026-08-21 10:11:40",
-        "iteration": 2,
-        "score_info": {
-          "last": 267.3,
-          "mom_30m_pct": 0.527,
-          "intraday_pct": 1.365,
-          "rsi": 62.5,
-          "vol_factor": 0.04,
-          "score": 0.239
-        }
-      },
-      {
         "symbol": "NTPC",
         "qty": 8,
         "buy_price": 339.8,
@@ -138,6 +132,51 @@
           "rsi": 59.2,
           "vol_factor": 0.46,
           "score": 0.57
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "buy_price": 1003.1,
+        "buy_time": "2026-08-21 10:46:14",
+        "iteration": 4,
+        "score_info": {
+          "last": 1003.1,
+          "mom_30m_pct": 0.26,
+          "intraday_pct": -0.752,
+          "rsi": 65.6,
+          "vol_factor": 1.95,
+          "score": 1.113
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 14,
+        "buy_price": 271.2,
+        "buy_time": "2026-08-21 10:46:14",
+        "iteration": 4,
+        "score_info": {
+          "last": 271.2,
+          "mom_30m_pct": 1.326,
+          "intraday_pct": 2.747,
+          "rsi": 82.6,
+          "vol_factor": 0.15,
+          "score": 0.463
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "buy_price": 732.45,
+        "buy_time": "2026-08-21 10:46:14",
+        "iteration": 4,
+        "score_info": {
+          "last": 732.45,
+          "mom_30m_pct": 0.466,
+          "intraday_pct": 0.764,
+          "rsi": 60.4,
+          "vol_factor": 0.09,
+          "score": 0.019
         }
       }
     ],
@@ -259,6 +298,69 @@
           "rsi": 59.2,
           "vol_factor": 0.46,
           "score": 0.57
+        }
+      },
+      {
+        "time": "2026-08-21 10:46:14",
+        "iteration": 4,
+        "action": "SELL",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 271.2,
+        "buy_price": 267.3,
+        "pnl": 39.0,
+        "pnl_pct": 1.46,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-21 10:46:14",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 1003.1,
+        "cost": 2006.2,
+        "score": {
+          "last": 1003.1,
+          "mom_30m_pct": 0.26,
+          "intraday_pct": -0.752,
+          "rsi": 65.6,
+          "vol_factor": 1.95,
+          "score": 1.113
+        }
+      },
+      {
+        "time": "2026-08-21 10:46:14",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 14,
+        "price": 271.2,
+        "cost": 3796.8,
+        "score": {
+          "last": 271.2,
+          "mom_30m_pct": 1.326,
+          "intraday_pct": 2.747,
+          "rsi": 82.6,
+          "vol_factor": 0.15,
+          "score": 0.463
+        }
+      },
+      {
+        "time": "2026-08-21 10:46:14",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 732.45,
+        "cost": 2929.8,
+        "score": {
+          "last": 732.45,
+          "mom_30m_pct": 0.466,
+          "intraday_pct": 0.764,
+          "rsi": 60.4,
+          "vol_factor": 0.09,
+          "score": 0.019
         }
       }
     ],
