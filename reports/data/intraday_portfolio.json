@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-21",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,10 +39,19 @@
         "invested_today_after": 30136.45,
         "realized_pnl_today_after": 39.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-21 11:12:54",
+        "n_bought": 1,
+        "n_sold": 2,
+        "invested_today_after": 32887.95,
+        "realized_pnl_today_after": 155.3,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 30136.449661254883,
-    "realized_pnl_today": 39.000122070312386,
+    "invested_today": 32887.94960021973,
+    "realized_pnl_today": 155.29997558593743,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -105,21 +114,6 @@
         }
       },
       {
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "buy_price": 269.05,
-        "buy_time": "2026-08-21 10:29:59",
-        "iteration": 3,
-        "score_info": {
-          "last": 269.05,
-          "mom_30m_pct": 0.806,
-          "intraday_pct": 1.951,
-          "rsi": 64.6,
-          "vol_factor": 0.81,
-          "score": 1.603
-        }
-      },
-      {
         "symbol": "NTPC",
         "qty": 17,
         "buy_price": 340.55,
@@ -150,21 +144,6 @@
         }
       },
       {
-        "symbol": "POWERGRID",
-        "qty": 14,
-        "buy_price": 271.2,
-        "buy_time": "2026-08-21 10:46:14",
-        "iteration": 4,
-        "score_info": {
-          "last": 271.2,
-          "mom_30m_pct": 1.326,
-          "intraday_pct": 2.747,
-          "rsi": 82.6,
-          "vol_factor": 0.15,
-          "score": 0.463
-        }
-      },
-      {
         "symbol": "HDFCBANK",
         "qty": 4,
         "buy_price": 732.45,
@@ -177,6 +156,21 @@
           "rsi": 60.4,
           "vol_factor": 0.09,
           "score": 0.019
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "buy_price": 275.15,
+        "buy_time": "2026-08-21 11:12:54",
+        "iteration": 5,
+        "score_info": {
+          "last": 275.15,
+          "mom_30m_pct": 1.456,
+          "intraday_pct": 3.791,
+          "rsi": 82.5,
+          "vol_factor": 0.33,
+          "score": 1.151
         }
       }
     ],
@@ -361,6 +355,47 @@
           "rsi": 60.4,
           "vol_factor": 0.09,
           "score": 0.019
+        }
+      },
+      {
+        "time": "2026-08-21 11:12:54",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 275.15,
+        "buy_price": 269.05,
+        "pnl": 61.0,
+        "pnl_pct": 2.27,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-21 11:12:54",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "POWERGRID",
+        "qty": 14,
+        "price": 275.15,
+        "buy_price": 271.2,
+        "pnl": 55.3,
+        "pnl_pct": 1.46,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-21 11:12:54",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 275.15,
+        "cost": 2751.5,
+        "score": {
+          "last": 275.15,
+          "mom_30m_pct": 1.456,
+          "intraday_pct": 3.791,
+          "rsi": 82.5,
+          "vol_factor": 0.33,
+          "score": 1.151
         }
       }
     ],
