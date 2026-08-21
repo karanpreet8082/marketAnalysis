@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-21",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,10 +57,19 @@
         "invested_today_after": 42177.83,
         "realized_pnl_today_after": 155.3,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-21 12:30:38",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 50247.78,
+        "realized_pnl_today_after": 120.8,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 42177.82948303223,
-    "realized_pnl_today": 155.29997558593743,
+    "invested_today": 50247.77934265137,
+    "realized_pnl_today": 120.80009765625016,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -168,21 +177,6 @@
         }
       },
       {
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "buy_price": 275.15,
-        "buy_time": "2026-08-21 11:12:54",
-        "iteration": 5,
-        "score_info": {
-          "last": 275.15,
-          "mom_30m_pct": 1.456,
-          "intraday_pct": 3.791,
-          "rsi": 82.5,
-          "vol_factor": 0.33,
-          "score": 1.151
-        }
-      },
-      {
         "symbol": "ONGC",
         "qty": 13,
         "buy_price": 238.09,
@@ -225,6 +219,36 @@
           "rsi": 58.1,
           "vol_factor": 1.01,
           "score": -0.282
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 15,
+        "buy_price": 403.15,
+        "buy_time": "2026-08-21 12:30:38",
+        "iteration": 7,
+        "score_info": {
+          "last": 403.15,
+          "mom_30m_pct": -0.05,
+          "intraday_pct": 1.664,
+          "rsi": 54.7,
+          "vol_factor": 1.0,
+          "score": 0.425
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 2022.7,
+        "buy_time": "2026-08-21 12:30:38",
+        "iteration": 7,
+        "score_info": {
+          "last": 2022.7,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 0.238,
+          "rsi": 70.9,
+          "vol_factor": 1.0,
+          "score": 0.361
         }
       }
     ],
@@ -501,6 +525,52 @@
           "rsi": 58.1,
           "vol_factor": 1.01,
           "score": -0.282
+        }
+      },
+      {
+        "time": "2026-08-21 12:30:38",
+        "iteration": 7,
+        "action": "SELL",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 271.7,
+        "buy_price": 275.15,
+        "pnl": -34.5,
+        "pnl_pct": -1.25,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-21 12:30:38",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 15,
+        "price": 403.15,
+        "cost": 6047.25,
+        "score": {
+          "last": 403.15,
+          "mom_30m_pct": -0.05,
+          "intraday_pct": 1.664,
+          "rsi": 54.7,
+          "vol_factor": 1.0,
+          "score": 0.425
+        }
+      },
+      {
+        "time": "2026-08-21 12:30:38",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 2022.7,
+        "cost": 2022.7,
+        "score": {
+          "last": 2022.7,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 0.238,
+          "rsi": 70.9,
+          "vol_factor": 1.0,
+          "score": 0.361
         }
       }
     ],
