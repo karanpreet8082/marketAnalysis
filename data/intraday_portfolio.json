@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-21",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,18 +84,9 @@
         "invested_today_after": 69327.73,
         "realized_pnl_today_after": 120.8,
         "open_positions_after": 17
-      },
-      {
-        "iteration": 10,
-        "time": "2026-08-21 13:49:27",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 79194.68,
-        "realized_pnl_today_after": 120.8,
-        "open_positions_after": 20
       }
     ],
-    "invested_today": 79194.6798248291,
+    "invested_today": 69327.72984313965,
     "realized_pnl_today": 120.80009765625016,
     "open_positions": [
       {
@@ -351,51 +342,6 @@
           "rsi": 70.0,
           "vol_factor": 1.0,
           "score": 0.849
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "buy_price": 1418.4,
-        "buy_time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "score_info": {
-          "last": 1418.4,
-          "mom_30m_pct": -0.014,
-          "intraday_pct": 0.674,
-          "rsi": 64.6,
-          "vol_factor": 1.87,
-          "score": 1.048
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 9,
-        "buy_price": 402.6,
-        "buy_time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "score_info": {
-          "last": 402.6,
-          "mom_30m_pct": -0.074,
-          "intraday_pct": 0.991,
-          "rsi": 49.2,
-          "vol_factor": 1.35,
-          "score": 0.534
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 5,
-        "buy_price": 681.35,
-        "buy_time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "score_info": {
-          "last": 681.35,
-          "mom_30m_pct": -0.037,
-          "intraday_pct": 0.184,
-          "rsi": 51.9,
-          "vol_factor": 1.45,
-          "score": 0.45
         }
       }
     ],
@@ -803,57 +749,6 @@
           "rsi": 70.0,
           "vol_factor": 1.0,
           "score": 0.849
-        }
-      },
-      {
-        "time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "price": 1418.4,
-        "cost": 2836.8,
-        "score": {
-          "last": 1418.4,
-          "mom_30m_pct": -0.014,
-          "intraday_pct": 0.674,
-          "rsi": 64.6,
-          "vol_factor": 1.87,
-          "score": 1.048
-        }
-      },
-      {
-        "time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "KOTAKBANK",
-        "qty": 9,
-        "price": 402.6,
-        "cost": 3623.4,
-        "score": {
-          "last": 402.6,
-          "mom_30m_pct": -0.074,
-          "intraday_pct": 0.991,
-          "rsi": 49.2,
-          "vol_factor": 1.35,
-          "score": 0.534
-        }
-      },
-      {
-        "time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 5,
-        "price": 681.35,
-        "cost": 3406.75,
-        "score": {
-          "last": 681.35,
-          "mom_30m_pct": -0.037,
-          "intraday_pct": 0.184,
-          "rsi": 51.9,
-          "vol_factor": 1.45,
-          "score": 0.45
         }
       }
     ],
