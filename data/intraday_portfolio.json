@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-21",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,27 @@
         "invested_today_after": 89366.18,
         "realized_pnl_today_after": 120.8,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-21 14:51:50",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99312.68,
+        "realized_pnl_today_after": 120.8,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-21 15:24:52",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99312.68,
+        "realized_pnl_today_after": 120.8,
+        "open_positions_after": 23
       }
     ],
-    "invested_today": 89366.17945861816,
+    "invested_today": 99312.67939758301,
     "realized_pnl_today": 120.80009765625016,
     "open_positions": [
       {
@@ -420,6 +438,36 @@
           "rsi": 38.2,
           "vol_factor": 1.43,
           "score": 0.795
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 10,
+        "buy_price": 339.6,
+        "buy_time": "2026-08-21 14:51:50",
+        "iteration": 12,
+        "score_info": {
+          "last": 339.6,
+          "mom_30m_pct": 0.31,
+          "intraday_pct": 0.192,
+          "rsi": 55.6,
+          "vol_factor": 1.75,
+          "score": 1.273
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 5,
+        "buy_price": 1310.1,
+        "buy_time": "2026-08-21 14:51:50",
+        "iteration": 12,
+        "score_info": {
+          "last": 1310.1,
+          "mom_30m_pct": 0.015,
+          "intraday_pct": -0.327,
+          "rsi": 47.7,
+          "vol_factor": 1.51,
+          "score": 0.437
         }
       }
     ],
@@ -895,6 +943,40 @@
           "rsi": 38.2,
           "vol_factor": 1.43,
           "score": 0.795
+        }
+      },
+      {
+        "time": "2026-08-21 14:51:50",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 10,
+        "price": 339.6,
+        "cost": 3396.0,
+        "score": {
+          "last": 339.6,
+          "mom_30m_pct": 0.31,
+          "intraday_pct": 0.192,
+          "rsi": 55.6,
+          "vol_factor": 1.75,
+          "score": 1.273
+        }
+      },
+      {
+        "time": "2026-08-21 14:51:50",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 5,
+        "price": 1310.1,
+        "cost": 6550.5,
+        "score": {
+          "last": 1310.1,
+          "mom_30m_pct": 0.015,
+          "intraday_pct": -0.327,
+          "rsi": 47.7,
+          "vol_factor": 1.51,
+          "score": 0.437
         }
       }
     ],
