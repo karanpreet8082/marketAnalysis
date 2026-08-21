@@ -1,43 +1,5 @@
 [
   {
-    "timestamp": "2026-07-17 14:29 IST",
-    "budget": 50000.0,
-    "allocated": 49212.43000000001,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49212.43,
-      "cash_reserve": 787.57,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 25095.88,
-          "percent": 50.2,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 16821.6,
-          "percent": 33.6,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7294.95,
-          "percent": 14.6,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 5.5,
-      "max_loss_percent": 3.8,
-      "sector_distribution": {
-        "Energy": 1,
-        "Basic Materials": 2,
-        "Unknown": 1,
-        "Communication Services": 1,
-        "Financial Services": 2
-      }
-    }
-  },
-  {
     "timestamp": "2026-07-20 15:15 IST",
     "budget": 50000.0,
     "allocated": 49180.439999999995,
@@ -1863,6 +1825,41 @@
       "max_loss_percent": 3.7,
       "sector_distribution": {
         "Unknown": 4,
+        "Financial Services": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-21 12:59 IST",
+    "budget": 50000.0,
+    "allocated": 42061.89,
+    "positions": 6,
+    "summary": {
+      "total_positions": 6,
+      "total_invested": 42061.89,
+      "cash_reserve": 7938.11,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24758.8,
+          "percent": 49.5,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 9986.13,
+          "percent": 20.0,
+          "positions": 1
+        },
+        "aggressive": {
+          "amount": 7316.96,
+          "percent": 14.6,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.1,
+      "max_loss_percent": 3.5,
+      "sector_distribution": {
+        "Unknown": 5,
         "Financial Services": 1
       }
     }
