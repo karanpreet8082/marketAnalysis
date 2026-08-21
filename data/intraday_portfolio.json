@@ -1,987 +1,5 @@
 {
-  "current_day": {
-    "date": "2026-08-21",
-    "total_iterations": 14,
-    "iterations_run": 13,
-    "iteration_log": [
-      {
-        "iteration": 1,
-        "time": "2026-08-21 09:53:55",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 7532.4,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 3
-      },
-      {
-        "iteration": 2,
-        "time": "2026-08-21 10:11:40",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 12923.8,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 5
-      },
-      {
-        "iteration": 3,
-        "time": "2026-08-21 10:29:59",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 21403.65,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 7
-      },
-      {
-        "iteration": 4,
-        "time": "2026-08-21 10:46:14",
-        "n_bought": 3,
-        "n_sold": 1,
-        "invested_today_after": 30136.45,
-        "realized_pnl_today_after": 39.0,
-        "open_positions_after": 9
-      },
-      {
-        "iteration": 5,
-        "time": "2026-08-21 11:12:54",
-        "n_bought": 1,
-        "n_sold": 2,
-        "invested_today_after": 32887.95,
-        "realized_pnl_today_after": 155.3,
-        "open_positions_after": 8
-      },
-      {
-        "iteration": 6,
-        "time": "2026-08-21 11:31:56",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 42177.83,
-        "realized_pnl_today_after": 155.3,
-        "open_positions_after": 11
-      },
-      {
-        "iteration": 7,
-        "time": "2026-08-21 12:30:38",
-        "n_bought": 2,
-        "n_sold": 1,
-        "invested_today_after": 50247.78,
-        "realized_pnl_today_after": 120.8,
-        "open_positions_after": 12
-      },
-      {
-        "iteration": 8,
-        "time": "2026-08-21 12:54:00",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 59821.93,
-        "realized_pnl_today_after": 120.8,
-        "open_positions_after": 14
-      },
-      {
-        "iteration": 9,
-        "time": "2026-08-21 13:21:00",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 69327.73,
-        "realized_pnl_today_after": 120.8,
-        "open_positions_after": 17
-      },
-      {
-        "iteration": 10,
-        "time": "2026-08-21 13:49:27",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 79194.68,
-        "realized_pnl_today_after": 120.8,
-        "open_positions_after": 20
-      },
-      {
-        "iteration": 11,
-        "time": "2026-08-21 14:29:38",
-        "n_bought": 1,
-        "n_sold": 0,
-        "invested_today_after": 89366.18,
-        "realized_pnl_today_after": 120.8,
-        "open_positions_after": 21
-      },
-      {
-        "iteration": 12,
-        "time": "2026-08-21 14:51:50",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 99312.68,
-        "realized_pnl_today_after": 120.8,
-        "open_positions_after": 23
-      },
-      {
-        "iteration": 13,
-        "time": "2026-08-21 15:24:52",
-        "n_bought": 0,
-        "n_sold": 0,
-        "invested_today_after": 99312.68,
-        "realized_pnl_today_after": 120.8,
-        "open_positions_after": 23
-      }
-    ],
-    "invested_today": 99312.67939758301,
-    "realized_pnl_today": 120.80009765625016,
-    "open_positions": [
-      {
-        "symbol": "DLF",
-        "qty": 4,
-        "buy_price": 683.5,
-        "buy_time": "2026-08-21 09:53:55",
-        "iteration": 1,
-        "score_info": {
-          "last": 683.5,
-          "mom_30m_pct": 0.811,
-          "intraday_pct": 1.147,
-          "rsi": 54.7,
-          "vol_factor": 0.94,
-          "score": 1.504
-        }
-      },
-      {
-        "symbol": "WIPRO",
-        "qty": 15,
-        "buy_price": 181.64,
-        "buy_time": "2026-08-21 09:53:55",
-        "iteration": 1,
-        "score_info": {
-          "last": 181.64,
-          "mom_30m_pct": 0.598,
-          "intraday_pct": 0.27,
-          "rsi": 64.4,
-          "vol_factor": 0.99,
-          "score": 0.967
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 2,
-        "buy_price": 1036.9,
-        "buy_time": "2026-08-21 09:53:55",
-        "iteration": 1,
-        "score_info": {
-          "last": 1036.9,
-          "mom_30m_pct": 0.611,
-          "intraday_pct": 2.138,
-          "rsi": 73.1,
-          "vol_factor": 0.36,
-          "score": 0.923
-        }
-      },
-      {
-        "symbol": "NTPC",
-        "qty": 8,
-        "buy_price": 339.8,
-        "buy_time": "2026-08-21 10:11:40",
-        "iteration": 2,
-        "score_info": {
-          "last": 339.8,
-          "mom_30m_pct": 0.429,
-          "intraday_pct": 1.357,
-          "rsi": 57.5,
-          "vol_factor": 0.04,
-          "score": 0.094
-        }
-      },
-      {
-        "symbol": "NTPC",
-        "qty": 17,
-        "buy_price": 340.55,
-        "buy_time": "2026-08-21 10:29:59",
-        "iteration": 3,
-        "score_info": {
-          "last": 340.55,
-          "mom_30m_pct": 0.472,
-          "intraday_pct": 1.354,
-          "rsi": 59.2,
-          "vol_factor": 0.46,
-          "score": 0.57
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 1003.1,
-        "buy_time": "2026-08-21 10:46:14",
-        "iteration": 4,
-        "score_info": {
-          "last": 1003.1,
-          "mom_30m_pct": 0.26,
-          "intraday_pct": -0.752,
-          "rsi": 65.6,
-          "vol_factor": 1.95,
-          "score": 1.113
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "buy_price": 732.45,
-        "buy_time": "2026-08-21 10:46:14",
-        "iteration": 4,
-        "score_info": {
-          "last": 732.45,
-          "mom_30m_pct": 0.466,
-          "intraday_pct": 0.764,
-          "rsi": 60.4,
-          "vol_factor": 0.09,
-          "score": 0.019
-        }
-      },
-      {
-        "symbol": "ONGC",
-        "qty": 13,
-        "buy_price": 238.09,
-        "buy_time": "2026-08-21 11:31:56",
-        "iteration": 6,
-        "score_info": {
-          "last": 238.09,
-          "mom_30m_pct": -0.193,
-          "intraday_pct": 0.219,
-          "rsi": 40.9,
-          "vol_factor": 1.67,
-          "score": 0.444
-        }
-      },
-      {
-        "symbol": "TATASTEEL",
-        "qty": 17,
-        "buy_price": 183.68,
-        "buy_time": "2026-08-21 11:31:56",
-        "iteration": 6,
-        "score_info": {
-          "last": 183.68,
-          "mom_30m_pct": -0.038,
-          "intraday_pct": -0.152,
-          "rsi": 48.9,
-          "vol_factor": 1.34,
-          "score": 0.235
-        }
-      },
-      {
-        "symbol": "NTPC",
-        "qty": 9,
-        "buy_price": 341.35,
-        "buy_time": "2026-08-21 11:31:56",
-        "iteration": 6,
-        "score_info": {
-          "last": 341.35,
-          "mom_30m_pct": -0.408,
-          "intraday_pct": 1.081,
-          "rsi": 58.1,
-          "vol_factor": 1.01,
-          "score": -0.282
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 15,
-        "buy_price": 403.15,
-        "buy_time": "2026-08-21 12:30:38",
-        "iteration": 7,
-        "score_info": {
-          "last": 403.15,
-          "mom_30m_pct": -0.05,
-          "intraday_pct": 1.664,
-          "rsi": 54.7,
-          "vol_factor": 1.0,
-          "score": 0.425
-        }
-      },
-      {
-        "symbol": "BAJAJFINSV",
-        "qty": 1,
-        "buy_price": 2022.7,
-        "buy_time": "2026-08-21 12:30:38",
-        "iteration": 7,
-        "score_info": {
-          "last": 2022.7,
-          "mom_30m_pct": 0.193,
-          "intraday_pct": 0.238,
-          "rsi": 70.9,
-          "vol_factor": 1.0,
-          "score": 0.361
-        }
-      },
-      {
-        "symbol": "COALINDIA",
-        "qty": 16,
-        "buy_price": 404.5,
-        "buy_time": "2026-08-21 12:54:00",
-        "iteration": 8,
-        "score_info": {
-          "last": 404.5,
-          "mom_30m_pct": 0.136,
-          "intraday_pct": 0.547,
-          "rsi": 45.6,
-          "vol_factor": 1.03,
-          "score": 0.401
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "buy_price": 1034.05,
-        "buy_time": "2026-08-21 12:54:00",
-        "iteration": 8,
-        "score_info": {
-          "last": 1034.05,
-          "mom_30m_pct": 0.228,
-          "intraday_pct": 0.364,
-          "rsi": 54.9,
-          "vol_factor": 0.63,
-          "score": 0.079
-        }
-      },
-      {
-        "symbol": "POWERGRID",
-        "qty": 12,
-        "buy_price": 272.2,
-        "buy_time": "2026-08-21 13:21:00",
-        "iteration": 9,
-        "score_info": {
-          "last": 272.2,
-          "mom_30m_pct": 0.591,
-          "intraday_pct": 2.524,
-          "rsi": 59.3,
-          "vol_factor": 1.0,
-          "score": 1.644
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 10,
-        "buy_price": 312.6,
-        "buy_time": "2026-08-21 13:21:00",
-        "iteration": 9,
-        "score_info": {
-          "last": 312.6,
-          "mom_30m_pct": 0.79,
-          "intraday_pct": 1.165,
-          "rsi": 63.1,
-          "vol_factor": 1.0,
-          "score": 1.534
-        }
-      },
-      {
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "buy_price": 1037.8,
-        "buy_time": "2026-08-21 13:21:00",
-        "iteration": 9,
-        "score_info": {
-          "last": 1037.8,
-          "mom_30m_pct": 0.387,
-          "intraday_pct": 0.894,
-          "rsi": 70.0,
-          "vol_factor": 1.0,
-          "score": 0.849
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "buy_price": 1418.4,
-        "buy_time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "score_info": {
-          "last": 1418.4,
-          "mom_30m_pct": -0.014,
-          "intraday_pct": 0.674,
-          "rsi": 64.6,
-          "vol_factor": 1.87,
-          "score": 1.048
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 9,
-        "buy_price": 402.6,
-        "buy_time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "score_info": {
-          "last": 402.6,
-          "mom_30m_pct": -0.074,
-          "intraday_pct": 0.991,
-          "rsi": 49.2,
-          "vol_factor": 1.35,
-          "score": 0.534
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 5,
-        "buy_price": 681.35,
-        "buy_time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "score_info": {
-          "last": 681.35,
-          "mom_30m_pct": -0.037,
-          "intraday_pct": 0.184,
-          "rsi": 51.9,
-          "vol_factor": 1.45,
-          "score": 0.45
-        }
-      },
-      {
-        "symbol": "NTPC",
-        "qty": 30,
-        "buy_price": 339.05,
-        "buy_time": "2026-08-21 14:29:38",
-        "iteration": 11,
-        "score_info": {
-          "last": 339.05,
-          "mom_30m_pct": 0.177,
-          "intraday_pct": 0.34,
-          "rsi": 38.2,
-          "vol_factor": 1.43,
-          "score": 0.795
-        }
-      },
-      {
-        "symbol": "NTPC",
-        "qty": 10,
-        "buy_price": 339.6,
-        "buy_time": "2026-08-21 14:51:50",
-        "iteration": 12,
-        "score_info": {
-          "last": 339.6,
-          "mom_30m_pct": 0.31,
-          "intraday_pct": 0.192,
-          "rsi": 55.6,
-          "vol_factor": 1.75,
-          "score": 1.273
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 5,
-        "buy_price": 1310.1,
-        "buy_time": "2026-08-21 14:51:50",
-        "iteration": 12,
-        "score_info": {
-          "last": 1310.1,
-          "mom_30m_pct": 0.015,
-          "intraday_pct": -0.327,
-          "rsi": 47.7,
-          "vol_factor": 1.51,
-          "score": 0.437
-        }
-      }
-    ],
-    "trades": [
-      {
-        "time": "2026-08-21 09:53:55",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 4,
-        "price": 683.5,
-        "cost": 2734.0,
-        "score": {
-          "last": 683.5,
-          "mom_30m_pct": 0.811,
-          "intraday_pct": 1.147,
-          "rsi": 54.7,
-          "vol_factor": 0.94,
-          "score": 1.504
-        }
-      },
-      {
-        "time": "2026-08-21 09:53:55",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "WIPRO",
-        "qty": 15,
-        "price": 181.64,
-        "cost": 2724.6,
-        "score": {
-          "last": 181.64,
-          "mom_30m_pct": 0.598,
-          "intraday_pct": 0.27,
-          "rsi": 64.4,
-          "vol_factor": 0.99,
-          "score": 0.967
-        }
-      },
-      {
-        "time": "2026-08-21 09:53:55",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "HINDALCO",
-        "qty": 2,
-        "price": 1036.9,
-        "cost": 2073.8,
-        "score": {
-          "last": 1036.9,
-          "mom_30m_pct": 0.611,
-          "intraday_pct": 2.138,
-          "rsi": 73.1,
-          "vol_factor": 0.36,
-          "score": 0.923
-        }
-      },
-      {
-        "time": "2026-08-21 10:11:40",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "price": 267.3,
-        "cost": 2673.0,
-        "score": {
-          "last": 267.3,
-          "mom_30m_pct": 0.527,
-          "intraday_pct": 1.365,
-          "rsi": 62.5,
-          "vol_factor": 0.04,
-          "score": 0.239
-        }
-      },
-      {
-        "time": "2026-08-21 10:11:40",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "NTPC",
-        "qty": 8,
-        "price": 339.8,
-        "cost": 2718.4,
-        "score": {
-          "last": 339.8,
-          "mom_30m_pct": 0.429,
-          "intraday_pct": 1.357,
-          "rsi": 57.5,
-          "vol_factor": 0.04,
-          "score": 0.094
-        }
-      },
-      {
-        "time": "2026-08-21 10:29:59",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "price": 269.05,
-        "cost": 2690.5,
-        "score": {
-          "last": 269.05,
-          "mom_30m_pct": 0.806,
-          "intraday_pct": 1.951,
-          "rsi": 64.6,
-          "vol_factor": 0.81,
-          "score": 1.603
-        }
-      },
-      {
-        "time": "2026-08-21 10:29:59",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "NTPC",
-        "qty": 17,
-        "price": 340.55,
-        "cost": 5789.35,
-        "score": {
-          "last": 340.55,
-          "mom_30m_pct": 0.472,
-          "intraday_pct": 1.354,
-          "rsi": 59.2,
-          "vol_factor": 0.46,
-          "score": 0.57
-        }
-      },
-      {
-        "time": "2026-08-21 10:46:14",
-        "iteration": 4,
-        "action": "SELL",
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "price": 271.2,
-        "buy_price": 267.3,
-        "pnl": 39.0,
-        "pnl_pct": 1.46,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-08-21 10:46:14",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "price": 1003.1,
-        "cost": 2006.2,
-        "score": {
-          "last": 1003.1,
-          "mom_30m_pct": 0.26,
-          "intraday_pct": -0.752,
-          "rsi": 65.6,
-          "vol_factor": 1.95,
-          "score": 1.113
-        }
-      },
-      {
-        "time": "2026-08-21 10:46:14",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "POWERGRID",
-        "qty": 14,
-        "price": 271.2,
-        "cost": 3796.8,
-        "score": {
-          "last": 271.2,
-          "mom_30m_pct": 1.326,
-          "intraday_pct": 2.747,
-          "rsi": 82.6,
-          "vol_factor": 0.15,
-          "score": 0.463
-        }
-      },
-      {
-        "time": "2026-08-21 10:46:14",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "price": 732.45,
-        "cost": 2929.8,
-        "score": {
-          "last": 732.45,
-          "mom_30m_pct": 0.466,
-          "intraday_pct": 0.764,
-          "rsi": 60.4,
-          "vol_factor": 0.09,
-          "score": 0.019
-        }
-      },
-      {
-        "time": "2026-08-21 11:12:54",
-        "iteration": 5,
-        "action": "SELL",
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "price": 275.15,
-        "buy_price": 269.05,
-        "pnl": 61.0,
-        "pnl_pct": 2.27,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-08-21 11:12:54",
-        "iteration": 5,
-        "action": "SELL",
-        "symbol": "POWERGRID",
-        "qty": 14,
-        "price": 275.15,
-        "buy_price": 271.2,
-        "pnl": 55.3,
-        "pnl_pct": 1.46,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-08-21 11:12:54",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "price": 275.15,
-        "cost": 2751.5,
-        "score": {
-          "last": 275.15,
-          "mom_30m_pct": 1.456,
-          "intraday_pct": 3.791,
-          "rsi": 82.5,
-          "vol_factor": 0.33,
-          "score": 1.151
-        }
-      },
-      {
-        "time": "2026-08-21 11:31:56",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "ONGC",
-        "qty": 13,
-        "price": 238.09,
-        "cost": 3095.17,
-        "score": {
-          "last": 238.09,
-          "mom_30m_pct": -0.193,
-          "intraday_pct": 0.219,
-          "rsi": 40.9,
-          "vol_factor": 1.67,
-          "score": 0.444
-        }
-      },
-      {
-        "time": "2026-08-21 11:31:56",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "TATASTEEL",
-        "qty": 17,
-        "price": 183.68,
-        "cost": 3122.56,
-        "score": {
-          "last": 183.68,
-          "mom_30m_pct": -0.038,
-          "intraday_pct": -0.152,
-          "rsi": 48.9,
-          "vol_factor": 1.34,
-          "score": 0.235
-        }
-      },
-      {
-        "time": "2026-08-21 11:31:56",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "NTPC",
-        "qty": 9,
-        "price": 341.35,
-        "cost": 3072.15,
-        "score": {
-          "last": 341.35,
-          "mom_30m_pct": -0.408,
-          "intraday_pct": 1.081,
-          "rsi": 58.1,
-          "vol_factor": 1.01,
-          "score": -0.282
-        }
-      },
-      {
-        "time": "2026-08-21 12:30:38",
-        "iteration": 7,
-        "action": "SELL",
-        "symbol": "POWERGRID",
-        "qty": 10,
-        "price": 271.7,
-        "buy_price": 275.15,
-        "pnl": -34.5,
-        "pnl_pct": -1.25,
-        "reason": "STOP_LOSS"
-      },
-      {
-        "time": "2026-08-21 12:30:38",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "KOTAKBANK",
-        "qty": 15,
-        "price": 403.15,
-        "cost": 6047.25,
-        "score": {
-          "last": 403.15,
-          "mom_30m_pct": -0.05,
-          "intraday_pct": 1.664,
-          "rsi": 54.7,
-          "vol_factor": 1.0,
-          "score": 0.425
-        }
-      },
-      {
-        "time": "2026-08-21 12:30:38",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "BAJAJFINSV",
-        "qty": 1,
-        "price": 2022.7,
-        "cost": 2022.7,
-        "score": {
-          "last": 2022.7,
-          "mom_30m_pct": 0.193,
-          "intraday_pct": 0.238,
-          "rsi": 70.9,
-          "vol_factor": 1.0,
-          "score": 0.361
-        }
-      },
-      {
-        "time": "2026-08-21 12:54:00",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "COALINDIA",
-        "qty": 16,
-        "price": 404.5,
-        "cost": 6472.0,
-        "score": {
-          "last": 404.5,
-          "mom_30m_pct": 0.136,
-          "intraday_pct": 0.547,
-          "rsi": 45.6,
-          "vol_factor": 1.03,
-          "score": 0.401
-        }
-      },
-      {
-        "time": "2026-08-21 12:54:00",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "price": 1034.05,
-        "cost": 3102.15,
-        "score": {
-          "last": 1034.05,
-          "mom_30m_pct": 0.228,
-          "intraday_pct": 0.364,
-          "rsi": 54.9,
-          "vol_factor": 0.63,
-          "score": 0.079
-        }
-      },
-      {
-        "time": "2026-08-21 13:21:00",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "POWERGRID",
-        "qty": 12,
-        "price": 272.2,
-        "cost": 3266.4,
-        "score": {
-          "last": 272.2,
-          "mom_30m_pct": 0.591,
-          "intraday_pct": 2.524,
-          "rsi": 59.3,
-          "vol_factor": 1.0,
-          "score": 1.644
-        }
-      },
-      {
-        "time": "2026-08-21 13:21:00",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 10,
-        "price": 312.6,
-        "cost": 3126.0,
-        "score": {
-          "last": 312.6,
-          "mom_30m_pct": 0.79,
-          "intraday_pct": 1.165,
-          "rsi": 63.1,
-          "vol_factor": 1.0,
-          "score": 1.534
-        }
-      },
-      {
-        "time": "2026-08-21 13:21:00",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "HINDALCO",
-        "qty": 3,
-        "price": 1037.8,
-        "cost": 3113.4,
-        "score": {
-          "last": 1037.8,
-          "mom_30m_pct": 0.387,
-          "intraday_pct": 0.894,
-          "rsi": 70.0,
-          "vol_factor": 1.0,
-          "score": 0.849
-        }
-      },
-      {
-        "time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "price": 1418.4,
-        "cost": 2836.8,
-        "score": {
-          "last": 1418.4,
-          "mom_30m_pct": -0.014,
-          "intraday_pct": 0.674,
-          "rsi": 64.6,
-          "vol_factor": 1.87,
-          "score": 1.048
-        }
-      },
-      {
-        "time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "KOTAKBANK",
-        "qty": 9,
-        "price": 402.6,
-        "cost": 3623.4,
-        "score": {
-          "last": 402.6,
-          "mom_30m_pct": -0.074,
-          "intraday_pct": 0.991,
-          "rsi": 49.2,
-          "vol_factor": 1.35,
-          "score": 0.534
-        }
-      },
-      {
-        "time": "2026-08-21 13:49:27",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 5,
-        "price": 681.35,
-        "cost": 3406.75,
-        "score": {
-          "last": 681.35,
-          "mom_30m_pct": -0.037,
-          "intraday_pct": 0.184,
-          "rsi": 51.9,
-          "vol_factor": 1.45,
-          "score": 0.45
-        }
-      },
-      {
-        "time": "2026-08-21 14:29:38",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "NTPC",
-        "qty": 30,
-        "price": 339.05,
-        "cost": 10171.5,
-        "score": {
-          "last": 339.05,
-          "mom_30m_pct": 0.177,
-          "intraday_pct": 0.34,
-          "rsi": 38.2,
-          "vol_factor": 1.43,
-          "score": 0.795
-        }
-      },
-      {
-        "time": "2026-08-21 14:51:50",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "NTPC",
-        "qty": 10,
-        "price": 339.6,
-        "cost": 3396.0,
-        "score": {
-          "last": 339.6,
-          "mom_30m_pct": 0.31,
-          "intraday_pct": 0.192,
-          "rsi": 55.6,
-          "vol_factor": 1.75,
-          "score": 1.273
-        }
-      },
-      {
-        "time": "2026-08-21 14:51:50",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 5,
-        "price": 1310.1,
-        "cost": 6550.5,
-        "score": {
-          "last": 1310.1,
-          "mom_30m_pct": 0.015,
-          "intraday_pct": -0.327,
-          "rsi": 47.7,
-          "vol_factor": 1.51,
-          "score": 0.437
-        }
-      }
-    ],
-    "closed": false
-  },
+  "current_day": null,
   "history": [
     {
       "date": "2026-06-03",
@@ -46773,20 +45791,812 @@
       "n_sells": 31,
       "feedback": "Day P&L \u20b9-38 on \u20b999726 deployed (-0.04%). Worst trade: JSWSTEEL (P&L \u20b9-33, -1.25%). Consider tighter stop on entries with weaker momentum scores. 24 EOD force-sells contributed \u20b9-115. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
+    },
+    {
+      "date": "2026-08-21",
+      "iterations_run": 14,
+      "invested": 99312.68,
+      "realized_pnl": 66.13,
+      "pnl_pct": 0.067,
+      "trades": [
+        {
+          "time": "2026-08-21 09:53:55",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "DLF",
+          "qty": 4,
+          "price": 683.5,
+          "cost": 2734.0,
+          "score": {
+            "last": 683.5,
+            "mom_30m_pct": 0.811,
+            "intraday_pct": 1.147,
+            "rsi": 54.7,
+            "vol_factor": 0.94,
+            "score": 1.504
+          }
+        },
+        {
+          "time": "2026-08-21 09:53:55",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "WIPRO",
+          "qty": 15,
+          "price": 181.64,
+          "cost": 2724.6,
+          "score": {
+            "last": 181.64,
+            "mom_30m_pct": 0.598,
+            "intraday_pct": 0.27,
+            "rsi": 64.4,
+            "vol_factor": 0.99,
+            "score": 0.967
+          }
+        },
+        {
+          "time": "2026-08-21 09:53:55",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "HINDALCO",
+          "qty": 2,
+          "price": 1036.9,
+          "cost": 2073.8,
+          "score": {
+            "last": 1036.9,
+            "mom_30m_pct": 0.611,
+            "intraday_pct": 2.138,
+            "rsi": 73.1,
+            "vol_factor": 0.36,
+            "score": 0.923
+          }
+        },
+        {
+          "time": "2026-08-21 10:11:40",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "POWERGRID",
+          "qty": 10,
+          "price": 267.3,
+          "cost": 2673.0,
+          "score": {
+            "last": 267.3,
+            "mom_30m_pct": 0.527,
+            "intraday_pct": 1.365,
+            "rsi": 62.5,
+            "vol_factor": 0.04,
+            "score": 0.239
+          }
+        },
+        {
+          "time": "2026-08-21 10:11:40",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "NTPC",
+          "qty": 8,
+          "price": 339.8,
+          "cost": 2718.4,
+          "score": {
+            "last": 339.8,
+            "mom_30m_pct": 0.429,
+            "intraday_pct": 1.357,
+            "rsi": 57.5,
+            "vol_factor": 0.04,
+            "score": 0.094
+          }
+        },
+        {
+          "time": "2026-08-21 10:29:59",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "POWERGRID",
+          "qty": 10,
+          "price": 269.05,
+          "cost": 2690.5,
+          "score": {
+            "last": 269.05,
+            "mom_30m_pct": 0.806,
+            "intraday_pct": 1.951,
+            "rsi": 64.6,
+            "vol_factor": 0.81,
+            "score": 1.603
+          }
+        },
+        {
+          "time": "2026-08-21 10:29:59",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "NTPC",
+          "qty": 17,
+          "price": 340.55,
+          "cost": 5789.35,
+          "score": {
+            "last": 340.55,
+            "mom_30m_pct": 0.472,
+            "intraday_pct": 1.354,
+            "rsi": 59.2,
+            "vol_factor": 0.46,
+            "score": 0.57
+          }
+        },
+        {
+          "time": "2026-08-21 10:46:14",
+          "iteration": 4,
+          "action": "SELL",
+          "symbol": "POWERGRID",
+          "qty": 10,
+          "price": 271.2,
+          "buy_price": 267.3,
+          "pnl": 39.0,
+          "pnl_pct": 1.46,
+          "reason": "TAKE_PROFIT"
+        },
+        {
+          "time": "2026-08-21 10:46:14",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1003.1,
+          "cost": 2006.2,
+          "score": {
+            "last": 1003.1,
+            "mom_30m_pct": 0.26,
+            "intraday_pct": -0.752,
+            "rsi": 65.6,
+            "vol_factor": 1.95,
+            "score": 1.113
+          }
+        },
+        {
+          "time": "2026-08-21 10:46:14",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "POWERGRID",
+          "qty": 14,
+          "price": 271.2,
+          "cost": 3796.8,
+          "score": {
+            "last": 271.2,
+            "mom_30m_pct": 1.326,
+            "intraday_pct": 2.747,
+            "rsi": 82.6,
+            "vol_factor": 0.15,
+            "score": 0.463
+          }
+        },
+        {
+          "time": "2026-08-21 10:46:14",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "HDFCBANK",
+          "qty": 4,
+          "price": 732.45,
+          "cost": 2929.8,
+          "score": {
+            "last": 732.45,
+            "mom_30m_pct": 0.466,
+            "intraday_pct": 0.764,
+            "rsi": 60.4,
+            "vol_factor": 0.09,
+            "score": 0.019
+          }
+        },
+        {
+          "time": "2026-08-21 11:12:54",
+          "iteration": 5,
+          "action": "SELL",
+          "symbol": "POWERGRID",
+          "qty": 10,
+          "price": 275.15,
+          "buy_price": 269.05,
+          "pnl": 61.0,
+          "pnl_pct": 2.27,
+          "reason": "TAKE_PROFIT"
+        },
+        {
+          "time": "2026-08-21 11:12:54",
+          "iteration": 5,
+          "action": "SELL",
+          "symbol": "POWERGRID",
+          "qty": 14,
+          "price": 275.15,
+          "buy_price": 271.2,
+          "pnl": 55.3,
+          "pnl_pct": 1.46,
+          "reason": "TAKE_PROFIT"
+        },
+        {
+          "time": "2026-08-21 11:12:54",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "POWERGRID",
+          "qty": 10,
+          "price": 275.15,
+          "cost": 2751.5,
+          "score": {
+            "last": 275.15,
+            "mom_30m_pct": 1.456,
+            "intraday_pct": 3.791,
+            "rsi": 82.5,
+            "vol_factor": 0.33,
+            "score": 1.151
+          }
+        },
+        {
+          "time": "2026-08-21 11:31:56",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "ONGC",
+          "qty": 13,
+          "price": 238.09,
+          "cost": 3095.17,
+          "score": {
+            "last": 238.09,
+            "mom_30m_pct": -0.193,
+            "intraday_pct": 0.219,
+            "rsi": 40.9,
+            "vol_factor": 1.67,
+            "score": 0.444
+          }
+        },
+        {
+          "time": "2026-08-21 11:31:56",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "TATASTEEL",
+          "qty": 17,
+          "price": 183.68,
+          "cost": 3122.56,
+          "score": {
+            "last": 183.68,
+            "mom_30m_pct": -0.038,
+            "intraday_pct": -0.152,
+            "rsi": 48.9,
+            "vol_factor": 1.34,
+            "score": 0.235
+          }
+        },
+        {
+          "time": "2026-08-21 11:31:56",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "NTPC",
+          "qty": 9,
+          "price": 341.35,
+          "cost": 3072.15,
+          "score": {
+            "last": 341.35,
+            "mom_30m_pct": -0.408,
+            "intraday_pct": 1.081,
+            "rsi": 58.1,
+            "vol_factor": 1.01,
+            "score": -0.282
+          }
+        },
+        {
+          "time": "2026-08-21 12:30:38",
+          "iteration": 7,
+          "action": "SELL",
+          "symbol": "POWERGRID",
+          "qty": 10,
+          "price": 271.7,
+          "buy_price": 275.15,
+          "pnl": -34.5,
+          "pnl_pct": -1.25,
+          "reason": "STOP_LOSS"
+        },
+        {
+          "time": "2026-08-21 12:30:38",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "KOTAKBANK",
+          "qty": 15,
+          "price": 403.15,
+          "cost": 6047.25,
+          "score": {
+            "last": 403.15,
+            "mom_30m_pct": -0.05,
+            "intraday_pct": 1.664,
+            "rsi": 54.7,
+            "vol_factor": 1.0,
+            "score": 0.425
+          }
+        },
+        {
+          "time": "2026-08-21 12:30:38",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "BAJAJFINSV",
+          "qty": 1,
+          "price": 2022.7,
+          "cost": 2022.7,
+          "score": {
+            "last": 2022.7,
+            "mom_30m_pct": 0.193,
+            "intraday_pct": 0.238,
+            "rsi": 70.9,
+            "vol_factor": 1.0,
+            "score": 0.361
+          }
+        },
+        {
+          "time": "2026-08-21 12:54:00",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "COALINDIA",
+          "qty": 16,
+          "price": 404.5,
+          "cost": 6472.0,
+          "score": {
+            "last": 404.5,
+            "mom_30m_pct": 0.136,
+            "intraday_pct": 0.547,
+            "rsi": 45.6,
+            "vol_factor": 1.03,
+            "score": 0.401
+          }
+        },
+        {
+          "time": "2026-08-21 12:54:00",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "HINDALCO",
+          "qty": 3,
+          "price": 1034.05,
+          "cost": 3102.15,
+          "score": {
+            "last": 1034.05,
+            "mom_30m_pct": 0.228,
+            "intraday_pct": 0.364,
+            "rsi": 54.9,
+            "vol_factor": 0.63,
+            "score": 0.079
+          }
+        },
+        {
+          "time": "2026-08-21 13:21:00",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "POWERGRID",
+          "qty": 12,
+          "price": 272.2,
+          "cost": 3266.4,
+          "score": {
+            "last": 272.2,
+            "mom_30m_pct": 0.591,
+            "intraday_pct": 2.524,
+            "rsi": 59.3,
+            "vol_factor": 1.0,
+            "score": 1.644
+          }
+        },
+        {
+          "time": "2026-08-21 13:21:00",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "BPCL",
+          "qty": 10,
+          "price": 312.6,
+          "cost": 3126.0,
+          "score": {
+            "last": 312.6,
+            "mom_30m_pct": 0.79,
+            "intraday_pct": 1.165,
+            "rsi": 63.1,
+            "vol_factor": 1.0,
+            "score": 1.534
+          }
+        },
+        {
+          "time": "2026-08-21 13:21:00",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "HINDALCO",
+          "qty": 3,
+          "price": 1037.8,
+          "cost": 3113.4,
+          "score": {
+            "last": 1037.8,
+            "mom_30m_pct": 0.387,
+            "intraday_pct": 0.894,
+            "rsi": 70.0,
+            "vol_factor": 1.0,
+            "score": 0.849
+          }
+        },
+        {
+          "time": "2026-08-21 13:49:27",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "ICICIBANK",
+          "qty": 2,
+          "price": 1418.4,
+          "cost": 2836.8,
+          "score": {
+            "last": 1418.4,
+            "mom_30m_pct": -0.014,
+            "intraday_pct": 0.674,
+            "rsi": 64.6,
+            "vol_factor": 1.87,
+            "score": 1.048
+          }
+        },
+        {
+          "time": "2026-08-21 13:49:27",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "KOTAKBANK",
+          "qty": 9,
+          "price": 402.6,
+          "cost": 3623.4,
+          "score": {
+            "last": 402.6,
+            "mom_30m_pct": -0.074,
+            "intraday_pct": 0.991,
+            "rsi": 49.2,
+            "vol_factor": 1.35,
+            "score": 0.534
+          }
+        },
+        {
+          "time": "2026-08-21 13:49:27",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "DLF",
+          "qty": 5,
+          "price": 681.35,
+          "cost": 3406.75,
+          "score": {
+            "last": 681.35,
+            "mom_30m_pct": -0.037,
+            "intraday_pct": 0.184,
+            "rsi": 51.9,
+            "vol_factor": 1.45,
+            "score": 0.45
+          }
+        },
+        {
+          "time": "2026-08-21 14:29:38",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "NTPC",
+          "qty": 30,
+          "price": 339.05,
+          "cost": 10171.5,
+          "score": {
+            "last": 339.05,
+            "mom_30m_pct": 0.177,
+            "intraday_pct": 0.34,
+            "rsi": 38.2,
+            "vol_factor": 1.43,
+            "score": 0.795
+          }
+        },
+        {
+          "time": "2026-08-21 14:51:50",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "NTPC",
+          "qty": 10,
+          "price": 339.6,
+          "cost": 3396.0,
+          "score": {
+            "last": 339.6,
+            "mom_30m_pct": 0.31,
+            "intraday_pct": 0.192,
+            "rsi": 55.6,
+            "vol_factor": 1.75,
+            "score": 1.273
+          }
+        },
+        {
+          "time": "2026-08-21 14:51:50",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 5,
+          "price": 1310.1,
+          "cost": 6550.5,
+          "score": {
+            "last": 1310.1,
+            "mom_30m_pct": 0.015,
+            "intraday_pct": -0.327,
+            "rsi": 47.7,
+            "vol_factor": 1.51,
+            "score": 0.437
+          }
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "DLF",
+          "qty": 4,
+          "price": 678.0,
+          "buy_price": 683.5,
+          "pnl": -22.0,
+          "pnl_pct": -0.8,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "WIPRO",
+          "qty": 15,
+          "price": 180.2,
+          "buy_price": 181.64,
+          "pnl": -21.6,
+          "pnl_pct": -0.79,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HINDALCO",
+          "qty": 2,
+          "price": 1036.0,
+          "buy_price": 1036.9,
+          "pnl": -1.8,
+          "pnl_pct": -0.09,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "NTPC",
+          "qty": 8,
+          "price": 340.45,
+          "buy_price": 339.8,
+          "pnl": 5.2,
+          "pnl_pct": 0.19,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "NTPC",
+          "qty": 17,
+          "price": 340.45,
+          "buy_price": 340.55,
+          "pnl": -1.7,
+          "pnl_pct": -0.03,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1005.0,
+          "buy_price": 1003.1,
+          "pnl": 3.8,
+          "pnl_pct": 0.19,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HDFCBANK",
+          "qty": 4,
+          "price": 729.3,
+          "buy_price": 732.45,
+          "pnl": -12.6,
+          "pnl_pct": -0.43,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ONGC",
+          "qty": 13,
+          "price": 236.65,
+          "buy_price": 238.09,
+          "pnl": -18.72,
+          "pnl_pct": -0.6,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TATASTEEL",
+          "qty": 17,
+          "price": 182.58,
+          "buy_price": 183.68,
+          "pnl": -18.7,
+          "pnl_pct": -0.6,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "NTPC",
+          "qty": 9,
+          "price": 340.45,
+          "buy_price": 341.35,
+          "pnl": -8.1,
+          "pnl_pct": -0.26,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "KOTAKBANK",
+          "qty": 15,
+          "price": 403.0,
+          "buy_price": 403.15,
+          "pnl": -2.25,
+          "pnl_pct": -0.04,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BAJAJFINSV",
+          "qty": 1,
+          "price": 2032.5,
+          "buy_price": 2022.7,
+          "pnl": 9.8,
+          "pnl_pct": 0.48,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "COALINDIA",
+          "qty": 16,
+          "price": 404.35,
+          "buy_price": 404.5,
+          "pnl": -2.4,
+          "pnl_pct": -0.04,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HINDALCO",
+          "qty": 3,
+          "price": 1036.0,
+          "buy_price": 1034.05,
+          "pnl": 5.85,
+          "pnl_pct": 0.19,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "POWERGRID",
+          "qty": 12,
+          "price": 272.4,
+          "buy_price": 272.2,
+          "pnl": 2.4,
+          "pnl_pct": 0.07,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BPCL",
+          "qty": 10,
+          "price": 310.85,
+          "buy_price": 312.6,
+          "pnl": -17.5,
+          "pnl_pct": -0.56,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HINDALCO",
+          "qty": 3,
+          "price": 1036.0,
+          "buy_price": 1037.8,
+          "pnl": -5.4,
+          "pnl_pct": -0.17,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ICICIBANK",
+          "qty": 2,
+          "price": 1420.0,
+          "buy_price": 1418.4,
+          "pnl": 3.2,
+          "pnl_pct": 0.11,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "KOTAKBANK",
+          "qty": 9,
+          "price": 403.0,
+          "buy_price": 402.6,
+          "pnl": 3.6,
+          "pnl_pct": 0.1,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "DLF",
+          "qty": 5,
+          "price": 678.0,
+          "buy_price": 681.35,
+          "pnl": -16.75,
+          "pnl_pct": -0.49,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "NTPC",
+          "qty": 30,
+          "price": 340.45,
+          "buy_price": 339.05,
+          "pnl": 42.0,
+          "pnl_pct": 0.41,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "NTPC",
+          "qty": 10,
+          "price": 340.45,
+          "buy_price": 339.6,
+          "pnl": 8.5,
+          "pnl_pct": 0.25,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-08-21 15:46:02",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 5,
+          "price": 1312.2,
+          "buy_price": 1310.1,
+          "pnl": 10.5,
+          "pnl_pct": 0.16,
+          "reason": "EOD_FORCE_SELL"
+        }
+      ],
+      "n_buys": 27,
+      "n_sells": 27,
+      "feedback": "Day P&L \u20b966 on \u20b999313 deployed (0.07%). Worst trade: POWERGRID (P&L \u20b9-34, -1.25%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters.",
+      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 58,
-    "winning_days": 32,
+    "total_days": 59,
+    "winning_days": 33,
     "losing_days": 24,
-    "total_realized_pnl": 513.68,
+    "total_realized_pnl": 579.81,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-07-10",
-        "note": "Day P&L \u20b918 on \u20b999379 deployed (0.02%). Worst trade: SIEMENS (P&L \u20b9-28, -0.80%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
-      },
       {
         "date": "2026-07-13",
         "note": "Day P&L \u20b9-59 on \u20b999877 deployed (-0.06%). Worst trade: INFY (P&L \u20b9-34, -1.03%). Consider tighter stop on entries with weaker momentum scores. 30 EOD force-sells contributed \u20b9-89. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
@@ -46902,6 +46712,10 @@
       {
         "date": "2026-08-20",
         "note": "Day P&L \u20b9-38 on \u20b999726 deployed (-0.04%). Worst trade: JSWSTEEL (P&L \u20b9-33, -1.25%). Consider tighter stop on entries with weaker momentum scores. 24 EOD force-sells contributed \u20b9-115. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
+      {
+        "date": "2026-08-21",
+        "note": "Day P&L \u20b966 on \u20b999313 deployed (0.07%). Worst trade: POWERGRID (P&L \u20b9-34, -1.25%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters."
       }
     ]
   }
