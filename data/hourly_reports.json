@@ -1,5 +1,43 @@
 [
   {
+    "timestamp": "2026-07-17 14:29 IST",
+    "budget": 50000.0,
+    "allocated": 49212.43000000001,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49212.43,
+      "cash_reserve": 787.57,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25095.88,
+          "percent": 50.2,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 16821.6,
+          "percent": 33.6,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7294.95,
+          "percent": 14.6,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 5.5,
+      "max_loss_percent": 3.8,
+      "sector_distribution": {
+        "Energy": 1,
+        "Basic Materials": 2,
+        "Unknown": 1,
+        "Communication Services": 1,
+        "Financial Services": 2
+      }
+    }
+  },
+  {
     "timestamp": "2026-07-20 15:15 IST",
     "budget": 50000.0,
     "allocated": 49180.439999999995,
@@ -1826,42 +1864,6 @@
       "sector_distribution": {
         "Unknown": 4,
         "Financial Services": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-08-21 11:31 IST",
-    "budget": 50000.0,
-    "allocated": 41703.12,
-    "positions": 6,
-    "summary": {
-      "total_positions": 6,
-      "total_invested": 41703.12,
-      "cash_reserve": 8296.88,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24447.5,
-          "percent": 48.9,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 9911.16,
-          "percent": 19.8,
-          "positions": 1
-        },
-        "aggressive": {
-          "amount": 7344.46,
-          "percent": 14.7,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.3,
-      "max_loss_percent": 3.6,
-      "sector_distribution": {
-        "Unknown": 3,
-        "Financial Services": 2,
-        "Consumer Cyclical": 1
       }
     }
   }
