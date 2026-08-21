@@ -1,5 +1,123 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-21",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-21 09:53:55",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7532.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 7532.400039672852,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 683.5,
+        "buy_time": "2026-08-21 09:53:55",
+        "iteration": 1,
+        "score_info": {
+          "last": 683.5,
+          "mom_30m_pct": 0.811,
+          "intraday_pct": 1.147,
+          "rsi": 54.7,
+          "vol_factor": 0.94,
+          "score": 1.504
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 15,
+        "buy_price": 181.64,
+        "buy_time": "2026-08-21 09:53:55",
+        "iteration": 1,
+        "score_info": {
+          "last": 181.64,
+          "mom_30m_pct": 0.598,
+          "intraday_pct": 0.27,
+          "rsi": 64.4,
+          "vol_factor": 0.99,
+          "score": 0.967
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 1036.9,
+        "buy_time": "2026-08-21 09:53:55",
+        "iteration": 1,
+        "score_info": {
+          "last": 1036.9,
+          "mom_30m_pct": 0.611,
+          "intraday_pct": 2.138,
+          "rsi": 73.1,
+          "vol_factor": 0.36,
+          "score": 0.923
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-21 09:53:55",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 683.5,
+        "cost": 2734.0,
+        "score": {
+          "last": 683.5,
+          "mom_30m_pct": 0.811,
+          "intraday_pct": 1.147,
+          "rsi": 54.7,
+          "vol_factor": 0.94,
+          "score": 1.504
+        }
+      },
+      {
+        "time": "2026-08-21 09:53:55",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 15,
+        "price": 181.64,
+        "cost": 2724.6,
+        "score": {
+          "last": 181.64,
+          "mom_30m_pct": 0.598,
+          "intraday_pct": 0.27,
+          "rsi": 64.4,
+          "vol_factor": 0.99,
+          "score": 0.967
+        }
+      },
+      {
+        "time": "2026-08-21 09:53:55",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 1036.9,
+        "cost": 2073.8,
+        "score": {
+          "last": 1036.9,
+          "mom_30m_pct": 0.611,
+          "intraday_pct": 2.138,
+          "rsi": 73.1,
+          "vol_factor": 0.36,
+          "score": 0.923
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
