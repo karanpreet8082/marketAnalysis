@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-21",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 59821.93,
         "realized_pnl_today_after": 120.8,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-21 13:21:00",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 69327.73,
+        "realized_pnl_today_after": 120.8,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 59821.92948913574,
+    "invested_today": 69327.72984313965,
     "realized_pnl_today": 120.80009765625016,
     "open_positions": [
       {
@@ -288,6 +297,51 @@
           "rsi": 54.9,
           "vol_factor": 0.63,
           "score": 0.079
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "buy_price": 272.2,
+        "buy_time": "2026-08-21 13:21:00",
+        "iteration": 9,
+        "score_info": {
+          "last": 272.2,
+          "mom_30m_pct": 0.591,
+          "intraday_pct": 2.524,
+          "rsi": 59.3,
+          "vol_factor": 1.0,
+          "score": 1.644
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 312.6,
+        "buy_time": "2026-08-21 13:21:00",
+        "iteration": 9,
+        "score_info": {
+          "last": 312.6,
+          "mom_30m_pct": 0.79,
+          "intraday_pct": 1.165,
+          "rsi": 63.1,
+          "vol_factor": 1.0,
+          "score": 1.534
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "buy_price": 1037.8,
+        "buy_time": "2026-08-21 13:21:00",
+        "iteration": 9,
+        "score_info": {
+          "last": 1037.8,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.894,
+          "rsi": 70.0,
+          "vol_factor": 1.0,
+          "score": 0.849
         }
       }
     ],
@@ -644,6 +698,57 @@
           "rsi": 54.9,
           "vol_factor": 0.63,
           "score": 0.079
+        }
+      },
+      {
+        "time": "2026-08-21 13:21:00",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 12,
+        "price": 272.2,
+        "cost": 3266.4,
+        "score": {
+          "last": 272.2,
+          "mom_30m_pct": 0.591,
+          "intraday_pct": 2.524,
+          "rsi": 59.3,
+          "vol_factor": 1.0,
+          "score": 1.644
+        }
+      },
+      {
+        "time": "2026-08-21 13:21:00",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 312.6,
+        "cost": 3126.0,
+        "score": {
+          "last": 312.6,
+          "mom_30m_pct": 0.79,
+          "intraday_pct": 1.165,
+          "rsi": 63.1,
+          "vol_factor": 1.0,
+          "score": 1.534
+        }
+      },
+      {
+        "time": "2026-08-21 13:21:00",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 1037.8,
+        "cost": 3113.4,
+        "score": {
+          "last": 1037.8,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.894,
+          "rsi": 70.0,
+          "vol_factor": 1.0,
+          "score": 0.849
         }
       }
     ],
