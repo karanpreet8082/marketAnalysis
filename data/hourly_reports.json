@@ -1,5 +1,44 @@
 [
   {
+    "timestamp": "2026-07-22 13:27 IST",
+    "budget": 50000.0,
+    "allocated": 48876.89,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 48876.89,
+      "cash_reserve": 1123.11,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25196.79,
+          "percent": 50.4,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 16926.5,
+          "percent": 33.9,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 6753.6,
+          "percent": 13.5,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.7,
+      "max_loss_percent": 4.0,
+      "sector_distribution": {
+        "Basic Materials": 1,
+        "Unknown": 3,
+        "Consumer Defensive": 1,
+        "Financial Services": 1,
+        "Communication Services": 1,
+        "Technology": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-07-22 14:45 IST",
     "budget": 50000.0,
     "allocated": 48775.64,
@@ -1813,41 +1852,6 @@
       "sector_distribution": {
         "Unknown": 5,
         "Consumer Cyclical": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-08-24 14:58 IST",
-    "budget": 50000.0,
-    "allocated": 42362.03,
-    "positions": 5,
-    "summary": {
-      "total_positions": 5,
-      "total_invested": 42362.03,
-      "cash_reserve": 7637.97,
-      "avg_confidence": 0.53,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24979.760000000002,
-          "percent": 50.0,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 9991.52,
-          "percent": 20.0,
-          "positions": 1
-        },
-        "aggressive": {
-          "amount": 7390.75,
-          "percent": 14.8,
-          "positions": 1
-        }
-      },
-      "expected_gain_percent": 5.1,
-      "max_loss_percent": 3.5,
-      "sector_distribution": {
-        "Unknown": 4,
-        "Basic Materials": 1
       }
     }
   }
