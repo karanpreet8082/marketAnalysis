@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-24",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,10 +93,19 @@
         "invested_today_after": 76124.45,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-24 14:36:20",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 86800.37,
+        "realized_pnl_today_after": -50.9,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 76124.45082092285,
-    "realized_pnl_today": 0.0,
+    "invested_today": 86800.37089538574,
+    "realized_pnl_today": -50.90004882812491,
     "open_positions": [
       {
         "symbol": "DRREDDY",
@@ -216,36 +225,6 @@
           "rsi": 61.0,
           "vol_factor": 1.42,
           "score": 0.565
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 1,
-        "buy_price": 1597.1,
-        "buy_time": "2026-08-24 11:18:40",
-        "iteration": 5,
-        "score_info": {
-          "last": 1597.1,
-          "mom_30m_pct": 0.138,
-          "intraday_pct": -0.075,
-          "rsi": 59.7,
-          "vol_factor": 1.9,
-          "score": 1.087
-        }
-      },
-      {
-        "symbol": "INFY",
-        "qty": 3,
-        "buy_price": 1137.5,
-        "buy_time": "2026-08-24 11:18:40",
-        "iteration": 5,
-        "score_info": {
-          "last": 1137.5,
-          "mom_30m_pct": 0.15,
-          "intraday_pct": 0.521,
-          "rsi": 60.0,
-          "vol_factor": 1.59,
-          "score": 0.971
         }
       },
       {
@@ -396,6 +375,36 @@
           "rsi": 62.5,
           "vol_factor": 2.0,
           "score": 1.212
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 42,
+        "buy_price": 185.86,
+        "buy_time": "2026-08-24 14:36:20",
+        "iteration": 11,
+        "score_info": {
+          "last": 185.86,
+          "mom_30m_pct": 0.487,
+          "intraday_pct": 1.791,
+          "rsi": 73.9,
+          "vol_factor": 0.34,
+          "score": 0.609
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1434.9,
+        "buy_time": "2026-08-24 14:36:20",
+        "iteration": 11,
+        "score_info": {
+          "last": 1434.9,
+          "mom_30m_pct": 0.441,
+          "intraday_pct": 0.808,
+          "rsi": 74.7,
+          "vol_factor": 0.4,
+          "score": 0.306
         }
       }
     ],
@@ -738,6 +747,64 @@
           "rsi": 62.5,
           "vol_factor": 2.0,
           "score": 1.212
+        }
+      },
+      {
+        "time": "2026-08-24 14:36:20",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1580.7,
+        "buy_price": 1597.1,
+        "pnl": -16.4,
+        "pnl_pct": -1.03,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-24 14:36:20",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1126.0,
+        "buy_price": 1137.5,
+        "pnl": -34.5,
+        "pnl_pct": -1.01,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-24 14:36:20",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 42,
+        "price": 185.86,
+        "cost": 7806.12,
+        "score": {
+          "last": 185.86,
+          "mom_30m_pct": 0.487,
+          "intraday_pct": 1.791,
+          "rsi": 73.9,
+          "vol_factor": 0.34,
+          "score": 0.609
+        }
+      },
+      {
+        "time": "2026-08-24 14:36:20",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1434.9,
+        "cost": 2869.8,
+        "score": {
+          "last": 1434.9,
+          "mom_30m_pct": 0.441,
+          "intraday_pct": 0.808,
+          "rsi": 74.7,
+          "vol_factor": 0.4,
+          "score": 0.306
         }
       }
     ],
