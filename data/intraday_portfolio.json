@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-24",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 30926.66,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-24 11:18:40",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 39363.86,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 30926.660705566406,
+    "invested_today": 39363.860748291016,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -162,6 +171,51 @@
           "rsi": 61.0,
           "vol_factor": 1.42,
           "score": 0.565
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1597.1,
+        "buy_time": "2026-08-24 11:18:40",
+        "iteration": 5,
+        "score_info": {
+          "last": 1597.1,
+          "mom_30m_pct": 0.138,
+          "intraday_pct": -0.075,
+          "rsi": 59.7,
+          "vol_factor": 1.9,
+          "score": 1.087
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1137.5,
+        "buy_time": "2026-08-24 11:18:40",
+        "iteration": 5,
+        "score_info": {
+          "last": 1137.5,
+          "mom_30m_pct": 0.15,
+          "intraday_pct": 0.521,
+          "rsi": 60.0,
+          "vol_factor": 1.59,
+          "score": 0.971
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 11,
+        "buy_price": 311.6,
+        "buy_time": "2026-08-24 11:18:40",
+        "iteration": 5,
+        "score_info": {
+          "last": 311.6,
+          "mom_30m_pct": 0.37,
+          "intraday_pct": 0.064,
+          "rsi": 61.5,
+          "vol_factor": 0.83,
+          "score": 0.409
         }
       }
     ],
@@ -300,6 +354,57 @@
           "rsi": 61.0,
           "vol_factor": 1.42,
           "score": 0.565
+        }
+      },
+      {
+        "time": "2026-08-24 11:18:40",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1597.1,
+        "cost": 1597.1,
+        "score": {
+          "last": 1597.1,
+          "mom_30m_pct": 0.138,
+          "intraday_pct": -0.075,
+          "rsi": 59.7,
+          "vol_factor": 1.9,
+          "score": 1.087
+        }
+      },
+      {
+        "time": "2026-08-24 11:18:40",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1137.5,
+        "cost": 3412.5,
+        "score": {
+          "last": 1137.5,
+          "mom_30m_pct": 0.15,
+          "intraday_pct": 0.521,
+          "rsi": 60.0,
+          "vol_factor": 1.59,
+          "score": 0.971
+        }
+      },
+      {
+        "time": "2026-08-24 11:18:40",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 11,
+        "price": 311.6,
+        "cost": 3427.6,
+        "score": {
+          "last": 311.6,
+          "mom_30m_pct": 0.37,
+          "intraday_pct": 0.064,
+          "rsi": 61.5,
+          "vol_factor": 0.83,
+          "score": 0.409
         }
       }
     ],
