@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-24",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 22391.76,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-08-24 10:55:02",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 30926.66,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 8
       }
     ],
-    "invested_today": 30926.660705566406,
+    "invested_today": 22391.760498046875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -132,36 +123,6 @@
           "rsi": 73.1,
           "vol_factor": 0.52,
           "score": 0.394
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 3,
-        "buy_price": 1593.9,
-        "buy_time": "2026-08-24 10:55:02",
-        "iteration": 4,
-        "score_info": {
-          "last": 1593.9,
-          "mom_30m_pct": 0.289,
-          "intraday_pct": -0.119,
-          "rsi": 50.4,
-          "vol_factor": 1.3,
-          "score": 0.7
-        }
-      },
-      {
-        "symbol": "NTPC",
-        "qty": 11,
-        "buy_price": 341.2,
-        "buy_time": "2026-08-24 10:55:02",
-        "iteration": 4,
-        "score_info": {
-          "last": 341.2,
-          "mom_30m_pct": 0.161,
-          "intraday_pct": -0.336,
-          "rsi": 61.0,
-          "vol_factor": 1.42,
-          "score": 0.565
         }
       }
     ],
@@ -266,40 +227,6 @@
           "rsi": 73.1,
           "vol_factor": 0.52,
           "score": 0.394
-        }
-      },
-      {
-        "time": "2026-08-24 10:55:02",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 3,
-        "price": 1593.9,
-        "cost": 4781.7,
-        "score": {
-          "last": 1593.9,
-          "mom_30m_pct": 0.289,
-          "intraday_pct": -0.119,
-          "rsi": 50.4,
-          "vol_factor": 1.3,
-          "score": 0.7
-        }
-      },
-      {
-        "time": "2026-08-24 10:55:02",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "NTPC",
-        "qty": 11,
-        "price": 341.2,
-        "cost": 3753.2,
-        "score": {
-          "last": 341.2,
-          "mom_30m_pct": 0.161,
-          "intraday_pct": -0.336,
-          "rsi": 61.0,
-          "vol_factor": 1.42,
-          "score": 0.565
         }
       }
     ],
