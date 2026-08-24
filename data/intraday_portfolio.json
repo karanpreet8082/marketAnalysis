@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-24",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 39363.86,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-24 11:36:37",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 46909.96,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 39363.860748291016,
+    "invested_today": 46909.96072387695,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -216,6 +225,36 @@
           "rsi": 61.5,
           "vol_factor": 0.83,
           "score": 0.409
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 5,
+        "buy_price": 1055.1,
+        "buy_time": "2026-08-24 11:36:37",
+        "iteration": 6,
+        "score_info": {
+          "last": 1055.1,
+          "mom_30m_pct": -0.028,
+          "intraday_pct": 2.139,
+          "rsi": 46.5,
+          "vol_factor": 0.2,
+          "score": -0.205
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1135.3,
+        "buy_time": "2026-08-24 11:36:37",
+        "iteration": 6,
+        "score_info": {
+          "last": 1135.3,
+          "mom_30m_pct": 0.088,
+          "intraday_pct": 0.407,
+          "rsi": 50.3,
+          "vol_factor": 0.3,
+          "score": -0.445
         }
       }
     ],
@@ -405,6 +444,40 @@
           "rsi": 61.5,
           "vol_factor": 0.83,
           "score": 0.409
+        }
+      },
+      {
+        "time": "2026-08-24 11:36:37",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 5,
+        "price": 1055.1,
+        "cost": 5275.5,
+        "score": {
+          "last": 1055.1,
+          "mom_30m_pct": -0.028,
+          "intraday_pct": 2.139,
+          "rsi": 46.5,
+          "vol_factor": 0.2,
+          "score": -0.205
+        }
+      },
+      {
+        "time": "2026-08-24 11:36:37",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1135.3,
+        "cost": 2270.6,
+        "score": {
+          "last": 1135.3,
+          "mom_30m_pct": 0.088,
+          "intraday_pct": 0.407,
+          "rsi": 50.3,
+          "vol_factor": 0.3,
+          "score": -0.445
         }
       }
     ],
