@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-24",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 55489.16,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-24 13:07:18",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 63847.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 55489.1604309082,
+    "invested_today": 63847.95069885254,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -294,6 +303,36 @@
           "rsi": 64.7,
           "vol_factor": 1.29,
           "score": 0.835
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 31,
+        "buy_price": 185.49,
+        "buy_time": "2026-08-24 13:07:18",
+        "iteration": 8,
+        "score_info": {
+          "last": 185.49,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.549,
+          "rsi": 56.9,
+          "vol_factor": 1.6,
+          "score": 1.491
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1304.3,
+        "buy_time": "2026-08-24 13:07:18",
+        "iteration": 8,
+        "score_info": {
+          "last": 1304.3,
+          "mom_30m_pct": -0.1,
+          "intraday_pct": -0.549,
+          "rsi": 45.6,
+          "vol_factor": 2.0,
+          "score": 0.686
         }
       }
     ],
@@ -551,6 +590,40 @@
           "rsi": 64.7,
           "vol_factor": 1.29,
           "score": 0.835
+        }
+      },
+      {
+        "time": "2026-08-24 13:07:18",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 31,
+        "price": 185.49,
+        "cost": 5750.19,
+        "score": {
+          "last": 185.49,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.549,
+          "rsi": 56.9,
+          "vol_factor": 1.6,
+          "score": 1.491
+        }
+      },
+      {
+        "time": "2026-08-24 13:07:18",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1304.3,
+        "cost": 2608.6,
+        "score": {
+          "last": 1304.3,
+          "mom_30m_pct": -0.1,
+          "intraday_pct": -0.549,
+          "rsi": 45.6,
+          "vol_factor": 2.0,
+          "score": 0.686
         }
       }
     ],
