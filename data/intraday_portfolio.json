@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-25",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,10 +102,19 @@
         "invested_today_after": 85511.25,
         "realized_pnl_today_after": 96.5,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-25 14:51:27",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 97960.55,
+        "realized_pnl_today_after": 167.5,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 85511.24981689453,
-    "realized_pnl_today": 96.50019531249978,
+    "invested_today": 97960.54986572266,
+    "realized_pnl_today": 167.50019531249978,
     "open_positions": [
       {
         "symbol": "HINDALCO",
@@ -303,21 +312,6 @@
         }
       },
       {
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "buy_price": 3044.5,
-        "buy_time": "2026-08-25 13:51:40",
-        "iteration": 10,
-        "score_info": {
-          "last": 3044.5,
-          "mom_30m_pct": 0.148,
-          "intraday_pct": 2.048,
-          "rsi": 74.4,
-          "vol_factor": 0.39,
-          "score": 0.231
-        }
-      },
-      {
         "symbol": "TATACONSUM",
         "qty": 4,
         "buy_price": 1054.5,
@@ -360,6 +354,51 @@
           "rsi": 34.6,
           "vol_factor": 0.74,
           "score": -0.098
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1268.0,
+        "buy_time": "2026-08-25 14:51:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 1268.0,
+          "mom_30m_pct": 0.174,
+          "intraday_pct": 0.079,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.284
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 18,
+        "buy_price": 317.5,
+        "buy_time": "2026-08-25 14:51:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 317.5,
+          "mom_30m_pct": 0.714,
+          "intraday_pct": 1.681,
+          "rsi": 78.4,
+          "vol_factor": 2.0,
+          "score": 1.075
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2930.3,
+        "buy_time": "2026-08-25 14:51:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 2930.3,
+          "mom_30m_pct": 0.871,
+          "intraday_pct": 0.874,
+          "rsi": 67.2,
+          "vol_factor": 0.35,
+          "score": 0.923
         }
       }
     ],
@@ -796,6 +835,69 @@
           "rsi": 34.6,
           "vol_factor": 0.74,
           "score": -0.098
+        }
+      },
+      {
+        "time": "2026-08-25 14:51:27",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "ADANIENT",
+        "qty": 2,
+        "price": 3080.0,
+        "buy_price": 3044.5,
+        "pnl": 71.0,
+        "pnl_pct": 1.17,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-25 14:51:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1268.0,
+        "cost": 3804.0,
+        "score": {
+          "last": 1268.0,
+          "mom_30m_pct": 0.174,
+          "intraday_pct": 0.079,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.284
+        }
+      },
+      {
+        "time": "2026-08-25 14:51:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 18,
+        "price": 317.5,
+        "cost": 5715.0,
+        "score": {
+          "last": 317.5,
+          "mom_30m_pct": 0.714,
+          "intraday_pct": 1.681,
+          "rsi": 78.4,
+          "vol_factor": 2.0,
+          "score": 1.075
+        }
+      },
+      {
+        "time": "2026-08-25 14:51:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2930.3,
+        "cost": 2930.3,
+        "score": {
+          "last": 2930.3,
+          "mom_30m_pct": 0.871,
+          "intraday_pct": 0.874,
+          "rsi": 67.2,
+          "vol_factor": 0.35,
+          "score": 0.923
         }
       }
     ],
