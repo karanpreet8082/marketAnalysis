@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-25",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-25 09:54:24",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7450.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-25 10:11:49",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 15469.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 15469.800048828125,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ITC",
+        "qty": 20,
+        "buy_price": 268.0,
+        "buy_time": "2026-08-25 09:54:24",
+        "iteration": 1,
+        "score_info": {
+          "last": 268.0,
+          "mom_30m_pct": -0.316,
+          "intraday_pct": -0.557,
+          "rsi": 45.6,
+          "vol_factor": 2.0,
+          "score": 0.359
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 1045.0,
+        "buy_time": "2026-08-25 09:54:24",
+        "iteration": 1,
+        "score_info": {
+          "last": 1045.0,
+          "mom_30m_pct": -0.353,
+          "intraday_pct": -0.448,
+          "rsi": 35.8,
+          "vol_factor": 2.0,
+          "score": 0.336
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 681.5,
+        "buy_time": "2026-08-25 10:11:49",
+        "iteration": 2,
+        "score_info": {
+          "last": 681.5,
+          "mom_30m_pct": 0.287,
+          "intraday_pct": 0.272,
+          "rsi": 45.6,
+          "vol_factor": 0.03,
+          "score": -0.455
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1908.6,
+        "buy_time": "2026-08-25 10:11:49",
+        "iteration": 2,
+        "score_info": {
+          "last": 1908.6,
+          "mom_30m_pct": -0.126,
+          "intraday_pct": 0.1,
+          "rsi": 46.6,
+          "vol_factor": 0.66,
+          "score": -0.494
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1128.4,
+        "buy_time": "2026-08-25 10:11:49",
+        "iteration": 2,
+        "score_info": {
+          "last": 1128.4,
+          "mom_30m_pct": 0.302,
+          "intraday_pct": -0.476,
+          "rsi": 55.5,
+          "vol_factor": 0.13,
+          "score": -0.561
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-25 09:54:24",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 20,
+        "price": 268.0,
+        "cost": 5360.0,
+        "score": {
+          "last": 268.0,
+          "mom_30m_pct": -0.316,
+          "intraday_pct": -0.557,
+          "rsi": 45.6,
+          "vol_factor": 2.0,
+          "score": 0.359
+        }
+      },
+      {
+        "time": "2026-08-25 09:54:24",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 1045.0,
+        "cost": 2090.0,
+        "score": {
+          "last": 1045.0,
+          "mom_30m_pct": -0.353,
+          "intraday_pct": -0.448,
+          "rsi": 35.8,
+          "vol_factor": 2.0,
+          "score": 0.336
+        }
+      },
+      {
+        "time": "2026-08-25 10:11:49",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 681.5,
+        "cost": 2726.0,
+        "score": {
+          "last": 681.5,
+          "mom_30m_pct": 0.287,
+          "intraday_pct": 0.272,
+          "rsi": 45.6,
+          "vol_factor": 0.03,
+          "score": -0.455
+        }
+      },
+      {
+        "time": "2026-08-25 10:11:49",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1908.6,
+        "cost": 1908.6,
+        "score": {
+          "last": 1908.6,
+          "mom_30m_pct": -0.126,
+          "intraday_pct": 0.1,
+          "rsi": 46.6,
+          "vol_factor": 0.66,
+          "score": -0.494
+        }
+      },
+      {
+        "time": "2026-08-25 10:11:49",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1128.4,
+        "cost": 3385.2,
+        "score": {
+          "last": 1128.4,
+          "mom_30m_pct": 0.302,
+          "intraday_pct": -0.476,
+          "rsi": 55.5,
+          "vol_factor": 0.13,
+          "score": -0.561
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
