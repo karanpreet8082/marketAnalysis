@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-25",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 29150.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-25 11:11:27",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 37869.75,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 29149.999877929688,
+    "invested_today": 37869.749938964844,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -162,6 +171,36 @@
           "rsi": 48.6,
           "vol_factor": 0.69,
           "score": 0.073
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 15,
+        "buy_price": 373.45,
+        "buy_time": "2026-08-25 11:11:27",
+        "iteration": 5,
+        "score_info": {
+          "last": 373.45,
+          "mom_30m_pct": 0.322,
+          "intraday_pct": -0.44,
+          "rsi": 74.6,
+          "vol_factor": 1.4,
+          "score": 0.751
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 311.8,
+        "buy_time": "2026-08-25 11:11:27",
+        "iteration": 5,
+        "score_info": {
+          "last": 311.8,
+          "mom_30m_pct": 0.096,
+          "intraday_pct": 0.516,
+          "rsi": 47.2,
+          "vol_factor": 0.86,
+          "score": 0.157
         }
       }
     ],
@@ -300,6 +339,40 @@
           "rsi": 48.6,
           "vol_factor": 0.69,
           "score": 0.073
+        }
+      },
+      {
+        "time": "2026-08-25 11:11:27",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 15,
+        "price": 373.45,
+        "cost": 5601.75,
+        "score": {
+          "last": 373.45,
+          "mom_30m_pct": 0.322,
+          "intraday_pct": -0.44,
+          "rsi": 74.6,
+          "vol_factor": 1.4,
+          "score": 0.751
+        }
+      },
+      {
+        "time": "2026-08-25 11:11:27",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 311.8,
+        "cost": 3118.0,
+        "score": {
+          "last": 311.8,
+          "mom_30m_pct": 0.096,
+          "intraday_pct": 0.516,
+          "rsi": 47.2,
+          "vol_factor": 0.86,
+          "score": 0.157
         }
       }
     ],
