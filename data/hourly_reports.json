@@ -1,44 +1,5 @@
 [
   {
-    "timestamp": "2026-07-22 14:45 IST",
-    "budget": 50000.0,
-    "allocated": 48775.64,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 48775.64,
-      "cash_reserve": 1224.36,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 25126.84,
-          "percent": 50.3,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 16888.3,
-          "percent": 33.8,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 6760.5,
-          "percent": 13.5,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.6,
-      "max_loss_percent": 4.0,
-      "sector_distribution": {
-        "Unknown": 3,
-        "Basic Materials": 1,
-        "Consumer Defensive": 1,
-        "Financial Services": 1,
-        "Communication Services": 1,
-        "Technology": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-07-22 16:58 IST",
     "budget": 50000.0,
     "allocated": 49284.23000000001,
@@ -1849,6 +1810,43 @@
         "Unknown": 3,
         "Financial Services": 2,
         "Basic Materials": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-08-25 13:00 IST",
+    "budget": 50000.0,
+    "allocated": 49000.24999999999,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 49000.25,
+      "cash_reserve": 999.75,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24721.949999999997,
+          "percent": 49.4,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17009.95,
+          "percent": 34.0,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7268.35,
+          "percent": 14.5,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.4,
+      "max_loss_percent": 3.7,
+      "sector_distribution": {
+        "Basic Materials": 1,
+        "Unknown": 4,
+        "Financial Services": 2,
+        "Consumer Cyclical": 1
       }
     }
   }
