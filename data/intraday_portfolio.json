@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-25",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 54419.95,
         "realized_pnl_today_after": 75.5,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-25 12:55:23",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 60485.95,
+        "realized_pnl_today_after": 75.5,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 54419.949645996094,
+    "invested_today": 60485.949645996094,
     "realized_pnl_today": 75.50006103515614,
     "open_positions": [
       {
@@ -264,6 +273,21 @@
           "rsi": 40.7,
           "vol_factor": 0.23,
           "score": -0.251
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 3,
+        "buy_price": 2022.0,
+        "buy_time": "2026-08-25 12:55:23",
+        "iteration": 8,
+        "score_info": {
+          "last": 2022.0,
+          "mom_30m_pct": 0.099,
+          "intraday_pct": 0.497,
+          "rsi": 44.9,
+          "vol_factor": 1.0,
+          "score": 0.298
         }
       }
     ],
@@ -545,6 +569,23 @@
           "rsi": 40.7,
           "vol_factor": 0.23,
           "score": -0.251
+        }
+      },
+      {
+        "time": "2026-08-25 12:55:23",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 3,
+        "price": 2022.0,
+        "cost": 6066.0,
+        "score": {
+          "last": 2022.0,
+          "mom_30m_pct": 0.099,
+          "intraday_pct": 0.497,
+          "rsi": 44.9,
+          "vol_factor": 1.0,
+          "score": 0.298
         }
       }
     ],
