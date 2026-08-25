@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-25",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 20846.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-08-25 10:47:17",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 29150.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-25 11:11:27",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 37869.75,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 20846.800170898438,
+    "invested_today": 37869.749938964844,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -123,6 +141,66 @@
           "rsi": 50.0,
           "vol_factor": 1.0,
           "score": 0.448
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 4076.4,
+        "buy_time": "2026-08-25 10:47:17",
+        "iteration": 4,
+        "score_info": {
+          "last": 4076.4,
+          "mom_30m_pct": 0.177,
+          "intraday_pct": 0.209,
+          "rsi": 44.8,
+          "vol_factor": 1.79,
+          "score": 1.122
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "buy_price": 1056.7,
+        "buy_time": "2026-08-25 10:47:17",
+        "iteration": 4,
+        "score_info": {
+          "last": 1056.7,
+          "mom_30m_pct": 0.038,
+          "intraday_pct": 1.1,
+          "rsi": 48.6,
+          "vol_factor": 0.69,
+          "score": 0.073
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 15,
+        "buy_price": 373.45,
+        "buy_time": "2026-08-25 11:11:27",
+        "iteration": 5,
+        "score_info": {
+          "last": 373.45,
+          "mom_30m_pct": 0.322,
+          "intraday_pct": -0.44,
+          "rsi": 74.6,
+          "vol_factor": 1.4,
+          "score": 0.751
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 311.8,
+        "buy_time": "2026-08-25 11:11:27",
+        "iteration": 5,
+        "score_info": {
+          "last": 311.8,
+          "mom_30m_pct": 0.096,
+          "intraday_pct": 0.516,
+          "rsi": 47.2,
+          "vol_factor": 0.86,
+          "score": 0.157
         }
       }
     ],
@@ -227,6 +305,74 @@
           "rsi": 50.0,
           "vol_factor": 1.0,
           "score": 0.448
+        }
+      },
+      {
+        "time": "2026-08-25 10:47:17",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 4076.4,
+        "cost": 4076.4,
+        "score": {
+          "last": 4076.4,
+          "mom_30m_pct": 0.177,
+          "intraday_pct": 0.209,
+          "rsi": 44.8,
+          "vol_factor": 1.79,
+          "score": 1.122
+        }
+      },
+      {
+        "time": "2026-08-25 10:47:17",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "price": 1056.7,
+        "cost": 4226.8,
+        "score": {
+          "last": 1056.7,
+          "mom_30m_pct": 0.038,
+          "intraday_pct": 1.1,
+          "rsi": 48.6,
+          "vol_factor": 0.69,
+          "score": 0.073
+        }
+      },
+      {
+        "time": "2026-08-25 11:11:27",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 15,
+        "price": 373.45,
+        "cost": 5601.75,
+        "score": {
+          "last": 373.45,
+          "mom_30m_pct": 0.322,
+          "intraday_pct": -0.44,
+          "rsi": 74.6,
+          "vol_factor": 1.4,
+          "score": 0.751
+        }
+      },
+      {
+        "time": "2026-08-25 11:11:27",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 311.8,
+        "cost": 3118.0,
+        "score": {
+          "last": 311.8,
+          "mom_30m_pct": 0.096,
+          "intraday_pct": 0.516,
+          "rsi": 47.2,
+          "vol_factor": 0.86,
+          "score": 0.157
         }
       }
     ],
