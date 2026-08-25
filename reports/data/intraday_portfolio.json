@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-25",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,10 +75,19 @@
         "invested_today_after": 60485.95,
         "realized_pnl_today_after": 75.5,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-25 13:22:00",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 66437.85,
+        "realized_pnl_today_after": 15.5,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 60485.949645996094,
-    "realized_pnl_today": 75.50006103515614,
+    "invested_today": 66437.84979248047,
+    "realized_pnl_today": 15.500244140625057,
     "open_positions": [
       {
         "symbol": "HINDALCO",
@@ -186,21 +195,6 @@
         }
       },
       {
-        "symbol": "TATAPOWER",
-        "qty": 15,
-        "buy_price": 373.45,
-        "buy_time": "2026-08-25 11:11:27",
-        "iteration": 5,
-        "score_info": {
-          "last": 373.45,
-          "mom_30m_pct": 0.322,
-          "intraday_pct": -0.44,
-          "rsi": 74.6,
-          "vol_factor": 1.4,
-          "score": 0.751
-        }
-      },
-      {
         "symbol": "TATACONSUM",
         "qty": 2,
         "buy_price": 1054.2,
@@ -288,6 +282,36 @@
           "rsi": 44.9,
           "vol_factor": 1.0,
           "score": 0.298
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2912.6,
+        "buy_time": "2026-08-25 13:22:00",
+        "iteration": 9,
+        "score_info": {
+          "last": 2912.6,
+          "mom_30m_pct": -0.322,
+          "intraday_pct": 0.293,
+          "rsi": 35.0,
+          "vol_factor": 2.0,
+          "score": 0.605
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3039.3,
+        "buy_time": "2026-08-25 13:22:00",
+        "iteration": 9,
+        "score_info": {
+          "last": 3039.3,
+          "mom_30m_pct": 0.026,
+          "intraday_pct": 1.956,
+          "rsi": 74.7,
+          "vol_factor": 0.39,
+          "score": 0.02
         }
       }
     ],
@@ -586,6 +610,52 @@
           "rsi": 44.9,
           "vol_factor": 1.0,
           "score": 0.298
+        }
+      },
+      {
+        "time": "2026-08-25 13:22:00",
+        "iteration": 9,
+        "action": "SELL",
+        "symbol": "TATAPOWER",
+        "qty": 15,
+        "price": 369.45,
+        "buy_price": 373.45,
+        "pnl": -60.0,
+        "pnl_pct": -1.07,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-25 13:22:00",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2912.6,
+        "cost": 2912.6,
+        "score": {
+          "last": 2912.6,
+          "mom_30m_pct": -0.322,
+          "intraday_pct": 0.293,
+          "rsi": 35.0,
+          "vol_factor": 2.0,
+          "score": 0.605
+        }
+      },
+      {
+        "time": "2026-08-25 13:22:00",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3039.3,
+        "cost": 3039.3,
+        "score": {
+          "last": 3039.3,
+          "mom_30m_pct": 0.026,
+          "intraday_pct": 1.956,
+          "rsi": 74.7,
+          "vol_factor": 0.39,
+          "score": 0.02
         }
       }
     ],
