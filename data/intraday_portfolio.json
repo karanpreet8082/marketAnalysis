@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-25",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,10 +93,19 @@
         "invested_today_after": 72526.85,
         "realized_pnl_today_after": 70.1,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-25 14:31:52",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 85511.25,
+        "realized_pnl_today_after": 96.5,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 72526.84979248047,
-    "realized_pnl_today": 70.10024414062497,
+    "invested_today": 85511.24981689453,
+    "realized_pnl_today": 96.50019531249978,
     "open_positions": [
       {
         "symbol": "HINDALCO",
@@ -295,21 +304,6 @@
       },
       {
         "symbol": "ADANIENT",
-        "qty": 1,
-        "buy_price": 3039.3,
-        "buy_time": "2026-08-25 13:22:00",
-        "iteration": 9,
-        "score_info": {
-          "last": 3039.3,
-          "mom_30m_pct": 0.026,
-          "intraday_pct": 1.956,
-          "rsi": 74.7,
-          "vol_factor": 0.39,
-          "score": 0.02
-        }
-      },
-      {
-        "symbol": "ADANIENT",
         "qty": 2,
         "buy_price": 3044.5,
         "buy_time": "2026-08-25 13:51:40",
@@ -321,6 +315,51 @@
           "rsi": 74.4,
           "vol_factor": 0.39,
           "score": 0.231
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "buy_price": 1054.5,
+        "buy_time": "2026-08-25 14:31:52",
+        "iteration": 11,
+        "score_info": {
+          "last": 1054.5,
+          "mom_30m_pct": 0.19,
+          "intraday_pct": -0.028,
+          "rsi": 54.7,
+          "vol_factor": 0.68,
+          "score": -0.047
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 3,
+        "buy_price": 1235.6,
+        "buy_time": "2026-08-25 14:31:52",
+        "iteration": 11,
+        "score_info": {
+          "last": 1235.6,
+          "mom_30m_pct": 0.292,
+          "intraday_pct": 0.024,
+          "rsi": 75.0,
+          "vol_factor": 0.5,
+          "score": -0.057
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 4,
+        "buy_price": 1264.9,
+        "buy_time": "2026-08-25 14:31:52",
+        "iteration": 11,
+        "score_info": {
+          "last": 1264.9,
+          "mom_30m_pct": 0.055,
+          "intraday_pct": 0.277,
+          "rsi": 34.6,
+          "vol_factor": 0.74,
+          "score": -0.098
         }
       }
     ],
@@ -694,6 +733,69 @@
           "rsi": 74.4,
           "vol_factor": 0.39,
           "score": 0.231
+        }
+      },
+      {
+        "time": "2026-08-25 14:31:52",
+        "iteration": 11,
+        "action": "SELL",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3065.7,
+        "buy_price": 3039.3,
+        "pnl": 26.4,
+        "pnl_pct": 0.87,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-25 14:31:52",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "price": 1054.5,
+        "cost": 4218.0,
+        "score": {
+          "last": 1054.5,
+          "mom_30m_pct": 0.19,
+          "intraday_pct": -0.028,
+          "rsi": 54.7,
+          "vol_factor": 0.68,
+          "score": -0.047
+        }
+      },
+      {
+        "time": "2026-08-25 14:31:52",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 3,
+        "price": 1235.6,
+        "cost": 3706.8,
+        "score": {
+          "last": 1235.6,
+          "mom_30m_pct": 0.292,
+          "intraday_pct": 0.024,
+          "rsi": 75.0,
+          "vol_factor": 0.5,
+          "score": -0.057
+        }
+      },
+      {
+        "time": "2026-08-25 14:31:52",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 4,
+        "price": 1264.9,
+        "cost": 5059.6,
+        "score": {
+          "last": 1264.9,
+          "mom_30m_pct": 0.055,
+          "intraday_pct": 0.277,
+          "rsi": 34.6,
+          "vol_factor": 0.74,
+          "score": -0.098
         }
       }
     ],
