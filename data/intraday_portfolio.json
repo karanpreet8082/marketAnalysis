@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-26",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,9 +111,18 @@
         "invested_today_after": 94993.81,
         "realized_pnl_today_after": 124.0,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-26 15:31:02",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99879.41,
+        "realized_pnl_today_after": 124.0,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 94993.81022644043,
+    "invested_today": 99879.41017150879,
     "realized_pnl_today": 124.00000976562512,
     "open_positions": [
       {
@@ -399,6 +408,36 @@
           "rsi": 64.0,
           "vol_factor": 0.19,
           "score": 0.608
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 4,
+        "buy_price": 416.45,
+        "buy_time": "2026-08-26 15:31:02",
+        "iteration": 13,
+        "score_info": {
+          "last": 416.45,
+          "mom_30m_pct": 0.217,
+          "intraday_pct": 3.983,
+          "rsi": 60.0,
+          "vol_factor": 1.87,
+          "score": 2.389
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "buy_price": 189.4,
+        "buy_time": "2026-08-26 15:31:02",
+        "iteration": 13,
+        "score_info": {
+          "last": 189.4,
+          "mom_30m_pct": 1.11,
+          "intraday_pct": 2.656,
+          "rsi": 80.6,
+          "vol_factor": 2.0,
+          "score": 1.962
         }
       }
     ],
@@ -811,6 +850,40 @@
           "rsi": 64.0,
           "vol_factor": 0.19,
           "score": 0.608
+        }
+      },
+      {
+        "time": "2026-08-26 15:31:02",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 4,
+        "price": 416.45,
+        "cost": 1665.8,
+        "score": {
+          "last": 416.45,
+          "mom_30m_pct": 0.217,
+          "intraday_pct": 3.983,
+          "rsi": 60.0,
+          "vol_factor": 1.87,
+          "score": 2.389
+        }
+      },
+      {
+        "time": "2026-08-26 15:31:02",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "price": 189.4,
+        "cost": 3219.8,
+        "score": {
+          "last": 189.4,
+          "mom_30m_pct": 1.11,
+          "intraday_pct": 2.656,
+          "rsi": 80.6,
+          "vol_factor": 2.0,
+          "score": 1.962
         }
       }
     ],
