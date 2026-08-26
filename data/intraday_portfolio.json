@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-26",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 16168.86,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-08-26 10:31:21",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 21230.46,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 16168.860107421875,
+    "invested_today": 21230.460205078125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -84,6 +93,21 @@
           "rsi": 60.6,
           "vol_factor": 0.24,
           "score": 0.205
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 4,
+        "buy_price": 1265.4,
+        "buy_time": "2026-08-26 10:31:21",
+        "iteration": 3,
+        "score_info": {
+          "last": 1265.4,
+          "mom_30m_pct": -0.047,
+          "intraday_pct": 0.772,
+          "rsi": 32.7,
+          "vol_factor": 1.0,
+          "score": 0.161
         }
       }
     ],
@@ -154,6 +178,23 @@
           "rsi": 60.6,
           "vol_factor": 0.24,
           "score": 0.205
+        }
+      },
+      {
+        "time": "2026-08-26 10:31:21",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 4,
+        "price": 1265.4,
+        "cost": 5061.6,
+        "score": {
+          "last": 1265.4,
+          "mom_30m_pct": -0.047,
+          "intraday_pct": 0.772,
+          "rsi": 32.7,
+          "vol_factor": 1.0,
+          "score": 0.161
         }
       }
     ],
