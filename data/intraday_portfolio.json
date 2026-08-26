@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-26",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 48266.01,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-26 12:55:37",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 58444.91,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 48266.01022338867,
+    "invested_today": 58444.910247802734,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -249,6 +258,51 @@
           "rsi": 41.3,
           "vol_factor": 2.0,
           "score": 0.934
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3133.2,
+        "buy_time": "2026-08-26 12:55:37",
+        "iteration": 8,
+        "score_info": {
+          "last": 3133.2,
+          "mom_30m_pct": 0.224,
+          "intraday_pct": 3.304,
+          "rsi": 48.9,
+          "vol_factor": 1.0,
+          "score": 1.327
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3281.0,
+        "buy_time": "2026-08-26 12:55:37",
+        "iteration": 8,
+        "score_info": {
+          "last": 3281.0,
+          "mom_30m_pct": 0.37,
+          "intraday_pct": 1.8,
+          "rsi": 53.1,
+          "vol_factor": 1.0,
+          "score": 1.095
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 3,
+        "buy_price": 1254.9,
+        "buy_time": "2026-08-26 12:55:37",
+        "iteration": 8,
+        "score_info": {
+          "last": 1254.9,
+          "mom_30m_pct": 0.272,
+          "intraday_pct": 1.76,
+          "rsi": 62.3,
+          "vol_factor": 1.0,
+          "score": 0.935
         }
       }
     ],
@@ -455,6 +509,57 @@
           "rsi": 41.3,
           "vol_factor": 2.0,
           "score": 0.934
+        }
+      },
+      {
+        "time": "2026-08-26 12:55:37",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3133.2,
+        "cost": 3133.2,
+        "score": {
+          "last": 3133.2,
+          "mom_30m_pct": 0.224,
+          "intraday_pct": 3.304,
+          "rsi": 48.9,
+          "vol_factor": 1.0,
+          "score": 1.327
+        }
+      },
+      {
+        "time": "2026-08-26 12:55:37",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3281.0,
+        "cost": 3281.0,
+        "score": {
+          "last": 3281.0,
+          "mom_30m_pct": 0.37,
+          "intraday_pct": 1.8,
+          "rsi": 53.1,
+          "vol_factor": 1.0,
+          "score": 1.095
+        }
+      },
+      {
+        "time": "2026-08-26 12:55:37",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 3,
+        "price": 1254.9,
+        "cost": 3764.7,
+        "score": {
+          "last": 1254.9,
+          "mom_30m_pct": 0.272,
+          "intraday_pct": 1.76,
+          "rsi": 62.3,
+          "vol_factor": 1.0,
+          "score": 0.935
         }
       }
     ],
