@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-26",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,27 @@
         "invested_today_after": 34482.51,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-26 11:33:52",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 42730.71,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-26 12:32:23",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 48266.01,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 34482.510345458984,
+    "invested_today": 48266.01022338867,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -171,6 +189,66 @@
           "rsi": 68.0,
           "vol_factor": 0.5,
           "score": 0.553
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1252.2,
+        "buy_time": "2026-08-26 11:33:52",
+        "iteration": 6,
+        "score_info": {
+          "last": 1252.2,
+          "mom_30m_pct": 0.627,
+          "intraday_pct": 1.574,
+          "rsi": 73.0,
+          "vol_factor": 0.42,
+          "score": 0.829
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "buy_price": 1914.6,
+        "buy_time": "2026-08-26 11:33:52",
+        "iteration": 6,
+        "score_info": {
+          "last": 1914.6,
+          "mom_30m_pct": 0.021,
+          "intraday_pct": -0.198,
+          "rsi": 40.4,
+          "vol_factor": 1.36,
+          "score": 0.336
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 3,
+        "buy_price": 1056.3,
+        "buy_time": "2026-08-26 12:32:23",
+        "iteration": 7,
+        "score_info": {
+          "last": 1056.3,
+          "mom_30m_pct": 0.019,
+          "intraday_pct": 1.509,
+          "rsi": 55.1,
+          "vol_factor": 1.64,
+          "score": 1.124
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1183.2,
+        "buy_time": "2026-08-26 12:32:23",
+        "iteration": 7,
+        "score_info": {
+          "last": 1183.2,
+          "mom_30m_pct": 0.017,
+          "intraday_pct": -0.303,
+          "rsi": 41.3,
+          "vol_factor": 2.0,
+          "score": 0.934
         }
       }
     ],
@@ -309,6 +387,74 @@
           "rsi": 68.0,
           "vol_factor": 0.5,
           "score": 0.553
+        }
+      },
+      {
+        "time": "2026-08-26 11:33:52",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1252.2,
+        "cost": 2504.4,
+        "score": {
+          "last": 1252.2,
+          "mom_30m_pct": 0.627,
+          "intraday_pct": 1.574,
+          "rsi": 73.0,
+          "vol_factor": 0.42,
+          "score": 0.829
+        }
+      },
+      {
+        "time": "2026-08-26 11:33:52",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "price": 1914.6,
+        "cost": 5743.8,
+        "score": {
+          "last": 1914.6,
+          "mom_30m_pct": 0.021,
+          "intraday_pct": -0.198,
+          "rsi": 40.4,
+          "vol_factor": 1.36,
+          "score": 0.336
+        }
+      },
+      {
+        "time": "2026-08-26 12:32:23",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 3,
+        "price": 1056.3,
+        "cost": 3168.9,
+        "score": {
+          "last": 1056.3,
+          "mom_30m_pct": 0.019,
+          "intraday_pct": 1.509,
+          "rsi": 55.1,
+          "vol_factor": 1.64,
+          "score": 1.124
+        }
+      },
+      {
+        "time": "2026-08-26 12:32:23",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1183.2,
+        "cost": 2366.4,
+        "score": {
+          "last": 1183.2,
+          "mom_30m_pct": 0.017,
+          "intraday_pct": -0.303,
+          "rsi": 41.3,
+          "vol_factor": 2.0,
+          "score": 0.934
         }
       }
     ],
