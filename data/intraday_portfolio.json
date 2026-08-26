@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-26",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,26 +102,20 @@
         "invested_today_after": 85274.31,
         "realized_pnl_today_after": 54.8,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-26 14:56:26",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 94993.81,
+        "realized_pnl_today_after": 124.0,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 85274.31021118164,
-    "realized_pnl_today": 54.80000000000018,
+    "invested_today": 94993.81022644043,
+    "realized_pnl_today": 124.00000976562512,
     "open_positions": [
-      {
-        "symbol": "TATASTEEL",
-        "qty": 16,
-        "buy_price": 186.11,
-        "buy_time": "2026-08-26 09:55:11",
-        "iteration": 1,
-        "score_info": {
-          "last": 186.11,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 0.687,
-          "rsi": 62.1,
-          "vol_factor": 0.8,
-          "score": 0.988
-        }
-      },
       {
         "symbol": "HAVELLS",
         "qty": 2,
@@ -165,21 +159,6 @@
           "rsi": 32.7,
           "vol_factor": 1.0,
           "score": 0.161
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "qty": 7,
-        "buy_price": 412.9,
-        "buy_time": "2026-08-26 10:46:22",
-        "iteration": 4,
-        "score_info": {
-          "last": 412.9,
-          "mom_30m_pct": 0.475,
-          "intraday_pct": 3.367,
-          "rsi": 73.7,
-          "vol_factor": 0.27,
-          "score": 0.994
         }
       },
       {
@@ -390,6 +369,36 @@
           "rsi": 47.6,
           "vol_factor": 1.87,
           "score": 1.325
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 25,
+        "buy_price": 188.86,
+        "buy_time": "2026-08-26 14:56:26",
+        "iteration": 12,
+        "score_info": {
+          "last": 188.86,
+          "mom_30m_pct": 1.32,
+          "intraday_pct": 2.369,
+          "rsi": 84.9,
+          "vol_factor": 0.68,
+          "score": 0.875
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 12,
+        "buy_price": 416.5,
+        "buy_time": "2026-08-26 14:56:26",
+        "iteration": 12,
+        "score_info": {
+          "last": 416.5,
+          "mom_30m_pct": 0.192,
+          "intraday_pct": 3.762,
+          "rsi": 64.0,
+          "vol_factor": 0.19,
+          "score": 0.608
         }
       }
     ],
@@ -744,6 +753,64 @@
           "rsi": 47.6,
           "vol_factor": 1.87,
           "score": 1.325
+        }
+      },
+      {
+        "time": "2026-08-26 14:56:26",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "TATASTEEL",
+        "qty": 16,
+        "price": 188.86,
+        "buy_price": 186.11,
+        "pnl": 44.0,
+        "pnl_pct": 1.48,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-26 14:56:26",
+        "iteration": 12,
+        "action": "SELL",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 416.5,
+        "buy_price": 412.9,
+        "pnl": 25.2,
+        "pnl_pct": 0.87,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-26 14:56:26",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 25,
+        "price": 188.86,
+        "cost": 4721.5,
+        "score": {
+          "last": 188.86,
+          "mom_30m_pct": 1.32,
+          "intraday_pct": 2.369,
+          "rsi": 84.9,
+          "vol_factor": 0.68,
+          "score": 0.875
+        }
+      },
+      {
+        "time": "2026-08-26 14:56:26",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 12,
+        "price": 416.5,
+        "cost": 4998.0,
+        "score": {
+          "last": 416.5,
+          "mom_30m_pct": 0.192,
+          "intraday_pct": 3.762,
+          "rsi": 64.0,
+          "vol_factor": 0.19,
+          "score": 0.608
         }
       }
     ],
