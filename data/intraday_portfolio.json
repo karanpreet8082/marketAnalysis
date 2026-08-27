@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-27",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 42939.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-27 23:05:00",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 45948.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 42939.30041503906,
+    "invested_today": 45948.00048828125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -240,6 +249,21 @@
           "rsi": 42.4,
           "vol_factor": 2.0,
           "score": 1.29
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 1002.9,
+        "buy_time": "2026-08-27 23:05:00",
+        "iteration": 7,
+        "score_info": {
+          "last": 1002.9,
+          "mom_30m_pct": 0.39,
+          "intraday_pct": 0.41,
+          "rsi": 54.1,
+          "vol_factor": 2.0,
+          "score": 1.709
         }
       }
     ],
@@ -446,6 +470,23 @@
           "rsi": 42.4,
           "vol_factor": 2.0,
           "score": 1.29
+        }
+      },
+      {
+        "time": "2026-08-27 23:05:00",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1002.9,
+        "cost": 3008.7,
+        "score": {
+          "last": 1002.9,
+          "mom_30m_pct": 0.39,
+          "intraday_pct": 0.41,
+          "rsi": 54.1,
+          "vol_factor": 2.0,
+          "score": 1.709
         }
       }
     ],
