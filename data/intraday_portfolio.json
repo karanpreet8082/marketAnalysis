@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-27",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 33590.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-27 22:17:05",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 42939.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 33590.600341796875,
+    "invested_today": 42939.30041503906,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -194,6 +203,36 @@
         "buy_price": 1585.0,
         "buy_time": "2026-08-27 21:55:09",
         "iteration": 5,
+        "score_info": {
+          "last": 1585.0,
+          "mom_30m_pct": 0.013,
+          "intraday_pct": 0.904,
+          "rsi": 42.4,
+          "vol_factor": 2.0,
+          "score": 1.29
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 1002.9,
+        "buy_time": "2026-08-27 22:17:05",
+        "iteration": 6,
+        "score_info": {
+          "last": 1002.9,
+          "mom_30m_pct": 0.39,
+          "intraday_pct": 0.41,
+          "rsi": 54.1,
+          "vol_factor": 2.0,
+          "score": 1.709
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 4,
+        "buy_price": 1585.0,
+        "buy_time": "2026-08-27 22:17:05",
+        "iteration": 6,
         "score_info": {
           "last": 1585.0,
           "mom_30m_pct": 0.013,
@@ -366,6 +405,40 @@
         "qty": 2,
         "price": 1585.0,
         "cost": 3170.0,
+        "score": {
+          "last": 1585.0,
+          "mom_30m_pct": 0.013,
+          "intraday_pct": 0.904,
+          "rsi": 42.4,
+          "vol_factor": 2.0,
+          "score": 1.29
+        }
+      },
+      {
+        "time": "2026-08-27 22:17:05",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1002.9,
+        "cost": 3008.7,
+        "score": {
+          "last": 1002.9,
+          "mom_30m_pct": 0.39,
+          "intraday_pct": 0.41,
+          "rsi": 54.1,
+          "vol_factor": 2.0,
+          "score": 1.709
+        }
+      },
+      {
+        "time": "2026-08-27 22:17:05",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 4,
+        "price": 1585.0,
+        "cost": 6340.0,
         "score": {
           "last": 1585.0,
           "mom_30m_pct": 0.013,
