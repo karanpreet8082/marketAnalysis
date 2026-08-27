@@ -1,99 +1,27 @@
 {
   "current_day": {
-    "date": "2026-08-27",
+    "date": "2026-08-28",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 1,
     "iteration_log": [
       {
         "iteration": 1,
-        "time": "2026-08-27 20:17:18",
+        "time": "2026-08-28 00:35:38",
         "n_bought": 1,
         "n_sold": 0,
         "invested_today_after": 2005.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 1
-      },
-      {
-        "iteration": 2,
-        "time": "2026-08-27 20:33:40",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 9109.5,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 3
-      },
-      {
-        "iteration": 3,
-        "time": "2026-08-27 20:51:25",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 16213.2,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 5
-      },
-      {
-        "iteration": 4,
-        "time": "2026-08-27 21:02:17",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 23316.9,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 7
-      },
-      {
-        "iteration": 5,
-        "time": "2026-08-27 21:55:09",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 33590.6,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 10
-      },
-      {
-        "iteration": 6,
-        "time": "2026-08-27 22:17:05",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 42939.3,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 12
-      },
-      {
-        "iteration": 7,
-        "time": "2026-08-27 23:05:00",
-        "n_bought": 1,
-        "n_sold": 0,
-        "invested_today_after": 45948.0,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 13
-      },
-      {
-        "iteration": 8,
-        "time": "2026-08-27 23:20:41",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 53051.7,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 15
-      },
-      {
-        "iteration": 9,
-        "time": "2026-08-27 23:44:08",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 60155.4,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 17
       }
     ],
-    "invested_today": 60155.400634765625,
+    "invested_today": 2005.800048828125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
         "symbol": "INDUSINDBK",
         "qty": 2,
         "buy_price": 1002.9,
-        "buy_time": "2026-08-27 20:17:18",
+        "buy_time": "2026-08-28 00:35:38",
         "iteration": 1,
         "score_info": {
           "last": 1002.9,
@@ -103,251 +31,11 @@
           "vol_factor": 2.0,
           "score": 1.709
         }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1002.9,
-        "buy_time": "2026-08-27 20:33:40",
-        "iteration": 2,
-        "score_info": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 4095.0,
-        "buy_time": "2026-08-27 20:33:40",
-        "iteration": 2,
-        "score_info": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1002.9,
-        "buy_time": "2026-08-27 20:51:25",
-        "iteration": 3,
-        "score_info": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 4095.0,
-        "buy_time": "2026-08-27 20:51:25",
-        "iteration": 3,
-        "score_info": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1002.9,
-        "buy_time": "2026-08-27 21:02:17",
-        "iteration": 4,
-        "score_info": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 4095.0,
-        "buy_time": "2026-08-27 21:02:17",
-        "iteration": 4,
-        "score_info": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1002.9,
-        "buy_time": "2026-08-27 21:55:09",
-        "iteration": 5,
-        "score_info": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 4095.0,
-        "buy_time": "2026-08-27 21:55:09",
-        "iteration": 5,
-        "score_info": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 2,
-        "buy_price": 1585.0,
-        "buy_time": "2026-08-27 21:55:09",
-        "iteration": 5,
-        "score_info": {
-          "last": 1585.0,
-          "mom_30m_pct": 0.013,
-          "intraday_pct": 0.904,
-          "rsi": 42.4,
-          "vol_factor": 2.0,
-          "score": 1.29
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1002.9,
-        "buy_time": "2026-08-27 22:17:05",
-        "iteration": 6,
-        "score_info": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 4,
-        "buy_price": 1585.0,
-        "buy_time": "2026-08-27 22:17:05",
-        "iteration": 6,
-        "score_info": {
-          "last": 1585.0,
-          "mom_30m_pct": 0.013,
-          "intraday_pct": 0.904,
-          "rsi": 42.4,
-          "vol_factor": 2.0,
-          "score": 1.29
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1002.9,
-        "buy_time": "2026-08-27 23:05:00",
-        "iteration": 7,
-        "score_info": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1002.9,
-        "buy_time": "2026-08-27 23:20:41",
-        "iteration": 8,
-        "score_info": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 4095.0,
-        "buy_time": "2026-08-27 23:20:41",
-        "iteration": 8,
-        "score_info": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1002.9,
-        "buy_time": "2026-08-27 23:44:08",
-        "iteration": 9,
-        "score_info": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 4095.0,
-        "buy_time": "2026-08-27 23:44:08",
-        "iteration": 9,
-        "score_info": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
       }
     ],
     "trades": [
       {
-        "time": "2026-08-27 20:17:18",
+        "time": "2026-08-28 00:35:38",
         "iteration": 1,
         "action": "BUY",
         "symbol": "INDUSINDBK",
@@ -361,278 +49,6 @@
           "rsi": 54.1,
           "vol_factor": 2.0,
           "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 20:33:40",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 1002.9,
-        "cost": 3008.7,
-        "score": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 20:33:40",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 4095.0,
-        "cost": 4095.0,
-        "score": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "time": "2026-08-27 20:51:25",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 1002.9,
-        "cost": 3008.7,
-        "score": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 20:51:25",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 4095.0,
-        "cost": 4095.0,
-        "score": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "time": "2026-08-27 21:02:17",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 1002.9,
-        "cost": 3008.7,
-        "score": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 21:02:17",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 4095.0,
-        "cost": 4095.0,
-        "score": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "time": "2026-08-27 21:55:09",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 1002.9,
-        "cost": 3008.7,
-        "score": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 21:55:09",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 4095.0,
-        "cost": 4095.0,
-        "score": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "time": "2026-08-27 21:55:09",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 2,
-        "price": 1585.0,
-        "cost": 3170.0,
-        "score": {
-          "last": 1585.0,
-          "mom_30m_pct": 0.013,
-          "intraday_pct": 0.904,
-          "rsi": 42.4,
-          "vol_factor": 2.0,
-          "score": 1.29
-        }
-      },
-      {
-        "time": "2026-08-27 22:17:05",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 1002.9,
-        "cost": 3008.7,
-        "score": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 22:17:05",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 4,
-        "price": 1585.0,
-        "cost": 6340.0,
-        "score": {
-          "last": 1585.0,
-          "mom_30m_pct": 0.013,
-          "intraday_pct": 0.904,
-          "rsi": 42.4,
-          "vol_factor": 2.0,
-          "score": 1.29
-        }
-      },
-      {
-        "time": "2026-08-27 23:05:00",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 1002.9,
-        "cost": 3008.7,
-        "score": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 23:20:41",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 1002.9,
-        "cost": 3008.7,
-        "score": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 23:20:41",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 4095.0,
-        "cost": 4095.0,
-        "score": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "time": "2026-08-27 23:44:08",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 1002.9,
-        "cost": 3008.7,
-        "score": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 23:44:08",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 4095.0,
-        "cost": 4095.0,
-        "score": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
         }
       }
     ],
@@ -49410,20 +48826,580 @@
       "n_sells": 24,
       "feedback": "Day P&L \u20b912 on \u20b999879 deployed (0.01%). Worst trade: BRITANNIA (P&L \u20b9-74, -1.38%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
       "profitable": true
+    },
+    {
+      "date": "2026-08-27",
+      "iterations_run": 10,
+      "invested": 68262.0,
+      "realized_pnl": 0.0,
+      "pnl_pct": 0.0,
+      "trades": [
+        {
+          "time": "2026-08-27 20:17:18",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1002.9,
+          "cost": 2005.8,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 20:33:40",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "cost": 3008.7,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 20:33:40",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "cost": 4095.0,
+          "score": {
+            "last": 4095.0,
+            "mom_30m_pct": 0.196,
+            "intraday_pct": 0.79,
+            "rsi": 64.8,
+            "vol_factor": 2.0,
+            "score": 1.531
+          }
+        },
+        {
+          "time": "2026-08-27 20:51:25",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "cost": 3008.7,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 20:51:25",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "cost": 4095.0,
+          "score": {
+            "last": 4095.0,
+            "mom_30m_pct": 0.196,
+            "intraday_pct": 0.79,
+            "rsi": 64.8,
+            "vol_factor": 2.0,
+            "score": 1.531
+          }
+        },
+        {
+          "time": "2026-08-27 21:02:17",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "cost": 3008.7,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 21:02:17",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "cost": 4095.0,
+          "score": {
+            "last": 4095.0,
+            "mom_30m_pct": 0.196,
+            "intraday_pct": 0.79,
+            "rsi": 64.8,
+            "vol_factor": 2.0,
+            "score": 1.531
+          }
+        },
+        {
+          "time": "2026-08-27 21:55:09",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "cost": 3008.7,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 21:55:09",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "cost": 4095.0,
+          "score": {
+            "last": 4095.0,
+            "mom_30m_pct": 0.196,
+            "intraday_pct": 0.79,
+            "rsi": 64.8,
+            "vol_factor": 2.0,
+            "score": 1.531
+          }
+        },
+        {
+          "time": "2026-08-27 21:55:09",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1585.0,
+          "cost": 3170.0,
+          "score": {
+            "last": 1585.0,
+            "mom_30m_pct": 0.013,
+            "intraday_pct": 0.904,
+            "rsi": 42.4,
+            "vol_factor": 2.0,
+            "score": 1.29
+          }
+        },
+        {
+          "time": "2026-08-27 22:17:05",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "cost": 3008.7,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 22:17:05",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 4,
+          "price": 1585.0,
+          "cost": 6340.0,
+          "score": {
+            "last": 1585.0,
+            "mom_30m_pct": 0.013,
+            "intraday_pct": 0.904,
+            "rsi": 42.4,
+            "vol_factor": 2.0,
+            "score": 1.29
+          }
+        },
+        {
+          "time": "2026-08-27 23:05:00",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "cost": 3008.7,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 23:20:41",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "cost": 3008.7,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 23:20:41",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "cost": 4095.0,
+          "score": {
+            "last": 4095.0,
+            "mom_30m_pct": 0.196,
+            "intraday_pct": 0.79,
+            "rsi": 64.8,
+            "vol_factor": 2.0,
+            "score": 1.531
+          }
+        },
+        {
+          "time": "2026-08-27 23:44:08",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "cost": 3008.7,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 23:44:08",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "cost": 4095.0,
+          "score": {
+            "last": 4095.0,
+            "mom_30m_pct": 0.196,
+            "intraday_pct": 0.79,
+            "rsi": 64.8,
+            "vol_factor": 2.0,
+            "score": 1.531
+          }
+        },
+        {
+          "time": "2026-08-27 23:54:43",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 4,
+          "price": 1002.9,
+          "cost": 4011.6,
+          "score": {
+            "last": 1002.9,
+            "mom_30m_pct": 0.39,
+            "intraday_pct": 0.41,
+            "rsi": 54.1,
+            "vol_factor": 2.0,
+            "score": 1.709
+          }
+        },
+        {
+          "time": "2026-08-27 23:54:43",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "cost": 4095.0,
+          "score": {
+            "last": 4095.0,
+            "mom_30m_pct": 0.196,
+            "intraday_pct": 0.79,
+            "rsi": 64.8,
+            "vol_factor": 2.0,
+            "score": 1.531
+          }
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 2,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "buy_price": 4095.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "buy_price": 4095.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "buy_price": 4095.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "buy_price": 4095.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1585.0,
+          "buy_price": 1585.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 4,
+          "price": 1585.0,
+          "buy_price": 1585.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "buy_price": 4095.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "buy_price": 4095.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 4,
+          "price": 1002.9,
+          "buy_price": 1002.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-08-28 00:35:29",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "SIEMENS",
+          "qty": 1,
+          "price": 4095.0,
+          "buy_price": 4095.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        }
+      ],
+      "n_buys": 19,
+      "n_sells": 19,
+      "feedback": "Day P&L \u20b90 on \u20b968262 deployed (0.00%). Profitable day \u2014 keep current parameters.",
+      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 62,
+    "total_days": 63,
     "winning_days": 35,
     "losing_days": 25,
     "total_realized_pnl": 880.38,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-07-16",
-        "note": "Day P&L \u20b9-201 on \u20b999979 deployed (-0.20%). Worst trade: SIEMENS (P&L \u20b9-50, -1.36%). Consider tighter stop on entries with weaker momentum scores. 20 EOD force-sells contributed \u20b9-160. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
-      },
       {
         "date": "2026-07-17",
         "note": "Day P&L \u20b9190 on \u20b999906 deployed (0.19%). Worst trade: TECHM (P&L \u20b9-23, -0.73%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -49539,6 +49515,10 @@
       {
         "date": "2026-08-26",
         "note": "Day P&L \u20b912 on \u20b999879 deployed (0.01%). Worst trade: BRITANNIA (P&L \u20b9-74, -1.38%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
+      {
+        "date": "2026-08-27",
+        "note": "Day P&L \u20b90 on \u20b968262 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
