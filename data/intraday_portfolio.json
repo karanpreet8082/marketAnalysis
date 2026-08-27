@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-27",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 16213.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
-      },
-      {
-        "iteration": 4,
-        "time": "2026-08-27 21:02:17",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 23316.9,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 7
       }
     ],
-    "invested_today": 23316.900268554688,
+    "invested_today": 16213.2001953125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -110,36 +101,6 @@
         "buy_price": 4095.0,
         "buy_time": "2026-08-27 20:51:25",
         "iteration": 3,
-        "score_info": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "buy_price": 1002.9,
-        "buy_time": "2026-08-27 21:02:17",
-        "iteration": 4,
-        "score_info": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "buy_price": 4095.0,
-        "buy_time": "2026-08-27 21:02:17",
-        "iteration": 4,
         "score_info": {
           "last": 4095.0,
           "mom_30m_pct": 0.196,
@@ -222,40 +183,6 @@
       {
         "time": "2026-08-27 20:51:25",
         "iteration": 3,
-        "action": "BUY",
-        "symbol": "SIEMENS",
-        "qty": 1,
-        "price": 4095.0,
-        "cost": 4095.0,
-        "score": {
-          "last": 4095.0,
-          "mom_30m_pct": 0.196,
-          "intraday_pct": 0.79,
-          "rsi": 64.8,
-          "vol_factor": 2.0,
-          "score": 1.531
-        }
-      },
-      {
-        "time": "2026-08-27 21:02:17",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 3,
-        "price": 1002.9,
-        "cost": 3008.7,
-        "score": {
-          "last": 1002.9,
-          "mom_30m_pct": 0.39,
-          "intraday_pct": 0.41,
-          "rsi": 54.1,
-          "vol_factor": 2.0,
-          "score": 1.709
-        }
-      },
-      {
-        "time": "2026-08-27 21:02:17",
-        "iteration": 4,
         "action": "BUY",
         "symbol": "SIEMENS",
         "qty": 1,
