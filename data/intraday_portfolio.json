@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-29",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 20725.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 4,
+        "time": "2026-08-29 01:05:29",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 28502.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-29 01:43:16",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 37001.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 20724.999755859375,
+    "invested_today": 37001.099548339844,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -146,6 +164,96 @@
         "buy_price": 2608.7,
         "buy_time": "2026-08-29 00:53:26",
         "iteration": 3,
+        "score_info": {
+          "last": 2608.7,
+          "mom_30m_pct": 0.652,
+          "intraday_pct": -1.163,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 1.629
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1144.0,
+        "buy_time": "2026-08-29 01:05:29",
+        "iteration": 4,
+        "score_info": {
+          "last": 1144.0,
+          "mom_30m_pct": 0.766,
+          "intraday_pct": 3.24,
+          "rsi": 66.9,
+          "vol_factor": 2.0,
+          "score": 3.121
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "buy_price": 720.3,
+        "buy_time": "2026-08-29 01:05:29",
+        "iteration": 4,
+        "score_info": {
+          "last": 720.3,
+          "mom_30m_pct": 0.299,
+          "intraday_pct": 0.819,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 1.695
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2608.7,
+        "buy_time": "2026-08-29 01:05:29",
+        "iteration": 4,
+        "score_info": {
+          "last": 2608.7,
+          "mom_30m_pct": 0.652,
+          "intraday_pct": -1.163,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 1.629
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1144.0,
+        "buy_time": "2026-08-29 01:43:16",
+        "iteration": 5,
+        "score_info": {
+          "last": 1144.0,
+          "mom_30m_pct": 0.766,
+          "intraday_pct": 3.24,
+          "rsi": 66.9,
+          "vol_factor": 2.0,
+          "score": 3.121
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 5,
+        "buy_price": 720.3,
+        "buy_time": "2026-08-29 01:43:16",
+        "iteration": 5,
+        "score_info": {
+          "last": 720.3,
+          "mom_30m_pct": 0.299,
+          "intraday_pct": 0.819,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 1.695
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2608.7,
+        "buy_time": "2026-08-29 01:43:16",
+        "iteration": 5,
         "score_info": {
           "last": 2608.7,
           "mom_30m_pct": 0.652,
@@ -279,6 +387,108 @@
       {
         "time": "2026-08-29 00:53:26",
         "iteration": 3,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2608.7,
+        "cost": 2608.7,
+        "score": {
+          "last": 2608.7,
+          "mom_30m_pct": 0.652,
+          "intraday_pct": -1.163,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 1.629
+        }
+      },
+      {
+        "time": "2026-08-29 01:05:29",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1144.0,
+        "cost": 2288.0,
+        "score": {
+          "last": 1144.0,
+          "mom_30m_pct": 0.766,
+          "intraday_pct": 3.24,
+          "rsi": 66.9,
+          "vol_factor": 2.0,
+          "score": 3.121
+        }
+      },
+      {
+        "time": "2026-08-29 01:05:29",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 720.3,
+        "cost": 2881.2,
+        "score": {
+          "last": 720.3,
+          "mom_30m_pct": 0.299,
+          "intraday_pct": 0.819,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 1.695
+        }
+      },
+      {
+        "time": "2026-08-29 01:05:29",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2608.7,
+        "cost": 2608.7,
+        "score": {
+          "last": 2608.7,
+          "mom_30m_pct": 0.652,
+          "intraday_pct": -1.163,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 1.629
+        }
+      },
+      {
+        "time": "2026-08-29 01:43:16",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1144.0,
+        "cost": 2288.0,
+        "score": {
+          "last": 1144.0,
+          "mom_30m_pct": 0.766,
+          "intraday_pct": 3.24,
+          "rsi": 66.9,
+          "vol_factor": 2.0,
+          "score": 3.121
+        }
+      },
+      {
+        "time": "2026-08-29 01:43:16",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 5,
+        "price": 720.3,
+        "cost": 3601.5,
+        "score": {
+          "last": 720.3,
+          "mom_30m_pct": 0.299,
+          "intraday_pct": 0.819,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 1.695
+        }
+      },
+      {
+        "time": "2026-08-29 01:43:16",
+        "iteration": 5,
         "action": "BUY",
         "symbol": "ASIANPAINT",
         "qty": 1,
