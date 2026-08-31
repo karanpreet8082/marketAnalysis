@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-31",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 73152.3,
         "realized_pnl_today_after": 5.9,
         "open_positions_after": 24
+      },
+      {
+        "iteration": 10,
+        "time": "2026-08-31 20:57:12",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 80190.0,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 27
       }
     ],
-    "invested_today": 73152.30065917969,
+    "invested_today": 80190.00085449219,
     "realized_pnl_today": 5.899999999999977,
     "open_positions": [
       {
@@ -440,6 +449,51 @@
         "buy_price": 2653.6,
         "buy_time": "2026-08-31 20:31:28",
         "iteration": 9,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1984.8,
+        "buy_time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "score_info": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 20:57:12",
+        "iteration": 10,
         "score_info": {
           "last": 2653.6,
           "mom_30m_pct": 3.052,
@@ -903,6 +957,57 @@
       {
         "time": "2026-08-31 20:31:28",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1984.8,
+        "cost": 1984.8,
+        "score": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "time": "2026-08-31 20:57:12",
+        "iteration": 10,
         "action": "BUY",
         "symbol": "ASIANPAINT",
         "qty": 1,
