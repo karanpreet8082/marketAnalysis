@@ -1,5 +1,1249 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-08-31",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-08-31 15:36:54",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 8025.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-31 16:10:51",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 16354.2,
+        "realized_pnl_today_after": 65.7,
+        "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-08-31 16:29:11",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 24647.6,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-08-31 16:39:30",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 32941.0,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-08-31 17:03:07",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 41234.4,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-08-31 17:18:47",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 49527.8,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 7,
+        "time": "2026-08-31 19:01:34",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 57821.2,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 18
+      },
+      {
+        "iteration": 8,
+        "time": "2026-08-31 19:46:48",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 66114.6,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 21
+      },
+      {
+        "iteration": 9,
+        "time": "2026-08-31 20:31:28",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 73152.3,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 24
+      },
+      {
+        "iteration": 10,
+        "time": "2026-08-31 20:57:12",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 80190.0,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 27
+      },
+      {
+        "iteration": 11,
+        "time": "2026-08-31 21:41:15",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 89212.5,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 30
+      },
+      {
+        "iteration": 12,
+        "time": "2026-08-31 21:54:56",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 98235.0,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 33
+      },
+      {
+        "iteration": 13,
+        "time": "2026-08-31 22:37:09",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 98235.0,
+        "realized_pnl_today_after": 5.9,
+        "open_positions_after": 33
+      }
+    ],
+    "invested_today": 98235.00134277344,
+    "realized_pnl_today": 5.899999999999977,
+    "open_positions": [
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 5,
+        "buy_price": 1064.8,
+        "buy_time": "2026-08-31 15:36:54",
+        "iteration": 1,
+        "score_info": {
+          "last": 1064.8,
+          "mom_30m_pct": 0.519,
+          "intraday_pct": -0.894,
+          "rsi": 65.5,
+          "vol_factor": 2.0,
+          "score": 1.511
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 20,
+        "buy_price": 184.5,
+        "buy_time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 184.5,
+          "mom_30m_pct": 3.015,
+          "intraday_pct": 1.765,
+          "rsi": 85.6,
+          "vol_factor": 2.0,
+          "score": 4.552
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 16:29:11",
+        "iteration": 3,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 16:29:11",
+        "iteration": 3,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 324.05,
+        "buy_time": "2026-08-31 16:29:11",
+        "iteration": 3,
+        "score_info": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 16:39:30",
+        "iteration": 4,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 16:39:30",
+        "iteration": 4,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 324.05,
+        "buy_time": "2026-08-31 16:39:30",
+        "iteration": 4,
+        "score_info": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 17:03:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 17:03:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 324.05,
+        "buy_time": "2026-08-31 17:03:07",
+        "iteration": 5,
+        "score_info": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 17:18:47",
+        "iteration": 6,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 17:18:47",
+        "iteration": 6,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 324.05,
+        "buy_time": "2026-08-31 17:18:47",
+        "iteration": 6,
+        "score_info": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 19:01:34",
+        "iteration": 7,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 19:01:34",
+        "iteration": 7,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 324.05,
+        "buy_time": "2026-08-31 19:01:34",
+        "iteration": 7,
+        "score_info": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 19:46:48",
+        "iteration": 8,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 19:46:48",
+        "iteration": 8,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 324.05,
+        "buy_time": "2026-08-31 19:46:48",
+        "iteration": 8,
+        "score_info": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 20:31:28",
+        "iteration": 9,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1984.8,
+        "buy_time": "2026-08-31 20:31:28",
+        "iteration": 9,
+        "score_info": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 20:31:28",
+        "iteration": 9,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1984.8,
+        "buy_time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "score_info": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 21:41:15",
+        "iteration": 11,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "buy_price": 1984.8,
+        "buy_time": "2026-08-31 21:41:15",
+        "iteration": 11,
+        "score_info": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 21:41:15",
+        "iteration": 11,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2399.3,
+        "buy_time": "2026-08-31 21:54:56",
+        "iteration": 12,
+        "score_info": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "buy_price": 1984.8,
+        "buy_time": "2026-08-31 21:54:56",
+        "iteration": 12,
+        "score_info": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 21:54:56",
+        "iteration": 12,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-08-31 15:36:54",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 15,
+        "price": 180.12,
+        "cost": 2701.8,
+        "score": {
+          "last": 180.12,
+          "mom_30m_pct": 0.817,
+          "intraday_pct": -0.7,
+          "rsi": 69.9,
+          "vol_factor": 2.0,
+          "score": 2.016
+        }
+      },
+      {
+        "time": "2026-08-31 15:36:54",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 5,
+        "price": 1064.8,
+        "cost": 5324.0,
+        "score": {
+          "last": 1064.8,
+          "mom_30m_pct": 0.519,
+          "intraday_pct": -0.894,
+          "rsi": 65.5,
+          "vol_factor": 2.0,
+          "score": 1.511
+        }
+      },
+      {
+        "time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "action": "SELL",
+        "symbol": "WIPRO",
+        "qty": 15,
+        "price": 184.5,
+        "buy_price": 180.12,
+        "pnl": 65.7,
+        "pnl_pct": 2.43,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1984.8,
+        "cost": 1984.8,
+        "score": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 20,
+        "price": 184.5,
+        "cost": 3690.0,
+        "score": {
+          "last": 184.5,
+          "mom_30m_pct": 3.015,
+          "intraday_pct": 1.765,
+          "rsi": 85.6,
+          "vol_factor": 2.0,
+          "score": 4.552
+        }
+      },
+      {
+        "time": "2026-08-31 16:29:11",
+        "iteration": 3,
+        "action": "SELL",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1925.0,
+        "buy_price": 1984.8,
+        "pnl": -59.8,
+        "pnl_pct": -3.01,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-08-31 16:29:11",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 16:29:11",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 16:29:11",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 324.05,
+        "cost": 3240.5,
+        "score": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "time": "2026-08-31 16:39:30",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 16:39:30",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 16:39:30",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 324.05,
+        "cost": 3240.5,
+        "score": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "time": "2026-08-31 17:03:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 17:03:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 17:03:07",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 324.05,
+        "cost": 3240.5,
+        "score": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "time": "2026-08-31 17:18:47",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 17:18:47",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 17:18:47",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 324.05,
+        "cost": 3240.5,
+        "score": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "time": "2026-08-31 19:01:34",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 19:01:34",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 19:01:34",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 324.05,
+        "cost": 3240.5,
+        "score": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "time": "2026-08-31 19:46:48",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 19:46:48",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 19:46:48",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 324.05,
+        "cost": 3240.5,
+        "score": {
+          "last": 324.05,
+          "mom_30m_pct": 3.069,
+          "intraday_pct": 1.743,
+          "rsi": 81.7,
+          "vol_factor": 2.0,
+          "score": 4.627
+        }
+      },
+      {
+        "time": "2026-08-31 20:31:28",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 20:31:28",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1984.8,
+        "cost": 1984.8,
+        "score": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "time": "2026-08-31 20:31:28",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1984.8,
+        "cost": 1984.8,
+        "score": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "time": "2026-08-31 20:57:12",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 21:41:15",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 21:41:15",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "price": 1984.8,
+        "cost": 3969.6,
+        "score": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "time": "2026-08-31 21:41:15",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 21:54:56",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2399.3,
+        "cost": 2399.3,
+        "score": {
+          "last": 2399.3,
+          "mom_30m_pct": 3.156,
+          "intraday_pct": 2.543,
+          "rsi": 89.1,
+          "vol_factor": 2.0,
+          "score": 4.997
+        }
+      },
+      {
+        "time": "2026-08-31 21:54:56",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "price": 1984.8,
+        "cost": 3969.6,
+        "score": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "time": "2026-08-31 21:54:56",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -50754,1044 +51998,20 @@
       "n_sells": 23,
       "feedback": "Day P&L \u20b90 on \u20b962496 deployed (0.00%). Profitable day \u2014 keep current parameters.",
       "profitable": false
-    },
-    {
-      "date": "2026-08-31",
-      "iterations_run": 14,
-      "invested": 98235.0,
-      "realized_pnl": -33.1,
-      "pnl_pct": -0.034,
-      "trades": [
-        {
-          "time": "2026-08-31 15:36:54",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "WIPRO",
-          "qty": 15,
-          "price": 180.12,
-          "cost": 2701.8,
-          "score": {
-            "last": 180.12,
-            "mom_30m_pct": 0.817,
-            "intraday_pct": -0.7,
-            "rsi": 69.9,
-            "vol_factor": 2.0,
-            "score": 2.016
-          }
-        },
-        {
-          "time": "2026-08-31 15:36:54",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "BAJFINANCE",
-          "qty": 5,
-          "price": 1064.8,
-          "cost": 5324.0,
-          "score": {
-            "last": 1064.8,
-            "mom_30m_pct": 0.519,
-            "intraday_pct": -0.894,
-            "rsi": 65.5,
-            "vol_factor": 2.0,
-            "score": 1.511
-          }
-        },
-        {
-          "time": "2026-08-31 16:10:51",
-          "iteration": 2,
-          "action": "SELL",
-          "symbol": "WIPRO",
-          "qty": 15,
-          "price": 184.5,
-          "buy_price": 180.12,
-          "pnl": 65.7,
-          "pnl_pct": 2.43,
-          "reason": "TAKE_PROFIT"
-        },
-        {
-          "time": "2026-08-31 16:10:51",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1984.8,
-          "cost": 1984.8,
-          "score": {
-            "last": 1984.8,
-            "mom_30m_pct": 2.855,
-            "intraday_pct": 3.37,
-            "rsi": 86.6,
-            "vol_factor": 2.0,
-            "score": 4.794
-          }
-        },
-        {
-          "time": "2026-08-31 16:10:51",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 16:10:51",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "WIPRO",
-          "qty": 20,
-          "price": 184.5,
-          "cost": 3690.0,
-          "score": {
-            "last": 184.5,
-            "mom_30m_pct": 3.015,
-            "intraday_pct": 1.765,
-            "rsi": 85.6,
-            "vol_factor": 2.0,
-            "score": 4.552
-          }
-        },
-        {
-          "time": "2026-08-31 16:29:11",
-          "iteration": 3,
-          "action": "SELL",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1925.0,
-          "buy_price": 1984.8,
-          "pnl": -59.8,
-          "pnl_pct": -3.01,
-          "reason": "STOP_LOSS"
-        },
-        {
-          "time": "2026-08-31 16:29:11",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 16:29:11",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 16:29:11",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "cost": 3240.5,
-          "score": {
-            "last": 324.05,
-            "mom_30m_pct": 3.069,
-            "intraday_pct": 1.743,
-            "rsi": 81.7,
-            "vol_factor": 2.0,
-            "score": 4.627
-          }
-        },
-        {
-          "time": "2026-08-31 16:39:30",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 16:39:30",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 16:39:30",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "cost": 3240.5,
-          "score": {
-            "last": 324.05,
-            "mom_30m_pct": 3.069,
-            "intraday_pct": 1.743,
-            "rsi": 81.7,
-            "vol_factor": 2.0,
-            "score": 4.627
-          }
-        },
-        {
-          "time": "2026-08-31 17:03:07",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 17:03:07",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 17:03:07",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "cost": 3240.5,
-          "score": {
-            "last": 324.05,
-            "mom_30m_pct": 3.069,
-            "intraday_pct": 1.743,
-            "rsi": 81.7,
-            "vol_factor": 2.0,
-            "score": 4.627
-          }
-        },
-        {
-          "time": "2026-08-31 17:18:47",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 17:18:47",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 17:18:47",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "cost": 3240.5,
-          "score": {
-            "last": 324.05,
-            "mom_30m_pct": 3.069,
-            "intraday_pct": 1.743,
-            "rsi": 81.7,
-            "vol_factor": 2.0,
-            "score": 4.627
-          }
-        },
-        {
-          "time": "2026-08-31 19:01:34",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 19:01:34",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 19:01:34",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "cost": 3240.5,
-          "score": {
-            "last": 324.05,
-            "mom_30m_pct": 3.069,
-            "intraday_pct": 1.743,
-            "rsi": 81.7,
-            "vol_factor": 2.0,
-            "score": 4.627
-          }
-        },
-        {
-          "time": "2026-08-31 19:46:48",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 19:46:48",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 19:46:48",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "cost": 3240.5,
-          "score": {
-            "last": 324.05,
-            "mom_30m_pct": 3.069,
-            "intraday_pct": 1.743,
-            "rsi": 81.7,
-            "vol_factor": 2.0,
-            "score": 4.627
-          }
-        },
-        {
-          "time": "2026-08-31 20:31:28",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 20:31:28",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1984.8,
-          "cost": 1984.8,
-          "score": {
-            "last": 1984.8,
-            "mom_30m_pct": 2.855,
-            "intraday_pct": 3.37,
-            "rsi": 86.6,
-            "vol_factor": 2.0,
-            "score": 4.794
-          }
-        },
-        {
-          "time": "2026-08-31 20:31:28",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 20:57:12",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 20:57:12",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1984.8,
-          "cost": 1984.8,
-          "score": {
-            "last": 1984.8,
-            "mom_30m_pct": 2.855,
-            "intraday_pct": 3.37,
-            "rsi": 86.6,
-            "vol_factor": 2.0,
-            "score": 4.794
-          }
-        },
-        {
-          "time": "2026-08-31 20:57:12",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 21:41:15",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 21:41:15",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "SUNPHARMA",
-          "qty": 2,
-          "price": 1984.8,
-          "cost": 3969.6,
-          "score": {
-            "last": 1984.8,
-            "mom_30m_pct": 2.855,
-            "intraday_pct": 3.37,
-            "rsi": 86.6,
-            "vol_factor": 2.0,
-            "score": 4.794
-          }
-        },
-        {
-          "time": "2026-08-31 21:41:15",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 21:54:56",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "cost": 2399.3,
-          "score": {
-            "last": 2399.3,
-            "mom_30m_pct": 3.156,
-            "intraday_pct": 2.543,
-            "rsi": 89.1,
-            "vol_factor": 2.0,
-            "score": 4.997
-          }
-        },
-        {
-          "time": "2026-08-31 21:54:56",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "SUNPHARMA",
-          "qty": 2,
-          "price": 1984.8,
-          "cost": 3969.6,
-          "score": {
-            "last": 1984.8,
-            "mom_30m_pct": 2.855,
-            "intraday_pct": 3.37,
-            "rsi": 86.6,
-            "vol_factor": 2.0,
-            "score": 4.794
-          }
-        },
-        {
-          "time": "2026-08-31 21:54:56",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "cost": 2653.6,
-          "score": {
-            "last": 2653.6,
-            "mom_30m_pct": 3.052,
-            "intraday_pct": 2.377,
-            "rsi": 92.9,
-            "vol_factor": 2.0,
-            "score": 4.792
-          }
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BAJFINANCE",
-          "qty": 5,
-          "price": 1057.0,
-          "buy_price": 1064.8,
-          "pnl": -39.0,
-          "pnl_pct": -0.73,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "WIPRO",
-          "qty": 20,
-          "price": 184.5,
-          "buy_price": 184.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "buy_price": 324.05,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "buy_price": 324.05,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "buy_price": 324.05,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "buy_price": 324.05,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "buy_price": 324.05,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 10,
-          "price": 324.05,
-          "buy_price": 324.05,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1984.8,
-          "buy_price": 1984.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1984.8,
-          "buy_price": 1984.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SUNPHARMA",
-          "qty": 2,
-          "price": 1984.8,
-          "buy_price": 1984.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2399.3,
-          "buy_price": 2399.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SUNPHARMA",
-          "qty": 2,
-          "price": 1984.8,
-          "buy_price": 1984.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-08-31 22:45:02",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 1,
-          "price": 2653.6,
-          "buy_price": 2653.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 35,
-      "n_sells": 35,
-      "feedback": "Day P&L \u20b9-33 on \u20b998235 deployed (-0.03%). Worst trade: SUNPHARMA (P&L \u20b9-60, -3.01%). Consider tighter stop on entries with weaker momentum scores. 33 EOD force-sells contributed \u20b9-39. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
-      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 66,
+    "total_days": 65,
     "winning_days": 36,
-    "losing_days": 26,
-    "total_realized_pnl": 959.08,
+    "losing_days": 25,
+    "total_realized_pnl": 992.18,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-07-21",
+        "note": "Day P&L \u20b9286 on \u20b999672 deployed (0.29%). Worst trade: INDUSINDBK (P&L \u20b9-1, -0.02%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
       {
         "date": "2026-07-22",
         "note": "Day P&L \u20b928 on \u20b999786 deployed (0.03%). Worst trade: M&M (P&L \u20b9-32, -1.00%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -51907,10 +52127,6 @@
       {
         "date": "2026-08-29",
         "note": "Day P&L \u20b90 on \u20b962496 deployed (0.00%). Profitable day \u2014 keep current parameters."
-      },
-      {
-        "date": "2026-08-31",
-        "note": "Day P&L \u20b9-33 on \u20b998235 deployed (-0.03%). Worst trade: SUNPHARMA (P&L \u20b9-60, -3.01%). Consider tighter stop on entries with weaker momentum scores. 33 EOD force-sells contributed \u20b9-39. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
       }
     ]
   }
