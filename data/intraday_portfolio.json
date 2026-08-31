@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-31",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,26 +12,20 @@
         "invested_today_after": 8025.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-08-31 16:10:51",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 16354.2,
+        "realized_pnl_today_after": 65.7,
+        "open_positions_after": 4
       }
     ],
-    "invested_today": 8025.8001708984375,
-    "realized_pnl_today": 0.0,
+    "invested_today": 16354.200317382812,
+    "realized_pnl_today": 65.69999999999993,
     "open_positions": [
-      {
-        "symbol": "WIPRO",
-        "qty": 15,
-        "buy_price": 180.12,
-        "buy_time": "2026-08-31 15:36:54",
-        "iteration": 1,
-        "score_info": {
-          "last": 180.12,
-          "mom_30m_pct": 0.817,
-          "intraday_pct": -0.7,
-          "rsi": 69.9,
-          "vol_factor": 2.0,
-          "score": 2.016
-        }
-      },
       {
         "symbol": "BAJFINANCE",
         "qty": 5,
@@ -45,6 +39,51 @@
           "rsi": 65.5,
           "vol_factor": 2.0,
           "score": 1.511
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1984.8,
+        "buy_time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2653.6,
+        "buy_time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 20,
+        "buy_price": 184.5,
+        "buy_time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 184.5,
+          "mom_30m_pct": 3.015,
+          "intraday_pct": 1.765,
+          "rsi": 85.6,
+          "vol_factor": 2.0,
+          "score": 4.552
         }
       }
     ],
@@ -81,6 +120,69 @@
           "rsi": 65.5,
           "vol_factor": 2.0,
           "score": 1.511
+        }
+      },
+      {
+        "time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "action": "SELL",
+        "symbol": "WIPRO",
+        "qty": 15,
+        "price": 184.5,
+        "buy_price": 180.12,
+        "pnl": 65.7,
+        "pnl_pct": 2.43,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1984.8,
+        "cost": 1984.8,
+        "score": {
+          "last": 1984.8,
+          "mom_30m_pct": 2.855,
+          "intraday_pct": 3.37,
+          "rsi": 86.6,
+          "vol_factor": 2.0,
+          "score": 4.794
+        }
+      },
+      {
+        "time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2653.6,
+        "cost": 2653.6,
+        "score": {
+          "last": 2653.6,
+          "mom_30m_pct": 3.052,
+          "intraday_pct": 2.377,
+          "rsi": 92.9,
+          "vol_factor": 2.0,
+          "score": 4.792
+        }
+      },
+      {
+        "time": "2026-08-31 16:10:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 20,
+        "price": 184.5,
+        "cost": 3690.0,
+        "score": {
+          "last": 184.5,
+          "mom_30m_pct": 3.015,
+          "intraday_pct": 1.765,
+          "rsi": 85.6,
+          "vol_factor": 2.0,
+          "score": 4.552
         }
       }
     ],
