@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-08-31",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 24647.6,
         "realized_pnl_today_after": 5.9,
         "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-08-31 16:39:30",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 32941.0,
-        "realized_pnl_today_after": 5.9,
-        "open_positions_after": 9
       }
     ],
-    "invested_today": 32941.00036621094,
+    "invested_today": 24647.600341796875,
     "realized_pnl_today": 5.899999999999977,
     "open_positions": [
       {
@@ -125,51 +116,6 @@
         "buy_price": 324.05,
         "buy_time": "2026-08-31 16:29:11",
         "iteration": 3,
-        "score_info": {
-          "last": 324.05,
-          "mom_30m_pct": 3.069,
-          "intraday_pct": 1.743,
-          "rsi": 81.7,
-          "vol_factor": 2.0,
-          "score": 4.627
-        }
-      },
-      {
-        "symbol": "TCS",
-        "qty": 1,
-        "buy_price": 2399.3,
-        "buy_time": "2026-08-31 16:39:30",
-        "iteration": 4,
-        "score_info": {
-          "last": 2399.3,
-          "mom_30m_pct": 3.156,
-          "intraday_pct": 2.543,
-          "rsi": 89.1,
-          "vol_factor": 2.0,
-          "score": 4.997
-        }
-      },
-      {
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "buy_price": 2653.6,
-        "buy_time": "2026-08-31 16:39:30",
-        "iteration": 4,
-        "score_info": {
-          "last": 2653.6,
-          "mom_30m_pct": 3.052,
-          "intraday_pct": 2.377,
-          "rsi": 92.9,
-          "vol_factor": 2.0,
-          "score": 4.792
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 10,
-        "buy_price": 324.05,
-        "buy_time": "2026-08-31 16:39:30",
-        "iteration": 4,
         "score_info": {
           "last": 324.05,
           "mom_30m_pct": 3.069,
@@ -327,57 +273,6 @@
       {
         "time": "2026-08-31 16:29:11",
         "iteration": 3,
-        "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 10,
-        "price": 324.05,
-        "cost": 3240.5,
-        "score": {
-          "last": 324.05,
-          "mom_30m_pct": 3.069,
-          "intraday_pct": 1.743,
-          "rsi": 81.7,
-          "vol_factor": 2.0,
-          "score": 4.627
-        }
-      },
-      {
-        "time": "2026-08-31 16:39:30",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "TCS",
-        "qty": 1,
-        "price": 2399.3,
-        "cost": 2399.3,
-        "score": {
-          "last": 2399.3,
-          "mom_30m_pct": 3.156,
-          "intraday_pct": 2.543,
-          "rsi": 89.1,
-          "vol_factor": 2.0,
-          "score": 4.997
-        }
-      },
-      {
-        "time": "2026-08-31 16:39:30",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "price": 2653.6,
-        "cost": 2653.6,
-        "score": {
-          "last": 2653.6,
-          "mom_30m_pct": 3.052,
-          "intraday_pct": 2.377,
-          "rsi": 92.9,
-          "vol_factor": 2.0,
-          "score": 4.792
-        }
-      },
-      {
-        "time": "2026-08-31 16:39:30",
-        "iteration": 4,
         "action": "BUY",
         "symbol": "BPCL",
         "qty": 10,
