@@ -1,5 +1,123 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-01",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-01 14:25:28",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7953.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 7953.950012207031,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2361.0,
+        "buy_time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "score_info": {
+          "last": 2361.0,
+          "mom_30m_pct": -0.017,
+          "intraday_pct": 1.605,
+          "rsi": 50.7,
+          "vol_factor": 1.0,
+          "score": 0.456
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 9,
+        "buy_price": 349.95,
+        "buy_time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "score_info": {
+          "last": 349.95,
+          "mom_30m_pct": 0.157,
+          "intraday_pct": 0.604,
+          "rsi": 39.0,
+          "vol_factor": 1.0,
+          "score": 0.417
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1221.7,
+        "buy_time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "score_info": {
+          "last": 1221.7,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 1.26,
+          "rsi": 53.3,
+          "vol_factor": 1.0,
+          "score": 0.403
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2361.0,
+        "cost": 2361.0,
+        "score": {
+          "last": 2361.0,
+          "mom_30m_pct": -0.017,
+          "intraday_pct": 1.605,
+          "rsi": 50.7,
+          "vol_factor": 1.0,
+          "score": 0.456
+        }
+      },
+      {
+        "time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 9,
+        "price": 349.95,
+        "cost": 3149.55,
+        "score": {
+          "last": 349.95,
+          "mom_30m_pct": 0.157,
+          "intraday_pct": 0.604,
+          "rsi": 39.0,
+          "vol_factor": 1.0,
+          "score": 0.417
+        }
+      },
+      {
+        "time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1221.7,
+        "cost": 2443.4,
+        "score": {
+          "last": 1221.7,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 1.26,
+          "rsi": 53.3,
+          "vol_factor": 1.0,
+          "score": 0.403
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
