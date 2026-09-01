@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-01",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-01 14:25:28",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7953.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-01 14:46:30",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 12802.75,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 12802.749938964844,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2361.0,
+        "buy_time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "score_info": {
+          "last": 2361.0,
+          "mom_30m_pct": -0.017,
+          "intraday_pct": 1.605,
+          "rsi": 50.7,
+          "vol_factor": 1.0,
+          "score": 0.456
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 9,
+        "buy_price": 349.95,
+        "buy_time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "score_info": {
+          "last": 349.95,
+          "mom_30m_pct": 0.157,
+          "intraday_pct": 0.604,
+          "rsi": 39.0,
+          "vol_factor": 1.0,
+          "score": 0.417
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1221.7,
+        "buy_time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "score_info": {
+          "last": 1221.7,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 1.26,
+          "rsi": 53.3,
+          "vol_factor": 1.0,
+          "score": 0.403
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "buy_price": 1013.3,
+        "buy_time": "2026-09-01 14:46:30",
+        "iteration": 2,
+        "score_info": {
+          "last": 1013.3,
+          "mom_30m_pct": 0.237,
+          "intraday_pct": -0.987,
+          "rsi": 33.3,
+          "vol_factor": 2.0,
+          "score": 1.06
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1411.1,
+        "buy_time": "2026-09-01 14:46:30",
+        "iteration": 2,
+        "score_info": {
+          "last": 1411.1,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": -0.12,
+          "rsi": 42.6,
+          "vol_factor": 1.88,
+          "score": 0.842
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2361.0,
+        "cost": 2361.0,
+        "score": {
+          "last": 2361.0,
+          "mom_30m_pct": -0.017,
+          "intraday_pct": 1.605,
+          "rsi": 50.7,
+          "vol_factor": 1.0,
+          "score": 0.456
+        }
+      },
+      {
+        "time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 9,
+        "price": 349.95,
+        "cost": 3149.55,
+        "score": {
+          "last": 349.95,
+          "mom_30m_pct": 0.157,
+          "intraday_pct": 0.604,
+          "rsi": 39.0,
+          "vol_factor": 1.0,
+          "score": 0.417
+        }
+      },
+      {
+        "time": "2026-09-01 14:25:28",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1221.7,
+        "cost": 2443.4,
+        "score": {
+          "last": 1221.7,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 1.26,
+          "rsi": 53.3,
+          "vol_factor": 1.0,
+          "score": 0.403
+        }
+      },
+      {
+        "time": "2026-09-01 14:46:30",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 2,
+        "price": 1013.3,
+        "cost": 2026.6,
+        "score": {
+          "last": 1013.3,
+          "mom_30m_pct": 0.237,
+          "intraday_pct": -0.987,
+          "rsi": 33.3,
+          "vol_factor": 2.0,
+          "score": 1.06
+        }
+      },
+      {
+        "time": "2026-09-01 14:46:30",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1411.1,
+        "cost": 2822.2,
+        "score": {
+          "last": 1411.1,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": -0.12,
+          "rsi": 42.6,
+          "vol_factor": 1.88,
+          "score": 0.842
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
