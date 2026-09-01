@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-01",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,27 @@
         "invested_today_after": 88774.15,
         "realized_pnl_today_after": 23.8,
         "open_positions_after": 23
+      },
+      {
+        "iteration": 12,
+        "time": "2026-09-01 19:13:27",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99847.15,
+        "realized_pnl_today_after": 23.8,
+        "open_positions_after": 26
+      },
+      {
+        "iteration": 13,
+        "time": "2026-09-01 19:41:47",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99847.15,
+        "realized_pnl_today_after": 23.8,
+        "open_positions_after": 26
       }
     ],
-    "invested_today": 88774.15020751953,
+    "invested_today": 99847.15020751953,
     "realized_pnl_today": 23.800000000000182,
     "open_positions": [
       {
@@ -450,6 +468,51 @@
           "rsi": 63.2,
           "vol_factor": 1.72,
           "score": 2.255
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1156.0,
+        "buy_time": "2026-09-01 19:13:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 1156.0,
+          "mom_30m_pct": 1.306,
+          "intraday_pct": 2.473,
+          "rsi": 64.3,
+          "vol_factor": 2.0,
+          "score": 3.701
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2369.0,
+        "buy_time": "2026-09-01 19:13:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 2369.0,
+          "mom_30m_pct": 0.68,
+          "intraday_pct": 1.717,
+          "rsi": 63.2,
+          "vol_factor": 1.72,
+          "score": 2.255
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 4,
+        "buy_price": 1309.0,
+        "buy_time": "2026-09-01 19:13:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 1309.0,
+          "mom_30m_pct": 0.491,
+          "intraday_pct": 0.956,
+          "rsi": 73.3,
+          "vol_factor": 2.0,
+          "score": 2.024
         }
       }
     ],
@@ -872,6 +935,57 @@
           "rsi": 63.2,
           "vol_factor": 1.72,
           "score": 2.255
+        }
+      },
+      {
+        "time": "2026-09-01 19:13:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1156.0,
+        "cost": 3468.0,
+        "score": {
+          "last": 1156.0,
+          "mom_30m_pct": 1.306,
+          "intraday_pct": 2.473,
+          "rsi": 64.3,
+          "vol_factor": 2.0,
+          "score": 3.701
+        }
+      },
+      {
+        "time": "2026-09-01 19:13:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2369.0,
+        "cost": 2369.0,
+        "score": {
+          "last": 2369.0,
+          "mom_30m_pct": 0.68,
+          "intraday_pct": 1.717,
+          "rsi": 63.2,
+          "vol_factor": 1.72,
+          "score": 2.255
+        }
+      },
+      {
+        "time": "2026-09-01 19:13:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 4,
+        "price": 1309.0,
+        "cost": 5236.0,
+        "score": {
+          "last": 1309.0,
+          "mom_30m_pct": 0.491,
+          "intraday_pct": 0.956,
+          "rsi": 73.3,
+          "vol_factor": 2.0,
+          "score": 2.024
         }
       }
     ],
