@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-01",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 60517.15,
         "realized_pnl_today_after": 23.8,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-01 18:01:14",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 69936.15,
+        "realized_pnl_today_after": 23.8,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 60517.15020751953,
+    "invested_today": 69936.15020751953,
     "realized_pnl_today": 23.800000000000182,
     "open_positions": [
       {
@@ -326,6 +335,36 @@
         "buy_price": 2369.0,
         "buy_time": "2026-09-01 17:24:36",
         "iteration": 8,
+        "score_info": {
+          "last": 2369.0,
+          "mom_30m_pct": 0.68,
+          "intraday_pct": 1.717,
+          "rsi": 63.2,
+          "vol_factor": 1.72,
+          "score": 2.255
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1156.0,
+        "buy_time": "2026-09-01 18:01:14",
+        "iteration": 9,
+        "score_info": {
+          "last": 1156.0,
+          "mom_30m_pct": 1.306,
+          "intraday_pct": 2.473,
+          "rsi": 64.3,
+          "vol_factor": 2.0,
+          "score": 3.701
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 3,
+        "buy_price": 2369.0,
+        "buy_time": "2026-09-01 18:01:14",
+        "iteration": 9,
         "score_info": {
           "last": 2369.0,
           "mom_30m_pct": 0.68,
@@ -641,6 +680,40 @@
       {
         "time": "2026-09-01 17:24:36",
         "iteration": 8,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 3,
+        "price": 2369.0,
+        "cost": 7107.0,
+        "score": {
+          "last": 2369.0,
+          "mom_30m_pct": 0.68,
+          "intraday_pct": 1.717,
+          "rsi": 63.2,
+          "vol_factor": 1.72,
+          "score": 2.255
+        }
+      },
+      {
+        "time": "2026-09-01 18:01:14",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1156.0,
+        "cost": 2312.0,
+        "score": {
+          "last": 1156.0,
+          "mom_30m_pct": 1.306,
+          "intraday_pct": 2.473,
+          "rsi": 64.3,
+          "vol_factor": 2.0,
+          "score": 3.701
+        }
+      },
+      {
+        "time": "2026-09-01 18:01:14",
+        "iteration": 9,
         "action": "BUY",
         "symbol": "TCS",
         "qty": 3,
