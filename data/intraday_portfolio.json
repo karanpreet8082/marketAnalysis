@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-01",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,10 +48,19 @@
         "invested_today_after": 36998.15,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-01 15:54:19",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 44048.15,
+        "realized_pnl_today_after": 23.8,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 36998.15020751953,
-    "realized_pnl_today": 0.0,
+    "invested_today": 44048.15020751953,
+    "realized_pnl_today": 23.800000000000182,
     "open_positions": [
       {
         "symbol": "TCS",
@@ -111,21 +120,6 @@
           "rsi": 33.3,
           "vol_factor": 2.0,
           "score": 1.06
-        }
-      },
-      {
-        "symbol": "CIPLA",
-        "qty": 2,
-        "buy_price": 1411.1,
-        "buy_time": "2026-09-01 14:46:30",
-        "iteration": 2,
-        "score_info": {
-          "last": 1411.1,
-          "mom_30m_pct": 0.0,
-          "intraday_pct": -0.12,
-          "rsi": 42.6,
-          "vol_factor": 1.88,
-          "score": 0.842
         }
       },
       {
@@ -231,6 +225,36 @@
           "rsi": 72.2,
           "vol_factor": 2.0,
           "score": 1.523
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1156.0,
+        "buy_time": "2026-09-01 15:54:19",
+        "iteration": 6,
+        "score_info": {
+          "last": 1156.0,
+          "mom_30m_pct": 1.306,
+          "intraday_pct": 2.473,
+          "rsi": 64.3,
+          "vol_factor": 2.0,
+          "score": 3.701
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 2,
+        "buy_price": 2369.0,
+        "buy_time": "2026-09-01 15:54:19",
+        "iteration": 6,
+        "score_info": {
+          "last": 2369.0,
+          "mom_30m_pct": 0.68,
+          "intraday_pct": 1.717,
+          "rsi": 63.2,
+          "vol_factor": 1.72,
+          "score": 2.255
         }
       }
     ],
@@ -437,6 +461,52 @@
           "rsi": 72.2,
           "vol_factor": 2.0,
           "score": 1.523
+        }
+      },
+      {
+        "time": "2026-09-01 15:54:19",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1423.0,
+        "buy_price": 1411.1,
+        "pnl": 23.8,
+        "pnl_pct": 0.84,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-09-01 15:54:19",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1156.0,
+        "cost": 2312.0,
+        "score": {
+          "last": 1156.0,
+          "mom_30m_pct": 1.306,
+          "intraday_pct": 2.473,
+          "rsi": 64.3,
+          "vol_factor": 2.0,
+          "score": 3.701
+        }
+      },
+      {
+        "time": "2026-09-01 15:54:19",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 2,
+        "price": 2369.0,
+        "cost": 4738.0,
+        "score": {
+          "last": 2369.0,
+          "mom_30m_pct": 0.68,
+          "intraday_pct": 1.717,
+          "rsi": 63.2,
+          "vol_factor": 1.72,
+          "score": 2.255
         }
       }
     ],
