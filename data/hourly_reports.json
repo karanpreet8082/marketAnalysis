@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-07-28 13:33 IST",
+    "budget": 50000.0,
+    "allocated": 42071.97,
+    "positions": 5,
+    "summary": {
+      "total_positions": 5,
+      "total_invested": 42071.97,
+      "cash_reserve": 7928.03,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25002.56,
+          "percent": 50.0,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17069.41,
+          "percent": 34.1,
+          "positions": 2
+        },
+        "aggressive": {
+          "amount": 0,
+          "percent": 0.0,
+          "positions": 0
+        }
+      },
+      "expected_gain_percent": 5.0,
+      "max_loss_percent": 3.6,
+      "sector_distribution": {
+        "Financial Services": 2,
+        "Unknown": 2,
+        "Basic Materials": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-07-28 14:56 IST",
     "budget": 50000.0,
     "allocated": 42649.37,
@@ -1804,46 +1840,6 @@
         "Utilities": 1,
         "Consumer Defensive": 1,
         "Consumer Cyclical": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-09-01 15:06 IST",
-    "budget": 50000.0,
-    "allocated": 49225.229999999996,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 49225.23,
-      "cash_reserve": 774.77,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24378.05,
-          "percent": 48.8,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17546.58,
-          "percent": 35.1,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7300.6,
-          "percent": 14.6,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.5,
-      "max_loss_percent": 3.8,
-      "sector_distribution": {
-        "Basic Materials": 1,
-        "Unknown": 2,
-        "Financial Services": 1,
-        "Consumer Defensive": 1,
-        "Energy": 1,
-        "Consumer Cyclical": 1,
-        "Technology": 1
       }
     }
   }
