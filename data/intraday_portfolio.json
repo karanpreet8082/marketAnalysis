@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-02",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,18 +84,9 @@
         "invested_today_after": 73667.25,
         "realized_pnl_today_after": 88.8,
         "open_positions_after": 21
-      },
-      {
-        "iteration": 10,
-        "time": "2026-09-02 17:47:13",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 82215.0,
-        "realized_pnl_today_after": 88.8,
-        "open_positions_after": 23
       }
     ],
-    "invested_today": 82214.99990844727,
+    "invested_today": 73667.24981689453,
     "realized_pnl_today": 88.79999999999995,
     "open_positions": [
       {
@@ -404,36 +395,6 @@
         "buy_price": 417.85,
         "buy_time": "2026-09-02 17:34:30",
         "iteration": 9,
-        "score_info": {
-          "last": 417.85,
-          "mom_30m_pct": 0.541,
-          "intraday_pct": 3.969,
-          "rsi": 71.6,
-          "vol_factor": 0.85,
-          "score": 1.849
-        }
-      },
-      {
-        "symbol": "INFY",
-        "qty": 2,
-        "buy_price": 1140.0,
-        "buy_time": "2026-09-02 17:47:13",
-        "iteration": 10,
-        "score_info": {
-          "last": 1140.0,
-          "mom_30m_pct": 0.769,
-          "intraday_pct": -0.515,
-          "rsi": 64.0,
-          "vol_factor": 2.0,
-          "score": 1.999
-        }
-      },
-      {
-        "symbol": "COALINDIA",
-        "qty": 15,
-        "buy_price": 417.85,
-        "buy_time": "2026-09-02 17:47:13",
-        "iteration": 10,
         "score_info": {
           "last": 417.85,
           "mom_30m_pct": 0.541,
@@ -875,40 +836,6 @@
       {
         "time": "2026-09-02 17:34:30",
         "iteration": 9,
-        "action": "BUY",
-        "symbol": "COALINDIA",
-        "qty": 15,
-        "price": 417.85,
-        "cost": 6267.75,
-        "score": {
-          "last": 417.85,
-          "mom_30m_pct": 0.541,
-          "intraday_pct": 3.969,
-          "rsi": 71.6,
-          "vol_factor": 0.85,
-          "score": 1.849
-        }
-      },
-      {
-        "time": "2026-09-02 17:47:13",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "INFY",
-        "qty": 2,
-        "price": 1140.0,
-        "cost": 2280.0,
-        "score": {
-          "last": 1140.0,
-          "mom_30m_pct": 0.769,
-          "intraday_pct": -0.515,
-          "rsi": 64.0,
-          "vol_factor": 2.0,
-          "score": 1.999
-        }
-      },
-      {
-        "time": "2026-09-02 17:47:13",
-        "iteration": 10,
         "action": "BUY",
         "symbol": "COALINDIA",
         "qty": 15,
