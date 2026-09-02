@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-02",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 8141.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-02 14:04:51",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16205.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 8141.300048828125,
+    "invested_today": 16205.900024414062,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,51 @@
           "rsi": 62.5,
           "vol_factor": 0.39,
           "score": 0.438
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 6,
+        "buy_price": 422.35,
+        "buy_time": "2026-09-02 14:04:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 422.35,
+          "mom_30m_pct": 0.273,
+          "intraday_pct": -0.95,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.125
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1926.5,
+        "buy_time": "2026-09-02 14:04:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 1926.5,
+          "mom_30m_pct": -0.047,
+          "intraday_pct": 0.088,
+          "rsi": 52.0,
+          "vol_factor": 2.0,
+          "score": 0.956
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 10,
+        "buy_price": 360.4,
+        "buy_time": "2026-09-02 14:04:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 360.4,
+          "mom_30m_pct": -0.097,
+          "intraday_pct": 3.163,
+          "rsi": 51.6,
+          "vol_factor": 1.1,
+          "score": 0.906
         }
       }
     ],
@@ -113,6 +167,57 @@
           "rsi": 62.5,
           "vol_factor": 0.39,
           "score": 0.438
+        }
+      },
+      {
+        "time": "2026-09-02 14:04:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 6,
+        "price": 422.35,
+        "cost": 2534.1,
+        "score": {
+          "last": 422.35,
+          "mom_30m_pct": 0.273,
+          "intraday_pct": -0.95,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.125
+        }
+      },
+      {
+        "time": "2026-09-02 14:04:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1926.5,
+        "cost": 1926.5,
+        "score": {
+          "last": 1926.5,
+          "mom_30m_pct": -0.047,
+          "intraday_pct": 0.088,
+          "rsi": 52.0,
+          "vol_factor": 2.0,
+          "score": 0.956
+        }
+      },
+      {
+        "time": "2026-09-02 14:04:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 10,
+        "price": 360.4,
+        "cost": 3604.0,
+        "score": {
+          "last": 360.4,
+          "mom_30m_pct": -0.097,
+          "intraday_pct": 3.163,
+          "rsi": 51.6,
+          "vol_factor": 1.1,
+          "score": 0.906
         }
       }
     ],
