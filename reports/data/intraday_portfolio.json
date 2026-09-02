@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-02",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 32028.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-02 15:00:43",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 40490.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 32028.49981689453,
+    "invested_today": 40490.94970703125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -222,6 +231,51 @@
           "rsi": 69.7,
           "vol_factor": 2.0,
           "score": 1.583
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "buy_price": 416.2,
+        "buy_time": "2026-09-02 15:00:43",
+        "iteration": 5,
+        "score_info": {
+          "last": 416.2,
+          "mom_30m_pct": -0.024,
+          "intraday_pct": 3.829,
+          "rsi": 62.1,
+          "vol_factor": 1.0,
+          "score": 1.113
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1674.6,
+        "buy_time": "2026-09-02 15:00:43",
+        "iteration": 5,
+        "score_info": {
+          "last": 1674.6,
+          "mom_30m_pct": 0.072,
+          "intraday_pct": 1.694,
+          "rsi": 60.0,
+          "vol_factor": 1.0,
+          "score": 0.616
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 13,
+        "buy_price": 330.05,
+        "buy_time": "2026-09-02 15:00:43",
+        "iteration": 5,
+        "score_info": {
+          "last": 330.05,
+          "mom_30m_pct": 0.121,
+          "intraday_pct": 0.964,
+          "rsi": 70.0,
+          "vol_factor": 1.0,
+          "score": 0.471
         }
       }
     ],
@@ -428,6 +482,57 @@
           "rsi": 69.7,
           "vol_factor": 2.0,
           "score": 1.583
+        }
+      },
+      {
+        "time": "2026-09-02 15:00:43",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "price": 416.2,
+        "cost": 2497.2,
+        "score": {
+          "last": 416.2,
+          "mom_30m_pct": -0.024,
+          "intraday_pct": 3.829,
+          "rsi": 62.1,
+          "vol_factor": 1.0,
+          "score": 1.113
+        }
+      },
+      {
+        "time": "2026-09-02 15:00:43",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1674.6,
+        "cost": 1674.6,
+        "score": {
+          "last": 1674.6,
+          "mom_30m_pct": 0.072,
+          "intraday_pct": 1.694,
+          "rsi": 60.0,
+          "vol_factor": 1.0,
+          "score": 0.616
+        }
+      },
+      {
+        "time": "2026-09-02 15:00:43",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 13,
+        "price": 330.05,
+        "cost": 4290.65,
+        "score": {
+          "last": 330.05,
+          "mom_30m_pct": 0.121,
+          "intraday_pct": 0.964,
+          "rsi": 70.0,
+          "vol_factor": 1.0,
+          "score": 0.471
         }
       }
     ],
