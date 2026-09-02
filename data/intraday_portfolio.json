@@ -1,5 +1,123 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-02",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-02 13:39:02",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8141.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 8141.300048828125,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1929.3,
+        "buy_time": "2026-09-02 13:39:02",
+        "iteration": 1,
+        "score_info": {
+          "last": 1929.3,
+          "mom_30m_pct": 0.187,
+          "intraday_pct": -0.114,
+          "rsi": 56.8,
+          "vol_factor": 1.35,
+          "score": 0.598
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "buy_price": 415.9,
+        "buy_time": "2026-09-02 13:39:02",
+        "iteration": 1,
+        "score_info": {
+          "last": 415.9,
+          "mom_30m_pct": -0.012,
+          "intraday_pct": 3.806,
+          "rsi": 31.7,
+          "vol_factor": 0.36,
+          "score": 0.48
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "buy_price": 360.6,
+        "buy_time": "2026-09-02 13:39:02",
+        "iteration": 1,
+        "score_info": {
+          "last": 360.6,
+          "mom_30m_pct": 0.167,
+          "intraday_pct": 2.662,
+          "rsi": 62.5,
+          "vol_factor": 0.39,
+          "score": 0.438
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-02 13:39:02",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1929.3,
+        "cost": 1929.3,
+        "score": {
+          "last": 1929.3,
+          "mom_30m_pct": 0.187,
+          "intraday_pct": -0.114,
+          "rsi": 56.8,
+          "vol_factor": 1.35,
+          "score": 0.598
+        }
+      },
+      {
+        "time": "2026-09-02 13:39:02",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 8,
+        "price": 415.9,
+        "cost": 3327.2,
+        "score": {
+          "last": 415.9,
+          "mom_30m_pct": -0.012,
+          "intraday_pct": 3.806,
+          "rsi": 31.7,
+          "vol_factor": 0.36,
+          "score": 0.48
+        }
+      },
+      {
+        "time": "2026-09-02 13:39:02",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "price": 360.6,
+        "cost": 2884.8,
+        "score": {
+          "last": 360.6,
+          "mom_30m_pct": 0.167,
+          "intraday_pct": 2.662,
+          "rsi": 62.5,
+          "vol_factor": 0.39,
+          "score": 0.438
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
