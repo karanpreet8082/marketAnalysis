@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-03",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 15959.86,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-03 14:31:24",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 23924.06,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 15959.859634399414,
+    "invested_today": 23924.059463500977,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,36 @@
           "rsi": 76.3,
           "vol_factor": 2.0,
           "score": 0.564
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 7,
+        "buy_price": 709.6,
+        "buy_time": "2026-09-03 14:31:24",
+        "iteration": 3,
+        "score_info": {
+          "last": 709.6,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 1.083,
+          "rsi": 65.9,
+          "vol_factor": 0.26,
+          "score": -0.0
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 999.0,
+        "buy_time": "2026-09-03 14:31:24",
+        "iteration": 3,
+        "score_info": {
+          "last": 999.0,
+          "mom_30m_pct": 0.1,
+          "intraday_pct": 2.158,
+          "rsi": 65.5,
+          "vol_factor": 0.09,
+          "score": -0.117
         }
       }
     ],
@@ -186,6 +225,40 @@
           "rsi": 76.3,
           "vol_factor": 2.0,
           "score": 0.564
+        }
+      },
+      {
+        "time": "2026-09-03 14:31:24",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 7,
+        "price": 709.6,
+        "cost": 4967.2,
+        "score": {
+          "last": 709.6,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 1.083,
+          "rsi": 65.9,
+          "vol_factor": 0.26,
+          "score": -0.0
+        }
+      },
+      {
+        "time": "2026-09-03 14:31:24",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 999.0,
+        "cost": 2997.0,
+        "score": {
+          "last": 999.0,
+          "mom_30m_pct": 0.1,
+          "intraday_pct": 2.158,
+          "rsi": 65.5,
+          "vol_factor": 0.09,
+          "score": -0.117
         }
       }
     ],
