@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-03",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-03 13:48:16",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7567.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-03 14:13:20",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 15959.86,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 15959.859634399414,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ICICIBANK",
+        "qty": 1,
+        "buy_price": 1437.1,
+        "buy_time": "2026-09-03 13:48:16",
+        "iteration": 1,
+        "score_info": {
+          "last": 1437.1,
+          "mom_30m_pct": -0.333,
+          "intraday_pct": 1.133,
+          "rsi": 37.9,
+          "vol_factor": 2.0,
+          "score": 0.841
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1045.1,
+        "buy_time": "2026-09-03 13:48:16",
+        "iteration": 1,
+        "score_info": {
+          "last": 1045.1,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": -0.863,
+          "rsi": 46.2,
+          "vol_factor": 2.0,
+          "score": 0.741
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 998.5,
+        "buy_time": "2026-09-03 13:48:16",
+        "iteration": 1,
+        "score_info": {
+          "last": 998.5,
+          "mom_30m_pct": 0.251,
+          "intraday_pct": 2.211,
+          "rsi": 75.0,
+          "vol_factor": 0.69,
+          "score": 0.734
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 16,
+        "buy_price": 329.55,
+        "buy_time": "2026-09-03 14:13:20",
+        "iteration": 2,
+        "score_info": {
+          "last": 329.55,
+          "mom_30m_pct": -0.182,
+          "intraday_pct": 0.061,
+          "rsi": 38.0,
+          "vol_factor": 2.0,
+          "score": 0.746
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "buy_price": 183.48,
+        "buy_time": "2026-09-03 14:13:20",
+        "iteration": 2,
+        "score_info": {
+          "last": 183.48,
+          "mom_30m_pct": 0.642,
+          "intraday_pct": 0.339,
+          "rsi": 76.3,
+          "vol_factor": 2.0,
+          "score": 0.564
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-03 13:48:16",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 1,
+        "price": 1437.1,
+        "cost": 1437.1,
+        "score": {
+          "last": 1437.1,
+          "mom_30m_pct": -0.333,
+          "intraday_pct": 1.133,
+          "rsi": 37.9,
+          "vol_factor": 2.0,
+          "score": 0.841
+        }
+      },
+      {
+        "time": "2026-09-03 13:48:16",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1045.1,
+        "cost": 3135.3,
+        "score": {
+          "last": 1045.1,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": -0.863,
+          "rsi": 46.2,
+          "vol_factor": 2.0,
+          "score": 0.741
+        }
+      },
+      {
+        "time": "2026-09-03 13:48:16",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 998.5,
+        "cost": 2995.5,
+        "score": {
+          "last": 998.5,
+          "mom_30m_pct": 0.251,
+          "intraday_pct": 2.211,
+          "rsi": 75.0,
+          "vol_factor": 0.69,
+          "score": 0.734
+        }
+      },
+      {
+        "time": "2026-09-03 14:13:20",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 16,
+        "price": 329.55,
+        "cost": 5272.8,
+        "score": {
+          "last": 329.55,
+          "mom_30m_pct": -0.182,
+          "intraday_pct": 0.061,
+          "rsi": 38.0,
+          "vol_factor": 2.0,
+          "score": 0.746
+        }
+      },
+      {
+        "time": "2026-09-03 14:13:20",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "price": 183.48,
+        "cost": 3119.16,
+        "score": {
+          "last": 183.48,
+          "mom_30m_pct": 0.642,
+          "intraday_pct": 0.339,
+          "rsi": 76.3,
+          "vol_factor": 2.0,
+          "score": 0.564
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
