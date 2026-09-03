@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-03",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 23924.06,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
-      },
-      {
-        "iteration": 4,
-        "time": "2026-09-03 14:42:43",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 32349.61,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 10
       }
     ],
-    "invested_today": 32349.609481811523,
+    "invested_today": 23924.059463500977,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -147,51 +138,6 @@
           "rsi": 65.5,
           "vol_factor": 0.09,
           "score": -0.117
-        }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "buy_price": 1000.7,
-        "buy_time": "2026-09-03 14:42:43",
-        "iteration": 4,
-        "score_info": {
-          "last": 1000.7,
-          "mom_30m_pct": 0.452,
-          "intraday_pct": 2.29,
-          "rsi": 58.4,
-          "vol_factor": 0.14,
-          "score": 0.509
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 5,
-        "buy_price": 709.55,
-        "buy_time": "2026-09-03 14:42:43",
-        "iteration": 4,
-        "score_info": {
-          "last": 709.55,
-          "mom_30m_pct": 0.339,
-          "intraday_pct": 1.083,
-          "rsi": 63.3,
-          "vol_factor": 0.3,
-          "score": 0.132
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 9,
-        "buy_price": 319.6,
-        "buy_time": "2026-09-03 14:42:43",
-        "iteration": 4,
-        "score_info": {
-          "last": 319.6,
-          "mom_30m_pct": 0.063,
-          "intraday_pct": 0.868,
-          "rsi": 52.5,
-          "vol_factor": 0.7,
-          "score": 0.053
         }
       }
     ],
@@ -313,57 +259,6 @@
           "rsi": 65.5,
           "vol_factor": 0.09,
           "score": -0.117
-        }
-      },
-      {
-        "time": "2026-09-03 14:42:43",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "INDUSINDBK",
-        "qty": 2,
-        "price": 1000.7,
-        "cost": 2001.4,
-        "score": {
-          "last": 1000.7,
-          "mom_30m_pct": 0.452,
-          "intraday_pct": 2.29,
-          "rsi": 58.4,
-          "vol_factor": 0.14,
-          "score": 0.509
-        }
-      },
-      {
-        "time": "2026-09-03 14:42:43",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 5,
-        "price": 709.55,
-        "cost": 3547.75,
-        "score": {
-          "last": 709.55,
-          "mom_30m_pct": 0.339,
-          "intraday_pct": 1.083,
-          "rsi": 63.3,
-          "vol_factor": 0.3,
-          "score": 0.132
-        }
-      },
-      {
-        "time": "2026-09-03 14:42:43",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 9,
-        "price": 319.6,
-        "cost": 2876.4,
-        "score": {
-          "last": 319.6,
-          "mom_30m_pct": 0.063,
-          "intraday_pct": 0.868,
-          "rsi": 52.5,
-          "vol_factor": 0.7,
-          "score": 0.053
         }
       }
     ],
