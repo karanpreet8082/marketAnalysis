@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-03",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 37952.76,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-03 15:33:44",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 46076.76,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 37952.759536743164,
+    "invested_today": 46076.75941467285,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -231,6 +240,51 @@
           "rsi": 58.0,
           "vol_factor": 2.0,
           "score": 1.664
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 680.05,
+        "buy_time": "2026-09-03 15:33:44",
+        "iteration": 6,
+        "score_info": {
+          "last": 680.05,
+          "mom_30m_pct": 0.147,
+          "intraday_pct": 2.133,
+          "rsi": 66.3,
+          "vol_factor": 2.0,
+          "score": 1.861
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1201.0,
+        "buy_time": "2026-09-03 15:33:44",
+        "iteration": 6,
+        "score_info": {
+          "last": 1201.0,
+          "mom_30m_pct": 0.351,
+          "intraday_pct": 0.933,
+          "rsi": 57.2,
+          "vol_factor": 2.0,
+          "score": 1.806
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 1000.6,
+        "buy_time": "2026-09-03 15:33:44",
+        "iteration": 6,
+        "score_info": {
+          "last": 1000.6,
+          "mom_30m_pct": 0.02,
+          "intraday_pct": 2.426,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 1.758
         }
       }
     ],
@@ -437,6 +491,57 @@
           "rsi": 58.0,
           "vol_factor": 2.0,
           "score": 1.664
+        }
+      },
+      {
+        "time": "2026-09-03 15:33:44",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 680.05,
+        "cost": 2720.2,
+        "score": {
+          "last": 680.05,
+          "mom_30m_pct": 0.147,
+          "intraday_pct": 2.133,
+          "rsi": 66.3,
+          "vol_factor": 2.0,
+          "score": 1.861
+        }
+      },
+      {
+        "time": "2026-09-03 15:33:44",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1201.0,
+        "cost": 2402.0,
+        "score": {
+          "last": 1201.0,
+          "mom_30m_pct": 0.351,
+          "intraday_pct": 0.933,
+          "rsi": 57.2,
+          "vol_factor": 2.0,
+          "score": 1.806
+        }
+      },
+      {
+        "time": "2026-09-03 15:33:44",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 1000.6,
+        "cost": 3001.8,
+        "score": {
+          "last": 1000.6,
+          "mom_30m_pct": 0.02,
+          "intraday_pct": 2.426,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 1.758
         }
       }
     ],
