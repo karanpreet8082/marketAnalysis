@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-04",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 32726.05,
         "realized_pnl_today_after": 23.38,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-04 15:02:46",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 41123.8,
+        "realized_pnl_today_after": 23.38,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 32726.050170898438,
+    "invested_today": 41123.80017089844,
     "realized_pnl_today": 23.380051269531123,
     "open_positions": [
       {
@@ -192,6 +201,51 @@
           "rsi": 47.8,
           "vol_factor": 1.96,
           "score": 1.176
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 6,
+        "buy_price": 424.15,
+        "buy_time": "2026-09-04 15:02:46",
+        "iteration": 5,
+        "score_info": {
+          "last": 424.15,
+          "mom_30m_pct": -0.153,
+          "intraday_pct": 0.284,
+          "rsi": 40.6,
+          "vol_factor": 2.0,
+          "score": 0.856
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "buy_price": 367.3,
+        "buy_time": "2026-09-04 15:02:46",
+        "iteration": 5,
+        "score_info": {
+          "last": 367.3,
+          "mom_30m_pct": -0.204,
+          "intraday_pct": 0.52,
+          "rsi": 33.3,
+          "vol_factor": 2.0,
+          "score": 0.85
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 11,
+        "buy_price": 264.95,
+        "buy_time": "2026-09-04 15:02:46",
+        "iteration": 5,
+        "score_info": {
+          "last": 264.95,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 0.588,
+          "rsi": 68.3,
+          "vol_factor": 1.19,
+          "score": 0.677
         }
       }
     ],
@@ -393,6 +447,57 @@
           "rsi": 47.8,
           "vol_factor": 1.96,
           "score": 1.176
+        }
+      },
+      {
+        "time": "2026-09-04 15:02:46",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 6,
+        "price": 424.15,
+        "cost": 2544.9,
+        "score": {
+          "last": 424.15,
+          "mom_30m_pct": -0.153,
+          "intraday_pct": 0.284,
+          "rsi": 40.6,
+          "vol_factor": 2.0,
+          "score": 0.856
+        }
+      },
+      {
+        "time": "2026-09-04 15:02:46",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "price": 367.3,
+        "cost": 2938.4,
+        "score": {
+          "last": 367.3,
+          "mom_30m_pct": -0.204,
+          "intraday_pct": 0.52,
+          "rsi": 33.3,
+          "vol_factor": 2.0,
+          "score": 0.85
+        }
+      },
+      {
+        "time": "2026-09-04 15:02:46",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 11,
+        "price": 264.95,
+        "cost": 2914.45,
+        "score": {
+          "last": 264.95,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 0.588,
+          "rsi": 68.3,
+          "vol_factor": 1.19,
+          "score": 0.677
         }
       }
     ],
