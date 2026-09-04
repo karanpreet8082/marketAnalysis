@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-04",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 63521.78,
         "realized_pnl_today_after": 23.38,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-04 17:35:20",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 72455.18,
+        "realized_pnl_today_after": 23.38,
+        "open_positions_after": 24
       }
     ],
-    "invested_today": 63521.780334472656,
+    "invested_today": 72455.18035888672,
     "realized_pnl_today": 23.380051269531123,
     "open_positions": [
       {
@@ -386,6 +395,51 @@
         "buy_price": 1060.5,
         "buy_time": "2026-09-04 17:04:32",
         "iteration": 8,
+        "score_info": {
+          "last": 1060.5,
+          "mom_30m_pct": 0.075,
+          "intraday_pct": 0.712,
+          "rsi": 58.0,
+          "vol_factor": 2.0,
+          "score": 1.327
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1596.9,
+        "buy_time": "2026-09-04 17:35:20",
+        "iteration": 9,
+        "score_info": {
+          "last": 1596.9,
+          "mom_30m_pct": 0.548,
+          "intraday_pct": -0.063,
+          "rsi": 63.4,
+          "vol_factor": 2.0,
+          "score": 1.803
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 3,
+        "buy_price": 1385.0,
+        "buy_time": "2026-09-04 17:35:20",
+        "iteration": 9,
+        "score_info": {
+          "last": 1385.0,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": -0.345,
+          "rsi": 62.4,
+          "vol_factor": 1.99,
+          "score": 1.387
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1060.5,
+        "buy_time": "2026-09-04 17:35:20",
+        "iteration": 9,
         "score_info": {
           "last": 1060.5,
           "mom_30m_pct": 0.075,
@@ -769,6 +823,57 @@
       {
         "time": "2026-09-04 17:04:32",
         "iteration": 8,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1060.5,
+        "cost": 3181.5,
+        "score": {
+          "last": 1060.5,
+          "mom_30m_pct": 0.075,
+          "intraday_pct": 0.712,
+          "rsi": 58.0,
+          "vol_factor": 2.0,
+          "score": 1.327
+        }
+      },
+      {
+        "time": "2026-09-04 17:35:20",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1596.9,
+        "cost": 1596.9,
+        "score": {
+          "last": 1596.9,
+          "mom_30m_pct": 0.548,
+          "intraday_pct": -0.063,
+          "rsi": 63.4,
+          "vol_factor": 2.0,
+          "score": 1.803
+        }
+      },
+      {
+        "time": "2026-09-04 17:35:20",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 3,
+        "price": 1385.0,
+        "cost": 4155.0,
+        "score": {
+          "last": 1385.0,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": -0.345,
+          "rsi": 62.4,
+          "vol_factor": 1.99,
+          "score": 1.387
+        }
+      },
+      {
+        "time": "2026-09-04 17:35:20",
+        "iteration": 9,
         "action": "BUY",
         "symbol": "BAJFINANCE",
         "qty": 3,
