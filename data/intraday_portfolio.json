@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-04",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 16287.55,
         "realized_pnl_today_after": 23.38,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-04 14:25:26",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 24632.35,
+        "realized_pnl_today_after": 23.38,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 16287.550231933594,
+    "invested_today": 24632.35028076172,
     "realized_pnl_today": 23.380051269531123,
     "open_positions": [
       {
@@ -99,6 +108,51 @@
           "rsi": 62.0,
           "vol_factor": 2.0,
           "score": 1.518
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 686.95,
+        "buy_time": "2026-09-04 14:25:26",
+        "iteration": 3,
+        "score_info": {
+          "last": 686.95,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": 1.134,
+          "rsi": 68.7,
+          "vol_factor": 1.0,
+          "score": 0.679
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 8,
+        "buy_price": 332.15,
+        "buy_time": "2026-09-04 14:25:26",
+        "iteration": 3,
+        "score_info": {
+          "last": 332.15,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": 0.758,
+          "rsi": 65.1,
+          "vol_factor": 1.0,
+          "score": 0.567
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2939.8,
+        "buy_time": "2026-09-04 14:25:26",
+        "iteration": 3,
+        "score_info": {
+          "last": 2939.8,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.59,
+          "rsi": 38.2,
+          "vol_factor": 1.0,
+          "score": 0.553
         }
       }
     ],
@@ -215,6 +269,57 @@
           "rsi": 62.0,
           "vol_factor": 2.0,
           "score": 1.518
+        }
+      },
+      {
+        "time": "2026-09-04 14:25:26",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 686.95,
+        "cost": 2747.8,
+        "score": {
+          "last": 686.95,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": 1.134,
+          "rsi": 68.7,
+          "vol_factor": 1.0,
+          "score": 0.679
+        }
+      },
+      {
+        "time": "2026-09-04 14:25:26",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 8,
+        "price": 332.15,
+        "cost": 2657.2,
+        "score": {
+          "last": 332.15,
+          "mom_30m_pct": 0.226,
+          "intraday_pct": 0.758,
+          "rsi": 65.1,
+          "vol_factor": 1.0,
+          "score": 0.567
+        }
+      },
+      {
+        "time": "2026-09-04 14:25:26",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2939.8,
+        "cost": 2939.8,
+        "score": {
+          "last": 2939.8,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.59,
+          "rsi": 38.2,
+          "vol_factor": 1.0,
+          "score": 0.553
         }
       }
     ],
