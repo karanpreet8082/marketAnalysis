@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-04",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,27 @@
         "invested_today_after": 41123.8,
         "realized_pnl_today_after": 23.38,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-04 15:24:47",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 46715.48,
+        "realized_pnl_today_after": 23.38,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 7,
+        "time": "2026-09-04 16:37:41",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 54588.38,
+        "realized_pnl_today_after": 23.38,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 41123.80017089844,
+    "invested_today": 54588.380310058594,
     "realized_pnl_today": 23.380051269531123,
     "open_positions": [
       {
@@ -246,6 +264,81 @@
           "rsi": 68.3,
           "vol_factor": 1.19,
           "score": 0.677
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 14,
+        "buy_price": 189.22,
+        "buy_time": "2026-09-04 15:24:47",
+        "iteration": 6,
+        "score_info": {
+          "last": 189.22,
+          "mom_30m_pct": 0.175,
+          "intraday_pct": 3.089,
+          "rsi": 57.5,
+          "vol_factor": 1.0,
+          "score": 1.189
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2942.6,
+        "buy_time": "2026-09-04 15:24:47",
+        "iteration": 6,
+        "score_info": {
+          "last": 2942.6,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 1.746,
+          "rsi": 56.4,
+          "vol_factor": 1.0,
+          "score": 0.835
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1596.9,
+        "buy_time": "2026-09-04 16:37:41",
+        "iteration": 7,
+        "score_info": {
+          "last": 1596.9,
+          "mom_30m_pct": 0.548,
+          "intraday_pct": -0.063,
+          "rsi": 63.4,
+          "vol_factor": 2.0,
+          "score": 1.803
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 3,
+        "buy_price": 1385.0,
+        "buy_time": "2026-09-04 16:37:41",
+        "iteration": 7,
+        "score_info": {
+          "last": 1385.0,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": -0.345,
+          "rsi": 62.4,
+          "vol_factor": 1.99,
+          "score": 1.387
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "buy_price": 1060.5,
+        "buy_time": "2026-09-04 16:37:41",
+        "iteration": 7,
+        "score_info": {
+          "last": 1060.5,
+          "mom_30m_pct": 0.075,
+          "intraday_pct": 0.712,
+          "rsi": 58.0,
+          "vol_factor": 2.0,
+          "score": 1.327
         }
       }
     ],
@@ -498,6 +591,91 @@
           "rsi": 68.3,
           "vol_factor": 1.19,
           "score": 0.677
+        }
+      },
+      {
+        "time": "2026-09-04 15:24:47",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 14,
+        "price": 189.22,
+        "cost": 2649.08,
+        "score": {
+          "last": 189.22,
+          "mom_30m_pct": 0.175,
+          "intraday_pct": 3.089,
+          "rsi": 57.5,
+          "vol_factor": 1.0,
+          "score": 1.189
+        }
+      },
+      {
+        "time": "2026-09-04 15:24:47",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2942.6,
+        "cost": 2942.6,
+        "score": {
+          "last": 2942.6,
+          "mom_30m_pct": 0.208,
+          "intraday_pct": 1.746,
+          "rsi": 56.4,
+          "vol_factor": 1.0,
+          "score": 0.835
+        }
+      },
+      {
+        "time": "2026-09-04 16:37:41",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1596.9,
+        "cost": 1596.9,
+        "score": {
+          "last": 1596.9,
+          "mom_30m_pct": 0.548,
+          "intraday_pct": -0.063,
+          "rsi": 63.4,
+          "vol_factor": 2.0,
+          "score": 1.803
+        }
+      },
+      {
+        "time": "2026-09-04 16:37:41",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 3,
+        "price": 1385.0,
+        "cost": 4155.0,
+        "score": {
+          "last": 1385.0,
+          "mom_30m_pct": 0.333,
+          "intraday_pct": -0.345,
+          "rsi": 62.4,
+          "vol_factor": 1.99,
+          "score": 1.387
+        }
+      },
+      {
+        "time": "2026-09-04 16:37:41",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "price": 1060.5,
+        "cost": 2121.0,
+        "score": {
+          "last": 1060.5,
+          "mom_30m_pct": 0.075,
+          "intraday_pct": 0.712,
+          "rsi": 58.0,
+          "vol_factor": 2.0,
+          "score": 1.327
         }
       }
     ],
