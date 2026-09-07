@@ -1,5 +1,44 @@
 [
   {
+    "timestamp": "2026-08-03 15:57 IST",
+    "budget": 50000.0,
+    "allocated": 49876.55,
+    "positions": 6,
+    "summary": {
+      "total_positions": 6,
+      "total_invested": 49876.55,
+      "cash_reserve": 123.45,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25057.65,
+          "percent": 50.1,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17318.4,
+          "percent": 34.6,
+          "positions": 2
+        },
+        "aggressive": {
+          "amount": 7500.5,
+          "percent": 15.0,
+          "positions": 1
+        }
+      },
+      "expected_gain_percent": 5.4,
+      "max_loss_percent": 3.8,
+      "sector_distribution": {
+        "Consumer Defensive": 1,
+        "Communication Services": 1,
+        "Financial Services": 1,
+        "Utilities": 1,
+        "Unknown": 1,
+        "Consumer Cyclical": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-08-04 13:36 IST",
     "budget": 50000.0,
     "allocated": 49313.48,
@@ -1775,43 +1814,6 @@
   },
   {
     "timestamp": "2026-09-07 18:32 IST",
-    "budget": 50000.0,
-    "allocated": 49424.01,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49424.01,
-      "cash_reserve": 575.99,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24471.4,
-          "percent": 48.9,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17655.1,
-          "percent": 35.3,
-          "positions": 2
-        },
-        "aggressive": {
-          "amount": 7297.51,
-          "percent": 14.6,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 4.9,
-      "max_loss_percent": 3.4,
-      "sector_distribution": {
-        "Unknown": 3,
-        "Financial Services": 2,
-        "Utilities": 1,
-        "Communication Services": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-09-07 20:43 IST",
     "budget": 50000.0,
     "allocated": 49424.01,
     "positions": 7,
