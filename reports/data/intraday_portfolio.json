@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-07",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 81812.05,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 25
+      },
+      {
+        "iteration": 11,
+        "time": "2026-09-07 19:46:39",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 90804.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 28
       }
     ],
-    "invested_today": 81812.05020141602,
+    "invested_today": 90804.55026245117,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -464,6 +473,51 @@
         "buy_price": 418.85,
         "buy_time": "2026-09-07 19:10:51",
         "iteration": 10,
+        "score_info": {
+          "last": 418.85,
+          "mom_30m_pct": 0.432,
+          "intraday_pct": 1.196,
+          "rsi": 53.8,
+          "vol_factor": 1.68,
+          "score": 1.685
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2950.0,
+        "buy_time": "2026-09-07 19:46:39",
+        "iteration": 11,
+        "score_info": {
+          "last": 2950.0,
+          "mom_30m_pct": 0.477,
+          "intraday_pct": 0.449,
+          "rsi": 72.3,
+          "vol_factor": 2.0,
+          "score": 1.85
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1854.0,
+        "buy_time": "2026-09-07 19:46:39",
+        "iteration": 11,
+        "score_info": {
+          "last": 1854.0,
+          "mom_30m_pct": 0.384,
+          "intraday_pct": 0.406,
+          "rsi": 65.3,
+          "vol_factor": 2.0,
+          "score": 1.698
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 10,
+        "buy_price": 418.85,
+        "buy_time": "2026-09-07 19:46:39",
+        "iteration": 11,
         "score_info": {
           "last": 418.85,
           "mom_30m_pct": 0.432,
@@ -886,6 +940,57 @@
       {
         "time": "2026-09-07 19:10:51",
         "iteration": 10,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 10,
+        "price": 418.85,
+        "cost": 4188.5,
+        "score": {
+          "last": 418.85,
+          "mom_30m_pct": 0.432,
+          "intraday_pct": 1.196,
+          "rsi": 53.8,
+          "vol_factor": 1.68,
+          "score": 1.685
+        }
+      },
+      {
+        "time": "2026-09-07 19:46:39",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2950.0,
+        "cost": 2950.0,
+        "score": {
+          "last": 2950.0,
+          "mom_30m_pct": 0.477,
+          "intraday_pct": 0.449,
+          "rsi": 72.3,
+          "vol_factor": 2.0,
+          "score": 1.85
+        }
+      },
+      {
+        "time": "2026-09-07 19:46:39",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1854.0,
+        "cost": 1854.0,
+        "score": {
+          "last": 1854.0,
+          "mom_30m_pct": 0.384,
+          "intraday_pct": 0.406,
+          "rsi": 65.3,
+          "vol_factor": 2.0,
+          "score": 1.698
+        }
+      },
+      {
+        "time": "2026-09-07 19:46:39",
+        "iteration": 11,
         "action": "BUY",
         "symbol": "COALINDIA",
         "qty": 10,
