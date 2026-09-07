@@ -1,5 +1,132 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-07",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-07 14:08:47",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 4992.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-07 14:36:12",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 10822.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 10822.099975585938,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 4992.5,
+        "buy_time": "2026-09-07 14:08:47",
+        "iteration": 1,
+        "score_info": {
+          "last": 4992.5,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 0.04,
+          "rsi": 66.4,
+          "vol_factor": 0.58,
+          "score": 0.009
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 418.1,
+        "buy_time": "2026-09-07 14:36:12",
+        "iteration": 2,
+        "score_info": {
+          "last": 418.1,
+          "mom_30m_pct": -0.048,
+          "intraday_pct": 1.003,
+          "rsi": 44.4,
+          "vol_factor": 0.34,
+          "score": -0.43
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 11,
+        "buy_price": 263.9,
+        "buy_time": "2026-09-07 14:36:12",
+        "iteration": 2,
+        "score_info": {
+          "last": 263.9,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": -0.189,
+          "rsi": 57.1,
+          "vol_factor": 0.4,
+          "score": -0.49
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-07 14:08:47",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 4992.5,
+        "cost": 4992.5,
+        "score": {
+          "last": 4992.5,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 0.04,
+          "rsi": 66.4,
+          "vol_factor": 0.58,
+          "score": 0.009
+        }
+      },
+      {
+        "time": "2026-09-07 14:36:12",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 418.1,
+        "cost": 2926.7,
+        "score": {
+          "last": 418.1,
+          "mom_30m_pct": -0.048,
+          "intraday_pct": 1.003,
+          "rsi": 44.4,
+          "vol_factor": 0.34,
+          "score": -0.43
+        }
+      },
+      {
+        "time": "2026-09-07 14:36:12",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 11,
+        "price": 263.9,
+        "cost": 2902.9,
+        "score": {
+          "last": 263.9,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": -0.189,
+          "rsi": 57.1,
+          "vol_factor": 0.4,
+          "score": -0.49
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
