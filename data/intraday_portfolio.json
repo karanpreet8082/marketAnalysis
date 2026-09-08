@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-08",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 12210.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-08 14:27:12",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 20795.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 12210.0,
+    "invested_today": 20795.69970703125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,36 @@
           "rsi": 67.1,
           "vol_factor": 1.09,
           "score": 0.634
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1707.4,
+        "buy_time": "2026-09-08 14:27:12",
+        "iteration": 3,
+        "score_info": {
+          "last": 1707.4,
+          "mom_30m_pct": 0.317,
+          "intraday_pct": 0.305,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 1.568
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 26,
+        "buy_price": 264.55,
+        "buy_time": "2026-09-08 14:27:12",
+        "iteration": 3,
+        "score_info": {
+          "last": 264.55,
+          "mom_30m_pct": -0.151,
+          "intraday_pct": 0.265,
+          "rsi": 23.5,
+          "vol_factor": 2.0,
+          "score": 0.353
         }
       }
     ],
@@ -186,6 +225,40 @@
           "rsi": 67.1,
           "vol_factor": 1.09,
           "score": 0.634
+        }
+      },
+      {
+        "time": "2026-09-08 14:27:12",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1707.4,
+        "cost": 1707.4,
+        "score": {
+          "last": 1707.4,
+          "mom_30m_pct": 0.317,
+          "intraday_pct": 0.305,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 1.568
+        }
+      },
+      {
+        "time": "2026-09-08 14:27:12",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 26,
+        "price": 264.55,
+        "cost": 6878.3,
+        "score": {
+          "last": 264.55,
+          "mom_30m_pct": -0.151,
+          "intraday_pct": 0.265,
+          "rsi": 23.5,
+          "vol_factor": 2.0,
+          "score": 0.353
         }
       }
     ],
