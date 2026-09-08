@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-08",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-08 13:51:08",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7387.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-08 14:13:16",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 12210.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 12210.0,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "buy_price": 420.3,
+        "buy_time": "2026-09-08 13:51:08",
+        "iteration": 1,
+        "score_info": {
+          "last": 420.3,
+          "mom_30m_pct": 0.024,
+          "intraday_pct": 0.406,
+          "rsi": 53.7,
+          "vol_factor": 1.0,
+          "score": 0.158
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1701.6,
+        "buy_time": "2026-09-08 13:51:08",
+        "iteration": 1,
+        "score_info": {
+          "last": 1701.6,
+          "mom_30m_pct": 0.035,
+          "intraday_pct": 0.047,
+          "rsi": 59.3,
+          "vol_factor": 1.0,
+          "score": 0.067
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1054.8,
+        "buy_time": "2026-09-08 13:51:08",
+        "iteration": 1,
+        "score_info": {
+          "last": 1054.8,
+          "mom_30m_pct": 0.076,
+          "intraday_pct": -0.378,
+          "rsi": 71.0,
+          "vol_factor": 1.0,
+          "score": 0.001
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1401.7,
+        "buy_time": "2026-09-08 14:13:16",
+        "iteration": 2,
+        "score_info": {
+          "last": 1401.7,
+          "mom_30m_pct": 0.129,
+          "intraday_pct": -1.773,
+          "rsi": 67.9,
+          "vol_factor": 2.0,
+          "score": 0.661
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 1009.4,
+        "buy_time": "2026-09-08 14:13:16",
+        "iteration": 2,
+        "score_info": {
+          "last": 1009.4,
+          "mom_30m_pct": 0.298,
+          "intraday_pct": 0.328,
+          "rsi": 67.1,
+          "vol_factor": 1.09,
+          "score": 0.634
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-08 13:51:08",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "price": 420.3,
+        "cost": 2521.8,
+        "score": {
+          "last": 420.3,
+          "mom_30m_pct": 0.024,
+          "intraday_pct": 0.406,
+          "rsi": 53.7,
+          "vol_factor": 1.0,
+          "score": 0.158
+        }
+      },
+      {
+        "time": "2026-09-08 13:51:08",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1701.6,
+        "cost": 1701.6,
+        "score": {
+          "last": 1701.6,
+          "mom_30m_pct": 0.035,
+          "intraday_pct": 0.047,
+          "rsi": 59.3,
+          "vol_factor": 1.0,
+          "score": 0.067
+        }
+      },
+      {
+        "time": "2026-09-08 13:51:08",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1054.8,
+        "cost": 3164.4,
+        "score": {
+          "last": 1054.8,
+          "mom_30m_pct": 0.076,
+          "intraday_pct": -0.378,
+          "rsi": 71.0,
+          "vol_factor": 1.0,
+          "score": 0.001
+        }
+      },
+      {
+        "time": "2026-09-08 14:13:16",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1401.7,
+        "cost": 2803.4,
+        "score": {
+          "last": 1401.7,
+          "mom_30m_pct": 0.129,
+          "intraday_pct": -1.773,
+          "rsi": 67.9,
+          "vol_factor": 2.0,
+          "score": 0.661
+        }
+      },
+      {
+        "time": "2026-09-08 14:13:16",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 1009.4,
+        "cost": 2018.8,
+        "score": {
+          "last": 1009.4,
+          "mom_30m_pct": 0.298,
+          "intraday_pct": 0.328,
+          "rsi": 67.1,
+          "vol_factor": 1.09,
+          "score": 0.634
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
