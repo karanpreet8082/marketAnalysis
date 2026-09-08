@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-08",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 56388.67,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-08 17:36:00",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 65826.67,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 56388.66947937012,
+    "invested_today": 65826.66947937012,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -281,6 +290,36 @@
         "buy_price": 3160.0,
         "buy_time": "2026-09-08 17:05:12",
         "iteration": 8,
+        "score_info": {
+          "last": 3160.0,
+          "mom_30m_pct": 0.566,
+          "intraday_pct": 0.108,
+          "rsi": 65.5,
+          "vol_factor": 2.0,
+          "score": 1.882
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1559.0,
+        "buy_time": "2026-09-08 17:36:00",
+        "iteration": 9,
+        "score_info": {
+          "last": 1559.0,
+          "mom_30m_pct": 0.776,
+          "intraday_pct": 0.128,
+          "rsi": 68.7,
+          "vol_factor": 2.0,
+          "score": 2.202
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 2,
+        "buy_price": 3160.0,
+        "buy_time": "2026-09-08 17:36:00",
+        "iteration": 9,
         "score_info": {
           "last": 3160.0,
           "mom_30m_pct": 0.566,
@@ -516,6 +555,40 @@
       {
         "time": "2026-09-08 17:05:12",
         "iteration": 8,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 2,
+        "price": 3160.0,
+        "cost": 6320.0,
+        "score": {
+          "last": 3160.0,
+          "mom_30m_pct": 0.566,
+          "intraday_pct": 0.108,
+          "rsi": 65.5,
+          "vol_factor": 2.0,
+          "score": 1.882
+        }
+      },
+      {
+        "time": "2026-09-08 17:36:00",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1559.0,
+        "cost": 3118.0,
+        "score": {
+          "last": 1559.0,
+          "mom_30m_pct": 0.776,
+          "intraday_pct": 0.128,
+          "rsi": 68.7,
+          "vol_factor": 2.0,
+          "score": 2.202
+        }
+      },
+      {
+        "time": "2026-09-08 17:36:00",
+        "iteration": 9,
         "action": "BUY",
         "symbol": "M&M",
         "qty": 2,
