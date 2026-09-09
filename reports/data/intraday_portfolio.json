@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-09",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 23080.95,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-09 14:42:32",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 29469.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 23080.949920654297,
+    "invested_today": 29469.050018310547,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -138,6 +147,36 @@
           "rsi": 39.3,
           "vol_factor": 0.54,
           "score": 0.525
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3100.1,
+        "buy_time": "2026-09-09 14:42:32",
+        "iteration": 4,
+        "score_info": {
+          "last": 3100.1,
+          "mom_30m_pct": -0.042,
+          "intraday_pct": 5.195,
+          "rsi": 46.0,
+          "vol_factor": 0.63,
+          "score": 1.13
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3288.0,
+        "buy_time": "2026-09-09 14:42:32",
+        "iteration": 4,
+        "score_info": {
+          "last": 3288.0,
+          "mom_30m_pct": -0.1,
+          "intraday_pct": -0.152,
+          "rsi": 30.9,
+          "vol_factor": 2.0,
+          "score": 0.804
         }
       }
     ],
@@ -259,6 +298,40 @@
           "rsi": 39.3,
           "vol_factor": 0.54,
           "score": 0.525
+        }
+      },
+      {
+        "time": "2026-09-09 14:42:32",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3100.1,
+        "cost": 3100.1,
+        "score": {
+          "last": 3100.1,
+          "mom_30m_pct": -0.042,
+          "intraday_pct": 5.195,
+          "rsi": 46.0,
+          "vol_factor": 0.63,
+          "score": 1.13
+        }
+      },
+      {
+        "time": "2026-09-09 14:42:32",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3288.0,
+        "cost": 3288.0,
+        "score": {
+          "last": 3288.0,
+          "mom_30m_pct": -0.1,
+          "intraday_pct": -0.152,
+          "rsi": 30.9,
+          "vol_factor": 2.0,
+          "score": 0.804
         }
       }
     ],
