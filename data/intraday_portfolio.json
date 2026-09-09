@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-09",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-09 13:53:39",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 6397.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-09 14:19:41",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 14718.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 14718.499877929688,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3100.9,
+        "buy_time": "2026-09-09 13:53:39",
+        "iteration": 1,
+        "score_info": {
+          "last": 3100.9,
+          "mom_30m_pct": -0.035,
+          "intraday_pct": 5.14,
+          "rsi": 48.9,
+          "vol_factor": 0.43,
+          "score": 0.916
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3296.6,
+        "buy_time": "2026-09-09 13:53:39",
+        "iteration": 1,
+        "score_info": {
+          "last": 3296.6,
+          "mom_30m_pct": 0.094,
+          "intraday_pct": 0.42,
+          "rsi": 17.8,
+          "vol_factor": 2.0,
+          "score": 0.767
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1783.0,
+        "buy_time": "2026-09-09 14:19:41",
+        "iteration": 2,
+        "score_info": {
+          "last": 1783.0,
+          "mom_30m_pct": 0.304,
+          "intraday_pct": 4.52,
+          "rsi": 74.3,
+          "vol_factor": 1.31,
+          "score": 2.122
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 3102.7,
+        "buy_time": "2026-09-09 14:19:41",
+        "iteration": 2,
+        "score_info": {
+          "last": 3102.7,
+          "mom_30m_pct": 0.006,
+          "intraday_pct": 5.588,
+          "rsi": 44.8,
+          "vol_factor": 0.43,
+          "score": 1.119
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 3,
+        "buy_price": 1145.1,
+        "buy_time": "2026-09-09 14:19:41",
+        "iteration": 2,
+        "score_info": {
+          "last": 1145.1,
+          "mom_30m_pct": 0.044,
+          "intraday_pct": -0.521,
+          "rsi": 44.2,
+          "vol_factor": 1.88,
+          "score": 0.793
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-09 13:53:39",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3100.9,
+        "cost": 3100.9,
+        "score": {
+          "last": 3100.9,
+          "mom_30m_pct": -0.035,
+          "intraday_pct": 5.14,
+          "rsi": 48.9,
+          "vol_factor": 0.43,
+          "score": 0.916
+        }
+      },
+      {
+        "time": "2026-09-09 13:53:39",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3296.6,
+        "cost": 3296.6,
+        "score": {
+          "last": 3296.6,
+          "mom_30m_pct": 0.094,
+          "intraday_pct": 0.42,
+          "rsi": 17.8,
+          "vol_factor": 2.0,
+          "score": 0.767
+        }
+      },
+      {
+        "time": "2026-09-09 14:19:41",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1783.0,
+        "cost": 1783.0,
+        "score": {
+          "last": 1783.0,
+          "mom_30m_pct": 0.304,
+          "intraday_pct": 4.52,
+          "rsi": 74.3,
+          "vol_factor": 1.31,
+          "score": 2.122
+        }
+      },
+      {
+        "time": "2026-09-09 14:19:41",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 3102.7,
+        "cost": 3102.7,
+        "score": {
+          "last": 3102.7,
+          "mom_30m_pct": 0.006,
+          "intraday_pct": 5.588,
+          "rsi": 44.8,
+          "vol_factor": 0.43,
+          "score": 1.119
+        }
+      },
+      {
+        "time": "2026-09-09 14:19:41",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 3,
+        "price": 1145.1,
+        "cost": 3435.3,
+        "score": {
+          "last": 1145.1,
+          "mom_30m_pct": 0.044,
+          "intraday_pct": -0.521,
+          "rsi": 44.2,
+          "vol_factor": 1.88,
+          "score": 0.793
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
