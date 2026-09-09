@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-09",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 37368.95,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-09 15:34:43",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 43504.75,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 37368.9499206543,
+    "invested_today": 43504.74996948242,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -216,6 +225,36 @@
           "rsi": 51.5,
           "vol_factor": 1.88,
           "score": 0.759
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3300.8,
+        "buy_time": "2026-09-09 15:34:43",
+        "iteration": 6,
+        "score_info": {
+          "last": 3300.8,
+          "mom_30m_pct": 0.447,
+          "intraday_pct": -0.2,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.611
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2835.0,
+        "buy_time": "2026-09-09 15:34:43",
+        "iteration": 6,
+        "score_info": {
+          "last": 2835.0,
+          "mom_30m_pct": 0.173,
+          "intraday_pct": 1.055,
+          "rsi": 41.7,
+          "vol_factor": 2.0,
+          "score": 1.576
         }
       }
     ],
@@ -405,6 +444,40 @@
           "rsi": 51.5,
           "vol_factor": 1.88,
           "score": 0.759
+        }
+      },
+      {
+        "time": "2026-09-09 15:34:43",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3300.8,
+        "cost": 3300.8,
+        "score": {
+          "last": 3300.8,
+          "mom_30m_pct": 0.447,
+          "intraday_pct": -0.2,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.611
+        }
+      },
+      {
+        "time": "2026-09-09 15:34:43",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2835.0,
+        "cost": 2835.0,
+        "score": {
+          "last": 2835.0,
+          "mom_30m_pct": 0.173,
+          "intraday_pct": 1.055,
+          "rsi": 41.7,
+          "vol_factor": 2.0,
+          "score": 1.576
         }
       }
     ],
