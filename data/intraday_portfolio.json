@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-10",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 23973.9,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-10 14:41:50",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 31875.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-10 15:06:40",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 39223.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 23973.899780273438,
+    "invested_today": 39223.699462890625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -138,6 +156,66 @@
           "rsi": 69.2,
           "vol_factor": 0.1,
           "score": -0.437
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "buy_price": 433.55,
+        "buy_time": "2026-09-10 14:41:50",
+        "iteration": 4,
+        "score_info": {
+          "last": 433.55,
+          "mom_30m_pct": 0.104,
+          "intraday_pct": 0.243,
+          "rsi": 56.2,
+          "vol_factor": 1.04,
+          "score": 0.268
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1766.6,
+        "buy_time": "2026-09-10 14:41:50",
+        "iteration": 4,
+        "score_info": {
+          "last": 1766.6,
+          "mom_30m_pct": 0.034,
+          "intraday_pct": -0.557,
+          "rsi": 46.8,
+          "vol_factor": 1.05,
+          "score": -0.071
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1520.6,
+        "buy_time": "2026-09-10 15:06:40",
+        "iteration": 5,
+        "score_info": {
+          "last": 1520.6,
+          "mom_30m_pct": 0.244,
+          "intraday_pct": 1.414,
+          "rsi": 61.4,
+          "vol_factor": 1.53,
+          "score": 1.318
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 3,
+        "buy_price": 1942.7,
+        "buy_time": "2026-09-10 15:06:40",
+        "iteration": 5,
+        "score_info": {
+          "last": 1942.7,
+          "mom_30m_pct": 0.124,
+          "intraday_pct": 0.196,
+          "rsi": 54.3,
+          "vol_factor": 0.96,
+          "score": 0.202
         }
       }
     ],
@@ -259,6 +337,74 @@
           "rsi": 69.2,
           "vol_factor": 0.1,
           "score": -0.437
+        }
+      },
+      {
+        "time": "2026-09-10 14:41:50",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "price": 433.55,
+        "cost": 2601.3,
+        "score": {
+          "last": 433.55,
+          "mom_30m_pct": 0.104,
+          "intraday_pct": 0.243,
+          "rsi": 56.2,
+          "vol_factor": 1.04,
+          "score": 0.268
+        }
+      },
+      {
+        "time": "2026-09-10 14:41:50",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1766.6,
+        "cost": 5299.8,
+        "score": {
+          "last": 1766.6,
+          "mom_30m_pct": 0.034,
+          "intraday_pct": -0.557,
+          "rsi": 46.8,
+          "vol_factor": 1.05,
+          "score": -0.071
+        }
+      },
+      {
+        "time": "2026-09-10 15:06:40",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1520.6,
+        "cost": 1520.6,
+        "score": {
+          "last": 1520.6,
+          "mom_30m_pct": 0.244,
+          "intraday_pct": 1.414,
+          "rsi": 61.4,
+          "vol_factor": 1.53,
+          "score": 1.318
+        }
+      },
+      {
+        "time": "2026-09-10 15:06:40",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 3,
+        "price": 1942.7,
+        "cost": 5828.1,
+        "score": {
+          "last": 1942.7,
+          "mom_30m_pct": 0.124,
+          "intraday_pct": 0.196,
+          "rsi": 54.3,
+          "vol_factor": 0.96,
+          "score": 0.202
         }
       }
     ],
