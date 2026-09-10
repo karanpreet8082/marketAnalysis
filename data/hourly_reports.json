@@ -1,43 +1,5 @@
 [
   {
-    "timestamp": "2026-08-05 13:36 IST",
-    "budget": 50000.0,
-    "allocated": 49822.76,
-    "positions": 7,
-    "summary": {
-      "total_positions": 7,
-      "total_invested": 49822.76,
-      "cash_reserve": 177.24,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 25150.760000000002,
-          "percent": 50.3,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17300.2,
-          "percent": 34.6,
-          "positions": 2
-        },
-        "aggressive": {
-          "amount": 7371.8,
-          "percent": 14.7,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.7,
-      "max_loss_percent": 4.0,
-      "sector_distribution": {
-        "Unknown": 2,
-        "Financial Services": 2,
-        "Utilities": 1,
-        "Consumer Cyclical": 1,
-        "Basic Materials": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-08-05 14:56 IST",
     "budget": 50000.0,
     "allocated": 49701.64,
@@ -1839,6 +1801,44 @@
         "Financial Services": 2,
         "Utilities": 1,
         "Unknown": 2,
+        "Consumer Cyclical": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10 13:53 IST",
+    "budget": 50000.0,
+    "allocated": 42399.28,
+    "positions": 6,
+    "summary": {
+      "total_positions": 6,
+      "total_invested": 42399.28,
+      "cash_reserve": 7600.72,
+      "avg_confidence": 0.53,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25064.98,
+          "percent": 50.1,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 9999.36,
+          "percent": 20.0,
+          "positions": 1
+        },
+        "aggressive": {
+          "amount": 7334.9400000000005,
+          "percent": 14.7,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 4.7,
+      "max_loss_percent": 3.2,
+      "sector_distribution": {
+        "Financial Services": 1,
+        "Unknown": 2,
+        "Utilities": 1,
+        "Energy": 1,
         "Consumer Cyclical": 1
       }
     }
