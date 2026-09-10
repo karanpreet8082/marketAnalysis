@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-10",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7369.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-10 14:17:40",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 15579.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 7369.199951171875,
+    "invested_today": 15579.899658203125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,36 @@
           "rsi": 31.1,
           "vol_factor": 1.0,
           "score": 0.363
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1246.1,
+        "buy_time": "2026-09-10 14:17:40",
+        "iteration": 2,
+        "score_info": {
+          "last": 1246.1,
+          "mom_30m_pct": -0.112,
+          "intraday_pct": -0.344,
+          "rsi": 30.3,
+          "vol_factor": 1.74,
+          "score": 0.469
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 5,
+        "buy_price": 1143.7,
+        "buy_time": "2026-09-10 14:17:40",
+        "iteration": 2,
+        "score_info": {
+          "last": 1143.7,
+          "mom_30m_pct": 0.439,
+          "intraday_pct": -0.14,
+          "rsi": 64.0,
+          "vol_factor": 0.11,
+          "score": -0.272
         }
       }
     ],
@@ -113,6 +152,40 @@
           "rsi": 31.1,
           "vol_factor": 1.0,
           "score": 0.363
+        }
+      },
+      {
+        "time": "2026-09-10 14:17:40",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1246.1,
+        "cost": 2492.2,
+        "score": {
+          "last": 1246.1,
+          "mom_30m_pct": -0.112,
+          "intraday_pct": -0.344,
+          "rsi": 30.3,
+          "vol_factor": 1.74,
+          "score": 0.469
+        }
+      },
+      {
+        "time": "2026-09-10 14:17:40",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 5,
+        "price": 1143.7,
+        "cost": 5718.5,
+        "score": {
+          "last": 1143.7,
+          "mom_30m_pct": 0.439,
+          "intraday_pct": -0.14,
+          "rsi": 64.0,
+          "vol_factor": 0.11,
+          "score": -0.272
         }
       }
     ],
