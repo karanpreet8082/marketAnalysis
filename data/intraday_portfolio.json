@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-10",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,18 +102,9 @@
         "invested_today_after": 89817.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 28
-      },
-      {
-        "iteration": 12,
-        "time": "2026-09-10 18:39:27",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 98196.3,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 31
       }
     ],
-    "invested_today": 98196.30041503906,
+    "invested_today": 89817.40026855469,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -527,51 +518,6 @@
         "buy_price": 1940.5,
         "buy_time": "2026-09-10 18:26:36",
         "iteration": 11,
-        "score_info": {
-          "last": 1940.5,
-          "mom_30m_pct": 0.565,
-          "intraday_pct": 0.758,
-          "rsi": 66.1,
-          "vol_factor": 2.0,
-          "score": 2.075
-        }
-      },
-      {
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "buy_price": 1861.0,
-        "buy_time": "2026-09-10 18:39:27",
-        "iteration": 12,
-        "score_info": {
-          "last": 1861.0,
-          "mom_30m_pct": 0.834,
-          "intraday_pct": -0.375,
-          "rsi": 67.2,
-          "vol_factor": 2.0,
-          "score": 2.139
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 3,
-        "buy_price": 1525.8,
-        "buy_time": "2026-09-10 18:39:27",
-        "iteration": 12,
-        "score_info": {
-          "last": 1525.8,
-          "mom_30m_pct": 0.428,
-          "intraday_pct": 1.517,
-          "rsi": 68.9,
-          "vol_factor": 2.0,
-          "score": 2.097
-        }
-      },
-      {
-        "symbol": "BAJAJFINSV",
-        "qty": 1,
-        "buy_price": 1940.5,
-        "buy_time": "2026-09-10 18:39:27",
-        "iteration": 12,
         "score_info": {
           "last": 1940.5,
           "mom_30m_pct": 0.565,
@@ -1050,57 +996,6 @@
         "qty": 2,
         "price": 1940.5,
         "cost": 3881.0,
-        "score": {
-          "last": 1940.5,
-          "mom_30m_pct": 0.565,
-          "intraday_pct": 0.758,
-          "rsi": 66.1,
-          "vol_factor": 2.0,
-          "score": 2.075
-        }
-      },
-      {
-        "time": "2026-09-10 18:39:27",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "SUNPHARMA",
-        "qty": 1,
-        "price": 1861.0,
-        "cost": 1861.0,
-        "score": {
-          "last": 1861.0,
-          "mom_30m_pct": 0.834,
-          "intraday_pct": -0.375,
-          "rsi": 67.2,
-          "vol_factor": 2.0,
-          "score": 2.139
-        }
-      },
-      {
-        "time": "2026-09-10 18:39:27",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 3,
-        "price": 1525.8,
-        "cost": 4577.4,
-        "score": {
-          "last": 1525.8,
-          "mom_30m_pct": 0.428,
-          "intraday_pct": 1.517,
-          "rsi": 68.9,
-          "vol_factor": 2.0,
-          "score": 2.097
-        }
-      },
-      {
-        "time": "2026-09-10 18:39:27",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "BAJAJFINSV",
-        "qty": 1,
-        "price": 1940.5,
-        "cost": 1940.5,
         "score": {
           "last": 1940.5,
           "mom_30m_pct": 0.565,
