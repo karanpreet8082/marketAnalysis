@@ -1,5 +1,871 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-11",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-11 13:49:32",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7005.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-11 14:15:04",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 14133.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-11 14:29:33",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 22370.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-11 14:40:02",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 30439.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-11 15:04:10",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 38725.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-11 15:29:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 46040.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-09-11 16:38:19",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 49997.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 8,
+        "time": "2026-09-11 17:10:59",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 53954.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 16
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-11 17:40:09",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 64882.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
+      },
+      {
+        "iteration": 10,
+        "time": "2026-09-11 17:50:59",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 75669.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 19
+      },
+      {
+        "iteration": 11,
+        "time": "2026-09-11 18:20:52",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 83583.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-09-11 18:32:45",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99380.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 13,
+        "time": "2026-09-11 19:08:44",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99380.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 23
+      }
+    ],
+    "invested_today": 99380.20010375977,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1038.9,
+        "buy_time": "2026-09-11 13:49:32",
+        "iteration": 1,
+        "score_info": {
+          "last": 1038.9,
+          "mom_30m_pct": -0.163,
+          "intraday_pct": 0.688,
+          "rsi": 44.0,
+          "vol_factor": 2.0,
+          "score": 0.961
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "buy_price": 2463.7,
+        "buy_time": "2026-09-11 13:49:32",
+        "iteration": 1,
+        "score_info": {
+          "last": 2463.7,
+          "mom_30m_pct": -0.118,
+          "intraday_pct": -0.989,
+          "rsi": 68.9,
+          "vol_factor": 2.0,
+          "score": 0.527
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "buy_price": 703.25,
+        "buy_time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "score_info": {
+          "last": 703.25,
+          "mom_30m_pct": 1.311,
+          "intraday_pct": 1.67,
+          "rsi": 84.9,
+          "vol_factor": 1.0,
+          "score": 0.967
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1541.9,
+        "buy_time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "score_info": {
+          "last": 1541.9,
+          "mom_30m_pct": 0.286,
+          "intraday_pct": 1.648,
+          "rsi": 55.5,
+          "vol_factor": 1.0,
+          "score": 0.924
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1386.8,
+        "buy_time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "score_info": {
+          "last": 1386.8,
+          "mom_30m_pct": 0.515,
+          "intraday_pct": 0.333,
+          "rsi": 69.3,
+          "vol_factor": 1.0,
+          "score": 0.872
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 304.6,
+        "buy_time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "score_info": {
+          "last": 304.6,
+          "mom_30m_pct": 1.146,
+          "intraday_pct": 0.445,
+          "rsi": 84.3,
+          "vol_factor": 2.0,
+          "score": 1.352
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1841.4,
+        "buy_time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "score_info": {
+          "last": 1841.4,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": 0.147,
+          "rsi": 46.2,
+          "vol_factor": 2.0,
+          "score": 1.215
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1218.1,
+        "buy_time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "score_info": {
+          "last": 1218.1,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 1.104,
+          "rsi": 49.7,
+          "vol_factor": 1.75,
+          "score": 1.103
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 8,
+        "buy_price": 704.0,
+        "buy_time": "2026-09-11 14:40:02",
+        "iteration": 4,
+        "score_info": {
+          "last": 704.0,
+          "mom_30m_pct": 0.107,
+          "intraday_pct": 1.697,
+          "rsi": 75.0,
+          "vol_factor": 1.0,
+          "score": 0.669
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1218.1,
+        "buy_time": "2026-09-11 14:40:02",
+        "iteration": 4,
+        "score_info": {
+          "last": 1218.1,
+          "mom_30m_pct": -0.057,
+          "intraday_pct": 1.037,
+          "rsi": 58.8,
+          "vol_factor": 1.44,
+          "score": 0.662
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 4951.0,
+        "buy_time": "2026-09-11 15:04:10",
+        "iteration": 5,
+        "score_info": {
+          "last": 4951.0,
+          "mom_30m_pct": 0.508,
+          "intraday_pct": 0.497,
+          "rsi": 69.1,
+          "vol_factor": 1.37,
+          "score": 1.276
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1111.9,
+        "buy_time": "2026-09-11 15:04:10",
+        "iteration": 5,
+        "score_info": {
+          "last": 1111.9,
+          "mom_30m_pct": 0.036,
+          "intraday_pct": 0.434,
+          "rsi": 47.8,
+          "vol_factor": 2.0,
+          "score": 1.184
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1173.0,
+        "buy_time": "2026-09-11 15:29:13",
+        "iteration": 6,
+        "score_info": {
+          "last": 1173.0,
+          "mom_30m_pct": 0.239,
+          "intraday_pct": 2.724,
+          "rsi": 48.0,
+          "vol_factor": 2.0,
+          "score": 2.176
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 4969.0,
+        "buy_time": "2026-09-11 15:29:13",
+        "iteration": 6,
+        "score_info": {
+          "last": 4969.0,
+          "mom_30m_pct": 0.76,
+          "intraday_pct": 0.965,
+          "rsi": 74.6,
+          "vol_factor": 1.0,
+          "score": 1.43
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-11 16:38:19",
+        "iteration": 7,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-11 17:10:59",
+        "iteration": 8,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 8,
+        "buy_price": 1366.0,
+        "buy_time": "2026-09-11 17:40:09",
+        "iteration": 9,
+        "score_info": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-11 17:50:59",
+        "iteration": 10,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 5,
+        "buy_price": 1366.0,
+        "buy_time": "2026-09-11 17:50:59",
+        "iteration": 10,
+        "score_info": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 2,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-11 18:20:52",
+        "iteration": 11,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "symbol": "TITAN",
+        "qty": 1,
+        "buy_price": 5009.5,
+        "buy_time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "score_info": {
+          "last": 5009.5,
+          "mom_30m_pct": 0.856,
+          "intraday_pct": 0.12,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 2.319
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 5,
+        "buy_price": 1366.0,
+        "buy_time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "score_info": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-11 13:49:32",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1038.9,
+        "cost": 2077.8,
+        "score": {
+          "last": 1038.9,
+          "mom_30m_pct": -0.163,
+          "intraday_pct": 0.688,
+          "rsi": 44.0,
+          "vol_factor": 2.0,
+          "score": 0.961
+        }
+      },
+      {
+        "time": "2026-09-11 13:49:32",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "price": 2463.7,
+        "cost": 4927.4,
+        "score": {
+          "last": 2463.7,
+          "mom_30m_pct": -0.118,
+          "intraday_pct": -0.989,
+          "rsi": 68.9,
+          "vol_factor": 2.0,
+          "score": 0.527
+        }
+      },
+      {
+        "time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 703.25,
+        "cost": 2813.0,
+        "score": {
+          "last": 703.25,
+          "mom_30m_pct": 1.311,
+          "intraday_pct": 1.67,
+          "rsi": 84.9,
+          "vol_factor": 1.0,
+          "score": 0.967
+        }
+      },
+      {
+        "time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1541.9,
+        "cost": 1541.9,
+        "score": {
+          "last": 1541.9,
+          "mom_30m_pct": 0.286,
+          "intraday_pct": 1.648,
+          "rsi": 55.5,
+          "vol_factor": 1.0,
+          "score": 0.924
+        }
+      },
+      {
+        "time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1386.8,
+        "cost": 2773.6,
+        "score": {
+          "last": 1386.8,
+          "mom_30m_pct": 0.515,
+          "intraday_pct": 0.333,
+          "rsi": 69.3,
+          "vol_factor": 1.0,
+          "score": 0.872
+        }
+      },
+      {
+        "time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 304.6,
+        "cost": 2741.4,
+        "score": {
+          "last": 304.6,
+          "mom_30m_pct": 1.146,
+          "intraday_pct": 0.445,
+          "rsi": 84.3,
+          "vol_factor": 2.0,
+          "score": 1.352
+        }
+      },
+      {
+        "time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1841.4,
+        "cost": 1841.4,
+        "score": {
+          "last": 1841.4,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": 0.147,
+          "rsi": 46.2,
+          "vol_factor": 2.0,
+          "score": 1.215
+        }
+      },
+      {
+        "time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1218.1,
+        "cost": 3654.3,
+        "score": {
+          "last": 1218.1,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 1.104,
+          "rsi": 49.7,
+          "vol_factor": 1.75,
+          "score": 1.103
+        }
+      },
+      {
+        "time": "2026-09-11 14:40:02",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 8,
+        "price": 704.0,
+        "cost": 5632.0,
+        "score": {
+          "last": 704.0,
+          "mom_30m_pct": 0.107,
+          "intraday_pct": 1.697,
+          "rsi": 75.0,
+          "vol_factor": 1.0,
+          "score": 0.669
+        }
+      },
+      {
+        "time": "2026-09-11 14:40:02",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1218.1,
+        "cost": 2436.2,
+        "score": {
+          "last": 1218.1,
+          "mom_30m_pct": -0.057,
+          "intraday_pct": 1.037,
+          "rsi": 58.8,
+          "vol_factor": 1.44,
+          "score": 0.662
+        }
+      },
+      {
+        "time": "2026-09-11 15:04:10",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 4951.0,
+        "cost": 4951.0,
+        "score": {
+          "last": 4951.0,
+          "mom_30m_pct": 0.508,
+          "intraday_pct": 0.497,
+          "rsi": 69.1,
+          "vol_factor": 1.37,
+          "score": 1.276
+        }
+      },
+      {
+        "time": "2026-09-11 15:04:10",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1111.9,
+        "cost": 3335.7,
+        "score": {
+          "last": 1111.9,
+          "mom_30m_pct": 0.036,
+          "intraday_pct": 0.434,
+          "rsi": 47.8,
+          "vol_factor": 2.0,
+          "score": 1.184
+        }
+      },
+      {
+        "time": "2026-09-11 15:29:13",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1173.0,
+        "cost": 2346.0,
+        "score": {
+          "last": 1173.0,
+          "mom_30m_pct": 0.239,
+          "intraday_pct": 2.724,
+          "rsi": 48.0,
+          "vol_factor": 2.0,
+          "score": 2.176
+        }
+      },
+      {
+        "time": "2026-09-11 15:29:13",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 4969.0,
+        "cost": 4969.0,
+        "score": {
+          "last": 4969.0,
+          "mom_30m_pct": 0.76,
+          "intraday_pct": 0.965,
+          "rsi": 74.6,
+          "vol_factor": 1.0,
+          "score": 1.43
+        }
+      },
+      {
+        "time": "2026-09-11 16:38:19",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3957.0,
+        "cost": 3957.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-11 17:10:59",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3957.0,
+        "cost": 3957.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-11 17:40:09",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 8,
+        "price": 1366.0,
+        "cost": 10928.0,
+        "score": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
+        }
+      },
+      {
+        "time": "2026-09-11 17:50:59",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3957.0,
+        "cost": 3957.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-11 17:50:59",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 5,
+        "price": 1366.0,
+        "cost": 6830.0,
+        "score": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
+        }
+      },
+      {
+        "time": "2026-09-11 18:20:52",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 2,
+        "price": 3957.0,
+        "cost": 7914.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TITAN",
+        "qty": 1,
+        "price": 5009.5,
+        "cost": 5009.5,
+        "score": {
+          "last": 5009.5,
+          "mom_30m_pct": 0.856,
+          "intraday_pct": 0.12,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 2.319
+        }
+      },
+      {
+        "time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3957.0,
+        "cost": 3957.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 5,
+        "price": 1366.0,
+        "cost": 6830.0,
+        "score": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -58904,696 +59770,20 @@
       "n_sells": 31,
       "feedback": "Day P&L \u20b958 on \u20b998196 deployed (0.06%). Worst trade: COALINDIA (P&L \u20b9-9, -0.36%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
       "profitable": true
-    },
-    {
-      "date": "2026-09-11",
-      "iterations_run": 14,
-      "invested": 99380.2,
-      "realized_pnl": -9.6,
-      "pnl_pct": -0.01,
-      "trades": [
-        {
-          "time": "2026-09-11 13:49:32",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 2,
-          "price": 1038.9,
-          "cost": 2077.8,
-          "score": {
-            "last": 1038.9,
-            "mom_30m_pct": -0.163,
-            "intraday_pct": 0.688,
-            "rsi": 44.0,
-            "vol_factor": 2.0,
-            "score": 0.961
-          }
-        },
-        {
-          "time": "2026-09-11 13:49:32",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "ASIANPAINT",
-          "qty": 2,
-          "price": 2463.7,
-          "cost": 4927.4,
-          "score": {
-            "last": 2463.7,
-            "mom_30m_pct": -0.118,
-            "intraday_pct": -0.989,
-            "rsi": 68.9,
-            "vol_factor": 2.0,
-            "score": 0.527
-          }
-        },
-        {
-          "time": "2026-09-11 14:15:04",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "HDFCBANK",
-          "qty": 4,
-          "price": 703.25,
-          "cost": 2813.0,
-          "score": {
-            "last": 703.25,
-            "mom_30m_pct": 1.311,
-            "intraday_pct": 1.67,
-            "rsi": 84.9,
-            "vol_factor": 1.0,
-            "score": 0.967
-          }
-        },
-        {
-          "time": "2026-09-11 14:15:04",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 1,
-          "price": 1541.9,
-          "cost": 1541.9,
-          "score": {
-            "last": 1541.9,
-            "mom_30m_pct": 0.286,
-            "intraday_pct": 1.648,
-            "rsi": 55.5,
-            "vol_factor": 1.0,
-            "score": 0.924
-          }
-        },
-        {
-          "time": "2026-09-11 14:15:04",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1386.8,
-          "cost": 2773.6,
-          "score": {
-            "last": 1386.8,
-            "mom_30m_pct": 0.515,
-            "intraday_pct": 0.333,
-            "rsi": 69.3,
-            "vol_factor": 1.0,
-            "score": 0.872
-          }
-        },
-        {
-          "time": "2026-09-11 14:29:33",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "BPCL",
-          "qty": 9,
-          "price": 304.6,
-          "cost": 2741.4,
-          "score": {
-            "last": 304.6,
-            "mom_30m_pct": 1.146,
-            "intraday_pct": 0.445,
-            "rsi": 84.3,
-            "vol_factor": 2.0,
-            "score": 1.352
-          }
-        },
-        {
-          "time": "2026-09-11 14:29:33",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 1841.4,
-          "cost": 1841.4,
-          "score": {
-            "last": 1841.4,
-            "mom_30m_pct": 0.114,
-            "intraday_pct": 0.147,
-            "rsi": 46.2,
-            "vol_factor": 2.0,
-            "score": 1.215
-          }
-        },
-        {
-          "time": "2026-09-11 14:29:33",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "HCLTECH",
-          "qty": 3,
-          "price": 1218.1,
-          "cost": 3654.3,
-          "score": {
-            "last": 1218.1,
-            "mom_30m_pct": 0.016,
-            "intraday_pct": 1.104,
-            "rsi": 49.7,
-            "vol_factor": 1.75,
-            "score": 1.103
-          }
-        },
-        {
-          "time": "2026-09-11 14:40:02",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "HDFCBANK",
-          "qty": 8,
-          "price": 704.0,
-          "cost": 5632.0,
-          "score": {
-            "last": 704.0,
-            "mom_30m_pct": 0.107,
-            "intraday_pct": 1.697,
-            "rsi": 75.0,
-            "vol_factor": 1.0,
-            "score": 0.669
-          }
-        },
-        {
-          "time": "2026-09-11 14:40:02",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "HCLTECH",
-          "qty": 2,
-          "price": 1218.1,
-          "cost": 2436.2,
-          "score": {
-            "last": 1218.1,
-            "mom_30m_pct": -0.057,
-            "intraday_pct": 1.037,
-            "rsi": 58.8,
-            "vol_factor": 1.44,
-            "score": 0.662
-          }
-        },
-        {
-          "time": "2026-09-11 15:04:10",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 4951.0,
-          "cost": 4951.0,
-          "score": {
-            "last": 4951.0,
-            "mom_30m_pct": 0.508,
-            "intraday_pct": 0.497,
-            "rsi": 69.1,
-            "vol_factor": 1.37,
-            "score": 1.276
-          }
-        },
-        {
-          "time": "2026-09-11 15:04:10",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "HAVELLS",
-          "qty": 3,
-          "price": 1111.9,
-          "cost": 3335.7,
-          "score": {
-            "last": 1111.9,
-            "mom_30m_pct": 0.036,
-            "intraday_pct": 0.434,
-            "rsi": 47.8,
-            "vol_factor": 2.0,
-            "score": 1.184
-          }
-        },
-        {
-          "time": "2026-09-11 15:29:13",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "DRREDDY",
-          "qty": 2,
-          "price": 1173.0,
-          "cost": 2346.0,
-          "score": {
-            "last": 1173.0,
-            "mom_30m_pct": 0.239,
-            "intraday_pct": 2.724,
-            "rsi": 48.0,
-            "vol_factor": 2.0,
-            "score": 2.176
-          }
-        },
-        {
-          "time": "2026-09-11 15:29:13",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 4969.0,
-          "cost": 4969.0,
-          "score": {
-            "last": 4969.0,
-            "mom_30m_pct": 0.76,
-            "intraday_pct": 0.965,
-            "rsi": 74.6,
-            "vol_factor": 1.0,
-            "score": 1.43
-          }
-        },
-        {
-          "time": "2026-09-11 16:38:19",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3957.0,
-          "cost": 3957.0,
-          "score": {
-            "last": 3957.0,
-            "mom_30m_pct": 0.636,
-            "intraday_pct": 0.426,
-            "rsi": 62.3,
-            "vol_factor": 2.0,
-            "score": 2.082
-          }
-        },
-        {
-          "time": "2026-09-11 17:10:59",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3957.0,
-          "cost": 3957.0,
-          "score": {
-            "last": 3957.0,
-            "mom_30m_pct": 0.636,
-            "intraday_pct": 0.426,
-            "rsi": 62.3,
-            "vol_factor": 2.0,
-            "score": 2.082
-          }
-        },
-        {
-          "time": "2026-09-11 17:40:09",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "CIPLA",
-          "qty": 8,
-          "price": 1366.0,
-          "cost": 10928.0,
-          "score": {
-            "last": 1366.0,
-            "mom_30m_pct": 0.685,
-            "intraday_pct": -0.292,
-            "rsi": 59.1,
-            "vol_factor": 2.0,
-            "score": 1.941
-          }
-        },
-        {
-          "time": "2026-09-11 17:50:59",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3957.0,
-          "cost": 3957.0,
-          "score": {
-            "last": 3957.0,
-            "mom_30m_pct": 0.636,
-            "intraday_pct": 0.426,
-            "rsi": 62.3,
-            "vol_factor": 2.0,
-            "score": 2.082
-          }
-        },
-        {
-          "time": "2026-09-11 17:50:59",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "CIPLA",
-          "qty": 5,
-          "price": 1366.0,
-          "cost": 6830.0,
-          "score": {
-            "last": 1366.0,
-            "mom_30m_pct": 0.685,
-            "intraday_pct": -0.292,
-            "rsi": 59.1,
-            "vol_factor": 2.0,
-            "score": 1.941
-          }
-        },
-        {
-          "time": "2026-09-11 18:20:52",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 2,
-          "price": 3957.0,
-          "cost": 7914.0,
-          "score": {
-            "last": 3957.0,
-            "mom_30m_pct": 0.636,
-            "intraday_pct": 0.426,
-            "rsi": 62.3,
-            "vol_factor": 2.0,
-            "score": 2.082
-          }
-        },
-        {
-          "time": "2026-09-11 18:32:45",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "TITAN",
-          "qty": 1,
-          "price": 5009.5,
-          "cost": 5009.5,
-          "score": {
-            "last": 5009.5,
-            "mom_30m_pct": 0.856,
-            "intraday_pct": 0.12,
-            "rsi": 72.5,
-            "vol_factor": 2.0,
-            "score": 2.319
-          }
-        },
-        {
-          "time": "2026-09-11 18:32:45",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3957.0,
-          "cost": 3957.0,
-          "score": {
-            "last": 3957.0,
-            "mom_30m_pct": 0.636,
-            "intraday_pct": 0.426,
-            "rsi": 62.3,
-            "vol_factor": 2.0,
-            "score": 2.082
-          }
-        },
-        {
-          "time": "2026-09-11 18:32:45",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "CIPLA",
-          "qty": 5,
-          "price": 1366.0,
-          "cost": 6830.0,
-          "score": {
-            "last": 1366.0,
-            "mom_30m_pct": 0.685,
-            "intraday_pct": -0.292,
-            "rsi": 59.1,
-            "vol_factor": 2.0,
-            "score": 1.941
-          }
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 2,
-          "price": 1037.7,
-          "buy_price": 1038.9,
-          "pnl": -2.4,
-          "pnl_pct": -0.12,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ASIANPAINT",
-          "qty": 2,
-          "price": 2472.5,
-          "buy_price": 2463.7,
-          "pnl": 17.6,
-          "pnl_pct": 0.36,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HDFCBANK",
-          "qty": 4,
-          "price": 708.25,
-          "buy_price": 703.25,
-          "pnl": 20.0,
-          "pnl_pct": 0.71,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 1,
-          "price": 1541.0,
-          "buy_price": 1541.9,
-          "pnl": -0.9,
-          "pnl_pct": -0.06,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1379.3,
-          "buy_price": 1386.8,
-          "pnl": -15.0,
-          "pnl_pct": -0.54,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BPCL",
-          "qty": 9,
-          "price": 304.5,
-          "buy_price": 304.6,
-          "pnl": -0.9,
-          "pnl_pct": -0.03,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 1831.1,
-          "buy_price": 1841.4,
-          "pnl": -10.3,
-          "pnl_pct": -0.56,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HCLTECH",
-          "qty": 3,
-          "price": 1206.1,
-          "buy_price": 1218.1,
-          "pnl": -36.0,
-          "pnl_pct": -0.99,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HDFCBANK",
-          "qty": 8,
-          "price": 708.25,
-          "buy_price": 704.0,
-          "pnl": 34.0,
-          "pnl_pct": 0.6,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HCLTECH",
-          "qty": 2,
-          "price": 1206.1,
-          "buy_price": 1218.1,
-          "pnl": -24.0,
-          "pnl_pct": -0.99,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 4973.0,
-          "buy_price": 4951.0,
-          "pnl": 22.0,
-          "pnl_pct": 0.44,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HAVELLS",
-          "qty": 3,
-          "price": 1111.0,
-          "buy_price": 1111.9,
-          "pnl": -2.7,
-          "pnl_pct": -0.08,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DRREDDY",
-          "qty": 2,
-          "price": 1165.5,
-          "buy_price": 1173.0,
-          "pnl": -15.0,
-          "pnl_pct": -0.64,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 4973.0,
-          "buy_price": 4969.0,
-          "pnl": 4.0,
-          "pnl_pct": 0.08,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3957.0,
-          "buy_price": 3957.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3957.0,
-          "buy_price": 3957.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "CIPLA",
-          "qty": 8,
-          "price": 1366.0,
-          "buy_price": 1366.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3957.0,
-          "buy_price": 3957.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "CIPLA",
-          "qty": 5,
-          "price": 1366.0,
-          "buy_price": 1366.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 2,
-          "price": 3957.0,
-          "buy_price": 3957.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TITAN",
-          "qty": 1,
-          "price": 5009.5,
-          "buy_price": 5009.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3957.0,
-          "buy_price": 3957.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-11 19:24:21",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "CIPLA",
-          "qty": 5,
-          "price": 1366.0,
-          "buy_price": 1366.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 23,
-      "n_sells": 23,
-      "feedback": "Day P&L \u20b9-10 on \u20b999380 deployed (-0.01%). Worst trade: HCLTECH (P&L \u20b9-36, -0.99%). Consider tighter stop on entries with weaker momentum scores. 23 EOD force-sells contributed \u20b9-10. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
-      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 75,
+    "total_days": 74,
     "winning_days": 41,
-    "losing_days": 30,
-    "total_realized_pnl": 1126.05,
+    "losing_days": 29,
+    "total_realized_pnl": 1135.65,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-08-03",
+        "note": "Day P&L \u20b9599 on \u20b995953 deployed (0.62%). Worst trade: WIPRO (P&L \u20b9-0, -0.02%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
       {
         "date": "2026-08-04",
         "note": "Day P&L \u20b972 on \u20b999735 deployed (0.07%). Worst trade: DLF (P&L \u20b9-70, -1.18%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -59709,10 +59899,6 @@
       {
         "date": "2026-09-10",
         "note": "Day P&L \u20b958 on \u20b998196 deployed (0.06%). Worst trade: COALINDIA (P&L \u20b9-9, -0.36%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
-      },
-      {
-        "date": "2026-09-11",
-        "note": "Day P&L \u20b9-10 on \u20b999380 deployed (-0.01%). Worst trade: HCLTECH (P&L \u20b9-36, -0.99%). Consider tighter stop on entries with weaker momentum scores. 23 EOD force-sells contributed \u20b9-10. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
       }
     ]
   }
