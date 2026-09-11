@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-11",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,27 @@
         "invested_today_after": 83583.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-09-11 18:32:45",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99380.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 13,
+        "time": "2026-09-11 19:08:44",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99380.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 23
       }
     ],
-    "invested_today": 83583.70010375977,
+    "invested_today": 99380.20010375977,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -405,6 +423,51 @@
           "rsi": 62.3,
           "vol_factor": 2.0,
           "score": 2.082
+        }
+      },
+      {
+        "symbol": "TITAN",
+        "qty": 1,
+        "buy_price": 5009.5,
+        "buy_time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "score_info": {
+          "last": 5009.5,
+          "mom_30m_pct": 0.856,
+          "intraday_pct": 0.12,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 2.319
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 5,
+        "buy_price": 1366.0,
+        "buy_time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "score_info": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
         }
       }
     ],
@@ -747,6 +810,57 @@
           "rsi": 62.3,
           "vol_factor": 2.0,
           "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TITAN",
+        "qty": 1,
+        "price": 5009.5,
+        "cost": 5009.5,
+        "score": {
+          "last": 5009.5,
+          "mom_30m_pct": 0.856,
+          "intraday_pct": 0.12,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 2.319
+        }
+      },
+      {
+        "time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3957.0,
+        "cost": 3957.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-11 18:32:45",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 5,
+        "price": 1366.0,
+        "cost": 6830.0,
+        "score": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
         }
       }
     ],
