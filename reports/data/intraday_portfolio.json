@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-11",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-11 13:49:32",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7005.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 7005.199951171875,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1038.9,
+        "buy_time": "2026-09-11 13:49:32",
+        "iteration": 1,
+        "score_info": {
+          "last": 1038.9,
+          "mom_30m_pct": -0.163,
+          "intraday_pct": 0.688,
+          "rsi": 44.0,
+          "vol_factor": 2.0,
+          "score": 0.961
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "buy_price": 2463.7,
+        "buy_time": "2026-09-11 13:49:32",
+        "iteration": 1,
+        "score_info": {
+          "last": 2463.7,
+          "mom_30m_pct": -0.118,
+          "intraday_pct": -0.989,
+          "rsi": 68.9,
+          "vol_factor": 2.0,
+          "score": 0.527
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-11 13:49:32",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1038.9,
+        "cost": 2077.8,
+        "score": {
+          "last": 1038.9,
+          "mom_30m_pct": -0.163,
+          "intraday_pct": 0.688,
+          "rsi": 44.0,
+          "vol_factor": 2.0,
+          "score": 0.961
+        }
+      },
+      {
+        "time": "2026-09-11 13:49:32",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 2,
+        "price": 2463.7,
+        "cost": 4927.4,
+        "score": {
+          "last": 2463.7,
+          "mom_30m_pct": -0.118,
+          "intraday_pct": -0.989,
+          "rsi": 68.9,
+          "vol_factor": 2.0,
+          "score": 0.527
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
