@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-11",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 14133.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-11 14:29:33",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 22370.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 14133.700073242188,
+    "invested_today": 22370.800079345703,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,51 @@
           "rsi": 69.3,
           "vol_factor": 1.0,
           "score": 0.872
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 304.6,
+        "buy_time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "score_info": {
+          "last": 304.6,
+          "mom_30m_pct": 1.146,
+          "intraday_pct": 0.445,
+          "rsi": 84.3,
+          "vol_factor": 2.0,
+          "score": 1.352
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1841.4,
+        "buy_time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "score_info": {
+          "last": 1841.4,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": 0.147,
+          "rsi": 46.2,
+          "vol_factor": 2.0,
+          "score": 1.215
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1218.1,
+        "buy_time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "score_info": {
+          "last": 1218.1,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 1.104,
+          "rsi": 49.7,
+          "vol_factor": 1.75,
+          "score": 1.103
         }
       }
     ],
@@ -186,6 +240,57 @@
           "rsi": 69.3,
           "vol_factor": 1.0,
           "score": 0.872
+        }
+      },
+      {
+        "time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 304.6,
+        "cost": 2741.4,
+        "score": {
+          "last": 304.6,
+          "mom_30m_pct": 1.146,
+          "intraday_pct": 0.445,
+          "rsi": 84.3,
+          "vol_factor": 2.0,
+          "score": 1.352
+        }
+      },
+      {
+        "time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1841.4,
+        "cost": 1841.4,
+        "score": {
+          "last": 1841.4,
+          "mom_30m_pct": 0.114,
+          "intraday_pct": 0.147,
+          "rsi": 46.2,
+          "vol_factor": 2.0,
+          "score": 1.215
+        }
+      },
+      {
+        "time": "2026-09-11 14:29:33",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1218.1,
+        "cost": 3654.3,
+        "score": {
+          "last": 1218.1,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 1.104,
+          "rsi": 49.7,
+          "vol_factor": 1.75,
+          "score": 1.103
         }
       }
     ],
