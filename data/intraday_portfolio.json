@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-11",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,27 @@
         "invested_today_after": 64882.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 10,
+        "time": "2026-09-11 17:50:59",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 75669.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 19
+      },
+      {
+        "iteration": 11,
+        "time": "2026-09-11 18:20:52",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 83583.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 64882.700103759766,
+    "invested_today": 83583.70010375977,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -342,6 +360,51 @@
           "rsi": 59.1,
           "vol_factor": 2.0,
           "score": 1.941
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-11 17:50:59",
+        "iteration": 10,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 5,
+        "buy_price": 1366.0,
+        "buy_time": "2026-09-11 17:50:59",
+        "iteration": 10,
+        "score_info": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 2,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-11 18:20:52",
+        "iteration": 11,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
         }
       }
     ],
@@ -633,6 +696,57 @@
           "rsi": 59.1,
           "vol_factor": 2.0,
           "score": 1.941
+        }
+      },
+      {
+        "time": "2026-09-11 17:50:59",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3957.0,
+        "cost": 3957.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-11 17:50:59",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 5,
+        "price": 1366.0,
+        "cost": 6830.0,
+        "score": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
+        }
+      },
+      {
+        "time": "2026-09-11 18:20:52",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 2,
+        "price": 3957.0,
+        "cost": 7914.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
         }
       }
     ],
