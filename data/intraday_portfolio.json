@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-11",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 22370.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-11 14:40:02",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 30439.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 22370.800079345703,
+    "invested_today": 30439.000030517578,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -153,6 +162,36 @@
           "rsi": 49.7,
           "vol_factor": 1.75,
           "score": 1.103
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 8,
+        "buy_price": 704.0,
+        "buy_time": "2026-09-11 14:40:02",
+        "iteration": 4,
+        "score_info": {
+          "last": 704.0,
+          "mom_30m_pct": 0.107,
+          "intraday_pct": 1.697,
+          "rsi": 75.0,
+          "vol_factor": 1.0,
+          "score": 0.669
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1218.1,
+        "buy_time": "2026-09-11 14:40:02",
+        "iteration": 4,
+        "score_info": {
+          "last": 1218.1,
+          "mom_30m_pct": -0.057,
+          "intraday_pct": 1.037,
+          "rsi": 58.8,
+          "vol_factor": 1.44,
+          "score": 0.662
         }
       }
     ],
@@ -291,6 +330,40 @@
           "rsi": 49.7,
           "vol_factor": 1.75,
           "score": 1.103
+        }
+      },
+      {
+        "time": "2026-09-11 14:40:02",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 8,
+        "price": 704.0,
+        "cost": 5632.0,
+        "score": {
+          "last": 704.0,
+          "mom_30m_pct": 0.107,
+          "intraday_pct": 1.697,
+          "rsi": 75.0,
+          "vol_factor": 1.0,
+          "score": 0.669
+        }
+      },
+      {
+        "time": "2026-09-11 14:40:02",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1218.1,
+        "cost": 2436.2,
+        "score": {
+          "last": 1218.1,
+          "mom_30m_pct": -0.057,
+          "intraday_pct": 1.037,
+          "rsi": 58.8,
+          "vol_factor": 1.44,
+          "score": 0.662
         }
       }
     ],
