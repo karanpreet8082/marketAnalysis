@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-11",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7005.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-11 14:15:04",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 14133.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 7005.199951171875,
+    "invested_today": 14133.700073242188,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,51 @@
           "rsi": 68.9,
           "vol_factor": 2.0,
           "score": 0.527
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "buy_price": 703.25,
+        "buy_time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "score_info": {
+          "last": 703.25,
+          "mom_30m_pct": 1.311,
+          "intraday_pct": 1.67,
+          "rsi": 84.9,
+          "vol_factor": 1.0,
+          "score": 0.967
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1541.9,
+        "buy_time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "score_info": {
+          "last": 1541.9,
+          "mom_30m_pct": 0.286,
+          "intraday_pct": 1.648,
+          "rsi": 55.5,
+          "vol_factor": 1.0,
+          "score": 0.924
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1386.8,
+        "buy_time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "score_info": {
+          "last": 1386.8,
+          "mom_30m_pct": 0.515,
+          "intraday_pct": 0.333,
+          "rsi": 69.3,
+          "vol_factor": 1.0,
+          "score": 0.872
         }
       }
     ],
@@ -81,6 +135,57 @@
           "rsi": 68.9,
           "vol_factor": 2.0,
           "score": 0.527
+        }
+      },
+      {
+        "time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 703.25,
+        "cost": 2813.0,
+        "score": {
+          "last": 703.25,
+          "mom_30m_pct": 1.311,
+          "intraday_pct": 1.67,
+          "rsi": 84.9,
+          "vol_factor": 1.0,
+          "score": 0.967
+        }
+      },
+      {
+        "time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1541.9,
+        "cost": 1541.9,
+        "score": {
+          "last": 1541.9,
+          "mom_30m_pct": 0.286,
+          "intraday_pct": 1.648,
+          "rsi": 55.5,
+          "vol_factor": 1.0,
+          "score": 0.924
+        }
+      },
+      {
+        "time": "2026-09-11 14:15:04",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1386.8,
+        "cost": 2773.6,
+        "score": {
+          "last": 1386.8,
+          "mom_30m_pct": 0.515,
+          "intraday_pct": 0.333,
+          "rsi": 69.3,
+          "vol_factor": 1.0,
+          "score": 0.872
         }
       }
     ],
