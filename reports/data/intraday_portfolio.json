@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-11",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 38725.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-11 15:29:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 46040.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 38725.700103759766,
+    "invested_today": 46040.700103759766,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -231,6 +240,36 @@
           "rsi": 47.8,
           "vol_factor": 2.0,
           "score": 1.184
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1173.0,
+        "buy_time": "2026-09-11 15:29:13",
+        "iteration": 6,
+        "score_info": {
+          "last": 1173.0,
+          "mom_30m_pct": 0.239,
+          "intraday_pct": 2.724,
+          "rsi": 48.0,
+          "vol_factor": 2.0,
+          "score": 2.176
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 4969.0,
+        "buy_time": "2026-09-11 15:29:13",
+        "iteration": 6,
+        "score_info": {
+          "last": 4969.0,
+          "mom_30m_pct": 0.76,
+          "intraday_pct": 0.965,
+          "rsi": 74.6,
+          "vol_factor": 1.0,
+          "score": 1.43
         }
       }
     ],
@@ -437,6 +476,40 @@
           "rsi": 47.8,
           "vol_factor": 2.0,
           "score": 1.184
+        }
+      },
+      {
+        "time": "2026-09-11 15:29:13",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1173.0,
+        "cost": 2346.0,
+        "score": {
+          "last": 1173.0,
+          "mom_30m_pct": 0.239,
+          "intraday_pct": 2.724,
+          "rsi": 48.0,
+          "vol_factor": 2.0,
+          "score": 2.176
+        }
+      },
+      {
+        "time": "2026-09-11 15:29:13",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 4969.0,
+        "cost": 4969.0,
+        "score": {
+          "last": 4969.0,
+          "mom_30m_pct": 0.76,
+          "intraday_pct": 0.965,
+          "rsi": 74.6,
+          "vol_factor": 1.0,
+          "score": 1.43
         }
       }
     ],
