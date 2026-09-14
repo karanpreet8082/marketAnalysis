@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-14",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 21866.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-14 15:38:02",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 25823.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-14 16:02:32",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 29780.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 21866.5,
+    "invested_today": 29780.5,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -93,6 +111,36 @@
           "rsi": 59.1,
           "vol_factor": 2.0,
           "score": 1.941
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-14 15:38:02",
+        "iteration": 4,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-14 16:02:32",
+        "iteration": 5,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
         }
       }
     ],
@@ -163,6 +211,40 @@
           "rsi": 59.1,
           "vol_factor": 2.0,
           "score": 1.941
+        }
+      },
+      {
+        "time": "2026-09-14 15:38:02",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3957.0,
+        "cost": 3957.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-14 16:02:32",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3957.0,
+        "cost": 3957.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
         }
       }
     ],
