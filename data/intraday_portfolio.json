@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-14",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 59127.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 10,
+        "time": "2026-09-14 19:54:31",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 72505.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 59127.5,
+    "invested_today": 72505.5,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -252,6 +261,36 @@
           "rsi": 62.3,
           "vol_factor": 2.0,
           "score": 2.082
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 2,
+        "buy_price": 3957.0,
+        "buy_time": "2026-09-14 19:54:31",
+        "iteration": 10,
+        "score_info": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 4,
+        "buy_price": 1366.0,
+        "buy_time": "2026-09-14 19:54:31",
+        "iteration": 10,
+        "score_info": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
         }
       }
     ],
@@ -441,6 +480,40 @@
           "rsi": 62.3,
           "vol_factor": 2.0,
           "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-14 19:54:31",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 2,
+        "price": 3957.0,
+        "cost": 7914.0,
+        "score": {
+          "last": 3957.0,
+          "mom_30m_pct": 0.636,
+          "intraday_pct": 0.426,
+          "rsi": 62.3,
+          "vol_factor": 2.0,
+          "score": 2.082
+        }
+      },
+      {
+        "time": "2026-09-14 19:54:31",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 4,
+        "price": 1366.0,
+        "cost": 5464.0,
+        "score": {
+          "last": 1366.0,
+          "mom_30m_pct": 0.685,
+          "intraday_pct": -0.292,
+          "rsi": 59.1,
+          "vol_factor": 2.0,
+          "score": 1.941
         }
       }
     ],
