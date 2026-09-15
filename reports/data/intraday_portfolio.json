@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-15",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 39352.54,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-15 15:54:14",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 47276.34,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 39352.539611816406,
+    "invested_today": 47276.33947753906,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -276,6 +285,51 @@
           "rsi": 36.8,
           "vol_factor": 1.0,
           "score": 1.133
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 12,
+        "buy_price": 235.95,
+        "buy_time": "2026-09-15 15:54:14",
+        "iteration": 6,
+        "score_info": {
+          "last": 235.95,
+          "mom_30m_pct": 0.928,
+          "intraday_pct": 1.028,
+          "rsi": 64.3,
+          "vol_factor": 2.0,
+          "score": 2.701
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 16,
+        "buy_price": 183.65,
+        "buy_time": "2026-09-15 15:54:14",
+        "iteration": 6,
+        "score_info": {
+          "last": 183.65,
+          "mom_30m_pct": 0.63,
+          "intraday_pct": 0.586,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 2.121
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1077.0,
+        "buy_time": "2026-09-15 15:54:14",
+        "iteration": 6,
+        "score_info": {
+          "last": 1077.0,
+          "mom_30m_pct": -0.074,
+          "intraday_pct": 3.757,
+          "rsi": 53.6,
+          "vol_factor": 2.0,
+          "score": 2.016
         }
       }
     ],
@@ -533,6 +587,57 @@
           "rsi": 36.8,
           "vol_factor": 1.0,
           "score": 1.133
+        }
+      },
+      {
+        "time": "2026-09-15 15:54:14",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 12,
+        "price": 235.95,
+        "cost": 2831.4,
+        "score": {
+          "last": 235.95,
+          "mom_30m_pct": 0.928,
+          "intraday_pct": 1.028,
+          "rsi": 64.3,
+          "vol_factor": 2.0,
+          "score": 2.701
+        }
+      },
+      {
+        "time": "2026-09-15 15:54:14",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 16,
+        "price": 183.65,
+        "cost": 2938.4,
+        "score": {
+          "last": 183.65,
+          "mom_30m_pct": 0.63,
+          "intraday_pct": 0.586,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 2.121
+        }
+      },
+      {
+        "time": "2026-09-15 15:54:14",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1077.0,
+        "cost": 2154.0,
+        "score": {
+          "last": 1077.0,
+          "mom_30m_pct": -0.074,
+          "intraday_pct": 3.757,
+          "rsi": 53.6,
+          "vol_factor": 2.0,
+          "score": 2.016
         }
       }
     ],
