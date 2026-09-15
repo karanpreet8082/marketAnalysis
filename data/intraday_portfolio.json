@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-15",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 24033.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-15 15:06:36",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 31277.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 24033.099670410156,
+    "invested_today": 31277.599670410156,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -168,6 +177,51 @@
           "rsi": 51.9,
           "vol_factor": 1.0,
           "score": 0.682
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1087.9,
+        "buy_time": "2026-09-15 15:06:36",
+        "iteration": 4,
+        "score_info": {
+          "last": 1087.9,
+          "mom_30m_pct": 0.184,
+          "intraday_pct": -2.114,
+          "rsi": 67.3,
+          "vol_factor": 2.0,
+          "score": 0.642
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1076.0,
+        "buy_time": "2026-09-15 15:06:36",
+        "iteration": 4,
+        "score_info": {
+          "last": 1076.0,
+          "mom_30m_pct": -0.019,
+          "intraday_pct": 3.701,
+          "rsi": 53.8,
+          "vol_factor": 0.54,
+          "score": 0.619
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1840.7,
+        "buy_time": "2026-09-15 15:06:36",
+        "iteration": 4,
+        "score_info": {
+          "last": 1840.7,
+          "mom_30m_pct": -0.087,
+          "intraday_pct": 0.354,
+          "rsi": 41.4,
+          "vol_factor": 0.99,
+          "score": -0.034
         }
       }
     ],
@@ -323,6 +377,57 @@
           "rsi": 51.9,
           "vol_factor": 1.0,
           "score": 0.682
+        }
+      },
+      {
+        "time": "2026-09-15 15:06:36",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1087.9,
+        "cost": 2175.8,
+        "score": {
+          "last": 1087.9,
+          "mom_30m_pct": 0.184,
+          "intraday_pct": -2.114,
+          "rsi": 67.3,
+          "vol_factor": 2.0,
+          "score": 0.642
+        }
+      },
+      {
+        "time": "2026-09-15 15:06:36",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1076.0,
+        "cost": 3228.0,
+        "score": {
+          "last": 1076.0,
+          "mom_30m_pct": -0.019,
+          "intraday_pct": 3.701,
+          "rsi": 53.8,
+          "vol_factor": 0.54,
+          "score": 0.619
+        }
+      },
+      {
+        "time": "2026-09-15 15:06:36",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1840.7,
+        "cost": 1840.7,
+        "score": {
+          "last": 1840.7,
+          "mom_30m_pct": -0.087,
+          "intraday_pct": 0.354,
+          "rsi": 41.4,
+          "vol_factor": 0.99,
+          "score": -0.034
         }
       }
     ],
