@@ -1,5 +1,228 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-15",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-15 14:29:06",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8050.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-15 14:47:18",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16195.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
+      }
+    ],
+    "invested_today": 16195.899719238281,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1075.2,
+        "buy_time": "2026-09-15 14:29:06",
+        "iteration": 1,
+        "score_info": {
+          "last": 1075.2,
+          "mom_30m_pct": 0.019,
+          "intraday_pct": 3.434,
+          "rsi": 56.8,
+          "vol_factor": 1.02,
+          "score": 1.075
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "buy_price": 717.3,
+        "buy_time": "2026-09-15 14:29:06",
+        "iteration": 1,
+        "score_info": {
+          "last": 717.3,
+          "mom_30m_pct": -0.077,
+          "intraday_pct": 2.457,
+          "rsi": 35.2,
+          "vol_factor": 1.04,
+          "score": 0.664
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1010.2,
+        "buy_time": "2026-09-15 14:29:06",
+        "iteration": 1,
+        "score_info": {
+          "last": 1010.2,
+          "mom_30m_pct": -0.217,
+          "intraday_pct": -2.036,
+          "rsi": 38.0,
+          "vol_factor": 2.0,
+          "score": 0.063
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1355.0,
+        "buy_time": "2026-09-15 14:47:18",
+        "iteration": 2,
+        "score_info": {
+          "last": 1355.0,
+          "mom_30m_pct": 0.14,
+          "intraday_pct": -0.353,
+          "rsi": 65.9,
+          "vol_factor": 2.0,
+          "score": 1.105
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1845.2,
+        "buy_time": "2026-09-15 14:47:18",
+        "iteration": 2,
+        "score_info": {
+          "last": 1845.2,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 0.386,
+          "rsi": 58.1,
+          "vol_factor": 1.57,
+          "score": 1.026
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 5,
+        "buy_price": 718.1,
+        "buy_time": "2026-09-15 14:47:18",
+        "iteration": 2,
+        "score_info": {
+          "last": 718.1,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 1.945,
+          "rsi": 52.0,
+          "vol_factor": 0.8,
+          "score": 0.97
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-15 14:29:06",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1075.2,
+        "cost": 2150.4,
+        "score": {
+          "last": 1075.2,
+          "mom_30m_pct": 0.019,
+          "intraday_pct": 3.434,
+          "rsi": 56.8,
+          "vol_factor": 1.02,
+          "score": 1.075
+        }
+      },
+      {
+        "time": "2026-09-15 14:29:06",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 717.3,
+        "cost": 2869.2,
+        "score": {
+          "last": 717.3,
+          "mom_30m_pct": -0.077,
+          "intraday_pct": 2.457,
+          "rsi": 35.2,
+          "vol_factor": 1.04,
+          "score": 0.664
+        }
+      },
+      {
+        "time": "2026-09-15 14:29:06",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1010.2,
+        "cost": 3030.6,
+        "score": {
+          "last": 1010.2,
+          "mom_30m_pct": -0.217,
+          "intraday_pct": -2.036,
+          "rsi": 38.0,
+          "vol_factor": 2.0,
+          "score": 0.063
+        }
+      },
+      {
+        "time": "2026-09-15 14:47:18",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1355.0,
+        "cost": 2710.0,
+        "score": {
+          "last": 1355.0,
+          "mom_30m_pct": 0.14,
+          "intraday_pct": -0.353,
+          "rsi": 65.9,
+          "vol_factor": 2.0,
+          "score": 1.105
+        }
+      },
+      {
+        "time": "2026-09-15 14:47:18",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1845.2,
+        "cost": 1845.2,
+        "score": {
+          "last": 1845.2,
+          "mom_30m_pct": 0.228,
+          "intraday_pct": 0.386,
+          "rsi": 58.1,
+          "vol_factor": 1.57,
+          "score": 1.026
+        }
+      },
+      {
+        "time": "2026-09-15 14:47:18",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 5,
+        "price": 718.1,
+        "cost": 3590.5,
+        "score": {
+          "last": 718.1,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 1.945,
+          "rsi": 52.0,
+          "vol_factor": 0.8,
+          "score": 0.97
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
