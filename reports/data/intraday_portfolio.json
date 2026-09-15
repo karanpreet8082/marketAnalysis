@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-15",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 31277.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-15 15:29:52",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 39352.54,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 31277.599670410156,
+    "invested_today": 39352.539611816406,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -222,6 +231,51 @@
           "rsi": 41.4,
           "vol_factor": 0.99,
           "score": -0.034
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 16,
+        "buy_price": 169.84,
+        "buy_time": "2026-09-15 15:29:52",
+        "iteration": 5,
+        "score_info": {
+          "last": 169.84,
+          "mom_30m_pct": 0.053,
+          "intraday_pct": 1.695,
+          "rsi": 43.6,
+          "vol_factor": 2.0,
+          "score": 1.588
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1577.5,
+        "buy_time": "2026-09-15 15:29:52",
+        "iteration": 5,
+        "score_info": {
+          "last": 1577.5,
+          "mom_30m_pct": -0.398,
+          "intraday_pct": 2.528,
+          "rsi": 36.1,
+          "vol_factor": 2.0,
+          "score": 1.162
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1260.0,
+        "buy_time": "2026-09-15 15:29:52",
+        "iteration": 5,
+        "score_info": {
+          "last": 1260.0,
+          "mom_30m_pct": -0.032,
+          "intraday_pct": 3.935,
+          "rsi": 36.8,
+          "vol_factor": 1.0,
+          "score": 1.133
         }
       }
     ],
@@ -428,6 +482,57 @@
           "rsi": 41.4,
           "vol_factor": 0.99,
           "score": -0.034
+        }
+      },
+      {
+        "time": "2026-09-15 15:29:52",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 16,
+        "price": 169.84,
+        "cost": 2717.44,
+        "score": {
+          "last": 169.84,
+          "mom_30m_pct": 0.053,
+          "intraday_pct": 1.695,
+          "rsi": 43.6,
+          "vol_factor": 2.0,
+          "score": 1.588
+        }
+      },
+      {
+        "time": "2026-09-15 15:29:52",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1577.5,
+        "cost": 1577.5,
+        "score": {
+          "last": 1577.5,
+          "mom_30m_pct": -0.398,
+          "intraday_pct": 2.528,
+          "rsi": 36.1,
+          "vol_factor": 2.0,
+          "score": 1.162
+        }
+      },
+      {
+        "time": "2026-09-15 15:29:52",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1260.0,
+        "cost": 3780.0,
+        "score": {
+          "last": 1260.0,
+          "mom_30m_pct": -0.032,
+          "intraday_pct": 3.935,
+          "rsi": 36.8,
+          "vol_factor": 1.0,
+          "score": 1.133
         }
       }
     ],
