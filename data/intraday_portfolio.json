@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-16",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,9 +111,18 @@
         "invested_today_after": 99497.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 33
+      },
+      {
+        "iteration": 13,
+        "time": "2026-09-16 19:44:34",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 99801.15,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 34
       }
     ],
-    "invested_today": 99497.80076599121,
+    "invested_today": 99801.15077209473,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -609,6 +618,21 @@
           "rsi": 69.6,
           "vol_factor": 2.0,
           "score": 1.959
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 1,
+        "buy_price": 303.35,
+        "buy_time": "2026-09-16 19:44:34",
+        "iteration": 13,
+        "score_info": {
+          "last": 303.35,
+          "mom_30m_pct": 0.714,
+          "intraday_pct": 0.664,
+          "rsi": 65.5,
+          "vol_factor": 1.71,
+          "score": 1.98
         }
       }
     ],
@@ -1172,6 +1196,23 @@
           "rsi": 69.6,
           "vol_factor": 2.0,
           "score": 1.959
+        }
+      },
+      {
+        "time": "2026-09-16 19:44:34",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 1,
+        "price": 303.35,
+        "cost": 303.35,
+        "score": {
+          "last": 303.35,
+          "mom_30m_pct": 0.714,
+          "intraday_pct": 0.664,
+          "rsi": 65.5,
+          "vol_factor": 1.71,
+          "score": 1.98
         }
       }
     ],
