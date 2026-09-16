@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-16",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 36698.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-16 15:46:00",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 45388.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 36698.099670410156,
+    "invested_today": 45388.2497253418,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -231,6 +240,51 @@
           "rsi": 52.0,
           "vol_factor": 2.0,
           "score": 1.192
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 303.35,
+        "buy_time": "2026-09-16 15:46:00",
+        "iteration": 6,
+        "score_info": {
+          "last": 303.35,
+          "mom_30m_pct": 0.714,
+          "intraday_pct": 0.664,
+          "rsi": 65.5,
+          "vol_factor": 1.71,
+          "score": 1.98
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 12,
+        "buy_price": 264.75,
+        "buy_time": "2026-09-16 15:46:00",
+        "iteration": 6,
+        "score_info": {
+          "last": 264.75,
+          "mom_30m_pct": 0.076,
+          "intraday_pct": 2.122,
+          "rsi": 64.0,
+          "vol_factor": 2.0,
+          "score": 1.75
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2783.0,
+        "buy_time": "2026-09-16 15:46:00",
+        "iteration": 6,
+        "score_info": {
+          "last": 2783.0,
+          "mom_30m_pct": 0.158,
+          "intraday_pct": 1.536,
+          "rsi": 49.9,
+          "vol_factor": 2.0,
+          "score": 1.698
         }
       }
     ],
@@ -437,6 +491,57 @@
           "rsi": 52.0,
           "vol_factor": 2.0,
           "score": 1.192
+        }
+      },
+      {
+        "time": "2026-09-16 15:46:00",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 303.35,
+        "cost": 2730.15,
+        "score": {
+          "last": 303.35,
+          "mom_30m_pct": 0.714,
+          "intraday_pct": 0.664,
+          "rsi": 65.5,
+          "vol_factor": 1.71,
+          "score": 1.98
+        }
+      },
+      {
+        "time": "2026-09-16 15:46:00",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 12,
+        "price": 264.75,
+        "cost": 3177.0,
+        "score": {
+          "last": 264.75,
+          "mom_30m_pct": 0.076,
+          "intraday_pct": 2.122,
+          "rsi": 64.0,
+          "vol_factor": 2.0,
+          "score": 1.75
+        }
+      },
+      {
+        "time": "2026-09-16 15:46:00",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2783.0,
+        "cost": 2783.0,
+        "score": {
+          "last": 2783.0,
+          "mom_30m_pct": 0.158,
+          "intraday_pct": 1.536,
+          "rsi": 49.9,
+          "vol_factor": 2.0,
+          "score": 1.698
         }
       }
     ],
