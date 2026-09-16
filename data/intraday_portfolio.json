@@ -1,5 +1,228 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-16",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-16 14:21:27",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8307.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-16 14:40:14",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16398.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
+      }
+    ],
+    "invested_today": 16398.799926757812,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1246.1,
+        "buy_time": "2026-09-16 14:21:27",
+        "iteration": 1,
+        "score_info": {
+          "last": 1246.1,
+          "mom_30m_pct": 0.096,
+          "intraday_pct": 0.468,
+          "rsi": 54.5,
+          "vol_factor": 2.0,
+          "score": 1.285
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 949.4,
+        "buy_time": "2026-09-16 14:21:27",
+        "iteration": 1,
+        "score_info": {
+          "last": 949.4,
+          "mom_30m_pct": 0.444,
+          "intraday_pct": -1.166,
+          "rsi": 50.8,
+          "vol_factor": 1.47,
+          "score": 0.79
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 3,
+        "buy_price": 988.9,
+        "buy_time": "2026-09-16 14:21:27",
+        "iteration": 1,
+        "score_info": {
+          "last": 988.9,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 1.394,
+          "rsi": 55.6,
+          "vol_factor": 0.46,
+          "score": 0.167
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1853.7,
+        "buy_time": "2026-09-16 14:40:14",
+        "iteration": 2,
+        "score_info": {
+          "last": 1853.7,
+          "mom_30m_pct": 0.319,
+          "intraday_pct": 0.619,
+          "rsi": 70.8,
+          "vol_factor": 1.0,
+          "score": 0.665
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 5,
+        "buy_price": 720.0,
+        "buy_time": "2026-09-16 14:40:14",
+        "iteration": 2,
+        "score_info": {
+          "last": 720.0,
+          "mom_30m_pct": 0.244,
+          "intraday_pct": 0.174,
+          "rsi": 66.0,
+          "vol_factor": 1.0,
+          "score": 0.418
+        }
+      },
+      {
+        "symbol": "ITC",
+        "qty": 10,
+        "buy_price": 263.8,
+        "buy_time": "2026-09-16 14:40:14",
+        "iteration": 2,
+        "score_info": {
+          "last": 263.8,
+          "mom_30m_pct": -0.038,
+          "intraday_pct": 1.559,
+          "rsi": 55.8,
+          "vol_factor": 1.0,
+          "score": 0.411
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-16 14:21:27",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1246.1,
+        "cost": 2492.2,
+        "score": {
+          "last": 1246.1,
+          "mom_30m_pct": 0.096,
+          "intraday_pct": 0.468,
+          "rsi": 54.5,
+          "vol_factor": 2.0,
+          "score": 1.285
+        }
+      },
+      {
+        "time": "2026-09-16 14:21:27",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 949.4,
+        "cost": 2848.2,
+        "score": {
+          "last": 949.4,
+          "mom_30m_pct": 0.444,
+          "intraday_pct": -1.166,
+          "rsi": 50.8,
+          "vol_factor": 1.47,
+          "score": 0.79
+        }
+      },
+      {
+        "time": "2026-09-16 14:21:27",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 3,
+        "price": 988.9,
+        "cost": 2966.7,
+        "score": {
+          "last": 988.9,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 1.394,
+          "rsi": 55.6,
+          "vol_factor": 0.46,
+          "score": 0.167
+        }
+      },
+      {
+        "time": "2026-09-16 14:40:14",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1853.7,
+        "cost": 1853.7,
+        "score": {
+          "last": 1853.7,
+          "mom_30m_pct": 0.319,
+          "intraday_pct": 0.619,
+          "rsi": 70.8,
+          "vol_factor": 1.0,
+          "score": 0.665
+        }
+      },
+      {
+        "time": "2026-09-16 14:40:14",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 5,
+        "price": 720.0,
+        "cost": 3600.0,
+        "score": {
+          "last": 720.0,
+          "mom_30m_pct": 0.244,
+          "intraday_pct": 0.174,
+          "rsi": 66.0,
+          "vol_factor": 1.0,
+          "score": 0.418
+        }
+      },
+      {
+        "time": "2026-09-16 14:40:14",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 10,
+        "price": 263.8,
+        "cost": 2638.0,
+        "score": {
+          "last": 263.8,
+          "mom_30m_pct": -0.038,
+          "intraday_pct": 1.559,
+          "rsi": 55.8,
+          "vol_factor": 1.0,
+          "score": 0.411
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
