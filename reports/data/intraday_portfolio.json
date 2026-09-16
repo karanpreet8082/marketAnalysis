@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-16",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 23274.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-16 15:02:02",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 30888.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 23274.499877929688,
+    "invested_today": 30888.899780273438,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -153,6 +162,36 @@
           "rsi": 53.6,
           "vol_factor": 2.0,
           "score": 0.897
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "buy_price": 1966.2,
+        "buy_time": "2026-09-16 15:02:02",
+        "iteration": 4,
+        "score_info": {
+          "last": 1966.2,
+          "mom_30m_pct": -0.066,
+          "intraday_pct": 0.65,
+          "rsi": 45.3,
+          "vol_factor": 2.0,
+          "score": 1.096
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "buy_price": 1841.0,
+        "buy_time": "2026-09-16 15:02:02",
+        "iteration": 4,
+        "score_info": {
+          "last": 1841.0,
+          "mom_30m_pct": 0.043,
+          "intraday_pct": -0.974,
+          "rsi": 46.3,
+          "vol_factor": 2.0,
+          "score": 0.773
         }
       }
     ],
@@ -291,6 +330,40 @@
           "rsi": 53.6,
           "vol_factor": 2.0,
           "score": 0.897
+        }
+      },
+      {
+        "time": "2026-09-16 15:02:02",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "price": 1966.2,
+        "cost": 3932.4,
+        "score": {
+          "last": 1966.2,
+          "mom_30m_pct": -0.066,
+          "intraday_pct": 0.65,
+          "rsi": 45.3,
+          "vol_factor": 2.0,
+          "score": 1.096
+        }
+      },
+      {
+        "time": "2026-09-16 15:02:02",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 2,
+        "price": 1841.0,
+        "cost": 3682.0,
+        "score": {
+          "last": 1841.0,
+          "mom_30m_pct": 0.043,
+          "intraday_pct": -0.974,
+          "rsi": 46.3,
+          "vol_factor": 2.0,
+          "score": 0.773
         }
       }
     ],
