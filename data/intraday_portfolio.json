@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-16",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,18 +102,9 @@
         "invested_today_after": 90108.35,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 30
-      },
-      {
-        "iteration": 12,
-        "time": "2026-09-16 19:16:25",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 99497.8,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 33
       }
     ],
-    "invested_today": 99497.80076599121,
+    "invested_today": 90108.3505859375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -557,51 +548,6 @@
         "buy_price": 991.4,
         "buy_time": "2026-09-16 19:02:20",
         "iteration": 11,
-        "score_info": {
-          "last": 991.4,
-          "mom_30m_pct": 0.253,
-          "intraday_pct": 1.933,
-          "rsi": 69.6,
-          "vol_factor": 2.0,
-          "score": 1.959
-        }
-      },
-      {
-        "symbol": "ONGC",
-        "qty": 13,
-        "buy_price": 236.8,
-        "buy_time": "2026-09-16 19:16:25",
-        "iteration": 12,
-        "score_info": {
-          "last": 236.8,
-          "mom_30m_pct": 0.86,
-          "intraday_pct": 1.305,
-          "rsi": 73.4,
-          "vol_factor": 2.0,
-          "score": 2.682
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 11,
-        "buy_price": 303.35,
-        "buy_time": "2026-09-16 19:16:25",
-        "iteration": 12,
-        "score_info": {
-          "last": 303.35,
-          "mom_30m_pct": 0.714,
-          "intraday_pct": 0.664,
-          "rsi": 65.5,
-          "vol_factor": 1.71,
-          "score": 1.98
-        }
-      },
-      {
-        "symbol": "SBIN",
-        "qty": 3,
-        "buy_price": 991.4,
-        "buy_time": "2026-09-16 19:16:25",
-        "iteration": 12,
         "score_info": {
           "last": 991.4,
           "mom_30m_pct": 0.253,
@@ -1109,57 +1055,6 @@
       {
         "time": "2026-09-16 19:02:20",
         "iteration": 11,
-        "action": "BUY",
-        "symbol": "SBIN",
-        "qty": 3,
-        "price": 991.4,
-        "cost": 2974.2,
-        "score": {
-          "last": 991.4,
-          "mom_30m_pct": 0.253,
-          "intraday_pct": 1.933,
-          "rsi": 69.6,
-          "vol_factor": 2.0,
-          "score": 1.959
-        }
-      },
-      {
-        "time": "2026-09-16 19:16:25",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "ONGC",
-        "qty": 13,
-        "price": 236.8,
-        "cost": 3078.4,
-        "score": {
-          "last": 236.8,
-          "mom_30m_pct": 0.86,
-          "intraday_pct": 1.305,
-          "rsi": 73.4,
-          "vol_factor": 2.0,
-          "score": 2.682
-        }
-      },
-      {
-        "time": "2026-09-16 19:16:25",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 11,
-        "price": 303.35,
-        "cost": 3336.85,
-        "score": {
-          "last": 303.35,
-          "mom_30m_pct": 0.714,
-          "intraday_pct": 0.664,
-          "rsi": 65.5,
-          "vol_factor": 1.71,
-          "score": 1.98
-        }
-      },
-      {
-        "time": "2026-09-16 19:16:25",
-        "iteration": 12,
         "action": "BUY",
         "symbol": "SBIN",
         "qty": 3,
