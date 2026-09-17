@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-17",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,27 @@
         "invested_today_after": 71940.35,
         "realized_pnl_today_after": 37.1,
         "open_positions_after": 22
+      },
+      {
+        "iteration": 10,
+        "time": "2026-09-17 18:16:59",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 81010.85,
+        "realized_pnl_today_after": 37.1,
+        "open_positions_after": 25
+      },
+      {
+        "iteration": 11,
+        "time": "2026-09-17 19:00:52",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 90384.05,
+        "realized_pnl_today_after": 37.1,
+        "open_positions_after": 28
       }
     ],
-    "invested_today": 71940.35118103027,
+    "invested_today": 90384.0516204834,
     "realized_pnl_today": 37.100058593749964,
     "open_positions": [
       {
@@ -410,6 +428,96 @@
         "buy_price": 1867.3,
         "buy_time": "2026-09-17 18:03:26",
         "iteration": 9,
+        "score_info": {
+          "last": 1867.3,
+          "mom_30m_pct": 0.436,
+          "intraday_pct": 0.755,
+          "rsi": 71.6,
+          "vol_factor": 1.88,
+          "score": 1.765
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1561.0,
+        "buy_time": "2026-09-17 18:16:59",
+        "iteration": 10,
+        "score_info": {
+          "last": 1561.0,
+          "mom_30m_pct": 0.502,
+          "intraday_pct": 0.632,
+          "rsi": 60.6,
+          "vol_factor": 2.0,
+          "score": 1.943
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1258.3,
+        "buy_time": "2026-09-17 18:16:59",
+        "iteration": 10,
+        "score_info": {
+          "last": 1258.3,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 0.809,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.829
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "buy_price": 1867.3,
+        "buy_time": "2026-09-17 18:16:59",
+        "iteration": 10,
+        "score_info": {
+          "last": 1867.3,
+          "mom_30m_pct": 0.436,
+          "intraday_pct": 0.755,
+          "rsi": 71.6,
+          "vol_factor": 1.88,
+          "score": 1.765
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1561.0,
+        "buy_time": "2026-09-17 19:00:52",
+        "iteration": 11,
+        "score_info": {
+          "last": 1561.0,
+          "mom_30m_pct": 0.502,
+          "intraday_pct": 0.632,
+          "rsi": 60.6,
+          "vol_factor": 2.0,
+          "score": 1.943
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1258.3,
+        "buy_time": "2026-09-17 19:00:52",
+        "iteration": 11,
+        "score_info": {
+          "last": 1258.3,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 0.809,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.829
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "buy_price": 1867.3,
+        "buy_time": "2026-09-17 19:00:52",
+        "iteration": 11,
         "score_info": {
           "last": 1867.3,
           "mom_30m_pct": 0.436,
@@ -839,6 +947,108 @@
       {
         "time": "2026-09-17 18:03:26",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "price": 1867.3,
+        "cost": 3734.6,
+        "score": {
+          "last": 1867.3,
+          "mom_30m_pct": 0.436,
+          "intraday_pct": 0.755,
+          "rsi": 71.6,
+          "vol_factor": 1.88,
+          "score": 1.765
+        }
+      },
+      {
+        "time": "2026-09-17 18:16:59",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1561.0,
+        "cost": 1561.0,
+        "score": {
+          "last": 1561.0,
+          "mom_30m_pct": 0.502,
+          "intraday_pct": 0.632,
+          "rsi": 60.6,
+          "vol_factor": 2.0,
+          "score": 1.943
+        }
+      },
+      {
+        "time": "2026-09-17 18:16:59",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1258.3,
+        "cost": 3774.9,
+        "score": {
+          "last": 1258.3,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 0.809,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.829
+        }
+      },
+      {
+        "time": "2026-09-17 18:16:59",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "price": 1867.3,
+        "cost": 3734.6,
+        "score": {
+          "last": 1867.3,
+          "mom_30m_pct": 0.436,
+          "intraday_pct": 0.755,
+          "rsi": 71.6,
+          "vol_factor": 1.88,
+          "score": 1.765
+        }
+      },
+      {
+        "time": "2026-09-17 19:00:52",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1561.0,
+        "cost": 3122.0,
+        "score": {
+          "last": 1561.0,
+          "mom_30m_pct": 0.502,
+          "intraday_pct": 0.632,
+          "rsi": 60.6,
+          "vol_factor": 2.0,
+          "score": 1.943
+        }
+      },
+      {
+        "time": "2026-09-17 19:00:52",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1258.3,
+        "cost": 2516.6,
+        "score": {
+          "last": 1258.3,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 0.809,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.829
+        }
+      },
+      {
+        "time": "2026-09-17 19:00:52",
+        "iteration": 11,
         "action": "BUY",
         "symbol": "SUNPHARMA",
         "qty": 2,
