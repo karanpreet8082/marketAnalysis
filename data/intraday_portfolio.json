@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-17",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,10 +48,19 @@
         "invested_today_after": 37525.65,
         "realized_pnl_today_after": 60.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-17 15:53:44",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 44728.85,
+        "realized_pnl_today_after": 37.1,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 37525.6502532959,
-    "realized_pnl_today": 60.000058593750055,
+    "invested_today": 44728.8504486084,
+    "realized_pnl_today": 37.100058593749964,
     "open_positions": [
       {
         "symbol": "DLF",
@@ -144,21 +153,6 @@
         }
       },
       {
-        "symbol": "TCS",
-        "qty": 1,
-        "buy_price": 2212.9,
-        "buy_time": "2026-09-17 15:02:27",
-        "iteration": 3,
-        "score_info": {
-          "last": 2212.9,
-          "mom_30m_pct": 0.88,
-          "intraday_pct": 1.254,
-          "rsi": 59.0,
-          "vol_factor": 0.74,
-          "score": 1.436
-        }
-      },
-      {
         "symbol": "TATASTEEL",
         "qty": 15,
         "buy_price": 187.48,
@@ -216,6 +210,51 @@
           "rsi": 70.5,
           "vol_factor": 2.0,
           "score": 1.327
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1561.0,
+        "buy_time": "2026-09-17 15:53:44",
+        "iteration": 6,
+        "score_info": {
+          "last": 1561.0,
+          "mom_30m_pct": 0.502,
+          "intraday_pct": 0.632,
+          "rsi": 60.6,
+          "vol_factor": 2.0,
+          "score": 1.943
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1258.3,
+        "buy_time": "2026-09-17 15:53:44",
+        "iteration": 6,
+        "score_info": {
+          "last": 1258.3,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 0.809,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.829
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1867.3,
+        "buy_time": "2026-09-17 15:53:44",
+        "iteration": 6,
+        "score_info": {
+          "last": 1867.3,
+          "mom_30m_pct": 0.436,
+          "intraday_pct": 0.755,
+          "rsi": 71.6,
+          "vol_factor": 1.88,
+          "score": 1.765
         }
       }
     ],
@@ -434,6 +473,69 @@
           "rsi": 70.5,
           "vol_factor": 2.0,
           "score": 1.327
+        }
+      },
+      {
+        "time": "2026-09-17 15:53:44",
+        "iteration": 6,
+        "action": "SELL",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2190.0,
+        "buy_price": 2212.9,
+        "pnl": -22.9,
+        "pnl_pct": -1.03,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-09-17 15:53:44",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1561.0,
+        "cost": 1561.0,
+        "score": {
+          "last": 1561.0,
+          "mom_30m_pct": 0.502,
+          "intraday_pct": 0.632,
+          "rsi": 60.6,
+          "vol_factor": 2.0,
+          "score": 1.943
+        }
+      },
+      {
+        "time": "2026-09-17 15:53:44",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1258.3,
+        "cost": 3774.9,
+        "score": {
+          "last": 1258.3,
+          "mom_30m_pct": 0.391,
+          "intraday_pct": 0.809,
+          "rsi": 67.5,
+          "vol_factor": 2.0,
+          "score": 1.829
+        }
+      },
+      {
+        "time": "2026-09-17 15:53:44",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1867.3,
+        "cost": 1867.3,
+        "score": {
+          "last": 1867.3,
+          "mom_30m_pct": 0.436,
+          "intraday_pct": 0.755,
+          "rsi": 71.6,
+          "vol_factor": 1.88,
+          "score": 1.765
         }
       }
     ],
