@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-17",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13684.6,
         "realized_pnl_today_after": 60.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-17 15:02:27",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 21469.85,
+        "realized_pnl_today_after": 60.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 13684.600158691406,
+    "invested_today": 21469.850219726562,
     "realized_pnl_today": 60.000058593750055,
     "open_positions": [
       {
@@ -84,6 +93,51 @@
           "rsi": 63.8,
           "vol_factor": 2.0,
           "score": 1.873
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "buy_price": 187.57,
+        "buy_time": "2026-09-17 15:02:27",
+        "iteration": 3,
+        "score_info": {
+          "last": 187.57,
+          "mom_30m_pct": 1.631,
+          "intraday_pct": 2.497,
+          "rsi": 72.7,
+          "vol_factor": 0.31,
+          "score": 2.505
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1379.4,
+        "buy_time": "2026-09-17 15:02:27",
+        "iteration": 3,
+        "score_info": {
+          "last": 1379.4,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.726,
+          "rsi": 60.0,
+          "vol_factor": 2.0,
+          "score": 1.55
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2212.9,
+        "buy_time": "2026-09-17 15:02:27",
+        "iteration": 3,
+        "score_info": {
+          "last": 2212.9,
+          "mom_30m_pct": 0.88,
+          "intraday_pct": 1.254,
+          "rsi": 59.0,
+          "vol_factor": 0.74,
+          "score": 1.436
         }
       }
     ],
@@ -183,6 +237,57 @@
           "rsi": 63.8,
           "vol_factor": 2.0,
           "score": 1.873
+        }
+      },
+      {
+        "time": "2026-09-17 15:02:27",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "price": 187.57,
+        "cost": 2813.55,
+        "score": {
+          "last": 187.57,
+          "mom_30m_pct": 1.631,
+          "intraday_pct": 2.497,
+          "rsi": 72.7,
+          "vol_factor": 0.31,
+          "score": 2.505
+        }
+      },
+      {
+        "time": "2026-09-17 15:02:27",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1379.4,
+        "cost": 2758.8,
+        "score": {
+          "last": 1379.4,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.726,
+          "rsi": 60.0,
+          "vol_factor": 2.0,
+          "score": 1.55
+        }
+      },
+      {
+        "time": "2026-09-17 15:02:27",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2212.9,
+        "cost": 2212.9,
+        "score": {
+          "last": 2212.9,
+          "mom_30m_pct": 0.88,
+          "intraday_pct": 1.254,
+          "rsi": 59.0,
+          "vol_factor": 0.74,
+          "score": 1.436
         }
       }
     ],
