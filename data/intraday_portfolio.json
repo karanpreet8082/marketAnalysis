@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-18",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 23770.15,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-18 14:43:07",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 31945.85,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 23770.150024414062,
+    "invested_today": 31945.850036621094,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -168,6 +177,36 @@
           "rsi": 67.9,
           "vol_factor": 1.51,
           "score": 1.234
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1272.2,
+        "buy_time": "2026-09-18 14:43:07",
+        "iteration": 4,
+        "score_info": {
+          "last": 1272.2,
+          "mom_30m_pct": 0.197,
+          "intraday_pct": 1.654,
+          "rsi": 71.0,
+          "vol_factor": 2.0,
+          "score": 1.792
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 18,
+        "buy_price": 312.85,
+        "buy_time": "2026-09-18 14:43:07",
+        "iteration": 4,
+        "score_info": {
+          "last": 312.85,
+          "mom_30m_pct": 0.24,
+          "intraday_pct": 1.69,
+          "rsi": 72.1,
+          "vol_factor": 0.97,
+          "score": 0.841
         }
       }
     ],
@@ -323,6 +362,40 @@
           "rsi": 67.9,
           "vol_factor": 1.51,
           "score": 1.234
+        }
+      },
+      {
+        "time": "2026-09-18 14:43:07",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1272.2,
+        "cost": 2544.4,
+        "score": {
+          "last": 1272.2,
+          "mom_30m_pct": 0.197,
+          "intraday_pct": 1.654,
+          "rsi": 71.0,
+          "vol_factor": 2.0,
+          "score": 1.792
+        }
+      },
+      {
+        "time": "2026-09-18 14:43:07",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 18,
+        "price": 312.85,
+        "cost": 5631.3,
+        "score": {
+          "last": 312.85,
+          "mom_30m_pct": 0.24,
+          "intraday_pct": 1.69,
+          "rsi": 72.1,
+          "vol_factor": 0.97,
+          "score": 0.841
         }
       }
     ],
