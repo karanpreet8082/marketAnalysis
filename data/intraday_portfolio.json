@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-18",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7801.65,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-18 14:23:50",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16086.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 7801.650146484375,
+    "invested_today": 16086.949951171875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,51 @@
           "rsi": 34.6,
           "vol_factor": 1.0,
           "score": 0.521
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "buy_price": 964.0,
+        "buy_time": "2026-09-18 14:23:50",
+        "iteration": 2,
+        "score_info": {
+          "last": 964.0,
+          "mom_30m_pct": 0.26,
+          "intraday_pct": 0.479,
+          "rsi": 50.6,
+          "vol_factor": 2.0,
+          "score": 1.534
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 651.6,
+        "buy_time": "2026-09-18 14:23:50",
+        "iteration": 2,
+        "score_info": {
+          "last": 651.6,
+          "mom_30m_pct": 0.254,
+          "intraday_pct": 1.662,
+          "rsi": 63.0,
+          "vol_factor": 1.4,
+          "score": 1.279
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1033.1,
+        "buy_time": "2026-09-18 14:23:50",
+        "iteration": 2,
+        "score_info": {
+          "last": 1033.1,
+          "mom_30m_pct": 0.594,
+          "intraday_pct": 1.994,
+          "rsi": 85.9,
+          "vol_factor": 1.92,
+          "score": 0.909
         }
       }
     ],
@@ -113,6 +167,57 @@
           "rsi": 34.6,
           "vol_factor": 1.0,
           "score": 0.521
+        }
+      },
+      {
+        "time": "2026-09-18 14:23:50",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 2,
+        "price": 964.0,
+        "cost": 1928.0,
+        "score": {
+          "last": 964.0,
+          "mom_30m_pct": 0.26,
+          "intraday_pct": 0.479,
+          "rsi": 50.6,
+          "vol_factor": 2.0,
+          "score": 1.534
+        }
+      },
+      {
+        "time": "2026-09-18 14:23:50",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 651.6,
+        "cost": 3258.0,
+        "score": {
+          "last": 651.6,
+          "mom_30m_pct": 0.254,
+          "intraday_pct": 1.662,
+          "rsi": 63.0,
+          "vol_factor": 1.4,
+          "score": 1.279
+        }
+      },
+      {
+        "time": "2026-09-18 14:23:50",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1033.1,
+        "cost": 3099.3,
+        "score": {
+          "last": 1033.1,
+          "mom_30m_pct": 0.594,
+          "intraday_pct": 1.994,
+          "rsi": 85.9,
+          "vol_factor": 1.92,
+          "score": 0.909
         }
       }
     ],
