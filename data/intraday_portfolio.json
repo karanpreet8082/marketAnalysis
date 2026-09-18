@@ -1,5 +1,123 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-18",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-18 14:00:39",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7801.65,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 7801.650146484375,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "BPCL",
+        "qty": 8,
+        "buy_price": 312.2,
+        "buy_time": "2026-09-18 14:00:39",
+        "iteration": 1,
+        "score_info": {
+          "last": 312.2,
+          "mom_30m_pct": 0.225,
+          "intraday_pct": 1.694,
+          "rsi": 67.3,
+          "vol_factor": 1.0,
+          "score": 0.845
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "buy_price": 417.75,
+        "buy_time": "2026-09-18 14:00:39",
+        "iteration": 1,
+        "score_info": {
+          "last": 417.75,
+          "mom_30m_pct": 0.288,
+          "intraday_pct": 0.808,
+          "rsi": 63.2,
+          "vol_factor": 1.0,
+          "score": 0.675
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1189.9,
+        "buy_time": "2026-09-18 14:00:39",
+        "iteration": 1,
+        "score_info": {
+          "last": 1189.9,
+          "mom_30m_pct": 0.042,
+          "intraday_pct": 1.527,
+          "rsi": 34.6,
+          "vol_factor": 1.0,
+          "score": 0.521
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-18 14:00:39",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 8,
+        "price": 312.2,
+        "cost": 2497.6,
+        "score": {
+          "last": 312.2,
+          "mom_30m_pct": 0.225,
+          "intraday_pct": 1.694,
+          "rsi": 67.3,
+          "vol_factor": 1.0,
+          "score": 0.845
+        }
+      },
+      {
+        "time": "2026-09-18 14:00:39",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 7,
+        "price": 417.75,
+        "cost": 2924.25,
+        "score": {
+          "last": 417.75,
+          "mom_30m_pct": 0.288,
+          "intraday_pct": 0.808,
+          "rsi": 63.2,
+          "vol_factor": 1.0,
+          "score": 0.675
+        }
+      },
+      {
+        "time": "2026-09-18 14:00:39",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1189.9,
+        "cost": 2379.8,
+        "score": {
+          "last": 1189.9,
+          "mom_30m_pct": 0.042,
+          "intraday_pct": 1.527,
+          "rsi": 34.6,
+          "vol_factor": 1.0,
+          "score": 0.521
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
