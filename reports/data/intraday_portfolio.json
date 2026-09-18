@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-18",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 60965.05,
         "realized_pnl_today_after": -8.2,
         "open_positions_after": 18
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-18 17:41:38",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 70664.45,
+        "realized_pnl_today_after": -8.2,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 60965.050231933594,
+    "invested_today": 70664.45037841797,
     "realized_pnl_today": -8.200073242187614,
     "open_positions": [
       {
@@ -341,6 +350,51 @@
         "buy_price": 1893.3,
         "buy_time": "2026-09-18 17:08:12",
         "iteration": 8,
+        "score_info": {
+          "last": 1893.3,
+          "mom_30m_pct": 2.724,
+          "intraday_pct": 3.205,
+          "rsi": 85.3,
+          "vol_factor": 2.0,
+          "score": 4.547
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1132.4,
+        "buy_time": "2026-09-18 17:41:38",
+        "iteration": 9,
+        "score_info": {
+          "last": 1132.4,
+          "mom_30m_pct": 3.378,
+          "intraday_pct": 3.633,
+          "rsi": 87.5,
+          "vol_factor": 2.0,
+          "score": 5.657
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "buy_price": 1824.0,
+        "buy_time": "2026-09-18 17:41:38",
+        "iteration": 9,
+        "score_info": {
+          "last": 1824.0,
+          "mom_30m_pct": 2.633,
+          "intraday_pct": 5.251,
+          "rsi": 81.5,
+          "vol_factor": 2.0,
+          "score": 5.025
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 1893.3,
+        "buy_time": "2026-09-18 17:41:38",
+        "iteration": 9,
         "score_info": {
           "last": 1893.3,
           "mom_30m_pct": 2.724,
@@ -736,6 +790,57 @@
         "qty": 1,
         "price": 1893.3,
         "cost": 1893.3,
+        "score": {
+          "last": 1893.3,
+          "mom_30m_pct": 2.724,
+          "intraday_pct": 3.205,
+          "rsi": 85.3,
+          "vol_factor": 2.0,
+          "score": 4.547
+        }
+      },
+      {
+        "time": "2026-09-18 17:41:38",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1132.4,
+        "cost": 2264.8,
+        "score": {
+          "last": 1132.4,
+          "mom_30m_pct": 3.378,
+          "intraday_pct": 3.633,
+          "rsi": 87.5,
+          "vol_factor": 2.0,
+          "score": 5.657
+        }
+      },
+      {
+        "time": "2026-09-18 17:41:38",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "price": 1824.0,
+        "cost": 3648.0,
+        "score": {
+          "last": 1824.0,
+          "mom_30m_pct": 2.633,
+          "intraday_pct": 5.251,
+          "rsi": 81.5,
+          "vol_factor": 2.0,
+          "score": 5.025
+        }
+      },
+      {
+        "time": "2026-09-18 17:41:38",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 1893.3,
+        "cost": 3786.6,
         "score": {
           "last": 1893.3,
           "mom_30m_pct": 2.724,
