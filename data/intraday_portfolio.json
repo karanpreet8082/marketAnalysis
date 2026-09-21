@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-21",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 18337.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-21 15:43:20",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 24139.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 18337.800048828125,
+    "invested_today": 24139.0,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -123,6 +132,36 @@
           "rsi": 55.3,
           "vol_factor": 2.0,
           "score": 1.398
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 15:43:20",
+        "iteration": 4,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 15:43:20",
+        "iteration": 4,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
         }
       }
     ],
@@ -227,6 +266,40 @@
           "rsi": 55.3,
           "vol_factor": 2.0,
           "score": 1.398
+        }
+      },
+      {
+        "time": "2026-09-21 15:43:20",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1555.0,
+        "cost": 3110.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 15:43:20",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1345.6,
+        "cost": 2691.2,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
         }
       }
     ],
