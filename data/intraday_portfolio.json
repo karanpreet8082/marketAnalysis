@@ -1,5 +1,1127 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-21",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-21 14:48:44",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7701.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-21 15:15:54",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 13292.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-21 15:34:59",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 18337.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-21 15:43:20",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 24139.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-21 16:07:44",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 29940.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-21 16:34:09",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 37087.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-09-21 18:09:52",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 47976.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 8,
+        "time": "2026-09-21 18:39:47",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 57519.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 18
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-21 19:26:12",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 67062.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 21
+      },
+      {
+        "iteration": 10,
+        "time": "2026-09-21 20:02:19",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 76774.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 24
+      },
+      {
+        "iteration": 11,
+        "time": "2026-09-21 20:37:55",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 87663.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 27
+      },
+      {
+        "iteration": 12,
+        "time": "2026-09-21 20:51:46",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99633.63,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 30
+      },
+      {
+        "iteration": 13,
+        "time": "2026-09-21 21:26:39",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 99869.26,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 31
+      }
+    ],
+    "invested_today": 99869.26013183594,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ITC",
+        "qty": 10,
+        "buy_price": 267.7,
+        "buy_time": "2026-09-21 14:48:44",
+        "iteration": 1,
+        "score_info": {
+          "last": 267.7,
+          "mom_30m_pct": 0.168,
+          "intraday_pct": 1.152,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 1.598
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5024.0,
+        "buy_time": "2026-09-21 14:48:44",
+        "iteration": 1,
+        "score_info": {
+          "last": 5024.0,
+          "mom_30m_pct": 0.07,
+          "intraday_pct": 0.229,
+          "rsi": 68.0,
+          "vol_factor": 2.0,
+          "score": 1.173
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 15:15:54",
+        "iteration": 2,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 15:15:54",
+        "iteration": 2,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 1.9,
+          "score": 1.115
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 660.25,
+        "buy_time": "2026-09-21 15:34:59",
+        "iteration": 3,
+        "score_info": {
+          "last": 660.25,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 1.577,
+          "rsi": 64.0,
+          "vol_factor": 2.0,
+          "score": 1.473
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1202.0,
+        "buy_time": "2026-09-21 15:34:59",
+        "iteration": 3,
+        "score_info": {
+          "last": 1202.0,
+          "mom_30m_pct": 0.042,
+          "intraday_pct": 1.119,
+          "rsi": 55.3,
+          "vol_factor": 2.0,
+          "score": 1.398
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 15:43:20",
+        "iteration": 4,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 15:43:20",
+        "iteration": 4,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 16:07:44",
+        "iteration": 5,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 16:07:44",
+        "iteration": 5,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 16:34:09",
+        "iteration": 6,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 16:34:09",
+        "iteration": 6,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 18:09:52",
+        "iteration": 7,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 18:09:52",
+        "iteration": 7,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1247.4,
+        "buy_time": "2026-09-21 18:09:52",
+        "iteration": 7,
+        "score_info": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 0.281,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.108
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 18:39:47",
+        "iteration": 8,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 18:39:47",
+        "iteration": 8,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1247.4,
+        "buy_time": "2026-09-21 18:39:47",
+        "iteration": 8,
+        "score_info": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 0.281,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.108
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 19:26:12",
+        "iteration": 9,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 19:26:12",
+        "iteration": 9,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1247.4,
+        "buy_time": "2026-09-21 19:26:12",
+        "iteration": 9,
+        "score_info": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 0.281,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.108
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1558.5,
+        "buy_time": "2026-09-21 20:02:19",
+        "iteration": 10,
+        "score_info": {
+          "last": 1558.5,
+          "mom_30m_pct": 0.27,
+          "intraday_pct": 1.024,
+          "rsi": 59.7,
+          "vol_factor": 2.0,
+          "score": 1.713
+        }
+      },
+      {
+        "symbol": "LT",
+        "qty": 1,
+        "buy_price": 3904.8,
+        "buy_time": "2026-09-21 20:02:19",
+        "iteration": 10,
+        "score_info": {
+          "last": 3904.8,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 0.406,
+          "rsi": 56.7,
+          "vol_factor": 2.0,
+          "score": 1.195
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1345.0,
+        "buy_time": "2026-09-21 20:02:19",
+        "iteration": 10,
+        "score_info": {
+          "last": 1345.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.238,
+          "rsi": 30.6,
+          "vol_factor": 2.0,
+          "score": 1.138
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 20:37:55",
+        "iteration": 11,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 20:37:55",
+        "iteration": 11,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "buy_price": 1247.4,
+        "buy_time": "2026-09-21 20:37:55",
+        "iteration": 11,
+        "score_info": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 0.281,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.108
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 2,
+        "buy_price": 1558.5,
+        "buy_time": "2026-09-21 20:51:46",
+        "iteration": 12,
+        "score_info": {
+          "last": 1558.5,
+          "mom_30m_pct": 0.27,
+          "intraday_pct": 1.024,
+          "rsi": 59.7,
+          "vol_factor": 2.0,
+          "score": 1.713
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 21,
+        "buy_price": 235.63,
+        "buy_time": "2026-09-21 20:51:46",
+        "iteration": 12,
+        "score_info": {
+          "last": 235.63,
+          "mom_30m_pct": 0.183,
+          "intraday_pct": 1.233,
+          "rsi": 62.6,
+          "vol_factor": 2.0,
+          "score": 1.644
+        }
+      },
+      {
+        "symbol": "LT",
+        "qty": 1,
+        "buy_price": 3904.8,
+        "buy_time": "2026-09-21 20:51:46",
+        "iteration": 12,
+        "score_info": {
+          "last": 3904.8,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 0.406,
+          "rsi": 56.7,
+          "vol_factor": 2.0,
+          "score": 1.195
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 1,
+        "buy_price": 235.63,
+        "buy_time": "2026-09-21 21:26:39",
+        "iteration": 13,
+        "score_info": {
+          "last": 235.63,
+          "mom_30m_pct": 0.183,
+          "intraday_pct": 1.233,
+          "rsi": 62.6,
+          "vol_factor": 2.0,
+          "score": 1.644
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-21 14:48:44",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 10,
+        "price": 267.7,
+        "cost": 2677.0,
+        "score": {
+          "last": 267.7,
+          "mom_30m_pct": 0.168,
+          "intraday_pct": 1.152,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 1.598
+        }
+      },
+      {
+        "time": "2026-09-21 14:48:44",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5024.0,
+        "cost": 5024.0,
+        "score": {
+          "last": 5024.0,
+          "mom_30m_pct": 0.07,
+          "intraday_pct": 0.229,
+          "rsi": 68.0,
+          "vol_factor": 2.0,
+          "score": 1.173
+        }
+      },
+      {
+        "time": "2026-09-21 15:15:54",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1555.0,
+        "cost": 1555.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 15:15:54",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1345.6,
+        "cost": 4036.8,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 1.9,
+          "score": 1.115
+        }
+      },
+      {
+        "time": "2026-09-21 15:34:59",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 660.25,
+        "cost": 2641.0,
+        "score": {
+          "last": 660.25,
+          "mom_30m_pct": 0.0,
+          "intraday_pct": 1.577,
+          "rsi": 64.0,
+          "vol_factor": 2.0,
+          "score": 1.473
+        }
+      },
+      {
+        "time": "2026-09-21 15:34:59",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1202.0,
+        "cost": 2404.0,
+        "score": {
+          "last": 1202.0,
+          "mom_30m_pct": 0.042,
+          "intraday_pct": 1.119,
+          "rsi": 55.3,
+          "vol_factor": 2.0,
+          "score": 1.398
+        }
+      },
+      {
+        "time": "2026-09-21 15:43:20",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1555.0,
+        "cost": 3110.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 15:43:20",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1345.6,
+        "cost": 2691.2,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "time": "2026-09-21 16:07:44",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1555.0,
+        "cost": 3110.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 16:07:44",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1345.6,
+        "cost": 2691.2,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "time": "2026-09-21 16:34:09",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1555.0,
+        "cost": 3110.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 16:34:09",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1345.6,
+        "cost": 4036.8,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "time": "2026-09-21 18:09:52",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1555.0,
+        "cost": 3110.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 18:09:52",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1345.6,
+        "cost": 4036.8,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "time": "2026-09-21 18:09:52",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1247.4,
+        "cost": 3742.2,
+        "score": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 0.281,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.108
+        }
+      },
+      {
+        "time": "2026-09-21 18:39:47",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1555.0,
+        "cost": 3110.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 18:39:47",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1345.6,
+        "cost": 2691.2,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "time": "2026-09-21 18:39:47",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1247.4,
+        "cost": 3742.2,
+        "score": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 0.281,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.108
+        }
+      },
+      {
+        "time": "2026-09-21 19:26:12",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1555.0,
+        "cost": 3110.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 19:26:12",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1345.6,
+        "cost": 2691.2,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "time": "2026-09-21 19:26:12",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1247.4,
+        "cost": 3742.2,
+        "score": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 0.281,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.108
+        }
+      },
+      {
+        "time": "2026-09-21 20:02:19",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1558.5,
+        "cost": 3117.0,
+        "score": {
+          "last": 1558.5,
+          "mom_30m_pct": 0.27,
+          "intraday_pct": 1.024,
+          "rsi": 59.7,
+          "vol_factor": 2.0,
+          "score": 1.713
+        }
+      },
+      {
+        "time": "2026-09-21 20:02:19",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "LT",
+        "qty": 1,
+        "price": 3904.8,
+        "cost": 3904.8,
+        "score": {
+          "last": 3904.8,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 0.406,
+          "rsi": 56.7,
+          "vol_factor": 2.0,
+          "score": 1.195
+        }
+      },
+      {
+        "time": "2026-09-21 20:02:19",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1345.0,
+        "cost": 2690.0,
+        "score": {
+          "last": 1345.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.238,
+          "rsi": 30.6,
+          "vol_factor": 2.0,
+          "score": 1.138
+        }
+      },
+      {
+        "time": "2026-09-21 20:37:55",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1555.0,
+        "cost": 3110.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 20:37:55",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1345.6,
+        "cost": 4036.8,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 2.0,
+          "score": 1.219
+        }
+      },
+      {
+        "time": "2026-09-21 20:37:55",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 3,
+        "price": 1247.4,
+        "cost": 3742.2,
+        "score": {
+          "last": 1247.4,
+          "mom_30m_pct": 0.016,
+          "intraday_pct": 0.281,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.108
+        }
+      },
+      {
+        "time": "2026-09-21 20:51:46",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1558.5,
+        "cost": 3117.0,
+        "score": {
+          "last": 1558.5,
+          "mom_30m_pct": 0.27,
+          "intraday_pct": 1.024,
+          "rsi": 59.7,
+          "vol_factor": 2.0,
+          "score": 1.713
+        }
+      },
+      {
+        "time": "2026-09-21 20:51:46",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 21,
+        "price": 235.63,
+        "cost": 4948.23,
+        "score": {
+          "last": 235.63,
+          "mom_30m_pct": 0.183,
+          "intraday_pct": 1.233,
+          "rsi": 62.6,
+          "vol_factor": 2.0,
+          "score": 1.644
+        }
+      },
+      {
+        "time": "2026-09-21 20:51:46",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "LT",
+        "qty": 1,
+        "price": 3904.8,
+        "cost": 3904.8,
+        "score": {
+          "last": 3904.8,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 0.406,
+          "rsi": 56.7,
+          "vol_factor": 2.0,
+          "score": 1.195
+        }
+      },
+      {
+        "time": "2026-09-21 21:26:39",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 1,
+        "price": 235.63,
+        "cost": 235.63,
+        "score": {
+          "last": 235.63,
+          "mom_30m_pct": 0.183,
+          "intraday_pct": 1.233,
+          "rsi": 62.6,
+          "vol_factor": 2.0,
+          "score": 1.644
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -64115,928 +65237,20 @@
       "n_sells": 33,
       "feedback": "Day P&L \u20b957 on \u20b999763 deployed (0.06%). Worst trade: KOTAKBANK (P&L \u20b9-37, -1.26%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
       "profitable": true
-    },
-    {
-      "date": "2026-09-21",
-      "iterations_run": 14,
-      "invested": 99869.26,
-      "realized_pnl": 25.1,
-      "pnl_pct": 0.025,
-      "trades": [
-        {
-          "time": "2026-09-21 14:48:44",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "ITC",
-          "qty": 10,
-          "price": 267.7,
-          "cost": 2677.0,
-          "score": {
-            "last": 267.7,
-            "mom_30m_pct": 0.168,
-            "intraday_pct": 1.152,
-            "rsi": 74.2,
-            "vol_factor": 2.0,
-            "score": 1.598
-          }
-        },
-        {
-          "time": "2026-09-21 14:48:44",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "BRITANNIA",
-          "qty": 1,
-          "price": 5024.0,
-          "cost": 5024.0,
-          "score": {
-            "last": 5024.0,
-            "mom_30m_pct": 0.07,
-            "intraday_pct": 0.229,
-            "rsi": 68.0,
-            "vol_factor": 2.0,
-            "score": 1.173
-          }
-        },
-        {
-          "time": "2026-09-21 15:15:54",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 1,
-          "price": 1555.0,
-          "cost": 1555.0,
-          "score": {
-            "last": 1555.0,
-            "mom_30m_pct": 0.045,
-            "intraday_pct": 0.797,
-            "rsi": 50.3,
-            "vol_factor": 2.0,
-            "score": 1.307
-          }
-        },
-        {
-          "time": "2026-09-21 15:15:54",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1345.6,
-          "cost": 4036.8,
-          "score": {
-            "last": 1345.6,
-            "mom_30m_pct": 0.089,
-            "intraday_pct": 0.283,
-            "rsi": 36.8,
-            "vol_factor": 1.9,
-            "score": 1.115
-          }
-        },
-        {
-          "time": "2026-09-21 15:34:59",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 660.25,
-          "cost": 2641.0,
-          "score": {
-            "last": 660.25,
-            "mom_30m_pct": 0.0,
-            "intraday_pct": 1.577,
-            "rsi": 64.0,
-            "vol_factor": 2.0,
-            "score": 1.473
-          }
-        },
-        {
-          "time": "2026-09-21 15:34:59",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "DRREDDY",
-          "qty": 2,
-          "price": 1202.0,
-          "cost": 2404.0,
-          "score": {
-            "last": 1202.0,
-            "mom_30m_pct": 0.042,
-            "intraday_pct": 1.119,
-            "rsi": 55.3,
-            "vol_factor": 2.0,
-            "score": 1.398
-          }
-        },
-        {
-          "time": "2026-09-21 15:43:20",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1555.0,
-          "cost": 3110.0,
-          "score": {
-            "last": 1555.0,
-            "mom_30m_pct": 0.045,
-            "intraday_pct": 0.797,
-            "rsi": 50.3,
-            "vol_factor": 2.0,
-            "score": 1.307
-          }
-        },
-        {
-          "time": "2026-09-21 15:43:20",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.6,
-          "cost": 2691.2,
-          "score": {
-            "last": 1345.6,
-            "mom_30m_pct": 0.089,
-            "intraday_pct": 0.283,
-            "rsi": 36.8,
-            "vol_factor": 2.0,
-            "score": 1.219
-          }
-        },
-        {
-          "time": "2026-09-21 16:07:44",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1555.0,
-          "cost": 3110.0,
-          "score": {
-            "last": 1555.0,
-            "mom_30m_pct": 0.045,
-            "intraday_pct": 0.797,
-            "rsi": 50.3,
-            "vol_factor": 2.0,
-            "score": 1.307
-          }
-        },
-        {
-          "time": "2026-09-21 16:07:44",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.6,
-          "cost": 2691.2,
-          "score": {
-            "last": 1345.6,
-            "mom_30m_pct": 0.089,
-            "intraday_pct": 0.283,
-            "rsi": 36.8,
-            "vol_factor": 2.0,
-            "score": 1.219
-          }
-        },
-        {
-          "time": "2026-09-21 16:34:09",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1555.0,
-          "cost": 3110.0,
-          "score": {
-            "last": 1555.0,
-            "mom_30m_pct": 0.045,
-            "intraday_pct": 0.797,
-            "rsi": 50.3,
-            "vol_factor": 2.0,
-            "score": 1.307
-          }
-        },
-        {
-          "time": "2026-09-21 16:34:09",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1345.6,
-          "cost": 4036.8,
-          "score": {
-            "last": 1345.6,
-            "mom_30m_pct": 0.089,
-            "intraday_pct": 0.283,
-            "rsi": 36.8,
-            "vol_factor": 2.0,
-            "score": 1.219
-          }
-        },
-        {
-          "time": "2026-09-21 18:09:52",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1555.0,
-          "cost": 3110.0,
-          "score": {
-            "last": 1555.0,
-            "mom_30m_pct": 0.045,
-            "intraday_pct": 0.797,
-            "rsi": 50.3,
-            "vol_factor": 2.0,
-            "score": 1.307
-          }
-        },
-        {
-          "time": "2026-09-21 18:09:52",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1345.6,
-          "cost": 4036.8,
-          "score": {
-            "last": 1345.6,
-            "mom_30m_pct": 0.089,
-            "intraday_pct": 0.283,
-            "rsi": 36.8,
-            "vol_factor": 2.0,
-            "score": 1.219
-          }
-        },
-        {
-          "time": "2026-09-21 18:09:52",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1247.4,
-          "cost": 3742.2,
-          "score": {
-            "last": 1247.4,
-            "mom_30m_pct": 0.016,
-            "intraday_pct": 0.281,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.108
-          }
-        },
-        {
-          "time": "2026-09-21 18:39:47",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1555.0,
-          "cost": 3110.0,
-          "score": {
-            "last": 1555.0,
-            "mom_30m_pct": 0.045,
-            "intraday_pct": 0.797,
-            "rsi": 50.3,
-            "vol_factor": 2.0,
-            "score": 1.307
-          }
-        },
-        {
-          "time": "2026-09-21 18:39:47",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.6,
-          "cost": 2691.2,
-          "score": {
-            "last": 1345.6,
-            "mom_30m_pct": 0.089,
-            "intraday_pct": 0.283,
-            "rsi": 36.8,
-            "vol_factor": 2.0,
-            "score": 1.219
-          }
-        },
-        {
-          "time": "2026-09-21 18:39:47",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1247.4,
-          "cost": 3742.2,
-          "score": {
-            "last": 1247.4,
-            "mom_30m_pct": 0.016,
-            "intraday_pct": 0.281,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.108
-          }
-        },
-        {
-          "time": "2026-09-21 19:26:12",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1555.0,
-          "cost": 3110.0,
-          "score": {
-            "last": 1555.0,
-            "mom_30m_pct": 0.045,
-            "intraday_pct": 0.797,
-            "rsi": 50.3,
-            "vol_factor": 2.0,
-            "score": 1.307
-          }
-        },
-        {
-          "time": "2026-09-21 19:26:12",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.6,
-          "cost": 2691.2,
-          "score": {
-            "last": 1345.6,
-            "mom_30m_pct": 0.089,
-            "intraday_pct": 0.283,
-            "rsi": 36.8,
-            "vol_factor": 2.0,
-            "score": 1.219
-          }
-        },
-        {
-          "time": "2026-09-21 19:26:12",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1247.4,
-          "cost": 3742.2,
-          "score": {
-            "last": 1247.4,
-            "mom_30m_pct": 0.016,
-            "intraday_pct": 0.281,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.108
-          }
-        },
-        {
-          "time": "2026-09-21 20:02:19",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "cost": 3117.0,
-          "score": {
-            "last": 1558.5,
-            "mom_30m_pct": 0.27,
-            "intraday_pct": 1.024,
-            "rsi": 59.7,
-            "vol_factor": 2.0,
-            "score": 1.713
-          }
-        },
-        {
-          "time": "2026-09-21 20:02:19",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "LT",
-          "qty": 1,
-          "price": 3904.8,
-          "cost": 3904.8,
-          "score": {
-            "last": 3904.8,
-            "mom_30m_pct": 0.049,
-            "intraday_pct": 0.406,
-            "rsi": 56.7,
-            "vol_factor": 2.0,
-            "score": 1.195
-          }
-        },
-        {
-          "time": "2026-09-21 20:02:19",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.0,
-          "cost": 2690.0,
-          "score": {
-            "last": 1345.0,
-            "mom_30m_pct": 0.045,
-            "intraday_pct": 0.238,
-            "rsi": 30.6,
-            "vol_factor": 2.0,
-            "score": 1.138
-          }
-        },
-        {
-          "time": "2026-09-21 20:37:55",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1555.0,
-          "cost": 3110.0,
-          "score": {
-            "last": 1555.0,
-            "mom_30m_pct": 0.045,
-            "intraday_pct": 0.797,
-            "rsi": 50.3,
-            "vol_factor": 2.0,
-            "score": 1.307
-          }
-        },
-        {
-          "time": "2026-09-21 20:37:55",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1345.6,
-          "cost": 4036.8,
-          "score": {
-            "last": 1345.6,
-            "mom_30m_pct": 0.089,
-            "intraday_pct": 0.283,
-            "rsi": 36.8,
-            "vol_factor": 2.0,
-            "score": 1.219
-          }
-        },
-        {
-          "time": "2026-09-21 20:37:55",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1247.4,
-          "cost": 3742.2,
-          "score": {
-            "last": 1247.4,
-            "mom_30m_pct": 0.016,
-            "intraday_pct": 0.281,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.108
-          }
-        },
-        {
-          "time": "2026-09-21 20:51:46",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "cost": 3117.0,
-          "score": {
-            "last": 1558.5,
-            "mom_30m_pct": 0.27,
-            "intraday_pct": 1.024,
-            "rsi": 59.7,
-            "vol_factor": 2.0,
-            "score": 1.713
-          }
-        },
-        {
-          "time": "2026-09-21 20:51:46",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 21,
-          "price": 235.63,
-          "cost": 4948.23,
-          "score": {
-            "last": 235.63,
-            "mom_30m_pct": 0.183,
-            "intraday_pct": 1.233,
-            "rsi": 62.6,
-            "vol_factor": 2.0,
-            "score": 1.644
-          }
-        },
-        {
-          "time": "2026-09-21 20:51:46",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "LT",
-          "qty": 1,
-          "price": 3904.8,
-          "cost": 3904.8,
-          "score": {
-            "last": 3904.8,
-            "mom_30m_pct": 0.049,
-            "intraday_pct": 0.406,
-            "rsi": 56.7,
-            "vol_factor": 2.0,
-            "score": 1.195
-          }
-        },
-        {
-          "time": "2026-09-21 21:26:39",
-          "iteration": 13,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 1,
-          "price": 235.63,
-          "cost": 235.63,
-          "score": {
-            "last": 235.63,
-            "mom_30m_pct": 0.183,
-            "intraday_pct": 1.233,
-            "rsi": 62.6,
-            "vol_factor": 2.0,
-            "score": 1.644
-          }
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ITC",
-          "qty": 10,
-          "price": 267.0,
-          "buy_price": 267.7,
-          "pnl": -7.0,
-          "pnl_pct": -0.26,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BRITANNIA",
-          "qty": 1,
-          "price": 5023.0,
-          "buy_price": 5024.0,
-          "pnl": -1.0,
-          "pnl_pct": -0.02,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 1,
-          "price": 1558.5,
-          "buy_price": 1555.0,
-          "pnl": 3.5,
-          "pnl_pct": 0.23,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1345.0,
-          "buy_price": 1345.6,
-          "pnl": -1.8,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 660.25,
-          "buy_price": 660.25,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DRREDDY",
-          "qty": 2,
-          "price": 1198.3,
-          "buy_price": 1202.0,
-          "pnl": -7.4,
-          "pnl_pct": -0.31,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "buy_price": 1555.0,
-          "pnl": 7.0,
-          "pnl_pct": 0.23,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.0,
-          "buy_price": 1345.6,
-          "pnl": -1.2,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "buy_price": 1555.0,
-          "pnl": 7.0,
-          "pnl_pct": 0.23,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.0,
-          "buy_price": 1345.6,
-          "pnl": -1.2,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "buy_price": 1555.0,
-          "pnl": 7.0,
-          "pnl_pct": 0.23,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1345.0,
-          "buy_price": 1345.6,
-          "pnl": -1.8,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "buy_price": 1555.0,
-          "pnl": 7.0,
-          "pnl_pct": 0.23,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1345.0,
-          "buy_price": 1345.6,
-          "pnl": -1.8,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1247.4,
-          "buy_price": 1247.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "buy_price": 1555.0,
-          "pnl": 7.0,
-          "pnl_pct": 0.23,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.0,
-          "buy_price": 1345.6,
-          "pnl": -1.2,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1247.4,
-          "buy_price": 1247.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "buy_price": 1555.0,
-          "pnl": 7.0,
-          "pnl_pct": 0.23,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.0,
-          "buy_price": 1345.6,
-          "pnl": -1.2,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1247.4,
-          "buy_price": 1247.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "buy_price": 1558.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "LT",
-          "qty": 1,
-          "price": 3904.8,
-          "buy_price": 3904.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 2,
-          "price": 1345.0,
-          "buy_price": 1345.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "buy_price": 1555.0,
-          "pnl": 7.0,
-          "pnl_pct": 0.23,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ICICIBANK",
-          "qty": 3,
-          "price": 1345.0,
-          "buy_price": 1345.6,
-          "pnl": -1.8,
-          "pnl_pct": -0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "RELIANCE",
-          "qty": 3,
-          "price": 1247.4,
-          "buy_price": 1247.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TECHM",
-          "qty": 2,
-          "price": 1558.5,
-          "buy_price": 1558.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 21,
-          "price": 235.63,
-          "buy_price": 235.63,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "LT",
-          "qty": 1,
-          "price": 3904.8,
-          "buy_price": 3904.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-21 21:32:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 1,
-          "price": 235.63,
-          "buy_price": 235.63,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 31,
-      "n_sells": 31,
-      "feedback": "Day P&L \u20b925 on \u20b999869 deployed (0.03%). Worst trade: DRREDDY (P&L \u20b9-7, -0.31%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters.",
-      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 81,
-    "winning_days": 43,
+    "total_days": 80,
+    "winning_days": 42,
     "losing_days": 33,
-    "total_realized_pnl": 1070.98,
+    "total_realized_pnl": 1045.88,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-08-11",
+        "note": "Day P&L \u20b9-85 on \u20b998701 deployed (-0.09%). Worst trade: ADANIPORTS (P&L \u20b9-68, -1.01%). Consider tighter stop on entries with weaker momentum scores. 23 EOD force-sells contributed \u20b9-131. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
       {
         "date": "2026-08-12",
         "note": "Day P&L \u20b9152 on \u20b999719 deployed (0.15%). Worst trade: GRASIM (P&L \u20b9-74, -2.20%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -65152,10 +65366,6 @@
       {
         "date": "2026-09-18",
         "note": "Day P&L \u20b957 on \u20b999763 deployed (0.06%). Worst trade: KOTAKBANK (P&L \u20b9-37, -1.26%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
-      },
-      {
-        "date": "2026-09-21",
-        "note": "Day P&L \u20b925 on \u20b999869 deployed (0.03%). Worst trade: DRREDDY (P&L \u20b9-7, -0.31%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters."
       }
     ]
   }
