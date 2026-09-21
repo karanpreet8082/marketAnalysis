@@ -1,5 +1,164 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-21",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-21 14:48:44",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7701.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-21 15:15:54",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 13292.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
+      }
+    ],
+    "invested_today": 13292.800048828125,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ITC",
+        "qty": 10,
+        "buy_price": 267.7,
+        "buy_time": "2026-09-21 14:48:44",
+        "iteration": 1,
+        "score_info": {
+          "last": 267.7,
+          "mom_30m_pct": 0.168,
+          "intraday_pct": 1.152,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 1.598
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5024.0,
+        "buy_time": "2026-09-21 14:48:44",
+        "iteration": 1,
+        "score_info": {
+          "last": 5024.0,
+          "mom_30m_pct": 0.07,
+          "intraday_pct": 0.229,
+          "rsi": 68.0,
+          "vol_factor": 2.0,
+          "score": 1.173
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1555.0,
+        "buy_time": "2026-09-21 15:15:54",
+        "iteration": 2,
+        "score_info": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "buy_price": 1345.6,
+        "buy_time": "2026-09-21 15:15:54",
+        "iteration": 2,
+        "score_info": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 1.9,
+          "score": 1.115
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-21 14:48:44",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ITC",
+        "qty": 10,
+        "price": 267.7,
+        "cost": 2677.0,
+        "score": {
+          "last": 267.7,
+          "mom_30m_pct": 0.168,
+          "intraday_pct": 1.152,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 1.598
+        }
+      },
+      {
+        "time": "2026-09-21 14:48:44",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5024.0,
+        "cost": 5024.0,
+        "score": {
+          "last": 5024.0,
+          "mom_30m_pct": 0.07,
+          "intraday_pct": 0.229,
+          "rsi": 68.0,
+          "vol_factor": 2.0,
+          "score": 1.173
+        }
+      },
+      {
+        "time": "2026-09-21 15:15:54",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1555.0,
+        "cost": 1555.0,
+        "score": {
+          "last": 1555.0,
+          "mom_30m_pct": 0.045,
+          "intraday_pct": 0.797,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.307
+        }
+      },
+      {
+        "time": "2026-09-21 15:15:54",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1345.6,
+        "cost": 4036.8,
+        "score": {
+          "last": 1345.6,
+          "mom_30m_pct": 0.089,
+          "intraday_pct": 0.283,
+          "rsi": 36.8,
+          "vol_factor": 1.9,
+          "score": 1.115
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
