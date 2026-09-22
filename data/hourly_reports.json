@@ -1,5 +1,44 @@
 [
   {
+    "timestamp": "2026-08-14 12:27 IST",
+    "budget": 50000.0,
+    "allocated": 49220.44,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 49220.44,
+      "cash_reserve": 779.56,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24880.24,
+          "percent": 49.8,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17151.3,
+          "percent": 34.3,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7188.9,
+          "percent": 14.4,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.1,
+      "max_loss_percent": 3.5,
+      "sector_distribution": {
+        "Unknown": 3,
+        "Financial Services": 1,
+        "Consumer Defensive": 1,
+        "Energy": 1,
+        "Consumer Cyclical": 1,
+        "Industrials": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-08-14 13:32 IST",
     "budget": 50000.0,
     "allocated": 49174.32,
@@ -1785,42 +1824,6 @@
         "Basic Materials": 1,
         "Unknown": 1,
         "Financial Services": 1,
-        "Energy": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-09-22 14:18 IST",
-    "budget": 50000.0,
-    "allocated": 34454.1,
-    "positions": 4,
-    "summary": {
-      "total_positions": 4,
-      "total_invested": 34454.1,
-      "cash_reserve": 15545.9,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 25021.6,
-          "percent": 50.0,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 9432.5,
-          "percent": 18.9,
-          "positions": 1
-        },
-        "aggressive": {
-          "amount": 0,
-          "percent": 0.0,
-          "positions": 0
-        }
-      },
-      "expected_gain_percent": 4.8,
-      "max_loss_percent": 3.4,
-      "sector_distribution": {
-        "Basic Materials": 1,
-        "Unknown": 2,
         "Energy": 1
       }
     }
