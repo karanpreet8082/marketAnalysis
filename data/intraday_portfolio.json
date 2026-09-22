@@ -1,5 +1,1191 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-22",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-22 14:19:17",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7800.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-22 14:40:23",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 16144.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-22 14:53:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 20613.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-22 14:59:27",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 29403.75,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-22 15:22:24",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 37520.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-22 15:47:33",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 46269.21,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 7,
+        "time": "2026-09-22 16:56:00",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 55018.27,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 18
+      },
+      {
+        "iteration": 8,
+        "time": "2026-09-22 17:26:56",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 63998.09,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 21
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-22 18:02:24",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 72977.91,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 24
+      },
+      {
+        "iteration": 10,
+        "time": "2026-09-22 18:19:45",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 81957.73,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 27
+      },
+      {
+        "iteration": 11,
+        "time": "2026-09-22 18:56:25",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 90937.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 30
+      },
+      {
+        "iteration": 12,
+        "time": "2026-09-22 19:11:56",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99917.37,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 33
+      },
+      {
+        "iteration": 13,
+        "time": "2026-09-22 19:34:56",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99917.37,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 33
+      }
+    ],
+    "invested_today": 99917.37084960938,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1793.7,
+        "buy_time": "2026-09-22 14:19:17",
+        "iteration": 1,
+        "score_info": {
+          "last": 1793.7,
+          "mom_30m_pct": 0.285,
+          "intraday_pct": 0.011,
+          "rsi": 53.5,
+          "vol_factor": 2.0,
+          "score": 1.431
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1029.0,
+        "buy_time": "2026-09-22 14:19:17",
+        "iteration": 1,
+        "score_info": {
+          "last": 1029.0,
+          "mom_30m_pct": 0.41,
+          "intraday_pct": -0.962,
+          "rsi": 66.1,
+          "vol_factor": 2.0,
+          "score": 1.326
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "buy_price": 973.2,
+        "buy_time": "2026-09-22 14:19:17",
+        "iteration": 1,
+        "score_info": {
+          "last": 973.2,
+          "mom_30m_pct": 0.309,
+          "intraday_pct": -0.714,
+          "rsi": 64.5,
+          "vol_factor": 2.0,
+          "score": 1.25
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 8,
+        "buy_price": 670.0,
+        "buy_time": "2026-09-22 14:40:23",
+        "iteration": 2,
+        "score_info": {
+          "last": 670.0,
+          "mom_30m_pct": 0.164,
+          "intraday_pct": 1.615,
+          "rsi": 72.4,
+          "vol_factor": 1.0,
+          "score": 0.731
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 426.25,
+        "buy_time": "2026-09-22 14:40:23",
+        "iteration": 2,
+        "score_info": {
+          "last": 426.25,
+          "mom_30m_pct": -0.094,
+          "intraday_pct": 2.822,
+          "rsi": 48.2,
+          "vol_factor": 1.0,
+          "score": 0.706
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "buy_price": 267.45,
+        "buy_time": "2026-09-22 14:53:13",
+        "iteration": 3,
+        "score_info": {
+          "last": 267.45,
+          "mom_30m_pct": 0.15,
+          "intraday_pct": -0.224,
+          "rsi": 52.6,
+          "vol_factor": 2.0,
+          "score": 1.158
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1795.4,
+        "buy_time": "2026-09-22 14:53:13",
+        "iteration": 3,
+        "score_info": {
+          "last": 1795.4,
+          "mom_30m_pct": 0.061,
+          "intraday_pct": 0.184,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.147
+        }
+      },
+      {
+        "symbol": "TITAN",
+        "qty": 1,
+        "buy_price": 4949.5,
+        "buy_time": "2026-09-22 14:59:27",
+        "iteration": 4,
+        "score_info": {
+          "last": 4949.5,
+          "mom_30m_pct": -0.171,
+          "intraday_pct": 1.842,
+          "rsi": 68.1,
+          "vol_factor": 1.73,
+          "score": 1.029
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 9,
+        "buy_price": 426.7,
+        "buy_time": "2026-09-22 14:59:27",
+        "iteration": 4,
+        "score_info": {
+          "last": 426.7,
+          "mom_30m_pct": 0.012,
+          "intraday_pct": 2.981,
+          "rsi": 65.0,
+          "vol_factor": 1.06,
+          "score": 0.976
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "buy_price": 427.7,
+        "buy_time": "2026-09-22 15:22:24",
+        "iteration": 5,
+        "score_info": {
+          "last": 427.7,
+          "mom_30m_pct": 0.352,
+          "intraday_pct": 3.322,
+          "rsi": 66.2,
+          "vol_factor": 2.0,
+          "score": 2.524
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 671.5,
+        "buy_time": "2026-09-22 15:22:24",
+        "iteration": 5,
+        "score_info": {
+          "last": 671.5,
+          "mom_30m_pct": 0.351,
+          "intraday_pct": 1.99,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.124
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 955.0,
+        "buy_time": "2026-09-22 15:22:24",
+        "iteration": 5,
+        "score_info": {
+          "last": 955.0,
+          "mom_30m_pct": 0.115,
+          "intraday_pct": -0.459,
+          "rsi": 68.4,
+          "vol_factor": 2.0,
+          "score": 1.035
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "buy_price": 427.45,
+        "buy_time": "2026-09-22 15:47:33",
+        "iteration": 6,
+        "score_info": {
+          "last": 427.45,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": 3.261,
+          "rsi": 62.2,
+          "vol_factor": 2.0,
+          "score": 2.418
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 670.0,
+        "buy_time": "2026-09-22 15:47:33",
+        "iteration": 6,
+        "score_info": {
+          "last": 670.0,
+          "mom_30m_pct": 0.127,
+          "intraday_pct": 1.762,
+          "rsi": 66.1,
+          "vol_factor": 2.0,
+          "score": 1.719
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 12,
+        "buy_price": 236.13,
+        "buy_time": "2026-09-22 15:47:33",
+        "iteration": 6,
+        "score_info": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "buy_price": 428.0,
+        "buy_time": "2026-09-22 16:56:00",
+        "iteration": 7,
+        "score_info": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 669.5,
+        "buy_time": "2026-09-22 16:56:00",
+        "iteration": 7,
+        "score_info": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 12,
+        "buy_price": 236.13,
+        "buy_time": "2026-09-22 16:56:00",
+        "iteration": 7,
+        "score_info": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 428.0,
+        "buy_time": "2026-09-22 17:26:56",
+        "iteration": 8,
+        "score_info": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 669.5,
+        "buy_time": "2026-09-22 17:26:56",
+        "iteration": 8,
+        "score_info": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 236.13,
+        "buy_time": "2026-09-22 17:26:56",
+        "iteration": 8,
+        "score_info": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 428.0,
+        "buy_time": "2026-09-22 18:02:24",
+        "iteration": 9,
+        "score_info": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 669.5,
+        "buy_time": "2026-09-22 18:02:24",
+        "iteration": 9,
+        "score_info": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 236.13,
+        "buy_time": "2026-09-22 18:02:24",
+        "iteration": 9,
+        "score_info": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 428.0,
+        "buy_time": "2026-09-22 18:19:45",
+        "iteration": 10,
+        "score_info": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 669.5,
+        "buy_time": "2026-09-22 18:19:45",
+        "iteration": 10,
+        "score_info": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 236.13,
+        "buy_time": "2026-09-22 18:19:45",
+        "iteration": 10,
+        "score_info": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 428.0,
+        "buy_time": "2026-09-22 18:56:25",
+        "iteration": 11,
+        "score_info": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 669.5,
+        "buy_time": "2026-09-22 18:56:25",
+        "iteration": 11,
+        "score_info": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 236.13,
+        "buy_time": "2026-09-22 18:56:25",
+        "iteration": 11,
+        "score_info": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "buy_price": 428.0,
+        "buy_time": "2026-09-22 19:11:56",
+        "iteration": 12,
+        "score_info": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 669.5,
+        "buy_time": "2026-09-22 19:11:56",
+        "iteration": 12,
+        "score_info": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 236.13,
+        "buy_time": "2026-09-22 19:11:56",
+        "iteration": 12,
+        "score_info": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-22 14:19:17",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1793.7,
+        "cost": 1793.7,
+        "score": {
+          "last": 1793.7,
+          "mom_30m_pct": 0.285,
+          "intraday_pct": 0.011,
+          "rsi": 53.5,
+          "vol_factor": 2.0,
+          "score": 1.431
+        }
+      },
+      {
+        "time": "2026-09-22 14:19:17",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1029.0,
+        "cost": 3087.0,
+        "score": {
+          "last": 1029.0,
+          "mom_30m_pct": 0.41,
+          "intraday_pct": -0.962,
+          "rsi": 66.1,
+          "vol_factor": 2.0,
+          "score": 1.326
+        }
+      },
+      {
+        "time": "2026-09-22 14:19:17",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 973.2,
+        "cost": 2919.6,
+        "score": {
+          "last": 973.2,
+          "mom_30m_pct": 0.309,
+          "intraday_pct": -0.714,
+          "rsi": 64.5,
+          "vol_factor": 2.0,
+          "score": 1.25
+        }
+      },
+      {
+        "time": "2026-09-22 14:40:23",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 8,
+        "price": 670.0,
+        "cost": 5360.0,
+        "score": {
+          "last": 670.0,
+          "mom_30m_pct": 0.164,
+          "intraday_pct": 1.615,
+          "rsi": 72.4,
+          "vol_factor": 1.0,
+          "score": 0.731
+        }
+      },
+      {
+        "time": "2026-09-22 14:40:23",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 426.25,
+        "cost": 2983.75,
+        "score": {
+          "last": 426.25,
+          "mom_30m_pct": -0.094,
+          "intraday_pct": 2.822,
+          "rsi": 48.2,
+          "vol_factor": 1.0,
+          "score": 0.706
+        }
+      },
+      {
+        "time": "2026-09-22 14:53:13",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 267.45,
+        "cost": 2674.5,
+        "score": {
+          "last": 267.45,
+          "mom_30m_pct": 0.15,
+          "intraday_pct": -0.224,
+          "rsi": 52.6,
+          "vol_factor": 2.0,
+          "score": 1.158
+        }
+      },
+      {
+        "time": "2026-09-22 14:53:13",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1795.4,
+        "cost": 1795.4,
+        "score": {
+          "last": 1795.4,
+          "mom_30m_pct": 0.061,
+          "intraday_pct": 0.184,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 1.147
+        }
+      },
+      {
+        "time": "2026-09-22 14:59:27",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TITAN",
+        "qty": 1,
+        "price": 4949.5,
+        "cost": 4949.5,
+        "score": {
+          "last": 4949.5,
+          "mom_30m_pct": -0.171,
+          "intraday_pct": 1.842,
+          "rsi": 68.1,
+          "vol_factor": 1.73,
+          "score": 1.029
+        }
+      },
+      {
+        "time": "2026-09-22 14:59:27",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 9,
+        "price": 426.7,
+        "cost": 3840.3,
+        "score": {
+          "last": 426.7,
+          "mom_30m_pct": 0.012,
+          "intraday_pct": 2.981,
+          "rsi": 65.0,
+          "vol_factor": 1.06,
+          "score": 0.976
+        }
+      },
+      {
+        "time": "2026-09-22 15:22:24",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "price": 427.7,
+        "cost": 2566.2,
+        "score": {
+          "last": 427.7,
+          "mom_30m_pct": 0.352,
+          "intraday_pct": 3.322,
+          "rsi": 66.2,
+          "vol_factor": 2.0,
+          "score": 2.524
+        }
+      },
+      {
+        "time": "2026-09-22 15:22:24",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 671.5,
+        "cost": 2686.0,
+        "score": {
+          "last": 671.5,
+          "mom_30m_pct": 0.351,
+          "intraday_pct": 1.99,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.124
+        }
+      },
+      {
+        "time": "2026-09-22 15:22:24",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 955.0,
+        "cost": 2865.0,
+        "score": {
+          "last": 955.0,
+          "mom_30m_pct": 0.115,
+          "intraday_pct": -0.459,
+          "rsi": 68.4,
+          "vol_factor": 2.0,
+          "score": 1.035
+        }
+      },
+      {
+        "time": "2026-09-22 15:47:33",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "price": 427.45,
+        "cost": 2564.7,
+        "score": {
+          "last": 427.45,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": 3.261,
+          "rsi": 62.2,
+          "vol_factor": 2.0,
+          "score": 2.418
+        }
+      },
+      {
+        "time": "2026-09-22 15:47:33",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 670.0,
+        "cost": 3350.0,
+        "score": {
+          "last": 670.0,
+          "mom_30m_pct": 0.127,
+          "intraday_pct": 1.762,
+          "rsi": 66.1,
+          "vol_factor": 2.0,
+          "score": 1.719
+        }
+      },
+      {
+        "time": "2026-09-22 15:47:33",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 12,
+        "price": 236.13,
+        "cost": 2833.56,
+        "score": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "time": "2026-09-22 16:56:00",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "price": 428.0,
+        "cost": 2568.0,
+        "score": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "time": "2026-09-22 16:56:00",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 669.5,
+        "cost": 3347.5,
+        "score": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "time": "2026-09-22 16:56:00",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 12,
+        "price": 236.13,
+        "cost": 2833.56,
+        "score": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "time": "2026-09-22 17:26:56",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 428.0,
+        "cost": 2996.0,
+        "score": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "time": "2026-09-22 17:26:56",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 669.5,
+        "cost": 2678.0,
+        "score": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "time": "2026-09-22 17:26:56",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 236.13,
+        "cost": 3305.82,
+        "score": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "time": "2026-09-22 18:02:24",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 428.0,
+        "cost": 2996.0,
+        "score": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "time": "2026-09-22 18:02:24",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 669.5,
+        "cost": 2678.0,
+        "score": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "time": "2026-09-22 18:02:24",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 236.13,
+        "cost": 3305.82,
+        "score": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "time": "2026-09-22 18:19:45",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 428.0,
+        "cost": 2996.0,
+        "score": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "time": "2026-09-22 18:19:45",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 669.5,
+        "cost": 2678.0,
+        "score": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "time": "2026-09-22 18:19:45",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 236.13,
+        "cost": 3305.82,
+        "score": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "time": "2026-09-22 18:56:25",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 428.0,
+        "cost": 2996.0,
+        "score": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "time": "2026-09-22 18:56:25",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 669.5,
+        "cost": 2678.0,
+        "score": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "time": "2026-09-22 18:56:25",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 236.13,
+        "cost": 3305.82,
+        "score": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      },
+      {
+        "time": "2026-09-22 19:11:56",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 7,
+        "price": 428.0,
+        "cost": 2996.0,
+        "score": {
+          "last": 428.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 3.394,
+          "rsi": 71.2,
+          "vol_factor": 2.0,
+          "score": 2.652
+        }
+      },
+      {
+        "time": "2026-09-22 19:11:56",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 669.5,
+        "cost": 2678.0,
+        "score": {
+          "last": 669.5,
+          "mom_30m_pct": 0.052,
+          "intraday_pct": 1.686,
+          "rsi": 63.5,
+          "vol_factor": 2.0,
+          "score": 1.584
+        }
+      },
+      {
+        "time": "2026-09-22 19:11:56",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 236.13,
+        "cost": 3305.82,
+        "score": {
+          "last": 236.13,
+          "mom_30m_pct": 0.268,
+          "intraday_pct": 0.374,
+          "rsi": 62.1,
+          "vol_factor": 2.0,
+          "score": 1.513
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -65027,986 +66213,20 @@
       "n_sells": 31,
       "feedback": "Day P&L \u20b925 on \u20b999869 deployed (0.03%). Worst trade: DRREDDY (P&L \u20b9-7, -0.31%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters.",
       "profitable": true
-    },
-    {
-      "date": "2026-09-22",
-      "iterations_run": 14,
-      "invested": 99917.37,
-      "realized_pnl": -19.95,
-      "pnl_pct": -0.02,
-      "trades": [
-        {
-          "time": "2026-09-22 14:19:17",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1793.7,
-          "cost": 1793.7,
-          "score": {
-            "last": 1793.7,
-            "mom_30m_pct": 0.285,
-            "intraday_pct": 0.011,
-            "rsi": 53.5,
-            "vol_factor": 2.0,
-            "score": 1.431
-          }
-        },
-        {
-          "time": "2026-09-22 14:19:17",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1029.0,
-          "cost": 3087.0,
-          "score": {
-            "last": 1029.0,
-            "mom_30m_pct": 0.41,
-            "intraday_pct": -0.962,
-            "rsi": 66.1,
-            "vol_factor": 2.0,
-            "score": 1.326
-          }
-        },
-        {
-          "time": "2026-09-22 14:19:17",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "HINDALCO",
-          "qty": 3,
-          "price": 973.2,
-          "cost": 2919.6,
-          "score": {
-            "last": 973.2,
-            "mom_30m_pct": 0.309,
-            "intraday_pct": -0.714,
-            "rsi": 64.5,
-            "vol_factor": 2.0,
-            "score": 1.25
-          }
-        },
-        {
-          "time": "2026-09-22 14:40:23",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 8,
-          "price": 670.0,
-          "cost": 5360.0,
-          "score": {
-            "last": 670.0,
-            "mom_30m_pct": 0.164,
-            "intraday_pct": 1.615,
-            "rsi": 72.4,
-            "vol_factor": 1.0,
-            "score": 0.731
-          }
-        },
-        {
-          "time": "2026-09-22 14:40:23",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 426.25,
-          "cost": 2983.75,
-          "score": {
-            "last": 426.25,
-            "mom_30m_pct": -0.094,
-            "intraday_pct": 2.822,
-            "rsi": 48.2,
-            "vol_factor": 1.0,
-            "score": 0.706
-          }
-        },
-        {
-          "time": "2026-09-22 14:53:13",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 10,
-          "price": 267.45,
-          "cost": 2674.5,
-          "score": {
-            "last": 267.45,
-            "mom_30m_pct": 0.15,
-            "intraday_pct": -0.224,
-            "rsi": 52.6,
-            "vol_factor": 2.0,
-            "score": 1.158
-          }
-        },
-        {
-          "time": "2026-09-22 14:53:13",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1795.4,
-          "cost": 1795.4,
-          "score": {
-            "last": 1795.4,
-            "mom_30m_pct": 0.061,
-            "intraday_pct": 0.184,
-            "rsi": 61.4,
-            "vol_factor": 2.0,
-            "score": 1.147
-          }
-        },
-        {
-          "time": "2026-09-22 14:59:27",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "TITAN",
-          "qty": 1,
-          "price": 4949.5,
-          "cost": 4949.5,
-          "score": {
-            "last": 4949.5,
-            "mom_30m_pct": -0.171,
-            "intraday_pct": 1.842,
-            "rsi": 68.1,
-            "vol_factor": 1.73,
-            "score": 1.029
-          }
-        },
-        {
-          "time": "2026-09-22 14:59:27",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 9,
-          "price": 426.7,
-          "cost": 3840.3,
-          "score": {
-            "last": 426.7,
-            "mom_30m_pct": 0.012,
-            "intraday_pct": 2.981,
-            "rsi": 65.0,
-            "vol_factor": 1.06,
-            "score": 0.976
-          }
-        },
-        {
-          "time": "2026-09-22 15:22:24",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 6,
-          "price": 427.7,
-          "cost": 2566.2,
-          "score": {
-            "last": 427.7,
-            "mom_30m_pct": 0.352,
-            "intraday_pct": 3.322,
-            "rsi": 66.2,
-            "vol_factor": 2.0,
-            "score": 2.524
-          }
-        },
-        {
-          "time": "2026-09-22 15:22:24",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 671.5,
-          "cost": 2686.0,
-          "score": {
-            "last": 671.5,
-            "mom_30m_pct": 0.351,
-            "intraday_pct": 1.99,
-            "rsi": 69.8,
-            "vol_factor": 2.0,
-            "score": 2.124
-          }
-        },
-        {
-          "time": "2026-09-22 15:22:24",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "INDUSINDBK",
-          "qty": 3,
-          "price": 955.0,
-          "cost": 2865.0,
-          "score": {
-            "last": 955.0,
-            "mom_30m_pct": 0.115,
-            "intraday_pct": -0.459,
-            "rsi": 68.4,
-            "vol_factor": 2.0,
-            "score": 1.035
-          }
-        },
-        {
-          "time": "2026-09-22 15:47:33",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 6,
-          "price": 427.45,
-          "cost": 2564.7,
-          "score": {
-            "last": 427.45,
-            "mom_30m_pct": 0.293,
-            "intraday_pct": 3.261,
-            "rsi": 62.2,
-            "vol_factor": 2.0,
-            "score": 2.418
-          }
-        },
-        {
-          "time": "2026-09-22 15:47:33",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 5,
-          "price": 670.0,
-          "cost": 3350.0,
-          "score": {
-            "last": 670.0,
-            "mom_30m_pct": 0.127,
-            "intraday_pct": 1.762,
-            "rsi": 66.1,
-            "vol_factor": 2.0,
-            "score": 1.719
-          }
-        },
-        {
-          "time": "2026-09-22 15:47:33",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 12,
-          "price": 236.13,
-          "cost": 2833.56,
-          "score": {
-            "last": 236.13,
-            "mom_30m_pct": 0.268,
-            "intraday_pct": 0.374,
-            "rsi": 62.1,
-            "vol_factor": 2.0,
-            "score": 1.513
-          }
-        },
-        {
-          "time": "2026-09-22 16:56:00",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 6,
-          "price": 428.0,
-          "cost": 2568.0,
-          "score": {
-            "last": 428.0,
-            "mom_30m_pct": 0.422,
-            "intraday_pct": 3.394,
-            "rsi": 71.2,
-            "vol_factor": 2.0,
-            "score": 2.652
-          }
-        },
-        {
-          "time": "2026-09-22 16:56:00",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 5,
-          "price": 669.5,
-          "cost": 3347.5,
-          "score": {
-            "last": 669.5,
-            "mom_30m_pct": 0.052,
-            "intraday_pct": 1.686,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.584
-          }
-        },
-        {
-          "time": "2026-09-22 16:56:00",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 12,
-          "price": 236.13,
-          "cost": 2833.56,
-          "score": {
-            "last": 236.13,
-            "mom_30m_pct": 0.268,
-            "intraday_pct": 0.374,
-            "rsi": 62.1,
-            "vol_factor": 2.0,
-            "score": 1.513
-          }
-        },
-        {
-          "time": "2026-09-22 17:26:56",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "cost": 2996.0,
-          "score": {
-            "last": 428.0,
-            "mom_30m_pct": 0.422,
-            "intraday_pct": 3.394,
-            "rsi": 71.2,
-            "vol_factor": 2.0,
-            "score": 2.652
-          }
-        },
-        {
-          "time": "2026-09-22 17:26:56",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "cost": 2678.0,
-          "score": {
-            "last": 669.5,
-            "mom_30m_pct": 0.052,
-            "intraday_pct": 1.686,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.584
-          }
-        },
-        {
-          "time": "2026-09-22 17:26:56",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "cost": 3305.82,
-          "score": {
-            "last": 236.13,
-            "mom_30m_pct": 0.268,
-            "intraday_pct": 0.374,
-            "rsi": 62.1,
-            "vol_factor": 2.0,
-            "score": 1.513
-          }
-        },
-        {
-          "time": "2026-09-22 18:02:24",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "cost": 2996.0,
-          "score": {
-            "last": 428.0,
-            "mom_30m_pct": 0.422,
-            "intraday_pct": 3.394,
-            "rsi": 71.2,
-            "vol_factor": 2.0,
-            "score": 2.652
-          }
-        },
-        {
-          "time": "2026-09-22 18:02:24",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "cost": 2678.0,
-          "score": {
-            "last": 669.5,
-            "mom_30m_pct": 0.052,
-            "intraday_pct": 1.686,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.584
-          }
-        },
-        {
-          "time": "2026-09-22 18:02:24",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "cost": 3305.82,
-          "score": {
-            "last": 236.13,
-            "mom_30m_pct": 0.268,
-            "intraday_pct": 0.374,
-            "rsi": 62.1,
-            "vol_factor": 2.0,
-            "score": 1.513
-          }
-        },
-        {
-          "time": "2026-09-22 18:19:45",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "cost": 2996.0,
-          "score": {
-            "last": 428.0,
-            "mom_30m_pct": 0.422,
-            "intraday_pct": 3.394,
-            "rsi": 71.2,
-            "vol_factor": 2.0,
-            "score": 2.652
-          }
-        },
-        {
-          "time": "2026-09-22 18:19:45",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "cost": 2678.0,
-          "score": {
-            "last": 669.5,
-            "mom_30m_pct": 0.052,
-            "intraday_pct": 1.686,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.584
-          }
-        },
-        {
-          "time": "2026-09-22 18:19:45",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "cost": 3305.82,
-          "score": {
-            "last": 236.13,
-            "mom_30m_pct": 0.268,
-            "intraday_pct": 0.374,
-            "rsi": 62.1,
-            "vol_factor": 2.0,
-            "score": 1.513
-          }
-        },
-        {
-          "time": "2026-09-22 18:56:25",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "cost": 2996.0,
-          "score": {
-            "last": 428.0,
-            "mom_30m_pct": 0.422,
-            "intraday_pct": 3.394,
-            "rsi": 71.2,
-            "vol_factor": 2.0,
-            "score": 2.652
-          }
-        },
-        {
-          "time": "2026-09-22 18:56:25",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "cost": 2678.0,
-          "score": {
-            "last": 669.5,
-            "mom_30m_pct": 0.052,
-            "intraday_pct": 1.686,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.584
-          }
-        },
-        {
-          "time": "2026-09-22 18:56:25",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "cost": 3305.82,
-          "score": {
-            "last": 236.13,
-            "mom_30m_pct": 0.268,
-            "intraday_pct": 0.374,
-            "rsi": 62.1,
-            "vol_factor": 2.0,
-            "score": 1.513
-          }
-        },
-        {
-          "time": "2026-09-22 19:11:56",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "cost": 2996.0,
-          "score": {
-            "last": 428.0,
-            "mom_30m_pct": 0.422,
-            "intraday_pct": 3.394,
-            "rsi": 71.2,
-            "vol_factor": 2.0,
-            "score": 2.652
-          }
-        },
-        {
-          "time": "2026-09-22 19:11:56",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "cost": 2678.0,
-          "score": {
-            "last": 669.5,
-            "mom_30m_pct": 0.052,
-            "intraday_pct": 1.686,
-            "rsi": 63.5,
-            "vol_factor": 2.0,
-            "score": 1.584
-          }
-        },
-        {
-          "time": "2026-09-22 19:11:56",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "cost": 3305.82,
-          "score": {
-            "last": 236.13,
-            "mom_30m_pct": 0.268,
-            "intraday_pct": 0.374,
-            "rsi": 62.1,
-            "vol_factor": 2.0,
-            "score": 1.513
-          }
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1795.0,
-          "buy_price": 1793.7,
-          "pnl": 1.3,
-          "pnl_pct": 0.07,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1029.4,
-          "buy_price": 1029.0,
-          "pnl": 1.2,
-          "pnl_pct": 0.04,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HINDALCO",
-          "qty": 3,
-          "price": 973.0,
-          "buy_price": 973.2,
-          "pnl": -0.6,
-          "pnl_pct": -0.02,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 8,
-          "price": 669.5,
-          "buy_price": 670.0,
-          "pnl": -4.0,
-          "pnl_pct": -0.07,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "buy_price": 426.25,
-          "pnl": 12.25,
-          "pnl_pct": 0.41,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 10,
-          "price": 265.95,
-          "buy_price": 267.45,
-          "pnl": -15.0,
-          "pnl_pct": -0.56,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1795.0,
-          "buy_price": 1795.4,
-          "pnl": -0.4,
-          "pnl_pct": -0.02,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TITAN",
-          "qty": 1,
-          "price": 4928.5,
-          "buy_price": 4949.5,
-          "pnl": -21.0,
-          "pnl_pct": -0.42,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 9,
-          "price": 428.0,
-          "buy_price": 426.7,
-          "pnl": 11.7,
-          "pnl_pct": 0.3,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 6,
-          "price": 428.0,
-          "buy_price": 427.7,
-          "pnl": 1.8,
-          "pnl_pct": 0.07,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "buy_price": 671.5,
-          "pnl": -8.0,
-          "pnl_pct": -0.3,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDUSINDBK",
-          "qty": 3,
-          "price": 955.0,
-          "buy_price": 955.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 6,
-          "price": 428.0,
-          "buy_price": 427.45,
-          "pnl": 3.3,
-          "pnl_pct": 0.13,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 5,
-          "price": 669.5,
-          "buy_price": 670.0,
-          "pnl": -2.5,
-          "pnl_pct": -0.07,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 12,
-          "price": 236.13,
-          "buy_price": 236.13,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 6,
-          "price": 428.0,
-          "buy_price": 428.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 5,
-          "price": 669.5,
-          "buy_price": 669.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 12,
-          "price": 236.13,
-          "buy_price": 236.13,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "buy_price": 428.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "buy_price": 669.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "buy_price": 236.13,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "buy_price": 428.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "buy_price": 669.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "buy_price": 236.13,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "buy_price": 428.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "buy_price": 669.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "buy_price": 236.13,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "buy_price": 428.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "buy_price": 669.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "buy_price": 236.13,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 7,
-          "price": 428.0,
-          "buy_price": 428.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 669.5,
-          "buy_price": 669.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-22 19:43:08",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ONGC",
-          "qty": 14,
-          "price": 236.13,
-          "buy_price": 236.13,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 33,
-      "n_sells": 33,
-      "feedback": "Day P&L \u20b9-20 on \u20b999917 deployed (-0.02%). Worst trade: TITAN (P&L \u20b9-21, -0.42%). Consider tighter stop on entries with weaker momentum scores. 33 EOD force-sells contributed \u20b9-20. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
-      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 82,
+    "total_days": 81,
     "winning_days": 43,
-    "losing_days": 34,
-    "total_realized_pnl": 1051.03,
+    "losing_days": 33,
+    "total_realized_pnl": 1070.98,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-08-12",
+        "note": "Day P&L \u20b9152 on \u20b999719 deployed (0.15%). Worst trade: GRASIM (P&L \u20b9-74, -2.20%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
       {
         "date": "2026-08-13",
         "note": "Day P&L \u20b9230 on \u20b999624 deployed (0.23%). Worst trade: TECHM (P&L \u20b9-57, -0.69%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -66122,10 +66342,6 @@
       {
         "date": "2026-09-21",
         "note": "Day P&L \u20b925 on \u20b999869 deployed (0.03%). Worst trade: DRREDDY (P&L \u20b9-7, -0.31%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters."
-      },
-      {
-        "date": "2026-09-22",
-        "note": "Day P&L \u20b9-20 on \u20b999917 deployed (-0.02%). Worst trade: TITAN (P&L \u20b9-21, -0.42%). Consider tighter stop on entries with weaker momentum scores. 33 EOD force-sells contributed \u20b9-20. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
       }
     ]
   }
