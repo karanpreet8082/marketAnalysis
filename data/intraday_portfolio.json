@@ -1,5 +1,123 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-23",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-23 14:20:54",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7498.81,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 7498.810211181641,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "TATASTEEL",
+        "qty": 14,
+        "buy_price": 190.99,
+        "buy_time": "2026-09-23 14:20:54",
+        "iteration": 1,
+        "score_info": {
+          "last": 190.99,
+          "mom_30m_pct": 0.284,
+          "intraday_pct": 3.417,
+          "rsi": 60.8,
+          "vol_factor": 1.0,
+          "score": 1.45
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 314.95,
+        "buy_time": "2026-09-23 14:20:54",
+        "iteration": 1,
+        "score_info": {
+          "last": 314.95,
+          "mom_30m_pct": -0.016,
+          "intraday_pct": 1.81,
+          "rsi": 37.5,
+          "vol_factor": 1.0,
+          "score": 0.519
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 995.2,
+        "buy_time": "2026-09-23 14:20:54",
+        "iteration": 1,
+        "score_info": {
+          "last": 995.2,
+          "mom_30m_pct": 0.141,
+          "intraday_pct": 0.984,
+          "rsi": 52.3,
+          "vol_factor": 1.0,
+          "score": 0.507
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-23 14:20:54",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 14,
+        "price": 190.99,
+        "cost": 2673.86,
+        "score": {
+          "last": 190.99,
+          "mom_30m_pct": 0.284,
+          "intraday_pct": 3.417,
+          "rsi": 60.8,
+          "vol_factor": 1.0,
+          "score": 1.45
+        }
+      },
+      {
+        "time": "2026-09-23 14:20:54",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 314.95,
+        "cost": 2834.55,
+        "score": {
+          "last": 314.95,
+          "mom_30m_pct": -0.016,
+          "intraday_pct": 1.81,
+          "rsi": 37.5,
+          "vol_factor": 1.0,
+          "score": 0.519
+        }
+      },
+      {
+        "time": "2026-09-23 14:20:54",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 995.2,
+        "cost": 1990.4,
+        "score": {
+          "last": 995.2,
+          "mom_30m_pct": 0.141,
+          "intraday_pct": 0.984,
+          "rsi": 52.3,
+          "vol_factor": 1.0,
+          "score": 0.507
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
