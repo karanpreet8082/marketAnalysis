@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-23",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 20294.16,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-23 15:03:38",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 27376.76,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-23 15:23:48",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 35263.56,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 20294.160064697266,
+    "invested_today": 35263.560150146484,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -138,6 +156,96 @@
           "rsi": 64.6,
           "vol_factor": 2.0,
           "score": 1.154
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "buy_price": 1037.2,
+        "buy_time": "2026-09-23 15:03:38",
+        "iteration": 4,
+        "score_info": {
+          "last": 1037.2,
+          "mom_30m_pct": 0.135,
+          "intraday_pct": 2.734,
+          "rsi": 58.9,
+          "vol_factor": 1.65,
+          "score": 1.672
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3176.0,
+        "buy_time": "2026-09-23 15:03:38",
+        "iteration": 4,
+        "score_info": {
+          "last": 3176.0,
+          "mom_30m_pct": -0.094,
+          "intraday_pct": 1.505,
+          "rsi": 69.3,
+          "vol_factor": 2.0,
+          "score": 1.31
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1832.2,
+        "buy_time": "2026-09-23 15:03:38",
+        "iteration": 4,
+        "score_info": {
+          "last": 1832.2,
+          "mom_30m_pct": 0.066,
+          "intraday_pct": 0.692,
+          "rsi": 64.8,
+          "vol_factor": 2.0,
+          "score": 1.306
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "buy_price": 190.82,
+        "buy_time": "2026-09-23 15:23:48",
+        "iteration": 5,
+        "score_info": {
+          "last": 190.82,
+          "mom_30m_pct": 0.01,
+          "intraday_pct": 3.152,
+          "rsi": 52.2,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1844.9,
+        "buy_time": "2026-09-23 15:23:48",
+        "iteration": 5,
+        "score_info": {
+          "last": 1844.9,
+          "mom_30m_pct": 0.245,
+          "intraday_pct": 0.853,
+          "rsi": 48.8,
+          "vol_factor": 2.0,
+          "score": 1.623
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3179.6,
+        "buy_time": "2026-09-23 15:23:48",
+        "iteration": 5,
+        "score_info": {
+          "last": 3179.6,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": 1.481,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 1.458
         }
       }
     ],
@@ -259,6 +367,108 @@
           "rsi": 64.6,
           "vol_factor": 2.0,
           "score": 1.154
+        }
+      },
+      {
+        "time": "2026-09-23 15:03:38",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "price": 1037.2,
+        "cost": 2074.4,
+        "score": {
+          "last": 1037.2,
+          "mom_30m_pct": 0.135,
+          "intraday_pct": 2.734,
+          "rsi": 58.9,
+          "vol_factor": 1.65,
+          "score": 1.672
+        }
+      },
+      {
+        "time": "2026-09-23 15:03:38",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3176.0,
+        "cost": 3176.0,
+        "score": {
+          "last": 3176.0,
+          "mom_30m_pct": -0.094,
+          "intraday_pct": 1.505,
+          "rsi": 69.3,
+          "vol_factor": 2.0,
+          "score": 1.31
+        }
+      },
+      {
+        "time": "2026-09-23 15:03:38",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1832.2,
+        "cost": 1832.2,
+        "score": {
+          "last": 1832.2,
+          "mom_30m_pct": 0.066,
+          "intraday_pct": 0.692,
+          "rsi": 64.8,
+          "vol_factor": 2.0,
+          "score": 1.306
+        }
+      },
+      {
+        "time": "2026-09-23 15:23:48",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "price": 190.82,
+        "cost": 2862.3,
+        "score": {
+          "last": 190.82,
+          "mom_30m_pct": 0.01,
+          "intraday_pct": 3.152,
+          "rsi": 52.2,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-09-23 15:23:48",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1844.9,
+        "cost": 1844.9,
+        "score": {
+          "last": 1844.9,
+          "mom_30m_pct": 0.245,
+          "intraday_pct": 0.853,
+          "rsi": 48.8,
+          "vol_factor": 2.0,
+          "score": 1.623
+        }
+      },
+      {
+        "time": "2026-09-23 15:23:48",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3179.6,
+        "cost": 3179.6,
+        "score": {
+          "last": 3179.6,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": 1.481,
+          "rsi": 68.8,
+          "vol_factor": 2.0,
+          "score": 1.458
         }
       }
     ],
