@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-23",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 44422.66,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 7,
+        "time": "2026-09-23 16:53:46",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 52802.36,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 44422.660247802734,
+    "invested_today": 52802.360443115234,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -293,6 +302,36 @@
         "buy_price": 3188.5,
         "buy_time": "2026-09-23 15:45:52",
         "iteration": 6,
+        "score_info": {
+          "last": 3188.5,
+          "mom_30m_pct": 0.289,
+          "intraday_pct": 1.765,
+          "rsi": 74.3,
+          "vol_factor": 2.0,
+          "score": 1.964
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 4,
+        "buy_price": 1297.8,
+        "buy_time": "2026-09-23 16:53:46",
+        "iteration": 7,
+        "score_info": {
+          "last": 1297.8,
+          "mom_30m_pct": 0.185,
+          "intraday_pct": 2.326,
+          "rsi": 55.8,
+          "vol_factor": 2.0,
+          "score": 1.976
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3188.5,
+        "buy_time": "2026-09-23 16:53:46",
+        "iteration": 7,
         "score_info": {
           "last": 3188.5,
           "mom_30m_pct": 0.289,
@@ -562,6 +601,40 @@
       {
         "time": "2026-09-23 15:45:52",
         "iteration": 6,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3188.5,
+        "cost": 3188.5,
+        "score": {
+          "last": 3188.5,
+          "mom_30m_pct": 0.289,
+          "intraday_pct": 1.765,
+          "rsi": 74.3,
+          "vol_factor": 2.0,
+          "score": 1.964
+        }
+      },
+      {
+        "time": "2026-09-23 16:53:46",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 4,
+        "price": 1297.8,
+        "cost": 5191.2,
+        "score": {
+          "last": 1297.8,
+          "mom_30m_pct": 0.185,
+          "intraday_pct": 2.326,
+          "rsi": 55.8,
+          "vol_factor": 2.0,
+          "score": 1.976
+        }
+      },
+      {
+        "time": "2026-09-23 16:53:46",
+        "iteration": 7,
         "action": "BUY",
         "symbol": "GRASIM",
         "qty": 1,
