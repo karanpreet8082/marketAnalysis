@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-24",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 16119.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-24 14:54:13",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 21537.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 16119.800079345703,
+    "invested_today": 21537.200225830078,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -99,6 +108,36 @@
           "rsi": 36.7,
           "vol_factor": 0.43,
           "score": 0.18
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 8,
+        "buy_price": 326.35,
+        "buy_time": "2026-09-24 14:54:13",
+        "iteration": 3,
+        "score_info": {
+          "last": 326.35,
+          "mom_30m_pct": 0.508,
+          "intraday_pct": -0.366,
+          "rsi": 56.8,
+          "vol_factor": 2.0,
+          "score": 1.652
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1403.3,
+        "buy_time": "2026-09-24 14:54:13",
+        "iteration": 3,
+        "score_info": {
+          "last": 1403.3,
+          "mom_30m_pct": 0.401,
+          "intraday_pct": 1.843,
+          "rsi": 51.2,
+          "vol_factor": 1.28,
+          "score": 1.436
         }
       }
     ],
@@ -186,6 +225,40 @@
           "rsi": 36.7,
           "vol_factor": 0.43,
           "score": 0.18
+        }
+      },
+      {
+        "time": "2026-09-24 14:54:13",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 8,
+        "price": 326.35,
+        "cost": 2610.8,
+        "score": {
+          "last": 326.35,
+          "mom_30m_pct": 0.508,
+          "intraday_pct": -0.366,
+          "rsi": 56.8,
+          "vol_factor": 2.0,
+          "score": 1.652
+        }
+      },
+      {
+        "time": "2026-09-24 14:54:13",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1403.3,
+        "cost": 2806.6,
+        "score": {
+          "last": 1403.3,
+          "mom_30m_pct": 0.401,
+          "intraday_pct": 1.843,
+          "rsi": 51.2,
+          "vol_factor": 1.28,
+          "score": 1.436
         }
       }
     ],
