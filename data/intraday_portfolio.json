@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-24",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-24 14:16:04",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7988.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-24 14:37:59",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16119.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 16119.800079345703,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "buy_price": 1094.0,
+        "buy_time": "2026-09-24 14:16:04",
+        "iteration": 1,
+        "score_info": {
+          "last": 1094.0,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": 0.128,
+          "rsi": 34.7,
+          "vol_factor": 1.0,
+          "score": 0.052
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "buy_price": 419.7,
+        "buy_time": "2026-09-24 14:16:04",
+        "iteration": 1,
+        "score_info": {
+          "last": 419.7,
+          "mom_30m_pct": 0.083,
+          "intraday_pct": -0.792,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": -0.112
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1200.6,
+        "buy_time": "2026-09-24 14:37:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 1200.6,
+          "mom_30m_pct": 0.042,
+          "intraday_pct": -1.226,
+          "rsi": 30.1,
+          "vol_factor": 1.62,
+          "score": 0.319
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 9,
+        "buy_price": 325.6,
+        "buy_time": "2026-09-24 14:37:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 325.6,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": -0.595,
+          "rsi": 50.0,
+          "vol_factor": 0.93,
+          "score": 0.191
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1400.0,
+        "buy_time": "2026-09-24 14:37:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 1400.0,
+          "mom_30m_pct": 0.186,
+          "intraday_pct": 1.552,
+          "rsi": 36.7,
+          "vol_factor": 0.43,
+          "score": 0.18
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-24 14:16:04",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "price": 1094.0,
+        "cost": 5470.0,
+        "score": {
+          "last": 1094.0,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": 0.128,
+          "rsi": 34.7,
+          "vol_factor": 1.0,
+          "score": 0.052
+        }
+      },
+      {
+        "time": "2026-09-24 14:16:04",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "price": 419.7,
+        "cost": 2518.2,
+        "score": {
+          "last": 419.7,
+          "mom_30m_pct": 0.083,
+          "intraday_pct": -0.792,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": -0.112
+        }
+      },
+      {
+        "time": "2026-09-24 14:37:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1200.6,
+        "cost": 2401.2,
+        "score": {
+          "last": 1200.6,
+          "mom_30m_pct": 0.042,
+          "intraday_pct": -1.226,
+          "rsi": 30.1,
+          "vol_factor": 1.62,
+          "score": 0.319
+        }
+      },
+      {
+        "time": "2026-09-24 14:37:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 9,
+        "price": 325.6,
+        "cost": 2930.4,
+        "score": {
+          "last": 325.6,
+          "mom_30m_pct": 0.293,
+          "intraday_pct": -0.595,
+          "rsi": 50.0,
+          "vol_factor": 0.93,
+          "score": 0.191
+        }
+      },
+      {
+        "time": "2026-09-24 14:37:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1400.0,
+        "cost": 2800.0,
+        "score": {
+          "last": 1400.0,
+          "mom_30m_pct": 0.186,
+          "intraday_pct": 1.552,
+          "rsi": 36.7,
+          "vol_factor": 0.43,
+          "score": 0.18
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
