@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-24",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 90507.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 29
+      },
+      {
+        "iteration": 12,
+        "time": "2026-09-24 19:20:22",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99998.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 32
       }
     ],
-    "invested_today": 90507.40036010742,
+    "invested_today": 99998.40036010742,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -533,6 +542,51 @@
         "buy_price": 239.0,
         "buy_time": "2026-09-24 19:04:49",
         "iteration": 11,
+        "score_info": {
+          "last": 239.0,
+          "mom_30m_pct": 1.019,
+          "intraday_pct": 0.972,
+          "rsi": 85.0,
+          "vol_factor": 2.0,
+          "score": 1.319
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2087.0,
+        "buy_time": "2026-09-24 19:20:22",
+        "iteration": 12,
+        "score_info": {
+          "last": 2087.0,
+          "mom_30m_pct": 0.753,
+          "intraday_pct": 0.24,
+          "rsi": 65.7,
+          "vol_factor": 2.0,
+          "score": 2.202
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 4,
+        "buy_price": 1014.5,
+        "buy_time": "2026-09-24 19:20:22",
+        "iteration": 12,
+        "score_info": {
+          "last": 1014.5,
+          "mom_30m_pct": 0.645,
+          "intraday_pct": -0.207,
+          "rsi": 73.7,
+          "vol_factor": 2.0,
+          "score": 1.905
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 14,
+        "buy_price": 239.0,
+        "buy_time": "2026-09-24 19:20:22",
+        "iteration": 12,
         "score_info": {
           "last": 239.0,
           "mom_30m_pct": 1.019,
@@ -1023,6 +1077,57 @@
       {
         "time": "2026-09-24 19:04:49",
         "iteration": 11,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 14,
+        "price": 239.0,
+        "cost": 3346.0,
+        "score": {
+          "last": 239.0,
+          "mom_30m_pct": 1.019,
+          "intraday_pct": 0.972,
+          "rsi": 85.0,
+          "vol_factor": 2.0,
+          "score": 1.319
+        }
+      },
+      {
+        "time": "2026-09-24 19:20:22",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2087.0,
+        "cost": 2087.0,
+        "score": {
+          "last": 2087.0,
+          "mom_30m_pct": 0.753,
+          "intraday_pct": 0.24,
+          "rsi": 65.7,
+          "vol_factor": 2.0,
+          "score": 2.202
+        }
+      },
+      {
+        "time": "2026-09-24 19:20:22",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 4,
+        "price": 1014.5,
+        "cost": 4058.0,
+        "score": {
+          "last": 1014.5,
+          "mom_30m_pct": 0.645,
+          "intraday_pct": -0.207,
+          "rsi": 73.7,
+          "vol_factor": 2.0,
+          "score": 1.905
+        }
+      },
+      {
+        "time": "2026-09-24 19:20:22",
+        "iteration": 12,
         "action": "BUY",
         "symbol": "ONGC",
         "qty": 14,
