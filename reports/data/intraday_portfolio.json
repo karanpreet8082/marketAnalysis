@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-24",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-24 14:16:04",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7988.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 7988.2000732421875,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "buy_price": 1094.0,
+        "buy_time": "2026-09-24 14:16:04",
+        "iteration": 1,
+        "score_info": {
+          "last": 1094.0,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": 0.128,
+          "rsi": 34.7,
+          "vol_factor": 1.0,
+          "score": 0.052
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "buy_price": 419.7,
+        "buy_time": "2026-09-24 14:16:04",
+        "iteration": 1,
+        "score_info": {
+          "last": 419.7,
+          "mom_30m_pct": 0.083,
+          "intraday_pct": -0.792,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": -0.112
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-24 14:16:04",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "price": 1094.0,
+        "cost": 5470.0,
+        "score": {
+          "last": 1094.0,
+          "mom_30m_pct": 0.009,
+          "intraday_pct": 0.128,
+          "rsi": 34.7,
+          "vol_factor": 1.0,
+          "score": 0.052
+        }
+      },
+      {
+        "time": "2026-09-24 14:16:04",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 6,
+        "price": 419.7,
+        "cost": 2518.2,
+        "score": {
+          "last": 419.7,
+          "mom_30m_pct": 0.083,
+          "intraday_pct": -0.792,
+          "rsi": 45.2,
+          "vol_factor": 1.0,
+          "score": -0.112
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
