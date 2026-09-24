@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-24",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 21537.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
-      },
-      {
-        "iteration": 4,
-        "time": "2026-09-24 15:03:52",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 28783.6,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 9
       }
     ],
-    "invested_today": 28783.60025024414,
+    "invested_today": 21537.200225830078,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -147,36 +138,6 @@
           "rsi": 51.2,
           "vol_factor": 1.28,
           "score": 1.436
-        }
-      },
-      {
-        "symbol": "NTPC",
-        "qty": 8,
-        "buy_price": 325.9,
-        "buy_time": "2026-09-24 15:03:52",
-        "iteration": 4,
-        "score_info": {
-          "last": 325.9,
-          "mom_30m_pct": 0.108,
-          "intraday_pct": -0.443,
-          "rsi": 60.5,
-          "vol_factor": 1.9,
-          "score": 0.927
-        }
-      },
-      {
-        "symbol": "TECHM",
-        "qty": 3,
-        "buy_price": 1546.4,
-        "buy_time": "2026-09-24 15:03:52",
-        "iteration": 4,
-        "score_info": {
-          "last": 1546.4,
-          "mom_30m_pct": -0.052,
-          "intraday_pct": -0.406,
-          "rsi": 52.8,
-          "vol_factor": 2.0,
-          "score": 0.801
         }
       }
     ],
@@ -298,40 +259,6 @@
           "rsi": 51.2,
           "vol_factor": 1.28,
           "score": 1.436
-        }
-      },
-      {
-        "time": "2026-09-24 15:03:52",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "NTPC",
-        "qty": 8,
-        "price": 325.9,
-        "cost": 2607.2,
-        "score": {
-          "last": 325.9,
-          "mom_30m_pct": 0.108,
-          "intraday_pct": -0.443,
-          "rsi": 60.5,
-          "vol_factor": 1.9,
-          "score": 0.927
-        }
-      },
-      {
-        "time": "2026-09-24 15:03:52",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 3,
-        "price": 1546.4,
-        "cost": 4639.2,
-        "score": {
-          "last": 1546.4,
-          "mom_30m_pct": -0.052,
-          "intraday_pct": -0.406,
-          "rsi": 52.8,
-          "vol_factor": 2.0,
-          "score": 0.801
         }
       }
     ],
