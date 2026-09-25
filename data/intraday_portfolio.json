@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-25",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 86180.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 27
+      },
+      {
+        "iteration": 12,
+        "time": "2026-09-25 19:42:34",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99620.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 30
       }
     ],
-    "invested_today": 86180.80078125,
+    "invested_today": 99620.80090332031,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -503,6 +512,51 @@
         "buy_price": 4884.0,
         "buy_time": "2026-09-25 19:21:43",
         "iteration": 11,
+        "score_info": {
+          "last": 4884.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 0.888,
+          "rsi": 56.8,
+          "vol_factor": 2.0,
+          "score": 1.899
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2444.0,
+        "buy_time": "2026-09-25 19:42:34",
+        "iteration": 12,
+        "score_info": {
+          "last": 2444.0,
+          "mom_30m_pct": 0.456,
+          "intraday_pct": 2.003,
+          "rsi": 64.7,
+          "vol_factor": 2.0,
+          "score": 2.285
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 5,
+        "buy_price": 1222.4,
+        "buy_time": "2026-09-25 19:42:34",
+        "iteration": 12,
+        "score_info": {
+          "last": 1222.4,
+          "mom_30m_pct": 0.139,
+          "intraday_pct": 2.456,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.946
+        }
+      },
+      {
+        "symbol": "TITAN",
+        "qty": 1,
+        "buy_price": 4884.0,
+        "buy_time": "2026-09-25 19:42:34",
+        "iteration": 12,
         "score_info": {
           "last": 4884.0,
           "mom_30m_pct": 0.422,
@@ -959,6 +1013,57 @@
       {
         "time": "2026-09-25 19:21:43",
         "iteration": 11,
+        "action": "BUY",
+        "symbol": "TITAN",
+        "qty": 1,
+        "price": 4884.0,
+        "cost": 4884.0,
+        "score": {
+          "last": 4884.0,
+          "mom_30m_pct": 0.422,
+          "intraday_pct": 0.888,
+          "rsi": 56.8,
+          "vol_factor": 2.0,
+          "score": 1.899
+        }
+      },
+      {
+        "time": "2026-09-25 19:42:34",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2444.0,
+        "cost": 2444.0,
+        "score": {
+          "last": 2444.0,
+          "mom_30m_pct": 0.456,
+          "intraday_pct": 2.003,
+          "rsi": 64.7,
+          "vol_factor": 2.0,
+          "score": 2.285
+        }
+      },
+      {
+        "time": "2026-09-25 19:42:34",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 5,
+        "price": 1222.4,
+        "cost": 6112.0,
+        "score": {
+          "last": 1222.4,
+          "mom_30m_pct": 0.139,
+          "intraday_pct": 2.456,
+          "rsi": 50.3,
+          "vol_factor": 2.0,
+          "score": 1.946
+        }
+      },
+      {
+        "time": "2026-09-25 19:42:34",
+        "iteration": 12,
         "action": "BUY",
         "symbol": "TITAN",
         "qty": 1,
