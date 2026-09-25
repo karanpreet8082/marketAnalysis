@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-25",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-25 14:36:38",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7001.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-25 14:58:51",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 15074.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 15074.300170898438,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "buy_price": 1205.8,
+        "buy_time": "2026-09-25 14:36:38",
+        "iteration": 1,
+        "score_info": {
+          "last": 1205.8,
+          "mom_30m_pct": 0.467,
+          "intraday_pct": 0.5,
+          "rsi": 72.3,
+          "vol_factor": 1.25,
+          "score": 1.103
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3041.2,
+        "buy_time": "2026-09-25 14:36:38",
+        "iteration": 1,
+        "score_info": {
+          "last": 3041.2,
+          "mom_30m_pct": 0.227,
+          "intraday_pct": 1.644,
+          "rsi": 74.4,
+          "vol_factor": 0.11,
+          "score": -0.057
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1548.7,
+        "buy_time": "2026-09-25 14:36:38",
+        "iteration": 1,
+        "score_info": {
+          "last": 1548.7,
+          "mom_30m_pct": 0.058,
+          "intraday_pct": 0.097,
+          "rsi": 58.4,
+          "vol_factor": 0.72,
+          "score": -0.166
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "buy_price": 1853.4,
+        "buy_time": "2026-09-25 14:58:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 1853.4,
+          "mom_30m_pct": 0.227,
+          "intraday_pct": 0.113,
+          "rsi": 66.8,
+          "vol_factor": 2.0,
+          "score": 1.375
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1256.3,
+        "buy_time": "2026-09-25 14:58:51",
+        "iteration": 2,
+        "score_info": {
+          "last": 1256.3,
+          "mom_30m_pct": -0.135,
+          "intraday_pct": 0.859,
+          "rsi": 35.2,
+          "vol_factor": 2.0,
+          "score": 1.055
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-25 14:36:38",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 2,
+        "price": 1205.8,
+        "cost": 2411.6,
+        "score": {
+          "last": 1205.8,
+          "mom_30m_pct": 0.467,
+          "intraday_pct": 0.5,
+          "rsi": 72.3,
+          "vol_factor": 1.25,
+          "score": 1.103
+        }
+      },
+      {
+        "time": "2026-09-25 14:36:38",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3041.2,
+        "cost": 3041.2,
+        "score": {
+          "last": 3041.2,
+          "mom_30m_pct": 0.227,
+          "intraday_pct": 1.644,
+          "rsi": 74.4,
+          "vol_factor": 0.11,
+          "score": -0.057
+        }
+      },
+      {
+        "time": "2026-09-25 14:36:38",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1548.7,
+        "cost": 1548.7,
+        "score": {
+          "last": 1548.7,
+          "mom_30m_pct": 0.058,
+          "intraday_pct": 0.097,
+          "rsi": 58.4,
+          "vol_factor": 0.72,
+          "score": -0.166
+        }
+      },
+      {
+        "time": "2026-09-25 14:58:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "price": 1853.4,
+        "cost": 5560.2,
+        "score": {
+          "last": 1853.4,
+          "mom_30m_pct": 0.227,
+          "intraday_pct": 0.113,
+          "rsi": 66.8,
+          "vol_factor": 2.0,
+          "score": 1.375
+        }
+      },
+      {
+        "time": "2026-09-25 14:58:51",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1256.3,
+        "cost": 2512.6,
+        "score": {
+          "last": 1256.3,
+          "mom_30m_pct": -0.135,
+          "intraday_pct": 0.859,
+          "rsi": 35.2,
+          "vol_factor": 2.0,
+          "score": 1.055
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
