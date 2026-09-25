@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-25",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 23436.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-25 15:18:43",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 30768.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-25 15:38:43",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 39356.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 23436.099975585938,
+    "invested_today": 39356.80029296875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -153,6 +171,81 @@
           "rsi": 53.7,
           "vol_factor": 2.0,
           "score": 1.62
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2447.0,
+        "buy_time": "2026-09-25 15:18:43",
+        "iteration": 4,
+        "score_info": {
+          "last": 2447.0,
+          "mom_30m_pct": 0.58,
+          "intraday_pct": 2.129,
+          "rsi": 72.7,
+          "vol_factor": 1.0,
+          "score": 1.508
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1221.3,
+        "buy_time": "2026-09-25 15:18:43",
+        "iteration": 4,
+        "score_info": {
+          "last": 1221.3,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 2.364,
+          "rsi": 46.4,
+          "vol_factor": 1.39,
+          "score": 1.169
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "buy_price": 997.0,
+        "buy_time": "2026-09-25 15:38:43",
+        "iteration": 5,
+        "score_info": {
+          "last": 997.0,
+          "mom_30m_pct": 0.322,
+          "intraday_pct": 1.579,
+          "rsi": 60.2,
+          "vol_factor": 2.0,
+          "score": 1.957
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 3190.0,
+        "buy_time": "2026-09-25 15:38:43",
+        "iteration": 5,
+        "score_info": {
+          "last": 3190.0,
+          "mom_30m_pct": 0.469,
+          "intraday_pct": 0.78,
+          "rsi": 59.0,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 5,
+        "buy_price": 680.9,
+        "buy_time": "2026-09-25 15:38:43",
+        "iteration": 5,
+        "score_info": {
+          "last": 680.9,
+          "mom_30m_pct": 0.443,
+          "intraday_pct": 0.822,
+          "rsi": 53.0,
+          "vol_factor": 2.0,
+          "score": 1.91
         }
       }
     ],
@@ -291,6 +384,91 @@
           "rsi": 53.7,
           "vol_factor": 2.0,
           "score": 1.62
+        }
+      },
+      {
+        "time": "2026-09-25 15:18:43",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2447.0,
+        "cost": 2447.0,
+        "score": {
+          "last": 2447.0,
+          "mom_30m_pct": 0.58,
+          "intraday_pct": 2.129,
+          "rsi": 72.7,
+          "vol_factor": 1.0,
+          "score": 1.508
+        }
+      },
+      {
+        "time": "2026-09-25 15:18:43",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1221.3,
+        "cost": 4885.2,
+        "score": {
+          "last": 1221.3,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 2.364,
+          "rsi": 46.4,
+          "vol_factor": 1.39,
+          "score": 1.169
+        }
+      },
+      {
+        "time": "2026-09-25 15:38:43",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 2,
+        "price": 997.0,
+        "cost": 1994.0,
+        "score": {
+          "last": 997.0,
+          "mom_30m_pct": 0.322,
+          "intraday_pct": 1.579,
+          "rsi": 60.2,
+          "vol_factor": 2.0,
+          "score": 1.957
+        }
+      },
+      {
+        "time": "2026-09-25 15:38:43",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 3190.0,
+        "cost": 3190.0,
+        "score": {
+          "last": 3190.0,
+          "mom_30m_pct": 0.469,
+          "intraday_pct": 0.78,
+          "rsi": 59.0,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-09-25 15:38:43",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 5,
+        "price": 680.9,
+        "cost": 3404.5,
+        "score": {
+          "last": 680.9,
+          "mom_30m_pct": 0.443,
+          "intraday_pct": 0.822,
+          "rsi": 53.0,
+          "vol_factor": 2.0,
+          "score": 1.91
         }
       }
     ],
