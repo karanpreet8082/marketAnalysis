@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-25",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 23436.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-25 15:18:43",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 30768.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 23436.099975585938,
+    "invested_today": 30768.300170898438,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -153,6 +162,36 @@
           "rsi": 53.7,
           "vol_factor": 2.0,
           "score": 1.62
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2447.0,
+        "buy_time": "2026-09-25 15:18:43",
+        "iteration": 4,
+        "score_info": {
+          "last": 2447.0,
+          "mom_30m_pct": 0.58,
+          "intraday_pct": 2.129,
+          "rsi": 72.7,
+          "vol_factor": 1.0,
+          "score": 1.508
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1221.3,
+        "buy_time": "2026-09-25 15:18:43",
+        "iteration": 4,
+        "score_info": {
+          "last": 1221.3,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 2.364,
+          "rsi": 46.4,
+          "vol_factor": 1.39,
+          "score": 1.169
         }
       }
     ],
@@ -291,6 +330,40 @@
           "rsi": 53.7,
           "vol_factor": 2.0,
           "score": 1.62
+        }
+      },
+      {
+        "time": "2026-09-25 15:18:43",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2447.0,
+        "cost": 2447.0,
+        "score": {
+          "last": 2447.0,
+          "mom_30m_pct": 0.58,
+          "intraday_pct": 2.129,
+          "rsi": 72.7,
+          "vol_factor": 1.0,
+          "score": 1.508
+        }
+      },
+      {
+        "time": "2026-09-25 15:18:43",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1221.3,
+        "cost": 4885.2,
+        "score": {
+          "last": 1221.3,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 2.364,
+          "rsi": 46.4,
+          "vol_factor": 1.39,
+          "score": 1.169
         }
       }
     ],
