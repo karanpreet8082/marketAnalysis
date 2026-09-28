@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-28",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,27 @@
         "invested_today_after": 90553.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 12,
+        "time": "2026-09-28 22:33:40",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 95468.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 13,
+        "time": "2026-09-28 23:13:14",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 95468.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 90553.00071716309,
+    "invested_today": 95468.00071716309,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -390,6 +408,21 @@
           "rsi": 52.5,
           "vol_factor": 2.0,
           "score": 1.056
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 4915.0,
+        "buy_time": "2026-09-28 22:33:40",
+        "iteration": 12,
+        "score_info": {
+          "last": 4915.0,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": -0.213,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.38
         }
       }
     ],
@@ -715,6 +748,23 @@
           "rsi": 52.5,
           "vol_factor": 2.0,
           "score": 1.056
+        }
+      },
+      {
+        "time": "2026-09-28 22:33:40",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 4915.0,
+        "cost": 4915.0,
+        "score": {
+          "last": 4915.0,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": -0.213,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.38
         }
       }
     ],
