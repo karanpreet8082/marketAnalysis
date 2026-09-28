@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-28",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 72224.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 10,
+        "time": "2026-09-28 21:27:44",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 81353.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 72224.40049743652,
+    "invested_today": 81353.10064697266,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -320,6 +329,21 @@
         "buy_price": 186.3,
         "buy_time": "2026-09-28 20:48:17",
         "iteration": 9,
+        "score_info": {
+          "last": 186.3,
+          "mom_30m_pct": 0.215,
+          "intraday_pct": -0.888,
+          "rsi": 52.5,
+          "vol_factor": 2.0,
+          "score": 1.056
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 49,
+        "buy_price": 186.3,
+        "buy_time": "2026-09-28 21:27:44",
+        "iteration": 10,
         "score_info": {
           "last": 186.3,
           "mom_30m_pct": 0.215,
@@ -589,6 +613,23 @@
       {
         "time": "2026-09-28 20:48:17",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 49,
+        "price": 186.3,
+        "cost": 9128.7,
+        "score": {
+          "last": 186.3,
+          "mom_30m_pct": 0.215,
+          "intraday_pct": -0.888,
+          "rsi": 52.5,
+          "vol_factor": 2.0,
+          "score": 1.056
+        }
+      },
+      {
+        "time": "2026-09-28 21:27:44",
+        "iteration": 10,
         "action": "BUY",
         "symbol": "TATASTEEL",
         "qty": 49,
