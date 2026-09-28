@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-28",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 44695.9,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-09-28 19:12:22",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 53895.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 44695.90020751953,
+    "invested_today": 53895.80027770996,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -225,6 +234,36 @@
           "rsi": 38.9,
           "vol_factor": 1.51,
           "score": 0.939
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 4915.0,
+        "buy_time": "2026-09-28 19:12:22",
+        "iteration": 7,
+        "score_info": {
+          "last": 4915.0,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": -0.213,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.38
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 23,
+        "buy_price": 186.3,
+        "buy_time": "2026-09-28 19:12:22",
+        "iteration": 7,
+        "score_info": {
+          "last": 186.3,
+          "mom_30m_pct": 0.215,
+          "intraday_pct": -0.888,
+          "rsi": 52.5,
+          "vol_factor": 2.0,
+          "score": 1.056
         }
       }
     ],
@@ -414,6 +453,40 @@
           "rsi": 38.9,
           "vol_factor": 1.51,
           "score": 0.939
+        }
+      },
+      {
+        "time": "2026-09-28 19:12:22",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 4915.0,
+        "cost": 4915.0,
+        "score": {
+          "last": 4915.0,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": -0.213,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 1.38
+        }
+      },
+      {
+        "time": "2026-09-28 19:12:22",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 23,
+        "price": 186.3,
+        "cost": 4284.9,
+        "score": {
+          "last": 186.3,
+          "mom_30m_pct": 0.215,
+          "intraday_pct": -0.888,
+          "rsi": 52.5,
+          "vol_factor": 2.0,
+          "score": 1.056
         }
       }
     ],
