@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-29",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 23112.2,
         "realized_pnl_today_after": -80.2,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-29 16:24:56",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 31624.4,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 23112.200073242188,
+    "invested_today": 31624.400146484375,
     "realized_pnl_today": -80.19999999999982,
     "open_positions": [
       {
@@ -131,6 +140,36 @@
         "buy_price": 1015.4,
         "buy_time": "2026-09-29 16:17:48",
         "iteration": 3,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 16:24:56",
+        "iteration": 4,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 16:24:56",
+        "iteration": 4,
         "score_info": {
           "last": 1015.4,
           "mom_30m_pct": 3.107,
@@ -281,6 +320,40 @@
         "qty": 2,
         "price": 1015.4,
         "cost": 2030.8,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 16:24:56",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1822.0,
+        "cost": 5466.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 16:24:56",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1015.4,
+        "cost": 3046.2,
         "score": {
           "last": 1015.4,
           "mom_30m_pct": 3.107,
