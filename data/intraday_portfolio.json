@@ -1,5 +1,1092 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-09-29",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-09-29 15:39:09",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8202.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-09-29 16:00:00",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 15615.4,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-09-29 16:17:48",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 23112.2,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-09-29 16:24:56",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 31624.4,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-09-29 16:48:17",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 40136.6,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-09-29 17:02:39",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 48648.8,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 13
+      },
+      {
+        "iteration": 7,
+        "time": "2026-09-29 18:10:04",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 57161.0,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 15
+      },
+      {
+        "iteration": 8,
+        "time": "2026-09-29 18:42:47",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 64574.0,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 18
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-29 19:28:55",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 73086.2,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 10,
+        "time": "2026-09-29 19:51:06",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 81942.7,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 11,
+        "time": "2026-09-29 20:22:17",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 90799.2,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 26
+      },
+      {
+        "iteration": 12,
+        "time": "2026-09-29 20:38:44",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99655.7,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 29
+      },
+      {
+        "iteration": 13,
+        "time": "2026-09-29 21:29:06",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99655.7,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 29
+      }
+    ],
+    "invested_today": 99655.70056152344,
+    "realized_pnl_today": -80.19999999999982,
+    "open_positions": [
+      {
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "buy_price": 263.5,
+        "buy_time": "2026-09-29 15:39:09",
+        "iteration": 1,
+        "score_info": {
+          "last": 263.5,
+          "mom_30m_pct": 0.726,
+          "intraday_pct": 0.209,
+          "rsi": 68.6,
+          "vol_factor": 2.0,
+          "score": 2.152
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "buy_price": 359.4,
+        "buy_time": "2026-09-29 15:39:09",
+        "iteration": 1,
+        "score_info": {
+          "last": 359.4,
+          "mom_30m_pct": 0.715,
+          "intraday_pct": -0.388,
+          "rsi": 63.4,
+          "vol_factor": 2.0,
+          "score": 1.955
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 16:00:00",
+        "iteration": 2,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 16:00:00",
+        "iteration": 2,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1272.4,
+        "buy_time": "2026-09-29 16:00:00",
+        "iteration": 2,
+        "score_info": {
+          "last": 1272.4,
+          "mom_30m_pct": 0.776,
+          "intraday_pct": 1.024,
+          "rsi": 68.1,
+          "vol_factor": 2.0,
+          "score": 2.472
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 16:17:48",
+        "iteration": 3,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 16:17:48",
+        "iteration": 3,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 16:24:56",
+        "iteration": 4,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 16:24:56",
+        "iteration": 4,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 16:48:17",
+        "iteration": 5,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 16:48:17",
+        "iteration": 5,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 17:02:39",
+        "iteration": 6,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 17:02:39",
+        "iteration": 6,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 18:10:04",
+        "iteration": 7,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 18:10:04",
+        "iteration": 7,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 18:42:47",
+        "iteration": 8,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 18:42:47",
+        "iteration": 8,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1272.4,
+        "buy_time": "2026-09-29 18:42:47",
+        "iteration": 8,
+        "score_info": {
+          "last": 1272.4,
+          "mom_30m_pct": 0.776,
+          "intraday_pct": 1.024,
+          "rsi": 68.1,
+          "vol_factor": 2.0,
+          "score": 2.472
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 19:28:55",
+        "iteration": 9,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 19:28:55",
+        "iteration": 9,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2972.9,
+        "buy_time": "2026-09-29 19:51:06",
+        "iteration": 10,
+        "score_info": {
+          "last": 2972.9,
+          "mom_30m_pct": 3.011,
+          "intraday_pct": 5.422,
+          "rsi": 90.8,
+          "vol_factor": 2.0,
+          "score": 5.643
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 19:51:06",
+        "iteration": 10,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 4,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 19:51:06",
+        "iteration": 10,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2972.9,
+        "buy_time": "2026-09-29 20:22:17",
+        "iteration": 11,
+        "score_info": {
+          "last": 2972.9,
+          "mom_30m_pct": 3.011,
+          "intraday_pct": 5.422,
+          "rsi": 90.8,
+          "vol_factor": 2.0,
+          "score": 5.643
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 20:22:17",
+        "iteration": 11,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 4,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 20:22:17",
+        "iteration": 11,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2972.9,
+        "buy_time": "2026-09-29 20:38:44",
+        "iteration": 12,
+        "score_info": {
+          "last": 2972.9,
+          "mom_30m_pct": 3.011,
+          "intraday_pct": 5.422,
+          "rsi": 90.8,
+          "vol_factor": 2.0,
+          "score": 5.643
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 20:38:44",
+        "iteration": 12,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 4,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 20:38:44",
+        "iteration": 12,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-09-29 15:39:09",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 673.05,
+        "cost": 2692.2,
+        "score": {
+          "last": 673.05,
+          "mom_30m_pct": 0.998,
+          "intraday_pct": 1.165,
+          "rsi": 68.5,
+          "vol_factor": 2.0,
+          "score": 2.846
+        }
+      },
+      {
+        "time": "2026-09-29 15:39:09",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 10,
+        "price": 263.5,
+        "cost": 2635.0,
+        "score": {
+          "last": 263.5,
+          "mom_30m_pct": 0.726,
+          "intraday_pct": 0.209,
+          "rsi": 68.6,
+          "vol_factor": 2.0,
+          "score": 2.152
+        }
+      },
+      {
+        "time": "2026-09-29 15:39:09",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "price": 359.4,
+        "cost": 2875.2,
+        "score": {
+          "last": 359.4,
+          "mom_30m_pct": 0.715,
+          "intraday_pct": -0.388,
+          "rsi": 63.4,
+          "vol_factor": 2.0,
+          "score": 1.955
+        }
+      },
+      {
+        "time": "2026-09-29 16:00:00",
+        "iteration": 2,
+        "action": "SELL",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 653.0,
+        "buy_price": 673.05,
+        "pnl": -80.2,
+        "pnl_pct": -2.98,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-09-29 16:00:00",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1822.0,
+        "cost": 1822.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 16:00:00",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1015.4,
+        "cost": 3046.2,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 16:00:00",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1272.4,
+        "cost": 2544.8,
+        "score": {
+          "last": 1272.4,
+          "mom_30m_pct": 0.776,
+          "intraday_pct": 1.024,
+          "rsi": 68.1,
+          "vol_factor": 2.0,
+          "score": 2.472
+        }
+      },
+      {
+        "time": "2026-09-29 16:17:48",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1822.0,
+        "cost": 5466.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 16:17:48",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1015.4,
+        "cost": 2030.8,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 16:24:56",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1822.0,
+        "cost": 5466.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 16:24:56",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1015.4,
+        "cost": 3046.2,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 16:48:17",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1822.0,
+        "cost": 5466.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 16:48:17",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1015.4,
+        "cost": 3046.2,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 17:02:39",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1822.0,
+        "cost": 5466.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 17:02:39",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1015.4,
+        "cost": 3046.2,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 18:10:04",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1822.0,
+        "cost": 5466.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 18:10:04",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1015.4,
+        "cost": 3046.2,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 18:42:47",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1822.0,
+        "cost": 1822.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 18:42:47",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1015.4,
+        "cost": 3046.2,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 18:42:47",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1272.4,
+        "cost": 2544.8,
+        "score": {
+          "last": 1272.4,
+          "mom_30m_pct": 0.776,
+          "intraday_pct": 1.024,
+          "rsi": 68.1,
+          "vol_factor": 2.0,
+          "score": 2.472
+        }
+      },
+      {
+        "time": "2026-09-29 19:28:55",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1822.0,
+        "cost": 5466.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 19:28:55",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1015.4,
+        "cost": 3046.2,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 19:51:06",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2972.9,
+        "cost": 2972.9,
+        "score": {
+          "last": 2972.9,
+          "mom_30m_pct": 3.011,
+          "intraday_pct": 5.422,
+          "rsi": 90.8,
+          "vol_factor": 2.0,
+          "score": 5.643
+        }
+      },
+      {
+        "time": "2026-09-29 19:51:06",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1822.0,
+        "cost": 1822.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 19:51:06",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 4,
+        "price": 1015.4,
+        "cost": 4061.6,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 20:22:17",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2972.9,
+        "cost": 2972.9,
+        "score": {
+          "last": 2972.9,
+          "mom_30m_pct": 3.011,
+          "intraday_pct": 5.422,
+          "rsi": 90.8,
+          "vol_factor": 2.0,
+          "score": 5.643
+        }
+      },
+      {
+        "time": "2026-09-29 20:22:17",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1822.0,
+        "cost": 1822.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 20:22:17",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 4,
+        "price": 1015.4,
+        "cost": 4061.6,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      },
+      {
+        "time": "2026-09-29 20:38:44",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2972.9,
+        "cost": 2972.9,
+        "score": {
+          "last": 2972.9,
+          "mom_30m_pct": 3.011,
+          "intraday_pct": 5.422,
+          "rsi": 90.8,
+          "vol_factor": 2.0,
+          "score": 5.643
+        }
+      },
+      {
+        "time": "2026-09-29 20:38:44",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1822.0,
+        "cost": 1822.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 20:38:44",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 4,
+        "price": 1015.4,
+        "cost": 4061.6,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -69268,899 +70355,20 @@
       "n_sells": 20,
       "feedback": "Day P&L \u20b9-3 on \u20b995468 deployed (-0.00%). Worst trade: INFY (P&L \u20b9-3, -0.09%). Consider tighter stop on entries with weaker momentum scores. 20 EOD force-sells contributed \u20b9-3. Earlier intraday exits (lower take-profit threshold) might have preserved capital.",
       "profitable": false
-    },
-    {
-      "date": "2026-09-29",
-      "iterations_run": 14,
-      "invested": 99655.7,
-      "realized_pnl": -103.4,
-      "pnl_pct": -0.104,
-      "trades": [
-        {
-          "time": "2026-09-29 15:39:09",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 673.05,
-          "cost": 2692.2,
-          "score": {
-            "last": 673.05,
-            "mom_30m_pct": 0.998,
-            "intraday_pct": 1.165,
-            "rsi": 68.5,
-            "vol_factor": 2.0,
-            "score": 2.846
-          }
-        },
-        {
-          "time": "2026-09-29 15:39:09",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 10,
-          "price": 263.5,
-          "cost": 2635.0,
-          "score": {
-            "last": 263.5,
-            "mom_30m_pct": 0.726,
-            "intraday_pct": 0.209,
-            "rsi": 68.6,
-            "vol_factor": 2.0,
-            "score": 2.152
-          }
-        },
-        {
-          "time": "2026-09-29 15:39:09",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "TATAPOWER",
-          "qty": 8,
-          "price": 359.4,
-          "cost": 2875.2,
-          "score": {
-            "last": 359.4,
-            "mom_30m_pct": 0.715,
-            "intraday_pct": -0.388,
-            "rsi": 63.4,
-            "vol_factor": 2.0,
-            "score": 1.955
-          }
-        },
-        {
-          "time": "2026-09-29 16:00:00",
-          "iteration": 2,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 4,
-          "price": 653.0,
-          "buy_price": 673.05,
-          "pnl": -80.2,
-          "pnl_pct": -2.98,
-          "reason": "STOP_LOSS"
-        },
-        {
-          "time": "2026-09-29 16:00:00",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "cost": 1822.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 16:00:00",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "cost": 3046.2,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 16:00:00",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "JSWSTEEL",
-          "qty": 2,
-          "price": 1272.4,
-          "cost": 2544.8,
-          "score": {
-            "last": 1272.4,
-            "mom_30m_pct": 0.776,
-            "intraday_pct": 1.024,
-            "rsi": 68.1,
-            "vol_factor": 2.0,
-            "score": 2.472
-          }
-        },
-        {
-          "time": "2026-09-29 16:17:48",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "cost": 5466.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 16:17:48",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 2,
-          "price": 1015.4,
-          "cost": 2030.8,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 16:24:56",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "cost": 5466.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 16:24:56",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "cost": 3046.2,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 16:48:17",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "cost": 5466.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 16:48:17",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "cost": 3046.2,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 17:02:39",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "cost": 5466.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 17:02:39",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "cost": 3046.2,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 18:10:04",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "cost": 5466.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 18:10:04",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "cost": 3046.2,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 18:42:47",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "cost": 1822.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 18:42:47",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "cost": 3046.2,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 18:42:47",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "JSWSTEEL",
-          "qty": 2,
-          "price": 1272.4,
-          "cost": 2544.8,
-          "score": {
-            "last": 1272.4,
-            "mom_30m_pct": 0.776,
-            "intraday_pct": 1.024,
-            "rsi": 68.1,
-            "vol_factor": 2.0,
-            "score": 2.472
-          }
-        },
-        {
-          "time": "2026-09-29 19:28:55",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "cost": 5466.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 19:28:55",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "cost": 3046.2,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 19:51:06",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "ADANIENT",
-          "qty": 1,
-          "price": 2972.9,
-          "cost": 2972.9,
-          "score": {
-            "last": 2972.9,
-            "mom_30m_pct": 3.011,
-            "intraday_pct": 5.422,
-            "rsi": 90.8,
-            "vol_factor": 2.0,
-            "score": 5.643
-          }
-        },
-        {
-          "time": "2026-09-29 19:51:06",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "cost": 1822.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 19:51:06",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 4,
-          "price": 1015.4,
-          "cost": 4061.6,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 20:22:17",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "ADANIENT",
-          "qty": 1,
-          "price": 2972.9,
-          "cost": 2972.9,
-          "score": {
-            "last": 2972.9,
-            "mom_30m_pct": 3.011,
-            "intraday_pct": 5.422,
-            "rsi": 90.8,
-            "vol_factor": 2.0,
-            "score": 5.643
-          }
-        },
-        {
-          "time": "2026-09-29 20:22:17",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "cost": 1822.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 20:22:17",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 4,
-          "price": 1015.4,
-          "cost": 4061.6,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 20:38:44",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "ADANIENT",
-          "qty": 1,
-          "price": 2972.9,
-          "cost": 2972.9,
-          "score": {
-            "last": 2972.9,
-            "mom_30m_pct": 3.011,
-            "intraday_pct": 5.422,
-            "rsi": 90.8,
-            "vol_factor": 2.0,
-            "score": 5.643
-          }
-        },
-        {
-          "time": "2026-09-29 20:38:44",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "cost": 1822.0,
-          "score": {
-            "last": 1822.0,
-            "mom_30m_pct": 3.054,
-            "intraday_pct": 4.652,
-            "rsi": 94.8,
-            "vol_factor": 2.0,
-            "score": 5.477
-          }
-        },
-        {
-          "time": "2026-09-29 20:38:44",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "INFY",
-          "qty": 4,
-          "price": 1015.4,
-          "cost": 4061.6,
-          "score": {
-            "last": 1015.4,
-            "mom_30m_pct": 3.107,
-            "intraday_pct": 1.125,
-            "rsi": 86.7,
-            "vol_factor": 2.0,
-            "score": 4.498
-          }
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 10,
-          "price": 261.5,
-          "buy_price": 263.5,
-          "pnl": -20.0,
-          "pnl_pct": -0.76,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATAPOWER",
-          "qty": 8,
-          "price": 359.0,
-          "buy_price": 359.4,
-          "pnl": -3.2,
-          "pnl_pct": -0.11,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "JSWSTEEL",
-          "qty": 2,
-          "price": 1272.4,
-          "buy_price": 1272.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 2,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "JSWSTEEL",
-          "qty": 2,
-          "price": 1272.4,
-          "buy_price": 1272.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 3,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIENT",
-          "qty": 1,
-          "price": 2972.9,
-          "buy_price": 2972.9,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 4,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIENT",
-          "qty": 1,
-          "price": 2972.9,
-          "buy_price": 2972.9,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 4,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIENT",
-          "qty": 1,
-          "price": 2972.9,
-          "buy_price": 2972.9,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1822.0,
-          "buy_price": 1822.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-09-29 21:39:59",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INFY",
-          "qty": 4,
-          "price": 1015.4,
-          "buy_price": 1015.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 30,
-      "n_sells": 30,
-      "feedback": "Day P&L \u20b9-103 on \u20b999656 deployed (-0.10%). Worst trade: DLF (P&L \u20b9-80, -2.98%). Consider tighter stop on entries with weaker momentum scores. 29 EOD force-sells contributed \u20b9-23. Earlier intraday exits (lower take-profit threshold) might have preserved capital.",
-      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 87,
+    "total_days": 86,
     "winning_days": 45,
-    "losing_days": 37,
-    "total_realized_pnl": 991.4,
+    "losing_days": 36,
+    "total_realized_pnl": 1094.8,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-08-19",
+        "note": "Day P&L \u20b915 on \u20b999670 deployed (0.01%). Worst trade: BRITANNIA (P&L \u20b9-58, -1.05%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
       {
         "date": "2026-08-20",
         "note": "Day P&L \u20b9-38 on \u20b999726 deployed (-0.04%). Worst trade: JSWSTEEL (P&L \u20b9-33, -1.25%). Consider tighter stop on entries with weaker momentum scores. 24 EOD force-sells contributed \u20b9-115. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
@@ -70276,10 +70484,6 @@
       {
         "date": "2026-09-28",
         "note": "Day P&L \u20b9-3 on \u20b995468 deployed (-0.00%). Worst trade: INFY (P&L \u20b9-3, -0.09%). Consider tighter stop on entries with weaker momentum scores. 20 EOD force-sells contributed \u20b9-3. Earlier intraday exits (lower take-profit threshold) might have preserved capital."
-      },
-      {
-        "date": "2026-09-29",
-        "note": "Day P&L \u20b9-103 on \u20b999656 deployed (-0.10%). Worst trade: DLF (P&L \u20b9-80, -2.98%). Consider tighter stop on entries with weaker momentum scores. 29 EOD force-sells contributed \u20b9-23. Earlier intraday exits (lower take-profit threshold) might have preserved capital."
       }
     ]
   }
