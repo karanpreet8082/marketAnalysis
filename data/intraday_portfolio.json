@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-29",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 64574.0,
         "realized_pnl_today_after": -80.2,
         "open_positions_after": 18
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-29 19:28:55",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 73086.2,
+        "realized_pnl_today_after": -80.2,
+        "open_positions_after": 20
       }
     ],
-    "invested_today": 64574.00048828125,
+    "invested_today": 73086.20056152344,
     "realized_pnl_today": -80.19999999999982,
     "open_positions": [
       {
@@ -348,6 +357,36 @@
           "rsi": 68.1,
           "vol_factor": 2.0,
           "score": 2.472
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1822.0,
+        "buy_time": "2026-09-29 19:28:55",
+        "iteration": 9,
+        "score_info": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 3,
+        "buy_price": 1015.4,
+        "buy_time": "2026-09-29 19:28:55",
+        "iteration": 9,
+        "score_info": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
         }
       }
     ],
@@ -685,6 +724,40 @@
           "rsi": 68.1,
           "vol_factor": 2.0,
           "score": 2.472
+        }
+      },
+      {
+        "time": "2026-09-29 19:28:55",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1822.0,
+        "cost": 5466.0,
+        "score": {
+          "last": 1822.0,
+          "mom_30m_pct": 3.054,
+          "intraday_pct": 4.652,
+          "rsi": 94.8,
+          "vol_factor": 2.0,
+          "score": 5.477
+        }
+      },
+      {
+        "time": "2026-09-29 19:28:55",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 3,
+        "price": 1015.4,
+        "cost": 3046.2,
+        "score": {
+          "last": 1015.4,
+          "mom_30m_pct": 3.107,
+          "intraday_pct": 1.125,
+          "rsi": 86.7,
+          "vol_factor": 2.0,
+          "score": 4.498
         }
       }
     ],
