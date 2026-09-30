@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-30",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 65325.8,
         "realized_pnl_today_after": -28.4,
         "open_positions_after": 23
+      },
+      {
+        "iteration": 9,
+        "time": "2026-09-30 19:05:04",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 73990.1,
+        "realized_pnl_today_after": -28.4,
+        "open_positions_after": 26
       }
     ],
-    "invested_today": 65325.80078125,
+    "invested_today": 73990.10083007812,
     "realized_pnl_today": -28.4000244140625,
     "open_positions": [
       {
@@ -416,6 +425,51 @@
         "buy_price": 417.0,
         "buy_time": "2026-09-30 18:23:33",
         "iteration": 8,
+        "score_info": {
+          "last": 417.0,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": 2.495,
+          "rsi": 48.6,
+          "vol_factor": 2.0,
+          "score": 2.145
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 674.0,
+        "buy_time": "2026-09-30 19:05:04",
+        "iteration": 9,
+        "score_info": {
+          "last": 674.0,
+          "mom_30m_pct": 1.353,
+          "intraday_pct": 0.141,
+          "rsi": 69.9,
+          "vol_factor": 2.0,
+          "score": 3.072
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1798.3,
+        "buy_time": "2026-09-30 19:05:04",
+        "iteration": 9,
+        "score_info": {
+          "last": 1798.3,
+          "mom_30m_pct": 0.469,
+          "intraday_pct": 1.651,
+          "rsi": 55.0,
+          "vol_factor": 2.0,
+          "score": 2.199
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 10,
+        "buy_price": 417.0,
+        "buy_time": "2026-09-30 19:05:04",
+        "iteration": 9,
         "score_info": {
           "last": 417.0,
           "mom_30m_pct": 0.264,
@@ -838,6 +892,57 @@
         "qty": 9,
         "price": 417.0,
         "cost": 3753.0,
+        "score": {
+          "last": 417.0,
+          "mom_30m_pct": 0.264,
+          "intraday_pct": 2.495,
+          "rsi": 48.6,
+          "vol_factor": 2.0,
+          "score": 2.145
+        }
+      },
+      {
+        "time": "2026-09-30 19:05:04",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 674.0,
+        "cost": 2696.0,
+        "score": {
+          "last": 674.0,
+          "mom_30m_pct": 1.353,
+          "intraday_pct": 0.141,
+          "rsi": 69.9,
+          "vol_factor": 2.0,
+          "score": 3.072
+        }
+      },
+      {
+        "time": "2026-09-30 19:05:04",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1798.3,
+        "cost": 1798.3,
+        "score": {
+          "last": 1798.3,
+          "mom_30m_pct": 0.469,
+          "intraday_pct": 1.651,
+          "rsi": 55.0,
+          "vol_factor": 2.0,
+          "score": 2.199
+        }
+      },
+      {
+        "time": "2026-09-30 19:05:04",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 10,
+        "price": 417.0,
+        "cost": 4170.0,
         "score": {
           "last": 417.0,
           "mom_30m_pct": 0.264,
