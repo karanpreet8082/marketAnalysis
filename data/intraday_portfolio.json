@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-09-30",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 23900.7,
         "realized_pnl_today_after": -28.4,
         "open_positions_after": 8
-      },
-      {
-        "iteration": 4,
-        "time": "2026-09-30 16:15:09",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 32336.6,
-        "realized_pnl_today_after": -28.4,
-        "open_positions_after": 11
       }
     ],
-    "invested_today": 32336.6005859375,
+    "invested_today": 23900.70037841797,
     "realized_pnl_today": -28.4000244140625,
     "open_positions": [
       {
@@ -155,51 +146,6 @@
         "buy_price": 303.2,
         "buy_time": "2026-09-30 16:05:34",
         "iteration": 3,
-        "score_info": {
-          "last": 303.2,
-          "mom_30m_pct": 0.564,
-          "intraday_pct": 0.949,
-          "rsi": 59.1,
-          "vol_factor": 2.0,
-          "score": 2.13
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 4,
-        "buy_price": 674.0,
-        "buy_time": "2026-09-30 16:15:09",
-        "iteration": 4,
-        "score_info": {
-          "last": 674.0,
-          "mom_30m_pct": 1.353,
-          "intraday_pct": 0.141,
-          "rsi": 69.9,
-          "vol_factor": 2.0,
-          "score": 3.072
-        }
-      },
-      {
-        "symbol": "ADANIPORTS",
-        "qty": 1,
-        "buy_price": 1798.3,
-        "buy_time": "2026-09-30 16:15:09",
-        "iteration": 4,
-        "score_info": {
-          "last": 1798.3,
-          "mom_30m_pct": 0.469,
-          "intraday_pct": 1.651,
-          "rsi": 55.0,
-          "vol_factor": 2.0,
-          "score": 2.199
-        }
-      },
-      {
-        "symbol": "BPCL",
-        "qty": 13,
-        "buy_price": 303.2,
-        "buy_time": "2026-09-30 16:15:09",
-        "iteration": 4,
         "score_info": {
           "last": 303.2,
           "mom_30m_pct": 0.564,
@@ -362,57 +308,6 @@
       {
         "time": "2026-09-30 16:05:34",
         "iteration": 3,
-        "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 13,
-        "price": 303.2,
-        "cost": 3941.6,
-        "score": {
-          "last": 303.2,
-          "mom_30m_pct": 0.564,
-          "intraday_pct": 0.949,
-          "rsi": 59.1,
-          "vol_factor": 2.0,
-          "score": 2.13
-        }
-      },
-      {
-        "time": "2026-09-30 16:15:09",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 4,
-        "price": 674.0,
-        "cost": 2696.0,
-        "score": {
-          "last": 674.0,
-          "mom_30m_pct": 1.353,
-          "intraday_pct": 0.141,
-          "rsi": 69.9,
-          "vol_factor": 2.0,
-          "score": 3.072
-        }
-      },
-      {
-        "time": "2026-09-30 16:15:09",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "ADANIPORTS",
-        "qty": 1,
-        "price": 1798.3,
-        "cost": 1798.3,
-        "score": {
-          "last": 1798.3,
-          "mom_30m_pct": 0.469,
-          "intraday_pct": 1.651,
-          "rsi": 55.0,
-          "vol_factor": 2.0,
-          "score": 2.199
-        }
-      },
-      {
-        "time": "2026-09-30 16:15:09",
-        "iteration": 4,
         "action": "BUY",
         "symbol": "BPCL",
         "qty": 13,
