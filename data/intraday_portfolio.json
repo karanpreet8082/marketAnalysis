@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-02",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 55108.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 8,
+        "time": "2026-10-02 18:29:39",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 63413.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 23
       }
     ],
-    "invested_today": 55108.0,
+    "invested_today": 63413.0,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -362,6 +371,51 @@
         "buy_price": 957.0,
         "buy_time": "2026-10-02 17:52:19",
         "iteration": 7,
+        "score_info": {
+          "last": 957.0,
+          "mom_30m_pct": 0.594,
+          "intraday_pct": 0.188,
+          "rsi": 71.7,
+          "vol_factor": 2.0,
+          "score": 1.947
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1035.0,
+        "buy_time": "2026-10-02 18:29:39",
+        "iteration": 8,
+        "score_info": {
+          "last": 1035.0,
+          "mom_30m_pct": 1.133,
+          "intraday_pct": 3.874,
+          "rsi": 83.8,
+          "vol_factor": 2.0,
+          "score": 2.362
+        }
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "buy_price": 2407.0,
+        "buy_time": "2026-10-02 18:29:39",
+        "iteration": 8,
+        "score_info": {
+          "last": 2407.0,
+          "mom_30m_pct": 0.61,
+          "intraday_pct": 0.707,
+          "rsi": 64.5,
+          "vol_factor": 2.0,
+          "score": 2.128
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "buy_price": 957.0,
+        "buy_time": "2026-10-02 18:29:39",
+        "iteration": 8,
         "score_info": {
           "last": 957.0,
           "mom_30m_pct": 0.594,
@@ -699,6 +753,57 @@
       {
         "time": "2026-10-02 17:52:19",
         "iteration": 7,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "price": 957.0,
+        "cost": 3828.0,
+        "score": {
+          "last": 957.0,
+          "mom_30m_pct": 0.594,
+          "intraday_pct": 0.188,
+          "rsi": 71.7,
+          "vol_factor": 2.0,
+          "score": 1.947
+        }
+      },
+      {
+        "time": "2026-10-02 18:29:39",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1035.0,
+        "cost": 2070.0,
+        "score": {
+          "last": 1035.0,
+          "mom_30m_pct": 1.133,
+          "intraday_pct": 3.874,
+          "rsi": 83.8,
+          "vol_factor": 2.0,
+          "score": 2.362
+        }
+      },
+      {
+        "time": "2026-10-02 18:29:39",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ASIANPAINT",
+        "qty": 1,
+        "price": 2407.0,
+        "cost": 2407.0,
+        "score": {
+          "last": 2407.0,
+          "mom_30m_pct": 0.61,
+          "intraday_pct": 0.707,
+          "rsi": 64.5,
+          "vol_factor": 2.0,
+          "score": 2.128
+        }
+      },
+      {
+        "time": "2026-10-02 18:29:39",
+        "iteration": 8,
         "action": "BUY",
         "symbol": "TATACONSUM",
         "qty": 4,
