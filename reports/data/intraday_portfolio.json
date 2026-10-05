@@ -1,5 +1,123 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-10-05",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-10-05 16:22:23",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7408.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 7408.9000244140625,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1751.4,
+        "buy_time": "2026-10-05 16:22:23",
+        "iteration": 1,
+        "score_info": {
+          "last": 1751.4,
+          "mom_30m_pct": 0.992,
+          "intraday_pct": 1.243,
+          "rsi": 67.7,
+          "vol_factor": 2.0,
+          "score": 2.861
+        }
+      },
+      {
+        "symbol": "LT",
+        "qty": 1,
+        "buy_price": 3750.0,
+        "buy_time": "2026-10-05 16:22:23",
+        "iteration": 1,
+        "score_info": {
+          "last": 3750.0,
+          "mom_30m_pct": 0.533,
+          "intraday_pct": 1.643,
+          "rsi": 66.5,
+          "vol_factor": 2.0,
+          "score": 2.293
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "buy_price": 953.75,
+        "buy_time": "2026-10-05 16:22:23",
+        "iteration": 1,
+        "score_info": {
+          "last": 953.75,
+          "mom_30m_pct": 0.67,
+          "intraday_pct": 0.321,
+          "rsi": 71.2,
+          "vol_factor": 1.73,
+          "score": 1.829
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-10-05 16:22:23",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1751.4,
+        "cost": 1751.4,
+        "score": {
+          "last": 1751.4,
+          "mom_30m_pct": 0.992,
+          "intraday_pct": 1.243,
+          "rsi": 67.7,
+          "vol_factor": 2.0,
+          "score": 2.861
+        }
+      },
+      {
+        "time": "2026-10-05 16:22:23",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "LT",
+        "qty": 1,
+        "price": 3750.0,
+        "cost": 3750.0,
+        "score": {
+          "last": 3750.0,
+          "mom_30m_pct": 0.533,
+          "intraday_pct": 1.643,
+          "rsi": 66.5,
+          "vol_factor": 2.0,
+          "score": 2.293
+        }
+      },
+      {
+        "time": "2026-10-05 16:22:23",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 953.75,
+        "cost": 1907.5,
+        "score": {
+          "last": 953.75,
+          "mom_30m_pct": 0.67,
+          "intraday_pct": 0.321,
+          "rsi": 71.2,
+          "vol_factor": 1.73,
+          "score": 1.829
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
