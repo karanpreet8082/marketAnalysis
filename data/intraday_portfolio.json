@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-05",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 81353.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 28
+      },
+      {
+        "iteration": 11,
+        "time": "2026-10-05 22:40:36",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 90402.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 31
       }
     ],
-    "invested_today": 81353.50024414062,
+    "invested_today": 90402.90026855469,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -509,6 +518,51 @@
         "buy_price": 3750.0,
         "buy_time": "2026-10-05 21:52:49",
         "iteration": 10,
+        "score_info": {
+          "last": 3750.0,
+          "mom_30m_pct": 0.533,
+          "intraday_pct": 1.643,
+          "rsi": 66.5,
+          "vol_factor": 2.0,
+          "score": 2.293
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1751.4,
+        "buy_time": "2026-10-05 22:40:36",
+        "iteration": 11,
+        "score_info": {
+          "last": 1751.4,
+          "mom_30m_pct": 0.992,
+          "intraday_pct": 1.243,
+          "rsi": 67.7,
+          "vol_factor": 2.0,
+          "score": 2.861
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "buy_price": 1774.0,
+        "buy_time": "2026-10-05 22:40:36",
+        "iteration": 11,
+        "score_info": {
+          "last": 1774.0,
+          "mom_30m_pct": 0.647,
+          "intraday_pct": 1.907,
+          "rsi": 70.7,
+          "vol_factor": 2.0,
+          "score": 2.542
+        }
+      },
+      {
+        "symbol": "LT",
+        "qty": 1,
+        "buy_price": 3750.0,
+        "buy_time": "2026-10-05 22:40:36",
+        "iteration": 11,
         "score_info": {
           "last": 3750.0,
           "mom_30m_pct": 0.533,
@@ -982,6 +1036,57 @@
       {
         "time": "2026-10-05 21:52:49",
         "iteration": 10,
+        "action": "BUY",
+        "symbol": "LT",
+        "qty": 1,
+        "price": 3750.0,
+        "cost": 3750.0,
+        "score": {
+          "last": 3750.0,
+          "mom_30m_pct": 0.533,
+          "intraday_pct": 1.643,
+          "rsi": 66.5,
+          "vol_factor": 2.0,
+          "score": 2.293
+        }
+      },
+      {
+        "time": "2026-10-05 22:40:36",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1751.4,
+        "cost": 1751.4,
+        "score": {
+          "last": 1751.4,
+          "mom_30m_pct": 0.992,
+          "intraday_pct": 1.243,
+          "rsi": 67.7,
+          "vol_factor": 2.0,
+          "score": 2.861
+        }
+      },
+      {
+        "time": "2026-10-05 22:40:36",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "price": 1774.0,
+        "cost": 3548.0,
+        "score": {
+          "last": 1774.0,
+          "mom_30m_pct": 0.647,
+          "intraday_pct": 1.907,
+          "rsi": 70.7,
+          "vol_factor": 2.0,
+          "score": 2.542
+        }
+      },
+      {
+        "time": "2026-10-05 22:40:36",
+        "iteration": 11,
         "action": "BUY",
         "symbol": "LT",
         "qty": 1,
