@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-06",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 1,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,18 +12,9 @@
         "invested_today_after": 7821.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
-      },
-      {
-        "iteration": 2,
-        "time": "2026-10-06 21:48:15",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 15642.2,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 4
       }
     ],
-    "invested_today": 15642.199951171875,
+    "invested_today": 7821.0999755859375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -55,36 +46,6 @@
           "vol_factor": 2.0,
           "score": 2.252
         }
-      },
-      {
-        "symbol": "SUNPHARMA",
-        "qty": 3,
-        "buy_price": 1804.1,
-        "buy_time": "2026-10-06 21:48:15",
-        "iteration": 2,
-        "score_info": {
-          "last": 1804.1,
-          "mom_30m_pct": 0.63,
-          "intraday_pct": 1.485,
-          "rsi": 71.9,
-          "vol_factor": 2.0,
-          "score": 2.391
-        }
-      },
-      {
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "buy_price": 1204.4,
-        "buy_time": "2026-10-06 21:48:15",
-        "iteration": 2,
-        "score_info": {
-          "last": 1204.4,
-          "mom_30m_pct": 0.761,
-          "intraday_pct": 0.367,
-          "rsi": 67.3,
-          "vol_factor": 2.0,
-          "score": 2.252
-        }
       }
     ],
     "trades": [
@@ -108,40 +69,6 @@
       {
         "time": "2026-10-06 21:31:43",
         "iteration": 1,
-        "action": "BUY",
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "price": 1204.4,
-        "cost": 2408.8,
-        "score": {
-          "last": 1204.4,
-          "mom_30m_pct": 0.761,
-          "intraday_pct": 0.367,
-          "rsi": 67.3,
-          "vol_factor": 2.0,
-          "score": 2.252
-        }
-      },
-      {
-        "time": "2026-10-06 21:48:15",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "SUNPHARMA",
-        "qty": 3,
-        "price": 1804.1,
-        "cost": 5412.3,
-        "score": {
-          "last": 1804.1,
-          "mom_30m_pct": 0.63,
-          "intraday_pct": 1.485,
-          "rsi": 71.9,
-          "vol_factor": 2.0,
-          "score": 2.391
-        }
-      },
-      {
-        "time": "2026-10-06 21:48:15",
-        "iteration": 2,
         "action": "BUY",
         "symbol": "HCLTECH",
         "qty": 2,
