@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-06",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 36294.5,
         "realized_pnl_today_after": 30.6,
         "open_positions_after": 13
+      },
+      {
+        "iteration": 6,
+        "time": "2026-10-06 17:01:45",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 44617.8,
+        "realized_pnl_today_after": 30.6,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 36294.500244140625,
+    "invested_today": 44617.80029296875,
     "realized_pnl_today": 30.59999999999991,
     "open_positions": [
       {
@@ -239,6 +248,51 @@
         "buy_price": 1204.4,
         "buy_time": "2026-10-06 16:53:16",
         "iteration": 5,
+        "score_info": {
+          "last": 1204.4,
+          "mom_30m_pct": 0.761,
+          "intraday_pct": 0.367,
+          "rsi": 67.3,
+          "vol_factor": 2.0,
+          "score": 2.252
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2906.0,
+        "buy_time": "2026-10-06 17:01:45",
+        "iteration": 6,
+        "score_info": {
+          "last": 2906.0,
+          "mom_30m_pct": 0.072,
+          "intraday_pct": 12.636,
+          "rsi": 54.9,
+          "vol_factor": 0.43,
+          "score": 3.333
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1804.1,
+        "buy_time": "2026-10-06 17:01:45",
+        "iteration": 6,
+        "score_info": {
+          "last": 1804.1,
+          "mom_30m_pct": 0.63,
+          "intraday_pct": 1.485,
+          "rsi": 71.9,
+          "vol_factor": 2.0,
+          "score": 2.391
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1204.4,
+        "buy_time": "2026-10-06 17:01:45",
+        "iteration": 6,
         "score_info": {
           "last": 1204.4,
           "mom_30m_pct": 0.761,
@@ -486,6 +540,57 @@
       {
         "time": "2026-10-06 16:53:16",
         "iteration": 5,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1204.4,
+        "cost": 3613.2,
+        "score": {
+          "last": 1204.4,
+          "mom_30m_pct": 0.761,
+          "intraday_pct": 0.367,
+          "rsi": 67.3,
+          "vol_factor": 2.0,
+          "score": 2.252
+        }
+      },
+      {
+        "time": "2026-10-06 17:01:45",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2906.0,
+        "cost": 2906.0,
+        "score": {
+          "last": 2906.0,
+          "mom_30m_pct": 0.072,
+          "intraday_pct": 12.636,
+          "rsi": 54.9,
+          "vol_factor": 0.43,
+          "score": 3.333
+        }
+      },
+      {
+        "time": "2026-10-06 17:01:45",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1804.1,
+        "cost": 1804.1,
+        "score": {
+          "last": 1804.1,
+          "mom_30m_pct": 0.63,
+          "intraday_pct": 1.485,
+          "rsi": 71.9,
+          "vol_factor": 2.0,
+          "score": 2.391
+        }
+      },
+      {
+        "time": "2026-10-06 17:01:45",
+        "iteration": 6,
         "action": "BUY",
         "symbol": "HCLTECH",
         "qty": 3,
