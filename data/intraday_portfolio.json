@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-07",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 57934.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 8,
+        "time": "2026-10-07 19:13:22",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 66211.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 24
       }
     ],
-    "invested_today": 57934.80017089844,
+    "invested_today": 66211.2001953125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -377,6 +386,51 @@
         "buy_price": 1357.5,
         "buy_time": "2026-10-07 18:40:55",
         "iteration": 7,
+        "score_info": {
+          "last": 1357.5,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.17,
+          "rsi": 65.6,
+          "vol_factor": 2.0,
+          "score": 1.384
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1185.0,
+        "buy_time": "2026-10-07 19:13:22",
+        "iteration": 8,
+        "score_info": {
+          "last": 1185.0,
+          "mom_30m_pct": 0.808,
+          "intraday_pct": -0.837,
+          "rsi": 63.8,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1833.9,
+        "buy_time": "2026-10-07 19:13:22",
+        "iteration": 8,
+        "score_info": {
+          "last": 1833.9,
+          "mom_30m_pct": 0.164,
+          "intraday_pct": 1.595,
+          "rsi": 49.7,
+          "vol_factor": 1.93,
+          "score": 1.655
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "buy_price": 1357.5,
+        "buy_time": "2026-10-07 19:13:22",
+        "iteration": 8,
         "score_info": {
           "last": 1357.5,
           "mom_30m_pct": 0.022,
@@ -731,6 +785,57 @@
       {
         "time": "2026-10-07 18:40:55",
         "iteration": 7,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1357.5,
+        "cost": 4072.5,
+        "score": {
+          "last": 1357.5,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.17,
+          "rsi": 65.6,
+          "vol_factor": 2.0,
+          "score": 1.384
+        }
+      },
+      {
+        "time": "2026-10-07 19:13:22",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1185.0,
+        "cost": 2370.0,
+        "score": {
+          "last": 1185.0,
+          "mom_30m_pct": 0.808,
+          "intraday_pct": -0.837,
+          "rsi": 63.8,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-07 19:13:22",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1833.9,
+        "cost": 1833.9,
+        "score": {
+          "last": 1833.9,
+          "mom_30m_pct": 0.164,
+          "intraday_pct": 1.595,
+          "rsi": 49.7,
+          "vol_factor": 1.93,
+          "score": 1.655
+        }
+      },
+      {
+        "time": "2026-10-07 19:13:22",
+        "iteration": 8,
         "action": "BUY",
         "symbol": "ICICIBANK",
         "qty": 3,
