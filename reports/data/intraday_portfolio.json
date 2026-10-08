@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-08",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 63228.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 24
+      },
+      {
+        "iteration": 9,
+        "time": "2026-10-08 20:01:33",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 71996.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 27
       }
     ],
-    "invested_today": 63228.80078125,
+    "invested_today": 71996.40087890625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -431,6 +440,51 @@
         "buy_price": 1349.0,
         "buy_time": "2026-10-08 19:21:29",
         "iteration": 8,
+        "score_info": {
+          "last": 1349.0,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": -0.524,
+          "rsi": 71.6,
+          "vol_factor": 2.0,
+          "score": 1.345
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1306.8,
+        "buy_time": "2026-10-08 20:01:33",
+        "iteration": 9,
+        "score_info": {
+          "last": 1306.8,
+          "mom_30m_pct": 0.826,
+          "intraday_pct": -1.744,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 1.715
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 4,
+        "buy_price": 864.0,
+        "buy_time": "2026-10-08 20:01:33",
+        "iteration": 9,
+        "score_info": {
+          "last": 864.0,
+          "mom_30m_pct": 0.518,
+          "intraday_pct": -1.257,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.399
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1349.0,
+        "buy_time": "2026-10-08 20:01:33",
+        "iteration": 9,
         "score_info": {
           "last": 1349.0,
           "mom_30m_pct": 0.335,
@@ -836,6 +890,57 @@
       {
         "time": "2026-10-08 19:21:29",
         "iteration": 8,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1349.0,
+        "cost": 2698.0,
+        "score": {
+          "last": 1349.0,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": -0.524,
+          "rsi": 71.6,
+          "vol_factor": 2.0,
+          "score": 1.345
+        }
+      },
+      {
+        "time": "2026-10-08 20:01:33",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1306.8,
+        "cost": 2613.6,
+        "score": {
+          "last": 1306.8,
+          "mom_30m_pct": 0.826,
+          "intraday_pct": -1.744,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 1.715
+        }
+      },
+      {
+        "time": "2026-10-08 20:01:33",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 4,
+        "price": 864.0,
+        "cost": 3456.0,
+        "score": {
+          "last": 864.0,
+          "mom_30m_pct": 0.518,
+          "intraday_pct": -1.257,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.399
+        }
+      },
+      {
+        "time": "2026-10-08 20:01:33",
+        "iteration": 9,
         "action": "BUY",
         "symbol": "ICICIBANK",
         "qty": 2,
