@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-08",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,27 @@
         "invested_today_after": 39518.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 15
+      },
+      {
+        "iteration": 6,
+        "time": "2026-10-08 17:43:14",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 47421.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 18
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-08 18:47:53",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 55325.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 39518.00048828125,
+    "invested_today": 55325.20068359375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -269,6 +287,96 @@
         "buy_price": 1349.0,
         "buy_time": "2026-10-08 17:27:50",
         "iteration": 5,
+        "score_info": {
+          "last": 1349.0,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": -0.524,
+          "rsi": 71.6,
+          "vol_factor": 2.0,
+          "score": 1.345
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1306.8,
+        "buy_time": "2026-10-08 17:43:14",
+        "iteration": 6,
+        "score_info": {
+          "last": 1306.8,
+          "mom_30m_pct": 0.826,
+          "intraday_pct": -1.744,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 1.715
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 864.0,
+        "buy_time": "2026-10-08 17:43:14",
+        "iteration": 6,
+        "score_info": {
+          "last": 864.0,
+          "mom_30m_pct": 0.518,
+          "intraday_pct": -1.257,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.399
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1349.0,
+        "buy_time": "2026-10-08 17:43:14",
+        "iteration": 6,
+        "score_info": {
+          "last": 1349.0,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": -0.524,
+          "rsi": 71.6,
+          "vol_factor": 2.0,
+          "score": 1.345
+        }
+      },
+      {
+        "symbol": "CIPLA",
+        "qty": 2,
+        "buy_price": 1306.8,
+        "buy_time": "2026-10-08 18:47:53",
+        "iteration": 7,
+        "score_info": {
+          "last": 1306.8,
+          "mom_30m_pct": 0.826,
+          "intraday_pct": -1.744,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 1.715
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 864.0,
+        "buy_time": "2026-10-08 18:47:53",
+        "iteration": 7,
+        "score_info": {
+          "last": 864.0,
+          "mom_30m_pct": 0.518,
+          "intraday_pct": -1.257,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.399
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1349.0,
+        "buy_time": "2026-10-08 18:47:53",
+        "iteration": 7,
         "score_info": {
           "last": 1349.0,
           "mom_30m_pct": 0.335,
@@ -521,6 +629,108 @@
       {
         "time": "2026-10-08 17:27:50",
         "iteration": 5,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1349.0,
+        "cost": 2698.0,
+        "score": {
+          "last": 1349.0,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": -0.524,
+          "rsi": 71.6,
+          "vol_factor": 2.0,
+          "score": 1.345
+        }
+      },
+      {
+        "time": "2026-10-08 17:43:14",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1306.8,
+        "cost": 2613.6,
+        "score": {
+          "last": 1306.8,
+          "mom_30m_pct": 0.826,
+          "intraday_pct": -1.744,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 1.715
+        }
+      },
+      {
+        "time": "2026-10-08 17:43:14",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 864.0,
+        "cost": 2592.0,
+        "score": {
+          "last": 864.0,
+          "mom_30m_pct": 0.518,
+          "intraday_pct": -1.257,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.399
+        }
+      },
+      {
+        "time": "2026-10-08 17:43:14",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1349.0,
+        "cost": 2698.0,
+        "score": {
+          "last": 1349.0,
+          "mom_30m_pct": 0.335,
+          "intraday_pct": -0.524,
+          "rsi": 71.6,
+          "vol_factor": 2.0,
+          "score": 1.345
+        }
+      },
+      {
+        "time": "2026-10-08 18:47:53",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "CIPLA",
+        "qty": 2,
+        "price": 1306.8,
+        "cost": 2613.6,
+        "score": {
+          "last": 1306.8,
+          "mom_30m_pct": 0.826,
+          "intraday_pct": -1.744,
+          "rsi": 72.5,
+          "vol_factor": 2.0,
+          "score": 1.715
+        }
+      },
+      {
+        "time": "2026-10-08 18:47:53",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 864.0,
+        "cost": 2592.0,
+        "score": {
+          "last": 864.0,
+          "mom_30m_pct": 0.518,
+          "intraday_pct": -1.257,
+          "rsi": 56.1,
+          "vol_factor": 2.0,
+          "score": 1.399
+        }
+      },
+      {
+        "time": "2026-10-08 18:47:53",
+        "iteration": 7,
         "action": "BUY",
         "symbol": "ICICIBANK",
         "qty": 2,
