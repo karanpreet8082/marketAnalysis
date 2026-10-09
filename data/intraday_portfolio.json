@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-09",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 20571.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
-      },
-      {
-        "iteration": 4,
-        "time": "2026-10-09 17:01:28",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 29286.0,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 6
       }
     ],
-    "invested_today": 29286.0,
+    "invested_today": 20571.0,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -95,36 +86,6 @@
         "buy_price": 312.0,
         "buy_time": "2026-10-09 16:54:57",
         "iteration": 3,
-        "score_info": {
-          "last": 312.0,
-          "mom_30m_pct": 0.418,
-          "intraday_pct": 1.036,
-          "rsi": 56.6,
-          "vol_factor": 2.0,
-          "score": 1.938
-        }
-      },
-      {
-        "symbol": "ADANIPORTS",
-        "qty": 3,
-        "buy_price": 1761.0,
-        "buy_time": "2026-10-09 17:01:28",
-        "iteration": 4,
-        "score_info": {
-          "last": 1761.0,
-          "mom_30m_pct": -0.187,
-          "intraday_pct": 4.14,
-          "rsi": 44.6,
-          "vol_factor": 2.0,
-          "score": 1.961
-        }
-      },
-      {
-        "symbol": "NTPC",
-        "qty": 11,
-        "buy_price": 312.0,
-        "buy_time": "2026-10-09 17:01:28",
-        "iteration": 4,
         "score_info": {
           "last": 312.0,
           "mom_30m_pct": 0.418,
@@ -195,40 +156,6 @@
         "qty": 14,
         "price": 312.0,
         "cost": 4368.0,
-        "score": {
-          "last": 312.0,
-          "mom_30m_pct": 0.418,
-          "intraday_pct": 1.036,
-          "rsi": 56.6,
-          "vol_factor": 2.0,
-          "score": 1.938
-        }
-      },
-      {
-        "time": "2026-10-09 17:01:28",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "ADANIPORTS",
-        "qty": 3,
-        "price": 1761.0,
-        "cost": 5283.0,
-        "score": {
-          "last": 1761.0,
-          "mom_30m_pct": -0.187,
-          "intraday_pct": 4.14,
-          "rsi": 44.6,
-          "vol_factor": 2.0,
-          "score": 1.961
-        }
-      },
-      {
-        "time": "2026-10-09 17:01:28",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "NTPC",
-        "qty": 11,
-        "price": 312.0,
-        "cost": 3432.0,
         "score": {
           "last": 312.0,
           "mom_30m_pct": 0.418,
