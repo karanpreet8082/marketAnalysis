@@ -1,5 +1,903 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-10-09",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-10-09 16:25:46",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 5304.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-09 16:41:42",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 10920.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 3,
+        "time": "2026-10-09 16:54:57",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 20571.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
+      },
+      {
+        "iteration": 4,
+        "time": "2026-10-09 17:01:28",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 29286.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
+      },
+      {
+        "iteration": 5,
+        "time": "2026-10-09 17:19:51",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 38001.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
+      },
+      {
+        "iteration": 6,
+        "time": "2026-10-09 17:34:49",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 46716.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-09 18:35:38",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 55431.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 8,
+        "time": "2026-10-09 19:06:35",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 64146.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
+      },
+      {
+        "iteration": 9,
+        "time": "2026-10-09 19:48:29",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 72861.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 16
+      },
+      {
+        "iteration": 10,
+        "time": "2026-10-09 20:10:11",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 81888.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 18
+      },
+      {
+        "iteration": 11,
+        "time": "2026-10-09 20:50:09",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 90915.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-10-09 21:06:19",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 96732.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 22
+      },
+      {
+        "iteration": 13,
+        "time": "2026-10-09 21:50:16",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99741.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 24
+      }
+    ],
+    "invested_today": 99741.0,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "NTPC",
+        "qty": 17,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 16:25:46",
+        "iteration": 1,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 18,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 16:41:42",
+        "iteration": 2,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 16:54:57",
+        "iteration": 3,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 14,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 16:54:57",
+        "iteration": 3,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 17:01:28",
+        "iteration": 4,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 11,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 17:01:28",
+        "iteration": 4,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 17:19:51",
+        "iteration": 5,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 11,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 17:19:51",
+        "iteration": 5,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 17:34:49",
+        "iteration": 6,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 11,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 17:34:49",
+        "iteration": 6,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 18:35:38",
+        "iteration": 7,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 11,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 18:35:38",
+        "iteration": 7,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 19:06:35",
+        "iteration": 8,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 11,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 19:06:35",
+        "iteration": 8,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 19:48:29",
+        "iteration": 9,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 11,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 19:48:29",
+        "iteration": 9,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 20:10:11",
+        "iteration": 10,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 12,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 20:10:11",
+        "iteration": 10,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 20:50:09",
+        "iteration": 11,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 12,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 20:50:09",
+        "iteration": 11,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 21:06:19",
+        "iteration": 12,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 13,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 21:06:19",
+        "iteration": 12,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1761.0,
+        "buy_time": "2026-10-09 21:50:16",
+        "iteration": 13,
+        "score_info": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 4,
+        "buy_price": 312.0,
+        "buy_time": "2026-10-09 21:50:16",
+        "iteration": 13,
+        "score_info": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-10-09 16:25:46",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 17,
+        "price": 312.0,
+        "cost": 5304.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 16:41:42",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 18,
+        "price": 312.0,
+        "cost": 5616.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 16:54:57",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1761.0,
+        "cost": 5283.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 16:54:57",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 14,
+        "price": 312.0,
+        "cost": 4368.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 17:01:28",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1761.0,
+        "cost": 5283.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 17:01:28",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 11,
+        "price": 312.0,
+        "cost": 3432.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 17:19:51",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1761.0,
+        "cost": 5283.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 17:19:51",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 11,
+        "price": 312.0,
+        "cost": 3432.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 17:34:49",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1761.0,
+        "cost": 5283.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 17:34:49",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 11,
+        "price": 312.0,
+        "cost": 3432.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 18:35:38",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1761.0,
+        "cost": 5283.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 18:35:38",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 11,
+        "price": 312.0,
+        "cost": 3432.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 19:06:35",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1761.0,
+        "cost": 5283.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 19:06:35",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 11,
+        "price": 312.0,
+        "cost": 3432.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 19:48:29",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1761.0,
+        "cost": 5283.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 19:48:29",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 11,
+        "price": 312.0,
+        "cost": 3432.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 20:10:11",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1761.0,
+        "cost": 5283.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 20:10:11",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 12,
+        "price": 312.0,
+        "cost": 3744.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 20:50:09",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 3,
+        "price": 1761.0,
+        "cost": 5283.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 20:50:09",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 12,
+        "price": 312.0,
+        "cost": 3744.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 21:06:19",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1761.0,
+        "cost": 1761.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 21:06:19",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 13,
+        "price": 312.0,
+        "cost": 4056.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      },
+      {
+        "time": "2026-10-09 21:50:16",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1761.0,
+        "cost": 1761.0,
+        "score": {
+          "last": 1761.0,
+          "mom_30m_pct": -0.187,
+          "intraday_pct": 4.14,
+          "rsi": 44.6,
+          "vol_factor": 2.0,
+          "score": 1.961
+        }
+      },
+      {
+        "time": "2026-10-09 21:50:16",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 4,
+        "price": 312.0,
+        "cost": 1248.0,
+        "score": {
+          "last": 312.0,
+          "mom_30m_pct": 0.418,
+          "intraday_pct": 1.036,
+          "rsi": 56.6,
+          "vol_factor": 2.0,
+          "score": 1.938
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -77563,725 +78461,20 @@
       "n_sells": 36,
       "feedback": "Day P&L \u20b90 on \u20b999163 deployed (0.00%). Profitable day \u2014 keep current parameters.",
       "profitable": true
-    },
-    {
-      "date": "2026-10-09",
-      "iterations_run": 14,
-      "invested": 99741.0,
-      "realized_pnl": 0.0,
-      "pnl_pct": 0.0,
-      "trades": [
-        {
-          "time": "2026-10-09 16:25:46",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 17,
-          "price": 312.0,
-          "cost": 5304.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 16:41:42",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 18,
-          "price": 312.0,
-          "cost": 5616.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 16:54:57",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "cost": 5283.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 16:54:57",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 14,
-          "price": 312.0,
-          "cost": 4368.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 17:01:28",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "cost": 5283.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 17:01:28",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "cost": 3432.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 17:19:51",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "cost": 5283.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 17:19:51",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "cost": 3432.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 17:34:49",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "cost": 5283.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 17:34:49",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "cost": 3432.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 18:35:38",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "cost": 5283.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 18:35:38",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "cost": 3432.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 19:06:35",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "cost": 5283.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 19:06:35",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "cost": 3432.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 19:48:29",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "cost": 5283.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 19:48:29",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "cost": 3432.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 20:10:11",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "cost": 5283.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 20:10:11",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 12,
-          "price": 312.0,
-          "cost": 3744.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 20:50:09",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "cost": 5283.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 20:50:09",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 12,
-          "price": 312.0,
-          "cost": 3744.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 21:06:19",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1761.0,
-          "cost": 1761.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 21:06:19",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 13,
-          "price": 312.0,
-          "cost": 4056.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 21:50:16",
-          "iteration": 13,
-          "action": "BUY",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1761.0,
-          "cost": 1761.0,
-          "score": {
-            "last": 1761.0,
-            "mom_30m_pct": -0.187,
-            "intraday_pct": 4.14,
-            "rsi": 44.6,
-            "vol_factor": 2.0,
-            "score": 1.961
-          }
-        },
-        {
-          "time": "2026-10-09 21:50:16",
-          "iteration": 13,
-          "action": "BUY",
-          "symbol": "NTPC",
-          "qty": 4,
-          "price": 312.0,
-          "cost": 1248.0,
-          "score": {
-            "last": 312.0,
-            "mom_30m_pct": 0.418,
-            "intraday_pct": 1.036,
-            "rsi": 56.6,
-            "vol_factor": 2.0,
-            "score": 1.938
-          }
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 17,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 18,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 14,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 11,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 12,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 3,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 12,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 13,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "ADANIPORTS",
-          "qty": 1,
-          "price": 1761.0,
-          "buy_price": 1761.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-09 22:08:41",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "NTPC",
-          "qty": 4,
-          "price": 312.0,
-          "buy_price": 312.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 24,
-      "n_sells": 24,
-      "feedback": "Day P&L \u20b90 on \u20b999741 deployed (0.00%). Profitable day \u2014 keep current parameters.",
-      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 96,
+    "total_days": 95,
     "winning_days": 48,
     "losing_days": 39,
     "total_realized_pnl": 1036.5,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-08-31",
+        "note": "Day P&L \u20b9-33 on \u20b998235 deployed (-0.03%). Worst trade: SUNPHARMA (P&L \u20b9-60, -3.01%). Consider tighter stop on entries with weaker momentum scores. 33 EOD force-sells contributed \u20b9-39. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
       {
         "date": "2026-09-01",
         "note": "Day P&L \u20b993 on \u20b999847 deployed (0.09%). Worst trade: BPCL (P&L \u20b9-10, -0.17%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -78397,10 +78590,6 @@
       {
         "date": "2026-10-08",
         "note": "Day P&L \u20b90 on \u20b999163 deployed (0.00%). Profitable day \u2014 keep current parameters."
-      },
-      {
-        "date": "2026-10-09",
-        "note": "Day P&L \u20b90 on \u20b999741 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
