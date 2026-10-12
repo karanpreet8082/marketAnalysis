@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-12",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 40800.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 6,
+        "time": "2026-10-12 18:59:54",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 49235.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 40799.99981689453,
+    "invested_today": 49235.39978027344,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -224,6 +233,51 @@
         "buy_price": 1173.0,
         "buy_time": "2026-10-12 18:32:57",
         "iteration": 5,
+        "score_info": {
+          "last": 1173.0,
+          "mom_30m_pct": 0.325,
+          "intraday_pct": 0.428,
+          "rsi": 59.6,
+          "vol_factor": 2.0,
+          "score": 1.616
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1020.0,
+        "buy_time": "2026-10-12 18:59:54",
+        "iteration": 6,
+        "score_info": {
+          "last": 1020.0,
+          "mom_30m_pct": 0.721,
+          "intraday_pct": -0.575,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.909
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 958.8,
+        "buy_time": "2026-10-12 18:59:54",
+        "iteration": 6,
+        "score_info": {
+          "last": 958.8,
+          "mom_30m_pct": 0.345,
+          "intraday_pct": 0.398,
+          "rsi": 59.6,
+          "vol_factor": 2.0,
+          "score": 1.637
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "buy_price": 1173.0,
+        "buy_time": "2026-10-12 18:59:54",
+        "iteration": 6,
         "score_info": {
           "last": 1173.0,
           "mom_30m_pct": 0.325,
@@ -425,6 +479,57 @@
       {
         "time": "2026-10-12 18:32:57",
         "iteration": 5,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 3,
+        "price": 1173.0,
+        "cost": 3519.0,
+        "score": {
+          "last": 1173.0,
+          "mom_30m_pct": 0.325,
+          "intraday_pct": 0.428,
+          "rsi": 59.6,
+          "vol_factor": 2.0,
+          "score": 1.616
+        }
+      },
+      {
+        "time": "2026-10-12 18:59:54",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1020.0,
+        "cost": 2040.0,
+        "score": {
+          "last": 1020.0,
+          "mom_30m_pct": 0.721,
+          "intraday_pct": -0.575,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.909
+        }
+      },
+      {
+        "time": "2026-10-12 18:59:54",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 958.8,
+        "cost": 2876.4,
+        "score": {
+          "last": 958.8,
+          "mom_30m_pct": 0.345,
+          "intraday_pct": 0.398,
+          "rsi": 59.6,
+          "vol_factor": 2.0,
+          "score": 1.637
+        }
+      },
+      {
+        "time": "2026-10-12 18:59:54",
+        "iteration": 6,
         "action": "BUY",
         "symbol": "JSWSTEEL",
         "qty": 3,
