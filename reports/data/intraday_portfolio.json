@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-12",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 48776.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-12 21:23:46",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 56752.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 48776.39978027344,
+    "invested_today": 56752.799743652344,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -263,6 +272,36 @@
         "buy_price": 958.8,
         "buy_time": "2026-10-12 20:41:36",
         "iteration": 6,
+        "score_info": {
+          "last": 958.8,
+          "mom_30m_pct": 0.345,
+          "intraday_pct": 0.398,
+          "rsi": 59.6,
+          "vol_factor": 2.0,
+          "score": 1.637
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 5,
+        "buy_price": 1020.0,
+        "buy_time": "2026-10-12 21:23:46",
+        "iteration": 7,
+        "score_info": {
+          "last": 1020.0,
+          "mom_30m_pct": 0.721,
+          "intraday_pct": -0.575,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.909
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 958.8,
+        "buy_time": "2026-10-12 21:23:46",
+        "iteration": 7,
         "score_info": {
           "last": 958.8,
           "mom_30m_pct": 0.345,
@@ -498,6 +537,40 @@
       {
         "time": "2026-10-12 20:41:36",
         "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 958.8,
+        "cost": 2876.4,
+        "score": {
+          "last": 958.8,
+          "mom_30m_pct": 0.345,
+          "intraday_pct": 0.398,
+          "rsi": 59.6,
+          "vol_factor": 2.0,
+          "score": 1.637
+        }
+      },
+      {
+        "time": "2026-10-12 21:23:46",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 5,
+        "price": 1020.0,
+        "cost": 5100.0,
+        "score": {
+          "last": 1020.0,
+          "mom_30m_pct": 0.721,
+          "intraday_pct": -0.575,
+          "rsi": 71.3,
+          "vol_factor": 2.0,
+          "score": 1.909
+        }
+      },
+      {
+        "time": "2026-10-12 21:23:46",
+        "iteration": 7,
         "action": "BUY",
         "symbol": "TATACONSUM",
         "qty": 3,
