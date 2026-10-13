@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-13",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,10 +21,19 @@
         "invested_today_after": 16232.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-10-13 16:39:12",
+        "n_bought": 2,
+        "n_sold": 2,
+        "invested_today_after": 21257.4,
+        "realized_pnl_today_after": 246.9,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 16232.600036621094,
-    "realized_pnl_today": 0.0,
+    "invested_today": 21257.40008544922,
+    "realized_pnl_today": 246.8998779296876,
     "open_positions": [
       {
         "symbol": "TATACONSUM",
@@ -57,36 +66,6 @@
         }
       },
       {
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "buy_price": 704.9,
-        "buy_time": "2026-10-13 00:38:41",
-        "iteration": 1,
-        "score_info": {
-          "last": 704.9,
-          "mom_30m_pct": 0.399,
-          "intraday_pct": -0.332,
-          "rsi": 64.0,
-          "vol_factor": 2.0,
-          "score": 1.499
-        }
-      },
-      {
-        "symbol": "INFY",
-        "qty": 5,
-        "buy_price": 1020.0,
-        "buy_time": "2026-10-13 00:54:50",
-        "iteration": 2,
-        "score_info": {
-          "last": 1020.0,
-          "mom_30m_pct": 0.721,
-          "intraday_pct": -0.575,
-          "rsi": 71.3,
-          "vol_factor": 2.0,
-          "score": 1.909
-        }
-      },
-      {
         "symbol": "TATACONSUM",
         "qty": 3,
         "buy_price": 958.8,
@@ -99,6 +78,36 @@
           "rsi": 59.6,
           "vol_factor": 2.0,
           "score": 1.637
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "buy_price": 250.5,
+        "buy_time": "2026-10-13 16:39:12",
+        "iteration": 3,
+        "score_info": {
+          "last": 250.5,
+          "mom_30m_pct": 0.947,
+          "intraday_pct": 0.602,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.601
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2269.3,
+        "buy_time": "2026-10-13 16:39:12",
+        "iteration": 3,
+        "score_info": {
+          "last": 2269.3,
+          "mom_30m_pct": 0.607,
+          "intraday_pct": 6.791,
+          "rsi": 77.6,
+          "vol_factor": 2.0,
+          "score": 2.448
         }
       }
     ],
@@ -186,6 +195,64 @@
           "rsi": 59.6,
           "vol_factor": 2.0,
           "score": 1.637
+        }
+      },
+      {
+        "time": "2026-10-13 16:39:12",
+        "iteration": 3,
+        "action": "SELL",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 714.0,
+        "buy_price": 704.9,
+        "pnl": 36.4,
+        "pnl_pct": 1.29,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-10-13 16:39:12",
+        "iteration": 3,
+        "action": "SELL",
+        "symbol": "INFY",
+        "qty": 5,
+        "price": 1062.1,
+        "buy_price": 1020.0,
+        "pnl": 210.5,
+        "pnl_pct": 4.13,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-10-13 16:39:12",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "price": 250.5,
+        "cost": 2755.5,
+        "score": {
+          "last": 250.5,
+          "mom_30m_pct": 0.947,
+          "intraday_pct": 0.602,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.601
+        }
+      },
+      {
+        "time": "2026-10-13 16:39:12",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2269.3,
+        "cost": 2269.3,
+        "score": {
+          "last": 2269.3,
+          "mom_30m_pct": 0.607,
+          "intraday_pct": 6.791,
+          "rsi": 77.6,
+          "vol_factor": 2.0,
+          "score": 2.448
         }
       }
     ],
