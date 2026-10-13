@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-10-13",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-10-13 22:30:29",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 4921.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 4921.300048828125,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1326.0,
+        "buy_time": "2026-10-13 22:30:29",
+        "iteration": 1,
+        "score_info": {
+          "last": 1326.0,
+          "mom_30m_pct": 0.921,
+          "intraday_pct": 8.422,
+          "rsi": 72.0,
+          "vol_factor": 1.02,
+          "score": 3.932
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2269.3,
+        "buy_time": "2026-10-13 22:30:29",
+        "iteration": 1,
+        "score_info": {
+          "last": 2269.3,
+          "mom_30m_pct": 0.607,
+          "intraday_pct": 6.791,
+          "rsi": 77.6,
+          "vol_factor": 2.0,
+          "score": 2.448
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-10-13 22:30:29",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1326.0,
+        "cost": 2652.0,
+        "score": {
+          "last": 1326.0,
+          "mom_30m_pct": 0.921,
+          "intraday_pct": 8.422,
+          "rsi": 72.0,
+          "vol_factor": 1.02,
+          "score": 3.932
+        }
+      },
+      {
+        "time": "2026-10-13 22:30:29",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2269.3,
+        "cost": 2269.3,
+        "score": {
+          "last": 2269.3,
+          "mom_30m_pct": 0.607,
+          "intraday_pct": 6.791,
+          "rsi": 77.6,
+          "vol_factor": 2.0,
+          "score": 2.448
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
