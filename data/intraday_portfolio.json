@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-13",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,27 @@
         "invested_today_after": 88182.8,
         "realized_pnl_today_after": 246.9,
         "open_positions_after": 29
+      },
+      {
+        "iteration": 12,
+        "time": "2026-10-13 20:46:27",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 98114.1,
+        "realized_pnl_today_after": 246.9,
+        "open_positions_after": 32
+      },
+      {
+        "iteration": 13,
+        "time": "2026-10-13 21:32:50",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 99366.6,
+        "realized_pnl_today_after": 246.9,
+        "open_positions_after": 33
       }
     ],
-    "invested_today": 88182.80047607422,
+    "invested_today": 99366.60052490234,
     "realized_pnl_today": 246.8998779296876,
     "open_positions": [
       {
@@ -540,6 +558,66 @@
           "rsi": 77.6,
           "vol_factor": 2.0,
           "score": 2.448
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1326.0,
+        "buy_time": "2026-10-13 20:46:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 1326.0,
+          "mom_30m_pct": 0.921,
+          "intraday_pct": 8.422,
+          "rsi": 72.0,
+          "vol_factor": 1.02,
+          "score": 3.932
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 20,
+        "buy_price": 250.5,
+        "buy_time": "2026-10-13 20:46:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 250.5,
+          "mom_30m_pct": 0.947,
+          "intraday_pct": 0.602,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.601
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2269.3,
+        "buy_time": "2026-10-13 20:46:27",
+        "iteration": 12,
+        "score_info": {
+          "last": 2269.3,
+          "mom_30m_pct": 0.607,
+          "intraday_pct": 6.791,
+          "rsi": 77.6,
+          "vol_factor": 2.0,
+          "score": 2.448
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 5,
+        "buy_price": 250.5,
+        "buy_time": "2026-10-13 21:32:50",
+        "iteration": 13,
+        "score_info": {
+          "last": 250.5,
+          "mom_30m_pct": 0.947,
+          "intraday_pct": 0.602,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.601
         }
       }
     ],
@@ -1093,6 +1171,74 @@
           "rsi": 77.6,
           "vol_factor": 2.0,
           "score": 2.448
+        }
+      },
+      {
+        "time": "2026-10-13 20:46:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1326.0,
+        "cost": 2652.0,
+        "score": {
+          "last": 1326.0,
+          "mom_30m_pct": 0.921,
+          "intraday_pct": 8.422,
+          "rsi": 72.0,
+          "vol_factor": 1.02,
+          "score": 3.932
+        }
+      },
+      {
+        "time": "2026-10-13 20:46:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 20,
+        "price": 250.5,
+        "cost": 5010.0,
+        "score": {
+          "last": 250.5,
+          "mom_30m_pct": 0.947,
+          "intraday_pct": 0.602,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.601
+        }
+      },
+      {
+        "time": "2026-10-13 20:46:27",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2269.3,
+        "cost": 2269.3,
+        "score": {
+          "last": 2269.3,
+          "mom_30m_pct": 0.607,
+          "intraday_pct": 6.791,
+          "rsi": 77.6,
+          "vol_factor": 2.0,
+          "score": 2.448
+        }
+      },
+      {
+        "time": "2026-10-13 21:32:50",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 5,
+        "price": 250.5,
+        "cost": 1252.5,
+        "score": {
+          "last": 250.5,
+          "mom_30m_pct": 0.947,
+          "intraday_pct": 0.602,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 2.601
         }
       }
     ],
