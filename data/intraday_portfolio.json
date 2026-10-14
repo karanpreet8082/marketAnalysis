@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-14",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 8202.85,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-14 14:52:20",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 13575.01,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
       }
     ],
-    "invested_today": 8202.850036621094,
+    "invested_today": 13575.009948730469,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,21 @@
           "rsi": 66.6,
           "vol_factor": 0.6,
           "score": 0.15
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 24,
+        "buy_price": 223.84,
+        "buy_time": "2026-10-14 14:52:20",
+        "iteration": 2,
+        "score_info": {
+          "last": 223.84,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 0.77,
+          "rsi": 55.6,
+          "vol_factor": 2.0,
+          "score": 1.305
         }
       }
     ],
@@ -113,6 +137,23 @@
           "rsi": 66.6,
           "vol_factor": 0.6,
           "score": 0.15
+        }
+      },
+      {
+        "time": "2026-10-14 14:52:20",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 24,
+        "price": 223.84,
+        "cost": 5372.16,
+        "score": {
+          "last": 223.84,
+          "mom_30m_pct": 0.049,
+          "intraday_pct": 0.77,
+          "rsi": 55.6,
+          "vol_factor": 2.0,
+          "score": 1.305
         }
       }
     ],
