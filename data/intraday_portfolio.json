@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-14",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 21413.16,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 4,
+        "time": "2026-10-14 15:14:34",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 30048.72,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 21413.160247802734,
+    "invested_today": 30048.720306396484,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -123,6 +132,51 @@
           "rsi": 53.5,
           "vol_factor": 0.35,
           "score": 0.112
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1116.9,
+        "buy_time": "2026-10-14 15:14:34",
+        "iteration": 4,
+        "score_info": {
+          "last": 1116.9,
+          "mom_30m_pct": 0.233,
+          "intraday_pct": 3.58,
+          "rsi": 38.5,
+          "vol_factor": 2.0,
+          "score": 2.424
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 16,
+        "buy_price": 224.11,
+        "buy_time": "2026-10-14 15:14:34",
+        "iteration": 4,
+        "score_info": {
+          "last": 224.11,
+          "mom_30m_pct": 0.233,
+          "intraday_pct": 0.742,
+          "rsi": 54.8,
+          "vol_factor": 2.0,
+          "score": 1.571
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "buy_price": 352.0,
+        "buy_time": "2026-10-14 15:14:34",
+        "iteration": 4,
+        "score_info": {
+          "last": 352.0,
+          "mom_30m_pct": -0.043,
+          "intraday_pct": 2.103,
+          "rsi": 50.8,
+          "vol_factor": 2.0,
+          "score": 1.567
         }
       }
     ],
@@ -227,6 +281,57 @@
           "rsi": 53.5,
           "vol_factor": 0.35,
           "score": 0.112
+        }
+      },
+      {
+        "time": "2026-10-14 15:14:34",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1116.9,
+        "cost": 2233.8,
+        "score": {
+          "last": 1116.9,
+          "mom_30m_pct": 0.233,
+          "intraday_pct": 3.58,
+          "rsi": 38.5,
+          "vol_factor": 2.0,
+          "score": 2.424
+        }
+      },
+      {
+        "time": "2026-10-14 15:14:34",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 16,
+        "price": 224.11,
+        "cost": 3585.76,
+        "score": {
+          "last": 224.11,
+          "mom_30m_pct": 0.233,
+          "intraday_pct": 0.742,
+          "rsi": 54.8,
+          "vol_factor": 2.0,
+          "score": 1.571
+        }
+      },
+      {
+        "time": "2026-10-14 15:14:34",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 8,
+        "price": 352.0,
+        "cost": 2816.0,
+        "score": {
+          "last": 352.0,
+          "mom_30m_pct": -0.043,
+          "intraday_pct": 2.103,
+          "rsi": 50.8,
+          "vol_factor": 2.0,
+          "score": 1.567
         }
       }
     ],
