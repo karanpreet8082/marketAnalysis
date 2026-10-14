@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-14",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 38507.22,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-10-14 16:03:51",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 45589.12,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 38507.220306396484,
+    "invested_today": 45589.12045288086,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -216,6 +225,51 @@
           "rsi": 58.6,
           "vol_factor": 2.0,
           "score": 1.389
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "buy_price": 987.9,
+        "buy_time": "2026-10-14 16:03:51",
+        "iteration": 6,
+        "score_info": {
+          "last": 987.9,
+          "mom_30m_pct": 0.621,
+          "intraday_pct": 2.485,
+          "rsi": 68.1,
+          "vol_factor": 2.0,
+          "score": 2.677
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1119.9,
+        "buy_time": "2026-10-14 16:03:51",
+        "iteration": 6,
+        "score_info": {
+          "last": 1119.9,
+          "mom_30m_pct": 0.602,
+          "intraday_pct": 3.503,
+          "rsi": 65.6,
+          "vol_factor": 1.66,
+          "score": 2.616
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1746.4,
+        "buy_time": "2026-10-14 16:03:51",
+        "iteration": 6,
+        "score_info": {
+          "last": 1746.4,
+          "mom_30m_pct": 1.001,
+          "intraday_pct": -1.244,
+          "rsi": 72.3,
+          "vol_factor": 2.0,
+          "score": 2.128
         }
       }
     ],
@@ -405,6 +459,57 @@
           "rsi": 58.6,
           "vol_factor": 2.0,
           "score": 1.389
+        }
+      },
+      {
+        "time": "2026-10-14 16:03:51",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 987.9,
+        "cost": 1975.8,
+        "score": {
+          "last": 987.9,
+          "mom_30m_pct": 0.621,
+          "intraday_pct": 2.485,
+          "rsi": 68.1,
+          "vol_factor": 2.0,
+          "score": 2.677
+        }
+      },
+      {
+        "time": "2026-10-14 16:03:51",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1119.9,
+        "cost": 3359.7,
+        "score": {
+          "last": 1119.9,
+          "mom_30m_pct": 0.602,
+          "intraday_pct": 3.503,
+          "rsi": 65.6,
+          "vol_factor": 1.66,
+          "score": 2.616
+        }
+      },
+      {
+        "time": "2026-10-14 16:03:51",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1746.4,
+        "cost": 1746.4,
+        "score": {
+          "last": 1746.4,
+          "mom_30m_pct": 1.001,
+          "intraday_pct": -1.244,
+          "rsi": 72.3,
+          "vol_factor": 2.0,
+          "score": 2.128
         }
       }
     ],
