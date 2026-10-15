@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-15",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 79040.68,
         "realized_pnl_today_after": 43.9,
         "open_positions_after": 19
+      },
+      {
+        "iteration": 11,
+        "time": "2026-10-15 18:58:17",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 89346.88,
+        "realized_pnl_today_after": 43.9,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 79040.67987060547,
+    "invested_today": 89346.87994384766,
     "realized_pnl_today": 43.90004882812491,
     "open_positions": [
       {
@@ -381,6 +390,51 @@
           "rsi": 59.7,
           "vol_factor": 2.0,
           "score": 2.536
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1215.0,
+        "buy_time": "2026-10-15 18:58:17",
+        "iteration": 11,
+        "score_info": {
+          "last": 1215.0,
+          "mom_30m_pct": 0.654,
+          "intraday_pct": 3.106,
+          "rsi": 49.0,
+          "vol_factor": 2.0,
+          "score": 2.913
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "buy_price": 1389.4,
+        "buy_time": "2026-10-15 18:58:17",
+        "iteration": 11,
+        "score_info": {
+          "last": 1389.4,
+          "mom_30m_pct": 0.318,
+          "intraday_pct": 3.532,
+          "rsi": 59.7,
+          "vol_factor": 2.0,
+          "score": 2.536
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 1854.0,
+        "buy_time": "2026-10-15 18:58:17",
+        "iteration": 11,
+        "score_info": {
+          "last": 1854.0,
+          "mom_30m_pct": 0.27,
+          "intraday_pct": 2.891,
+          "rsi": 49.1,
+          "vol_factor": 2.0,
+          "score": 2.273
         }
       }
     ],
@@ -764,6 +818,57 @@
           "rsi": 59.7,
           "vol_factor": 2.0,
           "score": 2.536
+        }
+      },
+      {
+        "time": "2026-10-15 18:58:17",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1215.0,
+        "cost": 2430.0,
+        "score": {
+          "last": 1215.0,
+          "mom_30m_pct": 0.654,
+          "intraday_pct": 3.106,
+          "rsi": 49.0,
+          "vol_factor": 2.0,
+          "score": 2.913
+        }
+      },
+      {
+        "time": "2026-10-15 18:58:17",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 3,
+        "price": 1389.4,
+        "cost": 4168.2,
+        "score": {
+          "last": 1389.4,
+          "mom_30m_pct": 0.318,
+          "intraday_pct": 3.532,
+          "rsi": 59.7,
+          "vol_factor": 2.0,
+          "score": 2.536
+        }
+      },
+      {
+        "time": "2026-10-15 18:58:17",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 1854.0,
+        "cost": 3708.0,
+        "score": {
+          "last": 1854.0,
+          "mom_30m_pct": 0.27,
+          "intraday_pct": 2.891,
+          "rsi": 49.1,
+          "vol_factor": 2.0,
+          "score": 2.273
         }
       }
     ],
