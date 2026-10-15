@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-15",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7176.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-15 14:30:30",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 12737.06,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
       }
     ],
-    "invested_today": 7176.099853515625,
+    "invested_today": 12737.059814453125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,21 @@
           "rsi": 63.7,
           "vol_factor": 0.64,
           "score": 0.412
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 32,
+        "buy_price": 173.78,
+        "buy_time": "2026-10-15 14:30:30",
+        "iteration": 2,
+        "score_info": {
+          "last": 173.78,
+          "mom_30m_pct": 0.393,
+          "intraday_pct": 1.448,
+          "rsi": 63.6,
+          "vol_factor": 1.0,
+          "score": 1.024
         }
       }
     ],
@@ -81,6 +105,23 @@
           "rsi": 63.7,
           "vol_factor": 0.64,
           "score": 0.412
+        }
+      },
+      {
+        "time": "2026-10-15 14:30:30",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 32,
+        "price": 173.78,
+        "cost": 5560.96,
+        "score": {
+          "last": 173.78,
+          "mom_30m_pct": 0.393,
+          "intraday_pct": 1.448,
+          "rsi": 63.6,
+          "vol_factor": 1.0,
+          "score": 1.024
         }
       }
     ],
