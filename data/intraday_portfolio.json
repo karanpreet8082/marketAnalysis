@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-15",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,10 +39,19 @@
         "invested_today_after": 25504.68,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 5,
+        "time": "2026-10-15 15:18:04",
+        "n_bought": 2,
+        "n_sold": 1,
+        "invested_today_after": 34161.18,
+        "realized_pnl_today_after": 30.8,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 25504.67987060547,
-    "realized_pnl_today": 0.0,
+    "invested_today": 34161.179626464844,
+    "realized_pnl_today": 30.800048828125,
     "open_positions": [
       {
         "symbol": "TECHM",
@@ -105,21 +114,6 @@
         }
       },
       {
-        "symbol": "TECHM",
-        "qty": 2,
-        "buy_price": 1634.5,
-        "buy_time": "2026-10-15 14:44:46",
-        "iteration": 3,
-        "score_info": {
-          "last": 1634.5,
-          "mom_30m_pct": 0.276,
-          "intraday_pct": 3.745,
-          "rsi": 37.9,
-          "vol_factor": 0.59,
-          "score": 1.123
-        }
-      },
-      {
         "symbol": "ONGC",
         "qty": 12,
         "buy_price": 226.01,
@@ -147,6 +141,36 @@
           "rsi": 48.0,
           "vol_factor": 0.3,
           "score": 0.681
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1114.0,
+        "buy_time": "2026-10-15 15:18:04",
+        "iteration": 5,
+        "score_info": {
+          "last": 1114.0,
+          "mom_30m_pct": 0.496,
+          "intraday_pct": -0.036,
+          "rsi": 70.4,
+          "vol_factor": 2.0,
+          "score": 1.733
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 5,
+        "buy_price": 1285.7,
+        "buy_time": "2026-10-15 15:18:04",
+        "iteration": 5,
+        "score_info": {
+          "last": 1285.7,
+          "mom_30m_pct": -0.093,
+          "intraday_pct": 1.428,
+          "rsi": 33.6,
+          "vol_factor": 1.88,
+          "score": 1.167
         }
       }
     ],
@@ -268,6 +292,52 @@
           "rsi": 48.0,
           "vol_factor": 0.3,
           "score": 0.681
+        }
+      },
+      {
+        "time": "2026-10-15 15:18:04",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "TECHM",
+        "qty": 2,
+        "price": 1649.9,
+        "buy_price": 1634.5,
+        "pnl": 30.8,
+        "pnl_pct": 0.94,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-10-15 15:18:04",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1114.0,
+        "cost": 2228.0,
+        "score": {
+          "last": 1114.0,
+          "mom_30m_pct": 0.496,
+          "intraday_pct": -0.036,
+          "rsi": 70.4,
+          "vol_factor": 2.0,
+          "score": 1.733
+        }
+      },
+      {
+        "time": "2026-10-15 15:18:04",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 5,
+        "price": 1285.7,
+        "cost": 6428.5,
+        "score": {
+          "last": 1285.7,
+          "mom_30m_pct": -0.093,
+          "intraday_pct": 1.428,
+          "rsi": 33.6,
+          "vol_factor": 1.88,
+          "score": 1.167
         }
       }
     ],
