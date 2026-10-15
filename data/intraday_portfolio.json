@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-15",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 69663.68,
         "realized_pnl_today_after": 43.9,
         "open_positions_after": 17
+      },
+      {
+        "iteration": 10,
+        "time": "2026-10-15 18:21:36",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 79040.68,
+        "realized_pnl_today_after": 43.9,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 69663.67974853516,
+    "invested_today": 79040.67987060547,
     "realized_pnl_today": 43.90004882812491,
     "open_positions": [
       {
@@ -335,6 +344,36 @@
         "buy_price": 1389.4,
         "buy_time": "2026-10-15 18:06:32",
         "iteration": 9,
+        "score_info": {
+          "last": 1389.4,
+          "mom_30m_pct": 0.318,
+          "intraday_pct": 3.532,
+          "rsi": 59.7,
+          "vol_factor": 2.0,
+          "score": 2.536
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1215.0,
+        "buy_time": "2026-10-15 18:21:36",
+        "iteration": 10,
+        "score_info": {
+          "last": 1215.0,
+          "mom_30m_pct": 0.654,
+          "intraday_pct": 3.106,
+          "rsi": 49.0,
+          "vol_factor": 2.0,
+          "score": 2.913
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 5,
+        "buy_price": 1389.4,
+        "buy_time": "2026-10-15 18:21:36",
+        "iteration": 10,
         "score_info": {
           "last": 1389.4,
           "mom_30m_pct": 0.318,
@@ -679,6 +718,40 @@
       {
         "time": "2026-10-15 18:06:32",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 5,
+        "price": 1389.4,
+        "cost": 6947.0,
+        "score": {
+          "last": 1389.4,
+          "mom_30m_pct": 0.318,
+          "intraday_pct": 3.532,
+          "rsi": 59.7,
+          "vol_factor": 2.0,
+          "score": 2.536
+        }
+      },
+      {
+        "time": "2026-10-15 18:21:36",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1215.0,
+        "cost": 2430.0,
+        "score": {
+          "last": 1215.0,
+          "mom_30m_pct": 0.654,
+          "intraday_pct": 3.106,
+          "rsi": 49.0,
+          "vol_factor": 2.0,
+          "score": 2.913
+        }
+      },
+      {
+        "time": "2026-10-15 18:21:36",
+        "iteration": 10,
         "action": "BUY",
         "symbol": "ICICIBANK",
         "qty": 5,
