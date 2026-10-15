@@ -1,961 +1,5 @@
 {
-  "current_day": {
-    "date": "2026-10-15",
-    "total_iterations": 14,
-    "iterations_run": 13,
-    "iteration_log": [
-      {
-        "iteration": 1,
-        "time": "2026-10-15 14:06:12",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 7176.1,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 2
-      },
-      {
-        "iteration": 2,
-        "time": "2026-10-15 14:30:30",
-        "n_bought": 1,
-        "n_sold": 0,
-        "invested_today_after": 12737.06,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 3
-      },
-      {
-        "iteration": 3,
-        "time": "2026-10-15 14:44:46",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 21155.66,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 5
-      },
-      {
-        "iteration": 4,
-        "time": "2026-10-15 14:57:13",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 25504.68,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 7
-      },
-      {
-        "iteration": 5,
-        "time": "2026-10-15 15:18:04",
-        "n_bought": 2,
-        "n_sold": 1,
-        "invested_today_after": 34161.18,
-        "realized_pnl_today_after": 30.8,
-        "open_positions_after": 8
-      },
-      {
-        "iteration": 6,
-        "time": "2026-10-15 15:46:17",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 41992.88,
-        "realized_pnl_today_after": 30.8,
-        "open_positions_after": 11
-      },
-      {
-        "iteration": 7,
-        "time": "2026-10-15 16:48:19",
-        "n_bought": 2,
-        "n_sold": 1,
-        "invested_today_after": 51369.88,
-        "realized_pnl_today_after": 43.9,
-        "open_positions_after": 12
-      },
-      {
-        "iteration": 8,
-        "time": "2026-10-15 17:25:19",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 60286.68,
-        "realized_pnl_today_after": 43.9,
-        "open_positions_after": 15
-      },
-      {
-        "iteration": 9,
-        "time": "2026-10-15 18:06:32",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 69663.68,
-        "realized_pnl_today_after": 43.9,
-        "open_positions_after": 17
-      },
-      {
-        "iteration": 10,
-        "time": "2026-10-15 18:21:36",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 79040.68,
-        "realized_pnl_today_after": 43.9,
-        "open_positions_after": 19
-      },
-      {
-        "iteration": 11,
-        "time": "2026-10-15 18:58:17",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 89346.88,
-        "realized_pnl_today_after": 43.9,
-        "open_positions_after": 22
-      },
-      {
-        "iteration": 12,
-        "time": "2026-10-15 19:13:50",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 98723.88,
-        "realized_pnl_today_after": 43.9,
-        "open_positions_after": 24
-      },
-      {
-        "iteration": 13,
-        "time": "2026-10-15 19:43:28",
-        "n_bought": 0,
-        "n_sold": 0,
-        "invested_today_after": 98723.88,
-        "realized_pnl_today_after": 43.9,
-        "open_positions_after": 24
-      }
-    ],
-    "invested_today": 98723.88006591797,
-    "realized_pnl_today": 43.90004882812491,
-    "open_positions": [
-      {
-        "symbol": "TECHM",
-        "qty": 1,
-        "buy_price": 1637.7,
-        "buy_time": "2026-10-15 14:06:12",
-        "iteration": 1,
-        "score_info": {
-          "last": 1637.7,
-          "mom_30m_pct": -0.073,
-          "intraday_pct": 5.122,
-          "rsi": 58.2,
-          "vol_factor": 0.3,
-          "score": 0.723
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 4,
-        "buy_price": 1384.6,
-        "buy_time": "2026-10-15 14:06:12",
-        "iteration": 1,
-        "score_info": {
-          "last": 1384.6,
-          "mom_30m_pct": -0.101,
-          "intraday_pct": 3.067,
-          "rsi": 63.7,
-          "vol_factor": 0.64,
-          "score": 0.412
-        }
-      },
-      {
-        "symbol": "WIPRO",
-        "qty": 32,
-        "buy_price": 173.78,
-        "buy_time": "2026-10-15 14:30:30",
-        "iteration": 2,
-        "score_info": {
-          "last": 173.78,
-          "mom_30m_pct": 0.393,
-          "intraday_pct": 1.448,
-          "rsi": 63.6,
-          "vol_factor": 1.0,
-          "score": 1.024
-        }
-      },
-      {
-        "symbol": "AXISBANK",
-        "qty": 4,
-        "buy_price": 1287.4,
-        "buy_time": "2026-10-15 14:44:46",
-        "iteration": 3,
-        "score_info": {
-          "last": 1287.4,
-          "mom_30m_pct": -0.186,
-          "intraday_pct": 1.739,
-          "rsi": 41.8,
-          "vol_factor": 2.0,
-          "score": 1.242
-        }
-      },
-      {
-        "symbol": "ONGC",
-        "qty": 12,
-        "buy_price": 226.01,
-        "buy_time": "2026-10-15 14:57:13",
-        "iteration": 4,
-        "score_info": {
-          "last": 226.01,
-          "mom_30m_pct": -0.08,
-          "intraday_pct": 1.033,
-          "rsi": 35.9,
-          "vol_factor": 2.0,
-          "score": 1.19
-        }
-      },
-      {
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "buy_price": 1114.0,
-        "buy_time": "2026-10-15 15:18:04",
-        "iteration": 5,
-        "score_info": {
-          "last": 1114.0,
-          "mom_30m_pct": 0.496,
-          "intraday_pct": -0.036,
-          "rsi": 70.4,
-          "vol_factor": 2.0,
-          "score": 1.733
-        }
-      },
-      {
-        "symbol": "AXISBANK",
-        "qty": 5,
-        "buy_price": 1285.7,
-        "buy_time": "2026-10-15 15:18:04",
-        "iteration": 5,
-        "score_info": {
-          "last": 1285.7,
-          "mom_30m_pct": -0.093,
-          "intraday_pct": 1.428,
-          "rsi": 33.6,
-          "vol_factor": 1.88,
-          "score": 1.167
-        }
-      },
-      {
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "buy_price": 1114.0,
-        "buy_time": "2026-10-15 15:46:17",
-        "iteration": 6,
-        "score_info": {
-          "last": 1114.0,
-          "mom_30m_pct": 0.496,
-          "intraday_pct": -0.036,
-          "rsi": 70.4,
-          "vol_factor": 2.0,
-          "score": 1.733
-        }
-      },
-      {
-        "symbol": "AXISBANK",
-        "qty": 3,
-        "buy_price": 1285.7,
-        "buy_time": "2026-10-15 15:46:17",
-        "iteration": 6,
-        "score_info": {
-          "last": 1285.7,
-          "mom_30m_pct": -0.093,
-          "intraday_pct": 1.428,
-          "rsi": 33.6,
-          "vol_factor": 1.95,
-          "score": 1.242
-        }
-      },
-      {
-        "symbol": "ADANIPORTS",
-        "qty": 1,
-        "buy_price": 1746.6,
-        "buy_time": "2026-10-15 15:46:17",
-        "iteration": 6,
-        "score_info": {
-          "last": 1746.6,
-          "mom_30m_pct": -0.063,
-          "intraday_pct": 0.895,
-          "rsi": 31.6,
-          "vol_factor": 2.0,
-          "score": 1.174
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "buy_price": 1215.0,
-        "buy_time": "2026-10-15 16:48:19",
-        "iteration": 7,
-        "score_info": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 5,
-        "buy_price": 1389.4,
-        "buy_time": "2026-10-15 16:48:19",
-        "iteration": 7,
-        "score_info": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "buy_price": 1215.0,
-        "buy_time": "2026-10-15 17:25:19",
-        "iteration": 8,
-        "score_info": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "buy_price": 1389.4,
-        "buy_time": "2026-10-15 17:25:19",
-        "iteration": 8,
-        "score_info": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "qty": 2,
-        "buy_price": 1854.0,
-        "buy_time": "2026-10-15 17:25:19",
-        "iteration": 8,
-        "score_info": {
-          "last": 1854.0,
-          "mom_30m_pct": 0.27,
-          "intraday_pct": 2.891,
-          "rsi": 49.1,
-          "vol_factor": 2.0,
-          "score": 2.273
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "buy_price": 1215.0,
-        "buy_time": "2026-10-15 18:06:32",
-        "iteration": 9,
-        "score_info": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 5,
-        "buy_price": 1389.4,
-        "buy_time": "2026-10-15 18:06:32",
-        "iteration": 9,
-        "score_info": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "buy_price": 1215.0,
-        "buy_time": "2026-10-15 18:21:36",
-        "iteration": 10,
-        "score_info": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 5,
-        "buy_price": 1389.4,
-        "buy_time": "2026-10-15 18:21:36",
-        "iteration": 10,
-        "score_info": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "buy_price": 1215.0,
-        "buy_time": "2026-10-15 18:58:17",
-        "iteration": 11,
-        "score_info": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 3,
-        "buy_price": 1389.4,
-        "buy_time": "2026-10-15 18:58:17",
-        "iteration": 11,
-        "score_info": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "qty": 2,
-        "buy_price": 1854.0,
-        "buy_time": "2026-10-15 18:58:17",
-        "iteration": 11,
-        "score_info": {
-          "last": 1854.0,
-          "mom_30m_pct": 0.27,
-          "intraday_pct": 2.891,
-          "rsi": 49.1,
-          "vol_factor": 2.0,
-          "score": 2.273
-        }
-      },
-      {
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "buy_price": 1215.0,
-        "buy_time": "2026-10-15 19:13:50",
-        "iteration": 12,
-        "score_info": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "qty": 5,
-        "buy_price": 1389.4,
-        "buy_time": "2026-10-15 19:13:50",
-        "iteration": 12,
-        "score_info": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      }
-    ],
-    "trades": [
-      {
-        "time": "2026-10-15 14:06:12",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 1,
-        "price": 1637.7,
-        "cost": 1637.7,
-        "score": {
-          "last": 1637.7,
-          "mom_30m_pct": -0.073,
-          "intraday_pct": 5.122,
-          "rsi": 58.2,
-          "vol_factor": 0.3,
-          "score": 0.723
-        }
-      },
-      {
-        "time": "2026-10-15 14:06:12",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 4,
-        "price": 1384.6,
-        "cost": 5538.4,
-        "score": {
-          "last": 1384.6,
-          "mom_30m_pct": -0.101,
-          "intraday_pct": 3.067,
-          "rsi": 63.7,
-          "vol_factor": 0.64,
-          "score": 0.412
-        }
-      },
-      {
-        "time": "2026-10-15 14:30:30",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "WIPRO",
-        "qty": 32,
-        "price": 173.78,
-        "cost": 5560.96,
-        "score": {
-          "last": 173.78,
-          "mom_30m_pct": 0.393,
-          "intraday_pct": 1.448,
-          "rsi": 63.6,
-          "vol_factor": 1.0,
-          "score": 1.024
-        }
-      },
-      {
-        "time": "2026-10-15 14:44:46",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "AXISBANK",
-        "qty": 4,
-        "price": 1287.4,
-        "cost": 5149.6,
-        "score": {
-          "last": 1287.4,
-          "mom_30m_pct": -0.186,
-          "intraday_pct": 1.739,
-          "rsi": 41.8,
-          "vol_factor": 2.0,
-          "score": 1.242
-        }
-      },
-      {
-        "time": "2026-10-15 14:44:46",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 2,
-        "price": 1634.5,
-        "cost": 3269.0,
-        "score": {
-          "last": 1634.5,
-          "mom_30m_pct": 0.276,
-          "intraday_pct": 3.745,
-          "rsi": 37.9,
-          "vol_factor": 0.59,
-          "score": 1.123
-        }
-      },
-      {
-        "time": "2026-10-15 14:57:13",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "ONGC",
-        "qty": 12,
-        "price": 226.01,
-        "cost": 2712.12,
-        "score": {
-          "last": 226.01,
-          "mom_30m_pct": -0.08,
-          "intraday_pct": 1.033,
-          "rsi": 35.9,
-          "vol_factor": 2.0,
-          "score": 1.19
-        }
-      },
-      {
-        "time": "2026-10-15 14:57:13",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "TECHM",
-        "qty": 1,
-        "price": 1636.9,
-        "cost": 1636.9,
-        "score": {
-          "last": 1636.9,
-          "mom_30m_pct": 0.153,
-          "intraday_pct": 3.838,
-          "rsi": 48.0,
-          "vol_factor": 0.3,
-          "score": 0.681
-        }
-      },
-      {
-        "time": "2026-10-15 15:18:04",
-        "iteration": 5,
-        "action": "SELL",
-        "symbol": "TECHM",
-        "qty": 2,
-        "price": 1649.9,
-        "buy_price": 1634.5,
-        "pnl": 30.8,
-        "pnl_pct": 0.94,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-10-15 15:18:04",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "price": 1114.0,
-        "cost": 2228.0,
-        "score": {
-          "last": 1114.0,
-          "mom_30m_pct": 0.496,
-          "intraday_pct": -0.036,
-          "rsi": 70.4,
-          "vol_factor": 2.0,
-          "score": 1.733
-        }
-      },
-      {
-        "time": "2026-10-15 15:18:04",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "AXISBANK",
-        "qty": 5,
-        "price": 1285.7,
-        "cost": 6428.5,
-        "score": {
-          "last": 1285.7,
-          "mom_30m_pct": -0.093,
-          "intraday_pct": 1.428,
-          "rsi": 33.6,
-          "vol_factor": 1.88,
-          "score": 1.167
-        }
-      },
-      {
-        "time": "2026-10-15 15:46:17",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "HAVELLS",
-        "qty": 2,
-        "price": 1114.0,
-        "cost": 2228.0,
-        "score": {
-          "last": 1114.0,
-          "mom_30m_pct": 0.496,
-          "intraday_pct": -0.036,
-          "rsi": 70.4,
-          "vol_factor": 2.0,
-          "score": 1.733
-        }
-      },
-      {
-        "time": "2026-10-15 15:46:17",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "AXISBANK",
-        "qty": 3,
-        "price": 1285.7,
-        "cost": 3857.1,
-        "score": {
-          "last": 1285.7,
-          "mom_30m_pct": -0.093,
-          "intraday_pct": 1.428,
-          "rsi": 33.6,
-          "vol_factor": 1.95,
-          "score": 1.242
-        }
-      },
-      {
-        "time": "2026-10-15 15:46:17",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "ADANIPORTS",
-        "qty": 1,
-        "price": 1746.6,
-        "cost": 1746.6,
-        "score": {
-          "last": 1746.6,
-          "mom_30m_pct": -0.063,
-          "intraday_pct": 0.895,
-          "rsi": 31.6,
-          "vol_factor": 2.0,
-          "score": 1.174
-        }
-      },
-      {
-        "time": "2026-10-15 16:48:19",
-        "iteration": 7,
-        "action": "SELL",
-        "symbol": "TECHM",
-        "qty": 1,
-        "price": 1650.0,
-        "buy_price": 1636.9,
-        "pnl": 13.1,
-        "pnl_pct": 0.8,
-        "reason": "TAKE_PROFIT"
-      },
-      {
-        "time": "2026-10-15 16:48:19",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "price": 1215.0,
-        "cost": 2430.0,
-        "score": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "time": "2026-10-15 16:48:19",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 5,
-        "price": 1389.4,
-        "cost": 6947.0,
-        "score": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "time": "2026-10-15 17:25:19",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "price": 1215.0,
-        "cost": 2430.0,
-        "score": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "time": "2026-10-15 17:25:19",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 2,
-        "price": 1389.4,
-        "cost": 2778.8,
-        "score": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "time": "2026-10-15 17:25:19",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "BHARTIARTL",
-        "qty": 2,
-        "price": 1854.0,
-        "cost": 3708.0,
-        "score": {
-          "last": 1854.0,
-          "mom_30m_pct": 0.27,
-          "intraday_pct": 2.891,
-          "rsi": 49.1,
-          "vol_factor": 2.0,
-          "score": 2.273
-        }
-      },
-      {
-        "time": "2026-10-15 18:06:32",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "price": 1215.0,
-        "cost": 2430.0,
-        "score": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "time": "2026-10-15 18:06:32",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 5,
-        "price": 1389.4,
-        "cost": 6947.0,
-        "score": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "time": "2026-10-15 18:21:36",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "price": 1215.0,
-        "cost": 2430.0,
-        "score": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "time": "2026-10-15 18:21:36",
-        "iteration": 10,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 5,
-        "price": 1389.4,
-        "cost": 6947.0,
-        "score": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "time": "2026-10-15 18:58:17",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "price": 1215.0,
-        "cost": 2430.0,
-        "score": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "time": "2026-10-15 18:58:17",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 3,
-        "price": 1389.4,
-        "cost": 4168.2,
-        "score": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      },
-      {
-        "time": "2026-10-15 18:58:17",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "BHARTIARTL",
-        "qty": 2,
-        "price": 1854.0,
-        "cost": 3708.0,
-        "score": {
-          "last": 1854.0,
-          "mom_30m_pct": 0.27,
-          "intraday_pct": 2.891,
-          "rsi": 49.1,
-          "vol_factor": 2.0,
-          "score": 2.273
-        }
-      },
-      {
-        "time": "2026-10-15 19:13:50",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "RELIANCE",
-        "qty": 2,
-        "price": 1215.0,
-        "cost": 2430.0,
-        "score": {
-          "last": 1215.0,
-          "mom_30m_pct": 0.654,
-          "intraday_pct": 3.106,
-          "rsi": 49.0,
-          "vol_factor": 2.0,
-          "score": 2.913
-        }
-      },
-      {
-        "time": "2026-10-15 19:13:50",
-        "iteration": 12,
-        "action": "BUY",
-        "symbol": "ICICIBANK",
-        "qty": 5,
-        "price": 1389.4,
-        "cost": 6947.0,
-        "score": {
-          "last": 1389.4,
-          "mom_30m_pct": 0.318,
-          "intraday_pct": 3.532,
-          "rsi": 59.7,
-          "vol_factor": 2.0,
-          "score": 2.536
-        }
-      }
-    ],
-    "closed": false
-  },
+  "current_day": null,
   "history": [
     {
       "date": "2026-06-03",
@@ -82064,20 +81108,783 @@
       "n_sells": 32,
       "feedback": "Day P&L \u20b945 on \u20b999380 deployed (0.05%). Worst trade: WIPRO (P&L \u20b9-14, -0.25%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
       "profitable": true
+    },
+    {
+      "date": "2026-10-15",
+      "iterations_run": 14,
+      "invested": 98723.88,
+      "realized_pnl": 93.4,
+      "pnl_pct": 0.095,
+      "trades": [
+        {
+          "time": "2026-10-15 14:06:12",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 1,
+          "price": 1637.7,
+          "cost": 1637.7,
+          "score": {
+            "last": 1637.7,
+            "mom_30m_pct": -0.073,
+            "intraday_pct": 5.122,
+            "rsi": 58.2,
+            "vol_factor": 0.3,
+            "score": 0.723
+          }
+        },
+        {
+          "time": "2026-10-15 14:06:12",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "ICICIBANK",
+          "qty": 4,
+          "price": 1384.6,
+          "cost": 5538.4,
+          "score": {
+            "last": 1384.6,
+            "mom_30m_pct": -0.101,
+            "intraday_pct": 3.067,
+            "rsi": 63.7,
+            "vol_factor": 0.64,
+            "score": 0.412
+          }
+        },
+        {
+          "time": "2026-10-15 14:30:30",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "WIPRO",
+          "qty": 32,
+          "price": 173.78,
+          "cost": 5560.96,
+          "score": {
+            "last": 173.78,
+            "mom_30m_pct": 0.393,
+            "intraday_pct": 1.448,
+            "rsi": 63.6,
+            "vol_factor": 1.0,
+            "score": 1.024
+          }
+        },
+        {
+          "time": "2026-10-15 14:44:46",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "AXISBANK",
+          "qty": 4,
+          "price": 1287.4,
+          "cost": 5149.6,
+          "score": {
+            "last": 1287.4,
+            "mom_30m_pct": -0.186,
+            "intraday_pct": 1.739,
+            "rsi": 41.8,
+            "vol_factor": 2.0,
+            "score": 1.242
+          }
+        },
+        {
+          "time": "2026-10-15 14:44:46",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1634.5,
+          "cost": 3269.0,
+          "score": {
+            "last": 1634.5,
+            "mom_30m_pct": 0.276,
+            "intraday_pct": 3.745,
+            "rsi": 37.9,
+            "vol_factor": 0.59,
+            "score": 1.123
+          }
+        },
+        {
+          "time": "2026-10-15 14:57:13",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "ONGC",
+          "qty": 12,
+          "price": 226.01,
+          "cost": 2712.12,
+          "score": {
+            "last": 226.01,
+            "mom_30m_pct": -0.08,
+            "intraday_pct": 1.033,
+            "rsi": 35.9,
+            "vol_factor": 2.0,
+            "score": 1.19
+          }
+        },
+        {
+          "time": "2026-10-15 14:57:13",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "TECHM",
+          "qty": 1,
+          "price": 1636.9,
+          "cost": 1636.9,
+          "score": {
+            "last": 1636.9,
+            "mom_30m_pct": 0.153,
+            "intraday_pct": 3.838,
+            "rsi": 48.0,
+            "vol_factor": 0.3,
+            "score": 0.681
+          }
+        },
+        {
+          "time": "2026-10-15 15:18:04",
+          "iteration": 5,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 2,
+          "price": 1649.9,
+          "buy_price": 1634.5,
+          "pnl": 30.8,
+          "pnl_pct": 0.94,
+          "reason": "TAKE_PROFIT"
+        },
+        {
+          "time": "2026-10-15 15:18:04",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "HAVELLS",
+          "qty": 2,
+          "price": 1114.0,
+          "cost": 2228.0,
+          "score": {
+            "last": 1114.0,
+            "mom_30m_pct": 0.496,
+            "intraday_pct": -0.036,
+            "rsi": 70.4,
+            "vol_factor": 2.0,
+            "score": 1.733
+          }
+        },
+        {
+          "time": "2026-10-15 15:18:04",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "AXISBANK",
+          "qty": 5,
+          "price": 1285.7,
+          "cost": 6428.5,
+          "score": {
+            "last": 1285.7,
+            "mom_30m_pct": -0.093,
+            "intraday_pct": 1.428,
+            "rsi": 33.6,
+            "vol_factor": 1.88,
+            "score": 1.167
+          }
+        },
+        {
+          "time": "2026-10-15 15:46:17",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "HAVELLS",
+          "qty": 2,
+          "price": 1114.0,
+          "cost": 2228.0,
+          "score": {
+            "last": 1114.0,
+            "mom_30m_pct": 0.496,
+            "intraday_pct": -0.036,
+            "rsi": 70.4,
+            "vol_factor": 2.0,
+            "score": 1.733
+          }
+        },
+        {
+          "time": "2026-10-15 15:46:17",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "AXISBANK",
+          "qty": 3,
+          "price": 1285.7,
+          "cost": 3857.1,
+          "score": {
+            "last": 1285.7,
+            "mom_30m_pct": -0.093,
+            "intraday_pct": 1.428,
+            "rsi": 33.6,
+            "vol_factor": 1.95,
+            "score": 1.242
+          }
+        },
+        {
+          "time": "2026-10-15 15:46:17",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "ADANIPORTS",
+          "qty": 1,
+          "price": 1746.6,
+          "cost": 1746.6,
+          "score": {
+            "last": 1746.6,
+            "mom_30m_pct": -0.063,
+            "intraday_pct": 0.895,
+            "rsi": 31.6,
+            "vol_factor": 2.0,
+            "score": 1.174
+          }
+        },
+        {
+          "time": "2026-10-15 16:48:19",
+          "iteration": 7,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 1,
+          "price": 1650.0,
+          "buy_price": 1636.9,
+          "pnl": 13.1,
+          "pnl_pct": 0.8,
+          "reason": "TAKE_PROFIT"
+        },
+        {
+          "time": "2026-10-15 16:48:19",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "cost": 2430.0,
+          "score": {
+            "last": 1215.0,
+            "mom_30m_pct": 0.654,
+            "intraday_pct": 3.106,
+            "rsi": 49.0,
+            "vol_factor": 2.0,
+            "score": 2.913
+          }
+        },
+        {
+          "time": "2026-10-15 16:48:19",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "ICICIBANK",
+          "qty": 5,
+          "price": 1389.4,
+          "cost": 6947.0,
+          "score": {
+            "last": 1389.4,
+            "mom_30m_pct": 0.318,
+            "intraday_pct": 3.532,
+            "rsi": 59.7,
+            "vol_factor": 2.0,
+            "score": 2.536
+          }
+        },
+        {
+          "time": "2026-10-15 17:25:19",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "cost": 2430.0,
+          "score": {
+            "last": 1215.0,
+            "mom_30m_pct": 0.654,
+            "intraday_pct": 3.106,
+            "rsi": 49.0,
+            "vol_factor": 2.0,
+            "score": 2.913
+          }
+        },
+        {
+          "time": "2026-10-15 17:25:19",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "ICICIBANK",
+          "qty": 2,
+          "price": 1389.4,
+          "cost": 2778.8,
+          "score": {
+            "last": 1389.4,
+            "mom_30m_pct": 0.318,
+            "intraday_pct": 3.532,
+            "rsi": 59.7,
+            "vol_factor": 2.0,
+            "score": 2.536
+          }
+        },
+        {
+          "time": "2026-10-15 17:25:19",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "BHARTIARTL",
+          "qty": 2,
+          "price": 1854.0,
+          "cost": 3708.0,
+          "score": {
+            "last": 1854.0,
+            "mom_30m_pct": 0.27,
+            "intraday_pct": 2.891,
+            "rsi": 49.1,
+            "vol_factor": 2.0,
+            "score": 2.273
+          }
+        },
+        {
+          "time": "2026-10-15 18:06:32",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "cost": 2430.0,
+          "score": {
+            "last": 1215.0,
+            "mom_30m_pct": 0.654,
+            "intraday_pct": 3.106,
+            "rsi": 49.0,
+            "vol_factor": 2.0,
+            "score": 2.913
+          }
+        },
+        {
+          "time": "2026-10-15 18:06:32",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "ICICIBANK",
+          "qty": 5,
+          "price": 1389.4,
+          "cost": 6947.0,
+          "score": {
+            "last": 1389.4,
+            "mom_30m_pct": 0.318,
+            "intraday_pct": 3.532,
+            "rsi": 59.7,
+            "vol_factor": 2.0,
+            "score": 2.536
+          }
+        },
+        {
+          "time": "2026-10-15 18:21:36",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "cost": 2430.0,
+          "score": {
+            "last": 1215.0,
+            "mom_30m_pct": 0.654,
+            "intraday_pct": 3.106,
+            "rsi": 49.0,
+            "vol_factor": 2.0,
+            "score": 2.913
+          }
+        },
+        {
+          "time": "2026-10-15 18:21:36",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "ICICIBANK",
+          "qty": 5,
+          "price": 1389.4,
+          "cost": 6947.0,
+          "score": {
+            "last": 1389.4,
+            "mom_30m_pct": 0.318,
+            "intraday_pct": 3.532,
+            "rsi": 59.7,
+            "vol_factor": 2.0,
+            "score": 2.536
+          }
+        },
+        {
+          "time": "2026-10-15 18:58:17",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "cost": 2430.0,
+          "score": {
+            "last": 1215.0,
+            "mom_30m_pct": 0.654,
+            "intraday_pct": 3.106,
+            "rsi": 49.0,
+            "vol_factor": 2.0,
+            "score": 2.913
+          }
+        },
+        {
+          "time": "2026-10-15 18:58:17",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "ICICIBANK",
+          "qty": 3,
+          "price": 1389.4,
+          "cost": 4168.2,
+          "score": {
+            "last": 1389.4,
+            "mom_30m_pct": 0.318,
+            "intraday_pct": 3.532,
+            "rsi": 59.7,
+            "vol_factor": 2.0,
+            "score": 2.536
+          }
+        },
+        {
+          "time": "2026-10-15 18:58:17",
+          "iteration": 11,
+          "action": "BUY",
+          "symbol": "BHARTIARTL",
+          "qty": 2,
+          "price": 1854.0,
+          "cost": 3708.0,
+          "score": {
+            "last": 1854.0,
+            "mom_30m_pct": 0.27,
+            "intraday_pct": 2.891,
+            "rsi": 49.1,
+            "vol_factor": 2.0,
+            "score": 2.273
+          }
+        },
+        {
+          "time": "2026-10-15 19:13:50",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "cost": 2430.0,
+          "score": {
+            "last": 1215.0,
+            "mom_30m_pct": 0.654,
+            "intraday_pct": 3.106,
+            "rsi": 49.0,
+            "vol_factor": 2.0,
+            "score": 2.913
+          }
+        },
+        {
+          "time": "2026-10-15 19:13:50",
+          "iteration": 12,
+          "action": "BUY",
+          "symbol": "ICICIBANK",
+          "qty": 5,
+          "price": 1389.4,
+          "cost": 6947.0,
+          "score": {
+            "last": 1389.4,
+            "mom_30m_pct": 0.318,
+            "intraday_pct": 3.532,
+            "rsi": 59.7,
+            "vol_factor": 2.0,
+            "score": 2.536
+          }
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "TECHM",
+          "qty": 1,
+          "price": 1650.0,
+          "buy_price": 1637.7,
+          "pnl": 12.3,
+          "pnl_pct": 0.75,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ICICIBANK",
+          "qty": 4,
+          "price": 1389.4,
+          "buy_price": 1384.6,
+          "pnl": 19.2,
+          "pnl_pct": 0.35,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "WIPRO",
+          "qty": 32,
+          "price": 174.05,
+          "buy_price": 173.78,
+          "pnl": 8.64,
+          "pnl_pct": 0.16,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "AXISBANK",
+          "qty": 4,
+          "price": 1288.0,
+          "buy_price": 1287.4,
+          "pnl": 2.4,
+          "pnl_pct": 0.05,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ONGC",
+          "qty": 12,
+          "price": 224.64,
+          "buy_price": 226.01,
+          "pnl": -16.44,
+          "pnl_pct": -0.61,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HAVELLS",
+          "qty": 2,
+          "price": 1116.1,
+          "buy_price": 1114.0,
+          "pnl": 4.2,
+          "pnl_pct": 0.19,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "AXISBANK",
+          "qty": 5,
+          "price": 1288.0,
+          "buy_price": 1285.7,
+          "pnl": 11.5,
+          "pnl_pct": 0.18,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "HAVELLS",
+          "qty": 2,
+          "price": 1116.1,
+          "buy_price": 1114.0,
+          "pnl": 4.2,
+          "pnl_pct": 0.19,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "AXISBANK",
+          "qty": 3,
+          "price": 1288.0,
+          "buy_price": 1285.7,
+          "pnl": 6.9,
+          "pnl_pct": 0.18,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ADANIPORTS",
+          "qty": 1,
+          "price": 1743.2,
+          "buy_price": 1746.6,
+          "pnl": -3.4,
+          "pnl_pct": -0.19,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "buy_price": 1215.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ICICIBANK",
+          "qty": 5,
+          "price": 1389.4,
+          "buy_price": 1389.4,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "buy_price": 1215.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ICICIBANK",
+          "qty": 2,
+          "price": 1389.4,
+          "buy_price": 1389.4,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BHARTIARTL",
+          "qty": 2,
+          "price": 1854.0,
+          "buy_price": 1854.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "buy_price": 1215.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ICICIBANK",
+          "qty": 5,
+          "price": 1389.4,
+          "buy_price": 1389.4,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "buy_price": 1215.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ICICIBANK",
+          "qty": 5,
+          "price": 1389.4,
+          "buy_price": 1389.4,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "buy_price": 1215.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ICICIBANK",
+          "qty": 3,
+          "price": 1389.4,
+          "buy_price": 1389.4,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "BHARTIARTL",
+          "qty": 2,
+          "price": 1854.0,
+          "buy_price": 1854.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "RELIANCE",
+          "qty": 2,
+          "price": 1215.0,
+          "buy_price": 1215.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        },
+        {
+          "time": "2026-10-15 19:58:50",
+          "iteration": 14,
+          "action": "SELL",
+          "symbol": "ICICIBANK",
+          "qty": 5,
+          "price": 1389.4,
+          "buy_price": 1389.4,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "EOD_FORCE_SELL"
+        }
+      ],
+      "n_buys": 26,
+      "n_sells": 26,
+      "feedback": "Day P&L \u20b993 on \u20b998724 deployed (0.09%). Worst trade: ONGC (P&L \u20b9-16, -0.61%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
+      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 100,
-    "winning_days": 50,
+    "total_days": 101,
+    "winning_days": 51,
     "losing_days": 39,
-    "total_realized_pnl": 1345.24,
+    "total_realized_pnl": 1438.64,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-09-07",
-        "note": "Day P&L \u20b94 on \u20b999797 deployed (0.00%). Worst trade: TATACONSUM (P&L \u20b9-22, -0.30%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
-      },
       {
         "date": "2026-09-08",
         "note": "Day P&L \u20b9-97 on \u20b997259 deployed (-0.10%). Worst trade: NTPC (P&L \u20b9-33, -0.56%). Consider tighter stop on entries with weaker momentum scores. 24 EOD force-sells contributed \u20b9-97. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
@@ -82193,6 +82000,10 @@
       {
         "date": "2026-10-14",
         "note": "Day P&L \u20b945 on \u20b999380 deployed (0.05%). Worst trade: WIPRO (P&L \u20b9-14, -0.25%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
+      {
+        "date": "2026-10-15",
+        "note": "Day P&L \u20b993 on \u20b998724 deployed (0.09%). Worst trade: ONGC (P&L \u20b9-16, -0.61%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
       }
     ]
   }
