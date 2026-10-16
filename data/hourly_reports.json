@@ -1,5 +1,43 @@
 [
   {
+    "timestamp": "2026-09-08 17:15 IST",
+    "budget": 50000.0,
+    "allocated": 49764.81,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49764.81,
+      "cash_reserve": 235.19,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 25018.72,
+          "percent": 50.0,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17491.3,
+          "percent": 35.0,
+          "positions": 2
+        },
+        "aggressive": {
+          "amount": 7254.79,
+          "percent": 14.5,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 4.9,
+      "max_loss_percent": 3.4,
+      "sector_distribution": {
+        "Financial Services": 2,
+        "Unknown": 2,
+        "Utilities": 1,
+        "Energy": 1,
+        "Consumer Cyclical": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-09-09 15:35 IST",
     "budget": 50000.0,
     "allocated": 41841.42,
@@ -1770,44 +1808,6 @@
         "Unknown": 4,
         "Financial Services": 3,
         "Basic Materials": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-10-16 14:48 IST",
-    "budget": 50000.0,
-    "allocated": 48846.28,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 48846.28,
-      "cash_reserve": 1153.72,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 25021.270000000004,
-          "percent": 50.0,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 16465.35,
-          "percent": 32.9,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7359.66,
-          "percent": 14.7,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.3,
-      "max_loss_percent": 3.7,
-      "sector_distribution": {
-        "Unknown": 3,
-        "Energy": 1,
-        "Financial Services": 2,
-        "Basic Materials": 1,
-        "Communication Services": 1
       }
     }
   }
