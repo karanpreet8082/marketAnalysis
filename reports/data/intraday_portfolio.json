@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-16",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 41654.18,
         "realized_pnl_today_after": 41.4,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-16 16:43:09",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 49839.78,
+        "realized_pnl_today_after": 41.4,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 41654.17984008789,
+    "invested_today": 49839.779693603516,
     "realized_pnl_today": 41.40004882812491,
     "open_positions": [
       {
@@ -270,6 +279,51 @@
           "rsi": 60.4,
           "vol_factor": 0.0,
           "score": 1.519
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1790.0,
+        "buy_time": "2026-10-16 16:43:09",
+        "iteration": 7,
+        "score_info": {
+          "last": 1790.0,
+          "mom_30m_pct": 0.494,
+          "intraday_pct": 8.485,
+          "rsi": 68.4,
+          "vol_factor": 1.37,
+          "score": 3.655
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 4,
+        "buy_price": 1161.2,
+        "buy_time": "2026-10-16 16:43:09",
+        "iteration": 7,
+        "score_info": {
+          "last": 1161.2,
+          "mom_30m_pct": 0.142,
+          "intraday_pct": 4.613,
+          "rsi": 67.4,
+          "vol_factor": 1.79,
+          "score": 2.392
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1750.8,
+        "buy_time": "2026-10-16 16:43:09",
+        "iteration": 7,
+        "score_info": {
+          "last": 1750.8,
+          "mom_30m_pct": 0.783,
+          "intraday_pct": 0.436,
+          "rsi": 65.3,
+          "vol_factor": 2.0,
+          "score": 2.305
         }
       }
     ],
@@ -568,6 +622,57 @@
           "rsi": 60.4,
           "vol_factor": 0.0,
           "score": 1.519
+        }
+      },
+      {
+        "time": "2026-10-16 16:43:09",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1790.0,
+        "cost": 1790.0,
+        "score": {
+          "last": 1790.0,
+          "mom_30m_pct": 0.494,
+          "intraday_pct": 8.485,
+          "rsi": 68.4,
+          "vol_factor": 1.37,
+          "score": 3.655
+        }
+      },
+      {
+        "time": "2026-10-16 16:43:09",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 4,
+        "price": 1161.2,
+        "cost": 4644.8,
+        "score": {
+          "last": 1161.2,
+          "mom_30m_pct": 0.142,
+          "intraday_pct": 4.613,
+          "rsi": 67.4,
+          "vol_factor": 1.79,
+          "score": 2.392
+        }
+      },
+      {
+        "time": "2026-10-16 16:43:09",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1750.8,
+        "cost": 1750.8,
+        "score": {
+          "last": 1750.8,
+          "mom_30m_pct": 0.783,
+          "intraday_pct": 0.436,
+          "rsi": 65.3,
+          "vol_factor": 2.0,
+          "score": 2.305
         }
       }
     ],
