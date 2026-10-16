@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-16",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 23813.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 4,
+        "time": "2026-10-16 14:48:21",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 29288.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 23813.399932861328,
+    "invested_today": 29288.199981689453,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -168,6 +177,36 @@
           "rsi": 59.8,
           "vol_factor": 0.42,
           "score": 0.801
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1781.0,
+        "buy_time": "2026-10-16 14:48:21",
+        "iteration": 4,
+        "score_info": {
+          "last": 1781.0,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 8.876,
+          "rsi": 66.5,
+          "vol_factor": 1.25,
+          "score": 3.043
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 20,
+        "buy_price": 184.69,
+        "buy_time": "2026-10-16 14:48:21",
+        "iteration": 4,
+        "score_info": {
+          "last": 184.69,
+          "mom_30m_pct": 0.326,
+          "intraday_pct": 6.388,
+          "rsi": 64.3,
+          "vol_factor": 1.37,
+          "score": 2.779
         }
       }
     ],
@@ -323,6 +362,40 @@
           "rsi": 59.8,
           "vol_factor": 0.42,
           "score": 0.801
+        }
+      },
+      {
+        "time": "2026-10-16 14:48:21",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1781.0,
+        "cost": 1781.0,
+        "score": {
+          "last": 1781.0,
+          "mom_30m_pct": 0.09,
+          "intraday_pct": 8.876,
+          "rsi": 66.5,
+          "vol_factor": 1.25,
+          "score": 3.043
+        }
+      },
+      {
+        "time": "2026-10-16 14:48:21",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 20,
+        "price": 184.69,
+        "cost": 3693.8,
+        "score": {
+          "last": 184.69,
+          "mom_30m_pct": 0.326,
+          "intraday_pct": 6.388,
+          "rsi": 64.3,
+          "vol_factor": 1.37,
+          "score": 2.779
         }
       }
     ],
