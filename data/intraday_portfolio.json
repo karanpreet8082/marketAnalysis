@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-16",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7771.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-16 14:21:12",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 15901.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 7771.400085449219,
+    "invested_today": 15901.90005493164,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,51 @@
           "rsi": 54.7,
           "vol_factor": 1.0,
           "score": 1.53
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1779.7,
+        "buy_time": "2026-10-16 14:21:12",
+        "iteration": 2,
+        "score_info": {
+          "last": 1779.7,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 8.917,
+          "rsi": 54.8,
+          "vol_factor": 0.19,
+          "score": 2.276
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 20,
+        "buy_price": 184.16,
+        "buy_time": "2026-10-16 14:21:12",
+        "iteration": 2,
+        "score_info": {
+          "last": 184.16,
+          "mom_30m_pct": -0.043,
+          "intraday_pct": 5.991,
+          "rsi": 56.0,
+          "vol_factor": 0.16,
+          "score": 0.888
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 296.4,
+        "buy_time": "2026-10-16 14:21:12",
+        "iteration": 2,
+        "score_info": {
+          "last": 296.4,
+          "mom_30m_pct": 0.389,
+          "intraday_pct": 0.765,
+          "rsi": 71.4,
+          "vol_factor": 1.02,
+          "score": 0.832
         }
       }
     ],
@@ -113,6 +167,57 @@
           "rsi": 54.7,
           "vol_factor": 1.0,
           "score": 1.53
+        }
+      },
+      {
+        "time": "2026-10-16 14:21:12",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1779.7,
+        "cost": 1779.7,
+        "score": {
+          "last": 1779.7,
+          "mom_30m_pct": 0.276,
+          "intraday_pct": 8.917,
+          "rsi": 54.8,
+          "vol_factor": 0.19,
+          "score": 2.276
+        }
+      },
+      {
+        "time": "2026-10-16 14:21:12",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 20,
+        "price": 184.16,
+        "cost": 3683.2,
+        "score": {
+          "last": 184.16,
+          "mom_30m_pct": -0.043,
+          "intraday_pct": 5.991,
+          "rsi": 56.0,
+          "vol_factor": 0.16,
+          "score": 0.888
+        }
+      },
+      {
+        "time": "2026-10-16 14:21:12",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 296.4,
+        "cost": 2667.6,
+        "score": {
+          "last": 296.4,
+          "mom_30m_pct": 0.389,
+          "intraday_pct": 0.765,
+          "rsi": 71.4,
+          "vol_factor": 1.02,
+          "score": 0.832
         }
       }
     ],
