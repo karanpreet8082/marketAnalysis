@@ -1,5 +1,228 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-10-19",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-10-19 14:49:18",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 8166.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-19 15:13:03",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 16158.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
+      }
+    ],
+    "invested_today": 16158.599975585938,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 673.65,
+        "buy_time": "2026-10-19 14:49:18",
+        "iteration": 1,
+        "score_info": {
+          "last": 673.65,
+          "mom_30m_pct": 0.119,
+          "intraday_pct": -0.17,
+          "rsi": 50.0,
+          "vol_factor": 1.74,
+          "score": 0.871
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 2,
+        "buy_price": 973.05,
+        "buy_time": "2026-10-19 14:49:18",
+        "iteration": 1,
+        "score_info": {
+          "last": 973.05,
+          "mom_30m_pct": 0.397,
+          "intraday_pct": 1.407,
+          "rsi": 63.9,
+          "vol_factor": 0.81,
+          "score": 0.829
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "buy_price": 1763.0,
+        "buy_time": "2026-10-19 14:49:18",
+        "iteration": 1,
+        "score_info": {
+          "last": 1763.0,
+          "mom_30m_pct": 0.307,
+          "intraday_pct": 1.421,
+          "rsi": 60.9,
+          "vol_factor": 0.89,
+          "score": 0.78
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1772.7,
+        "buy_time": "2026-10-19 15:13:03",
+        "iteration": 2,
+        "score_info": {
+          "last": 1772.7,
+          "mom_30m_pct": 0.482,
+          "intraday_pct": -0.416,
+          "rsi": 73.5,
+          "vol_factor": 2.0,
+          "score": 1.598
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "buy_price": 1762.9,
+        "buy_time": "2026-10-19 15:13:03",
+        "iteration": 2,
+        "score_info": {
+          "last": 1762.9,
+          "mom_30m_pct": -0.04,
+          "intraday_pct": 1.345,
+          "rsi": 54.3,
+          "vol_factor": 1.57,
+          "score": 0.912
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 4,
+        "buy_price": 673.35,
+        "buy_time": "2026-10-19 15:13:03",
+        "iteration": 2,
+        "score_info": {
+          "last": 673.35,
+          "mom_30m_pct": -0.067,
+          "intraday_pct": -0.133,
+          "rsi": 49.6,
+          "vol_factor": 2.0,
+          "score": 0.86
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-10-19 14:49:18",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 673.65,
+        "cost": 2694.6,
+        "score": {
+          "last": 673.65,
+          "mom_30m_pct": 0.119,
+          "intraday_pct": -0.17,
+          "rsi": 50.0,
+          "vol_factor": 1.74,
+          "score": 0.871
+        }
+      },
+      {
+        "time": "2026-10-19 14:49:18",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 2,
+        "price": 973.05,
+        "cost": 1946.1,
+        "score": {
+          "last": 973.05,
+          "mom_30m_pct": 0.397,
+          "intraday_pct": 1.407,
+          "rsi": 63.9,
+          "vol_factor": 0.81,
+          "score": 0.829
+        }
+      },
+      {
+        "time": "2026-10-19 14:49:18",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "price": 1763.0,
+        "cost": 3526.0,
+        "score": {
+          "last": 1763.0,
+          "mom_30m_pct": 0.307,
+          "intraday_pct": 1.421,
+          "rsi": 60.9,
+          "vol_factor": 0.89,
+          "score": 0.78
+        }
+      },
+      {
+        "time": "2026-10-19 15:13:03",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1772.7,
+        "cost": 1772.7,
+        "score": {
+          "last": 1772.7,
+          "mom_30m_pct": 0.482,
+          "intraday_pct": -0.416,
+          "rsi": 73.5,
+          "vol_factor": 2.0,
+          "score": 1.598
+        }
+      },
+      {
+        "time": "2026-10-19 15:13:03",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 2,
+        "price": 1762.9,
+        "cost": 3525.8,
+        "score": {
+          "last": 1762.9,
+          "mom_30m_pct": -0.04,
+          "intraday_pct": 1.345,
+          "rsi": 54.3,
+          "vol_factor": 1.57,
+          "score": 0.912
+        }
+      },
+      {
+        "time": "2026-10-19 15:13:03",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 4,
+        "price": 673.35,
+        "cost": 2693.4,
+        "score": {
+          "last": 673.35,
+          "mom_30m_pct": -0.067,
+          "intraday_pct": -0.133,
+          "rsi": 49.6,
+          "vol_factor": 2.0,
+          "score": 0.86
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
