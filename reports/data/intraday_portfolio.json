@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-19",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 16158.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 3,
+        "time": "2026-10-19 15:35:02",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 24416.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 16158.599975585938,
+    "invested_today": 24416.25015258789,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -114,6 +123,36 @@
           "rsi": 49.6,
           "vol_factor": 2.0,
           "score": 0.86
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1766.0,
+        "buy_time": "2026-10-19 15:35:02",
+        "iteration": 3,
+        "score_info": {
+          "last": 1766.0,
+          "mom_30m_pct": 0.136,
+          "intraday_pct": 1.523,
+          "rsi": 60.2,
+          "vol_factor": 2.0,
+          "score": 1.661
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 29,
+        "buy_price": 223.85,
+        "buy_time": "2026-10-19 15:35:02",
+        "iteration": 3,
+        "score_info": {
+          "last": 223.85,
+          "mom_30m_pct": -0.089,
+          "intraday_pct": 0.652,
+          "rsi": 52.8,
+          "vol_factor": 2.0,
+          "score": 1.062
         }
       }
     ],
@@ -218,6 +257,40 @@
           "rsi": 49.6,
           "vol_factor": 2.0,
           "score": 0.86
+        }
+      },
+      {
+        "time": "2026-10-19 15:35:02",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1766.0,
+        "cost": 1766.0,
+        "score": {
+          "last": 1766.0,
+          "mom_30m_pct": 0.136,
+          "intraday_pct": 1.523,
+          "rsi": 60.2,
+          "vol_factor": 2.0,
+          "score": 1.661
+        }
+      },
+      {
+        "time": "2026-10-19 15:35:02",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 29,
+        "price": 223.85,
+        "cost": 6491.65,
+        "score": {
+          "last": 223.85,
+          "mom_30m_pct": -0.089,
+          "intraday_pct": 0.652,
+          "rsi": 52.8,
+          "vol_factor": 2.0,
+          "score": 1.062
         }
       }
     ],
