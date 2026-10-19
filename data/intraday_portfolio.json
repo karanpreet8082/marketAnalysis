@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-19",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 81866.35,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 25
+      },
+      {
+        "iteration": 12,
+        "time": "2026-10-19 21:24:19",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 98506.55,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 28
       }
     ],
-    "invested_today": 81866.35098266602,
+    "invested_today": 98506.55117797852,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -480,6 +489,51 @@
           "rsi": 68.2,
           "vol_factor": 2.0,
           "score": 2.101
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 4,
+        "buy_price": 1241.3,
+        "buy_time": "2026-10-19 21:24:19",
+        "iteration": 12,
+        "score_info": {
+          "last": 1241.3,
+          "mom_30m_pct": 0.6,
+          "intraday_pct": 2.055,
+          "rsi": 65.0,
+          "vol_factor": 1.74,
+          "score": 2.261
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 31,
+        "buy_price": 225.0,
+        "buy_time": "2026-10-19 21:24:19",
+        "iteration": 12,
+        "score_info": {
+          "last": 225.0,
+          "mom_30m_pct": 0.5,
+          "intraday_pct": 1.169,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 2.101
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 4700.0,
+        "buy_time": "2026-10-19 21:24:19",
+        "iteration": 12,
+        "score_info": {
+          "last": 4700.0,
+          "mom_30m_pct": 0.399,
+          "intraday_pct": 0.546,
+          "rsi": 59.6,
+          "vol_factor": 2.0,
+          "score": 1.763
         }
       }
     ],
@@ -907,6 +961,57 @@
           "rsi": 68.2,
           "vol_factor": 2.0,
           "score": 2.101
+        }
+      },
+      {
+        "time": "2026-10-19 21:24:19",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 4,
+        "price": 1241.3,
+        "cost": 4965.2,
+        "score": {
+          "last": 1241.3,
+          "mom_30m_pct": 0.6,
+          "intraday_pct": 2.055,
+          "rsi": 65.0,
+          "vol_factor": 1.74,
+          "score": 2.261
+        }
+      },
+      {
+        "time": "2026-10-19 21:24:19",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 31,
+        "price": 225.0,
+        "cost": 6975.0,
+        "score": {
+          "last": 225.0,
+          "mom_30m_pct": 0.5,
+          "intraday_pct": 1.169,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 2.101
+        }
+      },
+      {
+        "time": "2026-10-19 21:24:19",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 4700.0,
+        "cost": 4700.0,
+        "score": {
+          "last": 4700.0,
+          "mom_30m_pct": 0.399,
+          "intraday_pct": 0.546,
+          "rsi": 59.6,
+          "vol_factor": 2.0,
+          "score": 1.763
         }
       }
     ],
