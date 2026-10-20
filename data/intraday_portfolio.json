@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-20",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 37968.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-20 16:53:19",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 46717.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 15
       }
     ],
-    "invested_today": 37968.6005859375,
+    "invested_today": 46717.20068359375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -240,6 +249,51 @@
           "rsi": 68.2,
           "vol_factor": 2.0,
           "score": 2.101
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1241.3,
+        "buy_time": "2026-10-20 16:53:19",
+        "iteration": 7,
+        "score_info": {
+          "last": 1241.3,
+          "mom_30m_pct": 0.6,
+          "intraday_pct": 2.055,
+          "rsi": 65.0,
+          "vol_factor": 1.74,
+          "score": 2.261
+        }
+      },
+      {
+        "symbol": "ONGC",
+        "qty": 20,
+        "buy_price": 225.0,
+        "buy_time": "2026-10-20 16:53:19",
+        "iteration": 7,
+        "score_info": {
+          "last": 225.0,
+          "mom_30m_pct": 0.5,
+          "intraday_pct": 1.169,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 2.101
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1766.0,
+        "buy_time": "2026-10-20 16:53:19",
+        "iteration": 7,
+        "score_info": {
+          "last": 1766.0,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 1.523,
+          "rsi": 68.7,
+          "vol_factor": 2.0,
+          "score": 1.746
         }
       }
     ],
@@ -446,6 +500,57 @@
           "rsi": 68.2,
           "vol_factor": 2.0,
           "score": 2.101
+        }
+      },
+      {
+        "time": "2026-10-20 16:53:19",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1241.3,
+        "cost": 2482.6,
+        "score": {
+          "last": 1241.3,
+          "mom_30m_pct": 0.6,
+          "intraday_pct": 2.055,
+          "rsi": 65.0,
+          "vol_factor": 1.74,
+          "score": 2.261
+        }
+      },
+      {
+        "time": "2026-10-20 16:53:19",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ONGC",
+        "qty": 20,
+        "price": 225.0,
+        "cost": 4500.0,
+        "score": {
+          "last": 225.0,
+          "mom_30m_pct": 0.5,
+          "intraday_pct": 1.169,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 2.101
+        }
+      },
+      {
+        "time": "2026-10-20 16:53:19",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1766.0,
+        "cost": 1766.0,
+        "score": {
+          "last": 1766.0,
+          "mom_30m_pct": 0.193,
+          "intraday_pct": 1.523,
+          "rsi": 68.7,
+          "vol_factor": 2.0,
+          "score": 1.746
         }
       }
     ],
