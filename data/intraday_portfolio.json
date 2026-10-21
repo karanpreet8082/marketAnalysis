@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-21",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 15621.41,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 3,
+        "time": "2026-10-21 14:57:30",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 23350.15,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 15621.409973144531,
+    "invested_today": 23350.149993896484,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -114,6 +123,51 @@
           "rsi": 31.8,
           "vol_factor": 1.75,
           "score": 0.635
+        }
+      },
+      {
+        "symbol": "WIPRO",
+        "qty": 14,
+        "buy_price": 188.01,
+        "buy_time": "2026-10-21 14:57:30",
+        "iteration": 3,
+        "score_info": {
+          "last": 188.01,
+          "mom_30m_pct": -0.355,
+          "intraday_pct": 3.353,
+          "rsi": 19.1,
+          "vol_factor": 2.0,
+          "score": 0.973
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1163.0,
+        "buy_time": "2026-10-21 14:57:30",
+        "iteration": 3,
+        "score_info": {
+          "last": 1163.0,
+          "mom_30m_pct": -0.107,
+          "intraday_pct": 3.35,
+          "rsi": 44.2,
+          "vol_factor": 1.0,
+          "score": 0.848
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1385.3,
+        "buy_time": "2026-10-21 14:57:30",
+        "iteration": 3,
+        "score_info": {
+          "last": 1385.3,
+          "mom_30m_pct": 0.108,
+          "intraday_pct": 0.195,
+          "rsi": 48.9,
+          "vol_factor": 1.31,
+          "score": 0.529
         }
       }
     ],
@@ -218,6 +272,57 @@
           "rsi": 31.8,
           "vol_factor": 1.75,
           "score": 0.635
+        }
+      },
+      {
+        "time": "2026-10-21 14:57:30",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "WIPRO",
+        "qty": 14,
+        "price": 188.01,
+        "cost": 2632.14,
+        "score": {
+          "last": 188.01,
+          "mom_30m_pct": -0.355,
+          "intraday_pct": 3.353,
+          "rsi": 19.1,
+          "vol_factor": 2.0,
+          "score": 0.973
+        }
+      },
+      {
+        "time": "2026-10-21 14:57:30",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1163.0,
+        "cost": 2326.0,
+        "score": {
+          "last": 1163.0,
+          "mom_30m_pct": -0.107,
+          "intraday_pct": 3.35,
+          "rsi": 44.2,
+          "vol_factor": 1.0,
+          "score": 0.848
+        }
+      },
+      {
+        "time": "2026-10-21 14:57:30",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1385.3,
+        "cost": 2770.6,
+        "score": {
+          "last": 1385.3,
+          "mom_30m_pct": 0.108,
+          "intraday_pct": 0.195,
+          "rsi": 48.9,
+          "vol_factor": 1.31,
+          "score": 0.529
         }
       }
     ],
