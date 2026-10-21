@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-21",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 23350.15,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
-      },
-      {
-        "iteration": 4,
-        "time": "2026-10-21 15:09:57",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 31687.53,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 12
       }
     ],
-    "invested_today": 31687.529983520508,
+    "invested_today": 23350.149993896484,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -177,51 +168,6 @@
           "rsi": 48.9,
           "vol_factor": 1.31,
           "score": 0.529
-        }
-      },
-      {
-        "symbol": "INFY",
-        "qty": 2,
-        "buy_price": 1165.7,
-        "buy_time": "2026-10-21 15:09:57",
-        "iteration": 4,
-        "score_info": {
-          "last": 1165.7,
-          "mom_30m_pct": 0.09,
-          "intraday_pct": 3.471,
-          "rsi": 53.6,
-          "vol_factor": 2.0,
-          "score": 2.176
-        }
-      },
-      {
-        "symbol": "WIPRO",
-        "qty": 17,
-        "buy_price": 188.14,
-        "buy_time": "2026-10-21 15:09:57",
-        "iteration": 4,
-        "score_info": {
-          "last": 188.14,
-          "mom_30m_pct": -0.254,
-          "intraday_pct": 3.51,
-          "rsi": 31.1,
-          "vol_factor": 2.0,
-          "score": 1.671
-        }
-      },
-      {
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "buy_price": 1403.8,
-        "buy_time": "2026-10-21 15:09:57",
-        "iteration": 4,
-        "score_info": {
-          "last": 1403.8,
-          "mom_30m_pct": -0.128,
-          "intraday_pct": 2.609,
-          "rsi": 39.9,
-          "vol_factor": 2.0,
-          "score": 1.591
         }
       }
     ],
@@ -377,57 +323,6 @@
           "rsi": 48.9,
           "vol_factor": 1.31,
           "score": 0.529
-        }
-      },
-      {
-        "time": "2026-10-21 15:09:57",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "INFY",
-        "qty": 2,
-        "price": 1165.7,
-        "cost": 2331.4,
-        "score": {
-          "last": 1165.7,
-          "mom_30m_pct": 0.09,
-          "intraday_pct": 3.471,
-          "rsi": 53.6,
-          "vol_factor": 2.0,
-          "score": 2.176
-        }
-      },
-      {
-        "time": "2026-10-21 15:09:57",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "WIPRO",
-        "qty": 17,
-        "price": 188.14,
-        "cost": 3198.38,
-        "score": {
-          "last": 188.14,
-          "mom_30m_pct": -0.254,
-          "intraday_pct": 3.51,
-          "rsi": 31.1,
-          "vol_factor": 2.0,
-          "score": 1.671
-        }
-      },
-      {
-        "time": "2026-10-21 15:09:57",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HCLTECH",
-        "qty": 2,
-        "price": 1403.8,
-        "cost": 2807.6,
-        "score": {
-          "last": 1403.8,
-          "mom_30m_pct": -0.128,
-          "intraday_pct": 2.609,
-          "rsi": 39.9,
-          "vol_factor": 2.0,
-          "score": 1.591
         }
       }
     ],
