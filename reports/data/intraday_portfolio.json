@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-22",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,26 +21,20 @@
         "invested_today_after": 15334.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 3,
+        "time": "2026-10-22 15:00:26",
+        "n_bought": 3,
+        "n_sold": 1,
+        "invested_today_after": 22726.95,
+        "realized_pnl_today_after": 58.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 15333.999877929688,
-    "realized_pnl_today": 0.0,
+    "invested_today": 22726.949768066406,
+    "realized_pnl_today": 57.999999999999545,
     "open_positions": [
-      {
-        "symbol": "HAVELLS",
-        "qty": 5,
-        "buy_price": 1070.9,
-        "buy_time": "2026-10-22 14:26:12",
-        "iteration": 1,
-        "score_info": {
-          "last": 1070.9,
-          "mom_30m_pct": 0.526,
-          "intraday_pct": 0.403,
-          "rsi": 56.9,
-          "vol_factor": 0.11,
-          "score": 0.021
-        }
-      },
       {
         "symbol": "SUNPHARMA",
         "qty": 1,
@@ -99,6 +93,51 @@
           "rsi": 71.2,
           "vol_factor": 1.0,
           "score": 0.925
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 939.05,
+        "buy_time": "2026-10-22 15:00:26",
+        "iteration": 3,
+        "score_info": {
+          "last": 939.05,
+          "mom_30m_pct": 0.487,
+          "intraday_pct": 1.524,
+          "rsi": 60.7,
+          "vol_factor": 1.0,
+          "score": 1.188
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1746.4,
+        "buy_time": "2026-10-22 15:00:26",
+        "iteration": 3,
+        "score_info": {
+          "last": 1746.4,
+          "mom_30m_pct": 0.247,
+          "intraday_pct": 1.036,
+          "rsi": 67.3,
+          "vol_factor": 1.0,
+          "score": 0.681
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1414.7,
+        "buy_time": "2026-10-22 15:00:26",
+        "iteration": 3,
+        "score_info": {
+          "last": 1414.7,
+          "mom_30m_pct": 0.17,
+          "intraday_pct": 0.891,
+          "rsi": 72.2,
+          "vol_factor": 1.0,
+          "score": 0.522
         }
       }
     ],
@@ -186,6 +225,69 @@
           "rsi": 71.2,
           "vol_factor": 1.0,
           "score": 0.925
+        }
+      },
+      {
+        "time": "2026-10-22 15:00:26",
+        "iteration": 3,
+        "action": "SELL",
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "price": 1082.5,
+        "buy_price": 1070.9,
+        "pnl": 58.0,
+        "pnl_pct": 1.08,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-10-22 15:00:26",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 939.05,
+        "cost": 2817.15,
+        "score": {
+          "last": 939.05,
+          "mom_30m_pct": 0.487,
+          "intraday_pct": 1.524,
+          "rsi": 60.7,
+          "vol_factor": 1.0,
+          "score": 1.188
+        }
+      },
+      {
+        "time": "2026-10-22 15:00:26",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1746.4,
+        "cost": 1746.4,
+        "score": {
+          "last": 1746.4,
+          "mom_30m_pct": 0.247,
+          "intraday_pct": 1.036,
+          "rsi": 67.3,
+          "vol_factor": 1.0,
+          "score": 0.681
+        }
+      },
+      {
+        "time": "2026-10-22 15:00:26",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1414.7,
+        "cost": 2829.4,
+        "score": {
+          "last": 1414.7,
+          "mom_30m_pct": 0.17,
+          "intraday_pct": 0.891,
+          "rsi": 72.2,
+          "vol_factor": 1.0,
+          "score": 0.522
         }
       }
     ],
