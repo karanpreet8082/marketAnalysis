@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-22",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 72530.69,
         "realized_pnl_today_after": 58.0,
         "open_positions_after": 24
+      },
+      {
+        "iteration": 10,
+        "time": "2026-10-22 18:41:37",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 80702.09,
+        "realized_pnl_today_after": 58.0,
+        "open_positions_after": 27
       }
     ],
-    "invested_today": 72530.68946838379,
+    "invested_today": 80702.08937072754,
     "realized_pnl_today": 57.999999999999545,
     "open_positions": [
       {
@@ -440,6 +449,51 @@
         "buy_price": 1758.0,
         "buy_time": "2026-10-22 18:24:40",
         "iteration": 9,
+        "score_info": {
+          "last": 1758.0,
+          "mom_30m_pct": 0.532,
+          "intraday_pct": 1.11,
+          "rsi": 67.2,
+          "vol_factor": 2.0,
+          "score": 2.131
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 942.1,
+        "buy_time": "2026-10-22 18:41:37",
+        "iteration": 10,
+        "score_info": {
+          "last": 942.1,
+          "mom_30m_pct": 0.598,
+          "intraday_pct": 1.739,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.419
+        }
+      },
+      {
+        "symbol": "TECHM",
+        "qty": 1,
+        "buy_price": 1829.1,
+        "buy_time": "2026-10-22 18:41:37",
+        "iteration": 10,
+        "score_info": {
+          "last": 1829.1,
+          "mom_30m_pct": 1.86,
+          "intraday_pct": -0.305,
+          "rsi": 91.5,
+          "vol_factor": 2.0,
+          "score": 2.198
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "buy_price": 1758.0,
+        "buy_time": "2026-10-22 18:41:37",
+        "iteration": 10,
         "score_info": {
           "last": 1758.0,
           "mom_30m_pct": 0.532,
@@ -874,6 +928,57 @@
       {
         "time": "2026-10-22 18:24:40",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 2,
+        "price": 1758.0,
+        "cost": 3516.0,
+        "score": {
+          "last": 1758.0,
+          "mom_30m_pct": 0.532,
+          "intraday_pct": 1.11,
+          "rsi": 67.2,
+          "vol_factor": 2.0,
+          "score": 2.131
+        }
+      },
+      {
+        "time": "2026-10-22 18:41:37",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 942.1,
+        "cost": 2826.3,
+        "score": {
+          "last": 942.1,
+          "mom_30m_pct": 0.598,
+          "intraday_pct": 1.739,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.419
+        }
+      },
+      {
+        "time": "2026-10-22 18:41:37",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TECHM",
+        "qty": 1,
+        "price": 1829.1,
+        "cost": 1829.1,
+        "score": {
+          "last": 1829.1,
+          "mom_30m_pct": 1.86,
+          "intraday_pct": -0.305,
+          "rsi": 91.5,
+          "vol_factor": 2.0,
+          "score": 2.198
+        }
+      },
+      {
+        "time": "2026-10-22 18:41:37",
+        "iteration": 10,
         "action": "BUY",
         "symbol": "SUNPHARMA",
         "qty": 2,
