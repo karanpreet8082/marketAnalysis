@@ -1,5 +1,196 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-10-22",
+    "total_iterations": 14,
+    "iterations_run": 2,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-10-22 14:26:12",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7100.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-22 14:46:08",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 15334.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      }
+    ],
+    "invested_today": 15333.999877929688,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "buy_price": 1070.9,
+        "buy_time": "2026-10-22 14:26:12",
+        "iteration": 1,
+        "score_info": {
+          "last": 1070.9,
+          "mom_30m_pct": 0.526,
+          "intraday_pct": 0.403,
+          "rsi": 56.9,
+          "vol_factor": 0.11,
+          "score": 0.021
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1745.7,
+        "buy_time": "2026-10-22 14:26:12",
+        "iteration": 1,
+        "score_info": {
+          "last": 1745.7,
+          "mom_30m_pct": 0.166,
+          "intraday_pct": 1.294,
+          "rsi": 41.0,
+          "vol_factor": 0.28,
+          "score": -0.079
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "buy_price": 1078.2,
+        "buy_time": "2026-10-22 14:46:08",
+        "iteration": 2,
+        "score_info": {
+          "last": 1078.2,
+          "mom_30m_pct": 1.592,
+          "intraday_pct": 1.192,
+          "rsi": 58.7,
+          "vol_factor": 0.33,
+          "score": 2.075
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2552.4,
+        "buy_time": "2026-10-22 14:46:08",
+        "iteration": 2,
+        "score_info": {
+          "last": 2552.4,
+          "mom_30m_pct": 0.35,
+          "intraday_pct": -0.72,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 1.309
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 10,
+        "buy_price": 352.5,
+        "buy_time": "2026-10-22 14:46:08",
+        "iteration": 2,
+        "score_info": {
+          "last": 352.5,
+          "mom_30m_pct": 0.399,
+          "intraday_pct": 1.09,
+          "rsi": 71.2,
+          "vol_factor": 1.0,
+          "score": 0.925
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-10-22 14:26:12",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 5,
+        "price": 1070.9,
+        "cost": 5354.5,
+        "score": {
+          "last": 1070.9,
+          "mom_30m_pct": 0.526,
+          "intraday_pct": 0.403,
+          "rsi": 56.9,
+          "vol_factor": 0.11,
+          "score": 0.021
+        }
+      },
+      {
+        "time": "2026-10-22 14:26:12",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1745.7,
+        "cost": 1745.7,
+        "score": {
+          "last": 1745.7,
+          "mom_30m_pct": 0.166,
+          "intraday_pct": 1.294,
+          "rsi": 41.0,
+          "vol_factor": 0.28,
+          "score": -0.079
+        }
+      },
+      {
+        "time": "2026-10-22 14:46:08",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 2,
+        "price": 1078.2,
+        "cost": 2156.4,
+        "score": {
+          "last": 1078.2,
+          "mom_30m_pct": 1.592,
+          "intraday_pct": 1.192,
+          "rsi": 58.7,
+          "vol_factor": 0.33,
+          "score": 2.075
+        }
+      },
+      {
+        "time": "2026-10-22 14:46:08",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2552.4,
+        "cost": 2552.4,
+        "score": {
+          "last": 2552.4,
+          "mom_30m_pct": 0.35,
+          "intraday_pct": -0.72,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 1.309
+        }
+      },
+      {
+        "time": "2026-10-22 14:46:08",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 10,
+        "price": 352.5,
+        "cost": 3525.0,
+        "score": {
+          "last": 352.5,
+          "mom_30m_pct": 0.399,
+          "intraday_pct": 1.09,
+          "rsi": 71.2,
+          "vol_factor": 1.0,
+          "score": 0.925
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
