@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-23",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,18 +93,9 @@
         "invested_today_after": 76471.8,
         "realized_pnl_today_after": 47.4,
         "open_positions_after": 19
-      },
-      {
-        "iteration": 11,
-        "time": "2026-10-23 19:21:36",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 83188.6,
-        "realized_pnl_today_after": 47.4,
-        "open_positions_after": 21
       }
     ],
-    "invested_today": 83188.59954833984,
+    "invested_today": 76471.79949951172,
     "realized_pnl_today": 47.39990234375,
     "open_positions": [
       {
@@ -390,36 +381,6 @@
           "rsi": 73.1,
           "vol_factor": 2.0,
           "score": 2.349
-        }
-      },
-      {
-        "symbol": "TATACONSUM",
-        "qty": 4,
-        "buy_price": 963.9,
-        "buy_time": "2026-10-23 19:21:36",
-        "iteration": 11,
-        "score_info": {
-          "last": 963.9,
-          "mom_30m_pct": 1.261,
-          "intraday_pct": 0.427,
-          "rsi": 61.2,
-          "vol_factor": 2.0,
-          "score": 3.019
-        }
-      },
-      {
-        "symbol": "M&M",
-        "qty": 1,
-        "buy_price": 2861.2,
-        "buy_time": "2026-10-23 19:21:36",
-        "iteration": 11,
-        "score_info": {
-          "last": 2861.2,
-          "mom_30m_pct": 1.285,
-          "intraday_pct": -0.101,
-          "rsi": 74.9,
-          "vol_factor": 2.0,
-          "score": 2.897
         }
       }
     ],
@@ -774,40 +735,6 @@
           "rsi": 73.1,
           "vol_factor": 2.0,
           "score": 2.349
-        }
-      },
-      {
-        "time": "2026-10-23 19:21:36",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "TATACONSUM",
-        "qty": 4,
-        "price": 963.9,
-        "cost": 3855.6,
-        "score": {
-          "last": 963.9,
-          "mom_30m_pct": 1.261,
-          "intraday_pct": 0.427,
-          "rsi": 61.2,
-          "vol_factor": 2.0,
-          "score": 3.019
-        }
-      },
-      {
-        "time": "2026-10-23 19:21:36",
-        "iteration": 11,
-        "action": "BUY",
-        "symbol": "M&M",
-        "qty": 1,
-        "price": 2861.2,
-        "cost": 2861.2,
-        "score": {
-          "last": 2861.2,
-          "mom_30m_pct": 1.285,
-          "intraday_pct": -0.101,
-          "rsi": 74.9,
-          "vol_factor": 2.0,
-          "score": 2.897
         }
       }
     ],
