@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-23",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 41311.9,
         "realized_pnl_today_after": 47.4,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-23 17:26:01",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 47636.7,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 41311.89974975586,
+    "invested_today": 47636.699615478516,
     "realized_pnl_today": 47.39990234375,
     "open_positions": [
       {
@@ -188,6 +197,36 @@
         "buy_price": 247.4,
         "buy_time": "2026-10-23 16:58:24",
         "iteration": 6,
+        "score_info": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 2861.2,
+        "buy_time": "2026-10-23 17:26:01",
+        "iteration": 7,
+        "score_info": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 14,
+        "buy_price": 247.4,
+        "buy_time": "2026-10-23 17:26:01",
+        "iteration": 7,
         "score_info": {
           "last": 247.4,
           "mom_30m_pct": 0.98,
@@ -372,6 +411,40 @@
         "qty": 27,
         "price": 247.4,
         "cost": 6679.8,
+        "score": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "time": "2026-10-23 17:26:01",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 2861.2,
+        "cost": 2861.2,
+        "score": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "time": "2026-10-23 17:26:01",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 14,
+        "price": 247.4,
+        "cost": 3463.6,
         "score": {
           "last": 247.4,
           "mom_30m_pct": 0.98,
