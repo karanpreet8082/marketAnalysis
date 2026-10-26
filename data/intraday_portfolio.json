@@ -1,86 +1,959 @@
 {
   "current_day": {
-    "date": "2026-10-26",
+    "date": "2026-10-23",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
-        "time": "2026-10-26 14:52:45",
+        "time": "2026-10-23 14:21:18",
         "n_bought": 2,
         "n_sold": 0,
-        "invested_today_after": 5497.6,
+        "invested_today_after": 6601.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-23 14:42:15",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 14651.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-10-23 15:06:08",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 20326.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 4,
+        "time": "2026-10-23 15:27:55",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 28909.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
+      },
+      {
+        "iteration": 5,
+        "time": "2026-10-23 15:58:34",
+        "n_bought": 1,
+        "n_sold": 1,
+        "invested_today_after": 31770.9,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 7
+      },
+      {
+        "iteration": 6,
+        "time": "2026-10-23 16:58:24",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 41311.9,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-23 17:26:01",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 47636.7,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 8,
+        "time": "2026-10-23 18:04:17",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 53389.6,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 13
+      },
+      {
+        "iteration": 9,
+        "time": "2026-10-23 18:21:58",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 64807.0,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 16
+      },
+      {
+        "iteration": 10,
+        "time": "2026-10-23 18:59:39",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 76471.8,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 19
+      },
+      {
+        "iteration": 11,
+        "time": "2026-10-23 19:21:36",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 83188.6,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 21
+      },
+      {
+        "iteration": 12,
+        "time": "2026-10-23 19:47:57",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 93730.5,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 13,
+        "time": "2026-10-23 19:59:02",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99864.1,
+        "realized_pnl_today_after": 47.4,
+        "open_positions_after": 25
       }
     ],
-    "invested_today": 5497.60009765625,
-    "realized_pnl_today": 0.0,
+    "invested_today": 99864.09951782227,
+    "realized_pnl_today": 47.39990234375,
     "open_positions": [
       {
-        "symbol": "DRREDDY",
-        "qty": 2,
-        "buy_price": 1317.0,
-        "buy_time": "2026-10-26 14:52:45",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1214.0,
+        "buy_time": "2026-10-23 14:21:18",
         "iteration": 1,
         "score_info": {
-          "last": 1317.0,
-          "mom_30m_pct": 0.297,
-          "intraday_pct": 7.836,
-          "rsi": 68.6,
-          "vol_factor": 0.29,
-          "score": 2.087
+          "last": 1214.0,
+          "mom_30m_pct": 0.223,
+          "intraday_pct": 0.622,
+          "rsi": 78.7,
+          "vol_factor": 2.0,
+          "score": 0.021
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1745.1,
+        "buy_time": "2026-10-23 14:21:18",
+        "iteration": 1,
+        "score_info": {
+          "last": 1745.1,
+          "mom_30m_pct": 0.04,
+          "intraday_pct": 0.046,
+          "rsi": 69.8,
+          "vol_factor": 0.75,
+          "score": -0.18
+        }
+      },
+      {
+        "symbol": "COALINDIA",
+        "qty": 14,
+        "buy_price": 396.1,
+        "buy_time": "2026-10-23 14:42:15",
+        "iteration": 2,
+        "score_info": {
+          "last": 396.1,
+          "mom_30m_pct": 0.063,
+          "intraday_pct": -1.797,
+          "rsi": 67.4,
+          "vol_factor": 2.0,
+          "score": 0.555
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 835.0,
+        "buy_time": "2026-10-23 14:42:15",
+        "iteration": 2,
+        "score_info": {
+          "last": 835.0,
+          "mom_30m_pct": -0.03,
+          "intraday_pct": -1.597,
+          "rsi": 48.4,
+          "vol_factor": 2.0,
+          "score": 0.476
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 2887.2,
+        "buy_time": "2026-10-23 15:27:55",
+        "iteration": 4,
+        "score_info": {
+          "last": 2887.2,
+          "mom_30m_pct": 0.351,
+          "intraday_pct": 0.295,
+          "rsi": 52.7,
+          "vol_factor": 2.0,
+          "score": 1.615
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 2,
+        "buy_price": 2848.0,
+        "buy_time": "2026-10-23 15:27:55",
+        "iteration": 4,
+        "score_info": {
+          "last": 2848.0,
+          "mom_30m_pct": 0.825,
+          "intraday_pct": -0.447,
+          "rsi": 67.8,
+          "vol_factor": 1.0,
+          "score": 1.103
         }
       },
       {
         "symbol": "M&M",
         "qty": 1,
-        "buy_price": 2863.6,
-        "buy_time": "2026-10-26 14:52:45",
-        "iteration": 1,
+        "buy_price": 2861.2,
+        "buy_time": "2026-10-23 15:58:34",
+        "iteration": 5,
         "score_info": {
-          "last": 2863.6,
-          "mom_30m_pct": 0.512,
-          "intraday_pct": 1.37,
-          "rsi": 64.2,
-          "vol_factor": 1.56,
-          "score": 1.744
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 2861.2,
+        "buy_time": "2026-10-23 16:58:24",
+        "iteration": 6,
+        "score_info": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 27,
+        "buy_price": 247.4,
+        "buy_time": "2026-10-23 16:58:24",
+        "iteration": 6,
+        "score_info": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 2861.2,
+        "buy_time": "2026-10-23 17:26:01",
+        "iteration": 7,
+        "score_info": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 14,
+        "buy_price": 247.4,
+        "buy_time": "2026-10-23 17:26:01",
+        "iteration": 7,
+        "score_info": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 963.9,
+        "buy_time": "2026-10-23 18:04:17",
+        "iteration": 8,
+        "score_info": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 2861.2,
+        "buy_time": "2026-10-23 18:04:17",
+        "iteration": 8,
+        "score_info": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "buy_price": 963.9,
+        "buy_time": "2026-10-23 18:21:58",
+        "iteration": 9,
+        "score_info": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 2861.2,
+        "buy_time": "2026-10-23 18:21:58",
+        "iteration": 9,
+        "score_info": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 19,
+        "buy_price": 247.4,
+        "buy_time": "2026-10-23 18:21:58",
+        "iteration": 9,
+        "score_info": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "buy_price": 963.9,
+        "buy_time": "2026-10-23 18:59:39",
+        "iteration": 10,
+        "score_info": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 2861.2,
+        "buy_time": "2026-10-23 18:59:39",
+        "iteration": 10,
+        "score_info": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 20,
+        "buy_price": 247.4,
+        "buy_time": "2026-10-23 18:59:39",
+        "iteration": 10,
+        "score_info": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "buy_price": 963.9,
+        "buy_time": "2026-10-23 19:21:36",
+        "iteration": 11,
+        "score_info": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 2861.2,
+        "buy_time": "2026-10-23 19:21:36",
+        "iteration": 11,
+        "score_info": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 5,
+        "buy_price": 963.9,
+        "buy_time": "2026-10-23 19:47:57",
+        "iteration": 12,
+        "score_info": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 2,
+        "buy_price": 2861.2,
+        "buy_time": "2026-10-23 19:47:57",
+        "iteration": 12,
+        "score_info": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "buy_price": 963.9,
+        "buy_time": "2026-10-23 19:59:02",
+        "iteration": 13,
+        "score_info": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 17,
+        "buy_price": 247.4,
+        "buy_time": "2026-10-23 19:59:02",
+        "iteration": 13,
+        "score_info": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
         }
       }
     ],
     "trades": [
       {
-        "time": "2026-10-26 14:52:45",
+        "time": "2026-10-23 14:21:18",
         "iteration": 1,
         "action": "BUY",
-        "symbol": "DRREDDY",
-        "qty": 2,
-        "price": 1317.0,
-        "cost": 2634.0,
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1214.0,
+        "cost": 4856.0,
         "score": {
-          "last": 1317.0,
-          "mom_30m_pct": 0.297,
-          "intraday_pct": 7.836,
-          "rsi": 68.6,
-          "vol_factor": 0.29,
-          "score": 2.087
+          "last": 1214.0,
+          "mom_30m_pct": 0.223,
+          "intraday_pct": 0.622,
+          "rsi": 78.7,
+          "vol_factor": 2.0,
+          "score": 0.021
         }
       },
       {
-        "time": "2026-10-26 14:52:45",
+        "time": "2026-10-23 14:21:18",
         "iteration": 1,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1745.1,
+        "cost": 1745.1,
+        "score": {
+          "last": 1745.1,
+          "mom_30m_pct": 0.04,
+          "intraday_pct": 0.046,
+          "rsi": 69.8,
+          "vol_factor": 0.75,
+          "score": -0.18
+        }
+      },
+      {
+        "time": "2026-10-23 14:42:15",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "COALINDIA",
+        "qty": 14,
+        "price": 396.1,
+        "cost": 5545.4,
+        "score": {
+          "last": 396.1,
+          "mom_30m_pct": 0.063,
+          "intraday_pct": -1.797,
+          "rsi": 67.4,
+          "vol_factor": 2.0,
+          "score": 0.555
+        }
+      },
+      {
+        "time": "2026-10-23 14:42:15",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 835.0,
+        "cost": 2505.0,
+        "score": {
+          "last": 835.0,
+          "mom_30m_pct": -0.03,
+          "intraday_pct": -1.597,
+          "rsi": 48.4,
+          "vol_factor": 2.0,
+          "score": 0.476
+        }
+      },
+      {
+        "time": "2026-10-23 15:06:08",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 2,
+        "price": 2837.5,
+        "cost": 5675.0,
+        "score": {
+          "last": 2837.5,
+          "mom_30m_pct": 0.706,
+          "intraday_pct": -0.463,
+          "rsi": 60.9,
+          "vol_factor": 0.39,
+          "score": 0.307
+        }
+      },
+      {
+        "time": "2026-10-23 15:27:55",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 2887.2,
+        "cost": 2887.2,
+        "score": {
+          "last": 2887.2,
+          "mom_30m_pct": 0.351,
+          "intraday_pct": 0.295,
+          "rsi": 52.7,
+          "vol_factor": 2.0,
+          "score": 1.615
+        }
+      },
+      {
+        "time": "2026-10-23 15:27:55",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 2,
+        "price": 2848.0,
+        "cost": 5696.0,
+        "score": {
+          "last": 2848.0,
+          "mom_30m_pct": 0.825,
+          "intraday_pct": -0.447,
+          "rsi": 67.8,
+          "vol_factor": 1.0,
+          "score": 1.103
+        }
+      },
+      {
+        "time": "2026-10-23 15:58:34",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "M&M",
+        "qty": 2,
+        "price": 2861.2,
+        "buy_price": 2837.5,
+        "pnl": 47.4,
+        "pnl_pct": 0.84,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-10-23 15:58:34",
+        "iteration": 5,
         "action": "BUY",
         "symbol": "M&M",
         "qty": 1,
-        "price": 2863.6,
-        "cost": 2863.6,
+        "price": 2861.2,
+        "cost": 2861.2,
         "score": {
-          "last": 2863.6,
-          "mom_30m_pct": 0.512,
-          "intraday_pct": 1.37,
-          "rsi": 64.2,
-          "vol_factor": 1.56,
-          "score": 1.744
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "time": "2026-10-23 16:58:24",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 2861.2,
+        "cost": 2861.2,
+        "score": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "time": "2026-10-23 16:58:24",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 27,
+        "price": 247.4,
+        "cost": 6679.8,
+        "score": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "time": "2026-10-23 17:26:01",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 2861.2,
+        "cost": 2861.2,
+        "score": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "time": "2026-10-23 17:26:01",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 14,
+        "price": 247.4,
+        "cost": 3463.6,
+        "score": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "time": "2026-10-23 18:04:17",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 963.9,
+        "cost": 2891.7,
+        "score": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "time": "2026-10-23 18:04:17",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 2861.2,
+        "cost": 2861.2,
+        "score": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "time": "2026-10-23 18:21:58",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "price": 963.9,
+        "cost": 3855.6,
+        "score": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "time": "2026-10-23 18:21:58",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 2861.2,
+        "cost": 2861.2,
+        "score": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "time": "2026-10-23 18:21:58",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 19,
+        "price": 247.4,
+        "cost": 4700.6,
+        "score": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "time": "2026-10-23 18:59:39",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "price": 963.9,
+        "cost": 3855.6,
+        "score": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "time": "2026-10-23 18:59:39",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 2861.2,
+        "cost": 2861.2,
+        "score": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "time": "2026-10-23 18:59:39",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 20,
+        "price": 247.4,
+        "cost": 4948.0,
+        "score": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
+        }
+      },
+      {
+        "time": "2026-10-23 19:21:36",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 4,
+        "price": 963.9,
+        "cost": 3855.6,
+        "score": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "time": "2026-10-23 19:21:36",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 2861.2,
+        "cost": 2861.2,
+        "score": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "time": "2026-10-23 19:47:57",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 5,
+        "price": 963.9,
+        "cost": 4819.5,
+        "score": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "time": "2026-10-23 19:47:57",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 2,
+        "price": 2861.2,
+        "cost": 5722.4,
+        "score": {
+          "last": 2861.2,
+          "mom_30m_pct": 1.285,
+          "intraday_pct": -0.101,
+          "rsi": 74.9,
+          "vol_factor": 2.0,
+          "score": 2.897
+        }
+      },
+      {
+        "time": "2026-10-23 19:59:02",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 963.9,
+        "cost": 1927.8,
+        "score": {
+          "last": 963.9,
+          "mom_30m_pct": 1.261,
+          "intraday_pct": 0.427,
+          "rsi": 61.2,
+          "vol_factor": 2.0,
+          "score": 3.019
+        }
+      },
+      {
+        "time": "2026-10-23 19:59:02",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 17,
+        "price": 247.4,
+        "cost": 4205.8,
+        "score": {
+          "last": 247.4,
+          "mom_30m_pct": 0.98,
+          "intraday_pct": -0.403,
+          "rsi": 73.1,
+          "vol_factor": 2.0,
+          "score": 2.349
         }
       }
     ],
@@ -86666,783 +87539,20 @@
       "n_sells": 34,
       "feedback": "Day P&L \u20b9135 on \u20b998874 deployed (0.14%). Worst trade: HAVELLS (P&L \u20b9-10, -0.48%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
       "profitable": true
-    },
-    {
-      "date": "2026-10-23",
-      "iterations_run": 13,
-      "invested": 99864.1,
-      "realized_pnl": 47.4,
-      "pnl_pct": 0.047,
-      "trades": [
-        {
-          "time": "2026-10-23 14:21:18",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1214.0,
-          "cost": 4856.0,
-          "score": {
-            "last": 1214.0,
-            "mom_30m_pct": 0.223,
-            "intraday_pct": 0.622,
-            "rsi": 78.7,
-            "vol_factor": 2.0,
-            "score": 0.021
-          }
-        },
-        {
-          "time": "2026-10-23 14:21:18",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1745.1,
-          "cost": 1745.1,
-          "score": {
-            "last": 1745.1,
-            "mom_30m_pct": 0.04,
-            "intraday_pct": 0.046,
-            "rsi": 69.8,
-            "vol_factor": 0.75,
-            "score": -0.18
-          }
-        },
-        {
-          "time": "2026-10-23 14:42:15",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "COALINDIA",
-          "qty": 14,
-          "price": 396.1,
-          "cost": 5545.4,
-          "score": {
-            "last": 396.1,
-            "mom_30m_pct": 0.063,
-            "intraday_pct": -1.797,
-            "rsi": 67.4,
-            "vol_factor": 2.0,
-            "score": 0.555
-          }
-        },
-        {
-          "time": "2026-10-23 14:42:15",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "INDUSINDBK",
-          "qty": 3,
-          "price": 835.0,
-          "cost": 2505.0,
-          "score": {
-            "last": 835.0,
-            "mom_30m_pct": -0.03,
-            "intraday_pct": -1.597,
-            "rsi": 48.4,
-            "vol_factor": 2.0,
-            "score": 0.476
-          }
-        },
-        {
-          "time": "2026-10-23 15:06:08",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 2,
-          "price": 2837.5,
-          "cost": 5675.0,
-          "score": {
-            "last": 2837.5,
-            "mom_30m_pct": 0.706,
-            "intraday_pct": -0.463,
-            "rsi": 60.9,
-            "vol_factor": 0.39,
-            "score": 0.307
-          }
-        },
-        {
-          "time": "2026-10-23 15:27:55",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "GRASIM",
-          "qty": 1,
-          "price": 2887.2,
-          "cost": 2887.2,
-          "score": {
-            "last": 2887.2,
-            "mom_30m_pct": 0.351,
-            "intraday_pct": 0.295,
-            "rsi": 52.7,
-            "vol_factor": 2.0,
-            "score": 1.615
-          }
-        },
-        {
-          "time": "2026-10-23 15:27:55",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 2,
-          "price": 2848.0,
-          "cost": 5696.0,
-          "score": {
-            "last": 2848.0,
-            "mom_30m_pct": 0.825,
-            "intraday_pct": -0.447,
-            "rsi": 67.8,
-            "vol_factor": 1.0,
-            "score": 1.103
-          }
-        },
-        {
-          "time": "2026-10-23 15:58:34",
-          "iteration": 5,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 2,
-          "price": 2861.2,
-          "buy_price": 2837.5,
-          "pnl": 47.4,
-          "pnl_pct": 0.84,
-          "reason": "TAKE_PROFIT"
-        },
-        {
-          "time": "2026-10-23 15:58:34",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "cost": 2861.2,
-          "score": {
-            "last": 2861.2,
-            "mom_30m_pct": 1.285,
-            "intraday_pct": -0.101,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.897
-          }
-        },
-        {
-          "time": "2026-10-23 16:58:24",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "cost": 2861.2,
-          "score": {
-            "last": 2861.2,
-            "mom_30m_pct": 1.285,
-            "intraday_pct": -0.101,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.897
-          }
-        },
-        {
-          "time": "2026-10-23 16:58:24",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 27,
-          "price": 247.4,
-          "cost": 6679.8,
-          "score": {
-            "last": 247.4,
-            "mom_30m_pct": 0.98,
-            "intraday_pct": -0.403,
-            "rsi": 73.1,
-            "vol_factor": 2.0,
-            "score": 2.349
-          }
-        },
-        {
-          "time": "2026-10-23 17:26:01",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "cost": 2861.2,
-          "score": {
-            "last": 2861.2,
-            "mom_30m_pct": 1.285,
-            "intraday_pct": -0.101,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.897
-          }
-        },
-        {
-          "time": "2026-10-23 17:26:01",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 14,
-          "price": 247.4,
-          "cost": 3463.6,
-          "score": {
-            "last": 247.4,
-            "mom_30m_pct": 0.98,
-            "intraday_pct": -0.403,
-            "rsi": 73.1,
-            "vol_factor": 2.0,
-            "score": 2.349
-          }
-        },
-        {
-          "time": "2026-10-23 18:04:17",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 963.9,
-          "cost": 2891.7,
-          "score": {
-            "last": 963.9,
-            "mom_30m_pct": 1.261,
-            "intraday_pct": 0.427,
-            "rsi": 61.2,
-            "vol_factor": 2.0,
-            "score": 3.019
-          }
-        },
-        {
-          "time": "2026-10-23 18:04:17",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "cost": 2861.2,
-          "score": {
-            "last": 2861.2,
-            "mom_30m_pct": 1.285,
-            "intraday_pct": -0.101,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.897
-          }
-        },
-        {
-          "time": "2026-10-23 18:21:58",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 4,
-          "price": 963.9,
-          "cost": 3855.6,
-          "score": {
-            "last": 963.9,
-            "mom_30m_pct": 1.261,
-            "intraday_pct": 0.427,
-            "rsi": 61.2,
-            "vol_factor": 2.0,
-            "score": 3.019
-          }
-        },
-        {
-          "time": "2026-10-23 18:21:58",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "cost": 2861.2,
-          "score": {
-            "last": 2861.2,
-            "mom_30m_pct": 1.285,
-            "intraday_pct": -0.101,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.897
-          }
-        },
-        {
-          "time": "2026-10-23 18:21:58",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 19,
-          "price": 247.4,
-          "cost": 4700.6,
-          "score": {
-            "last": 247.4,
-            "mom_30m_pct": 0.98,
-            "intraday_pct": -0.403,
-            "rsi": 73.1,
-            "vol_factor": 2.0,
-            "score": 2.349
-          }
-        },
-        {
-          "time": "2026-10-23 18:59:39",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 4,
-          "price": 963.9,
-          "cost": 3855.6,
-          "score": {
-            "last": 963.9,
-            "mom_30m_pct": 1.261,
-            "intraday_pct": 0.427,
-            "rsi": 61.2,
-            "vol_factor": 2.0,
-            "score": 3.019
-          }
-        },
-        {
-          "time": "2026-10-23 18:59:39",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "cost": 2861.2,
-          "score": {
-            "last": 2861.2,
-            "mom_30m_pct": 1.285,
-            "intraday_pct": -0.101,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.897
-          }
-        },
-        {
-          "time": "2026-10-23 18:59:39",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 20,
-          "price": 247.4,
-          "cost": 4948.0,
-          "score": {
-            "last": 247.4,
-            "mom_30m_pct": 0.98,
-            "intraday_pct": -0.403,
-            "rsi": 73.1,
-            "vol_factor": 2.0,
-            "score": 2.349
-          }
-        },
-        {
-          "time": "2026-10-23 19:21:36",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 4,
-          "price": 963.9,
-          "cost": 3855.6,
-          "score": {
-            "last": 963.9,
-            "mom_30m_pct": 1.261,
-            "intraday_pct": 0.427,
-            "rsi": 61.2,
-            "vol_factor": 2.0,
-            "score": 3.019
-          }
-        },
-        {
-          "time": "2026-10-23 19:21:36",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "cost": 2861.2,
-          "score": {
-            "last": 2861.2,
-            "mom_30m_pct": 1.285,
-            "intraday_pct": -0.101,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.897
-          }
-        },
-        {
-          "time": "2026-10-23 19:47:57",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 5,
-          "price": 963.9,
-          "cost": 4819.5,
-          "score": {
-            "last": 963.9,
-            "mom_30m_pct": 1.261,
-            "intraday_pct": 0.427,
-            "rsi": 61.2,
-            "vol_factor": 2.0,
-            "score": 3.019
-          }
-        },
-        {
-          "time": "2026-10-23 19:47:57",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 2,
-          "price": 2861.2,
-          "cost": 5722.4,
-          "score": {
-            "last": 2861.2,
-            "mom_30m_pct": 1.285,
-            "intraday_pct": -0.101,
-            "rsi": 74.9,
-            "vol_factor": 2.0,
-            "score": 2.897
-          }
-        },
-        {
-          "time": "2026-10-23 19:59:02",
-          "iteration": 13,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 2,
-          "price": 963.9,
-          "cost": 1927.8,
-          "score": {
-            "last": 963.9,
-            "mom_30m_pct": 1.261,
-            "intraday_pct": 0.427,
-            "rsi": 61.2,
-            "vol_factor": 2.0,
-            "score": 3.019
-          }
-        },
-        {
-          "time": "2026-10-23 19:59:02",
-          "iteration": 13,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 17,
-          "price": 247.4,
-          "cost": 4205.8,
-          "score": {
-            "last": 247.4,
-            "mom_30m_pct": 0.98,
-            "intraday_pct": -0.403,
-            "rsi": 73.1,
-            "vol_factor": 2.0,
-            "score": 2.349
-          }
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1214.0,
-          "buy_price": 1214.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1745.1,
-          "buy_price": 1745.1,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "COALINDIA",
-          "qty": 14,
-          "price": 396.1,
-          "buy_price": 396.1,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDUSINDBK",
-          "qty": 3,
-          "price": 835.0,
-          "buy_price": 835.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "GRASIM",
-          "qty": 1,
-          "price": 2887.2,
-          "buy_price": 2887.2,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 2,
-          "price": 2848.0,
-          "buy_price": 2848.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "buy_price": 2861.2,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "buy_price": 2861.2,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 27,
-          "price": 247.4,
-          "buy_price": 247.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "buy_price": 2861.2,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 14,
-          "price": 247.4,
-          "buy_price": 247.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 963.9,
-          "buy_price": 963.9,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "buy_price": 2861.2,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 4,
-          "price": 963.9,
-          "buy_price": 963.9,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "buy_price": 2861.2,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 19,
-          "price": 247.4,
-          "buy_price": 247.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 4,
-          "price": 963.9,
-          "buy_price": 963.9,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "buy_price": 2861.2,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 20,
-          "price": 247.4,
-          "buy_price": 247.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 4,
-          "price": 963.9,
-          "buy_price": 963.9,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 2861.2,
-          "buy_price": 2861.2,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 5,
-          "price": 963.9,
-          "buy_price": 963.9,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 2,
-          "price": 2861.2,
-          "buy_price": 2861.2,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 2,
-          "price": 963.9,
-          "buy_price": 963.9,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-10-26 14:52:40",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 17,
-          "price": 247.4,
-          "buy_price": 247.4,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        }
-      ],
-      "n_buys": 26,
-      "n_sells": 26,
-      "feedback": "Day P&L \u20b947 on \u20b999864 deployed (0.05%). Profitable day \u2014 keep current parameters.",
-      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 107,
-    "winning_days": 57,
+    "total_days": 106,
+    "winning_days": 56,
     "losing_days": 39,
-    "total_realized_pnl": 1885.96,
+    "total_realized_pnl": 1838.56,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-09-15",
+        "note": "Day P&L \u20b9-75 on \u20b999806 deployed (-0.07%). Worst trade: HCLTECH (P&L \u20b9-19, -0.50%). Consider tighter stop on entries with weaker momentum scores. 37 EOD force-sells contributed \u20b9-75. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
       {
         "date": "2026-09-16",
         "note": "Day P&L \u20b9-31 on \u20b999801 deployed (-0.03%). Worst trade: TRENT (P&L \u20b9-13, -0.48%). Consider tighter stop on entries with weaker momentum scores. 34 EOD force-sells contributed \u20b9-31. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
@@ -87558,10 +87668,6 @@
       {
         "date": "2026-10-22",
         "note": "Day P&L \u20b9135 on \u20b998874 deployed (0.14%). Worst trade: HAVELLS (P&L \u20b9-10, -0.48%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
-      },
-      {
-        "date": "2026-10-23",
-        "note": "Day P&L \u20b947 on \u20b999864 deployed (0.05%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
