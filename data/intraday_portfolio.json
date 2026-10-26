@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-26",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 5497.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-26 15:25:02",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 12499.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
       }
     ],
-    "invested_today": 5497.60009765625,
+    "invested_today": 12499.80029296875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,36 @@
           "rsi": 64.2,
           "vol_factor": 1.56,
           "score": 1.744
+        }
+      },
+      {
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "buy_price": 1313.3,
+        "buy_time": "2026-10-26 15:25:02",
+        "iteration": 2,
+        "score_info": {
+          "last": 1313.3,
+          "mom_30m_pct": -0.281,
+          "intraday_pct": 7.471,
+          "rsi": 47.9,
+          "vol_factor": 1.0,
+          "score": 1.82
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1749.0,
+        "buy_time": "2026-10-26 15:25:02",
+        "iteration": 2,
+        "score_info": {
+          "last": 1749.0,
+          "mom_30m_pct": 0.587,
+          "intraday_pct": 2.442,
+          "rsi": 62.1,
+          "vol_factor": 1.0,
+          "score": 1.613
         }
       }
     ],
@@ -81,6 +120,40 @@
           "rsi": 64.2,
           "vol_factor": 1.56,
           "score": 1.744
+        }
+      },
+      {
+        "time": "2026-10-26 15:25:02",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "DRREDDY",
+        "qty": 4,
+        "price": 1313.3,
+        "cost": 5253.2,
+        "score": {
+          "last": 1313.3,
+          "mom_30m_pct": -0.281,
+          "intraday_pct": 7.471,
+          "rsi": 47.9,
+          "vol_factor": 1.0,
+          "score": 1.82
+        }
+      },
+      {
+        "time": "2026-10-26 15:25:02",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1749.0,
+        "cost": 1749.0,
+        "score": {
+          "last": 1749.0,
+          "mom_30m_pct": 0.587,
+          "intraday_pct": 2.442,
+          "rsi": 62.1,
+          "vol_factor": 1.0,
+          "score": 1.613
         }
       }
     ],
