@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-27",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13648.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-10-27 15:24:43",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 21756.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
       }
     ],
-    "invested_today": 13648.800048828125,
+    "invested_today": 21756.500122070312,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -69,6 +78,36 @@
           "rsi": 67.4,
           "vol_factor": 1.0,
           "score": 1.34
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2825.0,
+        "buy_time": "2026-10-27 15:24:43",
+        "iteration": 3,
+        "score_info": {
+          "last": 2825.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 2.69,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 1.613
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "buy_price": 1760.9,
+        "buy_time": "2026-10-27 15:24:43",
+        "iteration": 3,
+        "score_info": {
+          "last": 1760.9,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.312,
+          "rsi": 64.3,
+          "vol_factor": 1.79,
+          "score": 1.26
         }
       }
     ],
@@ -122,6 +161,40 @@
           "rsi": 67.4,
           "vol_factor": 1.0,
           "score": 1.34
+        }
+      },
+      {
+        "time": "2026-10-27 15:24:43",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2825.0,
+        "cost": 2825.0,
+        "score": {
+          "last": 2825.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 2.69,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 1.613
+        }
+      },
+      {
+        "time": "2026-10-27 15:24:43",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "price": 1760.9,
+        "cost": 5282.7,
+        "score": {
+          "last": 1760.9,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.312,
+          "rsi": 64.3,
+          "vol_factor": 1.79,
+          "score": 1.26
         }
       }
     ],
