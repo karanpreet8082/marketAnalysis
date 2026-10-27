@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-27",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 62189.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 9,
+        "time": "2026-10-27 18:37:31",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 71125.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 18
       }
     ],
-    "invested_today": 62189.00061035156,
+    "invested_today": 71125.40075683594,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -311,6 +320,36 @@
         "buy_price": 1978.8,
         "buy_time": "2026-10-27 18:03:44",
         "iteration": 8,
+        "score_info": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1000.0,
+        "buy_time": "2026-10-27 18:37:31",
+        "iteration": 9,
+        "score_info": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 1978.8,
+        "buy_time": "2026-10-27 18:37:31",
+        "iteration": 9,
         "score_info": {
           "last": 1978.8,
           "mom_30m_pct": 0.137,
@@ -580,6 +619,40 @@
       {
         "time": "2026-10-27 18:03:44",
         "iteration": 8,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 1978.8,
+        "cost": 5936.4,
+        "score": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "time": "2026-10-27 18:37:31",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1000.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "time": "2026-10-27 18:37:31",
+        "iteration": 9,
         "action": "BUY",
         "symbol": "BHARTIARTL",
         "qty": 3,
