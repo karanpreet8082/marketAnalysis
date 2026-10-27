@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-27",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,18 @@
         "invested_today_after": 30356.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-10-27 15:55:55",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 35997.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 30356.700073242188,
+    "invested_today": 35997.90026855469,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -162,6 +171,21 @@
           "rsi": 52.9,
           "vol_factor": 2.0,
           "score": 1.326
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 2,
+        "buy_price": 2820.6,
+        "buy_time": "2026-10-27 15:55:55",
+        "iteration": 5,
+        "score_info": {
+          "last": 2820.6,
+          "mom_30m_pct": 0.106,
+          "intraday_pct": 2.418,
+          "rsi": 63.8,
+          "vol_factor": 2.0,
+          "score": 1.885
         }
       }
     ],
@@ -300,6 +324,23 @@
           "rsi": 52.9,
           "vol_factor": 2.0,
           "score": 1.326
+        }
+      },
+      {
+        "time": "2026-10-27 15:55:55",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 2,
+        "price": 2820.6,
+        "cost": 5641.2,
+        "score": {
+          "last": 2820.6,
+          "mom_30m_pct": 0.106,
+          "intraday_pct": 2.418,
+          "rsi": 63.8,
+          "vol_factor": 2.0,
+          "score": 1.885
         }
       }
     ],
