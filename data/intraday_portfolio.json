@@ -1,5 +1,935 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-10-27",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-10-27 14:52:11",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 3944.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-27 15:10:59",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 13648.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-10-27 15:24:43",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 21756.5,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 4,
+        "time": "2026-10-27 15:33:31",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 30356.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-10-27 15:55:55",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 35997.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-10-27 16:25:08",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 44316.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-27 17:30:16",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 53252.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
+      },
+      {
+        "iteration": 8,
+        "time": "2026-10-27 18:03:44",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 62189.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 16
+      },
+      {
+        "iteration": 9,
+        "time": "2026-10-27 18:37:31",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 71125.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 18
+      },
+      {
+        "iteration": 10,
+        "time": "2026-10-27 19:03:54",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 79443.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 21
+      },
+      {
+        "iteration": 11,
+        "time": "2026-10-27 20:04:16",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 88380.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 12,
+        "time": "2026-10-27 20:27:24",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 99295.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 25
+      },
+      {
+        "iteration": 13,
+        "time": "2026-10-27 20:55:50",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99295.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 25
+      }
+    ],
+    "invested_today": 99295.30114746094,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 1972.0,
+        "buy_time": "2026-10-27 14:52:11",
+        "iteration": 1,
+        "score_info": {
+          "last": 1972.0,
+          "mom_30m_pct": 0.51,
+          "intraday_pct": 3.143,
+          "rsi": 64.1,
+          "vol_factor": 1.07,
+          "score": 1.782
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 2,
+        "buy_price": 2826.0,
+        "buy_time": "2026-10-27 15:10:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 2826.0,
+          "mom_30m_pct": 0.409,
+          "intraday_pct": 2.454,
+          "rsi": 71.2,
+          "vol_factor": 1.0,
+          "score": 1.349
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 16,
+        "buy_price": 253.3,
+        "buy_time": "2026-10-27 15:10:59",
+        "iteration": 2,
+        "score_info": {
+          "last": 253.3,
+          "mom_30m_pct": 0.317,
+          "intraday_pct": 2.884,
+          "rsi": 67.4,
+          "vol_factor": 1.0,
+          "score": 1.34
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2825.0,
+        "buy_time": "2026-10-27 15:24:43",
+        "iteration": 3,
+        "score_info": {
+          "last": 2825.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 2.69,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 1.613
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "buy_price": 1760.9,
+        "buy_time": "2026-10-27 15:24:43",
+        "iteration": 3,
+        "score_info": {
+          "last": 1760.9,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.312,
+          "rsi": 64.3,
+          "vol_factor": 1.79,
+          "score": 1.26
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2825.0,
+        "buy_time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "score_info": {
+          "last": 2825.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 2.69,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 1.613
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1760.9,
+        "buy_time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "score_info": {
+          "last": 1760.9,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.312,
+          "rsi": 64.3,
+          "vol_factor": 1.88,
+          "score": 1.355
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 6,
+        "buy_price": 669.05,
+        "buy_time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "score_info": {
+          "last": 669.05,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 0.973,
+          "rsi": 52.9,
+          "vol_factor": 2.0,
+          "score": 1.326
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 2,
+        "buy_price": 2820.6,
+        "buy_time": "2026-10-27 15:55:55",
+        "iteration": 5,
+        "score_info": {
+          "last": 2820.6,
+          "mom_30m_pct": 0.106,
+          "intraday_pct": 2.418,
+          "rsi": 63.8,
+          "vol_factor": 2.0,
+          "score": 1.885
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1000.0,
+        "buy_time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "score_info": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1978.8,
+        "buy_time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "score_info": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3339.5,
+        "buy_time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "score_info": {
+          "last": 3339.5,
+          "mom_30m_pct": 0.093,
+          "intraday_pct": 2.596,
+          "rsi": 40.0,
+          "vol_factor": 2.0,
+          "score": 1.918
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1000.0,
+        "buy_time": "2026-10-27 17:30:16",
+        "iteration": 7,
+        "score_info": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 1978.8,
+        "buy_time": "2026-10-27 17:30:16",
+        "iteration": 7,
+        "score_info": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1000.0,
+        "buy_time": "2026-10-27 18:03:44",
+        "iteration": 8,
+        "score_info": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 1978.8,
+        "buy_time": "2026-10-27 18:03:44",
+        "iteration": 8,
+        "score_info": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1000.0,
+        "buy_time": "2026-10-27 18:37:31",
+        "iteration": 9,
+        "score_info": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 1978.8,
+        "buy_time": "2026-10-27 18:37:31",
+        "iteration": 9,
+        "score_info": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1000.0,
+        "buy_time": "2026-10-27 19:03:54",
+        "iteration": 10,
+        "score_info": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1978.8,
+        "buy_time": "2026-10-27 19:03:54",
+        "iteration": 10,
+        "score_info": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3339.5,
+        "buy_time": "2026-10-27 19:03:54",
+        "iteration": 10,
+        "score_info": {
+          "last": 3339.5,
+          "mom_30m_pct": 0.093,
+          "intraday_pct": 2.596,
+          "rsi": 40.0,
+          "vol_factor": 2.0,
+          "score": 1.918
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1000.0,
+        "buy_time": "2026-10-27 20:04:16",
+        "iteration": 11,
+        "score_info": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 1978.8,
+        "buy_time": "2026-10-27 20:04:16",
+        "iteration": 11,
+        "score_info": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1000.0,
+        "buy_time": "2026-10-27 20:27:24",
+        "iteration": 12,
+        "score_info": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 4,
+        "buy_price": 1978.8,
+        "buy_time": "2026-10-27 20:27:24",
+        "iteration": 12,
+        "score_info": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-10-27 14:52:11",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 1972.0,
+        "cost": 3944.0,
+        "score": {
+          "last": 1972.0,
+          "mom_30m_pct": 0.51,
+          "intraday_pct": 3.143,
+          "rsi": 64.1,
+          "vol_factor": 1.07,
+          "score": 1.782
+        }
+      },
+      {
+        "time": "2026-10-27 15:10:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 2,
+        "price": 2826.0,
+        "cost": 5652.0,
+        "score": {
+          "last": 2826.0,
+          "mom_30m_pct": 0.409,
+          "intraday_pct": 2.454,
+          "rsi": 71.2,
+          "vol_factor": 1.0,
+          "score": 1.349
+        }
+      },
+      {
+        "time": "2026-10-27 15:10:59",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 16,
+        "price": 253.3,
+        "cost": 4052.8,
+        "score": {
+          "last": 253.3,
+          "mom_30m_pct": 0.317,
+          "intraday_pct": 2.884,
+          "rsi": 67.4,
+          "vol_factor": 1.0,
+          "score": 1.34
+        }
+      },
+      {
+        "time": "2026-10-27 15:24:43",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2825.0,
+        "cost": 2825.0,
+        "score": {
+          "last": 2825.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 2.69,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 1.613
+        }
+      },
+      {
+        "time": "2026-10-27 15:24:43",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 3,
+        "price": 1760.9,
+        "cost": 5282.7,
+        "score": {
+          "last": 1760.9,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.312,
+          "rsi": 64.3,
+          "vol_factor": 1.79,
+          "score": 1.26
+        }
+      },
+      {
+        "time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2825.0,
+        "cost": 2825.0,
+        "score": {
+          "last": 2825.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 2.69,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 1.613
+        }
+      },
+      {
+        "time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1760.9,
+        "cost": 1760.9,
+        "score": {
+          "last": 1760.9,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.312,
+          "rsi": 64.3,
+          "vol_factor": 1.88,
+          "score": 1.355
+        }
+      },
+      {
+        "time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 6,
+        "price": 669.05,
+        "cost": 4014.3,
+        "score": {
+          "last": 669.05,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 0.973,
+          "rsi": 52.9,
+          "vol_factor": 2.0,
+          "score": 1.326
+        }
+      },
+      {
+        "time": "2026-10-27 15:55:55",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 2,
+        "price": 2820.6,
+        "cost": 5641.2,
+        "score": {
+          "last": 2820.6,
+          "mom_30m_pct": 0.106,
+          "intraday_pct": 2.418,
+          "rsi": 63.8,
+          "vol_factor": 2.0,
+          "score": 1.885
+        }
+      },
+      {
+        "time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1000.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1978.8,
+        "cost": 1978.8,
+        "score": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3339.5,
+        "cost": 3339.5,
+        "score": {
+          "last": 3339.5,
+          "mom_30m_pct": 0.093,
+          "intraday_pct": 2.596,
+          "rsi": 40.0,
+          "vol_factor": 2.0,
+          "score": 1.918
+        }
+      },
+      {
+        "time": "2026-10-27 17:30:16",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1000.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "time": "2026-10-27 17:30:16",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 1978.8,
+        "cost": 5936.4,
+        "score": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "time": "2026-10-27 18:03:44",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1000.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "time": "2026-10-27 18:03:44",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 1978.8,
+        "cost": 5936.4,
+        "score": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "time": "2026-10-27 18:37:31",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1000.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "time": "2026-10-27 18:37:31",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 1978.8,
+        "cost": 5936.4,
+        "score": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "time": "2026-10-27 19:03:54",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1000.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "time": "2026-10-27 19:03:54",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1978.8,
+        "cost": 1978.8,
+        "score": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "time": "2026-10-27 19:03:54",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3339.5,
+        "cost": 3339.5,
+        "score": {
+          "last": 3339.5,
+          "mom_30m_pct": 0.093,
+          "intraday_pct": 2.596,
+          "rsi": 40.0,
+          "vol_factor": 2.0,
+          "score": 1.918
+        }
+      },
+      {
+        "time": "2026-10-27 20:04:16",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1000.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "time": "2026-10-27 20:04:16",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 1978.8,
+        "cost": 5936.4,
+        "score": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "time": "2026-10-27 20:27:24",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1000.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "time": "2026-10-27 20:27:24",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 4,
+        "price": 1978.8,
+        "cost": 7915.2,
+        "score": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -88346,754 +89276,20 @@
       "n_sells": 34,
       "feedback": "Day P&L \u20b9-29 on \u20b999927 deployed (-0.03%). Worst trade: DRREDDY (P&L \u20b9-12, -0.46%). Consider tighter stop on entries with weaker momentum scores. 34 EOD force-sells contributed \u20b9-29. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
-    },
-    {
-      "date": "2026-10-27",
-      "iterations_run": 14,
-      "invested": 99295.3,
-      "realized_pnl": -57.9,
-      "pnl_pct": -0.058,
-      "trades": [
-        {
-          "time": "2026-10-27 14:52:11",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 1972.0,
-          "cost": 3944.0,
-          "score": {
-            "last": 1972.0,
-            "mom_30m_pct": 0.51,
-            "intraday_pct": 3.143,
-            "rsi": 64.1,
-            "vol_factor": 1.07,
-            "score": 1.782
-          }
-        },
-        {
-          "time": "2026-10-27 15:10:59",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2826.0,
-          "cost": 5652.0,
-          "score": {
-            "last": 2826.0,
-            "mom_30m_pct": 0.409,
-            "intraday_pct": 2.454,
-            "rsi": 71.2,
-            "vol_factor": 1.0,
-            "score": 1.349
-          }
-        },
-        {
-          "time": "2026-10-27 15:10:59",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "POWERGRID",
-          "qty": 16,
-          "price": 253.3,
-          "cost": 4052.8,
-          "score": {
-            "last": 253.3,
-            "mom_30m_pct": 0.317,
-            "intraday_pct": 2.884,
-            "rsi": 67.4,
-            "vol_factor": 1.0,
-            "score": 1.34
-          }
-        },
-        {
-          "time": "2026-10-27 15:24:43",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2825.0,
-          "cost": 2825.0,
-          "score": {
-            "last": 2825.0,
-            "mom_30m_pct": 0.537,
-            "intraday_pct": 2.69,
-            "rsi": 61.0,
-            "vol_factor": 1.0,
-            "score": 1.613
-          }
-        },
-        {
-          "time": "2026-10-27 15:24:43",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "SUNPHARMA",
-          "qty": 3,
-          "price": 1760.9,
-          "cost": 5282.7,
-          "score": {
-            "last": 1760.9,
-            "mom_30m_pct": 0.051,
-            "intraday_pct": 1.312,
-            "rsi": 64.3,
-            "vol_factor": 1.79,
-            "score": 1.26
-          }
-        },
-        {
-          "time": "2026-10-27 15:33:31",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2825.0,
-          "cost": 2825.0,
-          "score": {
-            "last": 2825.0,
-            "mom_30m_pct": 0.537,
-            "intraday_pct": 2.69,
-            "rsi": 61.0,
-            "vol_factor": 1.0,
-            "score": 1.613
-          }
-        },
-        {
-          "time": "2026-10-27 15:33:31",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1760.9,
-          "cost": 1760.9,
-          "score": {
-            "last": 1760.9,
-            "mom_30m_pct": 0.051,
-            "intraday_pct": 1.312,
-            "rsi": 64.3,
-            "vol_factor": 1.88,
-            "score": 1.355
-          }
-        },
-        {
-          "time": "2026-10-27 15:33:31",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "DLF",
-          "qty": 6,
-          "price": 669.05,
-          "cost": 4014.3,
-          "score": {
-            "last": 669.05,
-            "mom_30m_pct": 0.022,
-            "intraday_pct": 0.973,
-            "rsi": 52.9,
-            "vol_factor": 2.0,
-            "score": 1.326
-          }
-        },
-        {
-          "time": "2026-10-27 15:55:55",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2820.6,
-          "cost": 5641.2,
-          "score": {
-            "last": 2820.6,
-            "mom_30m_pct": 0.106,
-            "intraday_pct": 2.418,
-            "rsi": 63.8,
-            "vol_factor": 2.0,
-            "score": 1.885
-          }
-        },
-        {
-          "time": "2026-10-27 16:25:08",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "cost": 3000.0,
-          "score": {
-            "last": 1000.0,
-            "mom_30m_pct": 0.634,
-            "intraday_pct": 6.781,
-            "rsi": 68.2,
-            "vol_factor": 2.0,
-            "score": 3.985
-          }
-        },
-        {
-          "time": "2026-10-27 16:25:08",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 1978.8,
-          "cost": 1978.8,
-          "score": {
-            "last": 1978.8,
-            "mom_30m_pct": 0.137,
-            "intraday_pct": 3.197,
-            "rsi": 74.2,
-            "vol_factor": 2.0,
-            "score": 2.164
-          }
-        },
-        {
-          "time": "2026-10-27 16:25:08",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3339.5,
-          "cost": 3339.5,
-          "score": {
-            "last": 3339.5,
-            "mom_30m_pct": 0.093,
-            "intraday_pct": 2.596,
-            "rsi": 40.0,
-            "vol_factor": 2.0,
-            "score": 1.918
-          }
-        },
-        {
-          "time": "2026-10-27 17:30:16",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "cost": 3000.0,
-          "score": {
-            "last": 1000.0,
-            "mom_30m_pct": 0.634,
-            "intraday_pct": 6.781,
-            "rsi": 68.2,
-            "vol_factor": 2.0,
-            "score": 3.985
-          }
-        },
-        {
-          "time": "2026-10-27 17:30:16",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 1978.8,
-          "cost": 5936.4,
-          "score": {
-            "last": 1978.8,
-            "mom_30m_pct": 0.137,
-            "intraday_pct": 3.197,
-            "rsi": 74.2,
-            "vol_factor": 2.0,
-            "score": 2.164
-          }
-        },
-        {
-          "time": "2026-10-27 18:03:44",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "cost": 3000.0,
-          "score": {
-            "last": 1000.0,
-            "mom_30m_pct": 0.634,
-            "intraday_pct": 6.781,
-            "rsi": 68.2,
-            "vol_factor": 2.0,
-            "score": 3.985
-          }
-        },
-        {
-          "time": "2026-10-27 18:03:44",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 1978.8,
-          "cost": 5936.4,
-          "score": {
-            "last": 1978.8,
-            "mom_30m_pct": 0.137,
-            "intraday_pct": 3.197,
-            "rsi": 74.2,
-            "vol_factor": 2.0,
-            "score": 2.164
-          }
-        },
-        {
-          "time": "2026-10-27 18:37:31",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "cost": 3000.0,
-          "score": {
-            "last": 1000.0,
-            "mom_30m_pct": 0.634,
-            "intraday_pct": 6.781,
-            "rsi": 68.2,
-            "vol_factor": 2.0,
-            "score": 3.985
-          }
-        },
-        {
-          "time": "2026-10-27 18:37:31",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 1978.8,
-          "cost": 5936.4,
-          "score": {
-            "last": 1978.8,
-            "mom_30m_pct": 0.137,
-            "intraday_pct": 3.197,
-            "rsi": 74.2,
-            "vol_factor": 2.0,
-            "score": 2.164
-          }
-        },
-        {
-          "time": "2026-10-27 19:03:54",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "cost": 3000.0,
-          "score": {
-            "last": 1000.0,
-            "mom_30m_pct": 0.634,
-            "intraday_pct": 6.781,
-            "rsi": 68.2,
-            "vol_factor": 2.0,
-            "score": 3.985
-          }
-        },
-        {
-          "time": "2026-10-27 19:03:54",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 1978.8,
-          "cost": 1978.8,
-          "score": {
-            "last": 1978.8,
-            "mom_30m_pct": 0.137,
-            "intraday_pct": 3.197,
-            "rsi": 74.2,
-            "vol_factor": 2.0,
-            "score": 2.164
-          }
-        },
-        {
-          "time": "2026-10-27 19:03:54",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3339.5,
-          "cost": 3339.5,
-          "score": {
-            "last": 3339.5,
-            "mom_30m_pct": 0.093,
-            "intraday_pct": 2.596,
-            "rsi": 40.0,
-            "vol_factor": 2.0,
-            "score": 1.918
-          }
-        },
-        {
-          "time": "2026-10-27 20:04:16",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "cost": 3000.0,
-          "score": {
-            "last": 1000.0,
-            "mom_30m_pct": 0.634,
-            "intraday_pct": 6.781,
-            "rsi": 68.2,
-            "vol_factor": 2.0,
-            "score": 3.985
-          }
-        },
-        {
-          "time": "2026-10-27 20:04:16",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 1978.8,
-          "cost": 5936.4,
-          "score": {
-            "last": 1978.8,
-            "mom_30m_pct": 0.137,
-            "intraday_pct": 3.197,
-            "rsi": 74.2,
-            "vol_factor": 2.0,
-            "score": 2.164
-          }
-        },
-        {
-          "time": "2026-10-27 20:27:24",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "cost": 3000.0,
-          "score": {
-            "last": 1000.0,
-            "mom_30m_pct": 0.634,
-            "intraday_pct": 6.781,
-            "rsi": 68.2,
-            "vol_factor": 2.0,
-            "score": 3.985
-          }
-        },
-        {
-          "time": "2026-10-27 20:27:24",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 4,
-          "price": 1978.8,
-          "cost": 7915.2,
-          "score": {
-            "last": 1978.8,
-            "mom_30m_pct": 0.137,
-            "intraday_pct": 3.197,
-            "rsi": 74.2,
-            "vol_factor": 2.0,
-            "score": 2.164
-          }
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 1978.8,
-          "buy_price": 1972.0,
-          "pnl": 13.6,
-          "pnl_pct": 0.34,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2820.6,
-          "buy_price": 2826.0,
-          "pnl": -10.8,
-          "pnl_pct": -0.19,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "POWERGRID",
-          "qty": 16,
-          "price": 251.75,
-          "buy_price": 253.3,
-          "pnl": -24.8,
-          "pnl_pct": -0.61,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2820.6,
-          "buy_price": 2825.0,
-          "pnl": -4.4,
-          "pnl_pct": -0.16,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SUNPHARMA",
-          "qty": 3,
-          "price": 1751.2,
-          "buy_price": 1760.9,
-          "pnl": -29.1,
-          "pnl_pct": -0.55,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2820.6,
-          "buy_price": 2825.0,
-          "pnl": -4.4,
-          "pnl_pct": -0.16,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SUNPHARMA",
-          "qty": 1,
-          "price": 1751.2,
-          "buy_price": 1760.9,
-          "pnl": -9.7,
-          "pnl_pct": -0.55,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "DLF",
-          "qty": 6,
-          "price": 671.0,
-          "buy_price": 669.05,
-          "pnl": 11.7,
-          "pnl_pct": 0.29,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 2,
-          "price": 2820.6,
-          "buy_price": 2820.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "buy_price": 1000.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 1978.8,
-          "buy_price": 1978.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3339.5,
-          "buy_price": 3339.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "buy_price": 1000.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 1978.8,
-          "buy_price": 1978.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "buy_price": 1000.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 1978.8,
-          "buy_price": 1978.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "buy_price": 1000.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 1978.8,
-          "buy_price": 1978.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "buy_price": 1000.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 1978.8,
-          "buy_price": 1978.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3339.5,
-          "buy_price": 3339.5,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "buy_price": 1000.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 1978.8,
-          "buy_price": 1978.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TATACONSUM",
-          "qty": 3,
-          "price": 1000.0,
-          "buy_price": 1000.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-27 21:04:18",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 4,
-          "price": 1978.8,
-          "buy_price": 1978.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 25,
-      "n_sells": 25,
-      "feedback": "Day P&L \u20b9-58 on \u20b999295 deployed (-0.06%). Worst trade: SUNPHARMA (P&L \u20b9-29, -0.55%). Consider tighter stop on entries with weaker momentum scores. 25 EOD force-sells contributed \u20b9-58. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
-      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 109,
+    "total_days": 108,
     "winning_days": 57,
-    "losing_days": 41,
-    "total_realized_pnl": 1799.26,
+    "losing_days": 40,
+    "total_realized_pnl": 1857.16,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-09-17",
+        "note": "Day P&L \u20b9-31 on \u20b999757 deployed (-0.03%). Worst trade: TCS (P&L \u20b9-23, -1.03%). Consider tighter stop on entries with weaker momentum scores. 31 EOD force-sells contributed \u20b9-68. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
       {
         "date": "2026-09-18",
         "note": "Day P&L \u20b957 on \u20b999763 deployed (0.06%). Worst trade: KOTAKBANK (P&L \u20b9-37, -1.26%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -89209,10 +89405,6 @@
       {
         "date": "2026-10-26",
         "note": "Day P&L \u20b9-29 on \u20b999927 deployed (-0.03%). Worst trade: DRREDDY (P&L \u20b9-12, -0.46%). Consider tighter stop on entries with weaker momentum scores. 34 EOD force-sells contributed \u20b9-29. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
-      },
-      {
-        "date": "2026-10-27",
-        "note": "Day P&L \u20b9-58 on \u20b999295 deployed (-0.06%). Worst trade: SUNPHARMA (P&L \u20b9-29, -0.55%). Consider tighter stop on entries with weaker momentum scores. 25 EOD force-sells contributed \u20b9-58. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
       }
     ]
   }
