@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-27",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 21756.5,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 4,
+        "time": "2026-10-27 15:33:31",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 30356.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 8
       }
     ],
-    "invested_today": 21756.500122070312,
+    "invested_today": 30356.700073242188,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -108,6 +117,51 @@
           "rsi": 64.3,
           "vol_factor": 1.79,
           "score": 1.26
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2825.0,
+        "buy_time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "score_info": {
+          "last": 2825.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 2.69,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 1.613
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1760.9,
+        "buy_time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "score_info": {
+          "last": 1760.9,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.312,
+          "rsi": 64.3,
+          "vol_factor": 1.88,
+          "score": 1.355
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 6,
+        "buy_price": 669.05,
+        "buy_time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "score_info": {
+          "last": 669.05,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 0.973,
+          "rsi": 52.9,
+          "vol_factor": 2.0,
+          "score": 1.326
         }
       }
     ],
@@ -195,6 +249,57 @@
           "rsi": 64.3,
           "vol_factor": 1.79,
           "score": 1.26
+        }
+      },
+      {
+        "time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2825.0,
+        "cost": 2825.0,
+        "score": {
+          "last": 2825.0,
+          "mom_30m_pct": 0.537,
+          "intraday_pct": 2.69,
+          "rsi": 61.0,
+          "vol_factor": 1.0,
+          "score": 1.613
+        }
+      },
+      {
+        "time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1760.9,
+        "cost": 1760.9,
+        "score": {
+          "last": 1760.9,
+          "mom_30m_pct": 0.051,
+          "intraday_pct": 1.312,
+          "rsi": 64.3,
+          "vol_factor": 1.88,
+          "score": 1.355
+        }
+      },
+      {
+        "time": "2026-10-27 15:33:31",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 6,
+        "price": 669.05,
+        "cost": 4014.3,
+        "score": {
+          "last": 669.05,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 0.973,
+          "rsi": 52.9,
+          "vol_factor": 2.0,
+          "score": 1.326
         }
       }
     ],
