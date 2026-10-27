@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-27",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 35997.9,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-10-27 16:25:08",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 44316.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 35997.90026855469,
+    "invested_today": 44316.20031738281,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -186,6 +195,51 @@
           "rsi": 63.8,
           "vol_factor": 2.0,
           "score": 1.885
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1000.0,
+        "buy_time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "score_info": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 1978.8,
+        "buy_time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "score_info": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3339.5,
+        "buy_time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "score_info": {
+          "last": 3339.5,
+          "mom_30m_pct": 0.093,
+          "intraday_pct": 2.596,
+          "rsi": 40.0,
+          "vol_factor": 2.0,
+          "score": 1.918
         }
       }
     ],
@@ -341,6 +395,57 @@
           "rsi": 63.8,
           "vol_factor": 2.0,
           "score": 1.885
+        }
+      },
+      {
+        "time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1000.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1000.0,
+          "mom_30m_pct": 0.634,
+          "intraday_pct": 6.781,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 3.985
+        }
+      },
+      {
+        "time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 1978.8,
+        "cost": 1978.8,
+        "score": {
+          "last": 1978.8,
+          "mom_30m_pct": 0.137,
+          "intraday_pct": 3.197,
+          "rsi": 74.2,
+          "vol_factor": 2.0,
+          "score": 2.164
+        }
+      },
+      {
+        "time": "2026-10-27 16:25:08",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3339.5,
+        "cost": 3339.5,
+        "score": {
+          "last": 3339.5,
+          "mom_30m_pct": 0.093,
+          "intraday_pct": 2.596,
+          "rsi": 40.0,
+          "vol_factor": 2.0,
+          "score": 1.918
         }
       }
     ],
