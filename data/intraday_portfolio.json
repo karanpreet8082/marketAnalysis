@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-28",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 48199.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-28 18:10:06",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 56739.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
       }
     ],
-    "invested_today": 48199.80017089844,
+    "invested_today": 56739.80017089844,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -225,6 +234,21 @@
           "rsi": 53.8,
           "vol_factor": 1.67,
           "score": 1.596
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 7,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 18:10:06",
+        "iteration": 7,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
         }
       }
     ],
@@ -414,6 +438,23 @@
           "rsi": 53.8,
           "vol_factor": 1.67,
           "score": 1.596
+        }
+      },
+      {
+        "time": "2026-10-28 18:10:06",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 7,
+        "price": 1220.0,
+        "cost": 8540.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
         }
       }
     ],
