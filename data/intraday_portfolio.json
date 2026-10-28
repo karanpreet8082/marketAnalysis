@@ -1,5 +1,775 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-10-28",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-10-28 15:31:58",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7867.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-28 15:55:41",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 15187.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-10-28 16:11:31",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 23440.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 4,
+        "time": "2026-10-28 16:20:26",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 31693.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
+      },
+      {
+        "iteration": 5,
+        "time": "2026-10-28 16:45:42",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 39946.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 6,
+        "time": "2026-10-28 17:05:28",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 48199.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-28 18:10:06",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 56739.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 8,
+        "time": "2026-10-28 18:51:28",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 65279.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
+      },
+      {
+        "iteration": 9,
+        "time": "2026-10-28 19:27:36",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 73819.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
+      },
+      {
+        "iteration": 10,
+        "time": "2026-10-28 20:00:47",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 82072.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 16
+      },
+      {
+        "iteration": 11,
+        "time": "2026-10-28 20:39:29",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 89866.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 18
+      },
+      {
+        "iteration": 12,
+        "time": "2026-10-28 21:01:40",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 98880.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 13,
+        "time": "2026-10-28 21:39:06",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 98880.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 20
+      }
+    ],
+    "invested_today": 98880.59997558594,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 3,
+        "buy_price": 1811.4,
+        "buy_time": "2026-10-28 15:31:58",
+        "iteration": 1,
+        "score_info": {
+          "last": 1811.4,
+          "mom_30m_pct": 0.072,
+          "intraday_pct": 0.355,
+          "rsi": 52.6,
+          "vol_factor": 2.0,
+          "score": 1.214
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "buy_price": 1216.8,
+        "buy_time": "2026-10-28 15:31:58",
+        "iteration": 1,
+        "score_info": {
+          "last": 1216.8,
+          "mom_30m_pct": 0.148,
+          "intraday_pct": 0.033,
+          "rsi": 61.8,
+          "vol_factor": 1.66,
+          "score": 0.889
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 6,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 15:55:41",
+        "iteration": 2,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 16:11:31",
+        "iteration": 3,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3373.0,
+        "buy_time": "2026-10-28 16:11:31",
+        "iteration": 3,
+        "score_info": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 16:20:26",
+        "iteration": 4,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3373.0,
+        "buy_time": "2026-10-28 16:20:26",
+        "iteration": 4,
+        "score_info": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 16:45:42",
+        "iteration": 5,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3373.0,
+        "buy_time": "2026-10-28 16:45:42",
+        "iteration": 5,
+        "score_info": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 17:05:28",
+        "iteration": 6,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3373.0,
+        "buy_time": "2026-10-28 17:05:28",
+        "iteration": 6,
+        "score_info": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 7,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 18:10:06",
+        "iteration": 7,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 7,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 18:51:28",
+        "iteration": 8,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 7,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 19:27:36",
+        "iteration": 9,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 20:00:47",
+        "iteration": 10,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3373.0,
+        "buy_time": "2026-10-28 20:00:47",
+        "iteration": 10,
+        "score_info": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2913.9,
+        "buy_time": "2026-10-28 20:39:29",
+        "iteration": 11,
+        "score_info": {
+          "last": 2913.9,
+          "mom_30m_pct": 1.152,
+          "intraday_pct": 3.147,
+          "rsi": 72.6,
+          "vol_factor": 1.49,
+          "score": 3.164
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 20:39:29",
+        "iteration": 11,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 2913.9,
+        "buy_time": "2026-10-28 21:01:40",
+        "iteration": 12,
+        "score_info": {
+          "last": 2913.9,
+          "mom_30m_pct": 1.152,
+          "intraday_pct": 3.147,
+          "rsi": 72.6,
+          "vol_factor": 1.49,
+          "score": 3.164
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 5,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 21:01:40",
+        "iteration": 12,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-10-28 15:31:58",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 3,
+        "price": 1811.4,
+        "cost": 5434.2,
+        "score": {
+          "last": 1811.4,
+          "mom_30m_pct": 0.072,
+          "intraday_pct": 0.355,
+          "rsi": 52.6,
+          "vol_factor": 2.0,
+          "score": 1.214
+        }
+      },
+      {
+        "time": "2026-10-28 15:31:58",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 2,
+        "price": 1216.8,
+        "cost": 2433.6,
+        "score": {
+          "last": 1216.8,
+          "mom_30m_pct": 0.148,
+          "intraday_pct": 0.033,
+          "rsi": 61.8,
+          "vol_factor": 1.66,
+          "score": 0.889
+        }
+      },
+      {
+        "time": "2026-10-28 15:55:41",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 6,
+        "price": 1220.0,
+        "cost": 7320.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 16:11:31",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1220.0,
+        "cost": 4880.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 16:11:31",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3373.0,
+        "cost": 3373.0,
+        "score": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "time": "2026-10-28 16:20:26",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1220.0,
+        "cost": 4880.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 16:20:26",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3373.0,
+        "cost": 3373.0,
+        "score": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "time": "2026-10-28 16:45:42",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1220.0,
+        "cost": 4880.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 16:45:42",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3373.0,
+        "cost": 3373.0,
+        "score": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "time": "2026-10-28 17:05:28",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1220.0,
+        "cost": 4880.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 17:05:28",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3373.0,
+        "cost": 3373.0,
+        "score": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "time": "2026-10-28 18:10:06",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 7,
+        "price": 1220.0,
+        "cost": 8540.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 18:51:28",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 7,
+        "price": 1220.0,
+        "cost": 8540.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 19:27:36",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 7,
+        "price": 1220.0,
+        "cost": 8540.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 20:00:47",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1220.0,
+        "cost": 4880.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 20:00:47",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3373.0,
+        "cost": 3373.0,
+        "score": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "time": "2026-10-28 20:39:29",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2913.9,
+        "cost": 2913.9,
+        "score": {
+          "last": 2913.9,
+          "mom_30m_pct": 1.152,
+          "intraday_pct": 3.147,
+          "rsi": 72.6,
+          "vol_factor": 1.49,
+          "score": 3.164
+        }
+      },
+      {
+        "time": "2026-10-28 20:39:29",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1220.0,
+        "cost": 4880.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 21:01:40",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 2913.9,
+        "cost": 2913.9,
+        "score": {
+          "last": 2913.9,
+          "mom_30m_pct": 1.152,
+          "intraday_pct": 3.147,
+          "rsi": 72.6,
+          "vol_factor": 1.49,
+          "score": 3.164
+        }
+      },
+      {
+        "time": "2026-10-28 21:01:40",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 5,
+        "price": 1220.0,
+        "cost": 6100.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -89084,609 +89854,20 @@
       "n_sells": 25,
       "feedback": "Day P&L \u20b9-58 on \u20b999295 deployed (-0.06%). Worst trade: SUNPHARMA (P&L \u20b9-29, -0.55%). Consider tighter stop on entries with weaker momentum scores. 25 EOD force-sells contributed \u20b9-58. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
-    },
-    {
-      "date": "2026-10-28",
-      "iterations_run": 14,
-      "invested": 98880.6,
-      "realized_pnl": 19.6,
-      "pnl_pct": 0.02,
-      "trades": [
-        {
-          "time": "2026-10-28 15:31:58",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "HINDUNILVR",
-          "qty": 3,
-          "price": 1811.4,
-          "cost": 5434.2,
-          "score": {
-            "last": 1811.4,
-            "mom_30m_pct": 0.072,
-            "intraday_pct": 0.355,
-            "rsi": 52.6,
-            "vol_factor": 2.0,
-            "score": 1.214
-          }
-        },
-        {
-          "time": "2026-10-28 15:31:58",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 2,
-          "price": 1216.8,
-          "cost": 2433.6,
-          "score": {
-            "last": 1216.8,
-            "mom_30m_pct": 0.148,
-            "intraday_pct": 0.033,
-            "rsi": 61.8,
-            "vol_factor": 1.66,
-            "score": 0.889
-          }
-        },
-        {
-          "time": "2026-10-28 15:55:41",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 6,
-          "price": 1220.0,
-          "cost": 7320.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 16:11:31",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "cost": 4880.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 16:11:31",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "cost": 3373.0,
-          "score": {
-            "last": 3373.0,
-            "mom_30m_pct": 0.42,
-            "intraday_pct": 1.003,
-            "rsi": 53.8,
-            "vol_factor": 1.67,
-            "score": 1.596
-          }
-        },
-        {
-          "time": "2026-10-28 16:20:26",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "cost": 4880.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 16:20:26",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "cost": 3373.0,
-          "score": {
-            "last": 3373.0,
-            "mom_30m_pct": 0.42,
-            "intraday_pct": 1.003,
-            "rsi": 53.8,
-            "vol_factor": 1.67,
-            "score": 1.596
-          }
-        },
-        {
-          "time": "2026-10-28 16:45:42",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "cost": 4880.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 16:45:42",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "cost": 3373.0,
-          "score": {
-            "last": 3373.0,
-            "mom_30m_pct": 0.42,
-            "intraday_pct": 1.003,
-            "rsi": 53.8,
-            "vol_factor": 1.67,
-            "score": 1.596
-          }
-        },
-        {
-          "time": "2026-10-28 17:05:28",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "cost": 4880.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 17:05:28",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "cost": 3373.0,
-          "score": {
-            "last": 3373.0,
-            "mom_30m_pct": 0.42,
-            "intraday_pct": 1.003,
-            "rsi": 53.8,
-            "vol_factor": 1.67,
-            "score": 1.596
-          }
-        },
-        {
-          "time": "2026-10-28 18:10:06",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 7,
-          "price": 1220.0,
-          "cost": 8540.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 18:51:28",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 7,
-          "price": 1220.0,
-          "cost": 8540.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 19:27:36",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 7,
-          "price": 1220.0,
-          "cost": 8540.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 20:00:47",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "cost": 4880.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 20:00:47",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "cost": 3373.0,
-          "score": {
-            "last": 3373.0,
-            "mom_30m_pct": 0.42,
-            "intraday_pct": 1.003,
-            "rsi": 53.8,
-            "vol_factor": 1.67,
-            "score": 1.596
-          }
-        },
-        {
-          "time": "2026-10-28 20:39:29",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2913.9,
-          "cost": 2913.9,
-          "score": {
-            "last": 2913.9,
-            "mom_30m_pct": 1.152,
-            "intraday_pct": 3.147,
-            "rsi": 72.6,
-            "vol_factor": 1.49,
-            "score": 3.164
-          }
-        },
-        {
-          "time": "2026-10-28 20:39:29",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "cost": 4880.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 21:01:40",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2913.9,
-          "cost": 2913.9,
-          "score": {
-            "last": 2913.9,
-            "mom_30m_pct": 1.152,
-            "intraday_pct": 3.147,
-            "rsi": 72.6,
-            "vol_factor": 1.49,
-            "score": 3.164
-          }
-        },
-        {
-          "time": "2026-10-28 21:01:40",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 5,
-          "price": 1220.0,
-          "cost": 6100.0,
-          "score": {
-            "last": 1220.0,
-            "mom_30m_pct": 0.387,
-            "intraday_pct": 0.288,
-            "rsi": 72.1,
-            "vol_factor": 2.0,
-            "score": 1.666
-          }
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "HINDUNILVR",
-          "qty": 3,
-          "price": 1815.8,
-          "buy_price": 1811.4,
-          "pnl": 13.2,
-          "pnl_pct": 0.24,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 2,
-          "price": 1220.0,
-          "buy_price": 1216.8,
-          "pnl": 6.4,
-          "pnl_pct": 0.26,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 6,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "buy_price": 3373.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "buy_price": 3373.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "buy_price": 3373.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "buy_price": 3373.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 7,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 7,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 7,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "SIEMENS",
-          "qty": 1,
-          "price": 3373.0,
-          "buy_price": 3373.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2913.9,
-          "buy_price": 2913.9,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 4,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 2913.9,
-          "buy_price": 2913.9,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-10-28 21:48:15",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 5,
-          "price": 1220.0,
-          "buy_price": 1220.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 20,
-      "n_sells": 20,
-      "feedback": "Day P&L \u20b920 on \u20b998881 deployed (0.02%). Profitable day \u2014 keep current parameters.",
-      "profitable": true
     }
   ],
   "stats": {
-    "total_days": 110,
-    "winning_days": 58,
+    "total_days": 109,
+    "winning_days": 57,
     "losing_days": 41,
-    "total_realized_pnl": 1818.86,
+    "total_realized_pnl": 1799.26,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-09-18",
+        "note": "Day P&L \u20b957 on \u20b999763 deployed (0.06%). Worst trade: KOTAKBANK (P&L \u20b9-37, -1.26%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
       {
         "date": "2026-09-21",
         "note": "Day P&L \u20b925 on \u20b999869 deployed (0.03%). Worst trade: DRREDDY (P&L \u20b9-7, -0.31%). Consider tighter stop on entries with weaker momentum scores. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day. Profitable day \u2014 keep current parameters."
@@ -89802,10 +89983,6 @@
       {
         "date": "2026-10-27",
         "note": "Day P&L \u20b9-58 on \u20b999295 deployed (-0.06%). Worst trade: SUNPHARMA (P&L \u20b9-29, -0.55%). Consider tighter stop on entries with weaker momentum scores. 25 EOD force-sells contributed \u20b9-58. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
-      },
-      {
-        "date": "2026-10-28",
-        "note": "Day P&L \u20b920 on \u20b998881 deployed (0.02%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
