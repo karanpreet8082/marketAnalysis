@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-28",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,18 @@
         "invested_today_after": 23440.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 5
+      },
+      {
+        "iteration": 4,
+        "time": "2026-10-28 16:20:26",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 31693.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 23440.800170898438,
+    "invested_today": 31693.800170898438,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -101,6 +110,36 @@
         "buy_price": 3373.0,
         "buy_time": "2026-10-28 16:11:31",
         "iteration": 3,
+        "score_info": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "buy_price": 1220.0,
+        "buy_time": "2026-10-28 16:20:26",
+        "iteration": 4,
+        "score_info": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3373.0,
+        "buy_time": "2026-10-28 16:20:26",
+        "iteration": 4,
         "score_info": {
           "last": 3373.0,
           "mom_30m_pct": 0.42,
@@ -183,6 +222,40 @@
       {
         "time": "2026-10-28 16:11:31",
         "iteration": 3,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3373.0,
+        "cost": 3373.0,
+        "score": {
+          "last": 3373.0,
+          "mom_30m_pct": 0.42,
+          "intraday_pct": 1.003,
+          "rsi": 53.8,
+          "vol_factor": 1.67,
+          "score": 1.596
+        }
+      },
+      {
+        "time": "2026-10-28 16:20:26",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 4,
+        "price": 1220.0,
+        "cost": 4880.0,
+        "score": {
+          "last": 1220.0,
+          "mom_30m_pct": 0.387,
+          "intraday_pct": 0.288,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 1.666
+        }
+      },
+      {
+        "time": "2026-10-28 16:20:26",
+        "iteration": 4,
         "action": "BUY",
         "symbol": "SIEMENS",
         "qty": 1,
