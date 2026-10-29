@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-29",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 47732.7,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-29 18:19:04",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 56408.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 16
       }
     ],
-    "invested_today": 47732.70056152344,
+    "invested_today": 56408.000732421875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -263,6 +272,36 @@
         "buy_price": 971.9,
         "buy_time": "2026-10-29 17:13:49",
         "iteration": 6,
+        "score_info": {
+          "last": 971.9,
+          "mom_30m_pct": 0.377,
+          "intraday_pct": 1.366,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 1.975
+        }
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "buy_price": 1872.0,
+        "buy_time": "2026-10-29 18:19:04",
+        "iteration": 7,
+        "score_info": {
+          "last": 1872.0,
+          "mom_30m_pct": 0.295,
+          "intraday_pct": 6.285,
+          "rsi": 64.3,
+          "vol_factor": 0.89,
+          "score": 2.222
+        }
+      },
+      {
+        "symbol": "SBIN",
+        "qty": 7,
+        "buy_price": 971.9,
+        "buy_time": "2026-10-29 18:19:04",
+        "iteration": 7,
         "score_info": {
           "last": 971.9,
           "mom_30m_pct": 0.377,
@@ -498,6 +537,40 @@
       {
         "time": "2026-10-29 17:13:49",
         "iteration": 6,
+        "action": "BUY",
+        "symbol": "SBIN",
+        "qty": 7,
+        "price": 971.9,
+        "cost": 6803.3,
+        "score": {
+          "last": 971.9,
+          "mom_30m_pct": 0.377,
+          "intraday_pct": 1.366,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 1.975
+        }
+      },
+      {
+        "time": "2026-10-29 18:19:04",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "ADANIPORTS",
+        "qty": 1,
+        "price": 1872.0,
+        "cost": 1872.0,
+        "score": {
+          "last": 1872.0,
+          "mom_30m_pct": 0.295,
+          "intraday_pct": 6.285,
+          "rsi": 64.3,
+          "vol_factor": 0.89,
+          "score": 2.222
+        }
+      },
+      {
+        "time": "2026-10-29 18:19:04",
+        "iteration": 7,
         "action": "BUY",
         "symbol": "SBIN",
         "qty": 7,
