@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-30",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7497.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
+      },
+      {
+        "iteration": 2,
+        "time": "2026-10-30 16:15:37",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 15432.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
       }
     ],
-    "invested_today": 7497.800048828125,
+    "invested_today": 15432.800048828125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -45,6 +54,36 @@
           "rsi": 65.0,
           "vol_factor": 2.0,
           "score": 2.238
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 21,
+        "buy_price": 265.0,
+        "buy_time": "2026-10-30 16:15:37",
+        "iteration": 2,
+        "score_info": {
+          "last": 265.0,
+          "mom_30m_pct": 0.569,
+          "intraday_pct": 1.923,
+          "rsi": 61.9,
+          "vol_factor": 2.0,
+          "score": 2.431
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1185.0,
+        "buy_time": "2026-10-30 16:15:37",
+        "iteration": 2,
+        "score_info": {
+          "last": 1185.0,
+          "mom_30m_pct": 0.207,
+          "intraday_pct": 3.358,
+          "rsi": 62.5,
+          "vol_factor": 2.0,
+          "score": 2.318
         }
       }
     ],
@@ -81,6 +120,40 @@
           "rsi": 65.0,
           "vol_factor": 2.0,
           "score": 2.238
+        }
+      },
+      {
+        "time": "2026-10-30 16:15:37",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 21,
+        "price": 265.0,
+        "cost": 5565.0,
+        "score": {
+          "last": 265.0,
+          "mom_30m_pct": 0.569,
+          "intraday_pct": 1.923,
+          "rsi": 61.9,
+          "vol_factor": 2.0,
+          "score": 2.431
+        }
+      },
+      {
+        "time": "2026-10-30 16:15:37",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1185.0,
+        "cost": 2370.0,
+        "score": {
+          "last": 1185.0,
+          "mom_30m_pct": 0.207,
+          "intraday_pct": 3.358,
+          "rsi": 62.5,
+          "vol_factor": 2.0,
+          "score": 2.318
         }
       }
     ],
