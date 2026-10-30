@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-10-30",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 44920.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 14
+      },
+      {
+        "iteration": 7,
+        "time": "2026-10-30 18:10:57",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 53187.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
       }
     ],
-    "invested_today": 44920.599853515625,
+    "invested_today": 53186.999755859375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -263,6 +272,51 @@
         "buy_price": 1185.0,
         "buy_time": "2026-10-30 17:05:24",
         "iteration": 6,
+        "score_info": {
+          "last": 1185.0,
+          "mom_30m_pct": 0.207,
+          "intraday_pct": 3.358,
+          "rsi": 62.5,
+          "vol_factor": 2.0,
+          "score": 2.318
+        }
+      },
+      {
+        "symbol": "GRASIM",
+        "qty": 1,
+        "buy_price": 2981.4,
+        "buy_time": "2026-10-30 18:10:57",
+        "iteration": 7,
+        "score_info": {
+          "last": 2981.4,
+          "mom_30m_pct": 0.665,
+          "intraday_pct": 1.657,
+          "rsi": 64.1,
+          "vol_factor": 2.0,
+          "score": 2.495
+        }
+      },
+      {
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "buy_price": 265.0,
+        "buy_time": "2026-10-30 18:10:57",
+        "iteration": 7,
+        "score_info": {
+          "last": 265.0,
+          "mom_30m_pct": 0.569,
+          "intraday_pct": 1.923,
+          "rsi": 61.9,
+          "vol_factor": 2.0,
+          "score": 2.431
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1185.0,
+        "buy_time": "2026-10-30 18:10:57",
+        "iteration": 7,
         "score_info": {
           "last": 1185.0,
           "mom_30m_pct": 0.207,
@@ -498,6 +552,57 @@
       {
         "time": "2026-10-30 17:05:24",
         "iteration": 6,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1185.0,
+        "cost": 2370.0,
+        "score": {
+          "last": 1185.0,
+          "mom_30m_pct": 0.207,
+          "intraday_pct": 3.358,
+          "rsi": 62.5,
+          "vol_factor": 2.0,
+          "score": 2.318
+        }
+      },
+      {
+        "time": "2026-10-30 18:10:57",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "GRASIM",
+        "qty": 1,
+        "price": 2981.4,
+        "cost": 2981.4,
+        "score": {
+          "last": 2981.4,
+          "mom_30m_pct": 0.665,
+          "intraday_pct": 1.657,
+          "rsi": 64.1,
+          "vol_factor": 2.0,
+          "score": 2.495
+        }
+      },
+      {
+        "time": "2026-10-30 18:10:57",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 11,
+        "price": 265.0,
+        "cost": 2915.0,
+        "score": {
+          "last": 265.0,
+          "mom_30m_pct": 0.569,
+          "intraday_pct": 1.923,
+          "rsi": 61.9,
+          "vol_factor": 2.0,
+          "score": 2.431
+        }
+      },
+      {
+        "time": "2026-10-30 18:10:57",
+        "iteration": 7,
         "action": "BUY",
         "symbol": "INFY",
         "qty": 2,
