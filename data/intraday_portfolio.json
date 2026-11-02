@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-02",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 13566.87,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-11-02 18:10:45",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 19182.16,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 13566.869995117188,
+    "invested_today": 19182.159912109375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -77,6 +86,36 @@
         "buy_price": 177.37,
         "buy_time": "2026-11-02 17:36:49",
         "iteration": 2,
+        "score_info": {
+          "last": 177.37,
+          "mom_30m_pct": 0.476,
+          "intraday_pct": 5.829,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 3.463
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1300.0,
+        "buy_time": "2026-11-02 18:10:45",
+        "iteration": 3,
+        "score_info": {
+          "last": 1300.0,
+          "mom_30m_pct": 3.068,
+          "intraday_pct": 11.598,
+          "rsi": 90.9,
+          "vol_factor": 2.0,
+          "score": 7.582
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "buy_price": 177.37,
+        "buy_time": "2026-11-02 18:10:45",
+        "iteration": 3,
         "score_info": {
           "last": 177.37,
           "mom_30m_pct": 0.476,
@@ -147,6 +186,40 @@
         "qty": 16,
         "price": 177.37,
         "cost": 2837.92,
+        "score": {
+          "last": 177.37,
+          "mom_30m_pct": 0.476,
+          "intraday_pct": 5.829,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 3.463
+        }
+      },
+      {
+        "time": "2026-11-02 18:10:45",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1300.0,
+        "cost": 2600.0,
+        "score": {
+          "last": 1300.0,
+          "mom_30m_pct": 3.068,
+          "intraday_pct": 11.598,
+          "rsi": 90.9,
+          "vol_factor": 2.0,
+          "score": 7.582
+        }
+      },
+      {
+        "time": "2026-11-02 18:10:45",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "price": 177.37,
+        "cost": 3015.29,
         "score": {
           "last": 177.37,
           "mom_30m_pct": 0.476,
