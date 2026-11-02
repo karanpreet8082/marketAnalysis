@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-11-02",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-11-02 17:12:22",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 8128.95,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 8128.9500732421875,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "buy_price": 177.37,
+        "buy_time": "2026-11-02 17:12:22",
+        "iteration": 1,
+        "score_info": {
+          "last": 177.37,
+          "mom_30m_pct": 0.476,
+          "intraday_pct": 5.829,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 3.463
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 6,
+        "buy_price": 911.4,
+        "buy_time": "2026-11-02 17:12:22",
+        "iteration": 1,
+        "score_info": {
+          "last": 911.4,
+          "mom_30m_pct": 0.408,
+          "intraday_pct": 3.018,
+          "rsi": 62.7,
+          "vol_factor": 2.0,
+          "score": 2.517
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-11-02 17:12:22",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "price": 177.37,
+        "cost": 2660.55,
+        "score": {
+          "last": 177.37,
+          "mom_30m_pct": 0.476,
+          "intraday_pct": 5.829,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 3.463
+        }
+      },
+      {
+        "time": "2026-11-02 17:12:22",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 6,
+        "price": 911.4,
+        "cost": 5468.4,
+        "score": {
+          "last": 911.4,
+          "mom_30m_pct": 0.408,
+          "intraday_pct": 3.018,
+          "rsi": 62.7,
+          "vol_factor": 2.0,
+          "score": 2.517
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
