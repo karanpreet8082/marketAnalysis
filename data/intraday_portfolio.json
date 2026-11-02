@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-02",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 31299.59,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 10
+      },
+      {
+        "iteration": 6,
+        "time": "2026-11-02 19:18:28",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 41384.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 13
       }
     ],
-    "invested_today": 31299.589721679688,
+    "invested_today": 41383.99951171875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -201,6 +210,51 @@
           "rsi": 69.8,
           "vol_factor": 2.0,
           "score": 3.463
+        }
+      },
+      {
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "buy_price": 1300.0,
+        "buy_time": "2026-11-02 19:18:28",
+        "iteration": 6,
+        "score_info": {
+          "last": 1300.0,
+          "mom_30m_pct": 3.068,
+          "intraday_pct": 11.598,
+          "rsi": 90.9,
+          "vol_factor": 2.0,
+          "score": 7.582
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 23,
+        "buy_price": 177.37,
+        "buy_time": "2026-11-02 19:18:28",
+        "iteration": 6,
+        "score_info": {
+          "last": 177.37,
+          "mom_30m_pct": 0.476,
+          "intraday_pct": 5.829,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 3.463
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3404.9,
+        "buy_time": "2026-11-02 19:18:28",
+        "iteration": 6,
+        "score_info": {
+          "last": 3404.9,
+          "mom_30m_pct": 0.868,
+          "intraday_pct": 3.085,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 3.228
         }
       }
     ],
@@ -373,6 +427,57 @@
           "rsi": 69.8,
           "vol_factor": 2.0,
           "score": 3.463
+        }
+      },
+      {
+        "time": "2026-11-02 19:18:28",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "RELIANCE",
+        "qty": 2,
+        "price": 1300.0,
+        "cost": 2600.0,
+        "score": {
+          "last": 1300.0,
+          "mom_30m_pct": 3.068,
+          "intraday_pct": 11.598,
+          "rsi": 90.9,
+          "vol_factor": 2.0,
+          "score": 7.582
+        }
+      },
+      {
+        "time": "2026-11-02 19:18:28",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 23,
+        "price": 177.37,
+        "cost": 4079.51,
+        "score": {
+          "last": 177.37,
+          "mom_30m_pct": 0.476,
+          "intraday_pct": 5.829,
+          "rsi": 69.8,
+          "vol_factor": 2.0,
+          "score": 3.463
+        }
+      },
+      {
+        "time": "2026-11-02 19:18:28",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3404.9,
+        "cost": 3404.9,
+        "score": {
+          "last": 3404.9,
+          "mom_30m_pct": 0.868,
+          "intraday_pct": 3.085,
+          "rsi": 72.4,
+          "vol_factor": 2.0,
+          "score": 3.228
         }
       }
     ],
