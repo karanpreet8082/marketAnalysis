@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-04",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 70740.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 24
+      },
+      {
+        "iteration": 10,
+        "time": "2026-11-04 21:15:54",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 80207.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 26
       }
     ],
-    "invested_today": 70740.00073242188,
+    "invested_today": 80207.00085449219,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -447,6 +456,36 @@
           "rsi": 56.5,
           "vol_factor": 1.49,
           "score": 2.078
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 304.7,
+        "buy_time": "2026-11-04 21:15:54",
+        "iteration": 10,
+        "score_info": {
+          "last": 304.7,
+          "mom_30m_pct": 0.727,
+          "intraday_pct": 2.627,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 2.879
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 6,
+        "buy_price": 1070.0,
+        "buy_time": "2026-11-04 21:15:54",
+        "iteration": 10,
+        "score_info": {
+          "last": 1070.0,
+          "mom_30m_pct": 0.64,
+          "intraday_pct": 1.769,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 2.49
         }
       }
     ],
@@ -857,6 +896,40 @@
           "rsi": 56.5,
           "vol_factor": 1.49,
           "score": 2.078
+        }
+      },
+      {
+        "time": "2026-11-04 21:15:54",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 304.7,
+        "cost": 3047.0,
+        "score": {
+          "last": 304.7,
+          "mom_30m_pct": 0.727,
+          "intraday_pct": 2.627,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 2.879
+        }
+      },
+      {
+        "time": "2026-11-04 21:15:54",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 6,
+        "price": 1070.0,
+        "cost": 6420.0,
+        "score": {
+          "last": 1070.0,
+          "mom_30m_pct": 0.64,
+          "intraday_pct": 1.769,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 2.49
         }
       }
     ],
