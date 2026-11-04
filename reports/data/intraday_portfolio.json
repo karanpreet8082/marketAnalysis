@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-04",
     "total_iterations": 14,
-    "iterations_run": 10,
+    "iterations_run": 11,
     "iteration_log": [
       {
         "iteration": 1,
@@ -93,9 +93,18 @@
         "invested_today_after": 80207.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 26
+      },
+      {
+        "iteration": 11,
+        "time": "2026-11-04 21:51:18",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 89973.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 29
       }
     ],
-    "invested_today": 80207.00085449219,
+    "invested_today": 89973.0009765625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -479,6 +488,51 @@
         "buy_price": 1070.0,
         "buy_time": "2026-11-04 21:15:54",
         "iteration": 10,
+        "score_info": {
+          "last": 1070.0,
+          "mom_30m_pct": 0.64,
+          "intraday_pct": 1.769,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 2.49
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 304.7,
+        "buy_time": "2026-11-04 21:51:18",
+        "iteration": 11,
+        "score_info": {
+          "last": 304.7,
+          "mom_30m_pct": 0.727,
+          "intraday_pct": 2.627,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 2.879
+        }
+      },
+      {
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3509.0,
+        "buy_time": "2026-11-04 21:51:18",
+        "iteration": 11,
+        "score_info": {
+          "last": 3509.0,
+          "mom_30m_pct": 0.332,
+          "intraday_pct": 3.596,
+          "rsi": 64.5,
+          "vol_factor": 2.0,
+          "score": 2.576
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1070.0,
+        "buy_time": "2026-11-04 21:51:18",
+        "iteration": 11,
         "score_info": {
           "last": 1070.0,
           "mom_30m_pct": 0.64,
@@ -923,6 +977,57 @@
         "qty": 6,
         "price": 1070.0,
         "cost": 6420.0,
+        "score": {
+          "last": 1070.0,
+          "mom_30m_pct": 0.64,
+          "intraday_pct": 1.769,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 2.49
+        }
+      },
+      {
+        "time": "2026-11-04 21:51:18",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 304.7,
+        "cost": 3047.0,
+        "score": {
+          "last": 304.7,
+          "mom_30m_pct": 0.727,
+          "intraday_pct": 2.627,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 2.879
+        }
+      },
+      {
+        "time": "2026-11-04 21:51:18",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "price": 3509.0,
+        "cost": 3509.0,
+        "score": {
+          "last": 3509.0,
+          "mom_30m_pct": 0.332,
+          "intraday_pct": 3.596,
+          "rsi": 64.5,
+          "vol_factor": 2.0,
+          "score": 2.576
+        }
+      },
+      {
+        "time": "2026-11-04 21:51:18",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1070.0,
+        "cost": 3210.0,
         "score": {
           "last": 1070.0,
           "mom_30m_pct": 0.64,
