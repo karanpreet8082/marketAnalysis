@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-04",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 52807.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 18
+      },
+      {
+        "iteration": 8,
+        "time": "2026-11-04 20:16:49",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 61773.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 21
       }
     ],
-    "invested_today": 52807.6005859375,
+    "invested_today": 61773.80065917969,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -332,6 +341,51 @@
         "buy_price": 1070.0,
         "buy_time": "2026-11-04 19:49:14",
         "iteration": 7,
+        "score_info": {
+          "last": 1070.0,
+          "mom_30m_pct": 0.64,
+          "intraday_pct": 1.769,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 2.49
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 304.7,
+        "buy_time": "2026-11-04 20:16:49",
+        "iteration": 8,
+        "score_info": {
+          "last": 304.7,
+          "mom_30m_pct": 0.727,
+          "intraday_pct": 2.627,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 2.879
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2709.2,
+        "buy_time": "2026-11-04 20:16:49",
+        "iteration": 8,
+        "score_info": {
+          "last": 2709.2,
+          "mom_30m_pct": 0.163,
+          "intraday_pct": 4.469,
+          "rsi": 56.5,
+          "vol_factor": 2.0,
+          "score": 2.585
+        }
+      },
+      {
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "buy_price": 1070.0,
+        "buy_time": "2026-11-04 20:16:49",
+        "iteration": 8,
         "score_info": {
           "last": 1070.0,
           "mom_30m_pct": 0.64,
@@ -635,6 +689,57 @@
       {
         "time": "2026-11-04 19:49:14",
         "iteration": 7,
+        "action": "BUY",
+        "symbol": "HAVELLS",
+        "qty": 3,
+        "price": 1070.0,
+        "cost": 3210.0,
+        "score": {
+          "last": 1070.0,
+          "mom_30m_pct": 0.64,
+          "intraday_pct": 1.769,
+          "rsi": 57.1,
+          "vol_factor": 2.0,
+          "score": 2.49
+        }
+      },
+      {
+        "time": "2026-11-04 20:16:49",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 304.7,
+        "cost": 3047.0,
+        "score": {
+          "last": 304.7,
+          "mom_30m_pct": 0.727,
+          "intraday_pct": 2.627,
+          "rsi": 73.8,
+          "vol_factor": 2.0,
+          "score": 2.879
+        }
+      },
+      {
+        "time": "2026-11-04 20:16:49",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2709.2,
+        "cost": 2709.2,
+        "score": {
+          "last": 2709.2,
+          "mom_30m_pct": 0.163,
+          "intraday_pct": 4.469,
+          "rsi": 56.5,
+          "vol_factor": 2.0,
+          "score": 2.585
+        }
+      },
+      {
+        "time": "2026-11-04 20:16:49",
+        "iteration": 8,
         "action": "BUY",
         "symbol": "HAVELLS",
         "qty": 3,
