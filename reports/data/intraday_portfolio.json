@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-05",
     "total_iterations": 14,
-    "iterations_run": 7,
+    "iterations_run": 8,
     "iteration_log": [
       {
         "iteration": 1,
@@ -66,9 +66,18 @@
         "invested_today_after": 55513.6,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 16
+      },
+      {
+        "iteration": 8,
+        "time": "2026-11-05 20:21:53",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 64058.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 19
       }
     ],
-    "invested_today": 55513.600341796875,
+    "invested_today": 64058.400390625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -309,6 +318,51 @@
           "rsi": 72.6,
           "vol_factor": 1.14,
           "score": 2.417
+        }
+      },
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1167.4,
+        "buy_time": "2026-11-05 20:21:53",
+        "iteration": 8,
+        "score_info": {
+          "last": 1167.4,
+          "mom_30m_pct": 0.344,
+          "intraday_pct": 3.944,
+          "rsi": 52.8,
+          "vol_factor": 2.0,
+          "score": 2.699
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "buy_price": 1070.0,
+        "buy_time": "2026-11-05 20:21:53",
+        "iteration": 8,
+        "score_info": {
+          "last": 1070.0,
+          "mom_30m_pct": -0.014,
+          "intraday_pct": 7.646,
+          "rsi": 72.6,
+          "vol_factor": 1.14,
+          "score": 2.417
+        }
+      },
+      {
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "buy_price": 1500.0,
+        "buy_time": "2026-11-05 20:21:53",
+        "iteration": 8,
+        "score_info": {
+          "last": 1500.0,
+          "mom_30m_pct": 0.12,
+          "intraday_pct": 5.33,
+          "rsi": 50.9,
+          "vol_factor": 1.33,
+          "score": 2.107
         }
       }
     ],
@@ -583,6 +637,57 @@
           "rsi": 72.6,
           "vol_factor": 1.14,
           "score": 2.417
+        }
+      },
+      {
+        "time": "2026-11-05 20:21:53",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1167.4,
+        "cost": 2334.8,
+        "score": {
+          "last": 1167.4,
+          "mom_30m_pct": 0.344,
+          "intraday_pct": 3.944,
+          "rsi": 52.8,
+          "vol_factor": 2.0,
+          "score": 2.699
+        }
+      },
+      {
+        "time": "2026-11-05 20:21:53",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 3,
+        "price": 1070.0,
+        "cost": 3210.0,
+        "score": {
+          "last": 1070.0,
+          "mom_30m_pct": -0.014,
+          "intraday_pct": 7.646,
+          "rsi": 72.6,
+          "vol_factor": 1.14,
+          "score": 2.417
+        }
+      },
+      {
+        "time": "2026-11-05 20:21:53",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "ICICIBANK",
+        "qty": 2,
+        "price": 1500.0,
+        "cost": 3000.0,
+        "score": {
+          "last": 1500.0,
+          "mom_30m_pct": 0.12,
+          "intraday_pct": 5.33,
+          "rsi": 50.9,
+          "vol_factor": 1.33,
+          "score": 2.107
         }
       }
     ],
