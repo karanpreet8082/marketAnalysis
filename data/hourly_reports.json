@@ -1,5 +1,42 @@
 [
   {
+    "timestamp": "2026-09-29 18:51 IST",
+    "budget": 50000.0,
+    "allocated": 49244.63,
+    "positions": 7,
+    "summary": {
+      "total_positions": 7,
+      "total_invested": 49244.63,
+      "cash_reserve": 755.37,
+      "avg_confidence": 0.51,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24452.0,
+          "percent": 48.9,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17423.66,
+          "percent": 34.8,
+          "positions": 2
+        },
+        "aggressive": {
+          "amount": 7368.969999999999,
+          "percent": 14.7,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 5.4,
+      "max_loss_percent": 3.8,
+      "sector_distribution": {
+        "Financial Services": 2,
+        "Unknown": 3,
+        "Energy": 1,
+        "Basic Materials": 1
+      }
+    }
+  },
+  {
     "timestamp": "2026-09-30 18:31 IST",
     "budget": 50000.0,
     "allocated": 49198.84,
@@ -1779,45 +1816,6 @@
         "Financial Services": 2,
         "Energy": 1,
         "Technology": 1
-      }
-    }
-  },
-  {
-    "timestamp": "2026-11-05 18:15 IST",
-    "budget": 50000.0,
-    "allocated": 49614.68000000001,
-    "positions": 8,
-    "summary": {
-      "total_positions": 8,
-      "total_invested": 49614.68,
-      "cash_reserve": 385.32,
-      "avg_confidence": 0.52,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 25072.440000000002,
-          "percent": 50.1,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 17159.760000000002,
-          "percent": 34.3,
-          "positions": 3
-        },
-        "aggressive": {
-          "amount": 7382.48,
-          "percent": 14.8,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 6.2,
-      "max_loss_percent": 4.4,
-      "sector_distribution": {
-        "Unknown": 2,
-        "Basic Materials": 1,
-        "Energy": 1,
-        "Financial Services": 2,
-        "Consumer Cyclical": 1,
-        "Communication Services": 1
       }
     }
   }
