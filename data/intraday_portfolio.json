@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-11-05",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-11-05 17:04:56",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7684.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 7684.800048828125,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "INFY",
+        "qty": 2,
+        "buy_price": 1167.4,
+        "buy_time": "2026-11-05 17:04:56",
+        "iteration": 1,
+        "score_info": {
+          "last": 1167.4,
+          "mom_30m_pct": 0.344,
+          "intraday_pct": 3.944,
+          "rsi": 52.8,
+          "vol_factor": 2.0,
+          "score": 2.699
+        }
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "qty": 5,
+        "buy_price": 1070.0,
+        "buy_time": "2026-11-05 17:04:56",
+        "iteration": 1,
+        "score_info": {
+          "last": 1070.0,
+          "mom_30m_pct": -0.014,
+          "intraday_pct": 7.646,
+          "rsi": 72.6,
+          "vol_factor": 1.14,
+          "score": 2.417
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-11-05 17:04:56",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "INFY",
+        "qty": 2,
+        "price": 1167.4,
+        "cost": 2334.8,
+        "score": {
+          "last": 1167.4,
+          "mom_30m_pct": 0.344,
+          "intraday_pct": 3.944,
+          "rsi": 52.8,
+          "vol_factor": 2.0,
+          "score": 2.699
+        }
+      },
+      {
+        "time": "2026-11-05 17:04:56",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BAJFINANCE",
+        "qty": 5,
+        "price": 1070.0,
+        "cost": 5350.0,
+        "score": {
+          "last": 1070.0,
+          "mom_30m_pct": -0.014,
+          "intraday_pct": 7.646,
+          "rsi": 72.6,
+          "vol_factor": 1.14,
+          "score": 2.417
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
