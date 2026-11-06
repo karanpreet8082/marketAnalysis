@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-06",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 74012.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 20
+      },
+      {
+        "iteration": 10,
+        "time": "2026-11-06 20:53:17",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 82629.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 74012.40222167969,
+    "invested_today": 82629.00248718262,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -380,6 +389,36 @@
         "buy_price": 323.45,
         "buy_time": "2026-11-06 20:26:40",
         "iteration": 9,
+        "score_info": {
+          "last": 323.45,
+          "mom_30m_pct": 0.607,
+          "intraday_pct": 2.131,
+          "rsi": 62.6,
+          "vol_factor": 2.0,
+          "score": 2.549
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "buy_price": 186.3,
+        "buy_time": "2026-11-06 20:53:17",
+        "iteration": 10,
+        "score_info": {
+          "last": 186.3,
+          "mom_30m_pct": 1.091,
+          "intraday_pct": 2.155,
+          "rsi": 74.4,
+          "vol_factor": 1.36,
+          "score": 2.643
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 18,
+        "buy_price": 323.45,
+        "buy_time": "2026-11-06 20:53:17",
+        "iteration": 10,
         "score_info": {
           "last": 323.45,
           "mom_30m_pct": 0.607,
@@ -717,6 +756,40 @@
       {
         "time": "2026-11-06 20:26:40",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 18,
+        "price": 323.45,
+        "cost": 5822.1,
+        "score": {
+          "last": 323.45,
+          "mom_30m_pct": 0.607,
+          "intraday_pct": 2.131,
+          "rsi": 62.6,
+          "vol_factor": 2.0,
+          "score": 2.549
+        }
+      },
+      {
+        "time": "2026-11-06 20:53:17",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 15,
+        "price": 186.3,
+        "cost": 2794.5,
+        "score": {
+          "last": 186.3,
+          "mom_30m_pct": 1.091,
+          "intraday_pct": 2.155,
+          "rsi": 74.4,
+          "vol_factor": 1.36,
+          "score": 2.643
+        }
+      },
+      {
+        "time": "2026-11-06 20:53:17",
+        "iteration": 10,
         "action": "BUY",
         "symbol": "NTPC",
         "qty": 18,
