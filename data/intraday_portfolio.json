@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-09",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 5400.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-11-09 18:08:56",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 11039.2,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
       }
     ],
-    "invested_today": 5400.0,
+    "invested_today": 11039.199951171875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -30,6 +39,36 @@
           "rsi": 72.5,
           "vol_factor": 1.89,
           "score": 2.743
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "buy_price": 360.0,
+        "buy_time": "2026-11-09 18:08:56",
+        "iteration": 2,
+        "score_info": {
+          "last": 360.0,
+          "mom_30m_pct": 0.812,
+          "intraday_pct": 2.128,
+          "rsi": 72.5,
+          "vol_factor": 1.89,
+          "score": 2.743
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3119.2,
+        "buy_time": "2026-11-09 18:08:56",
+        "iteration": 2,
+        "score_info": {
+          "last": 3119.2,
+          "mom_30m_pct": 0.522,
+          "intraday_pct": 1.306,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 2.175
         }
       }
     ],
@@ -49,6 +88,40 @@
           "rsi": 72.5,
           "vol_factor": 1.89,
           "score": 2.743
+        }
+      },
+      {
+        "time": "2026-11-09 18:08:56",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 360.0,
+        "cost": 2520.0,
+        "score": {
+          "last": 360.0,
+          "mom_30m_pct": 0.812,
+          "intraday_pct": 2.128,
+          "rsi": 72.5,
+          "vol_factor": 1.89,
+          "score": 2.743
+        }
+      },
+      {
+        "time": "2026-11-09 18:08:56",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3119.2,
+        "cost": 3119.2,
+        "score": {
+          "last": 3119.2,
+          "mom_30m_pct": 0.522,
+          "intraday_pct": 1.306,
+          "rsi": 72.1,
+          "vol_factor": 2.0,
+          "score": 2.175
         }
       }
     ],
