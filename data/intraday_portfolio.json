@@ -1,99 +1,27 @@
 {
   "current_day": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 1,
     "iteration_log": [
       {
         "iteration": 1,
-        "time": "2026-11-09 17:40:23",
+        "time": "2026-11-10 00:21:07",
         "n_bought": 1,
         "n_sold": 0,
         "invested_today_after": 5400.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 1
-      },
-      {
-        "iteration": 2,
-        "time": "2026-11-09 18:08:56",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 11039.2,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 3
-      },
-      {
-        "iteration": 3,
-        "time": "2026-11-09 18:36:02",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 20638.4,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 5
-      },
-      {
-        "iteration": 4,
-        "time": "2026-11-09 18:53:48",
-        "n_bought": 1,
-        "n_sold": 0,
-        "invested_today_after": 23518.4,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 6
-      },
-      {
-        "iteration": 5,
-        "time": "2026-11-09 19:18:02",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 33837.6,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 8
-      },
-      {
-        "iteration": 6,
-        "time": "2026-11-09 19:46:52",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 39836.8,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 10
-      },
-      {
-        "iteration": 7,
-        "time": "2026-11-09 21:29:47",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 49436.0,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 12
-      },
-      {
-        "iteration": 8,
-        "time": "2026-11-09 22:14:35",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 59035.2,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 14
-      },
-      {
-        "iteration": 9,
-        "time": "2026-11-09 22:53:18",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 68634.4,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 16
       }
     ],
-    "invested_today": 68634.39965820312,
+    "invested_today": 5400.0,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
         "symbol": "TATAPOWER",
         "qty": 15,
         "buy_price": 360.0,
-        "buy_time": "2026-11-09 17:40:23",
+        "buy_time": "2026-11-10 00:21:07",
         "iteration": 1,
         "score_info": {
           "last": 360.0,
@@ -103,236 +31,11 @@
           "vol_factor": 1.89,
           "score": 2.743
         }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 7,
-        "buy_price": 360.0,
-        "buy_time": "2026-11-09 18:08:56",
-        "iteration": 2,
-        "score_info": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 3119.2,
-        "buy_time": "2026-11-09 18:08:56",
-        "iteration": 2,
-        "score_info": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 18,
-        "buy_price": 360.0,
-        "buy_time": "2026-11-09 18:36:02",
-        "iteration": 3,
-        "score_info": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 3119.2,
-        "buy_time": "2026-11-09 18:36:02",
-        "iteration": 3,
-        "score_info": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 8,
-        "buy_price": 360.0,
-        "buy_time": "2026-11-09 18:53:48",
-        "iteration": 4,
-        "score_info": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 20,
-        "buy_price": 360.0,
-        "buy_time": "2026-11-09 19:18:02",
-        "iteration": 5,
-        "score_info": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 3119.2,
-        "buy_time": "2026-11-09 19:18:02",
-        "iteration": 5,
-        "score_info": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 8,
-        "buy_price": 360.0,
-        "buy_time": "2026-11-09 19:46:52",
-        "iteration": 6,
-        "score_info": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 3119.2,
-        "buy_time": "2026-11-09 19:46:52",
-        "iteration": 6,
-        "score_info": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 18,
-        "buy_price": 360.0,
-        "buy_time": "2026-11-09 21:29:47",
-        "iteration": 7,
-        "score_info": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 3119.2,
-        "buy_time": "2026-11-09 21:29:47",
-        "iteration": 7,
-        "score_info": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 18,
-        "buy_price": 360.0,
-        "buy_time": "2026-11-09 22:14:35",
-        "iteration": 8,
-        "score_info": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 3119.2,
-        "buy_time": "2026-11-09 22:14:35",
-        "iteration": 8,
-        "score_info": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "symbol": "TATAPOWER",
-        "qty": 18,
-        "buy_price": 360.0,
-        "buy_time": "2026-11-09 22:53:18",
-        "iteration": 9,
-        "score_info": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "symbol": "TRENT",
-        "qty": 1,
-        "buy_price": 3119.2,
-        "buy_time": "2026-11-09 22:53:18",
-        "iteration": 9,
-        "score_info": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
       }
     ],
     "trades": [
       {
-        "time": "2026-11-09 17:40:23",
+        "time": "2026-11-10 00:21:07",
         "iteration": 1,
         "action": "BUY",
         "symbol": "TATAPOWER",
@@ -346,261 +49,6 @@
           "rsi": 72.5,
           "vol_factor": 1.89,
           "score": 2.743
-        }
-      },
-      {
-        "time": "2026-11-09 18:08:56",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 7,
-        "price": 360.0,
-        "cost": 2520.0,
-        "score": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "time": "2026-11-09 18:08:56",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "TRENT",
-        "qty": 1,
-        "price": 3119.2,
-        "cost": 3119.2,
-        "score": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "time": "2026-11-09 18:36:02",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 18,
-        "price": 360.0,
-        "cost": 6480.0,
-        "score": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "time": "2026-11-09 18:36:02",
-        "iteration": 3,
-        "action": "BUY",
-        "symbol": "TRENT",
-        "qty": 1,
-        "price": 3119.2,
-        "cost": 3119.2,
-        "score": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "time": "2026-11-09 18:53:48",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 8,
-        "price": 360.0,
-        "cost": 2880.0,
-        "score": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "time": "2026-11-09 19:18:02",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 20,
-        "price": 360.0,
-        "cost": 7200.0,
-        "score": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "time": "2026-11-09 19:18:02",
-        "iteration": 5,
-        "action": "BUY",
-        "symbol": "TRENT",
-        "qty": 1,
-        "price": 3119.2,
-        "cost": 3119.2,
-        "score": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "time": "2026-11-09 19:46:52",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 8,
-        "price": 360.0,
-        "cost": 2880.0,
-        "score": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "time": "2026-11-09 19:46:52",
-        "iteration": 6,
-        "action": "BUY",
-        "symbol": "TRENT",
-        "qty": 1,
-        "price": 3119.2,
-        "cost": 3119.2,
-        "score": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "time": "2026-11-09 21:29:47",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 18,
-        "price": 360.0,
-        "cost": 6480.0,
-        "score": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "time": "2026-11-09 21:29:47",
-        "iteration": 7,
-        "action": "BUY",
-        "symbol": "TRENT",
-        "qty": 1,
-        "price": 3119.2,
-        "cost": 3119.2,
-        "score": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "time": "2026-11-09 22:14:35",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 18,
-        "price": 360.0,
-        "cost": 6480.0,
-        "score": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "time": "2026-11-09 22:14:35",
-        "iteration": 8,
-        "action": "BUY",
-        "symbol": "TRENT",
-        "qty": 1,
-        "price": 3119.2,
-        "cost": 3119.2,
-        "score": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
-        }
-      },
-      {
-        "time": "2026-11-09 22:53:18",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "TATAPOWER",
-        "qty": 18,
-        "price": 360.0,
-        "cost": 6480.0,
-        "score": {
-          "last": 360.0,
-          "mom_30m_pct": 0.812,
-          "intraday_pct": 2.128,
-          "rsi": 72.5,
-          "vol_factor": 1.89,
-          "score": 2.743
-        }
-      },
-      {
-        "time": "2026-11-09 22:53:18",
-        "iteration": 9,
-        "action": "BUY",
-        "symbol": "TRENT",
-        "qty": 1,
-        "price": 3119.2,
-        "cost": 3119.2,
-        "score": {
-          "last": 3119.2,
-          "mom_30m_pct": 0.522,
-          "intraday_pct": 1.306,
-          "rsi": 72.1,
-          "vol_factor": 2.0,
-          "score": 2.175
         }
       }
     ],
@@ -96419,20 +95867,551 @@
       "n_sells": 27,
       "feedback": "Day P&L \u20b90 on \u20b999826 deployed (0.00%). Profitable day \u2014 keep current parameters.",
       "profitable": true
+    },
+    {
+      "date": "2026-11-09",
+      "iterations_run": 10,
+      "invested": 78593.6,
+      "realized_pnl": 0.0,
+      "pnl_pct": 0.0,
+      "trades": [
+        {
+          "time": "2026-11-09 17:40:23",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 15,
+          "price": 360.0,
+          "cost": 5400.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 18:08:56",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 7,
+          "price": 360.0,
+          "cost": 2520.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 18:08:56",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "cost": 3119.2,
+          "score": {
+            "last": 3119.2,
+            "mom_30m_pct": 0.522,
+            "intraday_pct": 1.306,
+            "rsi": 72.1,
+            "vol_factor": 2.0,
+            "score": 2.175
+          }
+        },
+        {
+          "time": "2026-11-09 18:36:02",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 18,
+          "price": 360.0,
+          "cost": 6480.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 18:36:02",
+          "iteration": 3,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "cost": 3119.2,
+          "score": {
+            "last": 3119.2,
+            "mom_30m_pct": 0.522,
+            "intraday_pct": 1.306,
+            "rsi": 72.1,
+            "vol_factor": 2.0,
+            "score": 2.175
+          }
+        },
+        {
+          "time": "2026-11-09 18:53:48",
+          "iteration": 4,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 8,
+          "price": 360.0,
+          "cost": 2880.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 19:18:02",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 20,
+          "price": 360.0,
+          "cost": 7200.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 19:18:02",
+          "iteration": 5,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "cost": 3119.2,
+          "score": {
+            "last": 3119.2,
+            "mom_30m_pct": 0.522,
+            "intraday_pct": 1.306,
+            "rsi": 72.1,
+            "vol_factor": 2.0,
+            "score": 2.175
+          }
+        },
+        {
+          "time": "2026-11-09 19:46:52",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 8,
+          "price": 360.0,
+          "cost": 2880.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 19:46:52",
+          "iteration": 6,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "cost": 3119.2,
+          "score": {
+            "last": 3119.2,
+            "mom_30m_pct": 0.522,
+            "intraday_pct": 1.306,
+            "rsi": 72.1,
+            "vol_factor": 2.0,
+            "score": 2.175
+          }
+        },
+        {
+          "time": "2026-11-09 21:29:47",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 18,
+          "price": 360.0,
+          "cost": 6480.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 21:29:47",
+          "iteration": 7,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "cost": 3119.2,
+          "score": {
+            "last": 3119.2,
+            "mom_30m_pct": 0.522,
+            "intraday_pct": 1.306,
+            "rsi": 72.1,
+            "vol_factor": 2.0,
+            "score": 2.175
+          }
+        },
+        {
+          "time": "2026-11-09 22:14:35",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 18,
+          "price": 360.0,
+          "cost": 6480.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 22:14:35",
+          "iteration": 8,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "cost": 3119.2,
+          "score": {
+            "last": 3119.2,
+            "mom_30m_pct": 0.522,
+            "intraday_pct": 1.306,
+            "rsi": 72.1,
+            "vol_factor": 2.0,
+            "score": 2.175
+          }
+        },
+        {
+          "time": "2026-11-09 22:53:18",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 18,
+          "price": 360.0,
+          "cost": 6480.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 22:53:18",
+          "iteration": 9,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "cost": 3119.2,
+          "score": {
+            "last": 3119.2,
+            "mom_30m_pct": 0.522,
+            "intraday_pct": 1.306,
+            "rsi": 72.1,
+            "vol_factor": 2.0,
+            "score": 2.175
+          }
+        },
+        {
+          "time": "2026-11-09 23:18:21",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "TATAPOWER",
+          "qty": 19,
+          "price": 360.0,
+          "cost": 6840.0,
+          "score": {
+            "last": 360.0,
+            "mom_30m_pct": 0.812,
+            "intraday_pct": 2.128,
+            "rsi": 72.5,
+            "vol_factor": 1.89,
+            "score": 2.743
+          }
+        },
+        {
+          "time": "2026-11-09 23:18:21",
+          "iteration": 10,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "cost": 3119.2,
+          "score": {
+            "last": 3119.2,
+            "mom_30m_pct": 0.522,
+            "intraday_pct": 1.306,
+            "rsi": 72.1,
+            "vol_factor": 2.0,
+            "score": 2.175
+          }
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 15,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 7,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "buy_price": 3119.2,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 18,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "buy_price": 3119.2,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 8,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 20,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "buy_price": 3119.2,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 8,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "buy_price": 3119.2,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 18,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "buy_price": 3119.2,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 18,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "buy_price": 3119.2,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 18,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "buy_price": 3119.2,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TATAPOWER",
+          "qty": 19,
+          "price": 360.0,
+          "buy_price": 360.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-10 00:20:58",
+          "iteration": 11,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3119.2,
+          "buy_price": 3119.2,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        }
+      ],
+      "n_buys": 18,
+      "n_sells": 18,
+      "feedback": "Day P&L \u20b90 on \u20b978594 deployed (0.00%). Profitable day \u2014 keep current parameters.",
+      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 118,
+    "total_days": 119,
     "winning_days": 62,
     "losing_days": 43,
     "total_realized_pnl": 1843.45,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-10-01",
-        "note": "Day P&L \u20b9-0 on \u20b999478 deployed (-0.00%). 36 EOD force-sells contributed \u20b90. Earlier intraday exits (lower take-profit threshold) might have preserved capital. All trades closed flat/positive but cumulative loss \u2014 likely from slippage / odd-lot rounding. Increase per-iteration size."
-      },
       {
         "date": "2026-10-02",
         "note": "Day P&L \u20b90 on \u20b999738 deployed (0.00%). Profitable day \u2014 keep current parameters."
@@ -96548,6 +96527,10 @@
       {
         "date": "2026-11-06",
         "note": "Day P&L \u20b90 on \u20b999826 deployed (0.00%). Profitable day \u2014 keep current parameters."
+      },
+      {
+        "date": "2026-11-09",
+        "note": "Day P&L \u20b90 on \u20b978594 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
