@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-10",
     "total_iterations": 14,
-    "iterations_run": 12,
+    "iterations_run": 13,
     "iteration_log": [
       {
         "iteration": 1,
@@ -111,9 +111,18 @@
         "invested_today_after": 95752.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 13,
+        "time": "2026-11-10 21:01:04",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 98272.8,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 22
       }
     ],
-    "invested_today": 95752.79956054688,
+    "invested_today": 98272.79956054688,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -429,6 +438,21 @@
           "rsi": 72.1,
           "vol_factor": 2.0,
           "score": 2.175
+        }
+      },
+      {
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "buy_price": 360.0,
+        "buy_time": "2026-11-10 21:01:04",
+        "iteration": 13,
+        "score_info": {
+          "last": 360.0,
+          "mom_30m_pct": 0.812,
+          "intraday_pct": 2.128,
+          "rsi": 72.5,
+          "vol_factor": 1.89,
+          "score": 2.743
         }
       }
     ],
@@ -788,6 +812,23 @@
           "rsi": 72.1,
           "vol_factor": 2.0,
           "score": 2.175
+        }
+      },
+      {
+        "time": "2026-11-10 21:01:04",
+        "iteration": 13,
+        "action": "BUY",
+        "symbol": "TATAPOWER",
+        "qty": 7,
+        "price": 360.0,
+        "cost": 2520.0,
+        "score": {
+          "last": 360.0,
+          "mom_30m_pct": 0.812,
+          "intraday_pct": 2.128,
+          "rsi": 72.5,
+          "vol_factor": 1.89,
+          "score": 2.743
         }
       }
     ],
