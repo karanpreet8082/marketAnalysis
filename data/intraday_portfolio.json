@@ -1,5 +1,871 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-11-11",
+    "total_iterations": 14,
+    "iterations_run": 13,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-11-11 16:58:21",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 4218.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      },
+      {
+        "iteration": 2,
+        "time": "2026-11-11 17:14:11",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 13767.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 3,
+        "time": "2026-11-11 17:28:36",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 17985.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 4
+      },
+      {
+        "iteration": 4,
+        "time": "2026-11-11 17:41:18",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 24312.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 5
+      },
+      {
+        "iteration": 5,
+        "time": "2026-11-11 18:08:31",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 30639.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
+      },
+      {
+        "iteration": 6,
+        "time": "2026-11-11 18:25:49",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 39436.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 7,
+        "time": "2026-11-11 19:31:39",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 45763.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
+      },
+      {
+        "iteration": 8,
+        "time": "2026-11-11 20:08:47",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 51337.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 12
+      },
+      {
+        "iteration": 9,
+        "time": "2026-11-11 20:33:34",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 59020.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
+      },
+      {
+        "iteration": 10,
+        "time": "2026-11-11 21:07:25",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 72368.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 17
+      },
+      {
+        "iteration": 11,
+        "time": "2026-11-11 21:42:58",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 85716.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 20
+      },
+      {
+        "iteration": 12,
+        "time": "2026-11-11 22:10:30",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99064.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 23
+      },
+      {
+        "iteration": 13,
+        "time": "2026-11-11 22:45:55",
+        "n_bought": 0,
+        "n_sold": 0,
+        "invested_today_after": 99064.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 23
+      }
+    ],
+    "invested_today": 99064.39990234375,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 16:58:21",
+        "iteration": 1,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 17:14:11",
+        "iteration": 2,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3222.7,
+        "buy_time": "2026-11-11 17:14:11",
+        "iteration": 2,
+        "score_info": {
+          "last": 3222.7,
+          "mom_30m_pct": 0.452,
+          "intraday_pct": 3.318,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 2.673
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 17:28:36",
+        "iteration": 3,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 17:41:18",
+        "iteration": 4,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 18:08:31",
+        "iteration": 5,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3465.0,
+        "buy_time": "2026-11-11 18:25:49",
+        "iteration": 6,
+        "score_info": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 18:25:49",
+        "iteration": 6,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3222.7,
+        "buy_time": "2026-11-11 18:25:49",
+        "iteration": 6,
+        "score_info": {
+          "last": 3222.7,
+          "mom_30m_pct": 0.452,
+          "intraday_pct": 3.318,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 2.673
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 19:31:39",
+        "iteration": 7,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3465.0,
+        "buy_time": "2026-11-11 20:08:47",
+        "iteration": 8,
+        "score_info": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 20:08:47",
+        "iteration": 8,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3465.0,
+        "buy_time": "2026-11-11 20:33:34",
+        "iteration": 9,
+        "score_info": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 20:33:34",
+        "iteration": 9,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3465.0,
+        "buy_time": "2026-11-11 21:07:25",
+        "iteration": 10,
+        "score_info": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 21:07:25",
+        "iteration": 10,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 5665.0,
+        "buy_time": "2026-11-11 21:07:25",
+        "iteration": 10,
+        "score_info": {
+          "last": 5665.0,
+          "mom_30m_pct": 0.274,
+          "intraday_pct": 4.328,
+          "rsi": 63.2,
+          "vol_factor": 2.0,
+          "score": 2.71
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3465.0,
+        "buy_time": "2026-11-11 21:42:58",
+        "iteration": 11,
+        "score_info": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 21:42:58",
+        "iteration": 11,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 5665.0,
+        "buy_time": "2026-11-11 21:42:58",
+        "iteration": 11,
+        "score_info": {
+          "last": 5665.0,
+          "mom_30m_pct": 0.274,
+          "intraday_pct": 4.328,
+          "rsi": 63.2,
+          "vol_factor": 2.0,
+          "score": 2.71
+        }
+      },
+      {
+        "symbol": "M&M",
+        "qty": 1,
+        "buy_price": 3465.0,
+        "buy_time": "2026-11-11 22:10:30",
+        "iteration": 12,
+        "score_info": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 22:10:30",
+        "iteration": 12,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "symbol": "INDIGO",
+        "qty": 1,
+        "buy_price": 5665.0,
+        "buy_time": "2026-11-11 22:10:30",
+        "iteration": 12,
+        "score_info": {
+          "last": 5665.0,
+          "mom_30m_pct": 0.274,
+          "intraday_pct": 4.328,
+          "rsi": 63.2,
+          "vol_factor": 2.0,
+          "score": 2.71
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-11-11 16:58:21",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 2109.0,
+        "cost": 4218.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 17:14:11",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 2109.0,
+        "cost": 6327.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 17:14:11",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3222.7,
+        "cost": 3222.7,
+        "score": {
+          "last": 3222.7,
+          "mom_30m_pct": 0.452,
+          "intraday_pct": 3.318,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 2.673
+        }
+      },
+      {
+        "time": "2026-11-11 17:28:36",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 2109.0,
+        "cost": 4218.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 17:41:18",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 2109.0,
+        "cost": 6327.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 18:08:31",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 2109.0,
+        "cost": 6327.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 18:25:49",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3465.0,
+        "cost": 3465.0,
+        "score": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "time": "2026-11-11 18:25:49",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 2109.0,
+        "cost": 2109.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 18:25:49",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3222.7,
+        "cost": 3222.7,
+        "score": {
+          "last": 3222.7,
+          "mom_30m_pct": 0.452,
+          "intraday_pct": 3.318,
+          "rsi": 61.4,
+          "vol_factor": 2.0,
+          "score": 2.673
+        }
+      },
+      {
+        "time": "2026-11-11 19:31:39",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 2109.0,
+        "cost": 6327.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 20:08:47",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3465.0,
+        "cost": 3465.0,
+        "score": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "time": "2026-11-11 20:08:47",
+        "iteration": 8,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 2109.0,
+        "cost": 2109.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 20:33:34",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3465.0,
+        "cost": 3465.0,
+        "score": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "time": "2026-11-11 20:33:34",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 2109.0,
+        "cost": 4218.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 21:07:25",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3465.0,
+        "cost": 3465.0,
+        "score": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "time": "2026-11-11 21:07:25",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 2109.0,
+        "cost": 4218.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 21:07:25",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5665.0,
+        "cost": 5665.0,
+        "score": {
+          "last": 5665.0,
+          "mom_30m_pct": 0.274,
+          "intraday_pct": 4.328,
+          "rsi": 63.2,
+          "vol_factor": 2.0,
+          "score": 2.71
+        }
+      },
+      {
+        "time": "2026-11-11 21:42:58",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3465.0,
+        "cost": 3465.0,
+        "score": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "time": "2026-11-11 21:42:58",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 2109.0,
+        "cost": 4218.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 21:42:58",
+        "iteration": 11,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5665.0,
+        "cost": 5665.0,
+        "score": {
+          "last": 5665.0,
+          "mom_30m_pct": 0.274,
+          "intraday_pct": 4.328,
+          "rsi": 63.2,
+          "vol_factor": 2.0,
+          "score": 2.71
+        }
+      },
+      {
+        "time": "2026-11-11 22:10:30",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3465.0,
+        "cost": 3465.0,
+        "score": {
+          "last": 3465.0,
+          "mom_30m_pct": 1.165,
+          "intraday_pct": 5.3,
+          "rsi": 72.6,
+          "vol_factor": 2.0,
+          "score": 4.337
+        }
+      },
+      {
+        "time": "2026-11-11 22:10:30",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 2,
+        "price": 2109.0,
+        "cost": 4218.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
+        }
+      },
+      {
+        "time": "2026-11-11 22:10:30",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "INDIGO",
+        "qty": 1,
+        "price": 5665.0,
+        "cost": 5665.0,
+        "score": {
+          "last": 5665.0,
+          "mom_30m_pct": 0.274,
+          "intraday_pct": 4.328,
+          "rsi": 63.2,
+          "vol_factor": 2.0,
+          "score": 2.71
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -97215,696 +98081,20 @@
       "n_sells": 7,
       "feedback": "Day P&L \u20b90 on \u20b930958 deployed (0.00%). Profitable day \u2014 keep current parameters.",
       "profitable": false
-    },
-    {
-      "date": "2026-11-11",
-      "iterations_run": 14,
-      "invested": 99064.4,
-      "realized_pnl": -0.0,
-      "pnl_pct": -0.0,
-      "trades": [
-        {
-          "time": "2026-11-11 16:58:21",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "cost": 4218.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 17:14:11",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 2109.0,
-          "cost": 6327.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 17:14:11",
-          "iteration": 2,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 3222.7,
-          "cost": 3222.7,
-          "score": {
-            "last": 3222.7,
-            "mom_30m_pct": 0.452,
-            "intraday_pct": 3.318,
-            "rsi": 61.4,
-            "vol_factor": 2.0,
-            "score": 2.673
-          }
-        },
-        {
-          "time": "2026-11-11 17:28:36",
-          "iteration": 3,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "cost": 4218.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 17:41:18",
-          "iteration": 4,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 2109.0,
-          "cost": 6327.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 18:08:31",
-          "iteration": 5,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 2109.0,
-          "cost": 6327.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 18:25:49",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "cost": 3465.0,
-          "score": {
-            "last": 3465.0,
-            "mom_30m_pct": 1.165,
-            "intraday_pct": 5.3,
-            "rsi": 72.6,
-            "vol_factor": 2.0,
-            "score": 4.337
-          }
-        },
-        {
-          "time": "2026-11-11 18:25:49",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 2109.0,
-          "cost": 2109.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 18:25:49",
-          "iteration": 6,
-          "action": "BUY",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 3222.7,
-          "cost": 3222.7,
-          "score": {
-            "last": 3222.7,
-            "mom_30m_pct": 0.452,
-            "intraday_pct": 3.318,
-            "rsi": 61.4,
-            "vol_factor": 2.0,
-            "score": 2.673
-          }
-        },
-        {
-          "time": "2026-11-11 19:31:39",
-          "iteration": 7,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 2109.0,
-          "cost": 6327.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 20:08:47",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "cost": 3465.0,
-          "score": {
-            "last": 3465.0,
-            "mom_30m_pct": 1.165,
-            "intraday_pct": 5.3,
-            "rsi": 72.6,
-            "vol_factor": 2.0,
-            "score": 4.337
-          }
-        },
-        {
-          "time": "2026-11-11 20:08:47",
-          "iteration": 8,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 2109.0,
-          "cost": 2109.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 20:33:34",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "cost": 3465.0,
-          "score": {
-            "last": 3465.0,
-            "mom_30m_pct": 1.165,
-            "intraday_pct": 5.3,
-            "rsi": 72.6,
-            "vol_factor": 2.0,
-            "score": 4.337
-          }
-        },
-        {
-          "time": "2026-11-11 20:33:34",
-          "iteration": 9,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "cost": 4218.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 21:07:25",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "cost": 3465.0,
-          "score": {
-            "last": 3465.0,
-            "mom_30m_pct": 1.165,
-            "intraday_pct": 5.3,
-            "rsi": 72.6,
-            "vol_factor": 2.0,
-            "score": 4.337
-          }
-        },
-        {
-          "time": "2026-11-11 21:07:25",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "cost": 4218.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 21:07:25",
-          "iteration": 10,
-          "action": "BUY",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5665.0,
-          "cost": 5665.0,
-          "score": {
-            "last": 5665.0,
-            "mom_30m_pct": 0.274,
-            "intraday_pct": 4.328,
-            "rsi": 63.2,
-            "vol_factor": 2.0,
-            "score": 2.71
-          }
-        },
-        {
-          "time": "2026-11-11 21:42:58",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "cost": 3465.0,
-          "score": {
-            "last": 3465.0,
-            "mom_30m_pct": 1.165,
-            "intraday_pct": 5.3,
-            "rsi": 72.6,
-            "vol_factor": 2.0,
-            "score": 4.337
-          }
-        },
-        {
-          "time": "2026-11-11 21:42:58",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "cost": 4218.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 21:42:58",
-          "iteration": 11,
-          "action": "BUY",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5665.0,
-          "cost": 5665.0,
-          "score": {
-            "last": 5665.0,
-            "mom_30m_pct": 0.274,
-            "intraday_pct": 4.328,
-            "rsi": 63.2,
-            "vol_factor": 2.0,
-            "score": 2.71
-          }
-        },
-        {
-          "time": "2026-11-11 22:10:30",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "cost": 3465.0,
-          "score": {
-            "last": 3465.0,
-            "mom_30m_pct": 1.165,
-            "intraday_pct": 5.3,
-            "rsi": 72.6,
-            "vol_factor": 2.0,
-            "score": 4.337
-          }
-        },
-        {
-          "time": "2026-11-11 22:10:30",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "cost": 4218.0,
-          "score": {
-            "last": 2109.0,
-            "mom_30m_pct": 1.064,
-            "intraday_pct": 1.781,
-            "rsi": 74.4,
-            "vol_factor": 2.0,
-            "score": 3.13
-          }
-        },
-        {
-          "time": "2026-11-11 22:10:30",
-          "iteration": 12,
-          "action": "BUY",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5665.0,
-          "cost": 5665.0,
-          "score": {
-            "last": 5665.0,
-            "mom_30m_pct": 0.274,
-            "intraday_pct": 4.328,
-            "rsi": 63.2,
-            "vol_factor": 2.0,
-            "score": 2.71
-          }
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 3222.7,
-          "buy_price": 3222.7,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "buy_price": 3465.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "TRENT",
-          "qty": 1,
-          "price": 3222.7,
-          "buy_price": 3222.7,
-          "pnl": -0.0,
-          "pnl_pct": -0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 3,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "buy_price": 3465.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 1,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "buy_price": 3465.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "buy_price": 3465.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5665.0,
-          "buy_price": 5665.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "buy_price": 3465.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5665.0,
-          "buy_price": 5665.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "M&M",
-          "qty": 1,
-          "price": 3465.0,
-          "buy_price": 3465.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "BHARTIARTL",
-          "qty": 2,
-          "price": 2109.0,
-          "buy_price": 2109.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        },
-        {
-          "time": "2026-11-11 22:59:50",
-          "iteration": 14,
-          "action": "SELL",
-          "symbol": "INDIGO",
-          "qty": 1,
-          "price": 5665.0,
-          "buy_price": 5665.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "EOD_FORCE_SELL"
-        }
-      ],
-      "n_buys": 23,
-      "n_sells": 23,
-      "feedback": "Day P&L \u20b9-0 on \u20b999064 deployed (-0.00%). 23 EOD force-sells contributed \u20b90. Earlier intraday exits (lower take-profit threshold) might have preserved capital. All trades closed flat/positive but cumulative loss \u2014 likely from slippage / odd-lot rounding. Increase per-iteration size.",
-      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 122,
+    "total_days": 121,
     "winning_days": 62,
-    "losing_days": 45,
+    "losing_days": 44,
     "total_realized_pnl": 1843.45,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-10-06",
+        "note": "Day P&L \u20b971 on \u20b999370 deployed (0.07%). Profitable day \u2014 keep current parameters."
+      },
       {
         "date": "2026-10-06",
         "note": "Day P&L \u20b90 on \u20b915642 deployed (0.00%). Profitable day \u2014 keep current parameters."
@@ -98020,10 +98210,6 @@
       {
         "date": "2026-11-10",
         "note": "Day P&L \u20b90 on \u20b930958 deployed (0.00%). Profitable day \u2014 keep current parameters."
-      },
-      {
-        "date": "2026-11-11",
-        "note": "Day P&L \u20b9-0 on \u20b999064 deployed (-0.00%). 23 EOD force-sells contributed \u20b90. Earlier intraday exits (lower take-profit threshold) might have preserved capital. All trades closed flat/positive but cumulative loss \u2014 likely from slippage / odd-lot rounding. Increase per-iteration size."
       }
     ]
   }
