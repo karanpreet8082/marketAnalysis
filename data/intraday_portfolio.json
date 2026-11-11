@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-11",
     "total_iterations": 14,
-    "iterations_run": 6,
+    "iterations_run": 7,
     "iteration_log": [
       {
         "iteration": 1,
@@ -57,9 +57,18 @@
         "invested_today_after": 39436.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 7,
+        "time": "2026-11-11 19:31:39",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 45763.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 10
       }
     ],
-    "invested_today": 39436.39990234375,
+    "invested_today": 45763.39990234375,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -195,6 +204,21 @@
           "rsi": 61.4,
           "vol_factor": 2.0,
           "score": 2.673
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "buy_price": 2109.0,
+        "buy_time": "2026-11-11 19:31:39",
+        "iteration": 7,
+        "score_info": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
         }
       }
     ],
@@ -350,6 +374,23 @@
           "rsi": 61.4,
           "vol_factor": 2.0,
           "score": 2.673
+        }
+      },
+      {
+        "time": "2026-11-11 19:31:39",
+        "iteration": 7,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 3,
+        "price": 2109.0,
+        "cost": 6327.0,
+        "score": {
+          "last": 2109.0,
+          "mom_30m_pct": 1.064,
+          "intraday_pct": 1.781,
+          "rsi": 74.4,
+          "vol_factor": 2.0,
+          "score": 3.13
         }
       }
     ],
