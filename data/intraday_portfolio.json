@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-16",
     "total_iterations": 14,
-    "iterations_run": 3,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,9 +30,27 @@
         "invested_today_after": 24385.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 7
+      },
+      {
+        "iteration": 4,
+        "time": "2026-11-16 18:40:04",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 32496.9,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-11-16 19:02:39",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 40929.65,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
       }
     ],
-    "invested_today": 24385.399963378906,
+    "invested_today": 40929.649963378906,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -131,6 +149,66 @@
         "buy_price": 321.25,
         "buy_time": "2026-11-16 18:28:07",
         "iteration": 3,
+        "score_info": {
+          "last": 321.25,
+          "mom_30m_pct": 0.438,
+          "intraday_pct": 0.879,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 1.92
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 6,
+        "buy_price": 816.5,
+        "buy_time": "2026-11-16 18:40:04",
+        "iteration": 4,
+        "score_info": {
+          "last": 816.5,
+          "mom_30m_pct": 0.375,
+          "intraday_pct": 1.555,
+          "rsi": 69.6,
+          "vol_factor": 2.0,
+          "score": 2.029
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 10,
+        "buy_price": 321.25,
+        "buy_time": "2026-11-16 18:40:04",
+        "iteration": 4,
+        "score_info": {
+          "last": 321.25,
+          "mom_30m_pct": 0.438,
+          "intraday_pct": 0.879,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 1.92
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 6,
+        "buy_price": 816.5,
+        "buy_time": "2026-11-16 19:02:39",
+        "iteration": 5,
+        "score_info": {
+          "last": 816.5,
+          "mom_30m_pct": 0.375,
+          "intraday_pct": 1.555,
+          "rsi": 69.6,
+          "vol_factor": 2.0,
+          "score": 2.029
+        }
+      },
+      {
+        "symbol": "NTPC",
+        "qty": 11,
+        "buy_price": 321.25,
+        "buy_time": "2026-11-16 19:02:39",
+        "iteration": 5,
         "score_info": {
           "last": 321.25,
           "mom_30m_pct": 0.438,
@@ -252,6 +330,74 @@
         "qty": 10,
         "price": 321.25,
         "cost": 3212.5,
+        "score": {
+          "last": 321.25,
+          "mom_30m_pct": 0.438,
+          "intraday_pct": 0.879,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 1.92
+        }
+      },
+      {
+        "time": "2026-11-16 18:40:04",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 6,
+        "price": 816.5,
+        "cost": 4899.0,
+        "score": {
+          "last": 816.5,
+          "mom_30m_pct": 0.375,
+          "intraday_pct": 1.555,
+          "rsi": 69.6,
+          "vol_factor": 2.0,
+          "score": 2.029
+        }
+      },
+      {
+        "time": "2026-11-16 18:40:04",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 10,
+        "price": 321.25,
+        "cost": 3212.5,
+        "score": {
+          "last": 321.25,
+          "mom_30m_pct": 0.438,
+          "intraday_pct": 0.879,
+          "rsi": 74.6,
+          "vol_factor": 2.0,
+          "score": 1.92
+        }
+      },
+      {
+        "time": "2026-11-16 19:02:39",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 6,
+        "price": 816.5,
+        "cost": 4899.0,
+        "score": {
+          "last": 816.5,
+          "mom_30m_pct": 0.375,
+          "intraday_pct": 1.555,
+          "rsi": 69.6,
+          "vol_factor": 2.0,
+          "score": 2.029
+        }
+      },
+      {
+        "time": "2026-11-16 19:02:39",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "NTPC",
+        "qty": 11,
+        "price": 321.25,
+        "cost": 3533.75,
         "score": {
           "last": 321.25,
           "mom_30m_pct": 0.438,
