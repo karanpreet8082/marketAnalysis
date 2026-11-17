@@ -1,67 +1,28 @@
 {
   "current_day": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 1,
     "iteration_log": [
       {
         "iteration": 1,
-        "time": "2026-11-17 23:08:51",
+        "time": "2026-11-18 00:09:21",
         "n_bought": 2,
         "n_sold": 0,
-        "invested_today_after": 7788.05,
+        "invested_today_after": 7400.1,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 2
-      },
-      {
-        "iteration": 2,
-        "time": "2026-11-17 23:26:06",
-        "n_bought": 3,
-        "n_sold": 0,
-        "invested_today_after": 15624.0,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 5
       }
     ],
-    "invested_today": 15624.000366210938,
+    "invested_today": 7400.10009765625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "buy_price": 2745.1,
-        "buy_time": "2026-11-17 23:08:51",
-        "iteration": 1,
-        "score_info": {
-          "last": 2745.1,
-          "mom_30m_pct": 0.142,
-          "intraday_pct": 3.238,
-          "rsi": 73.2,
-          "vol_factor": 2.0,
-          "score": 2.185
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 3,
-        "buy_price": 765.95,
-        "buy_time": "2026-11-17 23:08:51",
-        "iteration": 1,
-        "score_info": {
-          "last": 765.95,
-          "mom_30m_pct": 0.281,
-          "intraday_pct": 1.484,
-          "rsi": 60.5,
-          "vol_factor": 2.0,
-          "score": 1.867
-        }
-      },
-      {
         "symbol": "INDUSINDBK",
-        "qty": 3,
+        "qty": 5,
         "buy_price": 931.0,
-        "buy_time": "2026-11-17 23:26:06",
-        "iteration": 2,
+        "buy_time": "2026-11-18 00:09:21",
+        "iteration": 1,
         "score_info": {
           "last": 931.0,
           "mom_30m_pct": 0.415,
@@ -75,8 +36,8 @@
         "symbol": "ADANIENT",
         "qty": 1,
         "buy_price": 2745.1,
-        "buy_time": "2026-11-17 23:26:06",
-        "iteration": 2,
+        "buy_time": "2026-11-18 00:09:21",
+        "iteration": 1,
         "score_info": {
           "last": 2745.1,
           "mom_30m_pct": 0.142,
@@ -84,67 +45,18 @@
           "rsi": 73.2,
           "vol_factor": 2.0,
           "score": 2.185
-        }
-      },
-      {
-        "symbol": "DLF",
-        "qty": 3,
-        "buy_price": 765.95,
-        "buy_time": "2026-11-17 23:26:06",
-        "iteration": 2,
-        "score_info": {
-          "last": 765.95,
-          "mom_30m_pct": 0.281,
-          "intraday_pct": 1.484,
-          "rsi": 60.5,
-          "vol_factor": 2.0,
-          "score": 1.867
         }
       }
     ],
     "trades": [
       {
-        "time": "2026-11-17 23:08:51",
+        "time": "2026-11-18 00:09:21",
         "iteration": 1,
-        "action": "BUY",
-        "symbol": "ADANIENT",
-        "qty": 2,
-        "price": 2745.1,
-        "cost": 5490.2,
-        "score": {
-          "last": 2745.1,
-          "mom_30m_pct": 0.142,
-          "intraday_pct": 3.238,
-          "rsi": 73.2,
-          "vol_factor": 2.0,
-          "score": 2.185
-        }
-      },
-      {
-        "time": "2026-11-17 23:08:51",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 3,
-        "price": 765.95,
-        "cost": 2297.85,
-        "score": {
-          "last": 765.95,
-          "mom_30m_pct": 0.281,
-          "intraday_pct": 1.484,
-          "rsi": 60.5,
-          "vol_factor": 2.0,
-          "score": 1.867
-        }
-      },
-      {
-        "time": "2026-11-17 23:26:06",
-        "iteration": 2,
         "action": "BUY",
         "symbol": "INDUSINDBK",
-        "qty": 3,
+        "qty": 5,
         "price": 931.0,
-        "cost": 2793.0,
+        "cost": 4655.0,
         "score": {
           "last": 931.0,
           "mom_30m_pct": 0.415,
@@ -155,8 +67,8 @@
         }
       },
       {
-        "time": "2026-11-17 23:26:06",
-        "iteration": 2,
+        "time": "2026-11-18 00:09:21",
+        "iteration": 1,
         "action": "BUY",
         "symbol": "ADANIENT",
         "qty": 1,
@@ -169,23 +81,6 @@
           "rsi": 73.2,
           "vol_factor": 2.0,
           "score": 2.185
-        }
-      },
-      {
-        "time": "2026-11-17 23:26:06",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "DLF",
-        "qty": 3,
-        "price": 765.95,
-        "cost": 2297.85,
-        "score": {
-          "last": 765.95,
-          "mom_30m_pct": 0.281,
-          "intraday_pct": 1.484,
-          "rsi": 60.5,
-          "vol_factor": 2.0,
-          "score": 1.867
         }
       }
     ],
@@ -101676,20 +101571,174 @@
       "n_sells": 28,
       "feedback": "Day P&L \u20b97 on \u20b998888 deployed (0.01%). Worst trade: HDFCBANK (P&L \u20b9-9, -0.19%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
       "profitable": true
+    },
+    {
+      "date": "2026-11-17",
+      "iterations_run": 2,
+      "invested": 15624.0,
+      "realized_pnl": 0.0,
+      "pnl_pct": 0.0,
+      "trades": [
+        {
+          "time": "2026-11-17 23:08:51",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2745.1,
+          "cost": 5490.2,
+          "score": {
+            "last": 2745.1,
+            "mom_30m_pct": 0.142,
+            "intraday_pct": 3.238,
+            "rsi": 73.2,
+            "vol_factor": 2.0,
+            "score": 2.185
+          }
+        },
+        {
+          "time": "2026-11-17 23:08:51",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "DLF",
+          "qty": 3,
+          "price": 765.95,
+          "cost": 2297.85,
+          "score": {
+            "last": 765.95,
+            "mom_30m_pct": 0.281,
+            "intraday_pct": 1.484,
+            "rsi": 60.5,
+            "vol_factor": 2.0,
+            "score": 1.867
+          }
+        },
+        {
+          "time": "2026-11-17 23:26:06",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 931.0,
+          "cost": 2793.0,
+          "score": {
+            "last": 931.0,
+            "mom_30m_pct": 0.415,
+            "intraday_pct": 2.195,
+            "rsi": 61.3,
+            "vol_factor": 2.0,
+            "score": 2.281
+          }
+        },
+        {
+          "time": "2026-11-17 23:26:06",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "ADANIENT",
+          "qty": 1,
+          "price": 2745.1,
+          "cost": 2745.1,
+          "score": {
+            "last": 2745.1,
+            "mom_30m_pct": 0.142,
+            "intraday_pct": 3.238,
+            "rsi": 73.2,
+            "vol_factor": 2.0,
+            "score": 2.185
+          }
+        },
+        {
+          "time": "2026-11-17 23:26:06",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "DLF",
+          "qty": 3,
+          "price": 765.95,
+          "cost": 2297.85,
+          "score": {
+            "last": 765.95,
+            "mom_30m_pct": 0.281,
+            "intraday_pct": 1.484,
+            "rsi": 60.5,
+            "vol_factor": 2.0,
+            "score": 1.867
+          }
+        },
+        {
+          "time": "2026-11-18 00:09:14",
+          "iteration": 3,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 2,
+          "price": 2745.1,
+          "buy_price": 2745.1,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-18 00:09:14",
+          "iteration": 3,
+          "action": "SELL",
+          "symbol": "DLF",
+          "qty": 3,
+          "price": 765.95,
+          "buy_price": 765.95,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-18 00:09:14",
+          "iteration": 3,
+          "action": "SELL",
+          "symbol": "INDUSINDBK",
+          "qty": 3,
+          "price": 931.0,
+          "buy_price": 931.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-18 00:09:14",
+          "iteration": 3,
+          "action": "SELL",
+          "symbol": "ADANIENT",
+          "qty": 1,
+          "price": 2745.1,
+          "buy_price": 2745.1,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-18 00:09:14",
+          "iteration": 3,
+          "action": "SELL",
+          "symbol": "DLF",
+          "qty": 3,
+          "price": 765.95,
+          "buy_price": 765.95,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        }
+      ],
+      "n_buys": 5,
+      "n_sells": 5,
+      "feedback": "Day P&L \u20b90 on \u20b915624 deployed (0.00%). Profitable day \u2014 keep current parameters.",
+      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 126,
+    "total_days": 127,
     "winning_days": 63,
     "losing_days": 47,
     "total_realized_pnl": 1850.65,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-10-12",
-        "note": "Day P&L \u20b90 on \u20b990576 deployed (0.00%). Profitable day \u2014 keep current parameters."
-      },
       {
         "date": "2026-10-13",
         "note": "Day P&L \u20b9264 on \u20b999367 deployed (0.27%). Profitable day \u2014 keep current parameters."
@@ -101805,6 +101854,10 @@
       {
         "date": "2026-11-17",
         "note": "Day P&L \u20b97 on \u20b998888 deployed (0.01%). Worst trade: HDFCBANK (P&L \u20b9-9, -0.19%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
+      {
+        "date": "2026-11-17",
+        "note": "Day P&L \u20b90 on \u20b915624 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
