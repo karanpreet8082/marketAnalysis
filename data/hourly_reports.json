@@ -1,42 +1,5 @@
 [
   {
-    "timestamp": "2026-10-12 18:59 IST",
-    "budget": 50000.0,
-    "allocated": 41851.46,
-    "positions": 6,
-    "summary": {
-      "total_positions": 6,
-      "total_invested": 41851.46,
-      "cash_reserve": 8148.54,
-      "avg_confidence": 0.51,
-      "bucket_allocation": {
-        "conservative": {
-          "amount": 24560.5,
-          "percent": 49.1,
-          "positions": 3
-        },
-        "moderate": {
-          "amount": 9877.0,
-          "percent": 19.8,
-          "positions": 1
-        },
-        "aggressive": {
-          "amount": 7413.96,
-          "percent": 14.8,
-          "positions": 2
-        }
-      },
-      "expected_gain_percent": 5.2,
-      "max_loss_percent": 3.6,
-      "sector_distribution": {
-        "Energy": 1,
-        "Financial Services": 1,
-        "Unknown": 3,
-        "Basic Materials": 1
-      }
-    }
-  },
-  {
     "timestamp": "2026-10-12 21:39 IST",
     "budget": 50000.0,
     "allocated": 41851.46,
@@ -1827,6 +1790,43 @@
         "Financial Services": 3,
         "Industrials": 1,
         "Basic Materials": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-11-17 19:22 IST",
+    "budget": 50000.0,
+    "allocated": 49472.31999999999,
+    "positions": 8,
+    "summary": {
+      "total_positions": 8,
+      "total_invested": 49472.32,
+      "cash_reserve": 527.68,
+      "avg_confidence": 0.52,
+      "bucket_allocation": {
+        "conservative": {
+          "amount": 24976.559999999998,
+          "percent": 50.0,
+          "positions": 3
+        },
+        "moderate": {
+          "amount": 17276.46,
+          "percent": 34.6,
+          "positions": 3
+        },
+        "aggressive": {
+          "amount": 7219.299999999999,
+          "percent": 14.4,
+          "positions": 2
+        }
+      },
+      "expected_gain_percent": 6.6,
+      "max_loss_percent": 4.6,
+      "sector_distribution": {
+        "Unknown": 3,
+        "Basic Materials": 2,
+        "Financial Services": 2,
+        "Industrials": 1
       }
     }
   }
