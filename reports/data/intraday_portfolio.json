@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-11-17",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-11-17 23:08:51",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 7788.05,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 7788.050231933594,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "ADANIENT",
+        "qty": 2,
+        "buy_price": 2745.1,
+        "buy_time": "2026-11-17 23:08:51",
+        "iteration": 1,
+        "score_info": {
+          "last": 2745.1,
+          "mom_30m_pct": 0.142,
+          "intraday_pct": 3.238,
+          "rsi": 73.2,
+          "vol_factor": 2.0,
+          "score": 2.185
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 3,
+        "buy_price": 765.95,
+        "buy_time": "2026-11-17 23:08:51",
+        "iteration": 1,
+        "score_info": {
+          "last": 765.95,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.484,
+          "rsi": 60.5,
+          "vol_factor": 2.0,
+          "score": 1.867
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-11-17 23:08:51",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 2,
+        "price": 2745.1,
+        "cost": 5490.2,
+        "score": {
+          "last": 2745.1,
+          "mom_30m_pct": 0.142,
+          "intraday_pct": 3.238,
+          "rsi": 73.2,
+          "vol_factor": 2.0,
+          "score": 2.185
+        }
+      },
+      {
+        "time": "2026-11-17 23:08:51",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 3,
+        "price": 765.95,
+        "cost": 2297.85,
+        "score": {
+          "last": 765.95,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.484,
+          "rsi": 60.5,
+          "vol_factor": 2.0,
+          "score": 1.867
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
