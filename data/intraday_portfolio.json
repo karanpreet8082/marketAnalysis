@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-17",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,9 +39,27 @@
         "invested_today_after": 32640.45,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 9
+      },
+      {
+        "iteration": 5,
+        "time": "2026-11-17 18:00:27",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 40524.3,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-11-17 18:23:25",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 48360.25,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 32640.450073242188,
+    "invested_today": 48360.250244140625,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -177,6 +195,81 @@
           "rsi": 74.6,
           "vol_factor": 2.0,
           "score": 1.92
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 6,
+        "buy_price": 931.0,
+        "buy_time": "2026-11-17 18:00:27",
+        "iteration": 5,
+        "score_info": {
+          "last": 931.0,
+          "mom_30m_pct": 0.415,
+          "intraday_pct": 2.195,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 2.281
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 3,
+        "buy_price": 765.95,
+        "buy_time": "2026-11-17 18:00:27",
+        "iteration": 5,
+        "score_info": {
+          "last": 765.95,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.484,
+          "rsi": 60.5,
+          "vol_factor": 2.0,
+          "score": 1.867
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "buy_price": 931.0,
+        "buy_time": "2026-11-17 18:23:25",
+        "iteration": 6,
+        "score_info": {
+          "last": 931.0,
+          "mom_30m_pct": 0.415,
+          "intraday_pct": 2.195,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 2.281
+        }
+      },
+      {
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "buy_price": 2745.1,
+        "buy_time": "2026-11-17 18:23:25",
+        "iteration": 6,
+        "score_info": {
+          "last": 2745.1,
+          "mom_30m_pct": 0.142,
+          "intraday_pct": 3.238,
+          "rsi": 73.2,
+          "vol_factor": 2.0,
+          "score": 2.185
+        }
+      },
+      {
+        "symbol": "DLF",
+        "qty": 3,
+        "buy_price": 765.95,
+        "buy_time": "2026-11-17 18:23:25",
+        "iteration": 6,
+        "score_info": {
+          "last": 765.95,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.484,
+          "rsi": 60.5,
+          "vol_factor": 2.0,
+          "score": 1.867
         }
       }
     ],
@@ -332,6 +425,91 @@
           "rsi": 74.6,
           "vol_factor": 2.0,
           "score": 1.92
+        }
+      },
+      {
+        "time": "2026-11-17 18:00:27",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 6,
+        "price": 931.0,
+        "cost": 5586.0,
+        "score": {
+          "last": 931.0,
+          "mom_30m_pct": 0.415,
+          "intraday_pct": 2.195,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 2.281
+        }
+      },
+      {
+        "time": "2026-11-17 18:00:27",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 3,
+        "price": 765.95,
+        "cost": 2297.85,
+        "score": {
+          "last": 765.95,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.484,
+          "rsi": 60.5,
+          "vol_factor": 2.0,
+          "score": 1.867
+        }
+      },
+      {
+        "time": "2026-11-17 18:23:25",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 3,
+        "price": 931.0,
+        "cost": 2793.0,
+        "score": {
+          "last": 931.0,
+          "mom_30m_pct": 0.415,
+          "intraday_pct": 2.195,
+          "rsi": 61.3,
+          "vol_factor": 2.0,
+          "score": 2.281
+        }
+      },
+      {
+        "time": "2026-11-17 18:23:25",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2745.1,
+        "cost": 2745.1,
+        "score": {
+          "last": 2745.1,
+          "mom_30m_pct": 0.142,
+          "intraday_pct": 3.238,
+          "rsi": 73.2,
+          "vol_factor": 2.0,
+          "score": 2.185
+        }
+      },
+      {
+        "time": "2026-11-17 18:23:25",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "DLF",
+        "qty": 3,
+        "price": 765.95,
+        "cost": 2297.85,
+        "score": {
+          "last": 765.95,
+          "mom_30m_pct": 0.281,
+          "intraday_pct": 1.484,
+          "rsi": 60.5,
+          "vol_factor": 2.0,
+          "score": 1.867
         }
       }
     ],
