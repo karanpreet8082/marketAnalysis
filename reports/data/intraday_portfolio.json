@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-18",
     "total_iterations": 14,
-    "iterations_run": 9,
+    "iterations_run": 10,
     "iteration_log": [
       {
         "iteration": 1,
@@ -84,9 +84,18 @@
         "invested_today_after": 74362.3,
         "realized_pnl_today_after": -332.45,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 10,
+        "time": "2026-11-18 21:24:02",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 82869.1,
+        "realized_pnl_today_after": -332.45,
+        "open_positions_after": 24
       }
     ],
-    "invested_today": 74362.30053710938,
+    "invested_today": 82869.1005859375,
     "realized_pnl_today": -332.4503662109373,
     "open_positions": [
       {
@@ -395,6 +404,51 @@
         "buy_price": 305.5,
         "buy_time": "2026-11-18 21:00:49",
         "iteration": 9,
+        "score_info": {
+          "last": 305.5,
+          "mom_30m_pct": 0.427,
+          "intraday_pct": -0.098,
+          "rsi": 63.6,
+          "vol_factor": 2.0,
+          "score": 1.612
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "buy_price": 1130.9,
+        "buy_time": "2026-11-18 21:24:02",
+        "iteration": 10,
+        "score_info": {
+          "last": 1130.9,
+          "mom_30m_pct": 0.865,
+          "intraday_pct": 1.764,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 2.827
+        }
+      },
+      {
+        "symbol": "TRENT",
+        "qty": 1,
+        "buy_price": 3190.0,
+        "buy_time": "2026-11-18 21:24:02",
+        "iteration": 10,
+        "score_info": {
+          "last": 3190.0,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": 0.431,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.682
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 10,
+        "buy_price": 305.5,
+        "buy_time": "2026-11-18 21:24:02",
+        "iteration": 10,
         "score_info": {
           "last": 305.5,
           "mom_30m_pct": 0.427,
@@ -865,6 +919,57 @@
       {
         "time": "2026-11-18 21:00:49",
         "iteration": 9,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 10,
+        "price": 305.5,
+        "cost": 3055.0,
+        "score": {
+          "last": 305.5,
+          "mom_30m_pct": 0.427,
+          "intraday_pct": -0.098,
+          "rsi": 63.6,
+          "vol_factor": 2.0,
+          "score": 1.612
+        }
+      },
+      {
+        "time": "2026-11-18 21:24:02",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 1130.9,
+        "cost": 2261.8,
+        "score": {
+          "last": 1130.9,
+          "mom_30m_pct": 0.865,
+          "intraday_pct": 1.764,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 2.827
+        }
+      },
+      {
+        "time": "2026-11-18 21:24:02",
+        "iteration": 10,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3190.0,
+        "cost": 3190.0,
+        "score": {
+          "last": 3190.0,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": 0.431,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.682
+        }
+      },
+      {
+        "time": "2026-11-18 21:24:02",
+        "iteration": 10,
         "action": "BUY",
         "symbol": "BPCL",
         "qty": 10,
