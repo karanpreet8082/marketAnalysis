@@ -1,5 +1,59 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-11-18",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-11-18 23:42:05",
+        "n_bought": 1,
+        "n_sold": 0,
+        "invested_today_after": 5441.1,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 1
+      }
+    ],
+    "invested_today": 5441.100128173828,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "POWERGRID",
+        "qty": 21,
+        "buy_price": 259.1,
+        "buy_time": "2026-11-18 23:42:05",
+        "iteration": 1,
+        "score_info": {
+          "last": 259.1,
+          "mom_30m_pct": 0.213,
+          "intraday_pct": 0.426,
+          "rsi": 55.9,
+          "vol_factor": 2.0,
+          "score": 1.447
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-11-18 23:42:05",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 21,
+        "price": 259.1,
+        "cost": 5441.1,
+        "score": {
+          "last": 259.1,
+          "mom_30m_pct": 0.213,
+          "intraday_pct": 0.426,
+          "rsi": 55.9,
+          "vol_factor": 2.0,
+          "score": 1.447
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
