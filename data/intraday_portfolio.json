@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-18",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 4,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,69 +21,117 @@
         "invested_today_after": 15731.2,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-11-18 17:47:00",
+        "n_bought": 3,
+        "n_sold": 4,
+        "invested_today_after": 23932.5,
+        "realized_pnl_today_after": -332.45,
+        "open_positions_after": 3
+      },
+      {
+        "iteration": 4,
+        "time": "2026-11-18 18:16:28",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 32133.8,
+        "realized_pnl_today_after": -332.45,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 15731.2001953125,
-    "realized_pnl_today": 0.0,
+    "invested_today": 32133.80029296875,
+    "realized_pnl_today": -332.4503662109373,
     "open_positions": [
       {
-        "symbol": "INDUSINDBK",
-        "qty": 5,
-        "buy_price": 931.0,
-        "buy_time": "2026-11-18 00:09:21",
-        "iteration": 1,
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "buy_price": 1130.9,
+        "buy_time": "2026-11-18 17:47:00",
+        "iteration": 3,
         "score_info": {
-          "last": 931.0,
-          "mom_30m_pct": 0.415,
-          "intraday_pct": 2.195,
-          "rsi": 61.3,
+          "last": 1130.9,
+          "mom_30m_pct": 0.865,
+          "intraday_pct": 1.764,
+          "rsi": 72.2,
           "vol_factor": 2.0,
-          "score": 2.281
+          "score": 2.827
         }
       },
       {
-        "symbol": "ADANIENT",
+        "symbol": "TRENT",
         "qty": 1,
-        "buy_price": 2745.1,
-        "buy_time": "2026-11-18 00:09:21",
-        "iteration": 1,
+        "buy_price": 3190.0,
+        "buy_time": "2026-11-18 17:47:00",
+        "iteration": 3,
         "score_info": {
-          "last": 2745.1,
-          "mom_30m_pct": 0.142,
-          "intraday_pct": 3.238,
-          "rsi": 73.2,
+          "last": 3190.0,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": 0.431,
+          "rsi": 49.3,
           "vol_factor": 2.0,
-          "score": 2.185
+          "score": 1.682
         }
       },
       {
-        "symbol": "INDUSINDBK",
-        "qty": 6,
-        "buy_price": 931.0,
-        "buy_time": "2026-11-18 00:17:16",
-        "iteration": 2,
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 305.5,
+        "buy_time": "2026-11-18 17:47:00",
+        "iteration": 3,
         "score_info": {
-          "last": 931.0,
-          "mom_30m_pct": 0.415,
-          "intraday_pct": 2.195,
-          "rsi": 61.3,
+          "last": 305.5,
+          "mom_30m_pct": 0.427,
+          "intraday_pct": -0.098,
+          "rsi": 63.6,
           "vol_factor": 2.0,
-          "score": 2.281
+          "score": 1.612
         }
       },
       {
-        "symbol": "ADANIENT",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "buy_price": 1130.9,
+        "buy_time": "2026-11-18 18:16:28",
+        "iteration": 4,
+        "score_info": {
+          "last": 1130.9,
+          "mom_30m_pct": 0.865,
+          "intraday_pct": 1.764,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 2.827
+        }
+      },
+      {
+        "symbol": "TRENT",
         "qty": 1,
-        "buy_price": 2745.1,
-        "buy_time": "2026-11-18 00:17:16",
-        "iteration": 2,
+        "buy_price": 3190.0,
+        "buy_time": "2026-11-18 18:16:28",
+        "iteration": 4,
         "score_info": {
-          "last": 2745.1,
-          "mom_30m_pct": 0.142,
-          "intraday_pct": 3.238,
-          "rsi": 73.2,
+          "last": 3190.0,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": 0.431,
+          "rsi": 49.3,
           "vol_factor": 2.0,
-          "score": 2.185
+          "score": 1.682
+        }
+      },
+      {
+        "symbol": "BPCL",
+        "qty": 9,
+        "buy_price": 305.5,
+        "buy_time": "2026-11-18 18:16:28",
+        "iteration": 4,
+        "score_info": {
+          "last": 305.5,
+          "mom_30m_pct": 0.427,
+          "intraday_pct": -0.098,
+          "rsi": 63.6,
+          "vol_factor": 2.0,
+          "score": 1.612
         }
       }
     ],
@@ -154,6 +202,156 @@
           "rsi": 73.2,
           "vol_factor": 2.0,
           "score": 2.185
+        }
+      },
+      {
+        "time": "2026-11-18 17:47:00",
+        "iteration": 3,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 5,
+        "price": 911.85,
+        "buy_price": 931.0,
+        "pnl": -95.75,
+        "pnl_pct": -2.06,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-11-18 17:47:00",
+        "iteration": 3,
+        "action": "SELL",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2684.2,
+        "buy_price": 2745.1,
+        "pnl": -60.9,
+        "pnl_pct": -2.22,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-11-18 17:47:00",
+        "iteration": 3,
+        "action": "SELL",
+        "symbol": "INDUSINDBK",
+        "qty": 6,
+        "price": 911.85,
+        "buy_price": 931.0,
+        "pnl": -114.9,
+        "pnl_pct": -2.06,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-11-18 17:47:00",
+        "iteration": 3,
+        "action": "SELL",
+        "symbol": "ADANIENT",
+        "qty": 1,
+        "price": 2684.2,
+        "buy_price": 2745.1,
+        "pnl": -60.9,
+        "pnl_pct": -2.22,
+        "reason": "STOP_LOSS"
+      },
+      {
+        "time": "2026-11-18 17:47:00",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 1130.9,
+        "cost": 2261.8,
+        "score": {
+          "last": 1130.9,
+          "mom_30m_pct": 0.865,
+          "intraday_pct": 1.764,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 2.827
+        }
+      },
+      {
+        "time": "2026-11-18 17:47:00",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3190.0,
+        "cost": 3190.0,
+        "score": {
+          "last": 3190.0,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": 0.431,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.682
+        }
+      },
+      {
+        "time": "2026-11-18 17:47:00",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 305.5,
+        "cost": 2749.5,
+        "score": {
+          "last": 305.5,
+          "mom_30m_pct": 0.427,
+          "intraday_pct": -0.098,
+          "rsi": 63.6,
+          "vol_factor": 2.0,
+          "score": 1.612
+        }
+      },
+      {
+        "time": "2026-11-18 18:16:28",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 1130.9,
+        "cost": 2261.8,
+        "score": {
+          "last": 1130.9,
+          "mom_30m_pct": 0.865,
+          "intraday_pct": 1.764,
+          "rsi": 72.2,
+          "vol_factor": 2.0,
+          "score": 2.827
+        }
+      },
+      {
+        "time": "2026-11-18 18:16:28",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "TRENT",
+        "qty": 1,
+        "price": 3190.0,
+        "cost": 3190.0,
+        "score": {
+          "last": 3190.0,
+          "mom_30m_pct": 0.368,
+          "intraday_pct": 0.431,
+          "rsi": 49.3,
+          "vol_factor": 2.0,
+          "score": 1.682
+        }
+      },
+      {
+        "time": "2026-11-18 18:16:28",
+        "iteration": 4,
+        "action": "BUY",
+        "symbol": "BPCL",
+        "qty": 9,
+        "price": 305.5,
+        "cost": 2749.5,
+        "score": {
+          "last": 305.5,
+          "mom_30m_pct": 0.427,
+          "intraday_pct": -0.098,
+          "rsi": 63.6,
+          "vol_factor": 2.0,
+          "score": 1.612
         }
       }
     ],
