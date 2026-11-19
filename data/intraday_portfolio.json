@@ -1,159 +1,159 @@
 {
   "current_day": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "total_iterations": 14,
     "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
-        "time": "2026-11-18 23:42:05",
-        "n_bought": 1,
+        "time": "2026-11-19 17:41:47",
+        "n_bought": 2,
         "n_sold": 0,
-        "invested_today_after": 5441.1,
+        "invested_today_after": 8137.0,
         "realized_pnl_today_after": 0.0,
-        "open_positions_after": 1
+        "open_positions_after": 2
       },
       {
         "iteration": 2,
-        "time": "2026-11-18 23:56:10",
-        "n_bought": 3,
+        "time": "2026-11-19 18:07:45",
+        "n_bought": 2,
         "n_sold": 0,
-        "invested_today_after": 13947.9,
+        "invested_today_after": 16407.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
       }
     ],
-    "invested_today": 13947.900177001953,
+    "invested_today": 16407.0,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
-        "symbol": "POWERGRID",
-        "qty": 21,
-        "buy_price": 259.1,
-        "buy_time": "2026-11-18 23:42:05",
+        "symbol": "SIEMENS",
+        "qty": 1,
+        "buy_price": 3610.0,
+        "buy_time": "2026-11-19 17:41:47",
         "iteration": 1,
         "score_info": {
-          "last": 259.1,
-          "mom_30m_pct": 0.213,
-          "intraday_pct": 0.426,
-          "rsi": 55.9,
-          "vol_factor": 2.0,
-          "score": 1.447
+          "last": 3610.0,
+          "mom_30m_pct": 0.706,
+          "intraday_pct": 2.557,
+          "rsi": 61.3,
+          "vol_factor": 1.61,
+          "score": 2.437
         }
       },
       {
-        "symbol": "TATACONSUM",
-        "qty": 2,
-        "buy_price": 1130.9,
-        "buy_time": "2026-11-18 23:56:10",
-        "iteration": 2,
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "buy_price": 503.0,
+        "buy_time": "2026-11-19 17:41:47",
+        "iteration": 1,
         "score_info": {
-          "last": 1130.9,
-          "mom_30m_pct": 0.865,
-          "intraday_pct": 1.764,
-          "rsi": 72.2,
+          "last": 503.0,
+          "mom_30m_pct": 0.53,
+          "intraday_pct": 1.729,
+          "rsi": 62.0,
           "vol_factor": 2.0,
-          "score": 2.827
+          "score": 2.313
         }
       },
       {
-        "symbol": "TRENT",
+        "symbol": "M&M",
         "qty": 1,
-        "buy_price": 3190.0,
-        "buy_time": "2026-11-18 23:56:10",
+        "buy_price": 3509.0,
+        "buy_time": "2026-11-19 18:07:45",
         "iteration": 2,
         "score_info": {
-          "last": 3190.0,
-          "mom_30m_pct": 0.368,
-          "intraday_pct": 0.431,
-          "rsi": 49.3,
-          "vol_factor": 2.0,
-          "score": 1.682
+          "last": 3509.0,
+          "mom_30m_pct": 0.286,
+          "intraday_pct": 4.463,
+          "rsi": 62.1,
+          "vol_factor": 1.88,
+          "score": 2.644
         }
       },
       {
-        "symbol": "BPCL",
-        "qty": 10,
-        "buy_price": 305.5,
-        "buy_time": "2026-11-18 23:56:10",
+        "symbol": "POWERGRID",
+        "qty": 18,
+        "buy_price": 264.5,
+        "buy_time": "2026-11-19 18:07:45",
         "iteration": 2,
         "score_info": {
-          "last": 305.5,
-          "mom_30m_pct": 0.427,
-          "intraday_pct": -0.098,
-          "rsi": 63.6,
+          "last": 264.5,
+          "mom_30m_pct": 0.666,
+          "intraday_pct": 2.084,
+          "rsi": 73.9,
           "vol_factor": 2.0,
-          "score": 1.612
+          "score": 2.624
         }
       }
     ],
     "trades": [
       {
-        "time": "2026-11-18 23:42:05",
+        "time": "2026-11-19 17:41:47",
         "iteration": 1,
         "action": "BUY",
-        "symbol": "POWERGRID",
-        "qty": 21,
-        "price": 259.1,
-        "cost": 5441.1,
-        "score": {
-          "last": 259.1,
-          "mom_30m_pct": 0.213,
-          "intraday_pct": 0.426,
-          "rsi": 55.9,
-          "vol_factor": 2.0,
-          "score": 1.447
-        }
-      },
-      {
-        "time": "2026-11-18 23:56:10",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "TATACONSUM",
-        "qty": 2,
-        "price": 1130.9,
-        "cost": 2261.8,
-        "score": {
-          "last": 1130.9,
-          "mom_30m_pct": 0.865,
-          "intraday_pct": 1.764,
-          "rsi": 72.2,
-          "vol_factor": 2.0,
-          "score": 2.827
-        }
-      },
-      {
-        "time": "2026-11-18 23:56:10",
-        "iteration": 2,
-        "action": "BUY",
-        "symbol": "TRENT",
+        "symbol": "SIEMENS",
         "qty": 1,
-        "price": 3190.0,
-        "cost": 3190.0,
+        "price": 3610.0,
+        "cost": 3610.0,
         "score": {
-          "last": 3190.0,
-          "mom_30m_pct": 0.368,
-          "intraday_pct": 0.431,
-          "rsi": 49.3,
-          "vol_factor": 2.0,
-          "score": 1.682
+          "last": 3610.0,
+          "mom_30m_pct": 0.706,
+          "intraday_pct": 2.557,
+          "rsi": 61.3,
+          "vol_factor": 1.61,
+          "score": 2.437
         }
       },
       {
-        "time": "2026-11-18 23:56:10",
+        "time": "2026-11-19 17:41:47",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 9,
+        "price": 503.0,
+        "cost": 4527.0,
+        "score": {
+          "last": 503.0,
+          "mom_30m_pct": 0.53,
+          "intraday_pct": 1.729,
+          "rsi": 62.0,
+          "vol_factor": 2.0,
+          "score": 2.313
+        }
+      },
+      {
+        "time": "2026-11-19 18:07:45",
         "iteration": 2,
         "action": "BUY",
-        "symbol": "BPCL",
-        "qty": 10,
-        "price": 305.5,
-        "cost": 3055.0,
+        "symbol": "M&M",
+        "qty": 1,
+        "price": 3509.0,
+        "cost": 3509.0,
         "score": {
-          "last": 305.5,
-          "mom_30m_pct": 0.427,
-          "intraday_pct": -0.098,
-          "rsi": 63.6,
+          "last": 3509.0,
+          "mom_30m_pct": 0.286,
+          "intraday_pct": 4.463,
+          "rsi": 62.1,
+          "vol_factor": 1.88,
+          "score": 2.644
+        }
+      },
+      {
+        "time": "2026-11-19 18:07:45",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "POWERGRID",
+        "qty": 18,
+        "price": 264.5,
+        "cost": 4761.0,
+        "score": {
+          "last": 264.5,
+          "mom_30m_pct": 0.666,
+          "intraday_pct": 2.084,
+          "rsi": 73.9,
           "vol_factor": 2.0,
-          "score": 1.612
+          "score": 2.624
         }
       }
     ],
@@ -102801,20 +102801,145 @@
       "n_sells": 34,
       "feedback": "Day P&L \u20b9-332 on \u20b999883 deployed (-0.33%). Worst trade: INDUSINDBK (P&L \u20b9-115, -2.06%). Consider tighter stop on entries with weaker momentum scores. 30 EOD force-sells contributed \u20b90. Earlier intraday exits (lower take-profit threshold) might have preserved capital.",
       "profitable": false
+    },
+    {
+      "date": "2026-11-18",
+      "iterations_run": 2,
+      "invested": 13947.9,
+      "realized_pnl": 0.0,
+      "pnl_pct": 0.0,
+      "trades": [
+        {
+          "time": "2026-11-18 23:42:05",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "POWERGRID",
+          "qty": 21,
+          "price": 259.1,
+          "cost": 5441.1,
+          "score": {
+            "last": 259.1,
+            "mom_30m_pct": 0.213,
+            "intraday_pct": 0.426,
+            "rsi": 55.9,
+            "vol_factor": 2.0,
+            "score": 1.447
+          }
+        },
+        {
+          "time": "2026-11-18 23:56:10",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "TATACONSUM",
+          "qty": 2,
+          "price": 1130.9,
+          "cost": 2261.8,
+          "score": {
+            "last": 1130.9,
+            "mom_30m_pct": 0.865,
+            "intraday_pct": 1.764,
+            "rsi": 72.2,
+            "vol_factor": 2.0,
+            "score": 2.827
+          }
+        },
+        {
+          "time": "2026-11-18 23:56:10",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3190.0,
+          "cost": 3190.0,
+          "score": {
+            "last": 3190.0,
+            "mom_30m_pct": 0.368,
+            "intraday_pct": 0.431,
+            "rsi": 49.3,
+            "vol_factor": 2.0,
+            "score": 1.682
+          }
+        },
+        {
+          "time": "2026-11-18 23:56:10",
+          "iteration": 2,
+          "action": "BUY",
+          "symbol": "BPCL",
+          "qty": 10,
+          "price": 305.5,
+          "cost": 3055.0,
+          "score": {
+            "last": 305.5,
+            "mom_30m_pct": 0.427,
+            "intraday_pct": -0.098,
+            "rsi": 63.6,
+            "vol_factor": 2.0,
+            "score": 1.612
+          }
+        },
+        {
+          "time": "2026-11-19 17:41:40",
+          "iteration": 3,
+          "action": "SELL",
+          "symbol": "POWERGRID",
+          "qty": 21,
+          "price": 259.1,
+          "buy_price": 259.1,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-19 17:41:40",
+          "iteration": 3,
+          "action": "SELL",
+          "symbol": "TATACONSUM",
+          "qty": 2,
+          "price": 1130.9,
+          "buy_price": 1130.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-19 17:41:40",
+          "iteration": 3,
+          "action": "SELL",
+          "symbol": "TRENT",
+          "qty": 1,
+          "price": 3190.0,
+          "buy_price": 3190.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-19 17:41:40",
+          "iteration": 3,
+          "action": "SELL",
+          "symbol": "BPCL",
+          "qty": 10,
+          "price": 305.5,
+          "buy_price": 305.5,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        }
+      ],
+      "n_buys": 4,
+      "n_sells": 4,
+      "feedback": "Day P&L \u20b90 on \u20b913948 deployed (0.00%). Profitable day \u2014 keep current parameters.",
+      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 128,
+    "total_days": 129,
     "winning_days": 63,
     "losing_days": 48,
     "total_realized_pnl": 1518.2,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-10-13",
-        "note": "Day P&L \u20b90 on \u20b913099 deployed (0.00%). Profitable day \u2014 keep current parameters."
-      },
       {
         "date": "2026-10-14",
         "note": "Day P&L \u20b945 on \u20b999380 deployed (0.05%). Worst trade: WIPRO (P&L \u20b9-14, -0.25%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -102930,6 +103055,10 @@
       {
         "date": "2026-11-18",
         "note": "Day P&L \u20b9-332 on \u20b999883 deployed (-0.33%). Worst trade: INDUSINDBK (P&L \u20b9-115, -2.06%). Consider tighter stop on entries with weaker momentum scores. 30 EOD force-sells contributed \u20b90. Earlier intraday exits (lower take-profit threshold) might have preserved capital."
+      },
+      {
+        "date": "2026-11-18",
+        "note": "Day P&L \u20b90 on \u20b913948 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
