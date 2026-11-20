@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-20",
     "total_iterations": 14,
-    "iterations_run": 8,
+    "iterations_run": 9,
     "iteration_log": [
       {
         "iteration": 1,
@@ -75,9 +75,18 @@
         "invested_today_after": 65560.6,
         "realized_pnl_today_after": 117.0,
         "open_positions_after": 21
+      },
+      {
+        "iteration": 9,
+        "time": "2026-11-20 21:10:57",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 74113.4,
+        "realized_pnl_today_after": 117.0,
+        "open_positions_after": 24
       }
     ],
-    "invested_today": 65560.59954833984,
+    "invested_today": 74113.39947509766,
     "realized_pnl_today": 117.0,
     "open_positions": [
       {
@@ -386,6 +395,51 @@
         "buy_price": 515.8,
         "buy_time": "2026-11-20 20:48:55",
         "iteration": 8,
+        "score_info": {
+          "last": 515.8,
+          "mom_30m_pct": 0.448,
+          "intraday_pct": 2.545,
+          "rsi": 67.1,
+          "vol_factor": 2.0,
+          "score": 2.435
+        }
+      },
+      {
+        "symbol": "AXISBANK",
+        "qty": 1,
+        "buy_price": 1446.0,
+        "buy_time": "2026-11-20 21:10:57",
+        "iteration": 9,
+        "score_info": {
+          "last": 1446.0,
+          "mom_30m_pct": 0.563,
+          "intraday_pct": 4.722,
+          "rsi": 60.6,
+          "vol_factor": 2.0,
+          "score": 3.262
+        }
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "qty": 4,
+        "buy_price": 1003.0,
+        "buy_time": "2026-11-20 21:10:57",
+        "iteration": 9,
+        "score_info": {
+          "last": 1003.0,
+          "mom_30m_pct": 0.738,
+          "intraday_pct": 8.591,
+          "rsi": 68.2,
+          "vol_factor": 0.57,
+          "score": 3.253
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "qty": 6,
+        "buy_price": 515.8,
+        "buy_time": "2026-11-20 21:10:57",
+        "iteration": 9,
         "score_info": {
           "last": 515.8,
           "mom_30m_pct": 0.448,
@@ -798,6 +852,57 @@
       {
         "time": "2026-11-20 20:48:55",
         "iteration": 8,
+        "action": "BUY",
+        "symbol": "KOTAKBANK",
+        "qty": 6,
+        "price": 515.8,
+        "cost": 3094.8,
+        "score": {
+          "last": 515.8,
+          "mom_30m_pct": 0.448,
+          "intraday_pct": 2.545,
+          "rsi": 67.1,
+          "vol_factor": 2.0,
+          "score": 2.435
+        }
+      },
+      {
+        "time": "2026-11-20 21:10:57",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "AXISBANK",
+        "qty": 1,
+        "price": 1446.0,
+        "cost": 1446.0,
+        "score": {
+          "last": 1446.0,
+          "mom_30m_pct": 0.563,
+          "intraday_pct": 4.722,
+          "rsi": 60.6,
+          "vol_factor": 2.0,
+          "score": 3.262
+        }
+      },
+      {
+        "time": "2026-11-20 21:10:57",
+        "iteration": 9,
+        "action": "BUY",
+        "symbol": "INDUSINDBK",
+        "qty": 4,
+        "price": 1003.0,
+        "cost": 4012.0,
+        "score": {
+          "last": 1003.0,
+          "mom_30m_pct": 0.738,
+          "intraday_pct": 8.591,
+          "rsi": 68.2,
+          "vol_factor": 0.57,
+          "score": 3.253
+        }
+      },
+      {
+        "time": "2026-11-20 21:10:57",
+        "iteration": 9,
         "action": "BUY",
         "symbol": "KOTAKBANK",
         "qty": 6,
