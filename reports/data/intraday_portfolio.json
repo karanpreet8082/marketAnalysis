@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-23",
     "total_iterations": 14,
-    "iterations_run": 5,
+    "iterations_run": 6,
     "iteration_log": [
       {
         "iteration": 1,
@@ -48,9 +48,18 @@
         "invested_today_after": 38589.3,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 6,
+        "time": "2026-11-23 21:55:58",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 45658.0,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 38589.30065917969,
+    "invested_today": 45658.000732421875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -216,6 +225,51 @@
           "rsi": 42.1,
           "vol_factor": 2.0,
           "score": 1.477
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2460.0,
+        "buy_time": "2026-11-23 21:55:58",
+        "iteration": 6,
+        "score_info": {
+          "last": 2460.0,
+          "mom_30m_pct": 0.171,
+          "intraday_pct": 3.527,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 2.315
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1364.3,
+        "buy_time": "2026-11-23 21:55:58",
+        "iteration": 6,
+        "score_info": {
+          "last": 1364.3,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.48,
+          "rsi": 42.1,
+          "vol_factor": 2.0,
+          "score": 1.477
+        }
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "buy_price": 1880.1,
+        "buy_time": "2026-11-23 21:55:58",
+        "iteration": 6,
+        "score_info": {
+          "last": 1880.1,
+          "mom_30m_pct": 0.304,
+          "intraday_pct": -0.629,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 1.267
         }
       }
     ],
@@ -405,6 +459,57 @@
           "rsi": 42.1,
           "vol_factor": 2.0,
           "score": 1.477
+        }
+      },
+      {
+        "time": "2026-11-23 21:55:58",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2460.0,
+        "cost": 2460.0,
+        "score": {
+          "last": 2460.0,
+          "mom_30m_pct": 0.171,
+          "intraday_pct": 3.527,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 2.315
+        }
+      },
+      {
+        "time": "2026-11-23 21:55:58",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1364.3,
+        "cost": 2728.6,
+        "score": {
+          "last": 1364.3,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.48,
+          "rsi": 42.1,
+          "vol_factor": 2.0,
+          "score": 1.477
+        }
+      },
+      {
+        "time": "2026-11-23 21:55:58",
+        "iteration": 6,
+        "action": "BUY",
+        "symbol": "BAJAJFINSV",
+        "qty": 1,
+        "price": 1880.1,
+        "cost": 1880.1,
+        "score": {
+          "last": 1880.1,
+          "mom_30m_pct": 0.304,
+          "intraday_pct": -0.629,
+          "rsi": 68.2,
+          "vol_factor": 2.0,
+          "score": 1.267
         }
       }
     ],
