@@ -1,118 +1,118 @@
 {
   "current_day": {
-    "date": "2026-11-23",
+    "date": "2026-11-20",
     "total_iterations": 14,
     "iterations_run": 1,
     "iteration_log": [
       {
         "iteration": 1,
-        "time": "2026-11-23 19:11:44",
+        "time": "2026-11-20 23:33:16",
         "n_bought": 3,
         "n_sold": 0,
-        "invested_today_after": 6920.5,
+        "invested_today_after": 8037.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
       }
     ],
-    "invested_today": 6920.4998779296875,
+    "invested_today": 8036.999938964844,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
-        "symbol": "TCS",
+        "symbol": "AXISBANK",
         "qty": 1,
-        "buy_price": 2460.0,
-        "buy_time": "2026-11-23 19:11:44",
+        "buy_price": 1446.0,
+        "buy_time": "2026-11-20 23:33:16",
         "iteration": 1,
         "score_info": {
-          "last": 2460.0,
-          "mom_30m_pct": 0.171,
-          "intraday_pct": 3.527,
-          "rsi": 57.6,
+          "last": 1446.0,
+          "mom_30m_pct": 0.563,
+          "intraday_pct": 4.722,
+          "rsi": 60.6,
           "vol_factor": 2.0,
-          "score": 2.315
+          "score": 3.262
         }
       },
       {
-        "symbol": "BAJAJFINSV",
-        "qty": 1,
-        "buy_price": 1880.1,
-        "buy_time": "2026-11-23 19:11:44",
+        "symbol": "INDUSINDBK",
+        "qty": 4,
+        "buy_price": 1003.0,
+        "buy_time": "2026-11-20 23:33:16",
         "iteration": 1,
         "score_info": {
-          "last": 1880.1,
-          "mom_30m_pct": 0.304,
-          "intraday_pct": -0.629,
+          "last": 1003.0,
+          "mom_30m_pct": 0.738,
+          "intraday_pct": 8.591,
           "rsi": 68.2,
-          "vol_factor": 2.0,
-          "score": 1.267
+          "vol_factor": 0.57,
+          "score": 3.253
         }
       },
       {
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "buy_price": 2580.4,
-        "buy_time": "2026-11-23 19:11:44",
+        "symbol": "KOTAKBANK",
+        "qty": 5,
+        "buy_price": 515.8,
+        "buy_time": "2026-11-20 23:33:16",
         "iteration": 1,
         "score_info": {
-          "last": 2580.4,
-          "mom_30m_pct": 0.389,
-          "intraday_pct": -1.07,
-          "rsi": 57.1,
+          "last": 515.8,
+          "mom_30m_pct": 0.448,
+          "intraday_pct": 2.545,
+          "rsi": 67.1,
           "vol_factor": 2.0,
-          "score": 1.263
+          "score": 2.435
         }
       }
     ],
     "trades": [
       {
-        "time": "2026-11-23 19:11:44",
+        "time": "2026-11-20 23:33:16",
         "iteration": 1,
         "action": "BUY",
-        "symbol": "TCS",
+        "symbol": "AXISBANK",
         "qty": 1,
-        "price": 2460.0,
-        "cost": 2460.0,
+        "price": 1446.0,
+        "cost": 1446.0,
         "score": {
-          "last": 2460.0,
-          "mom_30m_pct": 0.171,
-          "intraday_pct": 3.527,
-          "rsi": 57.6,
+          "last": 1446.0,
+          "mom_30m_pct": 0.563,
+          "intraday_pct": 4.722,
+          "rsi": 60.6,
           "vol_factor": 2.0,
-          "score": 2.315
+          "score": 3.262
         }
       },
       {
-        "time": "2026-11-23 19:11:44",
+        "time": "2026-11-20 23:33:16",
         "iteration": 1,
         "action": "BUY",
-        "symbol": "BAJAJFINSV",
-        "qty": 1,
-        "price": 1880.1,
-        "cost": 1880.1,
+        "symbol": "INDUSINDBK",
+        "qty": 4,
+        "price": 1003.0,
+        "cost": 4012.0,
         "score": {
-          "last": 1880.1,
-          "mom_30m_pct": 0.304,
-          "intraday_pct": -0.629,
+          "last": 1003.0,
+          "mom_30m_pct": 0.738,
+          "intraday_pct": 8.591,
           "rsi": 68.2,
-          "vol_factor": 2.0,
-          "score": 1.267
+          "vol_factor": 0.57,
+          "score": 3.253
         }
       },
       {
-        "time": "2026-11-23 19:11:44",
+        "time": "2026-11-20 23:33:16",
         "iteration": 1,
         "action": "BUY",
-        "symbol": "ASIANPAINT",
-        "qty": 1,
-        "price": 2580.4,
-        "cost": 2580.4,
+        "symbol": "KOTAKBANK",
+        "qty": 5,
+        "price": 515.8,
+        "cost": 2579.0,
         "score": {
-          "last": 2580.4,
-          "mom_30m_pct": 0.389,
-          "intraday_pct": -1.07,
-          "rsi": 57.1,
+          "last": 515.8,
+          "mom_30m_pct": 0.448,
+          "intraday_pct": 2.545,
+          "rsi": 67.1,
           "vol_factor": 2.0,
-          "score": 1.263
+          "score": 2.435
         }
       }
     ],
@@ -104568,116 +104568,20 @@
       "n_sells": 35,
       "feedback": "Day P&L \u20b9117 on \u20b999728 deployed (0.12%). Profitable day \u2014 keep current parameters.",
       "profitable": true
-    },
-    {
-      "date": "2026-11-20",
-      "iterations_run": 1,
-      "invested": 8037.0,
-      "realized_pnl": 0.0,
-      "pnl_pct": 0.0,
-      "trades": [
-        {
-          "time": "2026-11-20 23:33:16",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "AXISBANK",
-          "qty": 1,
-          "price": 1446.0,
-          "cost": 1446.0,
-          "score": {
-            "last": 1446.0,
-            "mom_30m_pct": 0.563,
-            "intraday_pct": 4.722,
-            "rsi": 60.6,
-            "vol_factor": 2.0,
-            "score": 3.262
-          }
-        },
-        {
-          "time": "2026-11-20 23:33:16",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "INDUSINDBK",
-          "qty": 4,
-          "price": 1003.0,
-          "cost": 4012.0,
-          "score": {
-            "last": 1003.0,
-            "mom_30m_pct": 0.738,
-            "intraday_pct": 8.591,
-            "rsi": 68.2,
-            "vol_factor": 0.57,
-            "score": 3.253
-          }
-        },
-        {
-          "time": "2026-11-20 23:33:16",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "KOTAKBANK",
-          "qty": 5,
-          "price": 515.8,
-          "cost": 2579.0,
-          "score": {
-            "last": 515.8,
-            "mom_30m_pct": 0.448,
-            "intraday_pct": 2.545,
-            "rsi": 67.1,
-            "vol_factor": 2.0,
-            "score": 2.435
-          }
-        },
-        {
-          "time": "2026-11-23 19:11:37",
-          "iteration": 2,
-          "action": "SELL",
-          "symbol": "AXISBANK",
-          "qty": 1,
-          "price": 1446.0,
-          "buy_price": 1446.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-11-23 19:11:37",
-          "iteration": 2,
-          "action": "SELL",
-          "symbol": "INDUSINDBK",
-          "qty": 4,
-          "price": 1003.0,
-          "buy_price": 1003.0,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-11-23 19:11:37",
-          "iteration": 2,
-          "action": "SELL",
-          "symbol": "KOTAKBANK",
-          "qty": 5,
-          "price": 515.8,
-          "buy_price": 515.8,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        }
-      ],
-      "n_buys": 3,
-      "n_sells": 3,
-      "feedback": "Day P&L \u20b90 on \u20b98037 deployed (0.00%). Profitable day \u2014 keep current parameters.",
-      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 132,
+    "total_days": 131,
     "winning_days": 64,
     "losing_days": 48,
     "total_realized_pnl": 1635.2,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-10-16",
+        "note": "Day P&L \u20b958 on \u20b999108 deployed (0.06%). Worst trade: BPCL (P&L \u20b9-26, -0.98%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
+      },
       {
         "date": "2026-10-19",
         "note": "Day P&L \u20b948 on \u20b999407 deployed (0.05%). Worst trade: DLF (P&L \u20b9-3, -0.12%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -104793,10 +104697,6 @@
       {
         "date": "2026-11-20",
         "note": "Day P&L \u20b9117 on \u20b999728 deployed (0.12%). Profitable day \u2014 keep current parameters."
-      },
-      {
-        "date": "2026-11-20",
-        "note": "Day P&L \u20b90 on \u20b98037 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
