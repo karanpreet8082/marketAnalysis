@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-24",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 14406.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 4
+      },
+      {
+        "iteration": 3,
+        "time": "2026-11-24 00:58:57",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 19594.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 14406.000244140625,
+    "invested_today": 19594.600341796875,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -77,6 +86,36 @@
         "buy_price": 1364.3,
         "buy_time": "2026-11-24 00:39:59",
         "iteration": 2,
+        "score_info": {
+          "last": 1364.3,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.48,
+          "rsi": 42.1,
+          "vol_factor": 2.0,
+          "score": 1.477
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2460.0,
+        "buy_time": "2026-11-24 00:58:57",
+        "iteration": 3,
+        "score_info": {
+          "last": 2460.0,
+          "mom_30m_pct": 0.171,
+          "intraday_pct": 3.527,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 2.315
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1364.3,
+        "buy_time": "2026-11-24 00:58:57",
+        "iteration": 3,
         "score_info": {
           "last": 1364.3,
           "mom_30m_pct": 0.022,
@@ -147,6 +186,40 @@
         "qty": 4,
         "price": 1364.3,
         "cost": 5457.2,
+        "score": {
+          "last": 1364.3,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.48,
+          "rsi": 42.1,
+          "vol_factor": 2.0,
+          "score": 1.477
+        }
+      },
+      {
+        "time": "2026-11-24 00:58:57",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2460.0,
+        "cost": 2460.0,
+        "score": {
+          "last": 2460.0,
+          "mom_30m_pct": 0.171,
+          "intraday_pct": 3.527,
+          "rsi": 57.6,
+          "vol_factor": 2.0,
+          "score": 2.315
+        }
+      },
+      {
+        "time": "2026-11-24 00:58:57",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1364.3,
+        "cost": 2728.6,
         "score": {
           "last": 1364.3,
           "mom_30m_pct": 0.022,
