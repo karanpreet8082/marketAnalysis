@@ -1,54 +1,86 @@
 {
   "current_day": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "total_iterations": 14,
     "iterations_run": 1,
     "iteration_log": [
       {
         "iteration": 1,
-        "time": "2026-11-24 23:36:03",
-        "n_bought": 1,
+        "time": "2026-11-25 00:18:39",
+        "n_bought": 2,
         "n_sold": 0,
-        "invested_today_after": 7741.2,
+        "invested_today_after": 7917.2,
         "realized_pnl_today_after": 0.0,
-        "open_positions_after": 1
+        "open_positions_after": 2
       }
     ],
-    "invested_today": 7741.19970703125,
+    "invested_today": 7917.2001953125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
-        "symbol": "ASIANPAINT",
-        "qty": 3,
-        "buy_price": 2580.4,
-        "buy_time": "2026-11-24 23:36:03",
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2460.0,
+        "buy_time": "2026-11-25 00:18:39",
         "iteration": 1,
         "score_info": {
-          "last": 2580.4,
-          "mom_30m_pct": 0.389,
-          "intraday_pct": -1.07,
-          "rsi": 57.1,
+          "last": 2460.0,
+          "mom_30m_pct": 0.171,
+          "intraday_pct": 3.527,
+          "rsi": 57.6,
           "vol_factor": 2.0,
-          "score": 1.263
+          "score": 2.315
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 4,
+        "buy_price": 1364.3,
+        "buy_time": "2026-11-25 00:18:39",
+        "iteration": 1,
+        "score_info": {
+          "last": 1364.3,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.48,
+          "rsi": 42.1,
+          "vol_factor": 2.0,
+          "score": 1.477
         }
       }
     ],
     "trades": [
       {
-        "time": "2026-11-24 23:36:03",
+        "time": "2026-11-25 00:18:39",
         "iteration": 1,
         "action": "BUY",
-        "symbol": "ASIANPAINT",
-        "qty": 3,
-        "price": 2580.4,
-        "cost": 7741.2,
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2460.0,
+        "cost": 2460.0,
         "score": {
-          "last": 2580.4,
-          "mom_30m_pct": 0.389,
-          "intraday_pct": -1.07,
-          "rsi": 57.1,
+          "last": 2460.0,
+          "mom_30m_pct": 0.171,
+          "intraday_pct": 3.527,
+          "rsi": 57.6,
           "vol_factor": 2.0,
-          "score": 1.263
+          "score": 2.315
+        }
+      },
+      {
+        "time": "2026-11-25 00:18:39",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 4,
+        "price": 1364.3,
+        "cost": 5457.2,
+        "score": {
+          "last": 1364.3,
+          "mom_30m_pct": 0.022,
+          "intraday_pct": 1.48,
+          "rsi": 42.1,
+          "vol_factor": 2.0,
+          "score": 1.477
         }
       }
     ],
@@ -105848,20 +105880,58 @@
       "n_sells": 26,
       "feedback": "Day P&L \u20b90 on \u20b999290 deployed (0.00%). Profitable day \u2014 keep current parameters.",
       "profitable": true
+    },
+    {
+      "date": "2026-11-24",
+      "iterations_run": 1,
+      "invested": 7741.2,
+      "realized_pnl": 0.0,
+      "pnl_pct": 0.0,
+      "trades": [
+        {
+          "time": "2026-11-24 23:36:03",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "ASIANPAINT",
+          "qty": 3,
+          "price": 2580.4,
+          "cost": 7741.2,
+          "score": {
+            "last": 2580.4,
+            "mom_30m_pct": 0.389,
+            "intraday_pct": -1.07,
+            "rsi": 57.1,
+            "vol_factor": 2.0,
+            "score": 1.263
+          }
+        },
+        {
+          "time": "2026-11-25 00:18:28",
+          "iteration": 2,
+          "action": "SELL",
+          "symbol": "ASIANPAINT",
+          "qty": 3,
+          "price": 2580.4,
+          "buy_price": 2580.4,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        }
+      ],
+      "n_buys": 1,
+      "n_sells": 1,
+      "feedback": "Day P&L \u20b90 on \u20b97741 deployed (0.00%). Profitable day \u2014 keep current parameters.",
+      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 134,
+    "total_days": 135,
     "winning_days": 65,
     "losing_days": 48,
     "total_realized_pnl": 1635.2,
     "best_day_pnl": 599.02,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-10-21",
-        "note": "Day P&L \u20b9159 on \u20b998462 deployed (0.16%). Worst trade: ICICIBANK (P&L \u20b9-1, -0.02%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
-      },
       {
         "date": "2026-10-22",
         "note": "Day P&L \u20b9135 on \u20b998874 deployed (0.14%). Worst trade: HAVELLS (P&L \u20b9-10, -0.48%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
@@ -105977,6 +106047,10 @@
       {
         "date": "2026-11-24",
         "note": "Day P&L \u20b90 on \u20b999290 deployed (0.00%). Profitable day \u2014 keep current parameters."
+      },
+      {
+        "date": "2026-11-24",
+        "note": "Day P&L \u20b90 on \u20b97741 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
