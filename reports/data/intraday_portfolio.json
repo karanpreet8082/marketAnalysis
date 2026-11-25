@@ -1,5 +1,91 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-11-25",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-11-25 23:25:14",
+        "n_bought": 2,
+        "n_sold": 0,
+        "invested_today_after": 5526.6,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 2
+      }
+    ],
+    "invested_today": 5526.60009765625,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "buy_price": 2141.8,
+        "buy_time": "2026-11-25 23:25:14",
+        "iteration": 1,
+        "score_info": {
+          "last": 2141.8,
+          "mom_30m_pct": 0.928,
+          "intraday_pct": 6.077,
+          "rsi": 67.6,
+          "vol_factor": 2.0,
+          "score": 4.216
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "buy_price": 846.2,
+        "buy_time": "2026-11-25 23:25:14",
+        "iteration": 1,
+        "score_info": {
+          "last": 846.2,
+          "mom_30m_pct": 0.582,
+          "intraday_pct": 3.473,
+          "rsi": 58.0,
+          "vol_factor": 2.0,
+          "score": 2.915
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-11-25 23:25:14",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 1,
+        "price": 2141.8,
+        "cost": 2141.8,
+        "score": {
+          "last": 2141.8,
+          "mom_30m_pct": 0.928,
+          "intraday_pct": 6.077,
+          "rsi": 67.6,
+          "vol_factor": 2.0,
+          "score": 4.216
+        }
+      },
+      {
+        "time": "2026-11-25 23:25:14",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 846.2,
+        "cost": 3384.8,
+        "score": {
+          "last": 846.2,
+          "mom_30m_pct": 0.582,
+          "intraday_pct": 3.473,
+          "rsi": 58.0,
+          "vol_factor": 2.0,
+          "score": 2.915
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
