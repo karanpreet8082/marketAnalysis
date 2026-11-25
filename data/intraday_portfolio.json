@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-26",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -30,18 +30,9 @@
         "invested_today_after": 17426.0,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
-      },
-      {
-        "iteration": 4,
-        "time": "2026-11-26 01:08:16",
-        "n_bought": 2,
-        "n_sold": 0,
-        "invested_today_after": 23798.8,
-        "realized_pnl_today_after": 0.0,
-        "open_positions_after": 8
       }
     ],
-    "invested_today": 23798.800415039062,
+    "invested_today": 17426.00030517578,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -125,36 +116,6 @@
         "buy_price": 846.2,
         "buy_time": "2026-11-26 00:55:57",
         "iteration": 3,
-        "score_info": {
-          "last": 846.2,
-          "mom_30m_pct": 0.582,
-          "intraday_pct": 3.473,
-          "rsi": 58.0,
-          "vol_factor": 2.0,
-          "score": 2.915
-        }
-      },
-      {
-        "symbol": "HINDUNILVR",
-        "qty": 1,
-        "buy_price": 2141.8,
-        "buy_time": "2026-11-26 01:08:16",
-        "iteration": 4,
-        "score_info": {
-          "last": 2141.8,
-          "mom_30m_pct": 0.928,
-          "intraday_pct": 6.077,
-          "rsi": 67.6,
-          "vol_factor": 2.0,
-          "score": 4.216
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 5,
-        "buy_price": 846.2,
-        "buy_time": "2026-11-26 01:08:16",
-        "iteration": 4,
         "score_info": {
           "last": 846.2,
           "mom_30m_pct": 0.582,
@@ -254,40 +215,6 @@
       {
         "time": "2026-11-26 00:55:57",
         "iteration": 3,
-        "action": "BUY",
-        "symbol": "HDFCBANK",
-        "qty": 5,
-        "price": 846.2,
-        "cost": 4231.0,
-        "score": {
-          "last": 846.2,
-          "mom_30m_pct": 0.582,
-          "intraday_pct": 3.473,
-          "rsi": 58.0,
-          "vol_factor": 2.0,
-          "score": 2.915
-        }
-      },
-      {
-        "time": "2026-11-26 01:08:16",
-        "iteration": 4,
-        "action": "BUY",
-        "symbol": "HINDUNILVR",
-        "qty": 1,
-        "price": 2141.8,
-        "cost": 2141.8,
-        "score": {
-          "last": 2141.8,
-          "mom_30m_pct": 0.928,
-          "intraday_pct": 6.077,
-          "rsi": 67.6,
-          "vol_factor": 2.0,
-          "score": 4.216
-        }
-      },
-      {
-        "time": "2026-11-26 01:08:16",
-        "iteration": 4,
         "action": "BUY",
         "symbol": "HDFCBANK",
         "qty": 5,
