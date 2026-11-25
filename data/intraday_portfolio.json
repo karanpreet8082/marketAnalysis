@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-25",
     "total_iterations": 14,
-    "iterations_run": 11,
+    "iterations_run": 12,
     "iteration_log": [
       {
         "iteration": 1,
@@ -102,9 +102,18 @@
         "invested_today_after": 85546.7,
         "realized_pnl_today_after": 702.7,
         "open_positions_after": 11
+      },
+      {
+        "iteration": 12,
+        "time": "2026-11-25 21:29:55",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 99983.7,
+        "realized_pnl_today_after": 702.7,
+        "open_positions_after": 14
       }
     ],
-    "invested_today": 85546.70178222656,
+    "invested_today": 99983.7021484375,
     "realized_pnl_today": 702.700292968751,
     "open_positions": [
       {
@@ -263,6 +272,51 @@
         "buy_price": 5076.2,
         "buy_time": "2026-11-25 20:59:02",
         "iteration": 11,
+        "score_info": {
+          "last": 5076.2,
+          "mom_30m_pct": 1.216,
+          "intraday_pct": 4.69,
+          "rsi": 95.9,
+          "vol_factor": 2.0,
+          "score": 2.731
+        }
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "buy_price": 2141.8,
+        "buy_time": "2026-11-25 21:29:55",
+        "iteration": 12,
+        "score_info": {
+          "last": 2141.8,
+          "mom_30m_pct": 0.928,
+          "intraday_pct": 6.077,
+          "rsi": 67.6,
+          "vol_factor": 2.0,
+          "score": 4.216
+        }
+      },
+      {
+        "symbol": "HDFCBANK",
+        "qty": 6,
+        "buy_price": 846.2,
+        "buy_time": "2026-11-25 21:29:55",
+        "iteration": 12,
+        "score_info": {
+          "last": 846.2,
+          "mom_30m_pct": 0.582,
+          "intraday_pct": 3.473,
+          "rsi": 58.0,
+          "vol_factor": 2.0,
+          "score": 2.915
+        }
+      },
+      {
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "buy_price": 5076.2,
+        "buy_time": "2026-11-25 21:29:55",
+        "iteration": 12,
         "score_info": {
           "last": 5076.2,
           "mom_30m_pct": 1.216,
@@ -824,6 +878,57 @@
       {
         "time": "2026-11-25 20:59:02",
         "iteration": 11,
+        "action": "BUY",
+        "symbol": "BRITANNIA",
+        "qty": 1,
+        "price": 5076.2,
+        "cost": 5076.2,
+        "score": {
+          "last": 5076.2,
+          "mom_30m_pct": 1.216,
+          "intraday_pct": 4.69,
+          "rsi": 95.9,
+          "vol_factor": 2.0,
+          "score": 2.731
+        }
+      },
+      {
+        "time": "2026-11-25 21:29:55",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HINDUNILVR",
+        "qty": 2,
+        "price": 2141.8,
+        "cost": 4283.6,
+        "score": {
+          "last": 2141.8,
+          "mom_30m_pct": 0.928,
+          "intraday_pct": 6.077,
+          "rsi": 67.6,
+          "vol_factor": 2.0,
+          "score": 4.216
+        }
+      },
+      {
+        "time": "2026-11-25 21:29:55",
+        "iteration": 12,
+        "action": "BUY",
+        "symbol": "HDFCBANK",
+        "qty": 6,
+        "price": 846.2,
+        "cost": 5077.2,
+        "score": {
+          "last": 846.2,
+          "mom_30m_pct": 0.582,
+          "intraday_pct": 3.473,
+          "rsi": 58.0,
+          "vol_factor": 2.0,
+          "score": 2.915
+        }
+      },
+      {
+        "time": "2026-11-25 21:29:55",
+        "iteration": 12,
         "action": "BUY",
         "symbol": "BRITANNIA",
         "qty": 1,
