@@ -1,27 +1,27 @@
 {
   "current_day": {
-    "date": "2026-11-27",
+    "date": "2026-11-26",
     "total_iterations": 14,
     "iterations_run": 1,
     "iteration_log": [
       {
         "iteration": 1,
-        "time": "2026-11-27 00:10:28",
+        "time": "2026-11-26 23:57:16",
         "n_bought": 3,
         "n_sold": 0,
-        "invested_today_after": 7940.3,
+        "invested_today_after": 6889.08,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
       }
     ],
-    "invested_today": 7940.2999267578125,
+    "invested_today": 6889.07991027832,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
         "symbol": "TCS",
         "qty": 1,
         "buy_price": 2640.3,
-        "buy_time": "2026-11-27 00:10:28",
+        "buy_time": "2026-11-26 23:57:16",
         "iteration": 1,
         "score_info": {
           "last": 2640.3,
@@ -33,10 +33,25 @@
         }
       },
       {
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "buy_price": 163.54,
+        "buy_time": "2026-11-26 23:57:16",
+        "iteration": 1,
+        "score_info": {
+          "last": 163.54,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 2.662,
+          "rsi": 71.4,
+          "vol_factor": 1.92,
+          "score": 2.172
+        }
+      },
+      {
         "symbol": "HCLTECH",
         "qty": 1,
         "buy_price": 1468.6,
-        "buy_time": "2026-11-27 00:10:28",
+        "buy_time": "2026-11-26 23:57:16",
         "iteration": 1,
         "score_info": {
           "last": 1468.6,
@@ -46,26 +61,11 @@
           "vol_factor": 0.56,
           "score": 2.12
         }
-      },
-      {
-        "symbol": "SUNPHARMA",
-        "qty": 2,
-        "buy_price": 1915.7,
-        "buy_time": "2026-11-27 00:10:28",
-        "iteration": 1,
-        "score_info": {
-          "last": 1915.7,
-          "mom_30m_pct": 0.346,
-          "intraday_pct": 0.773,
-          "rsi": 71.9,
-          "vol_factor": 2.0,
-          "score": 1.751
-        }
       }
     ],
     "trades": [
       {
-        "time": "2026-11-27 00:10:28",
+        "time": "2026-11-26 23:57:16",
         "iteration": 1,
         "action": "BUY",
         "symbol": "TCS",
@@ -82,7 +82,24 @@
         }
       },
       {
-        "time": "2026-11-27 00:10:28",
+        "time": "2026-11-26 23:57:16",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "price": 163.54,
+        "cost": 2780.18,
+        "score": {
+          "last": 163.54,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 2.662,
+          "rsi": 71.4,
+          "vol_factor": 1.92,
+          "score": 2.172
+        }
+      },
+      {
+        "time": "2026-11-26 23:57:16",
         "iteration": 1,
         "action": "BUY",
         "symbol": "HCLTECH",
@@ -96,23 +113,6 @@
           "rsi": 85.6,
           "vol_factor": 0.56,
           "score": 2.12
-        }
-      },
-      {
-        "time": "2026-11-27 00:10:28",
-        "iteration": 1,
-        "action": "BUY",
-        "symbol": "SUNPHARMA",
-        "qty": 2,
-        "price": 1915.7,
-        "cost": 3831.4,
-        "score": {
-          "last": 1915.7,
-          "mom_30m_pct": 0.346,
-          "intraday_pct": 0.773,
-          "rsi": 71.9,
-          "vol_factor": 2.0,
-          "score": 1.751
         }
       }
     ],
@@ -107849,116 +107849,20 @@
       "n_sells": 33,
       "feedback": "Day P&L \u20b9240 on \u20b999605 deployed (0.24%). Worst trade: HINDUNILVR (P&L \u20b9-11, -0.51%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters.",
       "profitable": true
-    },
-    {
-      "date": "2026-11-26",
-      "iterations_run": 1,
-      "invested": 6889.08,
-      "realized_pnl": 0.0,
-      "pnl_pct": 0.0,
-      "trades": [
-        {
-          "time": "2026-11-26 23:57:16",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2640.3,
-          "cost": 2640.3,
-          "score": {
-            "last": 2640.3,
-            "mom_30m_pct": 1.394,
-            "intraday_pct": 4.886,
-            "rsi": 96.3,
-            "vol_factor": 1.26,
-            "score": 2.318
-          }
-        },
-        {
-          "time": "2026-11-26 23:57:16",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "TATASTEEL",
-          "qty": 17,
-          "price": 163.54,
-          "cost": 2780.18,
-          "score": {
-            "last": 163.54,
-            "mom_30m_pct": 0.301,
-            "intraday_pct": 2.662,
-            "rsi": 71.4,
-            "vol_factor": 1.92,
-            "score": 2.172
-          }
-        },
-        {
-          "time": "2026-11-26 23:57:16",
-          "iteration": 1,
-          "action": "BUY",
-          "symbol": "HCLTECH",
-          "qty": 1,
-          "price": 1468.6,
-          "cost": 1468.6,
-          "score": {
-            "last": 1468.6,
-            "mom_30m_pct": 1.311,
-            "intraday_pct": 6.994,
-            "rsi": 85.6,
-            "vol_factor": 0.56,
-            "score": 2.12
-          }
-        },
-        {
-          "time": "2026-11-27 00:10:19",
-          "iteration": 2,
-          "action": "SELL",
-          "symbol": "TCS",
-          "qty": 1,
-          "price": 2640.3,
-          "buy_price": 2640.3,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-11-27 00:10:19",
-          "iteration": 2,
-          "action": "SELL",
-          "symbol": "TATASTEEL",
-          "qty": 17,
-          "price": 163.54,
-          "buy_price": 163.54,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        },
-        {
-          "time": "2026-11-27 00:10:19",
-          "iteration": 2,
-          "action": "SELL",
-          "symbol": "HCLTECH",
-          "qty": 1,
-          "price": 1468.6,
-          "buy_price": 1468.6,
-          "pnl": 0.0,
-          "pnl_pct": 0.0,
-          "reason": "STALE_DAY_FORCE_CLOSE"
-        }
-      ],
-      "n_buys": 3,
-      "n_sells": 3,
-      "feedback": "Day P&L \u20b90 on \u20b96889 deployed (0.00%). Profitable day \u2014 keep current parameters.",
-      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 139,
+    "total_days": 138,
     "winning_days": 67,
     "losing_days": 48,
     "total_realized_pnl": 2578.3,
     "best_day_pnl": 702.7,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
+      {
+        "date": "2026-10-27",
+        "note": "Day P&L \u20b9-58 on \u20b999295 deployed (-0.06%). Worst trade: SUNPHARMA (P&L \u20b9-29, -0.55%). Consider tighter stop on entries with weaker momentum scores. 25 EOD force-sells contributed \u20b9-58. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
       {
         "date": "2026-10-28",
         "note": "Day P&L \u20b920 on \u20b998881 deployed (0.02%). Profitable day \u2014 keep current parameters."
@@ -108074,10 +107978,6 @@
       {
         "date": "2026-11-26",
         "note": "Day P&L \u20b9240 on \u20b999605 deployed (0.24%). Worst trade: HINDUNILVR (P&L \u20b9-11, -0.51%). Consider tighter stop on entries with weaker momentum scores. Profitable day \u2014 keep current parameters."
-      },
-      {
-        "date": "2026-11-26",
-        "note": "Day P&L \u20b90 on \u20b96889 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
