@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-26",
     "total_iterations": 14,
-    "iterations_run": 4,
+    "iterations_run": 5,
     "iteration_log": [
       {
         "iteration": 1,
@@ -39,10 +39,19 @@
         "invested_today_after": 23798.8,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 8
+      },
+      {
+        "iteration": 5,
+        "time": "2026-11-26 18:42:12",
+        "n_bought": 3,
+        "n_sold": 4,
+        "invested_today_after": 32760.6,
+        "realized_pnl_today_after": 284.4,
+        "open_positions_after": 7
       }
     ],
-    "invested_today": 23798.800415039062,
-    "realized_pnl_today": 0.0,
+    "invested_today": 32760.600341796875,
+    "realized_pnl_today": 284.3999999999992,
     "open_positions": [
       {
         "symbol": "HINDUNILVR",
@@ -60,21 +69,6 @@
         }
       },
       {
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "buy_price": 846.2,
-        "buy_time": "2026-11-26 00:10:07",
-        "iteration": 1,
-        "score_info": {
-          "last": 846.2,
-          "mom_30m_pct": 0.582,
-          "intraday_pct": 3.473,
-          "rsi": 58.0,
-          "vol_factor": 2.0,
-          "score": 2.915
-        }
-      },
-      {
         "symbol": "HINDUNILVR",
         "qty": 1,
         "buy_price": 2141.8,
@@ -87,21 +81,6 @@
           "rsi": 67.6,
           "vol_factor": 2.0,
           "score": 4.216
-        }
-      },
-      {
-        "symbol": "HDFCBANK",
-        "qty": 4,
-        "buy_price": 846.2,
-        "buy_time": "2026-11-26 00:21:42",
-        "iteration": 2,
-        "score_info": {
-          "last": 846.2,
-          "mom_30m_pct": 0.582,
-          "intraday_pct": 3.473,
-          "rsi": 58.0,
-          "vol_factor": 2.0,
-          "score": 2.915
         }
       },
       {
@@ -120,21 +99,6 @@
         }
       },
       {
-        "symbol": "HDFCBANK",
-        "qty": 5,
-        "buy_price": 846.2,
-        "buy_time": "2026-11-26 00:55:57",
-        "iteration": 3,
-        "score_info": {
-          "last": 846.2,
-          "mom_30m_pct": 0.582,
-          "intraday_pct": 3.473,
-          "rsi": 58.0,
-          "vol_factor": 2.0,
-          "score": 2.915
-        }
-      },
-      {
         "symbol": "HINDUNILVR",
         "qty": 1,
         "buy_price": 2141.8,
@@ -150,18 +114,48 @@
         }
       },
       {
-        "symbol": "HDFCBANK",
-        "qty": 5,
-        "buy_price": 846.2,
-        "buy_time": "2026-11-26 01:08:16",
-        "iteration": 4,
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2640.3,
+        "buy_time": "2026-11-26 18:42:12",
+        "iteration": 5,
         "score_info": {
-          "last": 846.2,
-          "mom_30m_pct": 0.582,
-          "intraday_pct": 3.473,
-          "rsi": 58.0,
+          "last": 2640.3,
+          "mom_30m_pct": 1.394,
+          "intraday_pct": 4.886,
+          "rsi": 96.3,
+          "vol_factor": 1.26,
+          "score": 2.318
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "buy_price": 1468.6,
+        "buy_time": "2026-11-26 18:42:12",
+        "iteration": 5,
+        "score_info": {
+          "last": 1468.6,
+          "mom_30m_pct": 1.311,
+          "intraday_pct": 6.994,
+          "rsi": 85.6,
+          "vol_factor": 0.56,
+          "score": 2.12
+        }
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "buy_price": 1915.7,
+        "buy_time": "2026-11-26 18:42:12",
+        "iteration": 5,
+        "score_info": {
+          "last": 1915.7,
+          "mom_30m_pct": 0.346,
+          "intraday_pct": 0.773,
+          "rsi": 71.9,
           "vol_factor": 2.0,
-          "score": 2.915
+          "score": 1.751
         }
       }
     ],
@@ -300,6 +294,105 @@
           "rsi": 58.0,
           "vol_factor": 2.0,
           "score": 2.915
+        }
+      },
+      {
+        "time": "2026-11-26 18:42:12",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 862.0,
+        "buy_price": 846.2,
+        "pnl": 63.2,
+        "pnl_pct": 1.87,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-11-26 18:42:12",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "HDFCBANK",
+        "qty": 4,
+        "price": 862.0,
+        "buy_price": 846.2,
+        "pnl": 63.2,
+        "pnl_pct": 1.87,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-11-26 18:42:12",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "HDFCBANK",
+        "qty": 5,
+        "price": 862.0,
+        "buy_price": 846.2,
+        "pnl": 79.0,
+        "pnl_pct": 1.87,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-11-26 18:42:12",
+        "iteration": 5,
+        "action": "SELL",
+        "symbol": "HDFCBANK",
+        "qty": 5,
+        "price": 862.0,
+        "buy_price": 846.2,
+        "pnl": 79.0,
+        "pnl_pct": 1.87,
+        "reason": "TAKE_PROFIT"
+      },
+      {
+        "time": "2026-11-26 18:42:12",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2640.3,
+        "cost": 2640.3,
+        "score": {
+          "last": 2640.3,
+          "mom_30m_pct": 1.394,
+          "intraday_pct": 4.886,
+          "rsi": 96.3,
+          "vol_factor": 1.26,
+          "score": 2.318
+        }
+      },
+      {
+        "time": "2026-11-26 18:42:12",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 3,
+        "price": 1468.6,
+        "cost": 4405.8,
+        "score": {
+          "last": 1468.6,
+          "mom_30m_pct": 1.311,
+          "intraday_pct": 6.994,
+          "rsi": 85.6,
+          "vol_factor": 0.56,
+          "score": 2.12
+        }
+      },
+      {
+        "time": "2026-11-26 18:42:12",
+        "iteration": 5,
+        "action": "BUY",
+        "symbol": "SUNPHARMA",
+        "qty": 1,
+        "price": 1915.7,
+        "cost": 1915.7,
+        "score": {
+          "last": 1915.7,
+          "mom_30m_pct": 0.346,
+          "intraday_pct": 0.773,
+          "rsi": 71.9,
+          "vol_factor": 2.0,
+          "score": 1.751
         }
       }
     ],
