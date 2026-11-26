@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-27",
     "total_iterations": 14,
-    "iterations_run": 2,
+    "iterations_run": 3,
     "iteration_log": [
       {
         "iteration": 1,
@@ -21,9 +21,18 @@
         "invested_today_after": 16297.98,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 6
+      },
+      {
+        "iteration": 3,
+        "time": "2026-11-27 00:48:15",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 24655.66,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 9
       }
     ],
-    "invested_today": 16297.97981262207,
+    "invested_today": 24655.659698486328,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -107,6 +116,51 @@
         "buy_price": 1468.6,
         "buy_time": "2026-11-27 00:38:47",
         "iteration": 2,
+        "score_info": {
+          "last": 1468.6,
+          "mom_30m_pct": 1.311,
+          "intraday_pct": 6.994,
+          "rsi": 85.6,
+          "vol_factor": 0.56,
+          "score": 2.12
+        }
+      },
+      {
+        "symbol": "TCS",
+        "qty": 1,
+        "buy_price": 2640.3,
+        "buy_time": "2026-11-27 00:48:15",
+        "iteration": 3,
+        "score_info": {
+          "last": 2640.3,
+          "mom_30m_pct": 1.394,
+          "intraday_pct": 4.886,
+          "rsi": 96.3,
+          "vol_factor": 1.26,
+          "score": 2.318
+        }
+      },
+      {
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "buy_price": 163.54,
+        "buy_time": "2026-11-27 00:48:15",
+        "iteration": 3,
+        "score_info": {
+          "last": 163.54,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 2.662,
+          "rsi": 71.4,
+          "vol_factor": 1.92,
+          "score": 2.172
+        }
+      },
+      {
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "buy_price": 1468.6,
+        "buy_time": "2026-11-27 00:48:15",
+        "iteration": 3,
         "score_info": {
           "last": 1468.6,
           "mom_30m_pct": 1.311,
@@ -206,6 +260,57 @@
       {
         "time": "2026-11-27 00:38:47",
         "iteration": 2,
+        "action": "BUY",
+        "symbol": "HCLTECH",
+        "qty": 2,
+        "price": 1468.6,
+        "cost": 2937.2,
+        "score": {
+          "last": 1468.6,
+          "mom_30m_pct": 1.311,
+          "intraday_pct": 6.994,
+          "rsi": 85.6,
+          "vol_factor": 0.56,
+          "score": 2.12
+        }
+      },
+      {
+        "time": "2026-11-27 00:48:15",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TCS",
+        "qty": 1,
+        "price": 2640.3,
+        "cost": 2640.3,
+        "score": {
+          "last": 2640.3,
+          "mom_30m_pct": 1.394,
+          "intraday_pct": 4.886,
+          "rsi": 96.3,
+          "vol_factor": 1.26,
+          "score": 2.318
+        }
+      },
+      {
+        "time": "2026-11-27 00:48:15",
+        "iteration": 3,
+        "action": "BUY",
+        "symbol": "TATASTEEL",
+        "qty": 17,
+        "price": 163.54,
+        "cost": 2780.18,
+        "score": {
+          "last": 163.54,
+          "mom_30m_pct": 0.301,
+          "intraday_pct": 2.662,
+          "rsi": 71.4,
+          "vol_factor": 1.92,
+          "score": 2.172
+        }
+      },
+      {
+        "time": "2026-11-27 00:48:15",
+        "iteration": 3,
         "action": "BUY",
         "symbol": "HCLTECH",
         "qty": 2,
