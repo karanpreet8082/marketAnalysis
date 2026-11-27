@@ -1,5 +1,123 @@
 {
-  "current_day": null,
+  "current_day": {
+    "date": "2026-11-28",
+    "total_iterations": 14,
+    "iterations_run": 1,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "time": "2026-11-28 00:33:38",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 7721.4,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 3
+      }
+    ],
+    "invested_today": 7721.39990234375,
+    "realized_pnl_today": 0.0,
+    "open_positions": [
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1321.2,
+        "buy_time": "2026-11-28 00:33:38",
+        "iteration": 1,
+        "score_info": {
+          "last": 1321.2,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": 1.397,
+          "rsi": 56.0,
+          "vol_factor": 1.23,
+          "score": 1.094
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "buy_price": 1155.0,
+        "buy_time": "2026-11-28 00:33:38",
+        "iteration": 1,
+        "score_info": {
+          "last": 1155.0,
+          "mom_30m_pct": 0.2,
+          "intraday_pct": -0.773,
+          "rsi": 45.5,
+          "vol_factor": 2.0,
+          "score": 1.067
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "buy_price": 923.0,
+        "buy_time": "2026-11-28 00:33:38",
+        "iteration": 1,
+        "score_info": {
+          "last": 923.0,
+          "mom_30m_pct": 0.065,
+          "intraday_pct": 0.819,
+          "rsi": 63.3,
+          "vol_factor": 1.47,
+          "score": 0.812
+        }
+      }
+    ],
+    "trades": [
+      {
+        "time": "2026-11-28 00:33:38",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1321.2,
+        "cost": 2642.4,
+        "score": {
+          "last": 1321.2,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": 1.397,
+          "rsi": 56.0,
+          "vol_factor": 1.23,
+          "score": 1.094
+        }
+      },
+      {
+        "time": "2026-11-28 00:33:38",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 2,
+        "price": 1155.0,
+        "cost": 2310.0,
+        "score": {
+          "last": 1155.0,
+          "mom_30m_pct": 0.2,
+          "intraday_pct": -0.773,
+          "rsi": 45.5,
+          "vol_factor": 2.0,
+          "score": 1.067
+        }
+      },
+      {
+        "time": "2026-11-28 00:33:38",
+        "iteration": 1,
+        "action": "BUY",
+        "symbol": "HINDALCO",
+        "qty": 3,
+        "price": 923.0,
+        "cost": 2769.0,
+        "score": {
+          "last": 923.0,
+          "mom_30m_pct": 0.065,
+          "intraday_pct": 0.819,
+          "rsi": 63.3,
+          "vol_factor": 1.47,
+          "score": 0.812
+        }
+      }
+    ],
+    "closed": false
+  },
   "history": [
     {
       "date": "2026-06-03",
@@ -108888,20 +109006,116 @@
       "n_sells": 36,
       "feedback": "Day P&L \u20b9-444 on \u20b999862 deployed (-0.44%). Worst trade: HCLTECH (P&L \u20b9-89, -3.03%). Consider tighter stop on entries with weaker momentum scores. 30 EOD force-sells contributed \u20b9-18. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day.",
       "profitable": false
+    },
+    {
+      "date": "2026-11-27",
+      "iterations_run": 1,
+      "invested": 8175.3,
+      "realized_pnl": 0.0,
+      "pnl_pct": 0.0,
+      "trades": [
+        {
+          "time": "2026-11-28 00:00:06",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "BHARTIARTL",
+          "qty": 1,
+          "price": 2067.9,
+          "cost": 2067.9,
+          "score": {
+            "last": 2067.9,
+            "mom_30m_pct": 0.374,
+            "intraday_pct": -1.529,
+            "rsi": 63.3,
+            "vol_factor": 2.0,
+            "score": 1.102
+          }
+        },
+        {
+          "time": "2026-11-28 00:00:06",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "JSWSTEEL",
+          "qty": 2,
+          "price": 1321.2,
+          "cost": 2642.4,
+          "score": {
+            "last": 1321.2,
+            "mom_30m_pct": 0.296,
+            "intraday_pct": 1.397,
+            "rsi": 56.0,
+            "vol_factor": 1.23,
+            "score": 1.094
+          }
+        },
+        {
+          "time": "2026-11-28 00:00:06",
+          "iteration": 1,
+          "action": "BUY",
+          "symbol": "TATACONSUM",
+          "qty": 3,
+          "price": 1155.0,
+          "cost": 3465.0,
+          "score": {
+            "last": 1155.0,
+            "mom_30m_pct": 0.2,
+            "intraday_pct": -0.773,
+            "rsi": 45.5,
+            "vol_factor": 2.0,
+            "score": 1.067
+          }
+        },
+        {
+          "time": "2026-11-28 00:33:31",
+          "iteration": 2,
+          "action": "SELL",
+          "symbol": "BHARTIARTL",
+          "qty": 1,
+          "price": 2067.9,
+          "buy_price": 2067.9,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-28 00:33:31",
+          "iteration": 2,
+          "action": "SELL",
+          "symbol": "JSWSTEEL",
+          "qty": 2,
+          "price": 1321.2,
+          "buy_price": 1321.2,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        },
+        {
+          "time": "2026-11-28 00:33:31",
+          "iteration": 2,
+          "action": "SELL",
+          "symbol": "TATACONSUM",
+          "qty": 3,
+          "price": 1155.0,
+          "buy_price": 1155.0,
+          "pnl": 0.0,
+          "pnl_pct": 0.0,
+          "reason": "STALE_DAY_FORCE_CLOSE"
+        }
+      ],
+      "n_buys": 3,
+      "n_sells": 3,
+      "feedback": "Day P&L \u20b90 on \u20b98175 deployed (0.00%). Profitable day \u2014 keep current parameters.",
+      "profitable": false
     }
   ],
   "stats": {
-    "total_days": 140,
+    "total_days": 141,
     "winning_days": 67,
     "losing_days": 49,
     "total_realized_pnl": 2134.4,
     "best_day_pnl": 702.7,
     "worst_day_pnl": -764.95,
     "feedback_notes": [
-      {
-        "date": "2026-10-29",
-        "note": "Day P&L \u20b9-4 on \u20b999785 deployed (-0.00%). Worst trade: TATAPOWER (P&L \u20b9-4, -0.16%). Consider tighter stop on entries with weaker momentum scores. 26 EOD force-sells contributed \u20b9-4. Earlier intraday exits (lower take-profit threshold) might have preserved capital."
-      },
       {
         "date": "2026-10-30",
         "note": "Day P&L \u20b9-0 on \u20b999679 deployed (-0.00%). 32 EOD force-sells contributed \u20b90. Earlier intraday exits (lower take-profit threshold) might have preserved capital. All trades closed flat/positive but cumulative loss \u2014 likely from slippage / odd-lot rounding. Increase per-iteration size."
@@ -109017,6 +109231,10 @@
       {
         "date": "2026-11-27",
         "note": "Day P&L \u20b9-444 on \u20b999862 deployed (-0.44%). Worst trade: HCLTECH (P&L \u20b9-89, -3.03%). Consider tighter stop on entries with weaker momentum scores. 30 EOD force-sells contributed \u20b9-18. Earlier intraday exits (lower take-profit threshold) might have preserved capital. More losing trades than winners \u2014 picks may have been chasing overbought stocks; tighten RSI filter (<70) for next day."
+      },
+      {
+        "date": "2026-11-27",
+        "note": "Day P&L \u20b90 on \u20b98175 deployed (0.00%). Profitable day \u2014 keep current parameters."
       }
     ]
   }
