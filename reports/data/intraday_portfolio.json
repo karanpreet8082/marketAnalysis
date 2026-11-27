@@ -2,7 +2,7 @@
   "current_day": {
     "date": "2026-11-28",
     "total_iterations": 14,
-    "iterations_run": 1,
+    "iterations_run": 2,
     "iteration_log": [
       {
         "iteration": 1,
@@ -12,9 +12,18 @@
         "invested_today_after": 7721.4,
         "realized_pnl_today_after": 0.0,
         "open_positions_after": 3
+      },
+      {
+        "iteration": 2,
+        "time": "2026-11-28 00:42:33",
+        "n_bought": 3,
+        "n_sold": 0,
+        "invested_today_after": 15896.7,
+        "realized_pnl_today_after": 0.0,
+        "open_positions_after": 6
       }
     ],
-    "invested_today": 7721.39990234375,
+    "invested_today": 15896.69970703125,
     "realized_pnl_today": 0.0,
     "open_positions": [
       {
@@ -60,6 +69,51 @@
           "rsi": 63.3,
           "vol_factor": 1.47,
           "score": 0.812
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "buy_price": 2067.9,
+        "buy_time": "2026-11-28 00:42:33",
+        "iteration": 2,
+        "score_info": {
+          "last": 2067.9,
+          "mom_30m_pct": 0.374,
+          "intraday_pct": -1.529,
+          "rsi": 63.3,
+          "vol_factor": 2.0,
+          "score": 1.102
+        }
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "buy_price": 1321.2,
+        "buy_time": "2026-11-28 00:42:33",
+        "iteration": 2,
+        "score_info": {
+          "last": 1321.2,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": 1.397,
+          "rsi": 56.0,
+          "vol_factor": 1.23,
+          "score": 1.094
+        }
+      },
+      {
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "buy_price": 1155.0,
+        "buy_time": "2026-11-28 00:42:33",
+        "iteration": 2,
+        "score_info": {
+          "last": 1155.0,
+          "mom_30m_pct": 0.2,
+          "intraday_pct": -0.773,
+          "rsi": 45.5,
+          "vol_factor": 2.0,
+          "score": 1.067
         }
       }
     ],
@@ -113,6 +167,57 @@
           "rsi": 63.3,
           "vol_factor": 1.47,
           "score": 0.812
+        }
+      },
+      {
+        "time": "2026-11-28 00:42:33",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "BHARTIARTL",
+        "qty": 1,
+        "price": 2067.9,
+        "cost": 2067.9,
+        "score": {
+          "last": 2067.9,
+          "mom_30m_pct": 0.374,
+          "intraday_pct": -1.529,
+          "rsi": 63.3,
+          "vol_factor": 2.0,
+          "score": 1.102
+        }
+      },
+      {
+        "time": "2026-11-28 00:42:33",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "JSWSTEEL",
+        "qty": 2,
+        "price": 1321.2,
+        "cost": 2642.4,
+        "score": {
+          "last": 1321.2,
+          "mom_30m_pct": 0.296,
+          "intraday_pct": 1.397,
+          "rsi": 56.0,
+          "vol_factor": 1.23,
+          "score": 1.094
+        }
+      },
+      {
+        "time": "2026-11-28 00:42:33",
+        "iteration": 2,
+        "action": "BUY",
+        "symbol": "TATACONSUM",
+        "qty": 3,
+        "price": 1155.0,
+        "cost": 3465.0,
+        "score": {
+          "last": 1155.0,
+          "mom_30m_pct": 0.2,
+          "intraday_pct": -0.773,
+          "rsi": 45.5,
+          "vol_factor": 2.0,
+          "score": 1.067
         }
       }
     ],
